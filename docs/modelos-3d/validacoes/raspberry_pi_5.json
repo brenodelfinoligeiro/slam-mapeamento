@@ -1,0 +1,24 @@
+{
+  "arquivo": "/home/lamggm/.hermes/cache/scratch/slamderson-cad-pi-lidar/raspberry-pi-5/official/rpi-5-no-graphics/rpi-5b_no_graphics.step",
+  "formato": ".step",
+  "bytes": 77627469,
+  "sha256": "6841637b4cfa97637bf34b529bfe896f24d9634b2c40b57a156781f55d88f06f",
+  "ferramenta": "FreeCAD",
+  "versao_ferramenta": "1.1.4",
+  "solidos": 2689,
+  "faces": 45689,
+  "arestas": 117511,
+  "geometria_valida": true,
+  "dimensoes": [
+    88.50000000000001,
+    57.63035000000031,
+    18.975999957702
+  ],
+  "unidade_dimensoes": "mm internos do FreeCAD, após importação STEP",
+  "volume_mm3": 15458.016940022537,
+  "malha_previa": "/home/lamggm/.hermes/cache/scratch/slamderson-cad-validacao/raspberry_pi_5-previa.stl",
+  "triangulos_previa": 3622260,
+  "estado": "importado",
+  "sha256_geometria": "78164070c1cc7ab854382950d2e85926c6e35432f1e5a146b733397a7c6afb44",
+  "nota_arquivo": "STEP interno do ZIP oficial importado; hash externo identifica o ZIP preservado."
+}

@@ -1,0 +1,21 @@
+{
+  "arquivo": "/home/lamggm/.hermes/cache/scratch/slamderson-cad-mecanica/candidato_sensor_lm393_em_montagem/Robot.step",
+  "formato": ".step",
+  "bytes": 4310836,
+  "sha256": "dc732ee56685f94f29a90abb78701ad0bc8b57cfa6ced9005005aaa321ff80be",
+  "ferramenta": "FreeCAD",
+  "versao_ferramenta": "1.1.4",
+  "solidos": 55,
+  "faces": 1541,
+  "arestas": 3936,
+  "geometria_valida": false,
+  "dimensoes": [
+    224.25,
+    300.5,
+    166.1000000000002
+  ],
+  "unidade_dimensoes": "mm internos do FreeCAD, após importação STEP",
+  "volume_mm3": 513117.3245625985,
+  "estado": "importado",
+  "sha256_geometria": "dc732ee56685f94f29a90abb78701ad0bc8b57cfa6ced9005005aaa321ff80be"
+}

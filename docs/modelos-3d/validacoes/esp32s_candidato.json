@@ -1,0 +1,23 @@
+{
+  "arquivo": "/home/lamggm/.hermes/cache/scratch/slamderson-cad-eletronica/esp32s-devboard-candidato.step",
+  "formato": ".step",
+  "bytes": 25662100,
+  "sha256": "fc80364fc04cfbafddbe8a4799d37ae5db2c98b4056c1840768624ed5f561418",
+  "ferramenta": "FreeCAD",
+  "versao_ferramenta": "1.1.4",
+  "solidos": 127,
+  "faces": 8643,
+  "arestas": 21828,
+  "geometria_valida": true,
+  "dimensoes": [
+    25.908,
+    13.140000000000029,
+    49.41700000000043
+  ],
+  "unidade_dimensoes": "mm internos do FreeCAD, após importação STEP",
+  "volume_mm3": 3729.5512334966993,
+  "malha_previa": "/home/lamggm/.hermes/cache/scratch/slamderson-cad-validacao/esp32s_candidato-previa.stl",
+  "triangulos_previa": 252054,
+  "estado": "importado",
+  "sha256_geometria": "8d910cac4291362d2c176ea68cfcb2891fca232f886b2e01c84f15f6d91b0b44"
+}

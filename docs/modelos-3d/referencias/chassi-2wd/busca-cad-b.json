@@ -1,0 +1,35 @@
+{
+  "identificacao_autor": {
+    "foto": "B",
+    "descricao": "Chassi maker 2WD com duas rodas motoras, um rodízio e base com abertura circular",
+    "mensagem_id": "1567625934830444557",
+    "limite": "Confirmação visual; não define medidas, espessura, fabricante ou revisão da furação."
+  },
+  "resultado": "A busca HTTP original não obteve um CAD correspondente; posteriormente o usuário forneceu o pacote Thingiverse 4738179 pelos Downloads do Ryzen, incorporado como referência visual da família B.",
+  "situacao_atual": "Pacote manual recebido, transferido com hash conferido e incorporado; medidas/furação física ainda pendentes.",
+  "mensagem_usuario_download_id": "1567635442701181090",
+  "tentativas": [
+    {
+      "url": "https://grabcad.com/library/arduino-2wd-robot-chassis-1",
+      "resultado": "HTTP 403 no acesso direto. Candidato localizado por busca; geometria e download não verificados."
+    },
+    {
+      "url": "https://www.thingiverse.com/thing:4738179/files",
+      "resultado": "HTTP 403 no acesso direto; arquivos não obtidos."
+    },
+    {
+      "url": "https://www.thingiverse.com/thing:4738179/zip",
+      "resultado": "HTTP 403; nenhum ZIP obtido."
+    },
+    {
+      "url": "https://raw.githubusercontent.com/gfm16617/EngrEDU_Website/main/Class_Projects/Embedded_Systems/2026_Balance_Robot_Project/CAD_Files/3Wheel_Chassis.dxf",
+      "resultado": "DXF obtido e renderizado em área temporária. Rejeitado por comparação visual: contorno retangular com prolongamento e furos pequenos, sem a grande abertura circular e os rasgos da foto B. Não incluído como modelo do projeto.",
+      "unidade": "Código INSUNITS 0, sem unidade física declarada; não presumir milímetros."
+    },
+    {
+      "url": "https://raw.githubusercontent.com/alexisdal/mnwlk3r/155559edf03d6bc47607befe96f031e4ad80d9fe/cad/mini_robot_v0.2.FCStd",
+      "resultado": "Arquivo obtido em área temporária; XML do arquivo nativo inspecionado sem executar macros. É conjunto de outro robô, com referências a FIT0277 e rodas wheel_136x24; não adotado como representação do kit B."
+    }
+  ],
+  "observacao": "As fotos e os resultados negativos não foram contabilizados como CAD correspondente ao chassi. Nenhuma geometria foi inventada para substituir o modelo ausente."
+}

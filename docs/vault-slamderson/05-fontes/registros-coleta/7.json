@@ -1,0 +1,17 @@
+{
+  "fonte_id": 7,
+  "nome": "invensense-mpu6050-registradores-sparkfun",
+  "url_solicitada": "https://cdn.sparkfun.com/datasheets/Sensors/Accelerometers/RM-MPU-6000A.pdf",
+  "tipo": "pdf",
+  "url_download": "https://cdn.sparkfun.com/datasheets/Sensors/Accelerometers/RM-MPU-6000A.pdf",
+  "content_type": "application/pdf",
+  "acesso": "2026-11-04T18:08:47.047077+00:00",
+  "caminho": "05-fontes/pdf/invensense-mpu6050-registradores-sparkfun.pdf",
+  "sha256": "ccaa6312b9d86a9da79e26e511101e1150dc85a48255600010a854369cf7c05d",
+  "bytes": 665861,
+  "paginas": 47,
+  "metadados_pdf": "Title:           RS-MPU-6000A-00\nSubject:         MPU-60X0 Registers Map and Descriptions Specification\nAuthor:          Ronak Chokshi;rchokshi\nCreator:         Acrobat PDFMaker 9.1 for Word\nProducer:        Adobe PDF Library 9.0\nCreationDate:    Mon Aug 20 19:55:14 2012 -03\nModDate:         Mon Aug 20 19:55:37 2012 -03\nCustom Metadata: yes\nMetadata Stream: yes\nTagged:          yes\nUserProperties:  no\nSuspects:        no\nForm:            none\nJavaScript:      no\nPages:           47\nEncrypted:       no\nPage size:       612 x 792 pts (letter)\nPage rot:        0\nFile size:       665861 bytes\nOptimized:       yes\nPDF version:     1.5\n",
+  "evidencia": "05-fontes/evidencias/invensense-mpu6050-registradores-sparkfun.txt",
+  "caracteres_extraidos": 145931,
+  "estado": "obtido"
+}

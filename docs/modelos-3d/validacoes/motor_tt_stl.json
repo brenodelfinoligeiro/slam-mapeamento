@@ -1,0 +1,17 @@
+{
+  "arquivo": "/home/lamggm/.hermes/cache/scratch/slamderson-cad-mecanica/motor_tt_adafruit/3777 TT Motor.stl",
+  "formato": ".stl",
+  "bytes": 166084,
+  "sha256": "c457c4533b41aff66b93870e2cd8662058e75253c84b16c1cc085d7cb690ad8c",
+  "ferramenta": "FreeCAD",
+  "versao_ferramenta": "1.1.4",
+  "triangulos": 3320,
+  "dimensoes": [
+    22.399999618530273,
+    36.599998474121094,
+    70.5999984741211
+  ],
+  "unidade_dimensoes": "unidades brutas do STL; formato não declara unidade física",
+  "estado": "importado",
+  "sha256_geometria": "c457c4533b41aff66b93870e2cd8662058e75253c84b16c1cc085d7cb690ad8c"
+}

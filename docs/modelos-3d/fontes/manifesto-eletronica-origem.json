@@ -1,0 +1,392 @@
+{
+  "created_at_utc": "2026-11-04T18:48:29.336950+00:00",
+  "directory": "/home/lamggm/.hermes/cache/scratch/slamderson-cad-eletronica",
+  "scope": "Somente download de CAD publico preexistente e verificacao; nenhum arquivo do repo slamderson_ws foi modificado; geometria original nao alterada.",
+  "critical_warning": "Todos os modelos sao candidatos. Placa fisica MPU6050 desconhecida, modulo exato L298N nao confirmado e escolha ESP32 nao definida. Download publico nao equivale a licenca de redistribuicao.",
+  "cad_download_count": 6,
+  "step_valid_count": 4,
+  "models": [
+    {
+      "name": "l298n-modulo-duplo.stp",
+      "repo": "Mayoogh/KiCAD-Custom-Libraries-",
+      "upstream_path": "Motor_Driver/L298_Breakout_board/L298N.stp",
+      "commit": "71b1199b1863b1d4ce4d9fbe3ff4cc628c93054a",
+      "source_url": "https://github.com/Mayoogh/KiCAD-Custom-Libraries-/blob/71b1199b1863b1d4ce4d9fbe3ff4cc628c93054a/Motor_Driver/L298_Breakout_board/L298N.stp",
+      "download_url": "https://raw.githubusercontent.com/Mayoogh/KiCAD-Custom-Libraries-/71b1199b1863b1d4ce4d9fbe3ff4cc628c93054a/Motor_Driver/L298_Breakout_board/L298N.stp",
+      "absolute_path": "/home/lamggm/.hermes/cache/scratch/slamderson-cad-eletronica/l298n-modulo-duplo.stp",
+      "bytes": 3150769,
+      "sha256": "1ffb4031e29069c9ba94ada6e2a5702a2e5eeef20583a0482a711013bd08c47b",
+      "format": "STEP",
+      "validation": {
+        "absolute_path": "/home/lamggm/.hermes/cache/scratch/slamderson-cad-eletronica/l298n-modulo-duplo.stp",
+        "bytes": 3150769,
+        "sha256": "1ffb4031e29069c9ba94ada6e2a5702a2e5eeef20583a0482a711013bd08c47b",
+        "is_html": false,
+        "step_signature_valid": true,
+        "cad_reader": "FreeCAD 1.1.4 / Part.read",
+        "is_null": false,
+        "is_valid": false,
+        "shape_type": "Compound",
+        "solids": 1,
+        "shells": 16,
+        "faces": 1537,
+        "bbox_mm_xyz": [
+          2e+100,
+          2e+100,
+          28.0
+        ],
+        "solids_bbox_mm_xyz": [
+          43.50000000000001,
+          43.5,
+          28.0
+        ],
+        "volume_mm3": 1.5999999999999997e+101
+      },
+      "exact_hardware_match_confirmed": false,
+      "match_confidence": {
+        "family": "media",
+        "exact_board": "nao confirmada; hardware fisico nao identificado"
+      },
+      "component": "Modulo L298N, alternativa rejeitada por validacao geometrica",
+      "author": "desconhecido; disponibilizado por Mayoogh",
+      "license": "desconhecida",
+      "license_url": null,
+      "recommended": false,
+      "notes": [
+        "STEP real, nao HTML, mas shape.isValid() retornou false e o envelope global possui valores nao fisicos ~2e100 mm.",
+        "Nao utilizar para montagem; mantido somente como evidencia de pesquisa.",
+        "As duas alternativas L298N sao copias identicas por SHA-256."
+      ]
+    },
+    {
+      "name": "mpu6050-placa-candidata.step",
+      "repo": "racerxdl/kicad-board-collection",
+      "upstream_path": "MPU6050/MPU6050.step",
+      "commit": "8477c32b6a499361b55bfec1312e5a8a899caf05",
+      "source_url": "https://github.com/racerxdl/kicad-board-collection/blob/8477c32b6a499361b55bfec1312e5a8a899caf05/MPU6050/MPU6050.step",
+      "download_url": "https://raw.githubusercontent.com/racerxdl/kicad-board-collection/8477c32b6a499361b55bfec1312e5a8a899caf05/MPU6050/MPU6050.step",
+      "absolute_path": "/home/lamggm/.hermes/cache/scratch/slamderson-cad-eletronica/mpu6050-placa-candidata.step",
+      "bytes": 968735,
+      "sha256": "a0b3420ff59fd3dd73e2cea2d2b71cea8d08a3bb58bd1553e8947f3b14af63b6",
+      "format": "STEP",
+      "validation": {
+        "absolute_path": "/home/lamggm/.hermes/cache/scratch/slamderson-cad-eletronica/mpu6050-placa-candidata.step",
+        "bytes": 968735,
+        "sha256": "a0b3420ff59fd3dd73e2cea2d2b71cea8d08a3bb58bd1553e8947f3b14af63b6",
+        "is_html": false,
+        "step_signature_valid": true,
+        "cad_reader": "FreeCAD 1.1.4 / Part.read",
+        "is_null": false,
+        "is_valid": true,
+        "shape_type": "Compound",
+        "solids": 15,
+        "shells": 15,
+        "faces": 801,
+        "bbox_mm_xyz": [
+          15.999999999999998,
+          21.0,
+          11.540000000004886
+        ],
+        "solids_bbox_mm_xyz": [
+          15.999999999999998,
+          21.0,
+          11.540000000004886
+        ],
+        "volume_mm3": 693.7789140085004
+      },
+      "exact_hardware_match_confirmed": false,
+      "match_confidence": {
+        "family": "media",
+        "exact_board": "nao confirmada; hardware fisico nao identificado"
+      },
+      "component": "Placa MPU6050, visualmente compativel com GY-521 (somente candidata)",
+      "author": "Lucas Teske / racerxdl",
+      "license": "MIT (declarada no repositorio)",
+      "license_url": "https://github.com/racerxdl/kicad-board-collection/blob/8477c32b6a499361b55bfec1312e5a8a899caf05/LICENSE",
+      "license_evidence_path": "/home/lamggm/.hermes/cache/scratch/slamderson-cad-eletronica/proveniencia/mpu6050-LICENSE-MIT.txt",
+      "recommended": true,
+      "notes": [
+        "Modelo de placa comercial reconstruida pelo autor para montagem mecanica; nao projeto de placa nova.",
+        "Preview apresenta header de 8 pinos e dois furos. Fonte chama MPU6050; GY-521 e somente classificacao visual candidata.",
+        "Autor alerta que modelos sao aproximacoes das placas compradas, nao testados e destinados a STEP, nao GERBER.",
+        "Placa fisica MPU6050 exata desconhecida."
+      ]
+    },
+    {
+      "name": "esp32-c3-supermini-candidato.stp",
+      "repo": "NerdyProjects/conti_bat_trigger",
+      "upstream_path": "hw/KiCad_ESP32-C3-SuperMini/ESP32-C3-SuperMini.stp",
+      "commit": "2b7375378fdefbd9b49d89daa44583d2694571cc",
+      "source_url": "https://github.com/NerdyProjects/conti_bat_trigger/blob/2b7375378fdefbd9b49d89daa44583d2694571cc/hw/KiCad_ESP32-C3-SuperMini/ESP32-C3-SuperMini.stp",
+      "download_url": "https://raw.githubusercontent.com/NerdyProjects/conti_bat_trigger/2b7375378fdefbd9b49d89daa44583d2694571cc/hw/KiCad_ESP32-C3-SuperMini/ESP32-C3-SuperMini.stp",
+      "absolute_path": "/home/lamggm/.hermes/cache/scratch/slamderson-cad-eletronica/esp32-c3-supermini-candidato.stp",
+      "bytes": 641670,
+      "sha256": "c0207ad602876676036d55835277031cb4ccc961bea802e168f64331f856b361",
+      "format": "STEP",
+      "validation": {
+        "absolute_path": "/home/lamggm/.hermes/cache/scratch/slamderson-cad-eletronica/esp32-c3-supermini-candidato.stp",
+        "bytes": 641670,
+        "sha256": "c0207ad602876676036d55835277031cb4ccc961bea802e168f64331f856b361",
+        "is_html": false,
+        "step_signature_valid": true,
+        "cad_reader": "FreeCAD 1.1.4 / Part.read",
+        "is_null": false,
+        "is_valid": true,
+        "shape_type": "Compound",
+        "solids": 1,
+        "shells": 1,
+        "faces": 340,
+        "bbox_mm_xyz": [
+          18.000000000000046,
+          24.020000000000003,
+          60.5948776713016
+        ],
+        "solids_bbox_mm_xyz": [
+          18.000000000000046,
+          24.020000000000003,
+          60.5948776713016
+        ],
+        "volume_mm3": 505.35307567763755
+      },
+      "exact_hardware_match_confirmed": false,
+      "match_confidence": {
+        "family": "media",
+        "exact_board": "nao confirmada; hardware fisico nao identificado"
+      },
+      "component": "ESP32-C3 SuperMini, opcional nao confirmado",
+      "author": "Ulf Hille e RabchikEngineer creditados no README; STEP declara Mr Me; disponibilizado por NerdyProjects",
+      "license": "desconhecida",
+      "license_url": null,
+      "recommended": false,
+      "notes": [
+        "README remete a https://grabcad.com/library/esp32c3-supermini-1 e https://github.com/RabchikEngineer.",
+        "Nenhuma licenca explicita aplicavel identificada na arvore do repositorio.",
+        "Embora Part.read/isValid passe, envelope importado 18 x 24.02 x 60.59 mm e incomum; nao considerar modelo dimensional confiavel sem inspeção.",
+        "Nao confirma escolha de microcontrolador."
+      ]
+    },
+    {
+      "name": "esp32s-devboard-candidato.step",
+      "repo": "Mayoogh/KiCAD-Custom-Libraries-",
+      "upstream_path": "Development board/Espressif Systems/ESP32/ESP32S Dev Board.STEP",
+      "commit": "71b1199b1863b1d4ce4d9fbe3ff4cc628c93054a",
+      "source_url": "https://github.com/Mayoogh/KiCAD-Custom-Libraries-/blob/71b1199b1863b1d4ce4d9fbe3ff4cc628c93054a/Development%20board/Espressif%20Systems/ESP32/ESP32S%20Dev%20Board.STEP",
+      "download_url": "https://raw.githubusercontent.com/Mayoogh/KiCAD-Custom-Libraries-/71b1199b1863b1d4ce4d9fbe3ff4cc628c93054a/Development%20board/Espressif%20Systems/ESP32/ESP32S%20Dev%20Board.STEP",
+      "absolute_path": "/home/lamggm/.hermes/cache/scratch/slamderson-cad-eletronica/esp32s-devboard-candidato.step",
+      "bytes": 25662100,
+      "sha256": "8d910cac4291362d2c176ea68cfcb2891fca232f886b2e01c84f15f6d91b0b44",
+      "format": "STEP",
+      "validation": {
+        "absolute_path": "/home/lamggm/.hermes/cache/scratch/slamderson-cad-eletronica/esp32s-devboard-candidato.step",
+        "bytes": 25662100,
+        "sha256": "8d910cac4291362d2c176ea68cfcb2891fca232f886b2e01c84f15f6d91b0b44",
+        "is_html": false,
+        "step_signature_valid": true,
+        "cad_reader": "FreeCAD 1.1.4 / Part.read",
+        "is_null": false,
+        "is_valid": true,
+        "shape_type": "Compound",
+        "solids": 127,
+        "shells": 127,
+        "faces": 8643,
+        "bbox_mm_xyz": [
+          25.908,
+          13.140000000000029,
+          49.41700000000043
+        ],
+        "solids_bbox_mm_xyz": [
+          25.908,
+          13.140000000000029,
+          49.41700000000043
+        ],
+        "volume_mm3": 3729.5512334966993
+      },
+      "exact_hardware_match_confirmed": false,
+      "match_confidence": {
+        "family": "media",
+        "exact_board": "nao confirmada; hardware fisico nao identificado"
+      },
+      "component": "ESP32S Dev Board / HW-573, opcional nao confirmado",
+      "author": "desconhecido; disponibilizado por Mayoogh",
+      "license": "desconhecida",
+      "license_url": null,
+      "recommended": false,
+      "notes": [
+        "STEP identifica ESP32S HW-573 PCB e header de 19 pinos por lado; variante candidata, nao confirmada como placa do projeto.",
+        "Nenhuma licenca aplicavel identificada no repositorio/pasta; licencas de outros componentes nao foram presumidas."
+      ]
+    },
+    {
+      "name": "l298n-modulo-alternativo.stp",
+      "repo": "Daniel-Jimenez02/Club-de-robotica-2026",
+      "upstream_path": "Utilidades Robóticas 🤖/Fusion360/L298N.stp",
+      "commit": "3cd483e8b60be0555fb57808c663b6bb0194ee3c",
+      "source_url": "https://github.com/Daniel-Jimenez02/Club-de-robotica-2026/blob/3cd483e8b60be0555fb57808c663b6bb0194ee3c/Utilidades%20Rob%C3%B3ticas%20%F0%9F%A4%96/Fusion360/L298N.stp",
+      "download_url": "https://raw.githubusercontent.com/Daniel-Jimenez02/Club-de-robotica-2026/3cd483e8b60be0555fb57808c663b6bb0194ee3c/Utilidades%20Rob%C3%B3ticas%20%F0%9F%A4%96/Fusion360/L298N.stp",
+      "absolute_path": "/home/lamggm/.hermes/cache/scratch/slamderson-cad-eletronica/l298n-modulo-alternativo.stp",
+      "bytes": 3150769,
+      "sha256": "1ffb4031e29069c9ba94ada6e2a5702a2e5eeef20583a0482a711013bd08c47b",
+      "format": "STEP",
+      "validation": {
+        "absolute_path": "/home/lamggm/.hermes/cache/scratch/slamderson-cad-eletronica/l298n-modulo-alternativo.stp",
+        "bytes": 3150769,
+        "sha256": "1ffb4031e29069c9ba94ada6e2a5702a2e5eeef20583a0482a711013bd08c47b",
+        "is_html": false,
+        "step_signature_valid": true,
+        "cad_reader": "FreeCAD 1.1.4 / Part.read",
+        "is_null": false,
+        "is_valid": false,
+        "shape_type": "Compound",
+        "solids": 1,
+        "shells": 16,
+        "faces": 1537,
+        "bbox_mm_xyz": [
+          2e+100,
+          2e+100,
+          28.0
+        ],
+        "solids_bbox_mm_xyz": [
+          43.50000000000001,
+          43.5,
+          28.0
+        ],
+        "volume_mm3": 1.5999999999999997e+101
+      },
+      "exact_hardware_match_confirmed": false,
+      "match_confidence": {
+        "family": "media",
+        "exact_board": "nao confirmada; hardware fisico nao identificado"
+      },
+      "component": "Modulo L298N, alternativa rejeitada por validacao geometrica",
+      "author": "desconhecido; disponibilizado por Daniel-Jimenez02",
+      "license": "desconhecida",
+      "license_url": null,
+      "recommended": false,
+      "notes": [
+        "STEP real, nao HTML, mas shape.isValid() retornou false e o envelope global possui valores nao fisicos ~2e100 mm.",
+        "Nao utilizar para montagem; mantido somente como evidencia de pesquisa.",
+        "As duas alternativas L298N sao copias identicas por SHA-256."
+      ]
+    },
+    {
+      "name": "l298n-freecad-library.step",
+      "repo": "FreeCAD/FreeCAD-library",
+      "upstream_path": "Electrical Parts/Motor Drivers/L298N/L298N.step",
+      "source_url": "https://github.com/FreeCAD/FreeCAD-library/blob/71fae7e9bd207078f3dc27efadd7a02da7e2efee/Electrical%20Parts/Motor%20Drivers/L298N/L298N.step",
+      "download_url": "https://raw.githubusercontent.com/FreeCAD/FreeCAD-library/71fae7e9bd207078f3dc27efadd7a02da7e2efee/Electrical%20Parts/Motor%20Drivers/L298N/L298N.step",
+      "absolute_path": "/home/lamggm/.hermes/cache/scratch/slamderson-cad-eletronica/l298n-freecad-library.step",
+      "bytes": 626259,
+      "sha256": "85a25934934a49eaca09fd8db0e59b1eb5095bb3705ac0943f9bdb4e9be82af5",
+      "format": "STEP",
+      "commit": "71fae7e9bd207078f3dc27efadd7a02da7e2efee",
+      "commit_author": "Charles Fox",
+      "commit_url": "https://github.com/FreeCAD/FreeCAD-library/commit/71fae7e9bd207078f3dc27efadd7a02da7e2efee",
+      "validation": {
+        "absolute_path": "/home/lamggm/.hermes/cache/scratch/slamderson-cad-eletronica/l298n-freecad-library.step",
+        "bytes": 626259,
+        "sha256": "85a25934934a49eaca09fd8db0e59b1eb5095bb3705ac0943f9bdb4e9be82af5",
+        "is_html": false,
+        "step_signature_valid": true,
+        "cad_reader": "FreeCAD 1.1.4 / Part.read",
+        "is_null": false,
+        "is_valid": true,
+        "shape_type": "Compound",
+        "solids": 76,
+        "shells": 76,
+        "faces": 530,
+        "bbox_mm_xyz": [
+          43.0,
+          43.0,
+          28.0
+        ],
+        "solids_bbox_mm_xyz": [
+          43.0,
+          43.0,
+          28.0
+        ],
+        "volume_mm3": 13601.838923944439
+      },
+      "exact_hardware_match_confirmed": false,
+      "match_confidence": {
+        "family": "media",
+        "exact_board": "nao confirmada; hardware fisico nao identificado"
+      },
+      "component": "Modulo duplo L298N completo, candidato dimensional",
+      "author": "Charles Fox (autor do commit; CreatedBy do FCStd vazio)",
+      "license": "CC-BY-3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0/",
+      "license_evidence_path": "/home/lamggm/.hermes/cache/scratch/slamderson-cad-eletronica/l298n-freecad-LICENSE.txt",
+      "recommended": true,
+      "notes": [
+        "Modelo comunitario preexistente simplificado de modulo comercial; nao e PCB propria deste projeto.",
+        "Preview de origem mostra dissipador, bornes 3+2+2 vias, headers e componentes.",
+        "Envelope geometrico 43 x 43 x 28 mm; nao usar como medida do modulo fisico sem conferencia."
+      ]
+    }
+  ],
+  "support_files": [
+    {
+      "absolute_path": "/home/lamggm/.hermes/cache/scratch/slamderson-cad-eletronica/proveniencia/mpu6050-LICENSE-MIT.txt",
+      "source_url": "https://raw.githubusercontent.com/racerxdl/kicad-board-collection/8477c32b6a499361b55bfec1312e5a8a899caf05/LICENSE",
+      "format": "text"
+    },
+    {
+      "absolute_path": "/home/lamggm/.hermes/cache/scratch/slamderson-cad-eletronica/proveniencia/mpu6050-README.md",
+      "source_url": "https://raw.githubusercontent.com/racerxdl/kicad-board-collection/8477c32b6a499361b55bfec1312e5a8a899caf05/README.md",
+      "format": "text"
+    },
+    {
+      "absolute_path": "/home/lamggm/.hermes/cache/scratch/slamderson-cad-eletronica/proveniencia/mpu6050-board-README.md",
+      "source_url": "https://raw.githubusercontent.com/racerxdl/kicad-board-collection/8477c32b6a499361b55bfec1312e5a8a899caf05/MPU6050/README.md",
+      "format": "text"
+    },
+    {
+      "absolute_path": "/home/lamggm/.hermes/cache/scratch/slamderson-cad-eletronica/proveniencia/esp32c3-attribution-README.md",
+      "source_url": "https://raw.githubusercontent.com/NerdyProjects/conti_bat_trigger/2b7375378fdefbd9b49d89daa44583d2694571cc/hw/KiCad_ESP32-C3-SuperMini/README.md",
+      "format": "text"
+    },
+    {
+      "absolute_path": "/home/lamggm/.hermes/cache/scratch/slamderson-cad-eletronica/l298n-freecad-L298N.FCStd",
+      "format": "FCStd",
+      "source_url": "https://github.com/FreeCAD/FreeCAD-library/blob/71fae7e9bd207078f3dc27efadd7a02da7e2efee/Electrical%20Parts/Motor%20Drivers/L298N/L298N.FCStd",
+      "download_url": "https://raw.githubusercontent.com/FreeCAD/FreeCAD-library/71fae7e9bd207078f3dc27efadd7a02da7e2efee/Electrical%20Parts/Motor%20Drivers/L298N/L298N.FCStd",
+      "author": "Charles Fox (commit)",
+      "license": "CC-BY-3.0",
+      "sha256": "5607387cf6b094608724efbacb28f6c8afccf2e1c9c6209f1b6b73fd858d6e11",
+      "validation": "ZIP valido; Document.xml lido; shape validado no STEP correspondente",
+      "match_confidence": "media para familia; correspondencia exata nao confirmada"
+    },
+    {
+      "absolute_path": "/home/lamggm/.hermes/cache/scratch/slamderson-cad-eletronica/l298n-freecad-L298N.png",
+      "source_url": "https://raw.githubusercontent.com/FreeCAD/FreeCAD-library/71fae7e9bd207078f3dc27efadd7a02da7e2efee/Electrical%20Parts/Motor%20Drivers/L298N/L298N.png",
+      "download_url": "https://raw.githubusercontent.com/FreeCAD/FreeCAD-library/71fae7e9bd207078f3dc27efadd7a02da7e2efee/Electrical%20Parts/Motor%20Drivers/L298N/L298N.png",
+      "format": "PNG",
+      "author": "Charles Fox (commit)",
+      "license": "CC-BY-3.0"
+    },
+    {
+      "absolute_path": "/home/lamggm/.hermes/cache/scratch/slamderson-cad-eletronica/l298n-freecad-LICENSE.txt",
+      "source_url": "https://raw.githubusercontent.com/FreeCAD/FreeCAD-library/71fae7e9bd207078f3dc27efadd7a02da7e2efee/Electrical%20Parts/Motor%20Drivers/L298N/LICENSE.txt",
+      "download_url": "https://raw.githubusercontent.com/FreeCAD/FreeCAD-library/71fae7e9bd207078f3dc27efadd7a02da7e2efee/Electrical%20Parts/Motor%20Drivers/L298N/LICENSE.txt",
+      "format": "text",
+      "author": "Charles Fox (commit)",
+      "license": "CC-BY-3.0"
+    },
+    {
+      "absolute_path": "/home/lamggm/.hermes/cache/scratch/slamderson-cad-eletronica/mpu6050-upstream-preview.jpg",
+      "source_url": "https://raw.githubusercontent.com/racerxdl/kicad-board-collection/8477c32b6a499361b55bfec1312e5a8a899caf05/MPU6050/MPU6050.jpg",
+      "format": "JPEG",
+      "author": "Lucas Teske / racerxdl",
+      "license": "MIT (repositorio)"
+    }
+  ],
+  "verification_path": "/home/lamggm/.hermes/cache/scratch/slamderson-cad-eletronica/verification.json",
+  "verification_script": "/home/lamggm/.hermes/cache/scratch/slamderson-cad-eletronica/verify_step.py",
+  "provenance_ledger_path": "/home/lamggm/.hermes/cache/scratch/slamderson-cad-eletronica/sources-ledger.json",
+  "issues": [
+    "web_extract indisponivel no backend configurado; utilizados HTTP publico e API GitHub sem login.",
+    "Duas copias identicas de L298N sao invalidas no FreeCAD; preferir l298n-freecad-library.step.",
+    "ESP32-C3 passa validacao topologica mas possui envelope suspeito.",
+    "Nenhuma permissao de redistribuicao presumida para fontes de licenca desconhecida."
+  ]
+}

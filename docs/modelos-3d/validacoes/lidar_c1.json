@@ -1,0 +1,23 @@
+{
+  "arquivo": "/home/lamggm/.hermes/cache/scratch/slamderson-cad-pi-lidar/rplidar-c1/dfrobot-original/C1M1_appearance_V2_20230926.3d_model.stp",
+  "formato": ".stp",
+  "bytes": 7907390,
+  "sha256": "0c5ec21a35b08a1b2c81cf18ba3ecefc72aedadc655b1108f80a2d5affc34568",
+  "ferramenta": "FreeCAD",
+  "versao_ferramenta": "1.1.4",
+  "solidos": 22,
+  "faces": 2027,
+  "arestas": 5549,
+  "geometria_valida": true,
+  "dimensoes": [
+    159.5861105974601,
+    76.0254529269169,
+    43.135675210926436
+  ],
+  "unidade_dimensoes": "mm internos do FreeCAD, após importação STEP",
+  "volume_mm3": 39370.00930750792,
+  "malha_previa": "/home/lamggm/.hermes/cache/scratch/slamderson-cad-validacao/lidar_c1-previa.stl",
+  "triangulos_previa": 731193,
+  "estado": "importado",
+  "sha256_geometria": "0c5ec21a35b08a1b2c81cf18ba3ecefc72aedadc655b1108f80a2d5affc34568"
+}

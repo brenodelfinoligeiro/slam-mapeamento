@@ -1,0 +1,8 @@
+{
+  "fonte_id": 3,
+  "nome": "st-l298",
+  "url_solicitada": "https://www.st.com/resource/en/datasheet/l298.pdf",
+  "tipo": "pdf",
+  "estado": "falhou",
+  "erro": "TimeoutError: The read operation timed out"
+}

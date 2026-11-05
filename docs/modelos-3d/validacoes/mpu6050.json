@@ -1,0 +1,23 @@
+{
+  "arquivo": "/home/lamggm/.hermes/cache/scratch/slamderson-cad-eletronica/mpu6050-placa-candidata.step",
+  "formato": ".step",
+  "bytes": 968735,
+  "sha256": "a0b3420ff59fd3dd73e2cea2d2b71cea8d08a3bb58bd1553e8947f3b14af63b6",
+  "ferramenta": "FreeCAD",
+  "versao_ferramenta": "1.1.4",
+  "solidos": 15,
+  "faces": 801,
+  "arestas": 2088,
+  "geometria_valida": true,
+  "dimensoes": [
+    15.999999999999998,
+    21.0,
+    11.540000000004886
+  ],
+  "unidade_dimensoes": "mm internos do FreeCAD, após importação STEP",
+  "volume_mm3": 693.7789140085004,
+  "malha_previa": "/home/lamggm/.hermes/cache/scratch/slamderson-cad-validacao/mpu6050-previa.stl",
+  "triangulos_previa": 8784,
+  "estado": "importado",
+  "sha256_geometria": "a0b3420ff59fd3dd73e2cea2d2b71cea8d08a3bb58bd1553e8947f3b14af63b6"
+}

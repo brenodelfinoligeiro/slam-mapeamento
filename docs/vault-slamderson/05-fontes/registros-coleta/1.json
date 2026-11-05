@@ -1,0 +1,15 @@
+{
+  "fonte_id": 1,
+  "nome": "einstronic-mh",
+  "url_solicitada": "https://einstronic.com/product/infrared-speed-sensor-module/",
+  "tipo": "html",
+  "url_download": "https://einstronic.com/product/infrared-speed-sensor-module/",
+  "content_type": "text/html; charset=UTF-8",
+  "acesso": "2026-11-04T18:08:51.959303+00:00",
+  "caminho": "05-fontes/capturas/einstronic-mh.html",
+  "sha256": "afef61e7d8c829c11055ba4649cf67e2f1aae9ff78b56b884f684c5266bd5247",
+  "bytes": 186901,
+  "evidencia": "05-fontes/evidencias/einstronic-mh.txt",
+  "caracteres_extraidos": 4544,
+  "estado": "obtido"
+}

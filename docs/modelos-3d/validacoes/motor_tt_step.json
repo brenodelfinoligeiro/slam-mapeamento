@@ -1,0 +1,23 @@
+{
+  "arquivo": "/home/lamggm/.hermes/cache/scratch/slamderson-cad-mecanica/motor_tt_adafruit/3777 TT Motor.step",
+  "formato": ".step",
+  "bytes": 112694,
+  "sha256": "12e0fa54576085011cc9f5221ad95aca62d565e051d995523d192d0a65797ce3",
+  "ferramenta": "FreeCAD",
+  "versao_ferramenta": "1.1.4",
+  "solidos": 8,
+  "faces": 89,
+  "arestas": 210,
+  "geometria_valida": true,
+  "dimensoes": [
+    22.4,
+    36.6,
+    70.6
+  ],
+  "unidade_dimensoes": "mm internos do FreeCAD, após importação STEP",
+  "volume_mm3": 22947.253087225392,
+  "malha_previa": "/home/lamggm/.hermes/cache/scratch/slamderson-cad-validacao/motor_tt_step-previa.stl",
+  "triangulos_previa": 27274,
+  "estado": "importado",
+  "sha256_geometria": "12e0fa54576085011cc9f5221ad95aca62d565e051d995523d192d0a65797ce3"
+}

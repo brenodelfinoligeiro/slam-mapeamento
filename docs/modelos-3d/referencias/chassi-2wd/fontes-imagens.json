@@ -1,0 +1,48 @@
+{
+  "descricao_autor": "chassi maker 2WD com duas rodas motoras e um rodízio",
+  "imagens": [
+    {
+      "id": "casa-1",
+      "pagina": "https://www.casadarobotica.com/robotica/chassi-s/carros/kit-chassi-2-rodas",
+      "imagem_url": "https://images.tcdn.com.br/img/img_prod/650361/kit_chassi_2_rodas_base_de_acrilico_suporte_de_pilhas_881_1_7139610677af27035c3552500ac9cfce.jpg",
+      "url_final": "https://images.tcdn.com.br/img/img_prod/650361/kit_chassi_2_rodas_base_de_acrilico_suporte_de_pilhas_881_1_7139610677af27035c3552500ac9cfce.jpg",
+      "caminho": "/home/lamggm/.hermes/cache/scratch/slamderson-chassis-imagens/casa-1.jpeg",
+      "pixels": [
+        1200,
+        1200
+      ],
+      "sha256": "0b8c6b996a383cae70c723a32668fd97e56aeca5ef212432594d202d7c0e7f19",
+      "rotulo": "A",
+      "arquivo": "A-casa-1.jpeg"
+    },
+    {
+      "id": "arduino-1",
+      "pagina": "https://arduinoecia.com.br/produto/kit-chassi-2wd-robo-para-arduino/",
+      "imagem_url": "https://arduinoecia.com.br/wp-content/uploads/2025/09/Kit-Chassi-2WD-2-rodas-Acrilico-1.jpg",
+      "url_final": "https://arduinoecia.com.br/wp-content/uploads/2025/09/Kit-Chassi-2WD-2-rodas-Acrilico-1.jpg",
+      "caminho": "/home/lamggm/.hermes/cache/scratch/slamderson-chassis-imagens/arduino-1.jpeg",
+      "pixels": [
+        2891,
+        2891
+      ],
+      "sha256": "65f69fb71aa054831500a6a585997073437e081854037177783e396538745ec9",
+      "rotulo": "B",
+      "arquivo": "B-arduino-1.jpeg"
+    },
+    {
+      "id": "arduino-8",
+      "pagina": "https://arduinoecia.com.br/produto/kit-chassi-2wd-robo-para-arduino/",
+      "imagem_url": "https://arduinoecia.com.br/wp-content/uploads/2025/09/Kit-Chassi-2WD-2-rodas-Acrilico-8.jpg",
+      "url_final": "https://arduinoecia.com.br/wp-content/uploads/2025/09/Kit-Chassi-2WD-2-rodas-Acrilico-8.jpg",
+      "caminho": "/home/lamggm/.hermes/cache/scratch/slamderson-chassis-imagens/arduino-8.jpeg",
+      "pixels": [
+        1276,
+        1276
+      ],
+      "sha256": "2564e56c204c5225a6085cc7978046eff7fddf238a7b32cbd83047190ee619d5",
+      "rotulo": "C",
+      "arquivo": "C-arduino-8.jpeg"
+    }
+  ],
+  "licenca": "Fotografias de terceiros; não identificada licença aberta. Usadas como referência visual, com atribuição."
+}

@@ -1,0 +1,17 @@
+{
+  "fonte_id": 5,
+  "nome": "ti-lm393",
+  "url_solicitada": "https://www.ti.com/lit/ds/symlink/lm393.pdf",
+  "tipo": "pdf",
+  "url_download": "https://www.ti.com/lit/ds/symlink/lm393.pdf",
+  "content_type": "application/pdf",
+  "acesso": "2026-11-04T18:08:47.009672+00:00",
+  "caminho": "05-fontes/pdf/ti-lm393.pdf",
+  "sha256": "b8503035c014ad5c6ab40f2230509a407deed99a6b998997e7535f8b0bce986b",
+  "bytes": 3290463,
+  "paginas": 56,
+  "metadados_pdf": "Title:           LM393B, LM2903B, LM193, LM293, LM393 and LM2903 Dual Comparators datasheet (Rev. AH)\nSubject:         Data Sheet\nKeywords:        SLCS005AH\nAuthor:          Texas Instruments, Incorporated [SLCS005,A?]\nCreator:         Antenna House XSL Formatter V7.4 R1 Windows : 7.4.1.63121 (2023-12-20T11:05+09)\nProducer:        iText 2.1.7 by 1T3XT\nCreationDate:    Thu Oct 29 02:43:39 2026 -03\nModDate:         Thu Oct 29 02:43:39 2026 -03\nCustom Metadata: no\nMetadata Stream: no\nTagged:          no\nUserProperties:  no\nSuspects:        no\nForm:            AcroForm\nJavaScript:      no\nPages:           56\nEncrypted:       no\nPage size:       612 x 792 pts (letter)\nPage rot:        0\nFile size:       3290463 bytes\nOptimized:       no\nPDF version:     1.6\n",
+  "evidencia": "05-fontes/evidencias/ti-lm393.txt",
+  "caracteres_extraidos": 233724,
+  "estado": "obtido"
+}

@@ -1,0 +1,8 @@
+{
+  "fonte_id": 4,
+  "nome": "st-l298-pagina",
+  "url_solicitada": "https://www.st.com/en/motor-drivers/l298.html",
+  "tipo": "html",
+  "estado": "falhou",
+  "erro": "TimeoutError: The read operation timed out"
+}

@@ -1,0 +1,23 @@
+{
+  "arquivo": "/home/lamggm/.hermes/cache/scratch/slamderson-cad-validacao/sensor_lm393_candidato_extraido.step",
+  "formato": ".step",
+  "bytes": 209827,
+  "sha256": "5e91ca6a5f910c5cd6a4f169118de103633e1878f0a34402e4b0630f0aed6a93",
+  "ferramenta": "FreeCAD",
+  "versao_ferramenta": "1.1.4",
+  "solidos": 15,
+  "faces": 157,
+  "arestas": 349,
+  "geometria_valida": true,
+  "dimensoes": [
+    35.44971322500001,
+    14.300000000000004,
+    13.800000000000068
+  ],
+  "unidade_dimensoes": "mm internos do FreeCAD, após importação STEP",
+  "volume_mm3": 1312.7108566537404,
+  "malha_previa": "/home/lamggm/.hermes/cache/scratch/slamderson-cad-validacao/sensor_extraido-previa.stl",
+  "triangulos_previa": 2232,
+  "estado": "importado",
+  "sha256_geometria": "5e91ca6a5f910c5cd6a4f169118de103633e1878f0a34402e4b0630f0aed6a93"
+}

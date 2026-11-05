@@ -1,0 +1,17 @@
+{
+  "fonte_id": 10,
+  "nome": "invensense-mpu6050-especificacao-dfrobot",
+  "url_solicitada": "https://dfimg.dfrobot.com/enshop/image/data/SEN0142/PS-MPU-6000A.pdf",
+  "tipo": "pdf",
+  "url_download": "https://dfimg.dfrobot.com/enshop/image/data/SEN0142/PS-MPU-6000A.pdf",
+  "content_type": "application/pdf",
+  "acesso": "2026-11-04T18:11:22.072255+00:00",
+  "caminho": "05-fontes/pdf/invensense-mpu6050-especificacao-dfrobot.pdf",
+  "sha256": "edc9ad691b4866cf71337fb773a006f97d57299778cde2e752def96b44acf305",
+  "bytes": 1958783,
+  "paginas": 54,
+  "metadados_pdf": "Creator:         Microsoft® Word 2010\nProducer:        Microsoft® Word 2010\nCreationDate:    Mon Jul 16 22:00:50 2012 -03\nModDate:         Wed Jul 18 14:10:04 2012 -03\nCustom Metadata: no\nMetadata Stream: yes\nTagged:          yes\nUserProperties:  no\nSuspects:        no\nForm:            none\nJavaScript:      no\nPages:           54\nEncrypted:       no\nPage size:       612 x 792 pts (letter)\nPage rot:        0\nFile size:       1958783 bytes\nOptimized:       yes\nPDF version:     1.5\n",
+  "evidencia": "05-fontes/evidencias/invensense-mpu6050-especificacao-dfrobot.txt",
+  "caracteres_extraidos": 175414,
+  "estado": "obtido"
+}

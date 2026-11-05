@@ -1,0 +1,281 @@
+{
+  "version": 1,
+  "sources": [
+    {
+      "id": 1,
+      "url": "https://einstronic.com/product/infrared-speed-sensor-module",
+      "title": "Einstronic — MH Infrared Speed Sensor Module",
+      "accessed": "2026-11-04",
+      "quotes": [
+        {
+          "text": "Model code :\nFC-03\nCommon Features\nLogical IC : LM393\nOperating voltage : 3.3 – 5V",
+          "added": "2026-11-04"
+        },
+        {
+          "text": "Comes with photointerrupter that consists of a pair of infrared emitter and receiver facing each other\nInterrupting the infrared optical light in between the photointerrupter results the change of output.",
+          "added": "2026-11-04"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "url": "https://cdn.velleman.eu/downloads/25/wpse347a4v01.pdf",
+      "title": "Velleman — WPSE347: IR speed sensor module",
+      "accessed": "2026-11-04",
+      "quotes": [
+        {
+          "text": "The WPSE347 is a LM393 speed sensor module, widely used in motor speed detection,\n         pulse count, position control, etc.",
+          "added": "2026-11-04"
+        },
+        {
+          "text": "For example, if you have one hole in the disk and the time between two pulses is 3 seconds,\n         you have a revolutions speed of 3 x 60 = 180 rpm. If you have 2 holes in the disk, you have a\n         revolutions speed of (3 x 60/2) = 90 rpm.",
+          "added": "2026-11-04"
+        },
+        {
+          "text": "VCC: module power supply from 3.0 to 12 V.",
+          "added": "2026-11-04"
+        },
+        {
+          "text": "•   working voltage: 3.3-5 VDC",
+          "added": "2026-11-04"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "url": "https://www.st.com/resource/en/datasheet/l298.pdf",
+      "title": "STMicroelectronics — L298: Dual full-bridge driver",
+      "accessed": "2026-11-04"
+    },
+    {
+      "id": 4,
+      "url": "https://www.st.com/en/motor-drivers/l298.html",
+      "title": "STMicroelectronics — página oficial L298",
+      "accessed": "2026-11-04"
+    },
+    {
+      "id": 5,
+      "url": "https://www.ti.com/lit/ds/symlink/lm393.pdf",
+      "title": "Texas Instruments — LM393: Dual Comparators",
+      "accessed": "2026-11-04",
+      "quotes": [
+        {
+          "text": "The open-collector outputs allow the user to level shift to the desired logic level indpendent of VCC, while also\nenabling AND functionality when multiple outputs are connected together.",
+          "added": "2026-11-04"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "url": "https://product.tdk.com/system/files/dam/doc/product/sensor/mortion-inertial/imu/data_sheet/mpu-6000-datasheet1.pdf",
+      "title": "InvenSense/TDK — MPU-6000/MPU-6050 Product Specification",
+      "accessed": "2026-11-04"
+    },
+    {
+      "id": 7,
+      "url": "https://cdn.sparkfun.com/datasheets/Sensors/Accelerometers/RM-MPU-6000A.pdf",
+      "title": "InvenSense — MPU-6000/MPU-6050 Register Map; cópia SparkFun",
+      "accessed": "2026-11-04",
+      "quotes": [
+        {
+          "text": "Register Map and Descriptions",
+          "added": "2026-11-04"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "url": "https://store.tremtech.com/content/l298.pdf",
+      "title": "STMicroelectronics — L298; cópia hospedada pela TremTech",
+      "accessed": "2026-11-04",
+      "quotes": [
+        {
+          "text": "The L298 is an integrated monolithic circuit in a 15-lead multiwatt and PowerSO-20\n                                                        packages. It is a high-voltage, high-current dual full-bridge driver designed to accept\n                                                        standard TTL logic levels and drive inductive loads such as relays, solenoids, DC",
+          "added": "2026-11-04"
+        },
+        {
+          "text": "ViH      Input high voltage (pins 5, 7, 10, 12)                                                2.3                  VSS         V",
+          "added": "2026-11-04"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "url": "https://cdn.sparkfun.com/datasheets/Components/General+IC/PS-MPU-6000A.pdf",
+      "title": "InvenSense — MPU-6000/MPU-6050 Product Specification; cópia SparkFun",
+      "accessed": "2026-11-04"
+    },
+    {
+      "id": 10,
+      "url": "https://dfimg.dfrobot.com/enshop/image/data/SEN0142/PS-MPU-6000A.pdf",
+      "title": "InvenSense — MPU-6000/MPU-6050 Product Specification; cópia DFRobot",
+      "accessed": "2026-11-04",
+      "quotes": [
+        {
+          "text": "The MPU-60X0 is the world’s first integrated 6-axis MotionTracking device that combines a 3-axis\ngyroscope, 3-axis accelerometer, and a Digital Motion Processor™ (DMP) all in a small 4x4x0.9mm",
+          "added": "2026-11-04"
+        },
+        {
+          "text": "For power supply flexibility, the MPU-60X0 operates from VDD power supply voltage range of 2.375V-3.46V.",
+          "added": "2026-11-04"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "url": "https://pip.raspberrypi.com/documents/RP-010083-CA",
+      "title": "CAD — Raspberry Pi 5 Model B",
+      "accessed": "2026-11-04",
+      "quotes": [
+        {
+          "text": "This 3D model is provided under the MIT license included at the end of this file.",
+          "added": "2026-11-04"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "url": "https://www.dfrobot.com/product-2803.html",
+      "title": "CAD — RPLIDAR C1 / C1M1",
+      "accessed": "2026-11-04",
+      "quotes": [
+        {
+          "text": "/* name */ 'C1M1_appearance_V2_20230926.stp',\n/* time_stamp */ '2023-09-26T09:34:03+08:00',\n/* author */ (''),\n/* organization */ (''),\n/* preprocessor_version */ 'ST-DEVELOPER v16',\n/* originating_system */ 'SIEMENS PLM Software NX 11.0',\n/* authorisation */ '');",
+          "added": "2026-11-04"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "url": "https://github.com/adafruit/Adafruit_CAD_Parts/tree/main/3777%20TT%20Motor",
+      "title": "CAD — Motorredutor TT, referência Adafruit 3777",
+      "accessed": "2026-11-04",
+      "quotes": [
+        {
+          "text": "Copyright (c) 2016 Adafruit Industries",
+          "added": "2026-11-04"
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "url": "https://github.com/FreeCAD/FreeCAD-library/blob/71fae7e9bd207078f3dc27efadd7a02da7e2efee/Electrical%20Parts/Motor%20Drivers/L298N/L298N.step",
+      "title": "CAD — Módulo L298N",
+      "accessed": "2026-11-04",
+      "quotes": [
+        {
+          "text": "This work is licensed under the Creative Commons Attribution 3.0 Unported License (CC BY 3.0).",
+          "added": "2026-11-04"
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "url": "https://github.com/racerxdl/kicad-board-collection/blob/8477c32b6a499361b55bfec1312e5a8a899caf05/MPU6050/MPU6050.step",
+      "title": "CAD — Placa MPU-6050 candidata",
+      "accessed": "2026-11-04",
+      "quotes": [
+        {
+          "text": "Copyright (c) 2022 Lucas Teske",
+          "added": "2026-11-04"
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "url": "https://github.com/NerdyProjects/conti_bat_trigger/blob/2b7375378fdefbd9b49d89daa44583d2694571cc/hw/KiCad_ESP32-C3-SuperMini/ESP32-C3-SuperMini.stp",
+      "title": "CAD — ESP32-C3 SuperMini, candidato não escolhido",
+      "accessed": "2026-11-04",
+      "quotes": [
+        {
+          "text": "/* Generated by software containing ST-Developer\n * from STEP Tools, Inc. (www.steptools.com) \n */\n\nFILE_DESCRIPTION(\n/* description */ ('',\n'CAx-IF Rec.Pracs.---Representation and Presentation of Product Manufa\ncturing Information (PMI)---4.0---2014-10-13'),\n/* implementation_level */ '2;1');\n\nFILE_NAME(\n/* name */ \n'D:\\\\Mr Me\\\\Documents\\\\Inventor\\\\Konstruksjoner\\\\Library\\\\Arduino\\\\ESP\n32C3_SuperMini\\\\ESP32C3-SuperMini.stp',\n/* time_stamp */ '2024-01-03T14:11:18+01:00',\n/* author */ ('Mr Me'),\n/* organization */ (''),\n/* preprocessor_version */ 'ST-DEVELOPER v18.1',\n/* originating_system */ 'Autodesk Inventor 2020',\n/* authorisation */ '');\n\nFILE_SCHEMA (('AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF { 1 0 10303 442 1 1 4 }'));",
+          "added": "2026-11-04"
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "url": "https://github.com/Mayoogh/KiCAD-Custom-Libraries-/blob/71b1199b1863b1d4ce4d9fbe3ff4cc628c93054a/Development%20board/Espressif%20Systems/ESP32/ESP32S%20Dev%20Board.STEP",
+      "title": "CAD — ESP32S HW-573, candidato não escolhido",
+      "accessed": "2026-11-04",
+      "quotes": [
+        {
+          "text": "FILE_DESCRIPTION (( 'STEP AP214' ),\n    '1' );\nFILE_NAME ('ESP32S Dev Board 0.9inch width ASSY.STEP',\n    '2019-02-09T02:26:34',\n    ( '' ),\n    ( '' ),\n    'SwSTEP 2.0',\n    'SolidWorks 2018',\n    '' );\nFILE_SCHEMA (( 'AUTOMOTIVE_DESIGN' ));",
+          "added": "2026-11-04"
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "url": "https://github.com/FreeCAD/FreeCAD-library/blob/71fae7e9bd207078f3dc27efadd7a02da7e2efee/Electrical%20Parts/Motor%20Drivers/L298N/L298N.FCStd",
+      "title": "CAD — Módulo L298N, arquivo nativo",
+      "accessed": "2026-11-04",
+      "quotes": [
+        {
+          "text": "This work is licensed under the Creative Commons Attribution 3.0 Unported License (CC BY 3.0).",
+          "added": "2026-11-04"
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "url": "https://github.com/pserey/SimpleTTRobot",
+      "title": "CAD — Sensor óptico LM393 candidato extraído",
+      "accessed": "2026-11-04",
+      "quotes": [
+        {
+          "text": "The non-software components (3D CAD designs and documentation) are licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) License.",
+          "added": "2026-11-04"
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "url": "https://www.casadarobotica.com/robotica/chassi-s/carros/kit-chassi-2-rodas",
+      "title": "Casa da Robótica — kit chassi 2 rodas: fotos de referência",
+      "accessed": "2026-11-04",
+      "quotes": [
+        {
+          "text": "Kit Chassi 2 Rodas",
+          "added": "2026-11-04"
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "url": "https://arduinoecia.com.br/produto/kit-chassi-2wd-robo-para-arduino",
+      "title": "Arduino e Cia — kit chassi 2WD: fotos de referência",
+      "accessed": "2026-11-04",
+      "quotes": [
+        {
+          "text": "Kit Chassi duas rodas para montagem de robôs",
+          "added": "2026-11-04"
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "url": "https://www.thingiverse.com/thing:4738179",
+      "title": "dasaki — 2WD smart car arduino robot chassis; pacote fornecido pelo autor do projeto",
+      "accessed": "2026-11-04",
+      "quotes": [
+        {
+          "text": "This thing was created by Thingiverse user dasaki, and is licensed under GNU - GPL",
+          "added": "2026-11-04"
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "url": "https://pip.raspberrypi.com/documents/RP-009856-WP",
+      "title": "Raspberry Pi Ltd — USB Power Delivery on Raspberry Pi 5",
+      "accessed": "2026-11-04",
+      "quotes": [
+        {
+          "text": "While Raspberry Pi recommends a 5V 5A supply for Raspberry Pi 5, it will function perfectly well with a 3A supply, provided that only lower-power peripherals are attached.",
+          "added": "2026-11-04"
+        }
+      ]
+    }
+  ]
+}

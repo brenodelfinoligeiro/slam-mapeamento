@@ -1,0 +1,8 @@
+{
+  "fonte_id": 9,
+  "nome": "invensense-mpu6050-especificacao-sparkfun",
+  "url_solicitada": "https://cdn.sparkfun.com/datasheets/Components/General+IC/PS-MPU-6000A.pdf",
+  "tipo": "pdf",
+  "estado": "falhou",
+  "erro": "HTTPError: HTTP Error 404: Not Found"
+}

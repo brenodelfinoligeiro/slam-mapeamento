@@ -1,0 +1,16 @@
+{
+  "arquivo": "/home/lamggm/.hermes/cache/scratch/slamderson-chassi-thingiverse-4738179/chassi_e_suportes_derivado_mm.stl",
+  "formato": ".stl",
+  "bytes": 541884,
+  "sha256": "cd86ee5b94f34114300ebb984d1f3c55d4f7a86bc897e456b70af3b73699b635",
+  "ferramenta": "FreeCAD",
+  "versao_ferramenta": "1.1.4",
+  "triangulos": 10836,
+  "dimensoes": [
+    148.97799682617188,
+    209.97325134277344,
+    32.98472595214844
+  ],
+  "unidade_dimensoes": "unidades brutas do STL; formato não declara unidade física",
+  "estado": "importado"
+}

@@ -1,0 +1,342 @@
+{
+  "criado_em": "2026-11-04T18:49:11.819846+00:00",
+  "diretorio_absoluto": "/home/lamggm/.hermes/cache/scratch/slamderson-cad-mecanica",
+  "escopo": "Downloads públicos reais, sem login. Nenhuma geometria criada ou alterada. Nenhum arquivo de repositório local modificado.",
+  "resultado": {
+    "motor_tt": "baixado STEP, STL e F3D; correspondência dimensional física ainda não confirmada",
+    "sensor_mh_fc03": "baixado candidato LM393 dentro de montagem STEP; NÃO identificado como modelo exato MH-Sensor-Series/FC-03",
+    "disco_encoder_tt": "não obtido CAD separado com correspondência TT confirmada"
+  },
+  "itens": [
+    {
+      "id": "motor_tt_adafruit_3777",
+      "categoria": "CAD mecânico 3D",
+      "titulo": "3777 TT Motor",
+      "urls_acessadas": [
+        "https://api.github.com/repos/adafruit/Adafruit_CAD_Parts/contents/3777%20TT%20Motor",
+        "https://github.com/adafruit/Adafruit_CAD_Parts",
+        "https://www.adafruit.com/product/3777"
+      ],
+      "autor": "Adafruit; cabeçalho STEP declara Adafruit; copyright Adafruit Industries 2016",
+      "licenca": "MIT",
+      "licenca_caminho_absoluto": "/home/lamggm/.hermes/cache/scratch/slamderson-cad-mecanica/motor_tt_adafruit/LICENSE",
+      "licenca_url": "https://raw.githubusercontent.com/adafruit/Adafruit_CAD_Parts/main/LICENSE",
+      "arquivos": [
+        {
+          "caminho_absoluto": "/home/lamggm/.hermes/cache/scratch/slamderson-cad-mecanica/motor_tt_adafruit/3777 TT Motor.f3d",
+          "formato": "F3D",
+          "url_download_acessada": "https://raw.githubusercontent.com/adafruit/Adafruit_CAD_Parts/main/3777%20TT%20Motor/3777%20TT%20Motor.f3d",
+          "bytes": 256240,
+          "sha256": "9823c28e825e51bb038d4bccb2e2ef5d8a674b18f080895428485e67235df410",
+          "verificacao": {
+            "zip_crc_ok": true,
+            "entradas": 16
+          }
+        },
+        {
+          "caminho_absoluto": "/home/lamggm/.hermes/cache/scratch/slamderson-cad-mecanica/motor_tt_adafruit/3777 TT Motor.step",
+          "formato": "STEP",
+          "url_download_acessada": "https://raw.githubusercontent.com/adafruit/Adafruit_CAD_Parts/main/3777%20TT%20Motor/3777%20TT%20Motor.step",
+          "bytes": 112694,
+          "sha256": "12e0fa54576085011cc9f5221ad95aca62d565e051d995523d192d0a65797ce3",
+          "verificacao": {
+            "assinatura_e_terminador_step": true,
+            "solidos_brep_declarados": 8,
+            "abertura_em_kernel_cad": false
+          }
+        },
+        {
+          "caminho_absoluto": "/home/lamggm/.hermes/cache/scratch/slamderson-cad-mecanica/motor_tt_adafruit/3777 TT Motor.stl",
+          "formato": "STL",
+          "url_download_acessada": "https://raw.githubusercontent.com/adafruit/Adafruit_CAD_Parts/main/3777%20TT%20Motor/3777%20TT%20Motor.stl",
+          "bytes": 166084,
+          "sha256": "c457c4533b41aff66b93870e2cd8662058e75253c84b16c1cc085d7cb690ad8c",
+          "verificacao": {
+            "stl_binario_tamanho_coerente": true,
+            "triangulos": 3320,
+            "min_xyz": [
+              -11.199999809265137,
+              -18.299999237060547,
+              -54.599998474121094
+            ],
+            "max_xyz": [
+              11.199999809265137,
+              18.299999237060547,
+              16.0
+            ],
+            "unidade_stl": "não codificada pelo formato; conferir mm no CAD fonte"
+          }
+        }
+      ],
+      "correspondencia": "Candidato público de motor TT amarelo; não é identificação da peça do Slamderson. Modelo com envelope transversal compatível com saída dupla; confirmar ambos os extremos e dimensões na abertura CAD/peça real.",
+      "limitacoes": [
+        "A página do produto fonte declara redução 1:48, mas isso NÃO confirma a redução do motor observado.",
+        "Conferir eixo em ambos os lados, perfil/chaveta, diâmetro, projeções, furos e apoios com paquímetro.",
+        "STL não tem unidade intrínseca. Verificações realizadas são estruturais; não houve abertura em kernel CAD nem inspeção visual renderizada.",
+        "F3D preservado sem modificação."
+      ]
+    },
+    {
+      "id": "sensor_lm393_candidato_montagem",
+      "categoria": "CAD mecânico 3D em montagem, aproximação não confirmada",
+      "titulo": "SimpleTTRobot / Robot.step / Interrupt Sensor v1",
+      "urls_acessadas": [
+        "https://github.com/pserey/SimpleTTRobot",
+        "https://api.github.com/repos/pserey/SimpleTTRobot/git/trees/main?recursive=1",
+        "https://raw.githubusercontent.com/pserey/SimpleTTRobot/main/README.md",
+        "https://raw.githubusercontent.com/pserey/SimpleTTRobot/main/cad/step/Robot.step"
+      ],
+      "autor": "pserey (publicador do projeto); autoria original de componentes importados na montagem não explicitada",
+      "licenca": "CC BY-SA 4.0 declarada pelo projeto para CAD/documentação; procedência de componentes importados não confirmada separadamente",
+      "licenca_caminho_absoluto": "/home/lamggm/.hermes/cache/scratch/slamderson-cad-mecanica/candidato_sensor_lm393_em_montagem/CAD-LICENSE",
+      "licenca_url": "https://raw.githubusercontent.com/pserey/SimpleTTRobot/main/CAD-LICENSE",
+      "readme_caminho_absoluto": "/home/lamggm/.hermes/cache/scratch/slamderson-cad-mecanica/candidato_sensor_lm393_em_montagem/README.upstream.md",
+      "arquivos": [
+        {
+          "caminho_absoluto": "/home/lamggm/.hermes/cache/scratch/slamderson-cad-mecanica/candidato_sensor_lm393_em_montagem/Robot.step",
+          "formato": "STEP",
+          "url_download_acessada": "https://raw.githubusercontent.com/pserey/SimpleTTRobot/main/cad/step/Robot.step",
+          "bytes": 4310836,
+          "sha256": "dc732ee56685f94f29a90abb78701ad0bc8b57cfa6ced9005005aaa321ff80be",
+          "verificacao": {
+            "assinatura_e_terminador_step": true,
+            "solidos_brep_declarados": 48,
+            "abertura_em_kernel_cad": false
+          }
+        }
+      ],
+      "correspondencia": "O README lista LM393 Speed Sensor module e o STEP declara PRODUCT Interrupt Sensor v1 com cabeçalho 1x4. É candidato para inspeção, NÃO correspondência exata confirmada ao garfo MH-Sensor-Series/FC-03.",
+      "evidencias": [
+        "README: LM393 Speed Sensor module",
+        "STEP: PRODUCT('Interrupt Sensor','Interrupt Sensor v1',...)",
+        "STEP também contém PRODUCT TT Motor e sólidos Encoder Wheel / Encoder Support."
+      ],
+      "limitacoes": [
+        "Arquivo é uma montagem completa de lançador de tênis de mesa, não de robô móvel; não usar a máquina ou o disco como equivalentes ao Slamderson.",
+        "Sensor não extraído como componente separado. Necessário abrir árvore da montagem e conferir visualmente garfo, placa, furação e medidas.",
+        "Inscrição MH-Sensor-Series não garante FC-03; LM393 sozinho também não identifica o módulo.",
+        "O disco Encoder Wheel nesta montagem não foi confirmado para eixo TT e não é oferecido como disco exato.",
+        "Não houve abertura em kernel CAD ou renderização do sensor."
+      ]
+    },
+    {
+      "id": "fc03_fritzing_referencia",
+      "categoria": "Referência elétrica 2D; NÃO CAD mecânico 3D",
+      "titulo": "FC-03 speed sensor Improved",
+      "urls_acessadas": [
+        "https://github.com/Coding-Nandan/Fritzing-parts",
+        "https://api.github.com/repos/Coding-Nandan/Fritzing-parts/contents",
+        "https://raw.githubusercontent.com/Coding-Nandan/Fritzing-parts/main/FC-03-speed%20sensor-Improved(1).fzpz"
+      ],
+      "autor": "Nandan Hegde (declarado no XML .fzp), usuário Coding-Nandan",
+      "licenca": "desconhecida; API GitHub não informa licença e .fzp não contém licença identificada",
+      "arquivos": [
+        {
+          "caminho_absoluto": "/home/lamggm/.hermes/cache/scratch/slamderson-cad-mecanica/referencia_eletrica_nao_cad_3d/FC-03-speed sensor-Improved(1).fzpz",
+          "formato": "FZPZ",
+          "url_download_acessada": "https://raw.githubusercontent.com/Coding-Nandan/Fritzing-parts/main/FC-03-speed%20sensor-Improved(1).fzpz",
+          "bytes": 22367,
+          "sha256": "8898c08369d08577d86865b41d4ec98b3fcb0be6002faac10edfd4cbc75542ca",
+          "verificacao": {
+            "zip_crc_ok": true,
+            "entradas": 5
+          }
+        }
+      ],
+      "correspondencia": "Arquivo declara FC-03, LM393 IR Speed Sensor Encoder By Nandan. Apenas referência do módulo nominal FC-03; não prova equivalência com a placa observada.",
+      "limitacoes": [
+        "Não contém STEP/STL/3D. Não usar SVG/footprint como desenho mecânico certificado.",
+        "Uso, modificação e redistribuição dependem de esclarecer licença; download público não equivale a licença aberta."
+      ]
+    }
+  ],
+  "links_bloqueados_ou_sem_download": [
+    {
+      "url": "https://grabcad.com/library/speed-sensor-mh-sensor-series-1",
+      "status": "HTTP 403 no requests e página de erro no navegador real",
+      "autor": "desconhecido",
+      "licenca": "desconhecida",
+      "observacao": "Busca indexada sugere modelo MH-Sensor-Series e disco para TT; nenhum arquivo baixado. Não contornado login."
+    },
+    {
+      "url": "https://print.grabcad.com/library/speed-sensor-mh-sensor-series-1",
+      "status": "HTTP 403"
+    },
+    {
+      "url": "https://www.stlfinder.com/model/speed-sensor-mh-sensor-series-ACBlNpDz/6679279",
+      "status": "HTTP 403"
+    },
+    {
+      "url": "https://www.aigei.com/item/speed_sensor_mh.html",
+      "status": "HTTP 403; espelho indexado, licença/autoria não verificadas"
+    },
+    {
+      "url": "https://www.3dcontentcentral.com/download-model.aspx?catalogid=171&id=872195&partnumber=FC-03",
+      "status": "timeout HTTP; resultado indexado informa Login required para download",
+      "observacao": "Nenhum download CAD obtido."
+    },
+    {
+      "url": "https://www.printables.com/model/129515-panbot-encoder-disk-tt-motor/files",
+      "status": "HTTP 403",
+      "autor": "ZDKderPHB segundo resultado indexado",
+      "licenca": "desconhecida, não verificada",
+      "observacao": "Candidato disco TT 12/20 divisões; nenhum STL baixado."
+    }
+  ],
+  "problemas_ferramentas": [
+    "web_extract indisponível no backend de busca configurado; usado HTTPS direto.",
+    "Recuperação arquivada do GrabCAD expirou em 80 segundos sem resultado útil."
+  ],
+  "inventario": [
+    {
+      "caminho_absoluto": "/home/lamggm/.hermes/cache/scratch/slamderson-cad-mecanica/candidato_sensor_lm393_em_montagem/CAD-LICENSE",
+      "bytes": 20136,
+      "sha256": "925e1b06fa82e379bad225eb67723f7f296266d61b9fe6ac83445cc9778b8e2c",
+      "tipo": "CAD/referência preservada"
+    },
+    {
+      "caminho_absoluto": "/home/lamggm/.hermes/cache/scratch/slamderson-cad-mecanica/candidato_sensor_lm393_em_montagem/README.upstream.md",
+      "bytes": 3032,
+      "sha256": "95052d0d713a9f8886f9ad8484b3843cecad3f24afd147fd3a9738f15c7b0c1f",
+      "tipo": "CAD/referência preservada"
+    },
+    {
+      "caminho_absoluto": "/home/lamggm/.hermes/cache/scratch/slamderson-cad-mecanica/candidato_sensor_lm393_em_montagem/Robot.step",
+      "bytes": 4310836,
+      "sha256": "dc732ee56685f94f29a90abb78701ad0bc8b57cfa6ced9005005aaa321ff80be",
+      "tipo": "CAD/referência preservada"
+    },
+    {
+      "caminho_absoluto": "/home/lamggm/.hermes/cache/scratch/slamderson-cad-mecanica/evidencias/adafruit_meta.txt",
+      "bytes": 6622,
+      "sha256": "55184cf331bf663c6ccffaeab58f43caac4701038286a7bcb8dbfe5b1508294f",
+      "tipo": "evidência/script de pesquisa; NÃO CAD"
+    },
+    {
+      "caminho_absoluto": "/home/lamggm/.hermes/cache/scratch/slamderson-cad-mecanica/evidencias/adafruit_root.txt",
+      "bytes": 398192,
+      "sha256": "57c8bb980e0d2098fce751e07719bf0f3da3625506b80d36bc7392a97c8f4aea",
+      "tipo": "evidência/script de pesquisa; NÃO CAD"
+    },
+    {
+      "caminho_absoluto": "/home/lamggm/.hermes/cache/scratch/slamderson-cad-mecanica/evidencias/aigei_sensor.txt",
+      "bytes": 661,
+      "sha256": "52b2ada63839d5f7d026e4a892a9548c17052f44602bbf3a86b0f6c1793561ee",
+      "tipo": "evidência/script de pesquisa; NÃO CAD"
+    },
+    {
+      "caminho_absoluto": "/home/lamggm/.hermes/cache/scratch/slamderson-cad-mecanica/evidencias/disk_printables.txt",
+      "bytes": 5696,
+      "sha256": "366a60b191d22bb4b53655862fef081dbcb2dbf5866fcee63d073c68e503e6b4",
+      "tipo": "evidência/script de pesquisa; NÃO CAD"
+    },
+    {
+      "caminho_absoluto": "/home/lamggm/.hermes/cache/scratch/slamderson-cad-mecanica/evidencias/github_sensor_repos.txt",
+      "bytes": 5934,
+      "sha256": "15cfb236f4208210246ca3d4921cfbaf02c4b3a082c3a380a541b89523ab23b9",
+      "tipo": "evidência/script de pesquisa; NÃO CAD"
+    },
+    {
+      "caminho_absoluto": "/home/lamggm/.hermes/cache/scratch/slamderson-cad-mecanica/evidencias/motor_product.html",
+      "bytes": 91991,
+      "sha256": "fc27d287bd8641928c73f4da0fd7c68628ec4a3578b3fe791deb154c2e4955e9",
+      "tipo": "evidência/script de pesquisa; NÃO CAD"
+    },
+    {
+      "caminho_absoluto": "/home/lamggm/.hermes/cache/scratch/slamderson-cad-mecanica/evidencias/openbot_tree.txt",
+      "bytes": 648995,
+      "sha256": "6a788033813db7aa4c0e8c57ecde808944fa0e98d6d68d04a06c04925bfb7dd8",
+      "tipo": "evidência/script de pesquisa; NÃO CAD"
+    },
+    {
+      "caminho_absoluto": "/home/lamggm/.hermes/cache/scratch/slamderson-cad-mecanica/evidencias/robot_cad_tree.txt",
+      "bytes": 8021,
+      "sha256": "707f7f0ea9690634347e95dce7470f34b40005241c89f54b66248e2a274278ec",
+      "tipo": "evidência/script de pesquisa; NÃO CAD"
+    },
+    {
+      "caminho_absoluto": "/home/lamggm/.hermes/cache/scratch/slamderson-cad-mecanica/evidencias/sensor_fritzing_contents.txt",
+      "bytes": 6531,
+      "sha256": "a6813c608d6edaaec246c65f49970cf2ba95abd3cf12c3c5103854d5e0a6e250",
+      "tipo": "evidência/script de pesquisa; NÃO CAD"
+    },
+    {
+      "caminho_absoluto": "/home/lamggm/.hermes/cache/scratch/slamderson-cad-mecanica/evidencias/sensor_grabcad.txt",
+      "bytes": 919,
+      "sha256": "a812875e6a4959661950cdeaa172ea379c34c5e7141e27959953dc321e8ac20e",
+      "tipo": "evidência/script de pesquisa; NÃO CAD"
+    },
+    {
+      "caminho_absoluto": "/home/lamggm/.hermes/cache/scratch/slamderson-cad-mecanica/evidencias/sensor_print_grabcad.html",
+      "bytes": 919,
+      "sha256": "6bc2576f4791a6ca4231a61828f1545865bca6a3c459c623ec09b7f3558dc5fd",
+      "tipo": "evidência/script de pesquisa; NÃO CAD"
+    },
+    {
+      "caminho_absoluto": "/home/lamggm/.hermes/cache/scratch/slamderson-cad-mecanica/evidencias/sensor_repo_meta.txt",
+      "bytes": 5499,
+      "sha256": "6cc4628d5c42df26ae04d70b5a3c595f849215d22d9ca2e77214b3d3656fd3aa",
+      "tipo": "evidência/script de pesquisa; NÃO CAD"
+    },
+    {
+      "caminho_absoluto": "/home/lamggm/.hermes/cache/scratch/slamderson-cad-mecanica/evidencias/sensor_stlfinder.html",
+      "bytes": 5681,
+      "sha256": "d7ddce09d1d5db6f00db64b4f4e54b38f57857b05f88faa2bb611bd81f34f04a",
+      "tipo": "evidência/script de pesquisa; NÃO CAD"
+    },
+    {
+      "caminho_absoluto": "/home/lamggm/.hermes/cache/scratch/slamderson-cad-mecanica/finalizar_manifesto.py",
+      "bytes": 9462,
+      "sha256": "3bf7b7fc228fb9ddcc1fd3e5faa55ced9e6ebc30d910eddb6630151e57b9029c",
+      "tipo": "evidência/script de pesquisa; NÃO CAD"
+    },
+    {
+      "caminho_absoluto": "/home/lamggm/.hermes/cache/scratch/slamderson-cad-mecanica/github_searches.json",
+      "bytes": 2531,
+      "sha256": "0d19379e8e448592aa850abee5f4e36042fa08b08d20a1d16f56ab94a14b207b",
+      "tipo": "evidência/script de pesquisa; NÃO CAD"
+    },
+    {
+      "caminho_absoluto": "/home/lamggm/.hermes/cache/scratch/slamderson-cad-mecanica/motor_contents.json",
+      "bytes": 2951,
+      "sha256": "1e3d79c0d39eb3faa7b06166a1a1e0d0db7f51bb923a230a905534dba31181a3",
+      "tipo": "evidência/script de pesquisa; NÃO CAD"
+    },
+    {
+      "caminho_absoluto": "/home/lamggm/.hermes/cache/scratch/slamderson-cad-mecanica/motor_tt_adafruit/3777 TT Motor.f3d",
+      "bytes": 256240,
+      "sha256": "9823c28e825e51bb038d4bccb2e2ef5d8a674b18f080895428485e67235df410",
+      "tipo": "CAD/referência preservada"
+    },
+    {
+      "caminho_absoluto": "/home/lamggm/.hermes/cache/scratch/slamderson-cad-mecanica/motor_tt_adafruit/3777 TT Motor.step",
+      "bytes": 112694,
+      "sha256": "12e0fa54576085011cc9f5221ad95aca62d565e051d995523d192d0a65797ce3",
+      "tipo": "CAD/referência preservada"
+    },
+    {
+      "caminho_absoluto": "/home/lamggm/.hermes/cache/scratch/slamderson-cad-mecanica/motor_tt_adafruit/3777 TT Motor.stl",
+      "bytes": 166084,
+      "sha256": "c457c4533b41aff66b93870e2cd8662058e75253c84b16c1cc085d7cb690ad8c",
+      "tipo": "CAD/referência preservada"
+    },
+    {
+      "caminho_absoluto": "/home/lamggm/.hermes/cache/scratch/slamderson-cad-mecanica/motor_tt_adafruit/LICENSE",
+      "bytes": 1076,
+      "sha256": "f60436644e066301d4c2e8f1f0674a157b1f60e4fd5586717b99dde255cc18cd",
+      "tipo": "CAD/referência preservada"
+    },
+    {
+      "caminho_absoluto": "/home/lamggm/.hermes/cache/scratch/slamderson-cad-mecanica/motor_tt_adafruit/README.upstream.md",
+      "bytes": 94,
+      "sha256": "9ed9beac7600623b7b9bd0d02e1fdcd86610ce22966723179e6c6b618e399dce",
+      "tipo": "CAD/referência preservada"
+    },
+    {
+      "caminho_absoluto": "/home/lamggm/.hermes/cache/scratch/slamderson-cad-mecanica/referencia_eletrica_nao_cad_3d/FC-03-speed sensor-Improved(1).fzpz",
+      "bytes": 22367,
+      "sha256": "8898c08369d08577d86865b41d4ec98b3fcb0be6002faac10edfd4cbc75542ca",
+      "tipo": "CAD/referência preservada"
+    }
+  ]
+}

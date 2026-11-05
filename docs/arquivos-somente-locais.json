@@ -1,0 +1,165 @@
+{
+  "versao": 1,
+  "arquivos": [
+    {
+      "caminho": "docs/modelos-3d/arquivos/chassi-2wd-B/2WD smart car arduino robot chassis - 4738179.zip",
+      "sha256": "935a7d3ad79cdceb4a4e8b67ec071314cbbe47985a1a55aebf594edc803928ff",
+      "motivo": "Referencia de terceiro mantida somente localmente; autorizacao de redistribuicao pendente."
+    },
+    {
+      "caminho": "docs/modelos-3d/arquivos/chassi-2wd-B/chassi_e_suportes_derivado_mm.stl",
+      "sha256": "cd86ee5b94f34114300ebb984d1f3c55d4f7a86bc897e456b70af3b73699b635",
+      "motivo": "Referencia de terceiro mantida somente localmente; autorizacao de redistribuicao pendente."
+    },
+    {
+      "caminho": "docs/modelos-3d/arquivos/chassi-2wd-B/rodizio_derivado_mm.stl",
+      "sha256": "daca245f3ac22379f39d999a37be70c5543b33f6d61ae2e3606461d7f3413641",
+      "motivo": "Referencia de terceiro mantida somente localmente; autorizacao de redistribuicao pendente."
+    },
+    {
+      "caminho": "docs/modelos-3d/arquivos/lidar-c1/C1M1_appearance_V2_20230926.3d_model.stp",
+      "sha256": "0c5ec21a35b08a1b2c81cf18ba3ecefc72aedadc655b1108f80a2d5affc34568",
+      "motivo": "Referencia de terceiro mantida somente localmente; autorizacao de redistribuicao pendente."
+    },
+    {
+      "caminho": "docs/modelos-3d/arquivos/sensor-candidato/sensor_lm393_candidato_extraido.step",
+      "sha256": "5e91ca6a5f910c5cd6a4f169118de103633e1878f0a34402e4b0630f0aed6a93",
+      "motivo": "Referencia de terceiro mantida somente localmente; autorizacao de redistribuicao pendente."
+    },
+    {
+      "caminho": "docs/modelos-3d/candidatos/esp32_c3_candidato/esp32-c3-supermini-candidato.stp",
+      "sha256": "c0207ad602876676036d55835277031cb4ccc961bea802e168f64331f856b361",
+      "motivo": "Referencia de terceiro mantida somente localmente; autorizacao de redistribuicao pendente."
+    },
+    {
+      "caminho": "docs/modelos-3d/candidatos/esp32s_candidato/esp32s-devboard-candidato.step.zip",
+      "sha256": "fc80364fc04cfbafddbe8a4799d37ae5db2c98b4056c1840768624ed5f561418",
+      "motivo": "Referencia de terceiro mantida somente localmente; autorizacao de redistribuicao pendente."
+    },
+    {
+      "caminho": "docs/modelos-3d/fontes/raspberry-pi-5-desenho-mecanico.pdf",
+      "sha256": "5dd680d6c1f5e7aa9c7b020695e315d04aac862df82ff01d4e9041cd0668d7f2",
+      "motivo": "Referencia de terceiro mantida somente localmente; autorizacao de redistribuicao pendente."
+    },
+    {
+      "caminho": "docs/modelos-3d/previas/chassi-2wd-derivados.png",
+      "sha256": "7d01247b726e75e5608318dd9ab1b9322aea853985bd1857c947f400b7462e75",
+      "motivo": "Referencia de terceiro mantida somente localmente; autorizacao de redistribuicao pendente."
+    },
+    {
+      "caminho": "docs/modelos-3d/previas/chassi-4738179-original-1.png",
+      "sha256": "56ea7af9288d03f6985d1eeab84cdfac62003a568ccefd2d8cdb14c330685f39",
+      "motivo": "Referencia de terceiro mantida somente localmente; autorizacao de redistribuicao pendente."
+    },
+    {
+      "caminho": "docs/modelos-3d/previas/chassi-4738179-original-2.png",
+      "sha256": "ee6f2d24c7cdcc9af6e9dfb4ae804276af951f4b7ac4252e27a3697caa400e8d",
+      "motivo": "Referencia de terceiro mantida somente localmente; autorizacao de redistribuicao pendente."
+    },
+    {
+      "caminho": "docs/modelos-3d/previas/colecao-cad.png",
+      "sha256": "5cc5d91f6bc22fdf73dc258a94230be4fc399907d324b52239cffc8703d307bc",
+      "motivo": "Referencia de terceiro mantida somente localmente; autorizacao de redistribuicao pendente."
+    },
+    {
+      "caminho": "docs/modelos-3d/previas/l298n-origem.png",
+      "sha256": "2d675dfda2adc34a6acc89dab5dfd89ca73478d6b80ab34e5f861766298498e4",
+      "motivo": "Referencia de terceiro mantida somente localmente; autorizacao de redistribuicao pendente."
+    },
+    {
+      "caminho": "docs/modelos-3d/previas/mpu6050-origem.jpg",
+      "sha256": "aa8a7c997ea2c81d6a5e1613c73737ff9f2b85a256220378014a5ec92f617046",
+      "motivo": "Referencia de terceiro mantida somente localmente; autorizacao de redistribuicao pendente."
+    },
+    {
+      "caminho": "docs/modelos-3d/referencias/chassi-2wd/A-casa-1.jpeg",
+      "sha256": "0b8c6b996a383cae70c723a32668fd97e56aeca5ef212432594d202d7c0e7f19",
+      "motivo": "Referencia de terceiro mantida somente localmente; autorizacao de redistribuicao pendente."
+    },
+    {
+      "caminho": "docs/modelos-3d/referencias/chassi-2wd/B-arduino-1.jpeg",
+      "sha256": "65f69fb71aa054831500a6a585997073437e081854037177783e396538745ec9",
+      "motivo": "Referencia de terceiro mantida somente localmente; autorizacao de redistribuicao pendente."
+    },
+    {
+      "caminho": "docs/modelos-3d/referencias/chassi-2wd/C-arduino-8.jpeg",
+      "sha256": "2564e56c204c5225a6085cc7978046eff7fddf238a7b32cbd83047190ee619d5",
+      "motivo": "Referencia de terceiro mantida somente localmente; autorizacao de redistribuicao pendente."
+    },
+    {
+      "caminho": "docs/modelos-3d/referencias/chassi-2wd/comparacao-2wd.jpg",
+      "sha256": "306be5d439fc686a318e45554c01855e25c911bce5d50481f8515c375e990823",
+      "motivo": "Referencia de terceiro mantida somente localmente; autorizacao de redistribuicao pendente."
+    },
+    {
+      "caminho": "docs/modelos-3d/referencias/sensor-candidato/Robot.step",
+      "sha256": "dc732ee56685f94f29a90abb78701ad0bc8b57cfa6ced9005005aaa321ff80be",
+      "motivo": "Referencia de terceiro mantida somente localmente; autorizacao de redistribuicao pendente."
+    },
+    {
+      "caminho": "docs/vault-slamderson/05-fontes/capturas/einstronic-mh.html",
+      "sha256": "afef61e7d8c829c11055ba4649cf67e2f1aae9ff78b56b884f684c5266bd5247",
+      "motivo": "Referencia de terceiro mantida somente localmente; autorizacao de redistribuicao pendente."
+    },
+    {
+      "caminho": "docs/vault-slamderson/05-fontes/evidencias/einstronic-mh.txt",
+      "sha256": "ca4dda38d5ce63b7afce1f2932fc1cfd9351deeb731ebff772cdce38050418b0",
+      "motivo": "Referencia de terceiro mantida somente localmente; autorizacao de redistribuicao pendente."
+    },
+    {
+      "caminho": "docs/vault-slamderson/05-fontes/evidencias/invensense-mpu6050-especificacao-dfrobot.txt",
+      "sha256": "2fb7f7e5062d976c552c9ff092914d90a791c380edde65be75d9958bff7197aa",
+      "motivo": "Referencia de terceiro mantida somente localmente; autorizacao de redistribuicao pendente."
+    },
+    {
+      "caminho": "docs/vault-slamderson/05-fontes/evidencias/invensense-mpu6050-registradores-sparkfun.txt",
+      "sha256": "4947b31df739044d2891950e1dced2b37484fdb9c524fac26c23ab0fe16df691",
+      "motivo": "Referencia de terceiro mantida somente localmente; autorizacao de redistribuicao pendente."
+    },
+    {
+      "caminho": "docs/vault-slamderson/05-fontes/evidencias/raspberrypi5-power-delivery-search-result.txt",
+      "sha256": "bb0911941218d1d082c7273e62793371e16dcf617a6ca5fb49847b80ca3af9dd",
+      "motivo": "Referencia de terceiro mantida somente localmente; autorizacao de redistribuicao pendente."
+    },
+    {
+      "caminho": "docs/vault-slamderson/05-fontes/evidencias/st-l298-copia-tremtech.txt",
+      "sha256": "4fdf8b3a3ebff19de4c7284c3bbd0b83d58601a53c218c1f68955df72f0f9a99",
+      "motivo": "Referencia de terceiro mantida somente localmente; autorizacao de redistribuicao pendente."
+    },
+    {
+      "caminho": "docs/vault-slamderson/05-fontes/evidencias/ti-lm393.txt",
+      "sha256": "265662fd519992244cee76d059bc31dcfdb907d28b0ea56d0a54bdb896e0f67b",
+      "motivo": "Referencia de terceiro mantida somente localmente; autorizacao de redistribuicao pendente."
+    },
+    {
+      "caminho": "docs/vault-slamderson/05-fontes/evidencias/velleman-wpse347.txt",
+      "sha256": "81702e1d3801c7bf71f496539d7d6d7f188871333eacedc482e9c7a16ef9836e",
+      "motivo": "Referencia de terceiro mantida somente localmente; autorizacao de redistribuicao pendente."
+    },
+    {
+      "caminho": "docs/vault-slamderson/05-fontes/pdf/invensense-mpu6050-especificacao-dfrobot.pdf",
+      "sha256": "edc9ad691b4866cf71337fb773a006f97d57299778cde2e752def96b44acf305",
+      "motivo": "Referencia de terceiro mantida somente localmente; autorizacao de redistribuicao pendente."
+    },
+    {
+      "caminho": "docs/vault-slamderson/05-fontes/pdf/invensense-mpu6050-registradores-sparkfun.pdf",
+      "sha256": "ccaa6312b9d86a9da79e26e511101e1150dc85a48255600010a854369cf7c05d",
+      "motivo": "Referencia de terceiro mantida somente localmente; autorizacao de redistribuicao pendente."
+    },
+    {
+      "caminho": "docs/vault-slamderson/05-fontes/pdf/st-l298-copia-tremtech.pdf",
+      "sha256": "d0fab11686343b5db91f84bd4b1dcb7b0c99d940672bc8ddd6fff4e340843551",
+      "motivo": "Referencia de terceiro mantida somente localmente; autorizacao de redistribuicao pendente."
+    },
+    {
+      "caminho": "docs/vault-slamderson/05-fontes/pdf/ti-lm393.pdf",
+      "sha256": "b8503035c014ad5c6ab40f2230509a407deed99a6b998997e7535f8b0bce986b",
+      "motivo": "Referencia de terceiro mantida somente localmente; autorizacao de redistribuicao pendente."
+    },
+    {
+      "caminho": "docs/vault-slamderson/05-fontes/pdf/velleman-wpse347.pdf",
+      "sha256": "ccbf59054a5e32a28ca61686427c974b01773cf9ff6e16266ecb74a71699438c",
+      "motivo": "Referencia de terceiro mantida somente localmente; autorizacao de redistribuicao pendente."
+    }
+  ]
+}

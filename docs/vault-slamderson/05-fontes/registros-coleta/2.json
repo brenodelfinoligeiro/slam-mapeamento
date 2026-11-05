@@ -1,0 +1,17 @@
+{
+  "fonte_id": 2,
+  "nome": "velleman-wpse347",
+  "url_solicitada": "https://cdn.velleman.eu/downloads/25/wpse347a4v01.pdf",
+  "tipo": "pdf",
+  "url_download": "https://cdn.velleman.eu/downloads/25/wpse347a4v01.pdf",
+  "content_type": "application/pdf",
+  "acesso": "2026-11-04T18:08:47.681106+00:00",
+  "caminho": "05-fontes/pdf/velleman-wpse347.pdf",
+  "sha256": "ccbf59054a5e32a28ca61686427c974b01773cf9ff6e16266ecb74a71699438c",
+  "bytes": 294143,
+  "paginas": 7,
+  "metadados_pdf": "Author:          midas gossye\nCreator:         Microsoft® Word for Microsoft 365\nProducer:        Microsoft® Word for Microsoft 365\nCreationDate:    Wed Sep 28 04:47:48 2022 -03\nModDate:         Wed Sep 28 04:47:48 2022 -03\nCustom Metadata: no\nMetadata Stream: yes\nTagged:          yes\nUserProperties:  no\nSuspects:        no\nForm:            none\nJavaScript:      no\nPages:           7\nEncrypted:       no\nPage size:       612 x 792 pts (letter)\nPage rot:        0\nFile size:       294143 bytes\nOptimized:       no\nPDF version:     1.7\n",
+  "evidencia": "05-fontes/evidencias/velleman-wpse347.txt",
+  "caracteres_extraidos": 6887,
+  "estado": "obtido"
+}

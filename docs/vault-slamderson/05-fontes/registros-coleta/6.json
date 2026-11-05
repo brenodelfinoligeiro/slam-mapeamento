@@ -1,0 +1,8 @@
+{
+  "fonte_id": 6,
+  "nome": "tdk-mpu6050-especificacao",
+  "url_solicitada": "https://product.tdk.com/system/files/dam/doc/product/sensor/mortion-inertial/imu/data_sheet/mpu-6000-datasheet1.pdf",
+  "tipo": "pdf",
+  "estado": "falhou",
+  "erro": "HTTPError: HTTP Error 403: Forbidden"
+}

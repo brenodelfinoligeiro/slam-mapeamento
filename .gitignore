@@ -1,0 +1,29 @@
+.venv/
+build/
+install/
+log/
+__pycache__/
+.pytest_cache/
+*.egg-info/
+
+# Credenciais, estado do editor e arquivos temporários
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+.obsidian/workspace*.json
+
+# Referências locais sem autorização de redistribuição confirmada
+/docs/modelos-3d/arquivos/lidar-c1/
+/docs/modelos-3d/arquivos/sensor-candidato/
+/docs/modelos-3d/arquivos/chassi-2wd-B/
+/docs/modelos-3d/candidatos/
+/docs/modelos-3d/referencias/sensor-candidato/
+/docs/modelos-3d/previas/
+/docs/modelos-3d/referencias/chassi-2wd/*.jpg
+/docs/modelos-3d/referencias/chassi-2wd/*.jpeg
+/docs/modelos-3d/fontes/*.pdf
+/docs/vault-slamderson/05-fontes/pdf/
+/docs/vault-slamderson/05-fontes/evidencias/
+/docs/vault-slamderson/05-fontes/capturas/

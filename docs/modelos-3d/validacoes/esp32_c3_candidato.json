@@ -1,0 +1,23 @@
+{
+  "arquivo": "/home/lamggm/.hermes/cache/scratch/slamderson-cad-eletronica/esp32-c3-supermini-candidato.stp",
+  "formato": ".stp",
+  "bytes": 641670,
+  "sha256": "c0207ad602876676036d55835277031cb4ccc961bea802e168f64331f856b361",
+  "ferramenta": "FreeCAD",
+  "versao_ferramenta": "1.1.4",
+  "solidos": 1,
+  "faces": 340,
+  "arestas": 1058,
+  "geometria_valida": true,
+  "dimensoes": [
+    18.000000000000046,
+    24.020000000000003,
+    60.5948776713016
+  ],
+  "unidade_dimensoes": "mm internos do FreeCAD, após importação STEP",
+  "volume_mm3": 505.35307567763755,
+  "malha_previa": "/home/lamggm/.hermes/cache/scratch/slamderson-cad-validacao/esp32_c3_candidato-previa.stl",
+  "triangulos_previa": 24272,
+  "estado": "importado",
+  "sha256_geometria": "c0207ad602876676036d55835277031cb4ccc961bea802e168f64331f856b361"
+}

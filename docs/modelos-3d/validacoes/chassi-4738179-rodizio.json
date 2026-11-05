@@ -1,0 +1,16 @@
+{
+  "arquivo": "/home/lamggm/.hermes/cache/scratch/slamderson-chassi-thingiverse-4738179/rodizio_derivado_mm.stl",
+  "formato": ".stl",
+  "bytes": 786484,
+  "sha256": "daca245f3ac22379f39d999a37be70c5543b33f6d61ae2e3606461d7f3413641",
+  "ferramenta": "FreeCAD",
+  "versao_ferramenta": "1.1.4",
+  "triangulos": 15728,
+  "dimensoes": [
+    37.99991798400879,
+    46.4938850402832,
+    39.97554540634155
+  ],
+  "unidade_dimensoes": "unidades brutas do STL; formato não declara unidade física",
+  "estado": "importado"
+}

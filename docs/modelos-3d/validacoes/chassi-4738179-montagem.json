@@ -1,0 +1,16 @@
+{
+  "arquivo": "/home/lamggm/.hermes/cache/scratch/slamderson-chassi-thingiverse-4738179/geometria-original/2wd_robot.stl",
+  "formato": ".stl",
+  "bytes": 125883124,
+  "sha256": "219ce0095b2577c090a5283952cb04f832d32379cf800b3b13a89cde019b4f30",
+  "ferramenta": "FreeCAD",
+  "versao_ferramenta": "1.1.4",
+  "triangulos": 684152,
+  "dimensoes": [
+    157.38016510009766,
+    222.73992919921875,
+    68.92279863357544
+  ],
+  "unidade_dimensoes": "unidades brutas do STL; formato não declara unidade física",
+  "estado": "importado"
+}

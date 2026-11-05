@@ -1,0 +1,899 @@
+{
+  "versao": 1,
+  "data_coleta": "2026-11-04",
+  "modelos": [
+    {
+      "id": "raspberry_pi_5",
+      "componente": "Raspberry Pi 5 Model B",
+      "caminho": "arquivos/raspberry-pi-5/rpi-5-no-graphics.zip",
+      "formato": ".zip",
+      "bytes": 13270704,
+      "sha256": "6841637b4cfa97637bf34b529bfe896f24d9634b2c40b57a156781f55d88f06f",
+      "origem_url": "https://pip.raspberrypi.com/documents/RP-010083-CA",
+      "download_url": "https://pip-assets.raspberrypi.com/categories/892-raspberry-pi-5/documents/RP-010083-CA-1-rpi-5%203D%20STEP%20-%20No%20Graphics%20small%20file.zip",
+      "autor": "Raspberry Pi Ltd",
+      "licenca": {
+        "situacao": "identificada",
+        "identificador": "MIT",
+        "evidencia": "licencas/raspberry-pi-5-LICENSE.txt"
+      },
+      "correspondencia": "Modelo oficial Pi 5B; RAM e revisão física não verificadas.",
+      "limitacoes": [
+        "Modelo oficial Pi 5B; quantidade de RAM 8 GB e revisão física específica não verificadas.",
+        "Fabricante fornece apenas orientação, sem garantia de exatidão ou revisão atual; conferir medidas na placa real.",
+        "Não inclui um modelo dedicado ao cooler, gabinete ou HAT instalado.",
+        "STEP em milímetros; orientar e converter para metros ao usar ROS."
+      ],
+      "escolha_componente_confirmada": true,
+      "compactado_localmente": false,
+      "arquivo_no_zip": "rpi-5b_no_graphics.step",
+      "sha256_original": "78164070c1cc7ab854382950d2e85926c6e35432f1e5a146b733397a7c6afb44",
+      "validacao": {
+        "arquivo": "/home/lamggm/.hermes/cache/scratch/slamderson-cad-pi-lidar/raspberry-pi-5/official/rpi-5-no-graphics/rpi-5b_no_graphics.step",
+        "formato": ".step",
+        "bytes": 77627469,
+        "sha256": "6841637b4cfa97637bf34b529bfe896f24d9634b2c40b57a156781f55d88f06f",
+        "ferramenta": "FreeCAD",
+        "versao_ferramenta": "1.1.4",
+        "solidos": 2689,
+        "faces": 45689,
+        "arestas": 117511,
+        "geometria_valida": true,
+        "dimensoes": [
+          88.50000000000001,
+          57.63035000000031,
+          18.975999957702
+        ],
+        "unidade_dimensoes": "mm internos do FreeCAD, após importação STEP",
+        "volume_mm3": 15458.016940022537,
+        "malha_previa": "/home/lamggm/.hermes/cache/scratch/slamderson-cad-validacao/raspberry_pi_5-previa.stl",
+        "triangulos_previa": 3622260,
+        "estado": "importado",
+        "sha256_geometria": "78164070c1cc7ab854382950d2e85926c6e35432f1e5a146b733397a7c6afb44",
+        "nota_arquivo": "STEP interno do ZIP oficial importado; hash externo identifica o ZIP preservado."
+      },
+      "uso_recomendado": "referencia_a_conferir_na_peca_real",
+      "geometria_fonte_usada_na_inspecao": "/home/lamggm/.hermes/cache/scratch/slamderson-cad-pi-lidar/raspberry-pi-5/official/rpi-5-no-graphics/rpi-5b_no_graphics.step",
+      "arquivo_local_para_abrir": "arquivos/raspberry-pi-5/rpi-5-no-graphics.zip :: rpi-5b_no_graphics.step"
+    },
+    {
+      "id": "lidar_c1",
+      "componente": "RPLIDAR C1 / C1M1",
+      "caminho": "arquivos/lidar-c1/C1M1_appearance_V2_20230926.3d_model.stp",
+      "formato": ".stp",
+      "bytes": 7907390,
+      "sha256": "0c5ec21a35b08a1b2c81cf18ba3ecefc72aedadc655b1108f80a2d5affc34568",
+      "origem_url": "https://www.dfrobot.com/product-2803.html",
+      "download_url": "https://dfimg.dfrobot.com/95a9cd2bec674008b039ef43bcd5638e/wikien/65a648f948d96827e9ba5d97818a764c.zip",
+      "autor": "SLAMTEC (atribuição pela identificação comercial e cabeçalho C1M1; campos author/organization STEP vazios)",
+      "licenca": {
+        "situacao": "nao_identificada",
+        "identificador": null,
+        "aviso": "Acesso público não equivale a autorização de redistribuição. Guardar como referência local; não publicar presumindo licença."
+      },
+      "correspondencia": "Modelo identificado C1M1 V2 de 2023, obtido pela DFRobot; revisão física não confirmada.",
+      "limitacoes": [
+        "É identificado como C1/C1M1, não A1/A2/S1/S2. Cabeçalho: C1M1_appearance_V2_20230926.stp.",
+        "É modelo de aparência V2 datado de 2023; equivalência à revisão física atual não garantida.",
+        "Conjunto contém 22 sólidos e geometria estendida: caixa total ~159.586 x 76.025 x 43.136 mm, NÃO a dimensão isolada do corpo C1.",
+        "Fabricante anuncia corpo 55.6 x 55.6 x 41.3 mm: selecionar subcorpos relevantes e conferir montagem/origem antes de usar colisão ROS.",
+        "Nenhuma malha C1 STL/DAE/OBJ nativa foi baixada; nenhuma geometria foi fabricada ou substituída por outro LiDAR."
+      ],
+      "escolha_componente_confirmada": true,
+      "compactado_localmente": false,
+      "validacao": {
+        "arquivo": "/home/lamggm/.hermes/cache/scratch/slamderson-cad-pi-lidar/rplidar-c1/dfrobot-original/C1M1_appearance_V2_20230926.3d_model.stp",
+        "formato": ".stp",
+        "bytes": 7907390,
+        "sha256": "0c5ec21a35b08a1b2c81cf18ba3ecefc72aedadc655b1108f80a2d5affc34568",
+        "ferramenta": "FreeCAD",
+        "versao_ferramenta": "1.1.4",
+        "solidos": 22,
+        "faces": 2027,
+        "arestas": 5549,
+        "geometria_valida": true,
+        "dimensoes": [
+          159.5861105974601,
+          76.0254529269169,
+          43.135675210926436
+        ],
+        "unidade_dimensoes": "mm internos do FreeCAD, após importação STEP",
+        "volume_mm3": 39370.00930750792,
+        "malha_previa": "/home/lamggm/.hermes/cache/scratch/slamderson-cad-validacao/lidar_c1-previa.stl",
+        "triangulos_previa": 731193,
+        "estado": "importado",
+        "sha256_geometria": "0c5ec21a35b08a1b2c81cf18ba3ecefc72aedadc655b1108f80a2d5affc34568"
+      },
+      "uso_recomendado": "referencia_a_conferir_na_peca_real",
+      "geometria_fonte_usada_na_inspecao": "/home/lamggm/.hermes/cache/scratch/slamderson-cad-pi-lidar/rplidar-c1/dfrobot-original/C1M1_appearance_V2_20230926.3d_model.stp",
+      "arquivo_local_para_abrir": "arquivos/lidar-c1/C1M1_appearance_V2_20230926.3d_model.stp"
+    },
+    {
+      "id": "motor_tt_f3d",
+      "componente": "Motorredutor TT, referência Adafruit 3777",
+      "caminho": "arquivos/motor-tt/3777 TT Motor.f3d",
+      "formato": ".f3d",
+      "bytes": 256240,
+      "sha256": "9823c28e825e51bb038d4bccb2e2ef5d8a674b18f080895428485e67235df410",
+      "origem_url": "https://github.com/adafruit/Adafruit_CAD_Parts/tree/main/3777%20TT%20Motor",
+      "download_url": "https://raw.githubusercontent.com/adafruit/Adafruit_CAD_Parts/main/3777%20TT%20Motor/3777%20TT%20Motor.f3d",
+      "autor": "Adafruit; cabeçalho STEP declara Adafruit; copyright Adafruit Industries 2016",
+      "licenca": {
+        "situacao": "identificada",
+        "identificador": "MIT",
+        "evidencia": "licencas/motor-tt-Adafruit-LICENSE"
+      },
+      "correspondencia": "Candidato público de motor TT amarelo; não é identificação da peça do Slamderson. Modelo com envelope transversal compatível com saída dupla; confirmar ambos os extremos e dimensões na abertura CAD/peça real.",
+      "limitacoes": [
+        "A página do produto fonte declara redução 1:48, mas isso NÃO confirma a redução do motor observado.",
+        "Conferir eixo em ambos os lados, perfil/chaveta, diâmetro, projeções, furos e apoios com paquímetro.",
+        "STL não tem unidade intrínseca. Verificações realizadas são estruturais; não houve abertura em kernel CAD nem inspeção visual renderizada.",
+        "F3D preservado sem modificação."
+      ],
+      "escolha_componente_confirmada": true,
+      "compactado_localmente": false,
+      "validacao": {
+        "estado": "nao_inspecionado",
+        "sha256": "9823c28e825e51bb038d4bccb2e2ef5d8a674b18f080895428485e67235df410",
+        "nota": "Formato nativo preservado; CRC ZIP conferido. Não executado em seu aplicativo nativo."
+      },
+      "uso_recomendado": "referencia_a_conferir_na_peca_real",
+      "geometria_fonte_usada_na_inspecao": "/home/lamggm/.hermes/cache/scratch/slamderson-cad-mecanica/motor_tt_adafruit/3777 TT Motor.f3d",
+      "arquivo_local_para_abrir": "arquivos/motor-tt/3777 TT Motor.f3d"
+    },
+    {
+      "id": "motor_tt_step",
+      "componente": "Motorredutor TT, referência Adafruit 3777",
+      "caminho": "arquivos/motor-tt/3777 TT Motor.step",
+      "formato": ".step",
+      "bytes": 112694,
+      "sha256": "12e0fa54576085011cc9f5221ad95aca62d565e051d995523d192d0a65797ce3",
+      "origem_url": "https://github.com/adafruit/Adafruit_CAD_Parts/tree/main/3777%20TT%20Motor",
+      "download_url": "https://raw.githubusercontent.com/adafruit/Adafruit_CAD_Parts/main/3777%20TT%20Motor/3777%20TT%20Motor.step",
+      "autor": "Adafruit; cabeçalho STEP declara Adafruit; copyright Adafruit Industries 2016",
+      "licenca": {
+        "situacao": "identificada",
+        "identificador": "MIT",
+        "evidencia": "licencas/motor-tt-Adafruit-LICENSE"
+      },
+      "correspondencia": "Candidato público de motor TT amarelo; não é identificação da peça do Slamderson. Modelo com envelope transversal compatível com saída dupla; confirmar ambos os extremos e dimensões na abertura CAD/peça real.",
+      "limitacoes": [
+        "A página do produto fonte declara redução 1:48, mas isso NÃO confirma a redução do motor observado.",
+        "Conferir eixo em ambos os lados, perfil/chaveta, diâmetro, projeções, furos e apoios com paquímetro.",
+        "STL não tem unidade intrínseca. Verificações realizadas são estruturais; não houve abertura em kernel CAD nem inspeção visual renderizada.",
+        "F3D preservado sem modificação."
+      ],
+      "escolha_componente_confirmada": true,
+      "compactado_localmente": false,
+      "validacao": {
+        "arquivo": "/home/lamggm/.hermes/cache/scratch/slamderson-cad-mecanica/motor_tt_adafruit/3777 TT Motor.step",
+        "formato": ".step",
+        "bytes": 112694,
+        "sha256": "12e0fa54576085011cc9f5221ad95aca62d565e051d995523d192d0a65797ce3",
+        "ferramenta": "FreeCAD",
+        "versao_ferramenta": "1.1.4",
+        "solidos": 8,
+        "faces": 89,
+        "arestas": 210,
+        "geometria_valida": true,
+        "dimensoes": [
+          22.4,
+          36.6,
+          70.6
+        ],
+        "unidade_dimensoes": "mm internos do FreeCAD, após importação STEP",
+        "volume_mm3": 22947.253087225392,
+        "malha_previa": "/home/lamggm/.hermes/cache/scratch/slamderson-cad-validacao/motor_tt_step-previa.stl",
+        "triangulos_previa": 27274,
+        "estado": "importado",
+        "sha256_geometria": "12e0fa54576085011cc9f5221ad95aca62d565e051d995523d192d0a65797ce3"
+      },
+      "uso_recomendado": "referencia_a_conferir_na_peca_real",
+      "geometria_fonte_usada_na_inspecao": "/home/lamggm/.hermes/cache/scratch/slamderson-cad-mecanica/motor_tt_adafruit/3777 TT Motor.step",
+      "arquivo_local_para_abrir": "arquivos/motor-tt/3777 TT Motor.step"
+    },
+    {
+      "id": "motor_tt_stl",
+      "componente": "Motorredutor TT, referência Adafruit 3777",
+      "caminho": "arquivos/motor-tt/3777 TT Motor.stl",
+      "formato": ".stl",
+      "bytes": 166084,
+      "sha256": "c457c4533b41aff66b93870e2cd8662058e75253c84b16c1cc085d7cb690ad8c",
+      "origem_url": "https://github.com/adafruit/Adafruit_CAD_Parts/tree/main/3777%20TT%20Motor",
+      "download_url": "https://raw.githubusercontent.com/adafruit/Adafruit_CAD_Parts/main/3777%20TT%20Motor/3777%20TT%20Motor.stl",
+      "autor": "Adafruit; cabeçalho STEP declara Adafruit; copyright Adafruit Industries 2016",
+      "licenca": {
+        "situacao": "identificada",
+        "identificador": "MIT",
+        "evidencia": "licencas/motor-tt-Adafruit-LICENSE"
+      },
+      "correspondencia": "Candidato público de motor TT amarelo; não é identificação da peça do Slamderson. Modelo com envelope transversal compatível com saída dupla; confirmar ambos os extremos e dimensões na abertura CAD/peça real.",
+      "limitacoes": [
+        "A página do produto fonte declara redução 1:48, mas isso NÃO confirma a redução do motor observado.",
+        "Conferir eixo em ambos os lados, perfil/chaveta, diâmetro, projeções, furos e apoios com paquímetro.",
+        "STL não tem unidade intrínseca. Verificações realizadas são estruturais; não houve abertura em kernel CAD nem inspeção visual renderizada.",
+        "F3D preservado sem modificação."
+      ],
+      "escolha_componente_confirmada": true,
+      "compactado_localmente": false,
+      "validacao": {
+        "arquivo": "/home/lamggm/.hermes/cache/scratch/slamderson-cad-mecanica/motor_tt_adafruit/3777 TT Motor.stl",
+        "formato": ".stl",
+        "bytes": 166084,
+        "sha256": "c457c4533b41aff66b93870e2cd8662058e75253c84b16c1cc085d7cb690ad8c",
+        "ferramenta": "FreeCAD",
+        "versao_ferramenta": "1.1.4",
+        "triangulos": 3320,
+        "dimensoes": [
+          22.399999618530273,
+          36.599998474121094,
+          70.5999984741211
+        ],
+        "unidade_dimensoes": "unidades brutas do STL; formato não declara unidade física",
+        "estado": "importado",
+        "sha256_geometria": "c457c4533b41aff66b93870e2cd8662058e75253c84b16c1cc085d7cb690ad8c"
+      },
+      "uso_recomendado": "referencia_a_conferir_na_peca_real",
+      "geometria_fonte_usada_na_inspecao": "/home/lamggm/.hermes/cache/scratch/slamderson-cad-mecanica/motor_tt_adafruit/3777 TT Motor.stl",
+      "arquivo_local_para_abrir": "arquivos/motor-tt/3777 TT Motor.stl"
+    },
+    {
+      "id": "l298n_step",
+      "componente": "Módulo L298N",
+      "caminho": "arquivos/l298n_step/l298n-freecad-library.step",
+      "formato": ".step",
+      "bytes": 626259,
+      "sha256": "85a25934934a49eaca09fd8db0e59b1eb5095bb3705ac0943f9bdb4e9be82af5",
+      "origem_url": "https://github.com/FreeCAD/FreeCAD-library/blob/71fae7e9bd207078f3dc27efadd7a02da7e2efee/Electrical%20Parts/Motor%20Drivers/L298N/L298N.step",
+      "download_url": "https://raw.githubusercontent.com/FreeCAD/FreeCAD-library/71fae7e9bd207078f3dc27efadd7a02da7e2efee/Electrical%20Parts/Motor%20Drivers/L298N/L298N.step",
+      "autor": "Charles Fox (autor do commit; CreatedBy do FCStd vazio)",
+      "licenca": {
+        "situacao": "identificada",
+        "identificador": "CC-BY-3.0",
+        "evidencia": "licencas/l298n-LICENSE.txt",
+        "atribuicao": "Charles Fox, autor do commit da FreeCAD-library; conferir aviso original"
+      },
+      "correspondencia": "Família candidata; correspondência exata à placa física não confirmada.",
+      "limitacoes": [
+        "Modelo comunitario preexistente simplificado de modulo comercial; nao e PCB propria deste projeto.",
+        "Preview de origem mostra dissipador, bornes 3+2+2 vias, headers e componentes.",
+        "Envelope geometrico 43 x 43 x 28 mm; nao usar como medida do modulo fisico sem conferencia."
+      ],
+      "escolha_componente_confirmada": true,
+      "compactado_localmente": false,
+      "validacao": {
+        "arquivo": "/home/lamggm/.hermes/cache/scratch/slamderson-cad-eletronica/l298n-freecad-library.step",
+        "formato": ".step",
+        "bytes": 626259,
+        "sha256": "85a25934934a49eaca09fd8db0e59b1eb5095bb3705ac0943f9bdb4e9be82af5",
+        "ferramenta": "FreeCAD",
+        "versao_ferramenta": "1.1.4",
+        "solidos": 76,
+        "faces": 530,
+        "arestas": 1093,
+        "geometria_valida": true,
+        "dimensoes": [
+          43.0,
+          43.0,
+          28.0
+        ],
+        "unidade_dimensoes": "mm internos do FreeCAD, após importação STEP",
+        "volume_mm3": 13601.838923944439,
+        "malha_previa": "/home/lamggm/.hermes/cache/scratch/slamderson-cad-validacao/l298n_step-previa.stl",
+        "triangulos_previa": 14136,
+        "estado": "importado",
+        "sha256_geometria": "85a25934934a49eaca09fd8db0e59b1eb5095bb3705ac0943f9bdb4e9be82af5"
+      },
+      "uso_recomendado": "referencia_a_conferir_na_peca_real",
+      "geometria_fonte_usada_na_inspecao": "/home/lamggm/.hermes/cache/scratch/slamderson-cad-eletronica/l298n-freecad-library.step",
+      "arquivo_local_para_abrir": "arquivos/l298n_step/l298n-freecad-library.step"
+    },
+    {
+      "id": "mpu6050",
+      "componente": "Placa MPU-6050 candidata",
+      "caminho": "arquivos/mpu6050/mpu6050-placa-candidata.step",
+      "formato": ".step",
+      "bytes": 968735,
+      "sha256": "a0b3420ff59fd3dd73e2cea2d2b71cea8d08a3bb58bd1553e8947f3b14af63b6",
+      "origem_url": "https://github.com/racerxdl/kicad-board-collection/blob/8477c32b6a499361b55bfec1312e5a8a899caf05/MPU6050/MPU6050.step",
+      "download_url": "https://raw.githubusercontent.com/racerxdl/kicad-board-collection/8477c32b6a499361b55bfec1312e5a8a899caf05/MPU6050/MPU6050.step",
+      "autor": "Lucas Teske / racerxdl",
+      "licenca": {
+        "situacao": "identificada",
+        "identificador": "MIT",
+        "evidencia": "licencas/mpu6050-LICENSE-MIT.txt"
+      },
+      "correspondencia": "Família candidata; correspondência exata à placa física não confirmada.",
+      "limitacoes": [
+        "Modelo de placa comercial reconstruida pelo autor para montagem mecanica; nao projeto de placa nova.",
+        "Preview apresenta header de 8 pinos e dois furos. Fonte chama MPU6050; GY-521 e somente classificacao visual candidata.",
+        "Autor alerta que modelos sao aproximacoes das placas compradas, nao testados e destinados a STEP, nao GERBER.",
+        "Placa fisica MPU6050 exata desconhecida."
+      ],
+      "escolha_componente_confirmada": true,
+      "compactado_localmente": false,
+      "validacao": {
+        "arquivo": "/home/lamggm/.hermes/cache/scratch/slamderson-cad-eletronica/mpu6050-placa-candidata.step",
+        "formato": ".step",
+        "bytes": 968735,
+        "sha256": "a0b3420ff59fd3dd73e2cea2d2b71cea8d08a3bb58bd1553e8947f3b14af63b6",
+        "ferramenta": "FreeCAD",
+        "versao_ferramenta": "1.1.4",
+        "solidos": 15,
+        "faces": 801,
+        "arestas": 2088,
+        "geometria_valida": true,
+        "dimensoes": [
+          15.999999999999998,
+          21.0,
+          11.540000000004886
+        ],
+        "unidade_dimensoes": "mm internos do FreeCAD, após importação STEP",
+        "volume_mm3": 693.7789140085004,
+        "malha_previa": "/home/lamggm/.hermes/cache/scratch/slamderson-cad-validacao/mpu6050-previa.stl",
+        "triangulos_previa": 8784,
+        "estado": "importado",
+        "sha256_geometria": "a0b3420ff59fd3dd73e2cea2d2b71cea8d08a3bb58bd1553e8947f3b14af63b6"
+      },
+      "uso_recomendado": "referencia_a_conferir_na_peca_real",
+      "geometria_fonte_usada_na_inspecao": "/home/lamggm/.hermes/cache/scratch/slamderson-cad-eletronica/mpu6050-placa-candidata.step",
+      "arquivo_local_para_abrir": "arquivos/mpu6050/mpu6050-placa-candidata.step"
+    },
+    {
+      "id": "esp32_c3_candidato",
+      "componente": "ESP32-C3 SuperMini, candidato não escolhido",
+      "caminho": "candidatos/esp32_c3_candidato/esp32-c3-supermini-candidato.stp",
+      "formato": ".stp",
+      "bytes": 641670,
+      "sha256": "c0207ad602876676036d55835277031cb4ccc961bea802e168f64331f856b361",
+      "origem_url": "https://github.com/NerdyProjects/conti_bat_trigger/blob/2b7375378fdefbd9b49d89daa44583d2694571cc/hw/KiCad_ESP32-C3-SuperMini/ESP32-C3-SuperMini.stp",
+      "download_url": "https://raw.githubusercontent.com/NerdyProjects/conti_bat_trigger/2b7375378fdefbd9b49d89daa44583d2694571cc/hw/KiCad_ESP32-C3-SuperMini/ESP32-C3-SuperMini.stp",
+      "autor": "Ulf Hille e RabchikEngineer creditados no README; STEP declara Mr Me; disponibilizado por NerdyProjects",
+      "licenca": {
+        "situacao": "nao_identificada",
+        "identificador": null,
+        "aviso": "Acesso público não equivale a autorização de redistribuição. Guardar como referência local; não publicar presumindo licença."
+      },
+      "correspondencia": "Família candidata; correspondência exata à placa física não confirmada.",
+      "limitacoes": [
+        "README remete a https://grabcad.com/library/esp32c3-supermini-1 e https://github.com/RabchikEngineer.",
+        "Nenhuma licenca explicita aplicavel identificada na arvore do repositorio.",
+        "Embora Part.read/isValid passe, envelope importado 18 x 24.02 x 60.59 mm e incomum; nao considerar modelo dimensional confiavel sem inspeção.",
+        "Nao confirma escolha de microcontrolador."
+      ],
+      "escolha_componente_confirmada": false,
+      "compactado_localmente": false,
+      "validacao": {
+        "arquivo": "/home/lamggm/.hermes/cache/scratch/slamderson-cad-eletronica/esp32-c3-supermini-candidato.stp",
+        "formato": ".stp",
+        "bytes": 641670,
+        "sha256": "c0207ad602876676036d55835277031cb4ccc961bea802e168f64331f856b361",
+        "ferramenta": "FreeCAD",
+        "versao_ferramenta": "1.1.4",
+        "solidos": 1,
+        "faces": 340,
+        "arestas": 1058,
+        "geometria_valida": true,
+        "dimensoes": [
+          18.000000000000046,
+          24.020000000000003,
+          60.5948776713016
+        ],
+        "unidade_dimensoes": "mm internos do FreeCAD, após importação STEP",
+        "volume_mm3": 505.35307567763755,
+        "malha_previa": "/home/lamggm/.hermes/cache/scratch/slamderson-cad-validacao/esp32_c3_candidato-previa.stl",
+        "triangulos_previa": 24272,
+        "estado": "importado",
+        "sha256_geometria": "c0207ad602876676036d55835277031cb4ccc961bea802e168f64331f856b361"
+      },
+      "uso_recomendado": "investigar_envelope_antes_de_usar",
+      "geometria_fonte_usada_na_inspecao": "/home/lamggm/.hermes/cache/scratch/slamderson-cad-eletronica/esp32-c3-supermini-candidato.stp",
+      "arquivo_local_para_abrir": "candidatos/esp32_c3_candidato/esp32-c3-supermini-candidato.stp"
+    },
+    {
+      "id": "esp32s_candidato",
+      "componente": "ESP32S HW-573, candidato não escolhido",
+      "caminho": "candidatos/esp32s_candidato/esp32s-devboard-candidato.step.zip",
+      "formato": ".zip",
+      "bytes": 5848204,
+      "sha256": "fc80364fc04cfbafddbe8a4799d37ae5db2c98b4056c1840768624ed5f561418",
+      "origem_url": "https://github.com/Mayoogh/KiCAD-Custom-Libraries-/blob/71b1199b1863b1d4ce4d9fbe3ff4cc628c93054a/Development%20board/Espressif%20Systems/ESP32/ESP32S%20Dev%20Board.STEP",
+      "download_url": "https://raw.githubusercontent.com/Mayoogh/KiCAD-Custom-Libraries-/71b1199b1863b1d4ce4d9fbe3ff4cc628c93054a/Development%20board/Espressif%20Systems/ESP32/ESP32S%20Dev%20Board.STEP",
+      "autor": "desconhecido; disponibilizado por Mayoogh",
+      "licenca": {
+        "situacao": "nao_identificada",
+        "identificador": null,
+        "aviso": "Acesso público não equivale a autorização de redistribuição. Guardar como referência local; não publicar presumindo licença."
+      },
+      "correspondencia": "Família candidata; correspondência exata à placa física não confirmada.",
+      "limitacoes": [
+        "STEP identifica ESP32S HW-573 PCB e header de 19 pinos por lado; variante candidata, nao confirmada como placa do projeto.",
+        "Nenhuma licenca aplicavel identificada no repositorio/pasta; licencas de outros componentes nao foram presumidas."
+      ],
+      "escolha_componente_confirmada": false,
+      "compactado_localmente": true,
+      "arquivo_no_zip": "esp32s-devboard-candidato.step",
+      "sha256_original": "8d910cac4291362d2c176ea68cfcb2891fca232f886b2e01c84f15f6d91b0b44",
+      "validacao": {
+        "arquivo": "/home/lamggm/.hermes/cache/scratch/slamderson-cad-eletronica/esp32s-devboard-candidato.step",
+        "formato": ".step",
+        "bytes": 25662100,
+        "sha256": "fc80364fc04cfbafddbe8a4799d37ae5db2c98b4056c1840768624ed5f561418",
+        "ferramenta": "FreeCAD",
+        "versao_ferramenta": "1.1.4",
+        "solidos": 127,
+        "faces": 8643,
+        "arestas": 21828,
+        "geometria_valida": true,
+        "dimensoes": [
+          25.908,
+          13.140000000000029,
+          49.41700000000043
+        ],
+        "unidade_dimensoes": "mm internos do FreeCAD, após importação STEP",
+        "volume_mm3": 3729.5512334966993,
+        "malha_previa": "/home/lamggm/.hermes/cache/scratch/slamderson-cad-validacao/esp32s_candidato-previa.stl",
+        "triangulos_previa": 252054,
+        "estado": "importado",
+        "sha256_geometria": "8d910cac4291362d2c176ea68cfcb2891fca232f886b2e01c84f15f6d91b0b44"
+      },
+      "uso_recomendado": "candidato_de_placa_nao_escolhida",
+      "geometria_fonte_usada_na_inspecao": "/home/lamggm/.hermes/cache/scratch/slamderson-cad-eletronica/esp32s-devboard-candidato.step",
+      "arquivo_local_para_abrir": "candidatos/esp32s_candidato/esp32s-devboard-candidato.step.zip :: esp32s-devboard-candidato.step"
+    },
+    {
+      "id": "l298n_fcstd",
+      "componente": "Módulo L298N, arquivo nativo",
+      "caminho": "arquivos/l298n_step/L298N.FCStd",
+      "formato": ".fcstd",
+      "bytes": 119445,
+      "sha256": "5607387cf6b094608724efbacb28f6c8afccf2e1c9c6209f1b6b73fd858d6e11",
+      "origem_url": "https://github.com/FreeCAD/FreeCAD-library/blob/71fae7e9bd207078f3dc27efadd7a02da7e2efee/Electrical%20Parts/Motor%20Drivers/L298N/L298N.FCStd",
+      "download_url": "https://raw.githubusercontent.com/FreeCAD/FreeCAD-library/71fae7e9bd207078f3dc27efadd7a02da7e2efee/Electrical%20Parts/Motor%20Drivers/L298N/L298N.FCStd",
+      "autor": "Charles Fox (commit)",
+      "licenca": {
+        "situacao": "identificada",
+        "identificador": "CC-BY-3.0",
+        "evidencia": "licencas/l298n-LICENSE.txt",
+        "atribuicao": "Charles Fox, autor do commit da FreeCAD-library; conferir aviso original"
+      },
+      "correspondencia": "Arquivo nativo da mesma fonte do STEP L298N; módulo físico a conferir.",
+      "limitacoes": [
+        "Integridade ZIP/XML verificada sem executar macros; topologia verificada no STEP, não abrindo este documento."
+      ],
+      "escolha_componente_confirmada": true,
+      "compactado_localmente": false,
+      "validacao": {
+        "estado": "nao_inspecionado",
+        "sha256": "5607387cf6b094608724efbacb28f6c8afccf2e1c9c6209f1b6b73fd858d6e11",
+        "nota": "Formato nativo preservado; CRC ZIP conferido. Não executado em seu aplicativo nativo."
+      },
+      "uso_recomendado": "referencia_a_conferir_na_peca_real",
+      "geometria_fonte_usada_na_inspecao": "/home/lamggm/.hermes/cache/scratch/slamderson-cad-eletronica/l298n-freecad-L298N.FCStd",
+      "arquivo_local_para_abrir": "arquivos/l298n_step/L298N.FCStd"
+    },
+    {
+      "id": "sensor_montagem_fonte",
+      "componente": "Sensor óptico candidato, montagem de origem",
+      "caminho": "referencias/sensor-candidato/Robot.step",
+      "formato": ".step",
+      "bytes": 4310836,
+      "sha256": "dc732ee56685f94f29a90abb78701ad0bc8b57cfa6ced9005005aaa321ff80be",
+      "origem_url": "https://github.com/pserey/SimpleTTRobot",
+      "download_url": "https://raw.githubusercontent.com/pserey/SimpleTTRobot/main/cad/step/Robot.step",
+      "autor": "pserey (publicador do projeto); autoria original de componentes importados na montagem não explicitada",
+      "licenca": {
+        "situacao": "identificada",
+        "identificador": "CC-BY-SA-4.0 declarada pelo projeto; origem de componentes importados não esclarecida",
+        "evidencia": "licencas/sensor-candidato-CAD-LICENSE",
+        "atribuicao": "pserey / SimpleTTRobot; derivação explicitamente indicada quando houver extração"
+      },
+      "correspondencia": "O README lista LM393 Speed Sensor module e o STEP declara PRODUCT Interrupt Sensor v1 com cabeçalho 1x4. É candidato para inspeção, NÃO correspondência exata confirmada ao garfo MH-Sensor-Series/FC-03.",
+      "limitacoes": [
+        "Arquivo é uma montagem completa de lançador de tênis de mesa, não de robô móvel; não usar a máquina ou o disco como equivalentes ao Slamderson.",
+        "Sensor não extraído como componente separado. Necessário abrir árvore da montagem e conferir visualmente garfo, placa, furação e medidas.",
+        "Inscrição MH-Sensor-Series não garante FC-03; LM393 sozinho também não identifica o módulo.",
+        "O disco Encoder Wheel nesta montagem não foi confirmado para eixo TT e não é oferecido como disco exato.",
+        "Não houve abertura em kernel CAD ou renderização do sensor.",
+        "Inspeção do mantenedor: a montagem original é importável, mas isValid() retorna false. Preservada somente como procedência; o componente extraído isoladamente retornou geometria válida."
+      ],
+      "escolha_componente_confirmada": true,
+      "compactado_localmente": false,
+      "validacao": {
+        "arquivo": "/home/lamggm/.hermes/cache/scratch/slamderson-cad-mecanica/candidato_sensor_lm393_em_montagem/Robot.step",
+        "formato": ".step",
+        "bytes": 4310836,
+        "sha256": "dc732ee56685f94f29a90abb78701ad0bc8b57cfa6ced9005005aaa321ff80be",
+        "ferramenta": "FreeCAD",
+        "versao_ferramenta": "1.1.4",
+        "solidos": 55,
+        "faces": 1541,
+        "arestas": 3936,
+        "geometria_valida": false,
+        "dimensoes": [
+          224.25,
+          300.5,
+          166.1000000000002
+        ],
+        "unidade_dimensoes": "mm internos do FreeCAD, após importação STEP",
+        "volume_mm3": 513117.3245625985,
+        "estado": "importado",
+        "sha256_geometria": "dc732ee56685f94f29a90abb78701ad0bc8b57cfa6ced9005005aaa321ff80be"
+      },
+      "uso_recomendado": "somente_proveniencia",
+      "geometria_fonte_usada_na_inspecao": "/home/lamggm/.hermes/cache/scratch/slamderson-cad-mecanica/candidato_sensor_lm393_em_montagem/Robot.step",
+      "arquivo_local_para_abrir": "referencias/sensor-candidato/Robot.step"
+    },
+    {
+      "id": "sensor_extraido",
+      "componente": "Encoder MH-Sensor-Series, identificação visual confirmada pelo autor",
+      "caminho": "arquivos/sensor-candidato/sensor_lm393_candidato_extraido.step",
+      "formato": ".step",
+      "bytes": 209827,
+      "sha256": "5e91ca6a5f910c5cd6a4f169118de103633e1878f0a34402e4b0630f0aed6a93",
+      "origem_url": "https://github.com/pserey/SimpleTTRobot",
+      "download_url": "https://raw.githubusercontent.com/pserey/SimpleTTRobot/main/cad/step/Robot.step",
+      "autor": "pserey (publicador do projeto); autoria original de componentes importados na montagem não explicitada",
+      "licenca": {
+        "situacao": "identificada",
+        "identificador": "CC-BY-SA-4.0 declarada pelo projeto; origem de componentes importados não esclarecida",
+        "evidencia": "licencas/sensor-candidato-CAD-LICENSE",
+        "atribuicao": "pserey / SimpleTTRobot; derivação explicitamente indicada quando houver extração"
+      },
+      "correspondencia": "Componente Interrupt Sensor v1 extraído da montagem original; autor confirmou visualmente que corresponde ao encoder do projeto. Precisão dimensional e características elétricas não verificadas.",
+      "confirmacao_autor_mensagem_id": "1567620339385503818",
+      "limitacoes": [
+        "Derivação local por seleção da geometria existente; não é novo modelo medido.",
+        "Preservadas coordenadas da montagem de origem; não usar origem como pose do robô.",
+        "Comparar garfo, conectores, furos e dimensões ao hardware real."
+      ],
+      "escolha_componente_confirmada": true,
+      "compactado_localmente": false,
+      "derivacao": {
+        "arquivo_fonte_sha256": "dc732ee56685f94f29a90abb78701ad0bc8b57cfa6ced9005005aaa321ff80be",
+        "objeto": "Interrupt_Sensor_v1",
+        "operacao": "Exportação da Shape existente pelo FreeCAD, sem modelagem de substituição"
+      },
+      "validacao": {
+        "arquivo": "/home/lamggm/.hermes/cache/scratch/slamderson-cad-validacao/sensor_lm393_candidato_extraido.step",
+        "formato": ".step",
+        "bytes": 209827,
+        "sha256": "5e91ca6a5f910c5cd6a4f169118de103633e1878f0a34402e4b0630f0aed6a93",
+        "ferramenta": "FreeCAD",
+        "versao_ferramenta": "1.1.4",
+        "solidos": 15,
+        "faces": 157,
+        "arestas": 349,
+        "geometria_valida": true,
+        "dimensoes": [
+          35.44971322500001,
+          14.300000000000004,
+          13.800000000000068
+        ],
+        "unidade_dimensoes": "mm internos do FreeCAD, após importação STEP",
+        "volume_mm3": 1312.7108566537404,
+        "malha_previa": "/home/lamggm/.hermes/cache/scratch/slamderson-cad-validacao/sensor_extraido-previa.stl",
+        "triangulos_previa": 2232,
+        "estado": "importado",
+        "sha256_geometria": "5e91ca6a5f910c5cd6a4f169118de103633e1878f0a34402e4b0630f0aed6a93"
+      },
+      "uso_recomendado": "referencia_a_conferir_na_peca_real",
+      "geometria_fonte_usada_na_inspecao": "/home/lamggm/.hermes/cache/scratch/slamderson-cad-validacao/sensor_lm393_candidato_extraido.step",
+      "arquivo_local_para_abrir": "arquivos/sensor-candidato/sensor_lm393_candidato_extraido.step"
+    },
+    {
+      "id": "chassi_2wd_4738179_montagem",
+      "componente": "Chassi 2WD — montagem de referência compatível com família B",
+      "caminho": "arquivos/chassi-2wd-B/2WD smart car arduino robot chassis - 4738179.zip",
+      "formato": ".zip",
+      "bytes": 34019892,
+      "sha256": "935a7d3ad79cdceb4a4e8b67ec071314cbbe47985a1a55aebf594edc803928ff",
+      "origem_url": "https://www.thingiverse.com/thing:4738179",
+      "download_url": null,
+      "autor": "dasaki (conforme README e LICENSE do pacote)",
+      "licenca": {
+        "situacao": "identificada",
+        "identificador": "GNU-GPL declarada no pacote, versão não informada",
+        "evidencia": "licencas/chassi-4738179-LICENSE-original.txt",
+        "limite": "O README declara remixes de várias fontes; condições/licenças desses componentes não foram auditadas. Não presumir autorização uniforme de redistribuição."
+      },
+      "correspondencia": "Conjunto da família visual B, com extremidade arredondada e abertura circular; medidas/furação exata e equivalência às peças reais não verificadas.",
+      "limitacoes": [
+        "Não é STEP: originais do pacote são STL e Blender.",
+        "A base exportada inclui suportes; sua altura total não é a espessura da chapa.",
+        "Posições e origem foram preservadas da montagem de referência; não são transformações ROS calibradas.",
+        "O rodízio e as rodas representados são referências, sem confirmação dimensional das peças físicas."
+      ],
+      "escolha_componente_confirmada": true,
+      "uso_recomendado": "referencia_a_conferir_na_peca_real",
+      "validacao": {
+        "arquivo": "/home/lamggm/.hermes/cache/scratch/slamderson-chassi-thingiverse-4738179/geometria-original/2wd_robot.stl",
+        "formato": ".stl",
+        "bytes": 125883124,
+        "sha256": "935a7d3ad79cdceb4a4e8b67ec071314cbbe47985a1a55aebf594edc803928ff",
+        "ferramenta": "FreeCAD",
+        "versao_ferramenta": "1.1.4",
+        "triangulos": 684152,
+        "dimensoes": [
+          157.38016510009766,
+          222.73992919921875,
+          68.92279863357544
+        ],
+        "unidade_dimensoes": "unidades brutas do STL; formato não declara unidade física",
+        "estado": "importado",
+        "sha256_geometria": "219ce0095b2577c090a5283952cb04f832d32379cf800b3b13a89cde019b4f30"
+      },
+      "arquivo_local_para_abrir": "arquivos/chassi-2wd-B/2WD smart car arduino robot chassis - 4738179.zip",
+      "obtencao": {
+        "tipo": "download_manual_do_usuario_e_transferencia_SSH",
+        "host_origem": "AcmetecPc02",
+        "alias_ssh": "ryzen-cf",
+        "caminho_zip_original": "/home/lamggm/Downloads/2WD smart car arduino robot chassis - 4738179.zip",
+        "original_remoto_preservado": true,
+        "sha256_zip_origem": "935a7d3ad79cdceb4a4e8b67ec071314cbbe47985a1a55aebf594edc803928ff"
+      },
+      "unidades_origem": {
+        "sistema_blender": "METRIC",
+        "metros_por_unidade_cena": 0.0010000000474974513,
+        "conclusao": "Unidades de cena correspondem a milímetros; STL por si só não codifica a unidade. Não é medição física."
+      },
+      "arquivo_no_zip": "files/2wd_robot.zip",
+      "sha256_original": "1ca4db8d203339d08bf1c131edca43bda769b2c4675f516fb22ce20bc5be9a93",
+      "arquivos_cad_no_zip_interno": [
+        {
+          "nome": "2wd_robot.stl",
+          "sha256": "219ce0095b2577c090a5283952cb04f832d32379cf800b3b13a89cde019b4f30"
+        },
+        {
+          "nome": "2wd_robot.blend",
+          "sha256": "bdaf002db1fe614a7ee0c5c21e4258803cd2f9eba35aadcfdb4e275114a8f042"
+        }
+      ],
+      "blender_aberto_com_autoexec_desativado": "5.2.3 LTS"
+    },
+    {
+      "id": "chassi_2wd_B_base_suportes",
+      "componente": "Chassi 2WD — base e suportes, derivado",
+      "caminho": "arquivos/chassi-2wd-B/chassi_e_suportes_derivado_mm.stl",
+      "formato": ".stl",
+      "bytes": 541884,
+      "sha256": "cd86ee5b94f34114300ebb984d1f3c55d4f7a86bc897e456b70af3b73699b635",
+      "origem_url": "https://www.thingiverse.com/thing:4738179",
+      "download_url": null,
+      "autor": "dasaki (conforme README e LICENSE do pacote)",
+      "licenca": {
+        "situacao": "identificada",
+        "identificador": "GNU-GPL declarada no pacote, versão não informada",
+        "evidencia": "licencas/chassi-4738179-LICENSE-original.txt",
+        "limite": "O README declara remixes de várias fontes; condições/licenças desses componentes não foram auditadas. Não presumir autorização uniforme de redistribuição."
+      },
+      "correspondencia": "Conjunto da família visual B, com extremidade arredondada e abertura circular; medidas/furação exata e equivalência às peças reais não verificadas.",
+      "limitacoes": [
+        "Não é STEP: originais do pacote são STL e Blender.",
+        "A base exportada inclui suportes; sua altura total não é a espessura da chapa.",
+        "Posições e origem foram preservadas da montagem de referência; não são transformações ROS calibradas.",
+        "O rodízio e as rodas representados são referências, sem confirmação dimensional das peças físicas."
+      ],
+      "escolha_componente_confirmada": true,
+      "uso_recomendado": "referencia_a_conferir_na_peca_real",
+      "validacao": {
+        "arquivo": "/home/lamggm/.hermes/cache/scratch/slamderson-chassi-thingiverse-4738179/chassi_e_suportes_derivado_mm.stl",
+        "formato": ".stl",
+        "bytes": 541884,
+        "sha256": "cd86ee5b94f34114300ebb984d1f3c55d4f7a86bc897e456b70af3b73699b635",
+        "ferramenta": "FreeCAD",
+        "versao_ferramenta": "1.1.4",
+        "triangulos": 10836,
+        "dimensoes": [
+          148.97799682617188,
+          209.97325134277344,
+          32.98472595214844
+        ],
+        "unidade_dimensoes": "unidades brutas do STL; formato não declara unidade física",
+        "estado": "importado",
+        "sha256_geometria": "cd86ee5b94f34114300ebb984d1f3c55d4f7a86bc897e456b70af3b73699b635"
+      },
+      "arquivo_local_para_abrir": "arquivos/chassi-2wd-B/chassi_e_suportes_derivado_mm.stl",
+      "obtencao": {
+        "tipo": "download_manual_do_usuario_e_transferencia_SSH",
+        "host_origem": "AcmetecPc02",
+        "alias_ssh": "ryzen-cf",
+        "caminho_zip_original": "/home/lamggm/Downloads/2WD smart car arduino robot chassis - 4738179.zip",
+        "original_remoto_preservado": true,
+        "sha256_zip_origem": "935a7d3ad79cdceb4a4e8b67ec071314cbbe47985a1a55aebf594edc803928ff"
+      },
+      "unidades_origem": {
+        "sistema_blender": "METRIC",
+        "metros_por_unidade_cena": 0.0010000000474974513,
+        "conclusao": "Unidades de cena correspondem a milímetros; STL por si só não codifica a unidade. Não é medição física."
+      },
+      "derivacao": {
+        "objeto": "RobotChassis.001",
+        "operacao": "Exportação do objeto existente aplicando matrix_world; geometria não remodelada e sem redimensionamento",
+        "sha256_blend_origem": "bdaf002db1fe614a7ee0c5c21e4258803cd2f9eba35aadcfdb4e275114a8f042",
+        "triangulos": 10836
+      }
+    },
+    {
+      "id": "rodizio_4738179_derivado",
+      "componente": "Rodízio — derivado da montagem de referência",
+      "caminho": "arquivos/chassi-2wd-B/rodizio_derivado_mm.stl",
+      "formato": ".stl",
+      "bytes": 786484,
+      "sha256": "daca245f3ac22379f39d999a37be70c5543b33f6d61ae2e3606461d7f3413641",
+      "origem_url": "https://www.thingiverse.com/thing:4738179",
+      "download_url": null,
+      "autor": "dasaki (conforme README e LICENSE do pacote)",
+      "licenca": {
+        "situacao": "identificada",
+        "identificador": "GNU-GPL declarada no pacote, versão não informada",
+        "evidencia": "licencas/chassi-4738179-LICENSE-original.txt",
+        "limite": "O README declara remixes de várias fontes; condições/licenças desses componentes não foram auditadas. Não presumir autorização uniforme de redistribuição."
+      },
+      "correspondencia": "Conjunto da família visual B, com extremidade arredondada e abertura circular; medidas/furação exata e equivalência às peças reais não verificadas.",
+      "limitacoes": [
+        "Não é STEP: originais do pacote são STL e Blender.",
+        "A base exportada inclui suportes; sua altura total não é a espessura da chapa.",
+        "Posições e origem foram preservadas da montagem de referência; não são transformações ROS calibradas.",
+        "O rodízio e as rodas representados são referências, sem confirmação dimensional das peças físicas."
+      ],
+      "escolha_componente_confirmada": true,
+      "uso_recomendado": "referencia_a_conferir_na_peca_real",
+      "validacao": {
+        "arquivo": "/home/lamggm/.hermes/cache/scratch/slamderson-chassi-thingiverse-4738179/rodizio_derivado_mm.stl",
+        "formato": ".stl",
+        "bytes": 786484,
+        "sha256": "daca245f3ac22379f39d999a37be70c5543b33f6d61ae2e3606461d7f3413641",
+        "ferramenta": "FreeCAD",
+        "versao_ferramenta": "1.1.4",
+        "triangulos": 15728,
+        "dimensoes": [
+          37.99991798400879,
+          46.4938850402832,
+          39.97554540634155
+        ],
+        "unidade_dimensoes": "unidades brutas do STL; formato não declara unidade física",
+        "estado": "importado",
+        "sha256_geometria": "daca245f3ac22379f39d999a37be70c5543b33f6d61ae2e3606461d7f3413641"
+      },
+      "arquivo_local_para_abrir": "arquivos/chassi-2wd-B/rodizio_derivado_mm.stl",
+      "obtencao": {
+        "tipo": "download_manual_do_usuario_e_transferencia_SSH",
+        "host_origem": "AcmetecPc02",
+        "alias_ssh": "ryzen-cf",
+        "caminho_zip_original": "/home/lamggm/Downloads/2WD smart car arduino robot chassis - 4738179.zip",
+        "original_remoto_preservado": true,
+        "sha256_zip_origem": "935a7d3ad79cdceb4a4e8b67ec071314cbbe47985a1a55aebf594edc803928ff"
+      },
+      "unidades_origem": {
+        "sistema_blender": "METRIC",
+        "metros_por_unidade_cena": 0.0010000000474974513,
+        "conclusao": "Unidades de cena correspondem a milímetros; STL por si só não codifica a unidade. Não é medição física."
+      },
+      "derivacao": {
+        "objeto": "Caster",
+        "operacao": "Exportação do objeto existente aplicando matrix_world; geometria não remodelada e sem redimensionamento",
+        "sha256_blend_origem": "bdaf002db1fe614a7ee0c5c21e4258803cd2f9eba35aadcfdb4e275114a8f042",
+        "triangulos": 15728
+      }
+    }
+  ],
+  "backup_documentacao": "/home/lamggm/.hermes/backups/slamderson/2026-11-04_155528-modelos-cad",
+  "pendencias": [
+    "Conferir medidas e furação do encoder cujo modelo foi confirmado visualmente pelo autor.",
+    "Disco encoder TT avulso com correspondência confirmada não obtido.",
+    "Chassi B com montagem de referência e rodízio derivado disponíveis; conferir medidas e furação reais. Rodas, bateria e acessórios ainda precisam de identificação/revisão para geometrias exatas."
+  ],
+  "rejeitados": [
+    {
+      "name": "l298n-modulo-duplo.stp",
+      "repo": "Mayoogh/KiCAD-Custom-Libraries-",
+      "upstream_path": "Motor_Driver/L298_Breakout_board/L298N.stp",
+      "commit": "71b1199b1863b1d4ce4d9fbe3ff4cc628c93054a",
+      "source_url": "https://github.com/Mayoogh/KiCAD-Custom-Libraries-/blob/71b1199b1863b1d4ce4d9fbe3ff4cc628c93054a/Motor_Driver/L298_Breakout_board/L298N.stp",
+      "download_url": "https://raw.githubusercontent.com/Mayoogh/KiCAD-Custom-Libraries-/71b1199b1863b1d4ce4d9fbe3ff4cc628c93054a/Motor_Driver/L298_Breakout_board/L298N.stp",
+      "absolute_path": "/home/lamggm/.hermes/cache/scratch/slamderson-cad-eletronica/l298n-modulo-duplo.stp",
+      "bytes": 3150769,
+      "sha256": "1ffb4031e29069c9ba94ada6e2a5702a2e5eeef20583a0482a711013bd08c47b",
+      "format": "STEP",
+      "validation": {
+        "absolute_path": "/home/lamggm/.hermes/cache/scratch/slamderson-cad-eletronica/l298n-modulo-duplo.stp",
+        "bytes": 3150769,
+        "sha256": "1ffb4031e29069c9ba94ada6e2a5702a2e5eeef20583a0482a711013bd08c47b",
+        "is_html": false,
+        "step_signature_valid": true,
+        "cad_reader": "FreeCAD 1.1.4 / Part.read",
+        "is_null": false,
+        "is_valid": false,
+        "shape_type": "Compound",
+        "solids": 1,
+        "shells": 16,
+        "faces": 1537,
+        "bbox_mm_xyz": [
+          2e+100,
+          2e+100,
+          28.0
+        ],
+        "solids_bbox_mm_xyz": [
+          43.50000000000001,
+          43.5,
+          28.0
+        ],
+        "volume_mm3": 1.5999999999999997e+101
+      },
+      "exact_hardware_match_confirmed": false,
+      "match_confidence": {
+        "family": "media",
+        "exact_board": "nao confirmada; hardware fisico nao identificado"
+      },
+      "component": "Modulo L298N, alternativa rejeitada por validacao geometrica",
+      "author": "desconhecido; disponibilizado por Mayoogh",
+      "license": "desconhecida",
+      "license_url": null,
+      "recommended": false,
+      "notes": [
+        "STEP real, nao HTML, mas shape.isValid() retornou false e o envelope global possui valores nao fisicos ~2e100 mm.",
+        "Nao utilizar para montagem; mantido somente como evidencia de pesquisa.",
+        "As duas alternativas L298N sao copias identicas por SHA-256."
+      ]
+    },
+    {
+      "name": "l298n-modulo-alternativo.stp",
+      "repo": "Daniel-Jimenez02/Club-de-robotica-2026",
+      "upstream_path": "Utilidades Robóticas 🤖/Fusion360/L298N.stp",
+      "commit": "3cd483e8b60be0555fb57808c663b6bb0194ee3c",
+      "source_url": "https://github.com/Daniel-Jimenez02/Club-de-robotica-2026/blob/3cd483e8b60be0555fb57808c663b6bb0194ee3c/Utilidades%20Rob%C3%B3ticas%20%F0%9F%A4%96/Fusion360/L298N.stp",
+      "download_url": "https://raw.githubusercontent.com/Daniel-Jimenez02/Club-de-robotica-2026/3cd483e8b60be0555fb57808c663b6bb0194ee3c/Utilidades%20Rob%C3%B3ticas%20%F0%9F%A4%96/Fusion360/L298N.stp",
+      "absolute_path": "/home/lamggm/.hermes/cache/scratch/slamderson-cad-eletronica/l298n-modulo-alternativo.stp",
+      "bytes": 3150769,
+      "sha256": "1ffb4031e29069c9ba94ada6e2a5702a2e5eeef20583a0482a711013bd08c47b",
+      "format": "STEP",
+      "validation": {
+        "absolute_path": "/home/lamggm/.hermes/cache/scratch/slamderson-cad-eletronica/l298n-modulo-alternativo.stp",
+        "bytes": 3150769,
+        "sha256": "1ffb4031e29069c9ba94ada6e2a5702a2e5eeef20583a0482a711013bd08c47b",
+        "is_html": false,
+        "step_signature_valid": true,
+        "cad_reader": "FreeCAD 1.1.4 / Part.read",
+        "is_null": false,
+        "is_valid": false,
+        "shape_type": "Compound",
+        "solids": 1,
+        "shells": 16,
+        "faces": 1537,
+        "bbox_mm_xyz": [
+          2e+100,
+          2e+100,
+          28.0
+        ],
+        "solids_bbox_mm_xyz": [
+          43.50000000000001,
+          43.5,
+          28.0
+        ],
+        "volume_mm3": 1.5999999999999997e+101
+      },
+      "exact_hardware_match_confirmed": false,
+      "match_confidence": {
+        "family": "media",
+        "exact_board": "nao confirmada; hardware fisico nao identificado"
+      },
+      "component": "Modulo L298N, alternativa rejeitada por validacao geometrica",
+      "author": "desconhecido; disponibilizado por Daniel-Jimenez02",
+      "license": "desconhecida",
+      "license_url": null,
+      "recommended": false,
+      "notes": [
+        "STEP real, nao HTML, mas shape.isValid() retornou false e o envelope global possui valores nao fisicos ~2e100 mm.",
+        "Nao utilizar para montagem; mantido somente como evidencia de pesquisa.",
+        "As duas alternativas L298N sao copias identicas por SHA-256."
+      ]
+    }
+  ],
+  "observacoes": [
+    "Nenhum arquivo foi publicado ou enviado a repositório remoto.",
+    "O workspace não é um repositório Git inicializado; arquivos apenas salvos localmente.",
+    "Os ZIPs contêm originais preservados; a compactação local do ESP32S é declarada.",
+    "STEP de referência não é automaticamente uma malha de colisão ou visualização ROS pronta."
+  ]
+}

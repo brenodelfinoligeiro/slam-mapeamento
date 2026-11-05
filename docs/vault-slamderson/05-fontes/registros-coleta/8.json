@@ -1,0 +1,17 @@
+{
+  "fonte_id": 8,
+  "nome": "st-l298-copia-tremtech",
+  "url_solicitada": "https://store.tremtech.com/content/l298.pdf",
+  "tipo": "pdf",
+  "url_download": "https://store.tremtech.com/content/l298.pdf",
+  "content_type": "application/pdf",
+  "acesso": "2026-11-04T18:08:47.728377+00:00",
+  "caminho": "05-fontes/pdf/st-l298-copia-tremtech.pdf",
+  "sha256": "d0fab11686343b5db91f84bd4b1dcb7b0c99d940672bc8ddd6fff4e340843551",
+  "bytes": 1473850,
+  "paginas": 23,
+  "metadados_pdf": "Title:           Datasheet - L298 - Dual full-bridge driver\nSubject:         The L298 is an integrated monolithic circuit in a 15- lead Multiwatt and PowerSO20 packages\nAuthor:          STMICROELECTRONICS\nCreator:         C2 v20.4.0000 build 240 - c2_rendition_config : Techlit_Active\nProducer:        Antenna House PDF Output Library 7.2.1732; modified using iText 2.1.7 by 1T3XT\nCreationDate:    Fri Oct  6 12:49:37 2023 -03\nModDate:         Tue Oct 10 08:53:31 2023 -03\nCustom Metadata: yes\nMetadata Stream: yes\nTagged:          yes\nUserProperties:  no\nSuspects:        no\nForm:            none\nJavaScript:      no\nPages:           23\nEncrypted:       no\nPage size:       595.276 x 841.89 pts (A4)\nPage rot:        0\nFile size:       1473850 bytes\nOptimized:       no\nPDF version:     1.3\n",
+  "evidencia": "05-fontes/evidencias/st-l298-copia-tremtech.txt",
+  "caracteres_extraidos": 51313,
+  "estado": "obtido"
+}

@@ -1,0 +1,23 @@
+{
+  "arquivo": "/home/lamggm/.hermes/cache/scratch/slamderson-cad-eletronica/l298n-freecad-library.step",
+  "formato": ".step",
+  "bytes": 626259,
+  "sha256": "85a25934934a49eaca09fd8db0e59b1eb5095bb3705ac0943f9bdb4e9be82af5",
+  "ferramenta": "FreeCAD",
+  "versao_ferramenta": "1.1.4",
+  "solidos": 76,
+  "faces": 530,
+  "arestas": 1093,
+  "geometria_valida": true,
+  "dimensoes": [
+    43.0,
+    43.0,
+    28.0
+  ],
+  "unidade_dimensoes": "mm internos do FreeCAD, após importação STEP",
+  "volume_mm3": 13601.838923944439,
+  "malha_previa": "/home/lamggm/.hermes/cache/scratch/slamderson-cad-validacao/l298n_step-previa.stl",
+  "triangulos_previa": 14136,
+  "estado": "importado",
+  "sha256_geometria": "85a25934934a49eaca09fd8db0e59b1eb5095bb3705ac0943f9bdb4e9be82af5"
+}

@@ -1,0 +1,10 @@
+{
+  "tipo": "atualizacao_sobre_workspace_existente",
+  "arquivo": "robo-movel-nav2-atualizacao-v1.zip",
+  "sha256": "a8450010dc3cc1b7de158f61768087ed4a21195c790919048f363c51a55fb9a6",
+  "bytes": 276566,
+  "arquivos": 119,
+  "crc_zip_aprovado": true,
+  "extracao_identica_ao_empacotado": true,
+  "limite": "O ZIP não é um workspace independente. Fonte instalada/E2E executada no workspace completo; ZIP extraído verificado por CRC e identidade de bytes. Sem commit/push."
+}

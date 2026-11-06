@@ -1,0 +1,37 @@
+[INFO] [launch]: All log files can be found below /work/.ros/log/2026-11-06-13-13-56-481572-ccb414f15b31-676
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [robot_state_publisher-1]: process started with pid [690]
+[INFO] [simular-2]: process started with pid [691]
+[INFO] [converter_velocidade-3]: process started with pid [692]
+[INFO] [calcular_odometria-4]: process started with pid [693]
+[INFO] [tratar_imu-5]: process started with pid [694]
+[INFO] [ekf_node-6]: process started with pid [695]
+[INFO] [trajetorias-7]: process started with pid [696]
+[robot_state_publisher-1] [INFO] [1793970836.675339462] [robot_state_publisher]: Robot initialized
+[ekf_node-6] [INFO] [1793970836.681975571] [estimador_local]: Waiting for clock to start...
+[simular-2] [WARN] [1793970837.015611592] [simulador_base]: SIMULAÇÃO VIRTUAL: defaults geométricos de referência CAD, não calibração física; o launch pode fornecer raio_roda e distancia_rodas. 720 pulsos/volta é resolução virtual, não medida. Contagens signed não certificam direção do encoder real de canal único. IMU planar idealizada, nivelada e alinhada ao corpo, sem braço de alavanca. /simulacao/referencia é ground truth para avaliação, nunca entrada do estimador.
+[simular-2] [WARN] [1793970842.825921553] [simulador_base]: Referência rejeitada: nomes/velocidades/marca temporal inválidos, antigos, repetidos ou futuros além de tolerancia_futuro.
+[simular-2] [WARN] [1793970847.185690432] [simulador_base]: Referência rejeitada: nomes/velocidades/marca temporal inválidos, antigos, repetidos ou futuros além de tolerancia_futuro.
+[simular-2] [WARN] [1793970849.385874448] [simulador_base]: Referência rejeitada: nomes/velocidades/marca temporal inválidos, antigos, repetidos ou futuros além de tolerancia_futuro.
+[simular-2] [WARN] [1793970857.245661459] [simulador_base]: Referência rejeitada: nomes/velocidades/marca temporal inválidos, antigos, repetidos ou futuros além de tolerancia_futuro.
+[simular-2] [WARN] [1793970859.805639349] [simulador_base]: Referência rejeitada: nomes/velocidades/marca temporal inválidos, antigos, repetidos ou futuros além de tolerancia_futuro.
+[ekf_node-6] [ERROR] [1793970862.757576816] [estimador_local]: Failed to meet update rate! Took 0.11999999999999999556seconds. Try decreasing the rate, limiting sensor output frequency, or limiting the number of sensors.
+[ekf_node-6] [ERROR] [1793970862.757857788] [estimador_local]: Failed to meet update rate! Took 0.10000000000000000555seconds. Try decreasing the rate, limiting sensor output frequency, or limiting the number of sensors.
+[ekf_node-6] [ERROR] [1793970862.758026871] [estimador_local]: Failed to meet update rate! Took 0.10000000000000000555seconds. Try decreasing the rate, limiting sensor output frequency, or limiting the number of sensors.
+[WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+[INFO] [trajetorias-7]: sending signal 'SIGINT' to process[trajetorias-7]
+[INFO] [ekf_node-6]: sending signal 'SIGINT' to process[ekf_node-6]
+[INFO] [tratar_imu-5]: sending signal 'SIGINT' to process[tratar_imu-5]
+[INFO] [calcular_odometria-4]: sending signal 'SIGINT' to process[calcular_odometria-4]
+[INFO] [converter_velocidade-3]: sending signal 'SIGINT' to process[converter_velocidade-3]
+[INFO] [simular-2]: sending signal 'SIGINT' to process[simular-2]
+[INFO] [robot_state_publisher-1]: sending signal 'SIGINT' to process[robot_state_publisher-1]
+[ekf_node-6] [INFO] [1793970862.771257800] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[robot_state_publisher-1] [INFO] [1793970862.775900331] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[INFO] [robot_state_publisher-1]: process has finished cleanly [pid 690]
+[INFO] [ekf_node-6]: process has finished cleanly [pid 695]
+[INFO] [simular-2]: process has finished cleanly [pid 691]
+[INFO] [trajetorias-7]: process has finished cleanly [pid 696]
+[INFO] [calcular_odometria-4]: process has finished cleanly [pid 693]
+[INFO] [tratar_imu-5]: process has finished cleanly [pid 694]
+[INFO] [converter_velocidade-3]: process has finished cleanly [pid 692]

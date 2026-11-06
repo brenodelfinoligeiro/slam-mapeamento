@@ -1,0 +1,2707 @@
+{
+  "revisao": "R04",
+  "origem": "docs/carcaca-r03/slamderson-coberto-r03.FCStd",
+  "sha256_origem": "17b134131029a156b531ed83f3edac7e28056b32844b493bcfdfd47a23993eb7",
+  "impressora": "Ender-3 V3 SE",
+  "volume_referencia_mm": [
+    220,
+    220,
+    250
+  ],
+  "bico_assumido_mm": 0.4,
+  "camada_assumida_mm": 0.2,
+  "brim_referencia_mm": 5,
+  "margem_adicional_por_borda_mm": 3,
+  "gap_junta_corpo_mm": 0.6,
+  "folga_lateral_lingueta_mm": 0.4,
+  "furo_passante_M3_mm": 3.4,
+  "bolso_porca_M3_AF_mm": 5.8,
+  "bolso_porca_M3_profundidade_mm": 2.8,
+  "pecas": [
+    {
+      "codigo": "P01",
+      "nome": "Saia dianteira",
+      "quantidade": 1,
+      "objetos": [
+        "SaiaFrente"
+      ],
+      "rotacao_impressao": [
+        [
+          1,
+          0,
+          0
+        ],
+        180
+      ],
+      "condicao": "cupom e montagem a seco antes do uso",
+      "suportes": "local sob orelhas e linguetas; nao preencher arcos",
+      "arquivo": "stl/P01.stl",
+      "dimensoes_impressao_mm": [
+        170.0,
+        126.00000000000001,
+        40.60000000000001
+      ],
+      "triangulos": 5244,
+      "sha256": "4d86404af57491d91eaefc509be8a83d0a46bae4d0b8436f84c73bd8bddbb2c0",
+      "volume_mm3": 37184.115087999344
+    },
+    {
+      "codigo": "P02",
+      "nome": "Saia traseira",
+      "quantidade": 1,
+      "objetos": [
+        "SaiaTras"
+      ],
+      "rotacao_impressao": [
+        [
+          1,
+          0,
+          0
+        ],
+        180
+      ],
+      "condicao": "cupom e montagem a seco antes do uso",
+      "suportes": "local sob orelhas e linguetas",
+      "arquivo": "stl/P02.stl",
+      "dimensoes_impressao_mm": [
+        170.0,
+        97.7,
+        40.60000000000006
+      ],
+      "triangulos": 6378,
+      "sha256": "95bea05743be82e8293c745896d0d911f2daa5c6bef8ecb205c9097c0b7170de",
+      "volume_mm3": 21929.411144473637
+    },
+    {
+      "codigo": "P03",
+      "nome": "Teto dianteiro esquerdo",
+      "quantidade": 1,
+      "objetos": [
+        "P03_Teto"
+      ],
+      "rotacao_impressao": [
+        [
+          1,
+          0,
+          0
+        ],
+        180
+      ],
+      "condicao": "cupom e montagem a seco antes do uso",
+      "suportes": "local nas linguetas laterais; face externa do teto na mesa",
+      "arquivo": "stl/P03.stl",
+      "dimensoes_impressao_mm": [
+        84.69999999999999,
+        126.00000000000001,
+        46.40000000000002
+      ],
+      "triangulos": 2132,
+      "sha256": "cff75393648bab4c7224c07ba3600220d44dba2aefa8aeccd0be04d5a5d3da9a",
+      "volume_mm3": 50145.35642128734
+    },
+    {
+      "codigo": "P04",
+      "nome": "Teto dianteiro direito",
+      "quantidade": 1,
+      "objetos": [
+        "P04_Teto"
+      ],
+      "rotacao_impressao": [
+        [
+          1,
+          0,
+          0
+        ],
+        180
+      ],
+      "condicao": "cupom e montagem a seco antes do uso",
+      "suportes": "local nas linguetas laterais; face externa do teto na mesa",
+      "arquivo": "stl/P04.stl",
+      "dimensoes_impressao_mm": [
+        84.7,
+        126.00000000000001,
+        46.40000000000002
+      ],
+      "triangulos": 2132,
+      "sha256": "7d40c84664d91fcf0e4bdd96666b68e66c382a8c447c67914a8f2981fb644864",
+      "volume_mm3": 50145.356421287324
+    },
+    {
+      "codigo": "P05",
+      "nome": "Teto traseiro esquerdo",
+      "quantidade": 1,
+      "objetos": [
+        "P05_Teto"
+      ],
+      "rotacao_impressao": [
+        [
+          1,
+          0,
+          0
+        ],
+        180
+      ],
+      "condicao": "cupom e montagem a seco antes do uso",
+      "suportes": "local nas linguetas laterais; face externa do teto na mesa",
+      "arquivo": "stl/P05.stl",
+      "dimensoes_impressao_mm": [
+        84.69999999999999,
+        97.70000000000003,
+        46.400000000000034
+      ],
+      "triangulos": 1828,
+      "sha256": "cbee04335b8935be0ef3b1076ea93f4711c721d3ac5f9ecf09a0a100a0e3c556",
+      "volume_mm3": 47222.194840029144
+    },
+    {
+      "codigo": "P06",
+      "nome": "Teto traseiro direito",
+      "quantidade": 1,
+      "objetos": [
+        "P06_Teto"
+      ],
+      "rotacao_impressao": [
+        [
+          1,
+          0,
+          0
+        ],
+        180
+      ],
+      "condicao": "cupom e montagem a seco antes do uso",
+      "suportes": "local nas linguetas laterais; face externa do teto na mesa",
+      "arquivo": "stl/P06.stl",
+      "dimensoes_impressao_mm": [
+        84.7,
+        97.70000000000003,
+        46.400000000000034
+      ],
+      "triangulos": 1828,
+      "sha256": "6d82fe23327e3e1f063db90f97aef3a2059bb1906b305a6c06774fd8ba4fa727",
+      "volume_mm3": 47222.19484002913
+    },
+    {
+      "codigo": "P07",
+      "nome": "Portinhola AA",
+      "quantidade": 1,
+      "objetos": [
+        "PortinholaAA"
+      ],
+      "rotacao_impressao": [
+        [
+          1,
+          0,
+          0
+        ],
+        90
+      ],
+      "condicao": "cupom e montagem a seco antes do uso",
+      "suportes": "nao",
+      "arquivo": "stl/P07.stl",
+      "dimensoes_impressao_mm": [
+        94.0,
+        34.00000000000001,
+        2.400000000000004
+      ],
+      "triangulos": 1028,
+      "sha256": "cf1f7453cd7839f2dd50fba52d7dceb196f08824a0812ebcee31017e6eea07c0",
+      "volume_mm3": 7626.819826709401
+    },
+    {
+      "codigo": "P08",
+      "nome": "Portinhola PB",
+      "quantidade": 1,
+      "objetos": [
+        "PortinholaPB"
+      ],
+      "rotacao_impressao": [
+        [
+          1,
+          0,
+          0
+        ],
+        90
+      ],
+      "condicao": "cupom e montagem a seco antes do uso",
+      "suportes": "nao",
+      "arquivo": "stl/P08.stl",
+      "dimensoes_impressao_mm": [
+        160.0,
+        41.4,
+        2.40000000000001
+      ],
+      "triangulos": 1060,
+      "sha256": "1bfffc7264790b811e76c5c2d6b5344d560cb3c779226cda1e75af8afcd7b838",
+      "volume_mm3": 15566.019826709437
+    },
+    {
+      "codigo": "P09",
+      "nome": "Painel lateral PB",
+      "quantidade": 1,
+      "objetos": [
+        "TampaServicoPB"
+      ],
+      "rotacao_impressao": [
+        [
+          0,
+          1,
+          0
+        ],
+        -90
+      ],
+      "condicao": "cupom e montagem a seco antes do uso",
+      "suportes": "nao",
+      "arquivo": "stl/P09.stl",
+      "dimensoes_impressao_mm": [
+        40.0,
+        75.0,
+        2.40000000000002
+      ],
+      "triangulos": 1028,
+      "sha256": "5b226087c91d920c73ab79ebe12c1953a8cdb400e216f2ab46007b4a5aa5f3d0",
+      "volume_mm3": 7156.419826709419
+    },
+    {
+      "codigo": "P10",
+      "nome": "Uniao interna teto",
+      "quantidade": 2,
+      "objetos": [
+        "UniaoTetoE",
+        "UniaoTetoD"
+      ],
+      "rotacao_impressao": [
+        [
+          1,
+          0,
+          0
+        ],
+        180
+      ],
+      "condicao": "cupom e montagem a seco antes do uso",
+      "suportes": "nao",
+      "arquivo": "stl/P10.stl",
+      "dimensoes_impressao_mm": [
+        14.0,
+        28.0,
+        4.000000000000028
+      ],
+      "triangulos": 1076,
+      "sha256": "8a4e6f3b1c3effe2cb20a4333bc34bde59145425b9176a5c6a3802c0c9a0e1b2",
+      "volume_mm3": 1383.0645836881736
+    },
+    {
+      "codigo": "P11",
+      "nome": "Clipe retencao tampas",
+      "quantidade": 4,
+      "objetos": [
+        "ClipeFE",
+        "ClipeTE",
+        "ClipeFD",
+        "ClipeTD"
+      ],
+      "rotacao_impressao": [
+        [
+          1,
+          0,
+          0
+        ],
+        90
+      ],
+      "condicao": "cupom e montagem a seco antes do uso",
+      "suportes": "nao",
+      "arquivo": "stl/P11.stl",
+      "dimensoes_impressao_mm": [
+        12.0,
+        20.0,
+        7.000000000000002
+      ],
+      "triangulos": 1076,
+      "sha256": "27761808462d0695ef6cd5b9d644b118f6b23ef43a5bbfbf4bb43105f2fd715a",
+      "volume_mm3": 1440.5893670749263
+    },
+    {
+      "codigo": "P12",
+      "nome": "Piso superior",
+      "quantidade": 1,
+      "objetos": [
+        "PisoSuperior"
+      ],
+      "rotacao_impressao": null,
+      "condicao": "conferir gabarito de chassis, placa real e cooler",
+      "suportes": "nao",
+      "arquivo": "stl/P12.stl",
+      "dimensoes_impressao_mm": [
+        130.0,
+        197.0,
+        5.0
+      ],
+      "triangulos": 8316,
+      "sha256": "39fed69f8fe2d8cf58782156200af9890771083adcf7997f6a7055ca14cd042f",
+      "volume_mm3": 67375.25844110813
+    },
+    {
+      "codigo": "P13",
+      "nome": "Berco Basike",
+      "quantidade": 1,
+      "objetos": [
+        "BercoPB"
+      ],
+      "rotacao_impressao": null,
+      "condicao": "gabarito chassis; conferir cintas e cantos/portas reais",
+      "suportes": "nao",
+      "arquivo": "stl/P13.stl",
+      "dimensoes_impressao_mm": [
+        156.0,
+        73.0,
+        7.399999999999999
+      ],
+      "triangulos": 4360,
+      "sha256": "fc24dad723ec621eb4e3e32eaecaec9af9cf9c9cbe36cfb4ff82c90bada32171",
+      "volume_mm3": 25328.7918321374
+    },
+    {
+      "codigo": "P14",
+      "nome": "Berco holder quatro AA",
+      "quantidade": 1,
+      "objetos": [
+        "BercoAA"
+      ],
+      "rotacao_impressao": null,
+      "condicao": "MEDIR holder real; reserva 75x70 mm, folga 0.3 mm por lado",
+      "suportes": "nao",
+      "arquivo": "stl/P14.stl",
+      "dimensoes_impressao_mm": [
+        81.0,
+        76.0,
+        7.0
+      ],
+      "triangulos": 4580,
+      "sha256": "b1b23c37ae24a83e8e5f13b6f455f2743947c376bd79ca518a779588188dcdbd",
+      "volume_mm3": 15249.762843307919
+    },
+    {
+      "codigo": "P15",
+      "nome": "Coluna principal dianteira",
+      "quantidade": 2,
+      "objetos": [
+        "P15_0",
+        "P15_1"
+      ],
+      "rotacao_impressao": null,
+      "condicao": "gabarito chassis; M3x50 passante",
+      "suportes": "nao",
+      "arquivo": "stl/P15.stl",
+      "dimensoes_impressao_mm": [
+        10.0,
+        10.0,
+        38.6
+      ],
+      "triangulos": 1008,
+      "sha256": "abf39d4d87a1c1f7bb69e646f792eca2906718abb516e0bc2e0dcbd4418c25f2",
+      "volume_mm3": 2681.179683835595
+    },
+    {
+      "codigo": "P16",
+      "nome": "Coluna principal traseira",
+      "quantidade": 2,
+      "objetos": [
+        "P16_0",
+        "P16_1"
+      ],
+      "rotacao_impressao": null,
+      "condicao": "gabarito chassis; M3x50 passante",
+      "suportes": "nao",
+      "arquivo": "stl/P16.stl",
+      "dimensoes_impressao_mm": [
+        10.0,
+        10.0,
+        34.6
+      ],
+      "triangulos": 1008,
+      "sha256": "7c3299650ce6383b7c71608cfe2ad386a01e756899ecc643f4945fa1934364fa",
+      "volume_mm3": 2403.3372295521135
+    },
+    {
+      "codigo": "P17",
+      "nome": "Travessa traseira",
+      "quantidade": 2,
+      "objetos": [
+        "TravessaE",
+        "TravessaD"
+      ],
+      "rotacao_impressao": null,
+      "condicao": "gabarito chassis; iguais com rotação de 180 graus",
+      "suportes": "nao",
+      "arquivo": "stl/P17.stl",
+      "dimensoes_impressao_mm": [
+        15.0,
+        12.0,
+        4.0
+      ],
+      "triangulos": 520,
+      "sha256": "2be641f52fa45b3c6520735fd18e4e1709adbaf9112e04156c5562e7d1ac336e",
+      "volume_mm3": 683.6831889245019
+    },
+    {
+      "codigo": "P18",
+      "nome": "Coluna C1",
+      "quantidade": 2,
+      "objetos": [
+        "ColunaC1E",
+        "ColunaC1D"
+      ],
+      "rotacao_impressao": null,
+      "condicao": "base C1 e gabarito de furação",
+      "suportes": "nao",
+      "arquivo": "stl/P18.stl",
+      "dimensoes_impressao_mm": [
+        8.0,
+        8.0,
+        50.0
+      ],
+      "triangulos": 1008,
+      "sha256": "85cfca87a958185ad3e7e055265317c022ce0c180e6d4fb77aece67751cf4019",
+      "volume_mm3": 2059.3139844281086
+    },
+    {
+      "codigo": "P19",
+      "nome": "Base compacta C1",
+      "quantidade": 1,
+      "objetos": [
+        "PonteLidar"
+      ],
+      "rotacao_impressao": null,
+      "condicao": "CONFIRMAR matriz proposta 43x43 mm; bitola/rosca do C1 real não identificada",
+      "suportes": "nao",
+      "arquivo": "stl/P19.stl",
+      "dimensoes_impressao_mm": [
+        62.0,
+        62.0,
+        3.0
+      ],
+      "triangulos": 4852,
+      "sha256": "d1cf8a100cf5afc080e90f43af14f4514a041e0b168d0b9188a75eb92d978c8d",
+      "volume_mm3": 10932.658372378957
+    },
+    {
+      "codigo": "P20",
+      "nome": "Espacador C1",
+      "quantidade": 4,
+      "objetos": [
+        "EspacadorC1_0",
+        "EspacadorC1_1",
+        "EspacadorC1_2",
+        "EspacadorC1_3"
+      ],
+      "rotacao_impressao": null,
+      "condicao": "não usar M3 no sensor sem conferir a rosca real",
+      "suportes": "nao",
+      "arquivo": "stl/P20.stl",
+      "dimensoes_impressao_mm": [
+        5.6,
+        5.6,
+        2.0
+      ],
+      "triangulos": 1008,
+      "sha256": "1380a3d17623eba04756032519329dd03b2ffc0192f07a3761e8eeb8e7943d8b",
+      "volume_mm3": 31.10176727053895
+    },
+    {
+      "codigo": "P21",
+      "nome": "Espacador Pi seis mm",
+      "quantidade": 4,
+      "objetos": [
+        "ApoioPi_0",
+        "ApoioPi_1",
+        "ApoioPi_2",
+        "ApoioPi_3"
+      ],
+      "rotacao_impressao": null,
+      "condicao": "M2.5, não M3; conferir placa e cooler",
+      "suportes": "nao",
+      "arquivo": "stl/P21.stl",
+      "dimensoes_impressao_mm": [
+        6.0,
+        6.0,
+        6.0
+      ],
+      "triangulos": 1008,
+      "sha256": "a64b45ab003817b47e09d891c7550430df63cd0ff0c5f078023156c77a664004",
+      "volume_mm3": 132.70087368763285
+    },
+    {
+      "codigo": "P22",
+      "nome": "Espacador L298N dez mm",
+      "quantidade": 4,
+      "objetos": [
+        "ApoioL298_0",
+        "ApoioL298_1",
+        "ApoioL298_2",
+        "ApoioL298_3"
+      ],
+      "rotacao_impressao": null,
+      "condicao": "CAD de referência 37x37 mm; confirmar módulo/chassis reais",
+      "suportes": "nao",
+      "arquivo": "stl/P22.stl",
+      "dimensoes_impressao_mm": [
+        6.0,
+        6.0,
+        10.0
+      ],
+      "triangulos": 1008,
+      "sha256": "1ba3f90193c2ee5be33fcca98f269aef1b587304eb576441accc7cce57285155",
+      "volume_mm3": 191.95131113433638
+    },
+    {
+      "codigo": "P23",
+      "nome": "Espacador MPU quatro mm",
+      "quantidade": 2,
+      "objetos": [
+        "ApoioMPU_0",
+        "ApoioMPU_1"
+      ],
+      "rotacao_impressao": null,
+      "condicao": "CAD de referência, conferir módulo real",
+      "suportes": "nao",
+      "arquivo": "stl/P23.stl",
+      "dimensoes_impressao_mm": [
+        6.0,
+        6.0,
+        4.0
+      ],
+      "triangulos": 1008,
+      "sha256": "b18d9ca45a2d8ac78f76dff50347537caeabc47013e9a9de471278bc56357747",
+      "volume_mm3": 88.46724912508859
+    },
+    {
+      "codigo": "P24",
+      "nome": "Berco ESP por velcro",
+      "quantidade": 1,
+      "objetos": [
+        "BercoESP"
+      ],
+      "rotacao_impressao": null,
+      "condicao": "MEDIR placa ESP; usar espuma isolante 2 mm e velcro, sem furos fictícios",
+      "suportes": "nao",
+      "arquivo": "stl/P24.stl",
+      "dimensoes_impressao_mm": [
+        52.0,
+        61.0,
+        5.0
+      ],
+      "triangulos": 1204,
+      "sha256": "a98367c7513929a39fcaf5c83eb01ff911b5961b80003c26b2028754be95dc87",
+      "volume_mm3": 5168.724783386773
+    },
+    {
+      "codigo": "P25",
+      "nome": "Cupom M3 e porcas",
+      "quantidade": 1,
+      "objetos": [],
+      "rotacao_impressao": null,
+      "condicao": "IMPRIMIR PRIMEIRO: furos 3.2/3.4/3.6 e porcas AF5.7/5.8/5.9",
+      "suportes": "nao",
+      "arquivo": "stl/P25.stl",
+      "dimensoes_impressao_mm": [
+        70.0,
+        38.0,
+        5.000000000000001
+      ],
+      "triangulos": 3136,
+      "sha256": "d54b31fba299097457c9fc1b0f9c97b46d39079572f7505aa4e6465daedaaae6",
+      "volume_mm3": 12796.308569004552
+    }
+  ],
+  "quantidade_tipos_STL": 25,
+  "quantidade_total_a_imprimir": 43,
+  "parafusos": [
+    {
+      "grupo": "A",
+      "descricao": "Clipe de retencao, saia",
+      "metrica": "M3",
+      "comprimento_mm": 12,
+      "cabeca": "cilindrica Allen",
+      "posicao_cabeca_mm": [
+        -66.0,
+        -2.5,
+        86.0
+      ],
+      "eixo_para_dentro": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "porca_alojada_em": "P11",
+      "alvos": [
+        "P11",
+        "P01"
+      ],
+      "condicao": "",
+      "objeto_parafuso": "Parafuso_A_0",
+      "porca": [
+        [
+          -66,
+          5.2,
+          86
+        ],
+        [
+          0,
+          1,
+          0
+        ]
+      ],
+      "arruela_cabeca": true,
+      "arruela_porca": false
+    },
+    {
+      "grupo": "A",
+      "descricao": "Clipe de retencao, tampa",
+      "metrica": "M3",
+      "comprimento_mm": 12,
+      "cabeca": "cilindrica Allen",
+      "posicao_cabeca_mm": [
+        -66.0,
+        -2.5,
+        96.0
+      ],
+      "eixo_para_dentro": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "porca_alojada_em": "P11",
+      "alvos": [
+        "P11",
+        "P03/P04"
+      ],
+      "condicao": "",
+      "objeto_parafuso": "Parafuso_A_1",
+      "porca": [
+        [
+          -66,
+          5.2,
+          96
+        ],
+        [
+          0,
+          1,
+          0
+        ]
+      ],
+      "arruela_cabeca": true,
+      "arruela_porca": false
+    },
+    {
+      "grupo": "A",
+      "descricao": "Clipe de retencao, saia",
+      "metrica": "M3",
+      "comprimento_mm": 12,
+      "cabeca": "cilindrica Allen",
+      "posicao_cabeca_mm": [
+        -66.0,
+        210.5,
+        86.0
+      ],
+      "eixo_para_dentro": [
+        0.0,
+        -1.0,
+        0.0
+      ],
+      "porca_alojada_em": "P11",
+      "alvos": [
+        "P11",
+        "P02"
+      ],
+      "condicao": "",
+      "objeto_parafuso": "Parafuso_A_2",
+      "porca": [
+        [
+          -66,
+          200.4,
+          86
+        ],
+        [
+          0,
+          1,
+          0
+        ]
+      ],
+      "arruela_cabeca": true,
+      "arruela_porca": false
+    },
+    {
+      "grupo": "A",
+      "descricao": "Clipe de retencao, tampa",
+      "metrica": "M3",
+      "comprimento_mm": 12,
+      "cabeca": "cilindrica Allen",
+      "posicao_cabeca_mm": [
+        -66.0,
+        210.5,
+        96.0
+      ],
+      "eixo_para_dentro": [
+        0.0,
+        -1.0,
+        0.0
+      ],
+      "porca_alojada_em": "P11",
+      "alvos": [
+        "P11",
+        "P05/P06"
+      ],
+      "condicao": "",
+      "objeto_parafuso": "Parafuso_A_3",
+      "porca": [
+        [
+          -66,
+          200.4,
+          96
+        ],
+        [
+          0,
+          1,
+          0
+        ]
+      ],
+      "arruela_cabeca": true,
+      "arruela_porca": false
+    },
+    {
+      "grupo": "A",
+      "descricao": "Clipe de retencao, saia",
+      "metrica": "M3",
+      "comprimento_mm": 12,
+      "cabeca": "cilindrica Allen",
+      "posicao_cabeca_mm": [
+        66.0,
+        -2.5,
+        86.0
+      ],
+      "eixo_para_dentro": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "porca_alojada_em": "P11",
+      "alvos": [
+        "P11",
+        "P01"
+      ],
+      "condicao": "",
+      "objeto_parafuso": "Parafuso_A_4",
+      "porca": [
+        [
+          66,
+          5.2,
+          86
+        ],
+        [
+          0,
+          1,
+          0
+        ]
+      ],
+      "arruela_cabeca": true,
+      "arruela_porca": false
+    },
+    {
+      "grupo": "A",
+      "descricao": "Clipe de retencao, tampa",
+      "metrica": "M3",
+      "comprimento_mm": 12,
+      "cabeca": "cilindrica Allen",
+      "posicao_cabeca_mm": [
+        66.0,
+        -2.5,
+        96.0
+      ],
+      "eixo_para_dentro": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "porca_alojada_em": "P11",
+      "alvos": [
+        "P11",
+        "P03/P04"
+      ],
+      "condicao": "",
+      "objeto_parafuso": "Parafuso_A_5",
+      "porca": [
+        [
+          66,
+          5.2,
+          96
+        ],
+        [
+          0,
+          1,
+          0
+        ]
+      ],
+      "arruela_cabeca": true,
+      "arruela_porca": false
+    },
+    {
+      "grupo": "A",
+      "descricao": "Clipe de retencao, saia",
+      "metrica": "M3",
+      "comprimento_mm": 12,
+      "cabeca": "cilindrica Allen",
+      "posicao_cabeca_mm": [
+        66.0,
+        210.5,
+        86.0
+      ],
+      "eixo_para_dentro": [
+        0.0,
+        -1.0,
+        0.0
+      ],
+      "porca_alojada_em": "P11",
+      "alvos": [
+        "P11",
+        "P02"
+      ],
+      "condicao": "",
+      "objeto_parafuso": "Parafuso_A_6",
+      "porca": [
+        [
+          66,
+          200.4,
+          86
+        ],
+        [
+          0,
+          1,
+          0
+        ]
+      ],
+      "arruela_cabeca": true,
+      "arruela_porca": false
+    },
+    {
+      "grupo": "A",
+      "descricao": "Clipe de retencao, tampa",
+      "metrica": "M3",
+      "comprimento_mm": 12,
+      "cabeca": "cilindrica Allen",
+      "posicao_cabeca_mm": [
+        66.0,
+        210.5,
+        96.0
+      ],
+      "eixo_para_dentro": [
+        0.0,
+        -1.0,
+        0.0
+      ],
+      "porca_alojada_em": "P11",
+      "alvos": [
+        "P11",
+        "P05/P06"
+      ],
+      "condicao": "",
+      "objeto_parafuso": "Parafuso_A_7",
+      "porca": [
+        [
+          66,
+          200.4,
+          96
+        ],
+        [
+          0,
+          1,
+          0
+        ]
+      ],
+      "arruela_cabeca": true,
+      "arruela_porca": false
+    },
+    {
+      "grupo": "B",
+      "descricao": "Uniao saia",
+      "metrica": "M3",
+      "comprimento_mm": 10,
+      "cabeca": "cilindrica Allen",
+      "posicao_cabeca_mm": [
+        -85.5,
+        118.0,
+        82.0
+      ],
+      "eixo_para_dentro": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "porca_alojada_em": "P01",
+      "alvos": [
+        "P01",
+        "P02"
+      ],
+      "condicao": "",
+      "objeto_parafuso": "Parafuso_B_8",
+      "porca": [
+        [
+          -78.4,
+          118,
+          82
+        ],
+        [
+          -1,
+          0,
+          0
+        ]
+      ],
+      "arruela_cabeca": true,
+      "arruela_porca": false
+    },
+    {
+      "grupo": "B",
+      "descricao": "Uniao saia",
+      "metrica": "M3",
+      "comprimento_mm": 10,
+      "cabeca": "cilindrica Allen",
+      "posicao_cabeca_mm": [
+        85.5,
+        118.0,
+        82.0
+      ],
+      "eixo_para_dentro": [
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "porca_alojada_em": "P01",
+      "alvos": [
+        "P01",
+        "P02"
+      ],
+      "condicao": "",
+      "objeto_parafuso": "Parafuso_B_9",
+      "porca": [
+        [
+          78.4,
+          118,
+          82
+        ],
+        [
+          1,
+          0,
+          0
+        ]
+      ],
+      "arruela_cabeca": true,
+      "arruela_porca": false
+    },
+    {
+      "grupo": "C",
+      "descricao": "Uniao lateral teto",
+      "metrica": "M3",
+      "comprimento_mm": 10,
+      "cabeca": "cilindrica Allen",
+      "posicao_cabeca_mm": [
+        -85.5,
+        118.0,
+        110.0
+      ],
+      "eixo_para_dentro": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "porca_alojada_em": "P03/P04",
+      "alvos": [
+        "P03/P04",
+        "P05/P06"
+      ],
+      "condicao": "",
+      "objeto_parafuso": "Parafuso_C_10",
+      "porca": [
+        [
+          -78.4,
+          118,
+          110
+        ],
+        [
+          -1,
+          0,
+          0
+        ]
+      ],
+      "arruela_cabeca": true,
+      "arruela_porca": false
+    },
+    {
+      "grupo": "C",
+      "descricao": "Uniao lateral teto",
+      "metrica": "M3",
+      "comprimento_mm": 10,
+      "cabeca": "cilindrica Allen",
+      "posicao_cabeca_mm": [
+        85.5,
+        118.0,
+        110.0
+      ],
+      "eixo_para_dentro": [
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "porca_alojada_em": "P03/P04",
+      "alvos": [
+        "P03/P04",
+        "P05/P06"
+      ],
+      "condicao": "",
+      "objeto_parafuso": "Parafuso_C_11",
+      "porca": [
+        [
+          78.4,
+          118,
+          110
+        ],
+        [
+          1,
+          0,
+          0
+        ]
+      ],
+      "arruela_cabeca": true,
+      "arruela_porca": false
+    },
+    {
+      "grupo": "D",
+      "descricao": "Ponte interna teto",
+      "metrica": "M3",
+      "comprimento_mm": 10,
+      "cabeca": "cilindrica Allen",
+      "posicao_cabeca_mm": [
+        -53.0,
+        104.0,
+        137.5
+      ],
+      "eixo_para_dentro": [
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "porca_alojada_em": "P10",
+      "alvos": [
+        "P10",
+        "P03/P04/P05/P06"
+      ],
+      "condicao": "",
+      "objeto_parafuso": "Parafuso_D_12",
+      "porca": [
+        [
+          -53,
+          104,
+          130.2
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "arruela_cabeca": true,
+      "arruela_porca": false
+    },
+    {
+      "grupo": "D",
+      "descricao": "Ponte interna teto",
+      "metrica": "M3",
+      "comprimento_mm": 10,
+      "cabeca": "cilindrica Allen",
+      "posicao_cabeca_mm": [
+        -53.0,
+        120.0,
+        137.5
+      ],
+      "eixo_para_dentro": [
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "porca_alojada_em": "P10",
+      "alvos": [
+        "P10",
+        "P03/P04/P05/P06"
+      ],
+      "condicao": "",
+      "objeto_parafuso": "Parafuso_D_13",
+      "porca": [
+        [
+          -53,
+          120,
+          130.2
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "arruela_cabeca": true,
+      "arruela_porca": false
+    },
+    {
+      "grupo": "D",
+      "descricao": "Ponte interna teto",
+      "metrica": "M3",
+      "comprimento_mm": 10,
+      "cabeca": "cilindrica Allen",
+      "posicao_cabeca_mm": [
+        53.0,
+        104.0,
+        137.5
+      ],
+      "eixo_para_dentro": [
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "porca_alojada_em": "P10",
+      "alvos": [
+        "P10",
+        "P03/P04/P05/P06"
+      ],
+      "condicao": "",
+      "objeto_parafuso": "Parafuso_D_14",
+      "porca": [
+        [
+          53,
+          104,
+          130.2
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "arruela_cabeca": true,
+      "arruela_porca": false
+    },
+    {
+      "grupo": "D",
+      "descricao": "Ponte interna teto",
+      "metrica": "M3",
+      "comprimento_mm": 10,
+      "cabeca": "cilindrica Allen",
+      "posicao_cabeca_mm": [
+        53.0,
+        120.0,
+        137.5
+      ],
+      "eixo_para_dentro": [
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "porca_alojada_em": "P10",
+      "alvos": [
+        "P10",
+        "P03/P04/P05/P06"
+      ],
+      "condicao": "",
+      "objeto_parafuso": "Parafuso_D_15",
+      "porca": [
+        [
+          53,
+          120,
+          130.2
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "arruela_cabeca": true,
+      "arruela_porca": false
+    },
+    {
+      "grupo": "E",
+      "descricao": "Portinhola AA",
+      "metrica": "M3",
+      "comprimento_mm": 12,
+      "cabeca": "cilindrica Allen",
+      "posicao_cabeca_mm": [
+        -30.0,
+        -4.9,
+        78.4
+      ],
+      "eixo_para_dentro": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "porca_alojada_em": "P01",
+      "alvos": [
+        "P01",
+        "P07"
+      ],
+      "condicao": "",
+      "objeto_parafuso": "Parafuso_E_16",
+      "porca": [
+        [
+          -30,
+          3.2,
+          78.4
+        ],
+        [
+          0,
+          1,
+          0
+        ]
+      ],
+      "arruela_cabeca": true,
+      "arruela_porca": false
+    },
+    {
+      "grupo": "E",
+      "descricao": "Portinhola AA",
+      "metrica": "M3",
+      "comprimento_mm": 12,
+      "cabeca": "cilindrica Allen",
+      "posicao_cabeca_mm": [
+        30.0,
+        -4.9,
+        78.4
+      ],
+      "eixo_para_dentro": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "porca_alojada_em": "P01",
+      "alvos": [
+        "P01",
+        "P07"
+      ],
+      "condicao": "",
+      "objeto_parafuso": "Parafuso_E_17",
+      "porca": [
+        [
+          30,
+          3.2,
+          78.4
+        ],
+        [
+          0,
+          1,
+          0
+        ]
+      ],
+      "arruela_cabeca": true,
+      "arruela_porca": false
+    },
+    {
+      "grupo": "F",
+      "descricao": "Portinhola PB",
+      "metrica": "M3",
+      "comprimento_mm": 12,
+      "cabeca": "cilindrica Allen",
+      "posicao_cabeca_mm": [
+        -55.0,
+        212.9,
+        86.0
+      ],
+      "eixo_para_dentro": [
+        0.0,
+        -1.0,
+        0.0
+      ],
+      "porca_alojada_em": "P02",
+      "alvos": [
+        "P02",
+        "P08"
+      ],
+      "condicao": "",
+      "objeto_parafuso": "Parafuso_F_18",
+      "porca": [
+        [
+          -55,
+          203.4,
+          86
+        ],
+        [
+          0,
+          1,
+          0
+        ]
+      ],
+      "arruela_cabeca": true,
+      "arruela_porca": false
+    },
+    {
+      "grupo": "F",
+      "descricao": "Portinhola PB",
+      "metrica": "M3",
+      "comprimento_mm": 12,
+      "cabeca": "cilindrica Allen",
+      "posicao_cabeca_mm": [
+        55.0,
+        212.9,
+        86.0
+      ],
+      "eixo_para_dentro": [
+        0.0,
+        -1.0,
+        0.0
+      ],
+      "porca_alojada_em": "P02",
+      "alvos": [
+        "P02",
+        "P08"
+      ],
+      "condicao": "",
+      "objeto_parafuso": "Parafuso_F_19",
+      "porca": [
+        [
+          55,
+          203.4,
+          86
+        ],
+        [
+          0,
+          1,
+          0
+        ]
+      ],
+      "arruela_cabeca": true,
+      "arruela_porca": false
+    },
+    {
+      "grupo": "G",
+      "descricao": "Painel lateral PB",
+      "metrica": "M3",
+      "comprimento_mm": 12,
+      "cabeca": "cilindrica Allen",
+      "posicao_cabeca_mm": [
+        87.9,
+        142.0,
+        86.5
+      ],
+      "eixo_para_dentro": [
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "porca_alojada_em": "P02",
+      "alvos": [
+        "P02",
+        "P09"
+      ],
+      "condicao": "",
+      "objeto_parafuso": "Parafuso_G_20",
+      "porca": [
+        [
+          78.4,
+          142,
+          86.5
+        ],
+        [
+          1,
+          0,
+          0
+        ]
+      ],
+      "arruela_cabeca": true,
+      "arruela_porca": false
+    },
+    {
+      "grupo": "G",
+      "descricao": "Painel lateral PB",
+      "metrica": "M3",
+      "comprimento_mm": 12,
+      "cabeca": "cilindrica Allen",
+      "posicao_cabeca_mm": [
+        87.9,
+        199.0,
+        86.5
+      ],
+      "eixo_para_dentro": [
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "porca_alojada_em": "P02",
+      "alvos": [
+        "P02",
+        "P09"
+      ],
+      "condicao": "",
+      "objeto_parafuso": "Parafuso_G_21",
+      "porca": [
+        [
+          78.4,
+          199,
+          86.5
+        ],
+        [
+          1,
+          0,
+          0
+        ]
+      ],
+      "arruela_cabeca": true,
+      "arruela_porca": false
+    },
+    {
+      "grupo": "H",
+      "descricao": "Piso na saia",
+      "metrica": "M3",
+      "comprimento_mm": 10,
+      "cabeca": "cilindrica Allen",
+      "posicao_cabeca_mm": [
+        -61.0,
+        24.0,
+        90.5
+      ],
+      "eixo_para_dentro": [
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "porca_alojada_em": "P01/P02",
+      "alvos": [
+        "P12",
+        "P01/P02"
+      ],
+      "condicao": "",
+      "objeto_parafuso": "Parafuso_H_22",
+      "porca": [
+        [
+          -61,
+          24,
+          82.4
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "arruela_cabeca": true,
+      "arruela_porca": false
+    },
+    {
+      "grupo": "H",
+      "descricao": "Piso na saia",
+      "metrica": "M3",
+      "comprimento_mm": 10,
+      "cabeca": "cilindrica Allen",
+      "posicao_cabeca_mm": [
+        -61.0,
+        194.0,
+        90.5
+      ],
+      "eixo_para_dentro": [
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "porca_alojada_em": "P01/P02",
+      "alvos": [
+        "P12",
+        "P01/P02"
+      ],
+      "condicao": "",
+      "objeto_parafuso": "Parafuso_H_23",
+      "porca": [
+        [
+          -61,
+          194,
+          82.4
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "arruela_cabeca": true,
+      "arruela_porca": false
+    },
+    {
+      "grupo": "H",
+      "descricao": "Piso na saia",
+      "metrica": "M3",
+      "comprimento_mm": 10,
+      "cabeca": "cilindrica Allen",
+      "posicao_cabeca_mm": [
+        61.0,
+        24.0,
+        90.5
+      ],
+      "eixo_para_dentro": [
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "porca_alojada_em": "P01/P02",
+      "alvos": [
+        "P12",
+        "P01/P02"
+      ],
+      "condicao": "",
+      "objeto_parafuso": "Parafuso_H_24",
+      "porca": [
+        [
+          61,
+          24,
+          82.4
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "arruela_cabeca": true,
+      "arruela_porca": false
+    },
+    {
+      "grupo": "H",
+      "descricao": "Piso na saia",
+      "metrica": "M3",
+      "comprimento_mm": 10,
+      "cabeca": "cilindrica Allen",
+      "posicao_cabeca_mm": [
+        61.0,
+        194.0,
+        90.5
+      ],
+      "eixo_para_dentro": [
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "porca_alojada_em": "P01/P02",
+      "alvos": [
+        "P12",
+        "P01/P02"
+      ],
+      "condicao": "",
+      "objeto_parafuso": "Parafuso_H_25",
+      "porca": [
+        [
+          61,
+          194,
+          82.4
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "arruela_cabeca": true,
+      "arruela_porca": false
+    },
+    {
+      "grupo": "I",
+      "descricao": "Colunas principais no chassis",
+      "metrica": "M3",
+      "comprimento_mm": 50,
+      "cabeca": "cilindrica Allen",
+      "posicao_cabeca_mm": [
+        -48.0,
+        33.0,
+        44.9
+      ],
+      "eixo_para_dentro": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "porca_alojada_em": null,
+      "alvos": [
+        "chassis",
+        "P12",
+        "P15/P16/P17"
+      ],
+      "condicao": "Conferir material/espessura 3 mm e furação do chassis físico",
+      "objeto_parafuso": "Parafuso_I_26",
+      "porca": [
+        [
+          -48,
+          33,
+          90.5
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "arruela_cabeca": true,
+      "arruela_porca": true
+    },
+    {
+      "grupo": "I",
+      "descricao": "Colunas principais no chassis",
+      "metrica": "M3",
+      "comprimento_mm": 50,
+      "cabeca": "cilindrica Allen",
+      "posicao_cabeca_mm": [
+        48.0,
+        33.0,
+        44.9
+      ],
+      "eixo_para_dentro": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "porca_alojada_em": null,
+      "alvos": [
+        "chassis",
+        "P12",
+        "P15/P16/P17"
+      ],
+      "condicao": "Conferir material/espessura 3 mm e furação do chassis físico",
+      "objeto_parafuso": "Parafuso_I_27",
+      "porca": [
+        [
+          48,
+          33,
+          90.5
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "arruela_cabeca": true,
+      "arruela_porca": true
+    },
+    {
+      "grupo": "I",
+      "descricao": "Colunas principais no chassis",
+      "metrica": "M3",
+      "comprimento_mm": 50,
+      "cabeca": "cilindrica Allen",
+      "posicao_cabeca_mm": [
+        -58.0,
+        126.0,
+        44.9
+      ],
+      "eixo_para_dentro": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "porca_alojada_em": null,
+      "alvos": [
+        "chassis",
+        "P12",
+        "P15/P16/P17"
+      ],
+      "condicao": "Conferir material/espessura 3 mm e furação do chassis físico",
+      "objeto_parafuso": "Parafuso_I_28",
+      "porca": [
+        [
+          -58,
+          126,
+          90.5
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "arruela_cabeca": true,
+      "arruela_porca": true
+    },
+    {
+      "grupo": "I",
+      "descricao": "Colunas principais no chassis",
+      "metrica": "M3",
+      "comprimento_mm": 50,
+      "cabeca": "cilindrica Allen",
+      "posicao_cabeca_mm": [
+        58.0,
+        126.0,
+        44.9
+      ],
+      "eixo_para_dentro": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "porca_alojada_em": null,
+      "alvos": [
+        "chassis",
+        "P12",
+        "P15/P16/P17"
+      ],
+      "condicao": "Conferir material/espessura 3 mm e furação do chassis físico",
+      "objeto_parafuso": "Parafuso_I_29",
+      "porca": [
+        [
+          58,
+          126,
+          90.5
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "arruela_cabeca": true,
+      "arruela_porca": true
+    },
+    {
+      "grupo": "J",
+      "descricao": "Coluna C1 no piso e base",
+      "metrica": "M3",
+      "comprimento_mm": 60,
+      "cabeca": "escareada 90 graus",
+      "posicao_cabeca_mm": [
+        -26.5,
+        82.5,
+        142.8
+      ],
+      "eixo_para_dentro": [
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "porca_alojada_em": null,
+      "alvos": [
+        "P12",
+        "P18",
+        "P19"
+      ],
+      "condicao": "",
+      "objeto_parafuso": "Parafuso_J_30",
+      "porca": [
+        [
+          -26.5,
+          82.5,
+          84.1
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "arruela_cabeca": false,
+      "arruela_porca": true
+    },
+    {
+      "grupo": "J",
+      "descricao": "Coluna C1 no piso e base",
+      "metrica": "M3",
+      "comprimento_mm": 60,
+      "cabeca": "escareada 90 graus",
+      "posicao_cabeca_mm": [
+        26.5,
+        82.5,
+        142.8
+      ],
+      "eixo_para_dentro": [
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "porca_alojada_em": null,
+      "alvos": [
+        "P12",
+        "P18",
+        "P19"
+      ],
+      "condicao": "",
+      "objeto_parafuso": "Parafuso_J_31",
+      "porca": [
+        [
+          26.5,
+          82.5,
+          84.1
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "arruela_cabeca": false,
+      "arruela_porca": true
+    },
+    {
+      "grupo": "K",
+      "descricao": "Pi no piso",
+      "metrica": "M2.5",
+      "comprimento_mm": 16,
+      "cabeca": "cilindrica Allen",
+      "posicao_cabeca_mm": [
+        -40.3,
+        17.13035,
+        97.776
+      ],
+      "eixo_para_dentro": [
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "porca_alojada_em": null,
+      "alvos": [
+        "RaspberryPi5",
+        "P21",
+        "P12"
+      ],
+      "condicao": "Arruelas isolantes; conferir cooler e espessura real do PCB",
+      "objeto_parafuso": "Parafuso_K_32",
+      "porca": [
+        [
+          -40.3,
+          17.13035,
+          84.5
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "arruela_cabeca": true,
+      "arruela_porca": true
+    },
+    {
+      "grupo": "K",
+      "descricao": "Pi no piso",
+      "metrica": "M2.5",
+      "comprimento_mm": 16,
+      "cabeca": "cilindrica Allen",
+      "posicao_cabeca_mm": [
+        17.7,
+        17.13035,
+        97.776
+      ],
+      "eixo_para_dentro": [
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "porca_alojada_em": null,
+      "alvos": [
+        "RaspberryPi5",
+        "P21",
+        "P12"
+      ],
+      "condicao": "Arruelas isolantes; conferir cooler e espessura real do PCB",
+      "objeto_parafuso": "Parafuso_K_33",
+      "porca": [
+        [
+          17.7,
+          17.13035,
+          84.5
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "arruela_cabeca": true,
+      "arruela_porca": true
+    },
+    {
+      "grupo": "K",
+      "descricao": "Pi no piso",
+      "metrica": "M2.5",
+      "comprimento_mm": 16,
+      "cabeca": "cilindrica Allen",
+      "posicao_cabeca_mm": [
+        -40.3,
+        66.13035,
+        97.776
+      ],
+      "eixo_para_dentro": [
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "porca_alojada_em": null,
+      "alvos": [
+        "RaspberryPi5",
+        "P21",
+        "P12"
+      ],
+      "condicao": "Arruelas isolantes; conferir cooler e espessura real do PCB",
+      "objeto_parafuso": "Parafuso_K_34",
+      "porca": [
+        [
+          -40.3,
+          66.13035,
+          84.5
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "arruela_cabeca": true,
+      "arruela_porca": true
+    },
+    {
+      "grupo": "K",
+      "descricao": "Pi no piso",
+      "metrica": "M2.5",
+      "comprimento_mm": 16,
+      "cabeca": "cilindrica Allen",
+      "posicao_cabeca_mm": [
+        17.7,
+        66.13035,
+        97.776
+      ],
+      "eixo_para_dentro": [
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "porca_alojada_em": null,
+      "alvos": [
+        "RaspberryPi5",
+        "P21",
+        "P12"
+      ],
+      "condicao": "Arruelas isolantes; conferir cooler e espessura real do PCB",
+      "objeto_parafuso": "Parafuso_K_35",
+      "porca": [
+        [
+          17.7,
+          66.13035,
+          84.5
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "arruela_cabeca": true,
+      "arruela_porca": true
+    },
+    {
+      "grupo": "L",
+      "descricao": "Berco PB no chassis",
+      "metrica": "M3",
+      "comprimento_mm": 10,
+      "cabeca": "escareada 90 graus",
+      "posicao_cabeca_mm": [
+        -40.0,
+        147.0,
+        50.6
+      ],
+      "eixo_para_dentro": [
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "porca_alojada_em": null,
+      "alvos": [
+        "chassis",
+        "P13"
+      ],
+      "condicao": "Conferir gabarito do chassis e cabeça abaixo do plano do berço",
+      "objeto_parafuso": "Parafuso_L_36",
+      "porca": [
+        [
+          -40,
+          147,
+          42.5
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "arruela_cabeca": false,
+      "arruela_porca": true
+    },
+    {
+      "grupo": "L",
+      "descricao": "Berco PB no chassis",
+      "metrica": "M3",
+      "comprimento_mm": 10,
+      "cabeca": "escareada 90 graus",
+      "posicao_cabeca_mm": [
+        -40.0,
+        198.0,
+        50.6
+      ],
+      "eixo_para_dentro": [
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "porca_alojada_em": null,
+      "alvos": [
+        "chassis",
+        "P13"
+      ],
+      "condicao": "Conferir gabarito do chassis e cabeça abaixo do plano do berço",
+      "objeto_parafuso": "Parafuso_L_37",
+      "porca": [
+        [
+          -40,
+          198,
+          42.5
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "arruela_cabeca": false,
+      "arruela_porca": true
+    },
+    {
+      "grupo": "L",
+      "descricao": "Berco PB no chassis",
+      "metrica": "M3",
+      "comprimento_mm": 10,
+      "cabeca": "escareada 90 graus",
+      "posicao_cabeca_mm": [
+        40.0,
+        147.0,
+        50.6
+      ],
+      "eixo_para_dentro": [
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "porca_alojada_em": null,
+      "alvos": [
+        "chassis",
+        "P13"
+      ],
+      "condicao": "Conferir gabarito do chassis e cabeça abaixo do plano do berço",
+      "objeto_parafuso": "Parafuso_L_38",
+      "porca": [
+        [
+          40,
+          147,
+          42.5
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "arruela_cabeca": false,
+      "arruela_porca": true
+    },
+    {
+      "grupo": "L",
+      "descricao": "Berco PB no chassis",
+      "metrica": "M3",
+      "comprimento_mm": 10,
+      "cabeca": "escareada 90 graus",
+      "posicao_cabeca_mm": [
+        40.0,
+        198.0,
+        50.6
+      ],
+      "eixo_para_dentro": [
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "porca_alojada_em": null,
+      "alvos": [
+        "chassis",
+        "P13"
+      ],
+      "condicao": "Conferir gabarito do chassis e cabeça abaixo do plano do berço",
+      "objeto_parafuso": "Parafuso_L_39",
+      "porca": [
+        [
+          40,
+          198,
+          42.5
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "arruela_cabeca": false,
+      "arruela_porca": true
+    },
+    {
+      "grupo": "M",
+      "descricao": "Berco AA no chassis",
+      "metrica": "M3",
+      "comprimento_mm": 10,
+      "cabeca": "escareada 90 graus",
+      "posicao_cabeca_mm": [
+        -30.0,
+        16.0,
+        50.2
+      ],
+      "eixo_para_dentro": [
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "porca_alojada_em": null,
+      "alvos": [
+        "chassis",
+        "P14"
+      ],
+      "condicao": "Conferir gabarito do chassis e cabeça abaixo do plano do berço",
+      "objeto_parafuso": "Parafuso_M_40",
+      "porca": [
+        [
+          -30,
+          16,
+          42.5
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "arruela_cabeca": false,
+      "arruela_porca": true
+    },
+    {
+      "grupo": "M",
+      "descricao": "Berco AA no chassis",
+      "metrica": "M3",
+      "comprimento_mm": 10,
+      "cabeca": "escareada 90 graus",
+      "posicao_cabeca_mm": [
+        -30.0,
+        74.0,
+        50.2
+      ],
+      "eixo_para_dentro": [
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "porca_alojada_em": null,
+      "alvos": [
+        "chassis",
+        "P14"
+      ],
+      "condicao": "Conferir gabarito do chassis e cabeça abaixo do plano do berço",
+      "objeto_parafuso": "Parafuso_M_41",
+      "porca": [
+        [
+          -30,
+          74,
+          42.5
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "arruela_cabeca": false,
+      "arruela_porca": true
+    },
+    {
+      "grupo": "M",
+      "descricao": "Berco AA no chassis",
+      "metrica": "M3",
+      "comprimento_mm": 10,
+      "cabeca": "escareada 90 graus",
+      "posicao_cabeca_mm": [
+        30.0,
+        16.0,
+        50.2
+      ],
+      "eixo_para_dentro": [
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "porca_alojada_em": null,
+      "alvos": [
+        "chassis",
+        "P14"
+      ],
+      "condicao": "Conferir gabarito do chassis e cabeça abaixo do plano do berço",
+      "objeto_parafuso": "Parafuso_M_42",
+      "porca": [
+        [
+          30,
+          16,
+          42.5
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "arruela_cabeca": false,
+      "arruela_porca": true
+    },
+    {
+      "grupo": "M",
+      "descricao": "Berco AA no chassis",
+      "metrica": "M3",
+      "comprimento_mm": 10,
+      "cabeca": "escareada 90 graus",
+      "posicao_cabeca_mm": [
+        30.0,
+        74.0,
+        50.2
+      ],
+      "eixo_para_dentro": [
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "porca_alojada_em": null,
+      "alvos": [
+        "chassis",
+        "P14"
+      ],
+      "condicao": "Conferir gabarito do chassis e cabeça abaixo do plano do berço",
+      "objeto_parafuso": "Parafuso_M_43",
+      "porca": [
+        [
+          30,
+          74,
+          42.5
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "arruela_cabeca": false,
+      "arruela_porca": true
+    },
+    {
+      "grupo": "N",
+      "descricao": "L298N no chassis",
+      "metrica": "M3",
+      "comprimento_mm": 20,
+      "cabeca": "cilindrica Allen",
+      "posicao_cabeca_mm": [
+        6.0,
+        90.0,
+        60.5
+      ],
+      "eixo_para_dentro": [
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "porca_alojada_em": null,
+      "alvos": [
+        "chassis",
+        "P22",
+        "L298N"
+      ],
+      "condicao": "Modelo de módulo e chassis precisam conferir",
+      "objeto_parafuso": "Parafuso_N_44",
+      "porca": [
+        [
+          6,
+          90,
+          42.5
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "arruela_cabeca": true,
+      "arruela_porca": true
+    },
+    {
+      "grupo": "N",
+      "descricao": "L298N no chassis",
+      "metrica": "M3",
+      "comprimento_mm": 20,
+      "cabeca": "cilindrica Allen",
+      "posicao_cabeca_mm": [
+        43.0,
+        90.0,
+        60.5
+      ],
+      "eixo_para_dentro": [
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "porca_alojada_em": null,
+      "alvos": [
+        "chassis",
+        "P22",
+        "L298N"
+      ],
+      "condicao": "Modelo de módulo e chassis precisam conferir",
+      "objeto_parafuso": "Parafuso_N_45",
+      "porca": [
+        [
+          43,
+          90,
+          42.5
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "arruela_cabeca": true,
+      "arruela_porca": true
+    },
+    {
+      "grupo": "N",
+      "descricao": "L298N no chassis",
+      "metrica": "M3",
+      "comprimento_mm": 20,
+      "cabeca": "cilindrica Allen",
+      "posicao_cabeca_mm": [
+        6.0,
+        127.0,
+        60.5
+      ],
+      "eixo_para_dentro": [
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "porca_alojada_em": null,
+      "alvos": [
+        "chassis",
+        "P22",
+        "L298N"
+      ],
+      "condicao": "Modelo de módulo e chassis precisam conferir",
+      "objeto_parafuso": "Parafuso_N_46",
+      "porca": [
+        [
+          6,
+          127,
+          42.5
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "arruela_cabeca": true,
+      "arruela_porca": true
+    },
+    {
+      "grupo": "N",
+      "descricao": "L298N no chassis",
+      "metrica": "M3",
+      "comprimento_mm": 20,
+      "cabeca": "cilindrica Allen",
+      "posicao_cabeca_mm": [
+        43.0,
+        127.0,
+        60.5
+      ],
+      "eixo_para_dentro": [
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "porca_alojada_em": null,
+      "alvos": [
+        "chassis",
+        "P22",
+        "L298N"
+      ],
+      "condicao": "Modelo de módulo e chassis precisam conferir",
+      "objeto_parafuso": "Parafuso_N_47",
+      "porca": [
+        [
+          43,
+          127,
+          42.5
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "arruela_cabeca": true,
+      "arruela_porca": true
+    },
+    {
+      "grupo": "O",
+      "descricao": "MPU no chassis",
+      "metrica": "M2.5",
+      "comprimento_mm": 12,
+      "cabeca": "cilindrica Allen",
+      "posicao_cabeca_mm": [
+        -0.5,
+        112.5,
+        54.5
+      ],
+      "eixo_para_dentro": [
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "porca_alojada_em": null,
+      "alvos": [
+        "chassis",
+        "P23",
+        "MPU6050"
+      ],
+      "condicao": "Uma arruela isolante sobre PCB; conferir módulo",
+      "objeto_parafuso": "Parafuso_O_48",
+      "porca": [
+        [
+          -0.5,
+          112.5,
+          43.4
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "arruela_cabeca": true,
+      "arruela_porca": false
+    },
+    {
+      "grupo": "O",
+      "descricao": "MPU no chassis",
+      "metrica": "M2.5",
+      "comprimento_mm": 12,
+      "cabeca": "cilindrica Allen",
+      "posicao_cabeca_mm": [
+        -0.5,
+        128.5,
+        54.5
+      ],
+      "eixo_para_dentro": [
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "porca_alojada_em": null,
+      "alvos": [
+        "chassis",
+        "P23",
+        "MPU6050"
+      ],
+      "condicao": "Uma arruela isolante sobre PCB; conferir módulo",
+      "objeto_parafuso": "Parafuso_O_49",
+      "porca": [
+        [
+          -0.5,
+          128.5,
+          43.4
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "arruela_cabeca": true,
+      "arruela_porca": false
+    },
+    {
+      "grupo": "P",
+      "descricao": "Berco ESP no piso",
+      "metrica": "M3",
+      "comprimento_mm": 10,
+      "cabeca": "cilindrica Allen",
+      "posicao_cabeca_mm": [
+        -22.0,
+        170.0,
+        93.5
+      ],
+      "eixo_para_dentro": [
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "porca_alojada_em": null,
+      "alvos": [
+        "P24",
+        "P12"
+      ],
+      "condicao": "",
+      "objeto_parafuso": "Parafuso_P_50",
+      "porca": [
+        [
+          -22,
+          170,
+          84.1
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "arruela_cabeca": true,
+      "arruela_porca": true
+    },
+    {
+      "grupo": "P",
+      "descricao": "Berco ESP no piso",
+      "metrica": "M3",
+      "comprimento_mm": 10,
+      "cabeca": "cilindrica Allen",
+      "posicao_cabeca_mm": [
+        22.0,
+        170.0,
+        93.5
+      ],
+      "eixo_para_dentro": [
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "porca_alojada_em": null,
+      "alvos": [
+        "P24",
+        "P12"
+      ],
+      "condicao": "",
+      "objeto_parafuso": "Parafuso_P_51",
+      "porca": [
+        [
+          22,
+          170,
+          84.1
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "arruela_cabeca": true,
+      "arruela_porca": true
+    }
+  ],
+  "bom_parafusos": [
+    {
+      "metrica": "M2.5",
+      "comprimento_mm": 12,
+      "cabeca": "cilindrica Allen",
+      "quantidade": 2
+    },
+    {
+      "metrica": "M2.5",
+      "comprimento_mm": 16,
+      "cabeca": "cilindrica Allen",
+      "quantidade": 4
+    },
+    {
+      "metrica": "M3",
+      "comprimento_mm": 10,
+      "cabeca": "cilindrica Allen",
+      "quantidade": 14
+    },
+    {
+      "metrica": "M3",
+      "comprimento_mm": 10,
+      "cabeca": "escareada 90 graus",
+      "quantidade": 8
+    },
+    {
+      "metrica": "M3",
+      "comprimento_mm": 12,
+      "cabeca": "cilindrica Allen",
+      "quantidade": 14
+    },
+    {
+      "metrica": "M3",
+      "comprimento_mm": 20,
+      "cabeca": "cilindrica Allen",
+      "quantidade": 4
+    },
+    {
+      "metrica": "M3",
+      "comprimento_mm": 50,
+      "cabeca": "cilindrica Allen",
+      "quantidade": 4
+    },
+    {
+      "metrica": "M3",
+      "comprimento_mm": 60,
+      "cabeca": "escareada 90 graus",
+      "quantidade": 2
+    }
+  ],
+  "furos_C1_pendentes": {
+    "quantidade": 4,
+    "matriz_proposta_mm": [
+      43,
+      43
+    ],
+    "bitola": "PENDENTE medir rosca e profundidade, não presumir M3"
+  },
+  "pi_furos_CAD_xy_mm": [
+    [
+      -40.3,
+      17.13035
+    ],
+    [
+      17.7,
+      17.13035
+    ],
+    [
+      -40.3,
+      66.13035
+    ],
+    [
+      17.7,
+      66.13035
+    ]
+  ],
+  "mudancas_PCB_mm": {
+    "Pi_delta_z": 0.52,
+    "L298N_delta_z": 0.6,
+    "MPU_delta_z": 0.6
+  },
+  "externos_nao_imprimir": [
+    "chassis original",
+    "rodas, motores, rodizio",
+    "holder/pilhas AA",
+    "placas/sensor",
+    "cintas velcro e espuma",
+    "porcas, parafusos, arruelas"
+  ],
+  "limitacoes": [
+    "Nenhuma impressão ou montagem física executada.",
+    "Furação e espessura do chassi real não medidas. Gabarito obrigatório antes de furar.",
+    "Holder e ESP não escolhidos: berços condicionais.",
+    "Fixação do sensor C1 não pode usar rosca presumida.",
+    "Sem análise estrutural, estabilidade ou térmica em carga."
+  ]
+}

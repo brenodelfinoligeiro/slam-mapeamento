@@ -1,0 +1,79 @@
+{
+  "status": "OK_COM_LIMITES_DECLARADOS",
+  "CAD_SHA256": "c1d89f9d7d754b9cfa8f9bc4ea35b6ae6461c42dcb7ea30013bce28dd4b3d57e",
+  "URDF_SHA256": "d375b7ccbde0f3be2dfbdbdf6dc4cbe50d92aada160cd9f2044f8a8fd1ee8700",
+  "ROS_DISTRO_validada": "jazzy",
+  "imagem_validacao": "sha256:289bcb7985179f6b353b5b411cf1aa5fc275c74a874e924f700ddfe1c279f8d8",
+  "build_colcon": true,
+  "import_instalado_fora_da_fonte": true,
+  "check_urdf": true,
+  "testes_colcon": 16,
+  "erros_testes": 0,
+  "TF": {
+    "status": "OK",
+    "ROS_DISTRO": "jazzy",
+    "robot_description_recebido": true,
+    "links": 7,
+    "sem_juntas_ficticias_no_launch_de_descricao": true,
+    "TFs_rodas": [
+      {
+        "filho": "left_wheel_link",
+        "xyz_m": [
+          0.0,
+          0.0661900758743,
+          -1.00582838058e-09
+        ],
+        "quaternion_xyzw": [
+          0.0,
+          0.1986693307950613,
+          0.0,
+          0.9800665778412416
+        ],
+        "angulo_teste_rad": 0.4
+      },
+      {
+        "filho": "right_wheel_link",
+        "xyz_m": [
+          0.0,
+          -0.0661900758743,
+          1.00582838058e-09
+        ],
+        "quaternion_xyzw": [
+          0.0,
+          -0.09983341664682821,
+          0.0,
+          0.9950041652780257
+        ],
+        "angulo_teste_rad": -0.2
+      }
+    ],
+    "limites": "ROS isolado sem rede/hardware; JointState publicado apenas pelo teste. Sem dados reais de sensores/motores."
+  },
+  "RViz": {
+    "status": "OK",
+    "capturas": [
+      "rviz-12.png",
+      "rviz-24.png"
+    ],
+    "rviz_real": true,
+    "inspecao_visual_pendente": false,
+    "encerramento_limpo": true,
+    "inspecao_visual": "Captura inspecionada: modelo inteiro, proporção adequada, Global Status OK; não comprova física."
+  },
+  "SIGINT_com_RViz_aberto_no_ensaio": "FALHOU; causa não diagnosticada. Fechamento pela janela verificado limpo.",
+  "preview_sha256": "bcf9ba7367b2be376e807f7f1c075a8d5f17b345515514afa088615276c7d8da",
+  "malhas": 18,
+  "links": 7,
+  "juntas_moveis": 2,
+  "hardware_exercitado": false,
+  "push_realizado": false,
+  "limites": [
+    "Modelo CAD de referência, não geometria física medida.",
+    "Rodízio fica acima do plano das rodas no CAD; não corrigido artificialmente.",
+    "Frames imu_mount_link/lidar_mount_link são datums mecânicos, não frames calibrados dos dados.",
+    "Rodízio fixo para visualização; não modelo de contato/dinâmica.",
+    "Discos de encoder ilustrativos: não inferir PPR.",
+    "Sem massas/inércias inventadas.",
+    "Derivados CAD permanecem locais por licenças pendentes."
+  ]
+}

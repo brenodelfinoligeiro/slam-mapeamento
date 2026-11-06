@@ -1,0 +1,26 @@
+codigo,nome,quantidade,X_mm,Y_mm,Z_mm,suportes,condicao
+P01,Saia dianteira,1,170.0,126.0,40.6,local sob orelhas e linguetas; nao preencher arcos,cupom e montagem a seco antes do uso
+P02,Saia traseira,1,170.0,97.7,40.6,local sob orelhas e linguetas,cupom e montagem a seco antes do uso
+P03,Teto dianteiro esquerdo,1,84.7,126.0,46.4,local nas linguetas laterais; face externa do teto na mesa,cupom e montagem a seco antes do uso
+P04,Teto dianteiro direito,1,84.7,126.0,46.4,local nas linguetas laterais; face externa do teto na mesa,cupom e montagem a seco antes do uso
+P05,Teto traseiro esquerdo,1,84.7,97.7,46.4,local nas linguetas laterais; face externa do teto na mesa,cupom e montagem a seco antes do uso
+P06,Teto traseiro direito,1,84.7,97.7,46.4,local nas linguetas laterais; face externa do teto na mesa,cupom e montagem a seco antes do uso
+P07,Portinhola AA,1,94.0,34.0,2.4,nao,cupom e montagem a seco antes do uso
+P08,Portinhola PB,1,160.0,41.4,2.4,nao,cupom e montagem a seco antes do uso
+P09,Painel lateral PB,1,40.0,75.0,2.4,nao,cupom e montagem a seco antes do uso
+P10,Uniao interna teto,2,14.0,28.0,4.0,nao,cupom e montagem a seco antes do uso
+P11,Clipe retencao tampas,4,12.0,20.0,7.0,nao,cupom e montagem a seco antes do uso
+P12,Piso superior,1,130.0,197.0,5.0,nao,"conferir gabarito de chassis, placa real e cooler"
+P13,Berco Basike,1,156.0,73.0,7.4,nao,gabarito chassis; conferir cintas e cantos/portas reais
+P14,Berco holder quatro AA,1,81.0,76.0,7.0,nao,"MEDIR holder real; reserva 75x70 mm, folga 0.3 mm por lado"
+P15,Coluna principal dianteira,2,10.0,10.0,38.6,nao,gabarito chassis; M3x50 passante
+P16,Coluna principal traseira,2,10.0,10.0,34.6,nao,gabarito chassis; M3x50 passante
+P17,Travessa traseira,2,15.0,12.0,4.0,nao,gabarito chassis; iguais com rotação de 180 graus
+P18,Coluna C1,2,8.0,8.0,50.0,nao,base C1 e gabarito de furação
+P19,Base compacta C1,1,62.0,62.0,3.0,nao,CONFIRMAR matriz proposta 43x43 mm; bitola/rosca do C1 real não identificada
+P20,Espacador C1,4,5.6,5.6,2.0,nao,não usar M3 no sensor sem conferir a rosca real
+P21,Espacador Pi seis mm,4,6.0,6.0,6.0,nao,"M2.5, não M3; conferir placa e cooler"
+P22,Espacador L298N dez mm,4,6.0,6.0,10.0,nao,CAD de referência 37x37 mm; confirmar módulo/chassis reais
+P23,Espacador MPU quatro mm,2,6.0,6.0,4.0,nao,"CAD de referência, conferir módulo real"
+P24,Berco ESP por velcro,1,52.0,61.0,5.0,nao,"MEDIR placa ESP; usar espuma isolante 2 mm e velcro, sem furos fictícios"
+P25,Cupom M3 e porcas,1,70.0,38.0,5.0,nao,IMPRIMIR PRIMEIRO: furos 3.2/3.4/3.6 e porcas AF5.7/5.8/5.9

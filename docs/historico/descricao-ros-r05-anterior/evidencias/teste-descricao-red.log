@@ -1,0 +1,23 @@
+F                                                                        [100%]
+=================================== FAILURES ===================================
+________________ teste_descricao_urdf_derivada_da_montagem_r05 _________________
+
+    def teste_descricao_urdf_derivada_da_montagem_r05():
+        arquivo = RAIZ / 'descricao/slamderson.urdf'
+>       assert arquivo.is_file(), 'Descrição URDF da montagem R05 ainda não existe'
+E       AssertionError: Descrição URDF da montagem R05 ainda não existe
+E       assert False
+E        +  where False = is_file()
+E        +    where is_file = PosixPath('/home/lamggm/projects/slamderson_ws/src/slamderson/descricao/slamderson.urdf').is_file
+
+testes/teste_descricao.py:11: AssertionError
+=============================== warnings summary ===============================
+../../../../.cache/uv/archive-v0/op-A-h30unLYY4Iy/lib/python3.14/site-packages/_pytest/config/__init__.py:1636
+  /home/lamggm/.cache/uv/archive-v0/op-A-h30unLYY4Iy/lib/python3.14/site-packages/_pytest/config/__init__.py:1636: PytestConfigWarning: Unknown config option: cache_dir
+  
+    self._warn_or_fail_if_strict(f"Unknown config option: {key}\n")
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+=========================== short test summary info ============================
+FAILED testes/teste_descricao.py::teste_descricao_urdf_derivada_da_montagem_r05
+1 failed, 1 warning in 0.02s

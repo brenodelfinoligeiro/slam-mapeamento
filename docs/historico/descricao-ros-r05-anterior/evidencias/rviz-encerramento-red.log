@@ -1,0 +1,33 @@
+[INFO] [launch]: All log files can be found below /work/ros-log/2026-11-06-00-57-36-487690-52b96195e2a2-34
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [robot_state_publisher-1]: process started with pid [42]
+[INFO] [joint_state_publisher-2]: process started with pid [43]
+[INFO] [rviz2-3]: process started with pid [44]
+[robot_state_publisher-1] [INFO] [1793926656.669992728] [robot_state_publisher]: Robot initialized
+[rviz2-3] [INFO] [1793926656.880073789] [rviz2]: Stereo is NOT SUPPORTED
+[rviz2-3] [INFO] [1793926656.880238379] [rviz2]: OpenGl version: 4.5 (GLSL 4.5)
+[rviz2-3] [INFO] [1793926656.916326506] [rviz2]: Stereo is NOT SUPPORTED
+[joint_state_publisher-2] [INFO] [1793926657.158784321] [joint_state_publisher]: Waiting for robot_description to be published on the robot_description topic...
+[joint_state_publisher-2] [INFO] [1793926657.274022829] [joint_state_publisher]: Got description, configuring robot
+[WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+[INFO] [rviz2-3]: sending signal 'SIGINT' to process[rviz2-3]
+[INFO] [joint_state_publisher-2]: sending signal 'SIGINT' to process[joint_state_publisher-2]
+[INFO] [robot_state_publisher-1]: sending signal 'SIGINT' to process[robot_state_publisher-1]
+[robot_state_publisher-1] [INFO] [1793926686.282943730] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[rviz2-3] [INFO] [1793926686.282957541] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[rviz2-3] [INFO] [1793926686.285385469] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[robot_state_publisher-1] [INFO] [1793926686.286239560] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[joint_state_publisher-2] Traceback (most recent call last):
+[joint_state_publisher-2]   File "/opt/ros/jazzy/lib/joint_state_publisher/joint_state_publisher", line 33, in <module>
+[joint_state_publisher-2]     sys.exit(load_entry_point('joint-state-publisher==2.4.3', 'console_scripts', 'joint_state_publisher')())
+[joint_state_publisher-2]              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[joint_state_publisher-2]   File "/opt/ros/jazzy/lib/python3.12/site-packages/joint_state_publisher/joint_state_publisher.py", line 571, in main
+[joint_state_publisher-2]     jsp.destroy_node()
+[joint_state_publisher-2]   File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/node.py", line 1968, in destroy_node
+[joint_state_publisher-2]     self.__node.destroy_when_not_in_use()
+[joint_state_publisher-2] KeyboardInterrupt
+[ERROR] [joint_state_publisher-2]: process has died [pid 43, exit code -2, cmd '/opt/ros/jazzy/lib/joint_state_publisher/joint_state_publisher --ros-args -r __node:=joint_state_publisher --params-file /work/cache/launch_params_eorg8tj3'].
+[INFO] [robot_state_publisher-1]: process has finished cleanly [pid 42]
+[ERROR] [rviz2-3]: process[rviz2-3] failed to terminate '5' seconds after receiving 'SIGINT', escalating to 'SIGTERM'
+[INFO] [rviz2-3]: sending signal 'SIGTERM' to process[rviz2-3]
+[ERROR] [rviz2-3]: process has died [pid 44, exit code -11, cmd '/opt/ros/jazzy/lib/rviz2/rviz2 -d /work/install/slamderson/share/slamderson/visualizacao/slamderson.rviz --ros-args -r __node:=rviz2 --params-file /work/cache/launch_params_is5c2w80'].

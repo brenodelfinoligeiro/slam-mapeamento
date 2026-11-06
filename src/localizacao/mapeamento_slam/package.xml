@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>mapeamento_slam</name>
+  <version>0.1.0</version>
+  <description>Composição de mapeamento e localização por grafo com SLAM Toolbox.</description>
+  <maintainer email="a_definir@example.com">lamggm</maintainer>
+  <license>A definir</license>
+  <buildtool_depend>ament_python</buildtool_depend>
+  <exec_depend>ament_index_python</exec_depend>
+  <exec_depend>launch</exec_depend>
+  <exec_depend>launch_ros</exec_depend>
+  <exec_depend>lifecycle_msgs</exec_depend>
+  <exec_depend>rclpy</exec_depend>
+  <exec_depend>python3-yaml</exec_depend>
+  <exec_depend>slam_toolbox</exec_depend>
+  <exec_depend>nav2_map_server</exec_depend>
+  <exec_depend>nav2_msgs</exec_depend>
+  <exec_depend>tf2_ros</exec_depend>
+  <exec_depend>rviz2</exec_depend>
+  <exec_depend>lidar_simulado</exec_depend>
+  <exec_depend>navegacao_simulada</exec_depend>
+  <test_depend>python3-pytest</test_depend>
+  <export><build_type>ament_python</build_type></export>
+</package>

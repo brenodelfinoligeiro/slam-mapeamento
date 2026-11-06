@@ -1,0 +1,153 @@
+{
+  "versao": 1,
+  "natureza": "estudo_ortogonal_de_envelopes_nao_fabricacao",
+  "componentes": [
+    {
+      "id": "01",
+      "nome": "Porta-pilhas 4 AA",
+      "tipo": "pilhas",
+      "box": [
+        -37.5,
+        10,
+        50.4,
+        75,
+        70,
+        22
+      ],
+      "evidencia": "Reserva proposta; holder não escolhido."
+    },
+    {
+      "id": "02",
+      "nome": "ESP — reserva",
+      "tipo": "esp",
+      "box": [
+        -45,
+        101,
+        50.4,
+        28,
+        55,
+        15
+      ],
+      "evidencia": "Envelope proposto; placa ESP final pendente."
+    },
+    {
+      "id": "03",
+      "nome": "MPU-6050",
+      "tipo": "imu",
+      "box": [
+        5,
+        153,
+        50.4,
+        16,
+        21,
+        11.54
+      ],
+      "evidencia": "Envelope CAD candidato; orientação/furação não medidas."
+    },
+    {
+      "id": "04",
+      "nome": "L298N",
+      "tipo": "driver",
+      "box": [
+        3,
+        94,
+        50.4,
+        43,
+        43,
+        28
+      ],
+      "evidencia": "Envelope do CAD de referência; módulo físico a conferir."
+    },
+    {
+      "id": "05",
+      "nome": "Encoders e discos",
+      "tipo": "encoder",
+      "box": [
+        -35,
+        70,
+        25,
+        14.3,
+        35.45,
+        13.8
+      ],
+      "evidencia": "Representação funcional simplificada; alinhar garfo/disco nos eixos reais."
+    },
+    {
+      "id": "06",
+      "nome": "Raspberry Pi 5",
+      "tipo": "pi",
+      "box": [
+        -44.25,
+        12,
+        91,
+        88.5,
+        57.63035,
+        18.976
+      ],
+      "evidencia": "Envelope CAD oficial; cabos e cooler real não incluídos."
+    },
+    {
+      "id": "07",
+      "nome": "Powerbank — reserva",
+      "tipo": "powerbank",
+      "box": [
+        -60,
+        140,
+        91,
+        120,
+        65,
+        25
+      ],
+      "evidencia": "Volume hipotético; modelo e medidas desconhecidos."
+    },
+    {
+      "id": "08",
+      "nome": "LiDAR C1 — corpo",
+      "tipo": "lidar",
+      "box": [
+        -27.8,
+        76.2,
+        140,
+        55.6,
+        55.6,
+        41.3
+      ],
+      "evidencia": "Corpo simplificado; dimensões comerciais citadas no catálogo, não envelope global do STEP."
+    }
+  ],
+  "quantidade_AA_confirmada": 4,
+  "tensoes_nominais_exemplos": {
+    "alcalinas_V": 6.0,
+    "NiMH_V": 4.8
+  },
+  "origem_contorno": {
+    "arquivo": "docs/modelos-3d/arquivos/chassi-2wd-B/chassi_e_suportes_derivado_mm.stl",
+    "sha256": "cd86ee5b94f34114300ebb984d1f3c55d4f7a86bc897e456b70af3b73699b635",
+    "z_da_superficie_STL": 48.418,
+    "aneis": 73,
+    "unidade": "mm interpretados conforme cena Blender de origem"
+  },
+  "cotas_propostas_mm": {
+    "chapa_z_inferior": 45.4,
+    "chapa_z_superior": 48.4,
+    "piso_z_inferior": 84,
+    "piso_z_superior": 87,
+    "ponte_z_inferior": 135,
+    "ponte_z_superior": 138,
+    "base_C1_z": 140,
+    "topo_C1_z": 181.3
+  },
+  "validacao_FreeCAD": {
+    "versao": "1.1.4",
+    "reaberto": true,
+    "geometrias_2D_validas": 101,
+    "objetos": 102,
+    "limite": "Validação geométrica de desenho 2D; não análise de colisão de sólidos ou de estabilidade."
+  },
+  "pendencias": [
+    "Medir holder 4 AA, powerbank e placa ESP.",
+    "Confirmar motores, corrente e desempenho com 4 AA/L298N.",
+    "Conferir alinhamento discos/garfos, cabos, refrigeração e suporte do rodízio.",
+    "Dimensionar fixações, tolerâncias, espessuras e estabilidade física."
+  ]
+}

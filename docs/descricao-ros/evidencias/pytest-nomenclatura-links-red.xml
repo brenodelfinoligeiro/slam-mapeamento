@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites name="pytest tests"><testsuite name="pytest" errors="0" failures="1" skipped="0" tests="18" time="1.496" timestamp="2026-11-06T07:30:26.849903-03:00" hostname="xeon"><testcase classname="testes.teste_descricao" name="teste_descricao_urdf_derivada_da_montagem_r05" time="0.002" /><testcase classname="testes.teste_descricao" name="teste_launch_de_descricao_nao_inventa_joint_states" time="0.000" /><testcase classname="testes.teste_documentacao" name="teste_documentacao_centralizada_em_docs" time="0.013" /><testcase classname="testes.teste_estrutura" name="teste_estrutura_solicitada" time="0.003" /><testcase classname="testes.teste_geometria_descricao" name="teste_arvore_tem_um_pai_por_link_sem_ciclos" time="0.001" /><testcase classname="testes.teste_geometria_descricao" name="teste_rotacao_cad_ros_nao_espelha_o_robo" time="0.002" /><testcase classname="testes.teste_geometria_descricao" name="teste_origens_das_juntas_reproduzem_o_cad_em_metros" time="0.002" /><testcase classname="testes.teste_geometria_descricao" name="teste_rodas_continuas_usam_eixo_ros_y_e_lados_corretos" time="0.001" /><testcase classname="testes.teste_geometria_descricao" name="teste_malhas_em_metros_resolvem_e_preservam_hashes_e_facetas" time="0.094" /><testcase classname="testes.teste_geometria_descricao" name="teste_folhas_cad_sem_duplicar_compostos_e_sem_cupom_no_robo" time="0.002" /><testcase classname="testes.teste_geometria_descricao" name="teste_sem_simular_calibracao_inercias_ou_contato_do_rodizio" time="0.002" /><testcase classname="testes.teste_localizacao" name="teste_localizacao_academica_em_portugues" time="0.001" /><testcase classname="testes.teste_modelos_cad" name="teste_modelos_cad_com_procedencia_e_integridade" time="0.272" /><testcase classname="testes.teste_nomenclatura" name="teste_identidade_ros_generica" time="0.001" /><testcase classname="testes.teste_nomenclatura" name="teste_fontes_ros_sem_nome_afetivo" time="0.005" /><testcase classname="testes.teste_publicacao" name="teste_inventario_de_referencias_somente_locais" time="0.919" /><testcase classname="testes.teste_publicacao" name="teste_links_ativos_publicados_ou_explicitamente_locais" time="0.044"><failure message="AssertionError: docs/LEIA-ME.md -&gt; /home/lamggm/projects/robo_movel_ws/docs/descricao-ros/previa-rviz.png&#10;  docs/publicacao-git.md -&gt; /home/lamggm/projects/robo_movel_ws/docs/descricao-ros/malhas-somente-locais.json&#10;  docs/descricao-ros/LEIA-ME.md -&gt; /home/lamggm/projects/robo_movel_ws/docs/descricao-ros/previa-rviz.png&#10;  docs/descricao-ros/LEIA-ME.md -&gt; /home/lamggm/projects/robo_movel_ws/docs/descricao-ros/malhas-somente-locais.json&#10;[+1 more line; full report in element text]">def teste_links_ativos_publicados_ou_explicitamente_locais():
+        inventario = json.loads((DOCS / 'arquivos-somente-locais.json').read_text())
+        somente_locais = {(RAIZ / item['caminho']).resolve() for item in inventario['arquivos']}
+        erros = []
+        for nota in DOCS.rglob('*.md'):
+            if 'historico' in nota.relative_to(DOCS).parts:
+                continue  # O histórico preserva a estrutura e os caminhos antigos.
+            texto = re.sub(r'```.*?```', '', nota.read_text(), flags=re.S)
+            alvos = []
+            for bruto in re.findall(r'!?\[[^\]\n]*\]\(([^)\n]+)\)', texto):
+                url = bruto.strip().strip('&lt;&gt;')
+                partes = urlsplit(url)
+                if partes.scheme or partes.netloc or not partes.path:
+                    continue
+                alvos.append((nota.parent / unquote(partes.path)).resolve())
+            for bruto in re.findall(r'\[\[([^\]]+)\]\]', texto):
+                caminho = bruto.split('|', 1)[0].split('#', 1)[0]
+                if not caminho:
+                    continue
+                if not Path(caminho).suffix:
+                    caminho += '.md'
+                base = VAULT if nota.is_relative_to(VAULT) else DOCS
+                alvos.append((base / caminho).resolve())
+            for alvo in alvos:
+                if not alvo.exists() and alvo not in somente_locais:
+                    erros.append(f'{nota.relative_to(RAIZ)} -&gt; {alvo}')
+&gt;       assert not erros, '\n'.join(erros)
+E       AssertionError: docs/LEIA-ME.md -&gt; /home/lamggm/projects/robo_movel_ws/docs/descricao-ros/previa-rviz.png
+E         docs/publicacao-git.md -&gt; /home/lamggm/projects/robo_movel_ws/docs/descricao-ros/malhas-somente-locais.json
+E         docs/descricao-ros/LEIA-ME.md -&gt; /home/lamggm/projects/robo_movel_ws/docs/descricao-ros/previa-rviz.png
+E         docs/descricao-ros/LEIA-ME.md -&gt; /home/lamggm/projects/robo_movel_ws/docs/descricao-ros/malhas-somente-locais.json
+E       assert not ['docs/LEIA-ME.md -&gt; /home/lamggm/projects/robo_movel_ws/docs/descricao-ros/previa-rviz.png', 'docs/publicacao-git.md ..., 'docs/descricao-ros/LEIA-ME.md -&gt; /home/lamggm/projects/robo_movel_ws/docs/descricao-ros/malhas-somente-locais.json']
+
+testes/teste_publicacao.py:56: AssertionError</failure></testcase><testcase classname="testes.teste_vault" name="teste_vault_com_fontes_e_orientacao" time="0.022" /></testsuite></testsuites>

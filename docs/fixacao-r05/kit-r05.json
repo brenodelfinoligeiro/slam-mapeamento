@@ -1,0 +1,3722 @@
+{
+  "revisao": "R05",
+  "estado": "PROTOTIPO_DIMENSIONAL_NAO_LIBERADO_FABRICACAO",
+  "origem": "docs/impressao-r04/slamderson-impressao-r04.FCStd",
+  "sha256_origem": "16ca3f9444c7220ee7c2c242216b445af8a35063648882fa76ef10af85b103dd",
+  "fontes_preservadas_sha256": {
+    "docs/impressao-r04/slamderson-impressao-r04.FCStd": "16ca3f9444c7220ee7c2c242216b445af8a35063648882fa76ef10af85b103dd",
+    "docs/impressao-r04/gerar-r04.py": "28cd59617ab7933dedc43ac168157cccf887d47e646ba95b063d516b8bcbc15a",
+    "docs/impressao-r04/kit-r04.json": "56c94c80042fae6928dfeccb04d61678e2220f936de48892176359f49c66f4d4"
+  },
+  "impressora": "Ender-3 V3 SE",
+  "volume_referencia_mm": [
+    220,
+    220,
+    250
+  ],
+  "bico_assumido_mm": 0.4,
+  "camada_assumida_mm": 0.2,
+  "brim_referencia_mm": 5,
+  "margem_adicional_por_borda_mm": 3,
+  "pecas": [
+    {
+      "codigo": "P01",
+      "nome": "Saia dianteira",
+      "quantidade": 1,
+      "objetos": [
+        "SaiaFrente"
+      ],
+      "rotacao_impressao": [
+        [
+          1,
+          0,
+          0
+        ],
+        180
+      ],
+      "condicao": "Cupom e medidas físicas pendentes",
+      "suportes": "local sob orelhas/linguetas; nao preencher arcos",
+      "arquivo": "stl/P01.stl",
+      "dimensoes_impressao_mm": [
+        170.0,
+        126.00000000000001,
+        40.60000000000001
+      ],
+      "triangulos": 6360,
+      "sha256": "9ea9f4dc7e5187caca1a6c98d439e325c73b36585fb981a778d0cc6a9b8c648f",
+      "volume_mm3": 41188.027918459986
+    },
+    {
+      "codigo": "P02",
+      "nome": "Saia traseira",
+      "quantidade": 1,
+      "objetos": [
+        "SaiaTras"
+      ],
+      "rotacao_impressao": [
+        [
+          1,
+          0,
+          0
+        ],
+        180
+      ],
+      "condicao": "Cupom e medidas físicas pendentes",
+      "suportes": "local sob orelhas/linguetas",
+      "arquivo": "stl/P02.stl",
+      "dimensoes_impressao_mm": [
+        170.0,
+        97.70000000000002,
+        42.60000000000006
+      ],
+      "triangulos": 7394,
+      "sha256": "0ffbf9e61bb77bd3e77a86336715a244b69a0422bc61ce0edaedd806cb9c9e8b",
+      "volume_mm3": 25120.398118944242
+    },
+    {
+      "codigo": "P03",
+      "nome": "Teto dianteiro esquerdo",
+      "quantidade": 1,
+      "objetos": [
+        "P03_Teto"
+      ],
+      "rotacao_impressao": [
+        [
+          1,
+          0,
+          0
+        ],
+        180
+      ],
+      "condicao": "Cupom e medidas físicas pendentes",
+      "suportes": "local linguetas; face externa na mesa",
+      "arquivo": "stl/P03.stl",
+      "dimensoes_impressao_mm": [
+        84.69999999999999,
+        126.00000000000001,
+        46.40000000000002
+      ],
+      "triangulos": 2104,
+      "sha256": "9766ee85807db06dea618584431b4d7b9b85860143b12d80f6145a084d1b2a05",
+      "volume_mm3": 51264.86037608842
+    },
+    {
+      "codigo": "P04",
+      "nome": "Teto dianteiro direito",
+      "quantidade": 1,
+      "objetos": [
+        "P04_Teto"
+      ],
+      "rotacao_impressao": [
+        [
+          1,
+          0,
+          0
+        ],
+        180
+      ],
+      "condicao": "Cupom e medidas físicas pendentes",
+      "suportes": "local linguetas; face externa na mesa",
+      "arquivo": "stl/P04.stl",
+      "dimensoes_impressao_mm": [
+        84.7,
+        126.00000000000001,
+        46.40000000000002
+      ],
+      "triangulos": 2104,
+      "sha256": "dd474ab6f4023e7caf5c75e17e51599dac48b617540eceab31ea6a179df8d3e4",
+      "volume_mm3": 51264.86037608845
+    },
+    {
+      "codigo": "P05",
+      "nome": "Teto traseiro esquerdo",
+      "quantidade": 1,
+      "objetos": [
+        "P05_Teto"
+      ],
+      "rotacao_impressao": [
+        [
+          1,
+          0,
+          0
+        ],
+        180
+      ],
+      "condicao": "Cupom e medidas físicas pendentes",
+      "suportes": "local linguetas; face externa na mesa",
+      "arquivo": "stl/P05.stl",
+      "dimensoes_impressao_mm": [
+        84.69999999999999,
+        97.70000000000003,
+        46.400000000000034
+      ],
+      "triangulos": 1844,
+      "sha256": "ef96f436819ee73bd9409982a05598535867182582ad12a923c5a7aab537e78d",
+      "volume_mm3": 47166.03484002905
+    },
+    {
+      "codigo": "P06",
+      "nome": "Teto traseiro direito",
+      "quantidade": 1,
+      "objetos": [
+        "P06_Teto"
+      ],
+      "rotacao_impressao": [
+        [
+          1,
+          0,
+          0
+        ],
+        180
+      ],
+      "condicao": "Cupom e medidas físicas pendentes",
+      "suportes": "local linguetas; face externa na mesa",
+      "arquivo": "stl/P06.stl",
+      "dimensoes_impressao_mm": [
+        84.7,
+        97.70000000000003,
+        46.400000000000034
+      ],
+      "triangulos": 1874,
+      "sha256": "a135064bf20c78f66e594947d1db3b76b195737a46d8a7d0f05bcd45cb3fc2af",
+      "volume_mm3": 47051.30140204178
+    },
+    {
+      "codigo": "P07",
+      "nome": "Portinhola AA com batente plano holder",
+      "quantidade": 1,
+      "objetos": [
+        "PortinholaAA"
+      ],
+      "rotacao_impressao": [
+        [
+          1,
+          0,
+          0
+        ],
+        90
+      ],
+      "condicao": "Cupom e medidas físicas pendentes",
+      "suportes": "nao",
+      "arquivo": "stl/P07.stl",
+      "dimensoes_impressao_mm": [
+        94.0,
+        34.00000000000001,
+        14.000000000000002
+      ],
+      "triangulos": 1044,
+      "sha256": "db30742e0f45d03f07a5fbe4bffb21af3703a0cf419c3473cf9911282133fefe",
+      "volume_mm3": 17486.819826709405
+    },
+    {
+      "codigo": "P08",
+      "nome": "Portinhola PB com batente plano",
+      "quantidade": 1,
+      "objetos": [
+        "PortinholaPB"
+      ],
+      "rotacao_impressao": [
+        [
+          1,
+          0,
+          0
+        ],
+        90
+      ],
+      "condicao": "Cupom e medidas físicas pendentes",
+      "suportes": "local no batente",
+      "arquivo": "stl/P08.stl",
+      "dimensoes_impressao_mm": [
+        160.0,
+        41.4,
+        6.000000000000004
+      ],
+      "triangulos": 1076,
+      "sha256": "85b6e8516e8c1e0b857386711914b2aa18df06cfcdf8a17b808a3a9235ee191d",
+      "volume_mm3": 23505.219826709417
+    },
+    {
+      "codigo": "P09",
+      "nome": "Painel lateral PB",
+      "quantidade": 1,
+      "objetos": [
+        "TampaServicoPB"
+      ],
+      "rotacao_impressao": [
+        [
+          0,
+          1,
+          0
+        ],
+        -90
+      ],
+      "condicao": "Cupom e medidas físicas pendentes",
+      "suportes": "nao",
+      "arquivo": "stl/P09.stl",
+      "dimensoes_impressao_mm": [
+        40.0,
+        75.0,
+        2.40000000000002
+      ],
+      "triangulos": 1028,
+      "sha256": "8dc0c99efbddc75496b2ed4dfc7914ae68e79959f0318f4e0785b5392c905b82",
+      "volume_mm3": 7156.419826709419
+    },
+    {
+      "codigo": "P10",
+      "nome": "Ponte teto insertos",
+      "quantidade": 2,
+      "objetos": [
+        "UniaoTetoE",
+        "UniaoTetoD"
+      ],
+      "rotacao_impressao": [
+        [
+          1,
+          0,
+          0
+        ],
+        180
+      ],
+      "condicao": "Cupom e medidas físicas pendentes",
+      "suportes": "nao",
+      "arquivo": "stl/P10.stl",
+      "dimensoes_impressao_mm": [
+        14.0,
+        28.0,
+        9.000000000000032
+      ],
+      "triangulos": 1020,
+      "sha256": "ff5e1397130fc8743dab5bacb390d6fc1ee469a03bd52ef505204f9fa8e18c39",
+      "volume_mm3": 3353.7358555053816
+    },
+    {
+      "codigo": "P11",
+      "nome": "Clipe retencao tampas",
+      "quantidade": 4,
+      "objetos": [
+        "ClipeFE",
+        "ClipeTE",
+        "ClipeFD",
+        "ClipeTD"
+      ],
+      "rotacao_impressao": [
+        [
+          1,
+          0,
+          0
+        ],
+        90
+      ],
+      "condicao": "Cupom e medidas físicas pendentes",
+      "suportes": "nao",
+      "arquivo": "stl/P11.stl",
+      "dimensoes_impressao_mm": [
+        12.0,
+        20.0,
+        9.000000000000002
+      ],
+      "triangulos": 1020,
+      "sha256": "8d5ce3caaa624148aef477a81b8cc51f35173a55819dfb40562059c701ed5483",
+      "volume_mm3": 1985.7358555053745
+    },
+    {
+      "codigo": "P12",
+      "nome": "Piso com apoio Pi e insertos",
+      "quantidade": 1,
+      "objetos": [
+        "PisoSuperior"
+      ],
+      "rotacao_impressao": null,
+      "condicao": "Cupom e medidas físicas pendentes",
+      "suportes": "nao",
+      "arquivo": "stl/P12.stl",
+      "dimensoes_impressao_mm": [
+        132.0,
+        202.5,
+        10.8
+      ],
+      "triangulos": 16282,
+      "sha256": "ed3c9065df5928081b2141150434048e5bef6c8a620072b9fdc5c7b71ece0bcf",
+      "volume_mm3": 72279.58931820799
+    },
+    {
+      "codigo": "P13",
+      "nome": "Gaveta rigida Basike",
+      "quantidade": 1,
+      "objetos": [
+        "BercoPB"
+      ],
+      "rotacao_impressao": null,
+      "condicao": "420g sem prova estatica; medir portas e cantos reais",
+      "suportes": "local nos labios; sem suporte em janela USB",
+      "arquivo": "stl/P13.stl",
+      "dimensoes_impressao_mm": [
+        160.00000000000077,
+        74.00000000000044,
+        35.40000000000001
+      ],
+      "triangulos": 2512,
+      "sha256": "cba4ecea3698b8f8a652327d3108766aa6f8c9686f41f66755f31e4c1ae88945",
+      "volume_mm3": 57501.67375752202
+    },
+    {
+      "codigo": "P14",
+      "nome": "Berco holder com bosses externos",
+      "quantidade": 1,
+      "objetos": [
+        "BercoAA"
+      ],
+      "rotacao_impressao": null,
+      "condicao": "Holder nao medido; P29 separado permite introduzir de cima",
+      "suportes": "nao",
+      "arquivo": "stl/P14.stl",
+      "dimensoes_impressao_mm": [
+        97.0,
+        81.5,
+        26.800000000000004
+      ],
+      "triangulos": 6358,
+      "sha256": "733cd6ccdbb30b180c8b27258a0ff81b613d5ee46f9f46be992b4399628666fe",
+      "volume_mm3": 21468.63334200534
+    },
+    {
+      "codigo": "P15",
+      "nome": "Coluna principal dianteira",
+      "quantidade": 2,
+      "objetos": [
+        "P15_0",
+        "P15_1"
+      ],
+      "rotacao_impressao": null,
+      "condicao": "Cupom e medidas físicas pendentes",
+      "suportes": "nao",
+      "arquivo": "stl/P15.stl",
+      "dimensoes_impressao_mm": [
+        10.0,
+        10.0,
+        38.6
+      ],
+      "triangulos": 1508,
+      "sha256": "10937f892d513aa96bdfb49e840d4b844221922190ffe996fb3f74bba15f960d",
+      "volume_mm3": 2857.372766219525
+    },
+    {
+      "codigo": "P16",
+      "nome": "Coluna principal traseira",
+      "quantidade": 2,
+      "objetos": [
+        "P16_0",
+        "P16_1"
+      ],
+      "rotacao_impressao": null,
+      "condicao": "Cupom e medidas físicas pendentes",
+      "suportes": "nao",
+      "arquivo": "stl/P16.stl",
+      "dimensoes_impressao_mm": [
+        10.0,
+        11.0,
+        34.6
+      ],
+      "triangulos": 2276,
+      "sha256": "64fb4fa0b338a02497f1a08bb3bb38b9a24719c7841732a820c8ddb9499e8217",
+      "volume_mm3": 2704.8425305747637
+    },
+    {
+      "codigo": "P17",
+      "nome": "Travessa traseira",
+      "quantidade": 2,
+      "objetos": [
+        "TravessaE",
+        "TravessaD"
+      ],
+      "rotacao_impressao": null,
+      "condicao": "Cupom e medidas físicas pendentes",
+      "suportes": "nao",
+      "arquivo": "stl/P17.stl",
+      "dimensoes_impressao_mm": [
+        15.0,
+        12.000000000000036,
+        4.0
+      ],
+      "triangulos": 668,
+      "sha256": "5b756af5cc06fafdb3e50af2f46691ebe9c56dbc1f8f8bb1dd9d93e99e12d8e8",
+      "volume_mm3": 616.8043672504031
+    },
+    {
+      "codigo": "P18",
+      "nome": "Coluna C1 insertos opostos",
+      "quantidade": 2,
+      "objetos": [
+        "ColunaC1E",
+        "ColunaC1D"
+      ],
+      "rotacao_impressao": null,
+      "condicao": "Cupom e medidas físicas pendentes",
+      "suportes": "nao",
+      "arquivo": "stl/P18.stl",
+      "dimensoes_impressao_mm": [
+        10.0,
+        10.0,
+        50.0
+      ],
+      "triangulos": 1508,
+      "sha256": "2d6c546615f63d6a7fa304058706e78c2ee7a1c17f95e4a52099ec89b14b8ef1",
+      "volume_mm3": 3752.7266724926158
+    },
+    {
+      "codigo": "P19",
+      "nome": "Base C1 estrutural separada da matriz ilustrativa",
+      "quantidade": 1,
+      "objetos": [
+        "PonteLidar"
+      ],
+      "rotacao_impressao": null,
+      "condicao": "Fixacao REAL C1 desconhecida; quatro furos 43x43 apenas estudo, sem parafusos",
+      "suportes": "nao",
+      "arquivo": "stl/P19.stl",
+      "dimensoes_impressao_mm": [
+        62.0,
+        62.0,
+        3.0000000000001137
+      ],
+      "triangulos": 4860,
+      "sha256": "c342ea7cedcae4330b1b05a0a95e2f78bc04a3ee772ae4ca47471d030d5b59e3",
+      "volume_mm3": 10933.140333711757
+    },
+    {
+      "codigo": "P20",
+      "nome": "Espacador C1 ilustrativo",
+      "quantidade": 4,
+      "objetos": [
+        "EspacadorC1_0",
+        "EspacadorC1_1",
+        "EspacadorC1_2",
+        "EspacadorC1_3"
+      ],
+      "rotacao_impressao": null,
+      "condicao": "Matriz e rosca C1 desconhecidas; nao montar sensor antes de medir",
+      "suportes": "nao",
+      "arquivo": "stl/P20.stl",
+      "dimensoes_impressao_mm": [
+        5.6,
+        5.6,
+        2.0
+      ],
+      "triangulos": 1008,
+      "sha256": "b26a126e5b937f1cbd1fdf06653affbbdc0a9a473ec697c5dbc4f3eb7ecca33a",
+      "volume_mm3": 31.10176727053895
+    },
+    {
+      "codigo": "P22",
+      "nome": "Berco L298 com pinos e bosses externos",
+      "quantidade": 1,
+      "objetos": [
+        "BercoL298"
+      ],
+      "rotacao_impressao": null,
+      "condicao": "Pinos nos furos3.2 CAD; quadro P30 rigido evita terminais sobre os parafusos",
+      "suportes": "local sob travessas a Z60.8; evitar suporte nos pilotos",
+      "arquivo": "stl/P22.stl",
+      "dimensoes_impressao_mm": [
+        64.5,
+        47.0,
+        16.1
+      ],
+      "triangulos": 9396,
+      "sha256": "a27ccec6dab25fc3617f2ee94f736725bd7ff87d84fdf221e3c3679ccd9277b2",
+      "volume_mm3": 6779.96998208542
+    },
+    {
+      "codigo": "P23",
+      "nome": "Berco MPU isolado da gaveta",
+      "quantidade": 1,
+      "objetos": [
+        "BercoMPU"
+      ],
+      "rotacao_impressao": null,
+      "condicao": "Cupom e medidas físicas pendentes",
+      "suportes": "nao",
+      "arquivo": "stl/P23.stl",
+      "dimensoes_impressao_mm": [
+        17.5,
+        27.0,
+        14.100000000000001
+      ],
+      "triangulos": 4912,
+      "sha256": "2d4080354c0eca8ae698f23374a462e65b5c24cbcd1cf2c93aa0fb55bcc595df",
+      "volume_mm3": 3154.937370273256
+    },
+    {
+      "codigo": "P24",
+      "nome": "Berco ESP rigido",
+      "quantidade": 1,
+      "objetos": [
+        "BercoESP"
+      ],
+      "rotacao_impressao": null,
+      "condicao": "Cupom e medidas físicas pendentes",
+      "suportes": "nao",
+      "arquivo": "stl/P24.stl",
+      "dimensoes_impressao_mm": [
+        54.0,
+        61.0,
+        20.0
+      ],
+      "triangulos": 2988,
+      "sha256": "38816dcf7d41503ee118bbc614b61b4e4bbc369ae2f2b4fd83b259d47ed441eb",
+      "volume_mm3": 15748.882727785776
+    },
+    {
+      "codigo": "P26",
+      "nome": "Quadro retencao ESP",
+      "quantidade": 1,
+      "objetos": [
+        "QuadroESP"
+      ],
+      "rotacao_impressao": null,
+      "condicao": "Cupom e medidas físicas pendentes",
+      "suportes": "nao",
+      "arquivo": "stl/P26.stl",
+      "dimensoes_impressao_mm": [
+        54.0,
+        65.0,
+        3.0
+      ],
+      "triangulos": 1048,
+      "sha256": "b56e4cf767ca64d66c4c9ae34a9f99b3fa15cfd7b989a5c5a94f307b448964c8",
+      "volume_mm3": 6341.524783386751
+    },
+    {
+      "codigo": "P27",
+      "nome": "Presilha borda Pi",
+      "quantidade": 4,
+      "objetos": [
+        "PresilhaPi_0",
+        "PresilhaPi_1",
+        "PresilhaPi_2",
+        "PresilhaPi_3"
+      ],
+      "rotacao_impressao": null,
+      "condicao": "Pad isolante opcional medido; nao apertar trilhas/componentes; apoio duro em 97.8",
+      "suportes": "nao",
+      "arquivo": "stl/P27.stl",
+      "dimensoes_impressao_mm": [
+        8.0,
+        15.3,
+        3.0
+      ],
+      "triangulos": 536,
+      "sha256": "c3be82dbec00c498a3c60d3c566f49eeaea0a27e544764b1107beafdfb14a0aa",
+      "volume_mm3": 252.36239169337725
+    },
+    {
+      "codigo": "P28",
+      "nome": "Presilha borda MPU",
+      "quantidade": 2,
+      "objetos": [
+        "PresilhaMPU_0",
+        "PresilhaMPU_1"
+      ],
+      "rotacao_impressao": null,
+      "condicao": "Pad isolante opcional medido; conferir header real e nova extrinseca IMU",
+      "suportes": "nao",
+      "arquivo": "stl/P28.stl",
+      "dimensoes_impressao_mm": [
+        13.5,
+        8.0,
+        3.0
+      ],
+      "triangulos": 540,
+      "sha256": "9811af6ec41134d7b4b9f79c55a8c23af84a87d42ff494aa20c8f4a69ee165f0",
+      "volume_mm3": 230.76239169337646
+    },
+    {
+      "codigo": "P29",
+      "nome": "Regua removivel holder AA",
+      "quantidade": 2,
+      "objetos": [
+        "ReguaAA_E",
+        "ReguaAA_D"
+      ],
+      "rotacao_impressao": null,
+      "condicao": "Sobrepor somente borda do holder; nao toca celulas, conferir holder real",
+      "suportes": "nao",
+      "arquivo": "stl/P29.stl",
+      "dimensoes_impressao_mm": [
+        11.700000000000003,
+        83.0,
+        3.0
+      ],
+      "triangulos": 1052,
+      "sha256": "ec366bd171945a7d598c6753c152bc494be2c766db7c045ca60ebf901448c0dd",
+      "volume_mm3": 1298.8247833867515
+    },
+    {
+      "codigo": "P30",
+      "nome": "Quadro retencao bordas L298N",
+      "quantidade": 1,
+      "objetos": [
+        "QuadroL298"
+      ],
+      "rotacao_impressao": null,
+      "condicao": "Nao passa metal pelos furos PCB; verificar bordas reais; pad isolante eventual a medir",
+      "suportes": "nao",
+      "arquivo": "stl/P30.stl",
+      "dimensoes_impressao_mm": [
+        62.5,
+        48.0,
+        3.0
+      ],
+      "triangulos": 1156,
+      "sha256": "d04bea0adc1f6825332593445a3b183c4c4c239533c39c4c32e5de99cb3b5fe2",
+      "volume_mm3": 1763.2247833867564
+    },
+    {
+      "codigo": "P25",
+      "nome": "Cupom insertos 4.2 4.3 4.4",
+      "quantidade": 1,
+      "objetos": [],
+      "rotacao_impressao": null,
+      "condicao": "Ensaiar termicamente e resistencia antes das demais pecas; fundo 2mm",
+      "suportes": "nao",
+      "arquivo": "stl/P25.stl",
+      "dimensoes_impressao_mm": [
+        66.0,
+        28.0,
+        8.0
+      ],
+      "triangulos": 1528,
+      "sha256": "028d1b45d91e14511cfe1268b301d127c863362b5eef0a7ea836315ead09d1a6",
+      "volume_mm3": 14422.509535478453
+    }
+  ],
+  "quantidade_tipos_STL": 29,
+  "quantidade_total_a_imprimir": 45,
+  "quantidade_tipos_montagem": 28,
+  "quantidade_pecas_montagem": 44,
+  "parafusos": [
+    {
+      "grupo": "A",
+      "descricao": "Clipe saia",
+      "metrica": "M3",
+      "comprimento_mm": 8,
+      "cabeca": "cilindrica Allen",
+      "posicao_cabeca_mm": [
+        -66,
+        -2.5,
+        86.5
+      ],
+      "eixo_para_dentro": [
+        0,
+        1,
+        0
+      ],
+      "inserto": "INS015",
+      "objeto_inserto": "ClipeFE",
+      "engate_mm": 4.5,
+      "folga_ponta_ao_fim_inserto_mm": 1.18,
+      "folga_ponta_fundo_mm": 1.5,
+      "objeto_parafuso": "Parafuso_R05_001",
+      "objeto_arruela": "Arruela_R05_001"
+    },
+    {
+      "grupo": "A",
+      "descricao": "Clipe tampa",
+      "metrica": "M3",
+      "comprimento_mm": 8,
+      "cabeca": "cilindrica Allen",
+      "posicao_cabeca_mm": [
+        -66,
+        -2.5,
+        96.5
+      ],
+      "eixo_para_dentro": [
+        0,
+        1,
+        0
+      ],
+      "inserto": "INS016",
+      "objeto_inserto": "ClipeFE",
+      "engate_mm": 4.5,
+      "folga_ponta_ao_fim_inserto_mm": 1.18,
+      "folga_ponta_fundo_mm": 1.5,
+      "objeto_parafuso": "Parafuso_R05_002",
+      "objeto_arruela": "Arruela_R05_002"
+    },
+    {
+      "grupo": "A",
+      "descricao": "Clipe saia",
+      "metrica": "M3",
+      "comprimento_mm": 8,
+      "cabeca": "cilindrica Allen",
+      "posicao_cabeca_mm": [
+        -66,
+        210.5,
+        86.5
+      ],
+      "eixo_para_dentro": [
+        0,
+        -1,
+        0
+      ],
+      "inserto": "INS017",
+      "objeto_inserto": "ClipeTE",
+      "engate_mm": 4.5,
+      "folga_ponta_ao_fim_inserto_mm": 1.18,
+      "folga_ponta_fundo_mm": 1.5,
+      "objeto_parafuso": "Parafuso_R05_003",
+      "objeto_arruela": "Arruela_R05_003"
+    },
+    {
+      "grupo": "A",
+      "descricao": "Clipe tampa",
+      "metrica": "M3",
+      "comprimento_mm": 8,
+      "cabeca": "cilindrica Allen",
+      "posicao_cabeca_mm": [
+        -66,
+        210.5,
+        96.5
+      ],
+      "eixo_para_dentro": [
+        0,
+        -1,
+        0
+      ],
+      "inserto": "INS018",
+      "objeto_inserto": "ClipeTE",
+      "engate_mm": 4.5,
+      "folga_ponta_ao_fim_inserto_mm": 1.18,
+      "folga_ponta_fundo_mm": 1.5,
+      "objeto_parafuso": "Parafuso_R05_004",
+      "objeto_arruela": "Arruela_R05_004"
+    },
+    {
+      "grupo": "A",
+      "descricao": "Clipe saia",
+      "metrica": "M3",
+      "comprimento_mm": 8,
+      "cabeca": "cilindrica Allen",
+      "posicao_cabeca_mm": [
+        66,
+        -2.5,
+        86.5
+      ],
+      "eixo_para_dentro": [
+        0,
+        1,
+        0
+      ],
+      "inserto": "INS019",
+      "objeto_inserto": "ClipeFD",
+      "engate_mm": 4.5,
+      "folga_ponta_ao_fim_inserto_mm": 1.18,
+      "folga_ponta_fundo_mm": 1.5,
+      "objeto_parafuso": "Parafuso_R05_005",
+      "objeto_arruela": "Arruela_R05_005"
+    },
+    {
+      "grupo": "A",
+      "descricao": "Clipe tampa",
+      "metrica": "M3",
+      "comprimento_mm": 8,
+      "cabeca": "cilindrica Allen",
+      "posicao_cabeca_mm": [
+        66,
+        -2.5,
+        96.5
+      ],
+      "eixo_para_dentro": [
+        0,
+        1,
+        0
+      ],
+      "inserto": "INS020",
+      "objeto_inserto": "ClipeFD",
+      "engate_mm": 4.5,
+      "folga_ponta_ao_fim_inserto_mm": 1.18,
+      "folga_ponta_fundo_mm": 1.5,
+      "objeto_parafuso": "Parafuso_R05_006",
+      "objeto_arruela": "Arruela_R05_006"
+    },
+    {
+      "grupo": "A",
+      "descricao": "Clipe saia",
+      "metrica": "M3",
+      "comprimento_mm": 8,
+      "cabeca": "cilindrica Allen",
+      "posicao_cabeca_mm": [
+        66,
+        210.5,
+        86.5
+      ],
+      "eixo_para_dentro": [
+        0,
+        -1,
+        0
+      ],
+      "inserto": "INS021",
+      "objeto_inserto": "ClipeTD",
+      "engate_mm": 4.5,
+      "folga_ponta_ao_fim_inserto_mm": 1.18,
+      "folga_ponta_fundo_mm": 1.5,
+      "objeto_parafuso": "Parafuso_R05_007",
+      "objeto_arruela": "Arruela_R05_007"
+    },
+    {
+      "grupo": "A",
+      "descricao": "Clipe tampa",
+      "metrica": "M3",
+      "comprimento_mm": 8,
+      "cabeca": "cilindrica Allen",
+      "posicao_cabeca_mm": [
+        66,
+        210.5,
+        96.5
+      ],
+      "eixo_para_dentro": [
+        0,
+        -1,
+        0
+      ],
+      "inserto": "INS022",
+      "objeto_inserto": "ClipeTD",
+      "engate_mm": 4.5,
+      "folga_ponta_ao_fim_inserto_mm": 1.18,
+      "folga_ponta_fundo_mm": 1.5,
+      "objeto_parafuso": "Parafuso_R05_008",
+      "objeto_arruela": "Arruela_R05_008"
+    },
+    {
+      "grupo": "B",
+      "descricao": "Lingueta lateral",
+      "metrica": "M3",
+      "comprimento_mm": 8,
+      "cabeca": "cilindrica Allen",
+      "posicao_cabeca_mm": [
+        -85.5,
+        118,
+        82
+      ],
+      "eixo_para_dentro": [
+        1,
+        0,
+        0
+      ],
+      "inserto": "INS007",
+      "objeto_inserto": "SaiaFrente",
+      "engate_mm": 4.1,
+      "folga_ponta_ao_fim_inserto_mm": 1.58,
+      "folga_ponta_fundo_mm": 1.9,
+      "objeto_parafuso": "Parafuso_R05_009",
+      "objeto_arruela": "Arruela_R05_009"
+    },
+    {
+      "grupo": "B",
+      "descricao": "Lingueta lateral",
+      "metrica": "M3",
+      "comprimento_mm": 8,
+      "cabeca": "cilindrica Allen",
+      "posicao_cabeca_mm": [
+        85.5,
+        118,
+        82
+      ],
+      "eixo_para_dentro": [
+        -1,
+        0,
+        0
+      ],
+      "inserto": "INS008",
+      "objeto_inserto": "SaiaFrente",
+      "engate_mm": 4.1,
+      "folga_ponta_ao_fim_inserto_mm": 1.58,
+      "folga_ponta_fundo_mm": 1.9,
+      "objeto_parafuso": "Parafuso_R05_010",
+      "objeto_arruela": "Arruela_R05_010"
+    },
+    {
+      "grupo": "C",
+      "descricao": "Lingueta lateral",
+      "metrica": "M3",
+      "comprimento_mm": 8,
+      "cabeca": "cilindrica Allen",
+      "posicao_cabeca_mm": [
+        -85.5,
+        118,
+        110
+      ],
+      "eixo_para_dentro": [
+        1,
+        0,
+        0
+      ],
+      "inserto": "INS009",
+      "objeto_inserto": "P03_Teto",
+      "engate_mm": 4.1,
+      "folga_ponta_ao_fim_inserto_mm": 1.58,
+      "folga_ponta_fundo_mm": 1.9,
+      "objeto_parafuso": "Parafuso_R05_011",
+      "objeto_arruela": "Arruela_R05_011"
+    },
+    {
+      "grupo": "C",
+      "descricao": "Lingueta lateral",
+      "metrica": "M3",
+      "comprimento_mm": 8,
+      "cabeca": "cilindrica Allen",
+      "posicao_cabeca_mm": [
+        85.5,
+        118,
+        110
+      ],
+      "eixo_para_dentro": [
+        -1,
+        0,
+        0
+      ],
+      "inserto": "INS010",
+      "objeto_inserto": "P04_Teto",
+      "engate_mm": 4.1,
+      "folga_ponta_ao_fim_inserto_mm": 1.58,
+      "folga_ponta_fundo_mm": 1.9,
+      "objeto_parafuso": "Parafuso_R05_012",
+      "objeto_arruela": "Arruela_R05_012"
+    },
+    {
+      "grupo": "D",
+      "descricao": "Ponte teto",
+      "metrica": "M3",
+      "comprimento_mm": 8,
+      "cabeca": "cilindrica Allen",
+      "posicao_cabeca_mm": [
+        -53,
+        104,
+        137.5
+      ],
+      "eixo_para_dentro": [
+        0,
+        0,
+        -1
+      ],
+      "inserto": "INS011",
+      "objeto_inserto": "UniaoTetoE",
+      "engate_mm": 4.3,
+      "folga_ponta_ao_fim_inserto_mm": 1.38,
+      "folga_ponta_fundo_mm": 1.7,
+      "objeto_parafuso": "Parafuso_R05_013",
+      "objeto_arruela": "Arruela_R05_013"
+    },
+    {
+      "grupo": "D",
+      "descricao": "Ponte teto",
+      "metrica": "M3",
+      "comprimento_mm": 8,
+      "cabeca": "cilindrica Allen",
+      "posicao_cabeca_mm": [
+        -53,
+        120,
+        137.5
+      ],
+      "eixo_para_dentro": [
+        0,
+        0,
+        -1
+      ],
+      "inserto": "INS012",
+      "objeto_inserto": "UniaoTetoE",
+      "engate_mm": 4.3,
+      "folga_ponta_ao_fim_inserto_mm": 1.38,
+      "folga_ponta_fundo_mm": 1.7,
+      "objeto_parafuso": "Parafuso_R05_014",
+      "objeto_arruela": "Arruela_R05_014"
+    },
+    {
+      "grupo": "D",
+      "descricao": "Ponte teto",
+      "metrica": "M3",
+      "comprimento_mm": 8,
+      "cabeca": "cilindrica Allen",
+      "posicao_cabeca_mm": [
+        53,
+        104,
+        137.5
+      ],
+      "eixo_para_dentro": [
+        0,
+        0,
+        -1
+      ],
+      "inserto": "INS013",
+      "objeto_inserto": "UniaoTetoD",
+      "engate_mm": 4.3,
+      "folga_ponta_ao_fim_inserto_mm": 1.38,
+      "folga_ponta_fundo_mm": 1.7,
+      "objeto_parafuso": "Parafuso_R05_015",
+      "objeto_arruela": "Arruela_R05_015"
+    },
+    {
+      "grupo": "D",
+      "descricao": "Ponte teto",
+      "metrica": "M3",
+      "comprimento_mm": 8,
+      "cabeca": "cilindrica Allen",
+      "posicao_cabeca_mm": [
+        53,
+        120,
+        137.5
+      ],
+      "eixo_para_dentro": [
+        0,
+        0,
+        -1
+      ],
+      "inserto": "INS014",
+      "objeto_inserto": "UniaoTetoD",
+      "engate_mm": 4.3,
+      "folga_ponta_ao_fim_inserto_mm": 1.38,
+      "folga_ponta_fundo_mm": 1.7,
+      "objeto_parafuso": "Parafuso_R05_016",
+      "objeto_arruela": "Arruela_R05_016"
+    },
+    {
+      "grupo": "E",
+      "descricao": "Portinhola AA",
+      "metrica": "M3",
+      "comprimento_mm": 8,
+      "cabeca": "cilindrica Allen",
+      "posicao_cabeca_mm": [
+        -30,
+        -4.9,
+        78.4
+      ],
+      "eixo_para_dentro": [
+        0,
+        1,
+        0
+      ],
+      "inserto": "INS001",
+      "objeto_inserto": "SaiaFrente",
+      "engate_mm": 5.1,
+      "folga_ponta_ao_fim_inserto_mm": 0.58,
+      "folga_ponta_fundo_mm": 0.9,
+      "objeto_parafuso": "Parafuso_R05_017",
+      "objeto_arruela": "Arruela_R05_017"
+    },
+    {
+      "grupo": "E",
+      "descricao": "Portinhola AA",
+      "metrica": "M3",
+      "comprimento_mm": 8,
+      "cabeca": "cilindrica Allen",
+      "posicao_cabeca_mm": [
+        30,
+        -4.9,
+        78.4
+      ],
+      "eixo_para_dentro": [
+        0,
+        1,
+        0
+      ],
+      "inserto": "INS002",
+      "objeto_inserto": "SaiaFrente",
+      "engate_mm": 5.1,
+      "folga_ponta_ao_fim_inserto_mm": 0.58,
+      "folga_ponta_fundo_mm": 0.9,
+      "objeto_parafuso": "Parafuso_R05_018",
+      "objeto_arruela": "Arruela_R05_018"
+    },
+    {
+      "grupo": "F",
+      "descricao": "Portinhola PB",
+      "metrica": "M3",
+      "comprimento_mm": 8,
+      "cabeca": "cilindrica Allen",
+      "posicao_cabeca_mm": [
+        -55,
+        212.9,
+        86
+      ],
+      "eixo_para_dentro": [
+        0,
+        -1,
+        0
+      ],
+      "inserto": "INS003",
+      "objeto_inserto": "SaiaTras",
+      "engate_mm": 5.1,
+      "folga_ponta_ao_fim_inserto_mm": 0.58,
+      "folga_ponta_fundo_mm": 0.9,
+      "objeto_parafuso": "Parafuso_R05_019",
+      "objeto_arruela": "Arruela_R05_019"
+    },
+    {
+      "grupo": "F",
+      "descricao": "Portinhola PB",
+      "metrica": "M3",
+      "comprimento_mm": 8,
+      "cabeca": "cilindrica Allen",
+      "posicao_cabeca_mm": [
+        55,
+        212.9,
+        86
+      ],
+      "eixo_para_dentro": [
+        0,
+        -1,
+        0
+      ],
+      "inserto": "INS004",
+      "objeto_inserto": "SaiaTras",
+      "engate_mm": 5.1,
+      "folga_ponta_ao_fim_inserto_mm": 0.58,
+      "folga_ponta_fundo_mm": 0.9,
+      "objeto_parafuso": "Parafuso_R05_020",
+      "objeto_arruela": "Arruela_R05_020"
+    },
+    {
+      "grupo": "G",
+      "descricao": "Painel lateral PB",
+      "metrica": "M3",
+      "comprimento_mm": 8,
+      "cabeca": "cilindrica Allen",
+      "posicao_cabeca_mm": [
+        87.9,
+        142,
+        86.5
+      ],
+      "eixo_para_dentro": [
+        -1,
+        0,
+        0
+      ],
+      "inserto": "INS005",
+      "objeto_inserto": "SaiaTras",
+      "engate_mm": 5.1,
+      "folga_ponta_ao_fim_inserto_mm": 0.58,
+      "folga_ponta_fundo_mm": 0.9,
+      "objeto_parafuso": "Parafuso_R05_021",
+      "objeto_arruela": "Arruela_R05_021"
+    },
+    {
+      "grupo": "G",
+      "descricao": "Painel lateral PB",
+      "metrica": "M3",
+      "comprimento_mm": 8,
+      "cabeca": "cilindrica Allen",
+      "posicao_cabeca_mm": [
+        87.9,
+        199,
+        86.5
+      ],
+      "eixo_para_dentro": [
+        -1,
+        0,
+        0
+      ],
+      "inserto": "INS006",
+      "objeto_inserto": "SaiaTras",
+      "engate_mm": 5.1,
+      "folga_ponta_ao_fim_inserto_mm": 0.58,
+      "folga_ponta_fundo_mm": 0.9,
+      "objeto_parafuso": "Parafuso_R05_022",
+      "objeto_arruela": "Arruela_R05_022"
+    },
+    {
+      "grupo": "H",
+      "descricao": "Piso pela orelha saia",
+      "metrica": "M3",
+      "comprimento_mm": 10,
+      "cabeca": "escareada 90 graus",
+      "posicao_cabeca_mm": [
+        -61,
+        24,
+        82
+      ],
+      "eixo_para_dentro": [
+        0,
+        0,
+        1
+      ],
+      "inserto": "INS027",
+      "objeto_inserto": "PisoSuperior",
+      "engate_mm": 5.0,
+      "folga_ponta_ao_fim_inserto_mm": 0.68,
+      "folga_ponta_fundo_mm": 1.0,
+      "objeto_parafuso": "Parafuso_R05_023",
+      "objeto_arruela": null
+    },
+    {
+      "grupo": "H",
+      "descricao": "Piso pela orelha saia",
+      "metrica": "M3",
+      "comprimento_mm": 10,
+      "cabeca": "escareada 90 graus",
+      "posicao_cabeca_mm": [
+        -61,
+        190,
+        82
+      ],
+      "eixo_para_dentro": [
+        0,
+        0,
+        1
+      ],
+      "inserto": "INS028",
+      "objeto_inserto": "PisoSuperior",
+      "engate_mm": 5.0,
+      "folga_ponta_ao_fim_inserto_mm": 0.68,
+      "folga_ponta_fundo_mm": 1.0,
+      "objeto_parafuso": "Parafuso_R05_024",
+      "objeto_arruela": null
+    },
+    {
+      "grupo": "H",
+      "descricao": "Piso pela orelha saia",
+      "metrica": "M3",
+      "comprimento_mm": 10,
+      "cabeca": "escareada 90 graus",
+      "posicao_cabeca_mm": [
+        61,
+        24,
+        82
+      ],
+      "eixo_para_dentro": [
+        0,
+        0,
+        1
+      ],
+      "inserto": "INS029",
+      "objeto_inserto": "PisoSuperior",
+      "engate_mm": 5.0,
+      "folga_ponta_ao_fim_inserto_mm": 0.68,
+      "folga_ponta_fundo_mm": 1.0,
+      "objeto_parafuso": "Parafuso_R05_025",
+      "objeto_arruela": null
+    },
+    {
+      "grupo": "H",
+      "descricao": "Piso pela orelha saia",
+      "metrica": "M3",
+      "comprimento_mm": 10,
+      "cabeca": "escareada 90 graus",
+      "posicao_cabeca_mm": [
+        61,
+        190,
+        82
+      ],
+      "eixo_para_dentro": [
+        0,
+        0,
+        1
+      ],
+      "inserto": "INS030",
+      "objeto_inserto": "PisoSuperior",
+      "engate_mm": 5.0,
+      "folga_ponta_ao_fim_inserto_mm": 0.68,
+      "folga_ponta_fundo_mm": 1.0,
+      "objeto_parafuso": "Parafuso_R05_026",
+      "objeto_arruela": null
+    },
+    {
+      "grupo": "I",
+      "descricao": "Coluna no chassi",
+      "metrica": "M3",
+      "comprimento_mm": 8,
+      "cabeca": "cilindrica Allen",
+      "posicao_cabeca_mm": [
+        -48,
+        33,
+        44.9
+      ],
+      "eixo_para_dentro": [
+        0,
+        0,
+        1
+      ],
+      "inserto": "INS039",
+      "objeto_inserto": "P15_0",
+      "engate_mm": 4.5,
+      "folga_ponta_ao_fim_inserto_mm": 1.18,
+      "folga_ponta_fundo_mm": 1.5,
+      "objeto_parafuso": "Parafuso_R05_027",
+      "objeto_arruela": "Arruela_R05_027"
+    },
+    {
+      "grupo": "I2",
+      "descricao": "Piso na coluna",
+      "metrica": "M3",
+      "comprimento_mm": 8,
+      "cabeca": "cilindrica Allen",
+      "posicao_cabeca_mm": [
+        -48,
+        33,
+        90.5
+      ],
+      "eixo_para_dentro": [
+        0,
+        0,
+        -1
+      ],
+      "inserto": "INS040",
+      "objeto_inserto": "P15_0",
+      "engate_mm": 4.5,
+      "folga_ponta_ao_fim_inserto_mm": 1.18,
+      "folga_ponta_fundo_mm": 1.5,
+      "objeto_parafuso": "Parafuso_R05_028",
+      "objeto_arruela": "Arruela_R05_028"
+    },
+    {
+      "grupo": "I",
+      "descricao": "Coluna no chassi",
+      "metrica": "M3",
+      "comprimento_mm": 8,
+      "cabeca": "cilindrica Allen",
+      "posicao_cabeca_mm": [
+        48,
+        33,
+        44.9
+      ],
+      "eixo_para_dentro": [
+        0,
+        0,
+        1
+      ],
+      "inserto": "INS041",
+      "objeto_inserto": "P15_1",
+      "engate_mm": 4.5,
+      "folga_ponta_ao_fim_inserto_mm": 1.18,
+      "folga_ponta_fundo_mm": 1.5,
+      "objeto_parafuso": "Parafuso_R05_029",
+      "objeto_arruela": "Arruela_R05_029"
+    },
+    {
+      "grupo": "I2",
+      "descricao": "Piso na coluna",
+      "metrica": "M3",
+      "comprimento_mm": 8,
+      "cabeca": "cilindrica Allen",
+      "posicao_cabeca_mm": [
+        48,
+        33,
+        90.5
+      ],
+      "eixo_para_dentro": [
+        0,
+        0,
+        -1
+      ],
+      "inserto": "INS042",
+      "objeto_inserto": "P15_1",
+      "engate_mm": 4.5,
+      "folga_ponta_ao_fim_inserto_mm": 1.18,
+      "folga_ponta_fundo_mm": 1.5,
+      "objeto_parafuso": "Parafuso_R05_030",
+      "objeto_arruela": "Arruela_R05_030"
+    },
+    {
+      "grupo": "I",
+      "descricao": "Coluna no chassi",
+      "metrica": "M3",
+      "comprimento_mm": 12,
+      "cabeca": "cilindrica Allen",
+      "posicao_cabeca_mm": [
+        -58,
+        126,
+        44.9
+      ],
+      "eixo_para_dentro": [
+        0,
+        0,
+        1
+      ],
+      "inserto": "INS044",
+      "objeto_inserto": "P16_0",
+      "engate_mm": 4.5,
+      "folga_ponta_ao_fim_inserto_mm": 1.18,
+      "folga_ponta_fundo_mm": 1.5,
+      "objeto_parafuso": "Parafuso_R05_031",
+      "objeto_arruela": "Arruela_R05_031"
+    },
+    {
+      "grupo": "I2",
+      "descricao": "Piso na coluna",
+      "metrica": "M3",
+      "comprimento_mm": 8,
+      "cabeca": "cilindrica Allen",
+      "posicao_cabeca_mm": [
+        -58,
+        126,
+        90.5
+      ],
+      "eixo_para_dentro": [
+        0,
+        0,
+        -1
+      ],
+      "inserto": "INS045",
+      "objeto_inserto": "P16_0",
+      "engate_mm": 4.5,
+      "folga_ponta_ao_fim_inserto_mm": 1.18,
+      "folga_ponta_fundo_mm": 1.5,
+      "objeto_parafuso": "Parafuso_R05_032",
+      "objeto_arruela": "Arruela_R05_032"
+    },
+    {
+      "grupo": "I",
+      "descricao": "Coluna no chassi",
+      "metrica": "M3",
+      "comprimento_mm": 12,
+      "cabeca": "cilindrica Allen",
+      "posicao_cabeca_mm": [
+        58,
+        126,
+        44.9
+      ],
+      "eixo_para_dentro": [
+        0,
+        0,
+        1
+      ],
+      "inserto": "INS047",
+      "objeto_inserto": "P16_1",
+      "engate_mm": 4.5,
+      "folga_ponta_ao_fim_inserto_mm": 1.18,
+      "folga_ponta_fundo_mm": 1.5,
+      "objeto_parafuso": "Parafuso_R05_033",
+      "objeto_arruela": "Arruela_R05_033"
+    },
+    {
+      "grupo": "I2",
+      "descricao": "Piso na coluna",
+      "metrica": "M3",
+      "comprimento_mm": 8,
+      "cabeca": "cilindrica Allen",
+      "posicao_cabeca_mm": [
+        58,
+        126,
+        90.5
+      ],
+      "eixo_para_dentro": [
+        0,
+        0,
+        -1
+      ],
+      "inserto": "INS048",
+      "objeto_inserto": "P16_1",
+      "engate_mm": 4.5,
+      "folga_ponta_ao_fim_inserto_mm": 1.18,
+      "folga_ponta_fundo_mm": 1.5,
+      "objeto_parafuso": "Parafuso_R05_034",
+      "objeto_arruela": "Arruela_R05_034"
+    },
+    {
+      "grupo": "J",
+      "descricao": "Coluna C1 no piso",
+      "metrica": "M3",
+      "comprimento_mm": 8,
+      "cabeca": "cilindrica Allen",
+      "posicao_cabeca_mm": [
+        -25.5,
+        84,
+        86.5
+      ],
+      "eixo_para_dentro": [
+        0,
+        0,
+        1
+      ],
+      "inserto": "INS049",
+      "objeto_inserto": "ColunaC1E",
+      "engate_mm": 4.5,
+      "folga_ponta_ao_fim_inserto_mm": 1.18,
+      "folga_ponta_fundo_mm": 1.5,
+      "objeto_parafuso": "Parafuso_R05_035",
+      "objeto_arruela": "Arruela_R05_035"
+    },
+    {
+      "grupo": "J2",
+      "descricao": "Base C1 na coluna",
+      "metrica": "M3",
+      "comprimento_mm": 8,
+      "cabeca": "escareada 90 graus",
+      "posicao_cabeca_mm": [
+        -25.5,
+        84,
+        142.8
+      ],
+      "eixo_para_dentro": [
+        0,
+        0,
+        -1
+      ],
+      "inserto": "INS050",
+      "objeto_inserto": "ColunaC1E",
+      "engate_mm": 5.2,
+      "folga_ponta_ao_fim_inserto_mm": 0.48,
+      "folga_ponta_fundo_mm": 0.8,
+      "objeto_parafuso": "Parafuso_R05_036",
+      "objeto_arruela": null
+    },
+    {
+      "grupo": "J",
+      "descricao": "Coluna C1 no piso",
+      "metrica": "M3",
+      "comprimento_mm": 8,
+      "cabeca": "cilindrica Allen",
+      "posicao_cabeca_mm": [
+        25.5,
+        84,
+        86.5
+      ],
+      "eixo_para_dentro": [
+        0,
+        0,
+        1
+      ],
+      "inserto": "INS051",
+      "objeto_inserto": "ColunaC1D",
+      "engate_mm": 4.5,
+      "folga_ponta_ao_fim_inserto_mm": 1.18,
+      "folga_ponta_fundo_mm": 1.5,
+      "objeto_parafuso": "Parafuso_R05_037",
+      "objeto_arruela": "Arruela_R05_037"
+    },
+    {
+      "grupo": "J2",
+      "descricao": "Base C1 na coluna",
+      "metrica": "M3",
+      "comprimento_mm": 8,
+      "cabeca": "escareada 90 graus",
+      "posicao_cabeca_mm": [
+        25.5,
+        84,
+        142.8
+      ],
+      "eixo_para_dentro": [
+        0,
+        0,
+        -1
+      ],
+      "inserto": "INS052",
+      "objeto_inserto": "ColunaC1D",
+      "engate_mm": 5.2,
+      "folga_ponta_ao_fim_inserto_mm": 0.48,
+      "folga_ponta_fundo_mm": 0.8,
+      "objeto_parafuso": "Parafuso_R05_038",
+      "objeto_arruela": null
+    },
+    {
+      "grupo": "K",
+      "descricao": "Presilha Pi",
+      "metrica": "M3",
+      "comprimento_mm": 8,
+      "cabeca": "cilindrica Allen",
+      "posicao_cabeca_mm": [
+        -40.3,
+        7.5,
+        101.3
+      ],
+      "eixo_para_dentro": [
+        0,
+        0,
+        -1
+      ],
+      "inserto": "INS023",
+      "objeto_inserto": "PisoSuperior",
+      "engate_mm": 4.5,
+      "folga_ponta_ao_fim_inserto_mm": 1.18,
+      "folga_ponta_fundo_mm": 1.5,
+      "objeto_parafuso": "Parafuso_R05_039",
+      "objeto_arruela": "Arruela_R05_039"
+    },
+    {
+      "grupo": "K",
+      "descricao": "Presilha Pi",
+      "metrica": "M3",
+      "comprimento_mm": 8,
+      "cabeca": "cilindrica Allen",
+      "posicao_cabeca_mm": [
+        -40.3,
+        75.5,
+        101.3
+      ],
+      "eixo_para_dentro": [
+        0,
+        0,
+        -1
+      ],
+      "inserto": "INS024",
+      "objeto_inserto": "PisoSuperior",
+      "engate_mm": 4.5,
+      "folga_ponta_ao_fim_inserto_mm": 1.18,
+      "folga_ponta_fundo_mm": 1.5,
+      "objeto_parafuso": "Parafuso_R05_040",
+      "objeto_arruela": "Arruela_R05_040"
+    },
+    {
+      "grupo": "K",
+      "descricao": "Presilha Pi",
+      "metrica": "M3",
+      "comprimento_mm": 8,
+      "cabeca": "cilindrica Allen",
+      "posicao_cabeca_mm": [
+        17.7,
+        7.5,
+        101.3
+      ],
+      "eixo_para_dentro": [
+        0,
+        0,
+        -1
+      ],
+      "inserto": "INS025",
+      "objeto_inserto": "PisoSuperior",
+      "engate_mm": 4.5,
+      "folga_ponta_ao_fim_inserto_mm": 1.18,
+      "folga_ponta_fundo_mm": 1.5,
+      "objeto_parafuso": "Parafuso_R05_041",
+      "objeto_arruela": "Arruela_R05_041"
+    },
+    {
+      "grupo": "K",
+      "descricao": "Presilha Pi",
+      "metrica": "M3",
+      "comprimento_mm": 8,
+      "cabeca": "cilindrica Allen",
+      "posicao_cabeca_mm": [
+        17.7,
+        75.5,
+        101.3
+      ],
+      "eixo_para_dentro": [
+        0,
+        0,
+        -1
+      ],
+      "inserto": "INS026",
+      "objeto_inserto": "PisoSuperior",
+      "engate_mm": 4.5,
+      "folga_ponta_ao_fim_inserto_mm": 1.18,
+      "folga_ponta_fundo_mm": 1.5,
+      "objeto_parafuso": "Parafuso_R05_042",
+      "objeto_arruela": "Arruela_R05_042"
+    },
+    {
+      "grupo": "L",
+      "descricao": "Gaveta PB na coluna",
+      "metrica": "M3",
+      "comprimento_mm": 8,
+      "cabeca": "escareada 90 graus",
+      "posicao_cabeca_mm": [
+        -58,
+        135.2,
+        70
+      ],
+      "eixo_para_dentro": [
+        0,
+        -1,
+        0
+      ],
+      "inserto": "INS043",
+      "objeto_inserto": "P16_0",
+      "engate_mm": 4.8,
+      "folga_ponta_ao_fim_inserto_mm": 0.88,
+      "folga_ponta_fundo_mm": 1.2,
+      "objeto_parafuso": "Parafuso_R05_043",
+      "objeto_arruela": null
+    },
+    {
+      "grupo": "L",
+      "descricao": "Gaveta PB na coluna",
+      "metrica": "M3",
+      "comprimento_mm": 8,
+      "cabeca": "escareada 90 graus",
+      "posicao_cabeca_mm": [
+        58,
+        135.2,
+        70
+      ],
+      "eixo_para_dentro": [
+        0,
+        -1,
+        0
+      ],
+      "inserto": "INS046",
+      "objeto_inserto": "P16_1",
+      "engate_mm": 4.8,
+      "folga_ponta_ao_fim_inserto_mm": 0.88,
+      "folga_ponta_fundo_mm": 1.2,
+      "objeto_parafuso": "Parafuso_R05_044",
+      "objeto_arruela": null
+    },
+    {
+      "grupo": "M",
+      "descricao": "Berco AA no chassi",
+      "metrica": "M3",
+      "comprimento_mm": 8,
+      "cabeca": "cilindrica Allen",
+      "posicao_cabeca_mm": [
+        -44,
+        6,
+        44.9
+      ],
+      "eixo_para_dentro": [
+        0,
+        0,
+        1
+      ],
+      "inserto": "INS031",
+      "objeto_inserto": "BercoAA",
+      "engate_mm": 4.5,
+      "folga_ponta_ao_fim_inserto_mm": 1.18,
+      "folga_ponta_fundo_mm": 1.5,
+      "objeto_parafuso": "Parafuso_R05_045",
+      "objeto_arruela": "Arruela_R05_045"
+    },
+    {
+      "grupo": "M2",
+      "descricao": "Regua AA no berco",
+      "metrica": "M3",
+      "comprimento_mm": 8,
+      "cabeca": "cilindrica Allen",
+      "posicao_cabeca_mm": [
+        -44,
+        6,
+        78.7
+      ],
+      "eixo_para_dentro": [
+        0,
+        0,
+        -1
+      ],
+      "inserto": "INS032",
+      "objeto_inserto": "BercoAA",
+      "engate_mm": 4.5,
+      "folga_ponta_ao_fim_inserto_mm": 1.18,
+      "folga_ponta_fundo_mm": 1.5,
+      "objeto_parafuso": "Parafuso_R05_046",
+      "objeto_arruela": "Arruela_R05_046"
+    },
+    {
+      "grupo": "M",
+      "descricao": "Berco AA no chassi",
+      "metrica": "M3",
+      "comprimento_mm": 8,
+      "cabeca": "cilindrica Allen",
+      "posicao_cabeca_mm": [
+        -44,
+        74,
+        44.9
+      ],
+      "eixo_para_dentro": [
+        0,
+        0,
+        1
+      ],
+      "inserto": "INS033",
+      "objeto_inserto": "BercoAA",
+      "engate_mm": 4.5,
+      "folga_ponta_ao_fim_inserto_mm": 1.18,
+      "folga_ponta_fundo_mm": 1.5,
+      "objeto_parafuso": "Parafuso_R05_047",
+      "objeto_arruela": "Arruela_R05_047"
+    },
+    {
+      "grupo": "M2",
+      "descricao": "Regua AA no berco",
+      "metrica": "M3",
+      "comprimento_mm": 8,
+      "cabeca": "cilindrica Allen",
+      "posicao_cabeca_mm": [
+        -44,
+        74,
+        78.7
+      ],
+      "eixo_para_dentro": [
+        0,
+        0,
+        -1
+      ],
+      "inserto": "INS034",
+      "objeto_inserto": "BercoAA",
+      "engate_mm": 4.5,
+      "folga_ponta_ao_fim_inserto_mm": 1.18,
+      "folga_ponta_fundo_mm": 1.5,
+      "objeto_parafuso": "Parafuso_R05_048",
+      "objeto_arruela": "Arruela_R05_048"
+    },
+    {
+      "grupo": "M",
+      "descricao": "Berco AA no chassi",
+      "metrica": "M3",
+      "comprimento_mm": 8,
+      "cabeca": "cilindrica Allen",
+      "posicao_cabeca_mm": [
+        44,
+        6,
+        44.9
+      ],
+      "eixo_para_dentro": [
+        0,
+        0,
+        1
+      ],
+      "inserto": "INS035",
+      "objeto_inserto": "BercoAA",
+      "engate_mm": 4.5,
+      "folga_ponta_ao_fim_inserto_mm": 1.18,
+      "folga_ponta_fundo_mm": 1.5,
+      "objeto_parafuso": "Parafuso_R05_049",
+      "objeto_arruela": "Arruela_R05_049"
+    },
+    {
+      "grupo": "M2",
+      "descricao": "Regua AA no berco",
+      "metrica": "M3",
+      "comprimento_mm": 8,
+      "cabeca": "cilindrica Allen",
+      "posicao_cabeca_mm": [
+        44,
+        6,
+        78.7
+      ],
+      "eixo_para_dentro": [
+        0,
+        0,
+        -1
+      ],
+      "inserto": "INS036",
+      "objeto_inserto": "BercoAA",
+      "engate_mm": 4.5,
+      "folga_ponta_ao_fim_inserto_mm": 1.18,
+      "folga_ponta_fundo_mm": 1.5,
+      "objeto_parafuso": "Parafuso_R05_050",
+      "objeto_arruela": "Arruela_R05_050"
+    },
+    {
+      "grupo": "M",
+      "descricao": "Berco AA no chassi",
+      "metrica": "M3",
+      "comprimento_mm": 8,
+      "cabeca": "cilindrica Allen",
+      "posicao_cabeca_mm": [
+        44,
+        74,
+        44.9
+      ],
+      "eixo_para_dentro": [
+        0,
+        0,
+        1
+      ],
+      "inserto": "INS037",
+      "objeto_inserto": "BercoAA",
+      "engate_mm": 4.5,
+      "folga_ponta_ao_fim_inserto_mm": 1.18,
+      "folga_ponta_fundo_mm": 1.5,
+      "objeto_parafuso": "Parafuso_R05_051",
+      "objeto_arruela": "Arruela_R05_051"
+    },
+    {
+      "grupo": "M2",
+      "descricao": "Regua AA no berco",
+      "metrica": "M3",
+      "comprimento_mm": 8,
+      "cabeca": "cilindrica Allen",
+      "posicao_cabeca_mm": [
+        44,
+        74,
+        78.7
+      ],
+      "eixo_para_dentro": [
+        0,
+        0,
+        -1
+      ],
+      "inserto": "INS038",
+      "objeto_inserto": "BercoAA",
+      "engate_mm": 4.5,
+      "folga_ponta_ao_fim_inserto_mm": 1.18,
+      "folga_ponta_fundo_mm": 1.5,
+      "objeto_parafuso": "Parafuso_R05_052",
+      "objeto_arruela": "Arruela_R05_052"
+    },
+    {
+      "grupo": "N",
+      "descricao": "Berco L298N no chassi",
+      "metrica": "M3",
+      "comprimento_mm": 8,
+      "cabeca": "cilindrica Allen",
+      "posicao_cabeca_mm": [
+        6,
+        87,
+        44.9
+      ],
+      "eixo_para_dentro": [
+        0,
+        0,
+        1
+      ],
+      "inserto": "INS053",
+      "objeto_inserto": "BercoL298",
+      "engate_mm": 4.5,
+      "folga_ponta_ao_fim_inserto_mm": 1.18,
+      "folga_ponta_fundo_mm": 1.5,
+      "objeto_parafuso": "Parafuso_R05_053",
+      "objeto_arruela": "Arruela_R05_053"
+    },
+    {
+      "grupo": "N",
+      "descricao": "Berco L298N no chassi",
+      "metrica": "M3",
+      "comprimento_mm": 8,
+      "cabeca": "cilindrica Allen",
+      "posicao_cabeca_mm": [
+        43,
+        87,
+        44.9
+      ],
+      "eixo_para_dentro": [
+        0,
+        0,
+        1
+      ],
+      "inserto": "INS054",
+      "objeto_inserto": "BercoL298",
+      "engate_mm": 4.5,
+      "folga_ponta_ao_fim_inserto_mm": 1.18,
+      "folga_ponta_fundo_mm": 1.5,
+      "objeto_parafuso": "Parafuso_R05_054",
+      "objeto_arruela": "Arruela_R05_054"
+    },
+    {
+      "grupo": "N",
+      "descricao": "Berco L298N no chassi",
+      "metrica": "M3",
+      "comprimento_mm": 8,
+      "cabeca": "cilindrica Allen",
+      "posicao_cabeca_mm": [
+        6,
+        124,
+        44.9
+      ],
+      "eixo_para_dentro": [
+        0,
+        0,
+        1
+      ],
+      "inserto": "INS055",
+      "objeto_inserto": "BercoL298",
+      "engate_mm": 4.5,
+      "folga_ponta_ao_fim_inserto_mm": 1.18,
+      "folga_ponta_fundo_mm": 1.5,
+      "objeto_parafuso": "Parafuso_R05_055",
+      "objeto_arruela": "Arruela_R05_055"
+    },
+    {
+      "grupo": "N",
+      "descricao": "Berco L298N no chassi",
+      "metrica": "M3",
+      "comprimento_mm": 8,
+      "cabeca": "cilindrica Allen",
+      "posicao_cabeca_mm": [
+        43,
+        124,
+        44.9
+      ],
+      "eixo_para_dentro": [
+        0,
+        0,
+        1
+      ],
+      "inserto": "INS056",
+      "objeto_inserto": "BercoL298",
+      "engate_mm": 4.5,
+      "folga_ponta_ao_fim_inserto_mm": 1.18,
+      "folga_ponta_fundo_mm": 1.5,
+      "objeto_parafuso": "Parafuso_R05_056",
+      "objeto_arruela": "Arruela_R05_056"
+    },
+    {
+      "grupo": "N",
+      "descricao": "Berco L298N no chassi",
+      "metrica": "M3",
+      "comprimento_mm": 8,
+      "cabeca": "cilindrica Allen",
+      "posicao_cabeca_mm": [
+        -3,
+        99,
+        44.9
+      ],
+      "eixo_para_dentro": [
+        0,
+        0,
+        1
+      ],
+      "inserto": "INS057",
+      "objeto_inserto": "BercoL298",
+      "engate_mm": 4.5,
+      "folga_ponta_ao_fim_inserto_mm": 1.18,
+      "folga_ponta_fundo_mm": 1.5,
+      "objeto_parafuso": "Parafuso_R05_057",
+      "objeto_arruela": "Arruela_R05_057"
+    },
+    {
+      "grupo": "N",
+      "descricao": "Berco L298N no chassi",
+      "metrica": "M3",
+      "comprimento_mm": 8,
+      "cabeca": "cilindrica Allen",
+      "posicao_cabeca_mm": [
+        51.5,
+        117.5,
+        44.9
+      ],
+      "eixo_para_dentro": [
+        0,
+        0,
+        1
+      ],
+      "inserto": "INS059",
+      "objeto_inserto": "BercoL298",
+      "engate_mm": 4.5,
+      "folga_ponta_ao_fim_inserto_mm": 1.18,
+      "folga_ponta_fundo_mm": 1.5,
+      "objeto_parafuso": "Parafuso_R05_058",
+      "objeto_arruela": "Arruela_R05_058"
+    },
+    {
+      "grupo": "N2",
+      "descricao": "Quadro L298N no boss externo",
+      "metrica": "M3",
+      "comprimento_mm": 8,
+      "cabeca": "cilindrica Allen",
+      "posicao_cabeca_mm": [
+        -3,
+        99,
+        68
+      ],
+      "eixo_para_dentro": [
+        0,
+        0,
+        -1
+      ],
+      "inserto": "INS058",
+      "objeto_inserto": "BercoL298",
+      "engate_mm": 4.5,
+      "folga_ponta_ao_fim_inserto_mm": 1.18,
+      "folga_ponta_fundo_mm": 1.5,
+      "objeto_parafuso": "Parafuso_R05_059",
+      "objeto_arruela": "Arruela_R05_059"
+    },
+    {
+      "grupo": "N2",
+      "descricao": "Quadro L298N no boss externo",
+      "metrica": "M3",
+      "comprimento_mm": 8,
+      "cabeca": "cilindrica Allen",
+      "posicao_cabeca_mm": [
+        51.5,
+        117.5,
+        68
+      ],
+      "eixo_para_dentro": [
+        0,
+        0,
+        -1
+      ],
+      "inserto": "INS060",
+      "objeto_inserto": "BercoL298",
+      "engate_mm": 4.5,
+      "folga_ponta_ao_fim_inserto_mm": 1.18,
+      "folga_ponta_fundo_mm": 1.5,
+      "objeto_parafuso": "Parafuso_R05_060",
+      "objeto_arruela": "Arruela_R05_060"
+    },
+    {
+      "grupo": "O",
+      "descricao": "Berco MPU no chassi",
+      "metrica": "M3",
+      "comprimento_mm": 8,
+      "cabeca": "cilindrica Allen",
+      "posicao_cabeca_mm": [
+        -5,
+        109.5,
+        44.9
+      ],
+      "eixo_para_dentro": [
+        0,
+        0,
+        1
+      ],
+      "inserto": "INS061",
+      "objeto_inserto": "BercoMPU",
+      "engate_mm": 4.5,
+      "folga_ponta_ao_fim_inserto_mm": 1.18,
+      "folga_ponta_fundo_mm": 1.5,
+      "objeto_parafuso": "Parafuso_R05_061",
+      "objeto_arruela": "Arruela_R05_061"
+    },
+    {
+      "grupo": "O2",
+      "descricao": "Presilha MPU",
+      "metrica": "M3",
+      "comprimento_mm": 8,
+      "cabeca": "cilindrica Allen",
+      "posicao_cabeca_mm": [
+        -5,
+        109.5,
+        66
+      ],
+      "eixo_para_dentro": [
+        0,
+        0,
+        -1
+      ],
+      "inserto": "INS062",
+      "objeto_inserto": "BercoMPU",
+      "engate_mm": 4.5,
+      "folga_ponta_ao_fim_inserto_mm": 1.18,
+      "folga_ponta_fundo_mm": 1.5,
+      "objeto_parafuso": "Parafuso_R05_062",
+      "objeto_arruela": "Arruela_R05_062"
+    },
+    {
+      "grupo": "O",
+      "descricao": "Berco MPU no chassi",
+      "metrica": "M3",
+      "comprimento_mm": 8,
+      "cabeca": "cilindrica Allen",
+      "posicao_cabeca_mm": [
+        -5,
+        125.5,
+        44.9
+      ],
+      "eixo_para_dentro": [
+        0,
+        0,
+        1
+      ],
+      "inserto": "INS063",
+      "objeto_inserto": "BercoMPU",
+      "engate_mm": 4.5,
+      "folga_ponta_ao_fim_inserto_mm": 1.18,
+      "folga_ponta_fundo_mm": 1.5,
+      "objeto_parafuso": "Parafuso_R05_063",
+      "objeto_arruela": "Arruela_R05_063"
+    },
+    {
+      "grupo": "O2",
+      "descricao": "Presilha MPU",
+      "metrica": "M3",
+      "comprimento_mm": 8,
+      "cabeca": "cilindrica Allen",
+      "posicao_cabeca_mm": [
+        -5,
+        125.5,
+        66
+      ],
+      "eixo_para_dentro": [
+        0,
+        0,
+        -1
+      ],
+      "inserto": "INS064",
+      "objeto_inserto": "BercoMPU",
+      "engate_mm": 4.5,
+      "folga_ponta_ao_fim_inserto_mm": 1.18,
+      "folga_ponta_fundo_mm": 1.5,
+      "objeto_parafuso": "Parafuso_R05_064",
+      "objeto_arruela": "Arruela_R05_064"
+    },
+    {
+      "grupo": "P",
+      "descricao": "Berco ESP no piso",
+      "metrica": "M3",
+      "comprimento_mm": 8,
+      "cabeca": "cilindrica Allen",
+      "posicao_cabeca_mm": [
+        -22,
+        170,
+        86.5
+      ],
+      "eixo_para_dentro": [
+        0,
+        0,
+        1
+      ],
+      "inserto": "INS065",
+      "objeto_inserto": "BercoESP",
+      "engate_mm": 4.5,
+      "folga_ponta_ao_fim_inserto_mm": 1.18,
+      "folga_ponta_fundo_mm": 1.5,
+      "objeto_parafuso": "Parafuso_R05_065",
+      "objeto_arruela": "Arruela_R05_065"
+    },
+    {
+      "grupo": "P2",
+      "descricao": "Quadro ESP",
+      "metrica": "M3",
+      "comprimento_mm": 8,
+      "cabeca": "cilindrica Allen",
+      "posicao_cabeca_mm": [
+        -22,
+        170,
+        113.9
+      ],
+      "eixo_para_dentro": [
+        0,
+        0,
+        -1
+      ],
+      "inserto": "INS066",
+      "objeto_inserto": "BercoESP",
+      "engate_mm": 4.1,
+      "folga_ponta_ao_fim_inserto_mm": 1.58,
+      "folga_ponta_fundo_mm": 1.9,
+      "objeto_parafuso": "Parafuso_R05_066",
+      "objeto_arruela": "Arruela_R05_066"
+    },
+    {
+      "grupo": "P",
+      "descricao": "Berco ESP no piso",
+      "metrica": "M3",
+      "comprimento_mm": 8,
+      "cabeca": "cilindrica Allen",
+      "posicao_cabeca_mm": [
+        22,
+        170,
+        86.5
+      ],
+      "eixo_para_dentro": [
+        0,
+        0,
+        1
+      ],
+      "inserto": "INS067",
+      "objeto_inserto": "BercoESP",
+      "engate_mm": 4.5,
+      "folga_ponta_ao_fim_inserto_mm": 1.18,
+      "folga_ponta_fundo_mm": 1.5,
+      "objeto_parafuso": "Parafuso_R05_067",
+      "objeto_arruela": "Arruela_R05_067"
+    },
+    {
+      "grupo": "P2",
+      "descricao": "Quadro ESP",
+      "metrica": "M3",
+      "comprimento_mm": 8,
+      "cabeca": "cilindrica Allen",
+      "posicao_cabeca_mm": [
+        22,
+        170,
+        113.9
+      ],
+      "eixo_para_dentro": [
+        0,
+        0,
+        -1
+      ],
+      "inserto": "INS068",
+      "objeto_inserto": "BercoESP",
+      "engate_mm": 4.1,
+      "folga_ponta_ao_fim_inserto_mm": 1.58,
+      "folga_ponta_fundo_mm": 1.9,
+      "objeto_parafuso": "Parafuso_R05_068",
+      "objeto_arruela": "Arruela_R05_068"
+    }
+  ],
+  "insertos": [
+    {
+      "id": "INS001",
+      "objeto": "SaiaFrente",
+      "entrada_mm": [
+        -30,
+        -2,
+        78.4
+      ],
+      "eixo_para_dentro": [
+        0,
+        1,
+        0
+      ],
+      "comprimento_inserto_mm": 5.68,
+      "diametro_envelope_mm": 4.7,
+      "diametro_piloto_proposto_mm": 4.3,
+      "profundidade_proposta_mm": 6.0,
+      "instalacao": "termica fora da montagem; antes das placas e bateria; piloto a confirmar no cupom"
+    },
+    {
+      "id": "INS002",
+      "objeto": "SaiaFrente",
+      "entrada_mm": [
+        30,
+        -2,
+        78.4
+      ],
+      "eixo_para_dentro": [
+        0,
+        1,
+        0
+      ],
+      "comprimento_inserto_mm": 5.68,
+      "diametro_envelope_mm": 4.7,
+      "diametro_piloto_proposto_mm": 4.3,
+      "profundidade_proposta_mm": 6.0,
+      "instalacao": "termica fora da montagem; antes das placas e bateria; piloto a confirmar no cupom"
+    },
+    {
+      "id": "INS003",
+      "objeto": "SaiaTras",
+      "entrada_mm": [
+        -55,
+        210,
+        86
+      ],
+      "eixo_para_dentro": [
+        0,
+        -1,
+        0
+      ],
+      "comprimento_inserto_mm": 5.68,
+      "diametro_envelope_mm": 4.7,
+      "diametro_piloto_proposto_mm": 4.3,
+      "profundidade_proposta_mm": 6.0,
+      "instalacao": "termica fora da montagem; antes das placas e bateria; piloto a confirmar no cupom"
+    },
+    {
+      "id": "INS004",
+      "objeto": "SaiaTras",
+      "entrada_mm": [
+        55,
+        210,
+        86
+      ],
+      "eixo_para_dentro": [
+        0,
+        -1,
+        0
+      ],
+      "comprimento_inserto_mm": 5.68,
+      "diametro_envelope_mm": 4.7,
+      "diametro_piloto_proposto_mm": 4.3,
+      "profundidade_proposta_mm": 6.0,
+      "instalacao": "termica fora da montagem; antes das placas e bateria; piloto a confirmar no cupom"
+    },
+    {
+      "id": "INS005",
+      "objeto": "SaiaTras",
+      "entrada_mm": [
+        85,
+        142,
+        86.5
+      ],
+      "eixo_para_dentro": [
+        -1,
+        0,
+        0
+      ],
+      "comprimento_inserto_mm": 5.68,
+      "diametro_envelope_mm": 4.7,
+      "diametro_piloto_proposto_mm": 4.3,
+      "profundidade_proposta_mm": 6.0,
+      "instalacao": "termica fora da montagem; antes das placas e bateria; piloto a confirmar no cupom"
+    },
+    {
+      "id": "INS006",
+      "objeto": "SaiaTras",
+      "entrada_mm": [
+        85,
+        199,
+        86.5
+      ],
+      "eixo_para_dentro": [
+        -1,
+        0,
+        0
+      ],
+      "comprimento_inserto_mm": 5.68,
+      "diametro_envelope_mm": 4.7,
+      "diametro_piloto_proposto_mm": 4.3,
+      "profundidade_proposta_mm": 6.0,
+      "instalacao": "termica fora da montagem; antes das placas e bateria; piloto a confirmar no cupom"
+    },
+    {
+      "id": "INS007",
+      "objeto": "SaiaFrente",
+      "entrada_mm": [
+        -81.6,
+        118,
+        82
+      ],
+      "eixo_para_dentro": [
+        1,
+        0,
+        0
+      ],
+      "comprimento_inserto_mm": 5.68,
+      "diametro_envelope_mm": 4.7,
+      "diametro_piloto_proposto_mm": 4.3,
+      "profundidade_proposta_mm": 6.0,
+      "instalacao": "termica fora da montagem; antes das placas e bateria; piloto a confirmar no cupom"
+    },
+    {
+      "id": "INS008",
+      "objeto": "SaiaFrente",
+      "entrada_mm": [
+        81.6,
+        118,
+        82
+      ],
+      "eixo_para_dentro": [
+        -1,
+        0,
+        0
+      ],
+      "comprimento_inserto_mm": 5.68,
+      "diametro_envelope_mm": 4.7,
+      "diametro_piloto_proposto_mm": 4.3,
+      "profundidade_proposta_mm": 6.0,
+      "instalacao": "termica fora da montagem; antes das placas e bateria; piloto a confirmar no cupom"
+    },
+    {
+      "id": "INS009",
+      "objeto": "P03_Teto",
+      "entrada_mm": [
+        -81.6,
+        118,
+        110
+      ],
+      "eixo_para_dentro": [
+        1,
+        0,
+        0
+      ],
+      "comprimento_inserto_mm": 5.68,
+      "diametro_envelope_mm": 4.7,
+      "diametro_piloto_proposto_mm": 4.3,
+      "profundidade_proposta_mm": 6.0,
+      "instalacao": "termica fora da montagem; antes das placas e bateria; piloto a confirmar no cupom"
+    },
+    {
+      "id": "INS010",
+      "objeto": "P04_Teto",
+      "entrada_mm": [
+        81.6,
+        118,
+        110
+      ],
+      "eixo_para_dentro": [
+        -1,
+        0,
+        0
+      ],
+      "comprimento_inserto_mm": 5.68,
+      "diametro_envelope_mm": 4.7,
+      "diametro_piloto_proposto_mm": 4.3,
+      "profundidade_proposta_mm": 6.0,
+      "instalacao": "termica fora da montagem; antes das placas e bateria; piloto a confirmar no cupom"
+    },
+    {
+      "id": "INS011",
+      "objeto": "UniaoTetoE",
+      "entrada_mm": [
+        -53,
+        104,
+        133.8
+      ],
+      "eixo_para_dentro": [
+        0,
+        0,
+        -1
+      ],
+      "comprimento_inserto_mm": 5.68,
+      "diametro_envelope_mm": 4.7,
+      "diametro_piloto_proposto_mm": 4.3,
+      "profundidade_proposta_mm": 6.0,
+      "instalacao": "termica fora da montagem; antes das placas e bateria; piloto a confirmar no cupom"
+    },
+    {
+      "id": "INS012",
+      "objeto": "UniaoTetoE",
+      "entrada_mm": [
+        -53,
+        120,
+        133.8
+      ],
+      "eixo_para_dentro": [
+        0,
+        0,
+        -1
+      ],
+      "comprimento_inserto_mm": 5.68,
+      "diametro_envelope_mm": 4.7,
+      "diametro_piloto_proposto_mm": 4.3,
+      "profundidade_proposta_mm": 6.0,
+      "instalacao": "termica fora da montagem; antes das placas e bateria; piloto a confirmar no cupom"
+    },
+    {
+      "id": "INS013",
+      "objeto": "UniaoTetoD",
+      "entrada_mm": [
+        53,
+        104,
+        133.8
+      ],
+      "eixo_para_dentro": [
+        0,
+        0,
+        -1
+      ],
+      "comprimento_inserto_mm": 5.68,
+      "diametro_envelope_mm": 4.7,
+      "diametro_piloto_proposto_mm": 4.3,
+      "profundidade_proposta_mm": 6.0,
+      "instalacao": "termica fora da montagem; antes das placas e bateria; piloto a confirmar no cupom"
+    },
+    {
+      "id": "INS014",
+      "objeto": "UniaoTetoD",
+      "entrada_mm": [
+        53,
+        120,
+        133.8
+      ],
+      "eixo_para_dentro": [
+        0,
+        0,
+        -1
+      ],
+      "comprimento_inserto_mm": 5.68,
+      "diametro_envelope_mm": 4.7,
+      "diametro_piloto_proposto_mm": 4.3,
+      "profundidade_proposta_mm": 6.0,
+      "instalacao": "termica fora da montagem; antes das placas e bateria; piloto a confirmar no cupom"
+    },
+    {
+      "id": "INS015",
+      "objeto": "ClipeFE",
+      "entrada_mm": [
+        -66,
+        1,
+        86.5
+      ],
+      "eixo_para_dentro": [
+        0,
+        1,
+        0
+      ],
+      "comprimento_inserto_mm": 5.68,
+      "diametro_envelope_mm": 4.7,
+      "diametro_piloto_proposto_mm": 4.3,
+      "profundidade_proposta_mm": 6.0,
+      "instalacao": "termica fora da montagem; antes das placas e bateria; piloto a confirmar no cupom"
+    },
+    {
+      "id": "INS016",
+      "objeto": "ClipeFE",
+      "entrada_mm": [
+        -66,
+        1,
+        96.5
+      ],
+      "eixo_para_dentro": [
+        0,
+        1,
+        0
+      ],
+      "comprimento_inserto_mm": 5.68,
+      "diametro_envelope_mm": 4.7,
+      "diametro_piloto_proposto_mm": 4.3,
+      "profundidade_proposta_mm": 6.0,
+      "instalacao": "termica fora da montagem; antes das placas e bateria; piloto a confirmar no cupom"
+    },
+    {
+      "id": "INS017",
+      "objeto": "ClipeTE",
+      "entrada_mm": [
+        -66,
+        207,
+        86.5
+      ],
+      "eixo_para_dentro": [
+        0,
+        -1,
+        0
+      ],
+      "comprimento_inserto_mm": 5.68,
+      "diametro_envelope_mm": 4.7,
+      "diametro_piloto_proposto_mm": 4.3,
+      "profundidade_proposta_mm": 6.0,
+      "instalacao": "termica fora da montagem; antes das placas e bateria; piloto a confirmar no cupom"
+    },
+    {
+      "id": "INS018",
+      "objeto": "ClipeTE",
+      "entrada_mm": [
+        -66,
+        207,
+        96.5
+      ],
+      "eixo_para_dentro": [
+        0,
+        -1,
+        0
+      ],
+      "comprimento_inserto_mm": 5.68,
+      "diametro_envelope_mm": 4.7,
+      "diametro_piloto_proposto_mm": 4.3,
+      "profundidade_proposta_mm": 6.0,
+      "instalacao": "termica fora da montagem; antes das placas e bateria; piloto a confirmar no cupom"
+    },
+    {
+      "id": "INS019",
+      "objeto": "ClipeFD",
+      "entrada_mm": [
+        66,
+        1,
+        86.5
+      ],
+      "eixo_para_dentro": [
+        0,
+        1,
+        0
+      ],
+      "comprimento_inserto_mm": 5.68,
+      "diametro_envelope_mm": 4.7,
+      "diametro_piloto_proposto_mm": 4.3,
+      "profundidade_proposta_mm": 6.0,
+      "instalacao": "termica fora da montagem; antes das placas e bateria; piloto a confirmar no cupom"
+    },
+    {
+      "id": "INS020",
+      "objeto": "ClipeFD",
+      "entrada_mm": [
+        66,
+        1,
+        96.5
+      ],
+      "eixo_para_dentro": [
+        0,
+        1,
+        0
+      ],
+      "comprimento_inserto_mm": 5.68,
+      "diametro_envelope_mm": 4.7,
+      "diametro_piloto_proposto_mm": 4.3,
+      "profundidade_proposta_mm": 6.0,
+      "instalacao": "termica fora da montagem; antes das placas e bateria; piloto a confirmar no cupom"
+    },
+    {
+      "id": "INS021",
+      "objeto": "ClipeTD",
+      "entrada_mm": [
+        66,
+        207,
+        86.5
+      ],
+      "eixo_para_dentro": [
+        0,
+        -1,
+        0
+      ],
+      "comprimento_inserto_mm": 5.68,
+      "diametro_envelope_mm": 4.7,
+      "diametro_piloto_proposto_mm": 4.3,
+      "profundidade_proposta_mm": 6.0,
+      "instalacao": "termica fora da montagem; antes das placas e bateria; piloto a confirmar no cupom"
+    },
+    {
+      "id": "INS022",
+      "objeto": "ClipeTD",
+      "entrada_mm": [
+        66,
+        207,
+        96.5
+      ],
+      "eixo_para_dentro": [
+        0,
+        -1,
+        0
+      ],
+      "comprimento_inserto_mm": 5.68,
+      "diametro_envelope_mm": 4.7,
+      "diametro_piloto_proposto_mm": 4.3,
+      "profundidade_proposta_mm": 6.0,
+      "instalacao": "termica fora da montagem; antes das placas e bateria; piloto a confirmar no cupom"
+    },
+    {
+      "id": "INS023",
+      "objeto": "PisoSuperior",
+      "entrada_mm": [
+        -40.3,
+        7.5,
+        97.8
+      ],
+      "eixo_para_dentro": [
+        0,
+        0,
+        -1
+      ],
+      "comprimento_inserto_mm": 5.68,
+      "diametro_envelope_mm": 4.7,
+      "diametro_piloto_proposto_mm": 4.3,
+      "profundidade_proposta_mm": 6.0,
+      "instalacao": "termica fora da montagem; antes das placas e bateria; piloto a confirmar no cupom"
+    },
+    {
+      "id": "INS024",
+      "objeto": "PisoSuperior",
+      "entrada_mm": [
+        -40.3,
+        75.5,
+        97.8
+      ],
+      "eixo_para_dentro": [
+        0,
+        0,
+        -1
+      ],
+      "comprimento_inserto_mm": 5.68,
+      "diametro_envelope_mm": 4.7,
+      "diametro_piloto_proposto_mm": 4.3,
+      "profundidade_proposta_mm": 6.0,
+      "instalacao": "termica fora da montagem; antes das placas e bateria; piloto a confirmar no cupom"
+    },
+    {
+      "id": "INS025",
+      "objeto": "PisoSuperior",
+      "entrada_mm": [
+        17.7,
+        7.5,
+        97.8
+      ],
+      "eixo_para_dentro": [
+        0,
+        0,
+        -1
+      ],
+      "comprimento_inserto_mm": 5.68,
+      "diametro_envelope_mm": 4.7,
+      "diametro_piloto_proposto_mm": 4.3,
+      "profundidade_proposta_mm": 6.0,
+      "instalacao": "termica fora da montagem; antes das placas e bateria; piloto a confirmar no cupom"
+    },
+    {
+      "id": "INS026",
+      "objeto": "PisoSuperior",
+      "entrada_mm": [
+        17.7,
+        75.5,
+        97.8
+      ],
+      "eixo_para_dentro": [
+        0,
+        0,
+        -1
+      ],
+      "comprimento_inserto_mm": 5.68,
+      "diametro_envelope_mm": 4.7,
+      "diametro_piloto_proposto_mm": 4.3,
+      "profundidade_proposta_mm": 6.0,
+      "instalacao": "termica fora da montagem; antes das placas e bateria; piloto a confirmar no cupom"
+    },
+    {
+      "id": "INS027",
+      "objeto": "PisoSuperior",
+      "entrada_mm": [
+        -61,
+        24,
+        87
+      ],
+      "eixo_para_dentro": [
+        0,
+        0,
+        1
+      ],
+      "comprimento_inserto_mm": 5.68,
+      "diametro_envelope_mm": 4.7,
+      "diametro_piloto_proposto_mm": 4.3,
+      "profundidade_proposta_mm": 6.0,
+      "instalacao": "termica fora da montagem; antes das placas e bateria; piloto a confirmar no cupom"
+    },
+    {
+      "id": "INS028",
+      "objeto": "PisoSuperior",
+      "entrada_mm": [
+        -61,
+        190,
+        87
+      ],
+      "eixo_para_dentro": [
+        0,
+        0,
+        1
+      ],
+      "comprimento_inserto_mm": 5.68,
+      "diametro_envelope_mm": 4.7,
+      "diametro_piloto_proposto_mm": 4.3,
+      "profundidade_proposta_mm": 6.0,
+      "instalacao": "termica fora da montagem; antes das placas e bateria; piloto a confirmar no cupom"
+    },
+    {
+      "id": "INS029",
+      "objeto": "PisoSuperior",
+      "entrada_mm": [
+        61,
+        24,
+        87
+      ],
+      "eixo_para_dentro": [
+        0,
+        0,
+        1
+      ],
+      "comprimento_inserto_mm": 5.68,
+      "diametro_envelope_mm": 4.7,
+      "diametro_piloto_proposto_mm": 4.3,
+      "profundidade_proposta_mm": 6.0,
+      "instalacao": "termica fora da montagem; antes das placas e bateria; piloto a confirmar no cupom"
+    },
+    {
+      "id": "INS030",
+      "objeto": "PisoSuperior",
+      "entrada_mm": [
+        61,
+        190,
+        87
+      ],
+      "eixo_para_dentro": [
+        0,
+        0,
+        1
+      ],
+      "comprimento_inserto_mm": 5.68,
+      "diametro_envelope_mm": 4.7,
+      "diametro_piloto_proposto_mm": 4.3,
+      "profundidade_proposta_mm": 6.0,
+      "instalacao": "termica fora da montagem; antes das placas e bateria; piloto a confirmar no cupom"
+    },
+    {
+      "id": "INS031",
+      "objeto": "BercoAA",
+      "entrada_mm": [
+        -44,
+        6,
+        48.4
+      ],
+      "eixo_para_dentro": [
+        0,
+        0,
+        1
+      ],
+      "comprimento_inserto_mm": 5.68,
+      "diametro_envelope_mm": 4.7,
+      "diametro_piloto_proposto_mm": 4.3,
+      "profundidade_proposta_mm": 6.0,
+      "instalacao": "termica fora da montagem; antes das placas e bateria; piloto a confirmar no cupom"
+    },
+    {
+      "id": "INS032",
+      "objeto": "BercoAA",
+      "entrada_mm": [
+        -44,
+        6,
+        75.2
+      ],
+      "eixo_para_dentro": [
+        0,
+        0,
+        -1
+      ],
+      "comprimento_inserto_mm": 5.68,
+      "diametro_envelope_mm": 4.7,
+      "diametro_piloto_proposto_mm": 4.3,
+      "profundidade_proposta_mm": 6.0,
+      "instalacao": "termica fora da montagem; antes das placas e bateria; piloto a confirmar no cupom"
+    },
+    {
+      "id": "INS033",
+      "objeto": "BercoAA",
+      "entrada_mm": [
+        -44,
+        74,
+        48.4
+      ],
+      "eixo_para_dentro": [
+        0,
+        0,
+        1
+      ],
+      "comprimento_inserto_mm": 5.68,
+      "diametro_envelope_mm": 4.7,
+      "diametro_piloto_proposto_mm": 4.3,
+      "profundidade_proposta_mm": 6.0,
+      "instalacao": "termica fora da montagem; antes das placas e bateria; piloto a confirmar no cupom"
+    },
+    {
+      "id": "INS034",
+      "objeto": "BercoAA",
+      "entrada_mm": [
+        -44,
+        74,
+        75.2
+      ],
+      "eixo_para_dentro": [
+        0,
+        0,
+        -1
+      ],
+      "comprimento_inserto_mm": 5.68,
+      "diametro_envelope_mm": 4.7,
+      "diametro_piloto_proposto_mm": 4.3,
+      "profundidade_proposta_mm": 6.0,
+      "instalacao": "termica fora da montagem; antes das placas e bateria; piloto a confirmar no cupom"
+    },
+    {
+      "id": "INS035",
+      "objeto": "BercoAA",
+      "entrada_mm": [
+        44,
+        6,
+        48.4
+      ],
+      "eixo_para_dentro": [
+        0,
+        0,
+        1
+      ],
+      "comprimento_inserto_mm": 5.68,
+      "diametro_envelope_mm": 4.7,
+      "diametro_piloto_proposto_mm": 4.3,
+      "profundidade_proposta_mm": 6.0,
+      "instalacao": "termica fora da montagem; antes das placas e bateria; piloto a confirmar no cupom"
+    },
+    {
+      "id": "INS036",
+      "objeto": "BercoAA",
+      "entrada_mm": [
+        44,
+        6,
+        75.2
+      ],
+      "eixo_para_dentro": [
+        0,
+        0,
+        -1
+      ],
+      "comprimento_inserto_mm": 5.68,
+      "diametro_envelope_mm": 4.7,
+      "diametro_piloto_proposto_mm": 4.3,
+      "profundidade_proposta_mm": 6.0,
+      "instalacao": "termica fora da montagem; antes das placas e bateria; piloto a confirmar no cupom"
+    },
+    {
+      "id": "INS037",
+      "objeto": "BercoAA",
+      "entrada_mm": [
+        44,
+        74,
+        48.4
+      ],
+      "eixo_para_dentro": [
+        0,
+        0,
+        1
+      ],
+      "comprimento_inserto_mm": 5.68,
+      "diametro_envelope_mm": 4.7,
+      "diametro_piloto_proposto_mm": 4.3,
+      "profundidade_proposta_mm": 6.0,
+      "instalacao": "termica fora da montagem; antes das placas e bateria; piloto a confirmar no cupom"
+    },
+    {
+      "id": "INS038",
+      "objeto": "BercoAA",
+      "entrada_mm": [
+        44,
+        74,
+        75.2
+      ],
+      "eixo_para_dentro": [
+        0,
+        0,
+        -1
+      ],
+      "comprimento_inserto_mm": 5.68,
+      "diametro_envelope_mm": 4.7,
+      "diametro_piloto_proposto_mm": 4.3,
+      "profundidade_proposta_mm": 6.0,
+      "instalacao": "termica fora da montagem; antes das placas e bateria; piloto a confirmar no cupom"
+    },
+    {
+      "id": "INS039",
+      "objeto": "P15_0",
+      "entrada_mm": [
+        -48,
+        33,
+        48.4
+      ],
+      "eixo_para_dentro": [
+        0,
+        0,
+        1
+      ],
+      "comprimento_inserto_mm": 5.68,
+      "diametro_envelope_mm": 4.7,
+      "diametro_piloto_proposto_mm": 4.3,
+      "profundidade_proposta_mm": 6.0,
+      "instalacao": "termica fora da montagem; antes das placas e bateria; piloto a confirmar no cupom"
+    },
+    {
+      "id": "INS040",
+      "objeto": "P15_0",
+      "entrada_mm": [
+        -48,
+        33,
+        87
+      ],
+      "eixo_para_dentro": [
+        0,
+        0,
+        -1
+      ],
+      "comprimento_inserto_mm": 5.68,
+      "diametro_envelope_mm": 4.7,
+      "diametro_piloto_proposto_mm": 4.3,
+      "profundidade_proposta_mm": 6.0,
+      "instalacao": "termica fora da montagem; antes das placas e bateria; piloto a confirmar no cupom"
+    },
+    {
+      "id": "INS041",
+      "objeto": "P15_1",
+      "entrada_mm": [
+        48,
+        33,
+        48.4
+      ],
+      "eixo_para_dentro": [
+        0,
+        0,
+        1
+      ],
+      "comprimento_inserto_mm": 5.68,
+      "diametro_envelope_mm": 4.7,
+      "diametro_piloto_proposto_mm": 4.3,
+      "profundidade_proposta_mm": 6.0,
+      "instalacao": "termica fora da montagem; antes das placas e bateria; piloto a confirmar no cupom"
+    },
+    {
+      "id": "INS042",
+      "objeto": "P15_1",
+      "entrada_mm": [
+        48,
+        33,
+        87
+      ],
+      "eixo_para_dentro": [
+        0,
+        0,
+        -1
+      ],
+      "comprimento_inserto_mm": 5.68,
+      "diametro_envelope_mm": 4.7,
+      "diametro_piloto_proposto_mm": 4.3,
+      "profundidade_proposta_mm": 6.0,
+      "instalacao": "termica fora da montagem; antes das placas e bateria; piloto a confirmar no cupom"
+    },
+    {
+      "id": "INS043",
+      "objeto": "P16_0",
+      "entrada_mm": [
+        -58,
+        132,
+        70
+      ],
+      "eixo_para_dentro": [
+        0,
+        -1,
+        0
+      ],
+      "comprimento_inserto_mm": 5.68,
+      "diametro_envelope_mm": 4.7,
+      "diametro_piloto_proposto_mm": 4.3,
+      "profundidade_proposta_mm": 6.0,
+      "instalacao": "termica fora da montagem; antes das placas e bateria; piloto a confirmar no cupom"
+    },
+    {
+      "id": "INS044",
+      "objeto": "P16_0",
+      "entrada_mm": [
+        -58,
+        126,
+        52.4
+      ],
+      "eixo_para_dentro": [
+        0,
+        0,
+        1
+      ],
+      "comprimento_inserto_mm": 5.68,
+      "diametro_envelope_mm": 4.7,
+      "diametro_piloto_proposto_mm": 4.3,
+      "profundidade_proposta_mm": 6.0,
+      "instalacao": "termica fora da montagem; antes das placas e bateria; piloto a confirmar no cupom"
+    },
+    {
+      "id": "INS045",
+      "objeto": "P16_0",
+      "entrada_mm": [
+        -58,
+        126,
+        87
+      ],
+      "eixo_para_dentro": [
+        0,
+        0,
+        -1
+      ],
+      "comprimento_inserto_mm": 5.68,
+      "diametro_envelope_mm": 4.7,
+      "diametro_piloto_proposto_mm": 4.3,
+      "profundidade_proposta_mm": 6.0,
+      "instalacao": "termica fora da montagem; antes das placas e bateria; piloto a confirmar no cupom"
+    },
+    {
+      "id": "INS046",
+      "objeto": "P16_1",
+      "entrada_mm": [
+        58,
+        132,
+        70
+      ],
+      "eixo_para_dentro": [
+        0,
+        -1,
+        0
+      ],
+      "comprimento_inserto_mm": 5.68,
+      "diametro_envelope_mm": 4.7,
+      "diametro_piloto_proposto_mm": 4.3,
+      "profundidade_proposta_mm": 6.0,
+      "instalacao": "termica fora da montagem; antes das placas e bateria; piloto a confirmar no cupom"
+    },
+    {
+      "id": "INS047",
+      "objeto": "P16_1",
+      "entrada_mm": [
+        58,
+        126,
+        52.4
+      ],
+      "eixo_para_dentro": [
+        0,
+        0,
+        1
+      ],
+      "comprimento_inserto_mm": 5.68,
+      "diametro_envelope_mm": 4.7,
+      "diametro_piloto_proposto_mm": 4.3,
+      "profundidade_proposta_mm": 6.0,
+      "instalacao": "termica fora da montagem; antes das placas e bateria; piloto a confirmar no cupom"
+    },
+    {
+      "id": "INS048",
+      "objeto": "P16_1",
+      "entrada_mm": [
+        58,
+        126,
+        87
+      ],
+      "eixo_para_dentro": [
+        0,
+        0,
+        -1
+      ],
+      "comprimento_inserto_mm": 5.68,
+      "diametro_envelope_mm": 4.7,
+      "diametro_piloto_proposto_mm": 4.3,
+      "profundidade_proposta_mm": 6.0,
+      "instalacao": "termica fora da montagem; antes das placas e bateria; piloto a confirmar no cupom"
+    },
+    {
+      "id": "INS049",
+      "objeto": "ColunaC1E",
+      "entrada_mm": [
+        -25.5,
+        84,
+        90
+      ],
+      "eixo_para_dentro": [
+        0,
+        0,
+        1
+      ],
+      "comprimento_inserto_mm": 5.68,
+      "diametro_envelope_mm": 4.7,
+      "diametro_piloto_proposto_mm": 4.3,
+      "profundidade_proposta_mm": 6.0,
+      "instalacao": "termica fora da montagem; antes das placas e bateria; piloto a confirmar no cupom"
+    },
+    {
+      "id": "INS050",
+      "objeto": "ColunaC1E",
+      "entrada_mm": [
+        -25.5,
+        84,
+        140
+      ],
+      "eixo_para_dentro": [
+        0,
+        0,
+        -1
+      ],
+      "comprimento_inserto_mm": 5.68,
+      "diametro_envelope_mm": 4.7,
+      "diametro_piloto_proposto_mm": 4.3,
+      "profundidade_proposta_mm": 6.0,
+      "instalacao": "termica fora da montagem; antes das placas e bateria; piloto a confirmar no cupom"
+    },
+    {
+      "id": "INS051",
+      "objeto": "ColunaC1D",
+      "entrada_mm": [
+        25.5,
+        84,
+        90
+      ],
+      "eixo_para_dentro": [
+        0,
+        0,
+        1
+      ],
+      "comprimento_inserto_mm": 5.68,
+      "diametro_envelope_mm": 4.7,
+      "diametro_piloto_proposto_mm": 4.3,
+      "profundidade_proposta_mm": 6.0,
+      "instalacao": "termica fora da montagem; antes das placas e bateria; piloto a confirmar no cupom"
+    },
+    {
+      "id": "INS052",
+      "objeto": "ColunaC1D",
+      "entrada_mm": [
+        25.5,
+        84,
+        140
+      ],
+      "eixo_para_dentro": [
+        0,
+        0,
+        -1
+      ],
+      "comprimento_inserto_mm": 5.68,
+      "diametro_envelope_mm": 4.7,
+      "diametro_piloto_proposto_mm": 4.3,
+      "profundidade_proposta_mm": 6.0,
+      "instalacao": "termica fora da montagem; antes das placas e bateria; piloto a confirmar no cupom"
+    },
+    {
+      "id": "INS053",
+      "objeto": "BercoL298",
+      "entrada_mm": [
+        6,
+        87,
+        48.4
+      ],
+      "eixo_para_dentro": [
+        0,
+        0,
+        1
+      ],
+      "comprimento_inserto_mm": 5.68,
+      "diametro_envelope_mm": 4.7,
+      "diametro_piloto_proposto_mm": 4.3,
+      "profundidade_proposta_mm": 6.0,
+      "instalacao": "termica fora da montagem; antes das placas e bateria; piloto a confirmar no cupom"
+    },
+    {
+      "id": "INS054",
+      "objeto": "BercoL298",
+      "entrada_mm": [
+        43,
+        87,
+        48.4
+      ],
+      "eixo_para_dentro": [
+        0,
+        0,
+        1
+      ],
+      "comprimento_inserto_mm": 5.68,
+      "diametro_envelope_mm": 4.7,
+      "diametro_piloto_proposto_mm": 4.3,
+      "profundidade_proposta_mm": 6.0,
+      "instalacao": "termica fora da montagem; antes das placas e bateria; piloto a confirmar no cupom"
+    },
+    {
+      "id": "INS055",
+      "objeto": "BercoL298",
+      "entrada_mm": [
+        6,
+        124,
+        48.4
+      ],
+      "eixo_para_dentro": [
+        0,
+        0,
+        1
+      ],
+      "comprimento_inserto_mm": 5.68,
+      "diametro_envelope_mm": 4.7,
+      "diametro_piloto_proposto_mm": 4.3,
+      "profundidade_proposta_mm": 6.0,
+      "instalacao": "termica fora da montagem; antes das placas e bateria; piloto a confirmar no cupom"
+    },
+    {
+      "id": "INS056",
+      "objeto": "BercoL298",
+      "entrada_mm": [
+        43,
+        124,
+        48.4
+      ],
+      "eixo_para_dentro": [
+        0,
+        0,
+        1
+      ],
+      "comprimento_inserto_mm": 5.68,
+      "diametro_envelope_mm": 4.7,
+      "diametro_piloto_proposto_mm": 4.3,
+      "profundidade_proposta_mm": 6.0,
+      "instalacao": "termica fora da montagem; antes das placas e bateria; piloto a confirmar no cupom"
+    },
+    {
+      "id": "INS057",
+      "objeto": "BercoL298",
+      "entrada_mm": [
+        -3,
+        99,
+        48.4
+      ],
+      "eixo_para_dentro": [
+        0,
+        0,
+        1
+      ],
+      "comprimento_inserto_mm": 5.68,
+      "diametro_envelope_mm": 4.7,
+      "diametro_piloto_proposto_mm": 4.3,
+      "profundidade_proposta_mm": 6.0,
+      "instalacao": "termica fora da montagem; antes das placas e bateria; piloto a confirmar no cupom"
+    },
+    {
+      "id": "INS058",
+      "objeto": "BercoL298",
+      "entrada_mm": [
+        -3,
+        99,
+        64.5
+      ],
+      "eixo_para_dentro": [
+        0,
+        0,
+        -1
+      ],
+      "comprimento_inserto_mm": 5.68,
+      "diametro_envelope_mm": 4.7,
+      "diametro_piloto_proposto_mm": 4.3,
+      "profundidade_proposta_mm": 6.0,
+      "instalacao": "termica fora da montagem; antes das placas e bateria; piloto a confirmar no cupom"
+    },
+    {
+      "id": "INS059",
+      "objeto": "BercoL298",
+      "entrada_mm": [
+        51.5,
+        117.5,
+        48.4
+      ],
+      "eixo_para_dentro": [
+        0,
+        0,
+        1
+      ],
+      "comprimento_inserto_mm": 5.68,
+      "diametro_envelope_mm": 4.7,
+      "diametro_piloto_proposto_mm": 4.3,
+      "profundidade_proposta_mm": 6.0,
+      "instalacao": "termica fora da montagem; antes das placas e bateria; piloto a confirmar no cupom"
+    },
+    {
+      "id": "INS060",
+      "objeto": "BercoL298",
+      "entrada_mm": [
+        51.5,
+        117.5,
+        64.5
+      ],
+      "eixo_para_dentro": [
+        0,
+        0,
+        -1
+      ],
+      "comprimento_inserto_mm": 5.68,
+      "diametro_envelope_mm": 4.7,
+      "diametro_piloto_proposto_mm": 4.3,
+      "profundidade_proposta_mm": 6.0,
+      "instalacao": "termica fora da montagem; antes das placas e bateria; piloto a confirmar no cupom"
+    },
+    {
+      "id": "INS061",
+      "objeto": "BercoMPU",
+      "entrada_mm": [
+        -5,
+        109.5,
+        48.4
+      ],
+      "eixo_para_dentro": [
+        0,
+        0,
+        1
+      ],
+      "comprimento_inserto_mm": 5.68,
+      "diametro_envelope_mm": 4.7,
+      "diametro_piloto_proposto_mm": 4.3,
+      "profundidade_proposta_mm": 6.0,
+      "instalacao": "termica fora da montagem; antes das placas e bateria; piloto a confirmar no cupom"
+    },
+    {
+      "id": "INS062",
+      "objeto": "BercoMPU",
+      "entrada_mm": [
+        -5,
+        109.5,
+        62.5
+      ],
+      "eixo_para_dentro": [
+        0,
+        0,
+        -1
+      ],
+      "comprimento_inserto_mm": 5.68,
+      "diametro_envelope_mm": 4.7,
+      "diametro_piloto_proposto_mm": 4.3,
+      "profundidade_proposta_mm": 6.0,
+      "instalacao": "termica fora da montagem; antes das placas e bateria; piloto a confirmar no cupom"
+    },
+    {
+      "id": "INS063",
+      "objeto": "BercoMPU",
+      "entrada_mm": [
+        -5,
+        125.5,
+        48.4
+      ],
+      "eixo_para_dentro": [
+        0,
+        0,
+        1
+      ],
+      "comprimento_inserto_mm": 5.68,
+      "diametro_envelope_mm": 4.7,
+      "diametro_piloto_proposto_mm": 4.3,
+      "profundidade_proposta_mm": 6.0,
+      "instalacao": "termica fora da montagem; antes das placas e bateria; piloto a confirmar no cupom"
+    },
+    {
+      "id": "INS064",
+      "objeto": "BercoMPU",
+      "entrada_mm": [
+        -5,
+        125.5,
+        62.5
+      ],
+      "eixo_para_dentro": [
+        0,
+        0,
+        -1
+      ],
+      "comprimento_inserto_mm": 5.68,
+      "diametro_envelope_mm": 4.7,
+      "diametro_piloto_proposto_mm": 4.3,
+      "profundidade_proposta_mm": 6.0,
+      "instalacao": "termica fora da montagem; antes das placas e bateria; piloto a confirmar no cupom"
+    },
+    {
+      "id": "INS065",
+      "objeto": "BercoESP",
+      "entrada_mm": [
+        -22,
+        170,
+        90
+      ],
+      "eixo_para_dentro": [
+        0,
+        0,
+        1
+      ],
+      "comprimento_inserto_mm": 5.68,
+      "diametro_envelope_mm": 4.7,
+      "diametro_piloto_proposto_mm": 4.3,
+      "profundidade_proposta_mm": 6.0,
+      "instalacao": "termica fora da montagem; antes das placas e bateria; piloto a confirmar no cupom"
+    },
+    {
+      "id": "INS066",
+      "objeto": "BercoESP",
+      "entrada_mm": [
+        -22,
+        170,
+        110
+      ],
+      "eixo_para_dentro": [
+        0,
+        0,
+        -1
+      ],
+      "comprimento_inserto_mm": 5.68,
+      "diametro_envelope_mm": 4.7,
+      "diametro_piloto_proposto_mm": 4.3,
+      "profundidade_proposta_mm": 6.0,
+      "instalacao": "termica fora da montagem; antes das placas e bateria; piloto a confirmar no cupom"
+    },
+    {
+      "id": "INS067",
+      "objeto": "BercoESP",
+      "entrada_mm": [
+        22,
+        170,
+        90
+      ],
+      "eixo_para_dentro": [
+        0,
+        0,
+        1
+      ],
+      "comprimento_inserto_mm": 5.68,
+      "diametro_envelope_mm": 4.7,
+      "diametro_piloto_proposto_mm": 4.3,
+      "profundidade_proposta_mm": 6.0,
+      "instalacao": "termica fora da montagem; antes das placas e bateria; piloto a confirmar no cupom"
+    },
+    {
+      "id": "INS068",
+      "objeto": "BercoESP",
+      "entrada_mm": [
+        22,
+        170,
+        110
+      ],
+      "eixo_para_dentro": [
+        0,
+        0,
+        -1
+      ],
+      "comprimento_inserto_mm": 5.68,
+      "diametro_envelope_mm": 4.7,
+      "diametro_piloto_proposto_mm": 4.3,
+      "profundidade_proposta_mm": 6.0,
+      "instalacao": "termica fora da montagem; antes das placas e bateria; piloto a confirmar no cupom"
+    }
+  ],
+  "bom_parafusos": [
+    {
+      "metrica": "M3",
+      "comprimento_mm": 8,
+      "cabeca": "cilindrica Allen",
+      "quantidade": 58
+    },
+    {
+      "metrica": "M3",
+      "comprimento_mm": 8,
+      "cabeca": "escareada 90 graus",
+      "quantidade": 4
+    },
+    {
+      "metrica": "M3",
+      "comprimento_mm": 10,
+      "cabeca": "escareada 90 graus",
+      "quantidade": 4
+    },
+    {
+      "metrica": "M3",
+      "comprimento_mm": 12,
+      "cabeca": "cilindrica Allen",
+      "quantidade": 2
+    }
+  ],
+  "arruelas_M3_0_5mm": 60,
+  "porcas": 0,
+  "velcro": 0,
+  "cintas": 0,
+  "inserto_autor_mm": {
+    "rosca": "M3",
+    "comprimento": 5.68,
+    "diametro_liso": 4.0,
+    "diametro_dentes": 4.7
+  },
+  "piloto_proposto_mm": 4.3,
+  "profundidade_proposta_mm": 6.0,
+  "cupom_pilotos_mm": [
+    4.2,
+    4.3,
+    4.4
+  ],
+  "pi_furos_CAD_xy_mm": [
+    [
+      -40.3,
+      17.13035
+    ],
+    [
+      17.7,
+      17.13035
+    ],
+    [
+      -40.3,
+      66.13035
+    ],
+    [
+      17.7,
+      66.13035
+    ]
+  ],
+  "deltas_referencias_relativos_R04_mm": {
+    "MPU6050": [
+      -12,
+      -3,
+      8
+    ],
+    "L298N": [
+      0,
+      -3,
+      4
+    ],
+    "Reserva_Powerbank": [
+      0,
+      1,
+      0
+    ]
+  },
+  "extrinseca_IMU": "Alterada -12X, -3Y e +8Z no referencial CAD: medir/calibrar transformacao ROS, nao aplicada em software",
+  "furos_C1_pendentes": {
+    "quantidade_ilustrativa": 4,
+    "matriz_proposta_mm": [
+      43,
+      43
+    ],
+    "bitola": "DESCONHECIDA: sem parafusos modelados no sensor; estrutura P18/P19 usa M3 separado"
+  },
+  "limitacoes": [
+    "Sem impressao FDM, resistencia, carga estatica420g, termica ou montagem fisica.",
+    "Chassi espessura3mm e furacao de referencia: exigir gabarito fisico antes de furar.",
+    "ESP e holder nao medidos; captura condicional.",
+    "C1: rosca, matriz e profundidade desconhecidas; nao montar pelos furos ilustrativos.",
+    "Piloto4.3 e profundidade6 propostos, nao recomendacao de fabricante. Ensaiar cupom4.2/4.3/4.4.",
+    "Presilhas Pi/MPU/L298: verificar pads/bordas/componentes e eventual isolante medido.",
+    "Janela USB, cooler e cabos nao medidos. Rotacoes STL por tipo."
+  ]
+}

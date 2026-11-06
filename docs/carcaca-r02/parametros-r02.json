@@ -1,0 +1,229 @@
+{
+  "revisao": "R02",
+  "arquivo_origem": "docs/montagem-3d/slamderson-estudo-3d.FCStd",
+  "sha256_origem": "4bb3dead3d33051e4cb6fd6ed4c80ec61c2923fab445327ef9a02be6f85a4bea",
+  "objetos_montagem": 110,
+  "powerbank_mm": [
+    150,
+    70,
+    30
+  ],
+  "massa_indicada_PB_g": 420,
+  "PB_z_novo": 50.8,
+  "queda_altura_centro_PB_mm": 37.7,
+  "cotas_carcaca_mm": {
+    "largura": 170,
+    "comprimento": 212,
+    "parede_proposta": 3,
+    "saia_z": [
+      49.4,
+      90
+    ],
+    "tampas_z": [
+      90.6,
+      137
+    ],
+    "folga_seam_mm": 0.6
+  },
+  "pisos_z": [
+    87,
+    90
+  ],
+  "base_C1_z": 145,
+  "folga_carcaca_para_base_C1_mm": 8,
+  "peças_principais": [
+    "Saia",
+    "TampaEsquerda",
+    "TampaDireita",
+    "PortinholaAA",
+    "PortinholaPB",
+    "TampaServicoPB"
+  ],
+  "stls": [
+    {
+      "arquivo": "Saia_ESTUDO.stl",
+      "triangulos": 9368,
+      "malha_fechada": true,
+      "sha256": "2fe127932c70ecd43f2caf319c54e963c4ee44f0d9b2d7b9daff56d3c3517c8f"
+    },
+    {
+      "arquivo": "TampaEsquerda_ESTUDO.stl",
+      "triangulos": 1892,
+      "malha_fechada": true,
+      "sha256": "613542209cddd92493fa04a7abcd753630bb1284a5de631428489e9ad0a89269"
+    },
+    {
+      "arquivo": "TampaDireita_ESTUDO.stl",
+      "triangulos": 1892,
+      "malha_fechada": true,
+      "sha256": "e0bad46a7bf11bfc6badfd2c446024d10c6dddc51c335225fc59329caf2cabdc"
+    },
+    {
+      "arquivo": "PortinholaAA_ESTUDO.stl",
+      "triangulos": 1028,
+      "malha_fechada": true,
+      "sha256": "cc584139ffc124b860a2cfa3b9a30b12672e5e3d446f929a9aa05da58cb5f57e"
+    },
+    {
+      "arquivo": "PortinholaPB_ESTUDO.stl",
+      "triangulos": 1028,
+      "malha_fechada": true,
+      "sha256": "6ea5076a5060ba6e364c59b0379f32889d1b949c3dbea6f806b32738a84862dc"
+    },
+    {
+      "arquivo": "TampaServicoPB_ESTUDO.stl",
+      "triangulos": 1028,
+      "malha_fechada": true,
+      "sha256": "232b415a18e8f878f1b7e03a036b004d3dda9bde4bd4356156085fb93cf099c9"
+    }
+  ],
+  "alteracoes": [
+    "PB desceu para berço traseiro; ESP subiu; IMU ficou na base central; L298N 4 mm à frente.",
+    "Colunas traseiras foram deslocadas para braços laterais, fora do volume do PB.",
+    "Piso superior elevado 3 mm; ponte/C1 elevados 5 mm.",
+    "Duas tampas saem lateralmente, com rasgos para apoios do C1 e passagem de cabo.",
+    "Portinholas frontal AA e traseira PB; acesso lateral genérico e ventilação."
+  ],
+  "limites": [
+    "Geometria conceitual; conferir holder, ESP, cabos, portas, massas, raio real do PB e furação do chassi.",
+    "Sem cálculo estrutural, térmico, IP ou aprovação para fabricação.",
+    "A troca de posição reduz altura do PB, mas não comprova estabilidade ou centro de massa do conjunto."
+  ],
+  "novos_objetos": [
+    {
+      "objeto": "BercoPB",
+      "rotulo": "Berço Basike — saque traseiro",
+      "evidencia": "proposta geométrica, sem validação física"
+    },
+    {
+      "objeto": "ApoioESP",
+      "rotulo": "Apoio ESP — posição de estudo",
+      "evidencia": "proposta geométrica, sem validação física"
+    },
+    {
+      "objeto": "ApoioESP001",
+      "rotulo": "Apoio ESP — posição de estudo",
+      "evidencia": "proposta geométrica, sem validação física"
+    },
+    {
+      "objeto": "ApoioESP002",
+      "rotulo": "Apoio ESP — posição de estudo",
+      "evidencia": "proposta geométrica, sem validação física"
+    },
+    {
+      "objeto": "ApoioESP003",
+      "rotulo": "Apoio ESP — posição de estudo",
+      "evidencia": "proposta geométrica, sem validação física"
+    },
+    {
+      "objeto": "ApoioAA",
+      "rotulo": "Apoio do holder AA proposto",
+      "evidencia": "proposta geométrica, sem validação física"
+    },
+    {
+      "objeto": "ApoioAA001",
+      "rotulo": "Apoio do holder AA proposto",
+      "evidencia": "proposta geométrica, sem validação física"
+    },
+    {
+      "objeto": "ApoioAA002",
+      "rotulo": "Apoio do holder AA proposto",
+      "evidencia": "proposta geométrica, sem validação física"
+    },
+    {
+      "objeto": "ApoioAA003",
+      "rotulo": "Apoio do holder AA proposto",
+      "evidencia": "proposta geométrica, sem validação física"
+    },
+    {
+      "objeto": "Travessa",
+      "rotulo": "Travessa traseira proposta",
+      "evidencia": "proposta geométrica, sem validação física"
+    },
+    {
+      "objeto": "Travessa001",
+      "rotulo": "Travessa traseira proposta",
+      "evidencia": "proposta geométrica, sem validação física"
+    },
+    {
+      "objeto": "Saia",
+      "rotulo": "Carcaça 01 — saia ventilada",
+      "evidencia": "proposta geométrica, sem validação física"
+    },
+    {
+      "objeto": "TampaEsquerda",
+      "rotulo": "Carcaça 02 — tampa esquerda, retirada lateral",
+      "evidencia": "proposta geométrica, sem validação física"
+    },
+    {
+      "objeto": "TampaDireita",
+      "rotulo": "Carcaça 03 — tampa direita, retirada lateral",
+      "evidencia": "proposta geométrica, sem validação física"
+    },
+    {
+      "objeto": "PortinholaAA",
+      "rotulo": "Carcaça 04 — acesso AA pela frente",
+      "evidencia": "proposta geométrica, sem validação física"
+    },
+    {
+      "objeto": "PortinholaPB",
+      "rotulo": "Carcaça 05 — acesso PB por trás",
+      "evidencia": "proposta geométrica, sem validação física"
+    },
+    {
+      "objeto": "TampaServicoPB",
+      "rotulo": "Carcaça 06 — tampa lateral de serviço PB",
+      "evidencia": "proposta geométrica, sem validação física"
+    },
+    {
+      "objeto": "UniaoServicoPB",
+      "rotulo": "União da tampa lateral PB",
+      "evidencia": "proposta geométrica, sem validação física"
+    },
+    {
+      "objeto": "UniaoServicoPB001",
+      "rotulo": "União da tampa lateral PB",
+      "evidencia": "proposta geométrica, sem validação física"
+    },
+    {
+      "objeto": "UniaoTampas",
+      "rotulo": "União proposta — fixador a definir",
+      "evidencia": "proposta geométrica, sem validação física"
+    },
+    {
+      "objeto": "UniaoTampas001",
+      "rotulo": "União proposta — fixador a definir",
+      "evidencia": "proposta geométrica, sem validação física"
+    },
+    {
+      "objeto": "UniaoTampas002",
+      "rotulo": "União proposta — fixador a definir",
+      "evidencia": "proposta geométrica, sem validação física"
+    },
+    {
+      "objeto": "UniaoTampas003",
+      "rotulo": "União proposta — fixador a definir",
+      "evidencia": "proposta geométrica, sem validação física"
+    },
+    {
+      "objeto": "UniaoAA",
+      "rotulo": "União portinhola AA",
+      "evidencia": "proposta geométrica, sem validação física"
+    },
+    {
+      "objeto": "UniaoAA001",
+      "rotulo": "União portinhola AA",
+      "evidencia": "proposta geométrica, sem validação física"
+    },
+    {
+      "objeto": "UniaoPB",
+      "rotulo": "União portinhola PB",
+      "evidencia": "proposta geométrica, sem validação física"
+    },
+    {
+      "objeto": "UniaoPB001",
+      "rotulo": "União portinhola PB",
+      "evidencia": "proposta geométrica, sem validação física"
+    }
+  ]
+}

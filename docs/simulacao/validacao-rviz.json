@@ -1,0 +1,8 @@
+{
+  "rviz_real": true,
+  "sensores_e_movimento_ativos": true,
+  "captura": "previa-simulacao.png",
+  "inspecao_visual_pendente": false,
+  "encerramento_limpo": true,
+  "inspecao_visual": "Captura inspecionada: Global Status OK; robô e três trajetórias visíveis. Divergência de rodas é deliberada pelas escalas virtuais. Sem erro visível de frame ou malha."
+}

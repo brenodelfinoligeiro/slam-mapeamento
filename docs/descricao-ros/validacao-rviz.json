@@ -1,0 +1,11 @@
+{
+  "status": "OK",
+  "capturas": [
+    "rviz-12.png",
+    "rviz-24.png"
+  ],
+  "rviz_real": true,
+  "inspecao_visual_pendente": false,
+  "encerramento_limpo": true,
+  "inspecao_visual": "Captura rviz-24.png inspecionada: modelo presente; display Robô móvel R05; Global Status OK. Captura sem barra de título; nomes de arquivo/URDF verificados nos recursos instalados."
+}

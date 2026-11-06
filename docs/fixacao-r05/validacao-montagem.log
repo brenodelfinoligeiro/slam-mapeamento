@@ -1,0 +1,4 @@
+PARES []
+COMPONENTES []
+FERRAGENS []
+{"status": "OK", "contagens": {"pecas": 946, "componente": 308, "ferragem_plastico": 5632, "ferragem_componente": 896, "alojamentos": 68, "inserto_componente": 476, "retirada_tampa": 2430, "saque_powerbank": 343, "saque_pilhas": 480}, "pecas_1_solido_valido": 44, "engate_intervalo_mm": [4.1, 5.2], "fontes_R04_preservadas": true, "pi_furos2_7_preservados": true, "porcas_cintas_velcro": 0, "erros": [], "duracao_s": 274.34, "limites": ["Caminhos discretos nao provam movimento continuo.", "Tampas: elevar2mm antes de deslocar lateralmente; nao puxar apenas na horizontal.", "Bateria sai para +Y com P08 removida; celulas AA com modulo superior desmontado.", "Acesso termico depende da sequencia documentada; nao modelo de ferro especifico.", "Nao valida furacao fisica chassi, C1, holder, ESP nem resistencia FDM."]}

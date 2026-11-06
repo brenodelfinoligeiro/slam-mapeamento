@@ -1,0 +1,579 @@
+{
+  "status": "OK",
+  "acesso_ferro": [
+    {
+      "inserto": "INS001",
+      "livre_peca_isolada": true,
+      "ponta_OD7_15mm_haste_OD10_20mm": true
+    },
+    {
+      "inserto": "INS002",
+      "livre_peca_isolada": true,
+      "ponta_OD7_15mm_haste_OD10_20mm": true
+    },
+    {
+      "inserto": "INS003",
+      "livre_peca_isolada": true,
+      "ponta_OD7_15mm_haste_OD10_20mm": true
+    },
+    {
+      "inserto": "INS004",
+      "livre_peca_isolada": true,
+      "ponta_OD7_15mm_haste_OD10_20mm": true
+    },
+    {
+      "inserto": "INS005",
+      "livre_peca_isolada": true,
+      "ponta_OD7_15mm_haste_OD10_20mm": true
+    },
+    {
+      "inserto": "INS006",
+      "livre_peca_isolada": true,
+      "ponta_OD7_15mm_haste_OD10_20mm": true
+    },
+    {
+      "inserto": "INS007",
+      "livre_peca_isolada": true,
+      "ponta_OD7_15mm_haste_OD10_20mm": true
+    },
+    {
+      "inserto": "INS008",
+      "livre_peca_isolada": true,
+      "ponta_OD7_15mm_haste_OD10_20mm": true
+    },
+    {
+      "inserto": "INS009",
+      "livre_peca_isolada": true,
+      "ponta_OD7_15mm_haste_OD10_20mm": true
+    },
+    {
+      "inserto": "INS010",
+      "livre_peca_isolada": true,
+      "ponta_OD7_15mm_haste_OD10_20mm": true
+    },
+    {
+      "inserto": "INS011",
+      "livre_peca_isolada": true,
+      "ponta_OD7_15mm_haste_OD10_20mm": true
+    },
+    {
+      "inserto": "INS012",
+      "livre_peca_isolada": true,
+      "ponta_OD7_15mm_haste_OD10_20mm": true
+    },
+    {
+      "inserto": "INS013",
+      "livre_peca_isolada": true,
+      "ponta_OD7_15mm_haste_OD10_20mm": true
+    },
+    {
+      "inserto": "INS014",
+      "livre_peca_isolada": true,
+      "ponta_OD7_15mm_haste_OD10_20mm": true
+    },
+    {
+      "inserto": "INS015",
+      "livre_peca_isolada": true,
+      "ponta_OD7_15mm_haste_OD10_20mm": true
+    },
+    {
+      "inserto": "INS016",
+      "livre_peca_isolada": true,
+      "ponta_OD7_15mm_haste_OD10_20mm": true
+    },
+    {
+      "inserto": "INS017",
+      "livre_peca_isolada": true,
+      "ponta_OD7_15mm_haste_OD10_20mm": true
+    },
+    {
+      "inserto": "INS018",
+      "livre_peca_isolada": true,
+      "ponta_OD7_15mm_haste_OD10_20mm": true
+    },
+    {
+      "inserto": "INS019",
+      "livre_peca_isolada": true,
+      "ponta_OD7_15mm_haste_OD10_20mm": true
+    },
+    {
+      "inserto": "INS020",
+      "livre_peca_isolada": true,
+      "ponta_OD7_15mm_haste_OD10_20mm": true
+    },
+    {
+      "inserto": "INS021",
+      "livre_peca_isolada": true,
+      "ponta_OD7_15mm_haste_OD10_20mm": true
+    },
+    {
+      "inserto": "INS022",
+      "livre_peca_isolada": true,
+      "ponta_OD7_15mm_haste_OD10_20mm": true
+    },
+    {
+      "inserto": "INS023",
+      "livre_peca_isolada": true,
+      "ponta_OD7_15mm_haste_OD10_20mm": true
+    },
+    {
+      "inserto": "INS024",
+      "livre_peca_isolada": true,
+      "ponta_OD7_15mm_haste_OD10_20mm": true
+    },
+    {
+      "inserto": "INS025",
+      "livre_peca_isolada": true,
+      "ponta_OD7_15mm_haste_OD10_20mm": true
+    },
+    {
+      "inserto": "INS026",
+      "livre_peca_isolada": true,
+      "ponta_OD7_15mm_haste_OD10_20mm": true
+    },
+    {
+      "inserto": "INS027",
+      "livre_peca_isolada": true,
+      "ponta_OD7_15mm_haste_OD10_20mm": true
+    },
+    {
+      "inserto": "INS028",
+      "livre_peca_isolada": true,
+      "ponta_OD7_15mm_haste_OD10_20mm": true
+    },
+    {
+      "inserto": "INS029",
+      "livre_peca_isolada": true,
+      "ponta_OD7_15mm_haste_OD10_20mm": true
+    },
+    {
+      "inserto": "INS030",
+      "livre_peca_isolada": true,
+      "ponta_OD7_15mm_haste_OD10_20mm": true
+    },
+    {
+      "inserto": "INS031",
+      "livre_peca_isolada": true,
+      "ponta_OD7_15mm_haste_OD10_20mm": true
+    },
+    {
+      "inserto": "INS032",
+      "livre_peca_isolada": true,
+      "ponta_OD7_15mm_haste_OD10_20mm": true
+    },
+    {
+      "inserto": "INS033",
+      "livre_peca_isolada": true,
+      "ponta_OD7_15mm_haste_OD10_20mm": true
+    },
+    {
+      "inserto": "INS034",
+      "livre_peca_isolada": true,
+      "ponta_OD7_15mm_haste_OD10_20mm": true
+    },
+    {
+      "inserto": "INS035",
+      "livre_peca_isolada": true,
+      "ponta_OD7_15mm_haste_OD10_20mm": true
+    },
+    {
+      "inserto": "INS036",
+      "livre_peca_isolada": true,
+      "ponta_OD7_15mm_haste_OD10_20mm": true
+    },
+    {
+      "inserto": "INS037",
+      "livre_peca_isolada": true,
+      "ponta_OD7_15mm_haste_OD10_20mm": true
+    },
+    {
+      "inserto": "INS038",
+      "livre_peca_isolada": true,
+      "ponta_OD7_15mm_haste_OD10_20mm": true
+    },
+    {
+      "inserto": "INS039",
+      "livre_peca_isolada": true,
+      "ponta_OD7_15mm_haste_OD10_20mm": true
+    },
+    {
+      "inserto": "INS040",
+      "livre_peca_isolada": true,
+      "ponta_OD7_15mm_haste_OD10_20mm": true
+    },
+    {
+      "inserto": "INS041",
+      "livre_peca_isolada": true,
+      "ponta_OD7_15mm_haste_OD10_20mm": true
+    },
+    {
+      "inserto": "INS042",
+      "livre_peca_isolada": true,
+      "ponta_OD7_15mm_haste_OD10_20mm": true
+    },
+    {
+      "inserto": "INS043",
+      "livre_peca_isolada": true,
+      "ponta_OD7_15mm_haste_OD10_20mm": true
+    },
+    {
+      "inserto": "INS044",
+      "livre_peca_isolada": true,
+      "ponta_OD7_15mm_haste_OD10_20mm": true
+    },
+    {
+      "inserto": "INS045",
+      "livre_peca_isolada": true,
+      "ponta_OD7_15mm_haste_OD10_20mm": true
+    },
+    {
+      "inserto": "INS046",
+      "livre_peca_isolada": true,
+      "ponta_OD7_15mm_haste_OD10_20mm": true
+    },
+    {
+      "inserto": "INS047",
+      "livre_peca_isolada": true,
+      "ponta_OD7_15mm_haste_OD10_20mm": true
+    },
+    {
+      "inserto": "INS048",
+      "livre_peca_isolada": true,
+      "ponta_OD7_15mm_haste_OD10_20mm": true
+    },
+    {
+      "inserto": "INS049",
+      "livre_peca_isolada": true,
+      "ponta_OD7_15mm_haste_OD10_20mm": true
+    },
+    {
+      "inserto": "INS050",
+      "livre_peca_isolada": true,
+      "ponta_OD7_15mm_haste_OD10_20mm": true
+    },
+    {
+      "inserto": "INS051",
+      "livre_peca_isolada": true,
+      "ponta_OD7_15mm_haste_OD10_20mm": true
+    },
+    {
+      "inserto": "INS052",
+      "livre_peca_isolada": true,
+      "ponta_OD7_15mm_haste_OD10_20mm": true
+    },
+    {
+      "inserto": "INS053",
+      "livre_peca_isolada": true,
+      "ponta_OD7_15mm_haste_OD10_20mm": true
+    },
+    {
+      "inserto": "INS054",
+      "livre_peca_isolada": true,
+      "ponta_OD7_15mm_haste_OD10_20mm": true
+    },
+    {
+      "inserto": "INS055",
+      "livre_peca_isolada": true,
+      "ponta_OD7_15mm_haste_OD10_20mm": true
+    },
+    {
+      "inserto": "INS056",
+      "livre_peca_isolada": true,
+      "ponta_OD7_15mm_haste_OD10_20mm": true
+    },
+    {
+      "inserto": "INS057",
+      "livre_peca_isolada": true,
+      "ponta_OD7_15mm_haste_OD10_20mm": true
+    },
+    {
+      "inserto": "INS058",
+      "livre_peca_isolada": true,
+      "ponta_OD7_15mm_haste_OD10_20mm": true
+    },
+    {
+      "inserto": "INS059",
+      "livre_peca_isolada": true,
+      "ponta_OD7_15mm_haste_OD10_20mm": true
+    },
+    {
+      "inserto": "INS060",
+      "livre_peca_isolada": true,
+      "ponta_OD7_15mm_haste_OD10_20mm": true
+    },
+    {
+      "inserto": "INS061",
+      "livre_peca_isolada": true,
+      "ponta_OD7_15mm_haste_OD10_20mm": true
+    },
+    {
+      "inserto": "INS062",
+      "livre_peca_isolada": true,
+      "ponta_OD7_15mm_haste_OD10_20mm": true
+    },
+    {
+      "inserto": "INS063",
+      "livre_peca_isolada": true,
+      "ponta_OD7_15mm_haste_OD10_20mm": true
+    },
+    {
+      "inserto": "INS064",
+      "livre_peca_isolada": true,
+      "ponta_OD7_15mm_haste_OD10_20mm": true
+    },
+    {
+      "inserto": "INS065",
+      "livre_peca_isolada": true,
+      "ponta_OD7_15mm_haste_OD10_20mm": true
+    },
+    {
+      "inserto": "INS066",
+      "livre_peca_isolada": true,
+      "ponta_OD7_15mm_haste_OD10_20mm": true
+    },
+    {
+      "inserto": "INS067",
+      "livre_peca_isolada": true,
+      "ponta_OD7_15mm_haste_OD10_20mm": true
+    },
+    {
+      "inserto": "INS068",
+      "livre_peca_isolada": true,
+      "ponta_OD7_15mm_haste_OD10_20mm": true
+    }
+  ],
+  "captura_vertical": [
+    {
+      "objeto": "RaspberryPi5",
+      "elevacao_livre_mm": 0.5,
+      "elevacao_bloqueada_mm": 0.6,
+      "volume_intersecao_livre_mm3": 0.0,
+      "volume_intersecao_bloqueada_mm3": 4.674552145139858,
+      "limite": "Nao valida pads reais nem aplica compressao aos componentes; ESP continua envelope a medir."
+    },
+    {
+      "objeto": "MPU6050",
+      "elevacao_livre_mm": 0.45,
+      "elevacao_bloqueada_mm": 0.6,
+      "volume_intersecao_livre_mm3": 0.0,
+      "volume_intersecao_bloqueada_mm3": 2.1862833059380624,
+      "limite": "Nao valida pads reais nem aplica compressao aos componentes; ESP continua envelope a medir."
+    },
+    {
+      "objeto": "L298N",
+      "elevacao_livre_mm": 0.45,
+      "elevacao_bloqueada_mm": 0.6,
+      "volume_intersecao_livre_mm3": 0.0,
+      "volume_intersecao_bloqueada_mm3": 4.941504561368608,
+      "limite": "Nao valida pads reais nem aplica compressao aos componentes; ESP continua envelope a medir."
+    },
+    {
+      "objeto": "Reserva_ESP",
+      "elevacao_livre_mm": 1.35,
+      "elevacao_bloqueada_mm": 1.5,
+      "volume_intersecao_livre_mm3": 0.0,
+      "volume_intersecao_bloqueada_mm3": 16.200000000006384,
+      "limite": "Nao valida pads reais nem aplica compressao aos componentes; ESP continua envelope a medir."
+    }
+  ],
+  "instancias_repetidas": [
+    {
+      "codigo": "P10",
+      "referencia": "UniaoTetoE",
+      "objeto": "UniaoTetoD",
+      "rotacao_quaternion_para_referencia": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "congruente": true
+    },
+    {
+      "codigo": "P11",
+      "referencia": "ClipeFE",
+      "objeto": "ClipeTE",
+      "rotacao_quaternion_para_referencia": [
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      "congruente": true
+    },
+    {
+      "codigo": "P11",
+      "referencia": "ClipeFE",
+      "objeto": "ClipeFD",
+      "rotacao_quaternion_para_referencia": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "congruente": true
+    },
+    {
+      "codigo": "P11",
+      "referencia": "ClipeFE",
+      "objeto": "ClipeTD",
+      "rotacao_quaternion_para_referencia": [
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      "congruente": true
+    },
+    {
+      "codigo": "P15",
+      "referencia": "P15_0",
+      "objeto": "P15_1",
+      "rotacao_quaternion_para_referencia": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "congruente": true
+    },
+    {
+      "codigo": "P16",
+      "referencia": "P16_0",
+      "objeto": "P16_1",
+      "rotacao_quaternion_para_referencia": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "congruente": true
+    },
+    {
+      "codigo": "P17",
+      "referencia": "TravessaE",
+      "objeto": "TravessaD",
+      "rotacao_quaternion_para_referencia": [
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      "congruente": true
+    },
+    {
+      "codigo": "P18",
+      "referencia": "ColunaC1E",
+      "objeto": "ColunaC1D",
+      "rotacao_quaternion_para_referencia": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "congruente": true
+    },
+    {
+      "codigo": "P20",
+      "referencia": "EspacadorC1_0",
+      "objeto": "EspacadorC1_1",
+      "rotacao_quaternion_para_referencia": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "congruente": true
+    },
+    {
+      "codigo": "P20",
+      "referencia": "EspacadorC1_0",
+      "objeto": "EspacadorC1_2",
+      "rotacao_quaternion_para_referencia": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "congruente": true
+    },
+    {
+      "codigo": "P20",
+      "referencia": "EspacadorC1_0",
+      "objeto": "EspacadorC1_3",
+      "rotacao_quaternion_para_referencia": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "congruente": true
+    },
+    {
+      "codigo": "P27",
+      "referencia": "PresilhaPi_0",
+      "objeto": "PresilhaPi_1",
+      "rotacao_quaternion_para_referencia": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "congruente": true
+    },
+    {
+      "codigo": "P27",
+      "referencia": "PresilhaPi_0",
+      "objeto": "PresilhaPi_2",
+      "rotacao_quaternion_para_referencia": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "congruente": true
+    },
+    {
+      "codigo": "P27",
+      "referencia": "PresilhaPi_0",
+      "objeto": "PresilhaPi_3",
+      "rotacao_quaternion_para_referencia": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "congruente": true
+    },
+    {
+      "codigo": "P28",
+      "referencia": "PresilhaMPU_0",
+      "objeto": "PresilhaMPU_1",
+      "rotacao_quaternion_para_referencia": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "congruente": true
+    },
+    {
+      "codigo": "P29",
+      "referencia": "ReguaAA_E",
+      "objeto": "ReguaAA_D",
+      "rotacao_quaternion_para_referencia": [
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "congruente": true
+    }
+  ],
+  "erros": [],
+  "limites": [
+    "Ferramenta hipotetica, nao ferro real medido. Instalar TODOS insertos em pecas separadas antes de placas/chassi/pares.",
+    "Captura de envelope nao confirma bordas/pads livres da placa real.",
+    "Congruencia por rotacao rigida nao altera orientacao recomendada para imprimir."
+  ]
+}

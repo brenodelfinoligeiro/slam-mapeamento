@@ -1,62 +1,42 @@
 # Responsabilidades das pastas
 
-## Separação principal
+## Organização implementada
 
-- `docs/`: documentação acadêmica, arquitetura, procedimentos e registros.
-- `src/slamderson/`: código, testes, metadados e recursos de execução do pacote.
+Existem somente os agrupadores `src/{descricao,localizacao,dispositivos,navegacao,percepcao}`, sem `package.xml` neles. Os doze pacotes concretos ficam dentro; não existe sexto domínio de interfaces, controle ou mapeamento.
 
-As pastas separam responsabilidades. Não obrigam um processo ROS por diretório e não comprovam funcionalidade implementada.
+- `descricao/robo_movel`: URDF, malhas, configuração RViz e RSP. Não adquire sensores nem publica odometria.
+- `dispositivos/simulador_base`: planta cinemática, encoders/IMU virtuais, `/clock`, referência perfeita de ensaio e contrato próprio `msg/LeituraRodas.msg`.
+- `dispositivos/lidar_simulado`: raycasting do cenário 2D, extrínseca virtual fixa e `/scan`. Referência perfeita é usada apenas para gerar raios; não publica mapa ou posição medida.
+- `localizacao/odometria_rodas`: integra contagens em odometria local e estados de juntas.
+- `localizacao/fusao_sensores`: configuração/launch do EKF robot_localization, dono de `odom -> base_footprint`.
+- `localizacao/mapeamento_slam`: configuração/composição do SLAM Toolbox, dono de `map -> odom`, persistência de ocupação via servidor nativo dedicado/grafo via serviço do SLAM e localização sobre grafo salvo. Não reimplementa SLAM.
+- `percepcao/processamento_imu`: valida e trata amostras sintéticas/inerciais recebidas; não cria aquisição I²C concorrente na Raspberry.
+- `navegacao/comando_rodas`: cinemática inversa de TwistStamped para referências de rodas, com validade temporal. Não é o PI/PID do ESP.
+- `navegacao/teleoperacao`: teclado/deadman/expiração, sem objetivos autônomos.
+- `navegacao/navegacao_simulada`: composição do recorte local, parâmetros didáticos e trajetórias diagnósticas; o nome não implica navegação autônoma.
 
-## Módulos em `src/slamderson/slamderson/`
+- `navegacao/arbitro`: seleciona comandos manuais/autônomos por modo explícito e publica /cmd_vel; não é coordenador de ações nem planejador. [Contrato](arbitro/LEIA-ME.md).
 
-### `dispositivos/`
+## Interfaces
 
-Interfaces com os equipamentos físicos, representação das aquisições e transporte dos dados.
+Cada contrato próprio pertence ao pacote que o produz (`msg/`, `srv/`, `action/` quando necessários). Consumidores importam esse dono, sem cópias ou pacote central. Usar tipos padrão quando suficientes: LaserScan, Odometry, Imu, JointState e TwistStamped. Os serviços de persistência são os tipos do SLAM Toolbox, não novas cópias locais.
 
-- `esp32_uart/`: único responsável pela UART entre Raspberry e ESP. Envia referências e recebe dados dos codificadores e da IMU. Delimitação de mensagens e reconexão ficam nesta interface, sem abertura duplicada da mesma porta.
-- `mpu6050/`: separação opcional para conversão e representação das amostras inerciais recebidas. Não corresponde a outro acesso I²C na Raspberry. Inicialmente esse tratamento pode ficar na interface UART.
-- `lidar_c1/`: integração de um controlador de dispositivo existente para o C1. Ligação e parâmetros ainda serão confirmados; não reimplementar o protocolo sem necessidade.
+O produtor virtual possui sua mensagem de rodas; isso não define um protocolo UART físico. Interfaces ROSIDL precisam de ament_cmake e instalação compatível com os nós Python; essa combinação foi exercitada no simulador.
 
-### `controle/`
+## Recursos e documentação
 
-Tratamento de comandos e cinemática diferencial no lado ROS 2. Quando necessário, converte velocidade linear/angular em referências das rodas e calcula odometria de rodas a partir das contagens.
+Recursos executáveis ficam nos pacotes proprietários: `inicializacao/`, `configuracao/`, `visualizacao/`, `descricao/` e `recursos/` conforme uso real. O índice instalado preserva a convenção ament. Documentação acadêmica, procedimentos, fontes e evidências ficam em `docs/`, não como manuais nos módulos.
 
-Se uma integração com `diff_drive_controller` for adotada, reutilizar essa cinemática em vez de criar outro caminho concorrente. O PI/PID das rodas permanece no ESP. Não duplicar o controlador de trajetória do Nav2 sem necessidade.
+Mapas salvos são dados mutáveis de sessão, fora do share instalado. O helper SLAM monta `/mapas` persistente; relatórios e amostras de ensaio podem ser arquivados sob `docs/slam/`. Não salvar resultados no código/recursos somente leitura.
 
-### `localizacao/`
+## Hardware e navegação ainda não implementados
 
-Estimativa de posição, orientação e movimento. Fusão de odometria das rodas e IMU, possivelmente com `robot_localization`; localização global em mapa conhecido, por exemplo com AMCL, em modo explicitamente escolhido.
+A futura ponte `dispositivos/comunicacao_esp` deverá ser o único dono da UART bidirecional, transmitindo referências e recebendo encoders/IMU. Aquisição e PI/PID de rodas permanecem no ESP. O futuro pacote C1 reutilizará um driver existente após confirmar interface/montagem; o LiDAR virtual não é esse driver.
 
-A fusão não elimina a ambiguidade de sentido de codificadores de canal único e não cria rumo absoluto na MPU-6050.
+Planejamento/seguimento autônomos futuros pertencem a `navegacao`, preferindo Nav2 em vez de duplicá-lo. Filtros/percepção adicionais só quando houver necessidade medida. Não criar caminhos concorrentes de controle/TF por organização de diretórios.
 
-### `mapeamento/`
+Veja [arquitetura](02-arquitetura.md), [simulação local](simulacao/LEIA-ME.md), [SLAM](slam/LEIA-ME.md) e [UART proposta](04-comunicacao-uart.md). Nenhum ensaio virtual autoriza hardware/deploy.
 
-Construção de mapas usando LiDAR e estimativa de movimento, com possível integração de `slam_toolbox`. Responsável pela operação de mapeamento e gestão dos mapas resultantes, não pela implementação obrigatória de SLAM próprio.
+## Integração de navegação virtual
 
-### `navegacao/`
-
-Integração de objetivos, planejamento, acompanhamento de trajetória e mapas de custo, preferencialmente reutilizando Nav2. Configurações vão para `configuracao/`; composição dos processos vai para `inicializacao/`.
-
-### `percepcao/`
-
-Processamento adicional de dados: filtros de varredura, agrupamentos, detecção de objetos ou extração de informações. O controlador do LiDAR continua em dispositivos. Pode permanecer vazia enquanto os dados existentes atenderem às necessidades.
-
-## Recursos em `src/slamderson/`
-
-- `inicializacao/`: arquivos para compor e iniciar as partes implementadas. Ainda reservada.
-- `configuracao/`: parâmetros YAML reais das integrações. Não contém valores presumidos.
-- `descricao/`: URDF/Xacro e malhas com geometria medida do robô.
-- `mapas/`: mapas gerados ou selecionados para execução; relatórios dos ensaios ficam em `docs/`.
-- `visualizacao/`: configurações do RViz, não relatórios ou imagens de resultados.
-- `recursos/`: marcador do pacote para o índice ament.
-- `testes/`: verificações automatizadas da estrutura e, futuramente, do código. Explicações metodológicas extensas ficam em `docs/`.
-
-Pastas ainda sem recursos reais usam marcadores vazios `.gitkeep`; não precisam de um manual em cada diretório.
-
-## Fluxo de operação proposto
-
-Codificadores e MPU-6050 -> ESP -> UART -> dispositivos -> odometria/IMU -> localização.
-LiDAR C1 -> dispositivos -> varredura -> mapeamento e navegação.
-Navegação -> comandos -> controle, quando necessário -> UART -> ESP -> PI das rodas -> direção/PWM -> L298N -> motores.
-
-A responsabilidade por cada transformação TF deve ser única. Consulte [arquitetura](02-arquitetura.md) para a cadeia proposta e [comunicação](04-comunicacao-uart.md) para os limites do contrato ainda não implementado.
+`navegacao/navegacao_autonoma` compõe Nav2 (NavFn + Regulated Pure Pursuit), costmaps e proteção de autoridade/dados. [Operação, validação e limites](navegacao/LEIA-ME.md). O árbitro continua único publicador da saída final; a integração cancela objetivos ao tomar controle manual e trava parada na perda dos dados necessários. Nenhum hardware foi acionado.

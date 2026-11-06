@@ -1,0 +1,14 @@
+{
+  "blender": "5.2.3 LTS",
+  "engine": "CYCLES",
+  "samples": 24,
+  "meshes": 105,
+  "triangles": 1401671,
+  "files": [
+    "fechado.png",
+    "traseira.png",
+    "interior.png",
+    "acesso.png"
+  ],
+  "note": "Derivado do FCStd reaberto. Interior e acesso s\u00e3o apresenta\u00e7\u00f5es explicativas, n\u00e3o poses de opera\u00e7\u00e3o."
+}

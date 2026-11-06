@@ -2,7 +2,7 @@
 
 ## Finalidade
 
-O Slamderson é um trabalho acadêmico de robótica móvel baseado em um carrinho de tração diferencial. O projeto pretende integrar acionamento das rodas, odometria, medição inercial e LiDAR para estudar localização, construção de mapas e navegação.
+Este é um trabalho acadêmico de robótica móvel baseado em um carrinho de tração diferencial. O projeto pretende integrar acionamento das rodas, odometria, medição inercial e LiDAR para estudar localização, construção de mapas e navegação.
 
 A implementação será incremental: primeiro aquisição e controle básico, depois estimativa de movimento, mapeamento e navegação. A presença de uma pasta não significa que a funcionalidade correspondente já existe.
 
@@ -20,9 +20,9 @@ O ESP32-C3 SuperMini foi considerado, mas a escolha final da placa não foi conf
 
 ## O que existe no software
 
-O pacote `src/slamderson` contém metadados `ament_python`, módulos vazios em português, pastas de recursos reservadas e testes estruturais. Não há executáveis registrados. Os diretórios de mapas e configurações ainda não contêm resultados ou parâmetros de hardware.
+Há doze pacotes específicos nos agrupadores `descricao`, `localizacao`, `dispositivos`, `navegacao` e `percepcao`. A descrição R05 é reutilizada pela simulação de encoders/IMU, EKF e teleop; LiDAR virtual e SLAM Toolbox produzem mapa e localização global. A composição e utilitário de persistência têm executáveis/launches reais. Aquisição, controle e calibrações de hardware permanecem pendentes.
 
-As ferramentas colcon foram usadas em ambiente isolado. Não foi instalado nem selecionado um ROS 2 completo nesta tarefa. Não confundir importação de módulos Python com execução de nós ou comunicação DDS.
+Build, testes, RSP/TF e RViz foram exercitados em contêiner ROS 2 Jazzy isolado. Não foi instalado ROS nativo no host nem escolhida a distribuição final da Pi. Esse ensaio não comprova comunicação com hardware.
 
 ## Escopo proporcional
 
@@ -37,4 +37,16 @@ Trata-se de um protótipo didático pequeno, não de um robô industrial. Manter
 - Mapeamento: mapa obtido em ensaio real.
 - Navegação: deslocamento a objetivos em ambiente conhecido.
 
-Somente a primeira categoria foi exercitada pelo assistente até esta etapa.
+Estrutura e fluxos de movimento/localização/mapeamento foram exercitados digitalmente em cenário sintético. Aquisição, movimento, mapeamento e navegação físicos não foram aprovados; navegação autônoma também não foi implementada na simulação.
+
+## Recorte de simulação implementado
+
+O software possui sensores cinemáticos virtuais, odometria, tratamento IMU, EKF e teleop por teclado nos cinco agrupadores. [Recorte local](simulacao/LEIA-ME.md) e [extensão com SLAM e grafo salvo](slam/LEIA-ME.md). Não confundir essas implementações com drivers/firmware reais.
+
+## Arbitragem de movimento
+
+O [árbitro manual/autônomo](arbitro/LEIA-ME.md) é um pacote separado com seleção explícita e expiração; não constitui sozinho a pilha Nav2; a composição implementada está no pacote navegacao_autonoma.
+
+## Integração de navegação virtual
+
+`navegacao/navegacao_autonoma` compõe Nav2 (NavFn + Regulated Pure Pursuit), costmaps e proteção de autoridade/dados. [Operação, validação e limites](navegacao/LEIA-ME.md). O árbitro continua único publicador da saída final; a integração cancela objetivos ao tomar controle manual e trava parada na perda dos dados necessários. Nenhum hardware foi acionado.

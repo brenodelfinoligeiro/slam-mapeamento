@@ -1,0 +1,22 @@
+[INFO] [launch]: All log files can be found below /work/ros-log/2026-11-06-00-59-47-367803-b4a7d068fbd1-69
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [robot_state_publisher-1]: process started with pid [75]
+[INFO] [joint_state_publisher-2]: process started with pid [76]
+[INFO] [rviz2-3]: process started with pid [77]
+[robot_state_publisher-1] [INFO] [1793926787.539794739] [robot_state_publisher]: Robot initialized
+[rviz2-3] [INFO] [1793926787.716090484] [rviz2]: Stereo is NOT SUPPORTED
+[rviz2-3] [INFO] [1793926787.716275444] [rviz2]: OpenGl version: 4.5 (GLSL 4.5)
+[rviz2-3] [INFO] [1793926787.742951003] [rviz2]: Stereo is NOT SUPPORTED
+[joint_state_publisher-2] [INFO] [1793926788.024523560] [joint_state_publisher]: Waiting for robot_description to be published on the robot_description topic...
+[joint_state_publisher-2] [INFO] [1793926788.140407732] [joint_state_publisher]: Got description, configuring robot
+[WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+[INFO] [rviz2-3]: sending signal 'SIGINT' to process[rviz2-3]
+[INFO] [joint_state_publisher-2]: sending signal 'SIGINT' to process[joint_state_publisher-2]
+[INFO] [robot_state_publisher-1]: sending signal 'SIGINT' to process[robot_state_publisher-1]
+[rviz2-3] [INFO] [1793926817.198760640] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[robot_state_publisher-1] [INFO] [1793926817.199582916] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[INFO] [robot_state_publisher-1]: process has finished cleanly [pid 75]
+[INFO] [joint_state_publisher-2]: process has finished cleanly [pid 76]
+[ERROR] [rviz2-3]: process[rviz2-3] failed to terminate '5' seconds after receiving 'SIGINT', escalating to 'SIGTERM'
+[INFO] [rviz2-3]: sending signal 'SIGTERM' to process[rviz2-3]
+[ERROR] [rviz2-3]: process has died [pid 77, exit code -11, cmd '/opt/ros/jazzy/lib/rviz2/rviz2 -d /work/install/slamderson/share/slamderson/visualizacao/slamderson.rviz --ros-args -r __node:=rviz2 --params-file /work/cache/launch_params_ux1a75i0'].

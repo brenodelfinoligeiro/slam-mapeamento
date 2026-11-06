@@ -1,0 +1,96 @@
+{
+  "titulo": "Slamderson R04 — montagem e seis vistas",
+  "escopo": "Sequência mecânica proposta para montagem a seco do kit entregue. Não altera STL e não comprova montagem física.",
+  "paginas": [
+    {
+      "id": "guia-01",
+      "tipo": "abertura",
+      "titulo": "Antes de montar",
+      "subtitulo": "42 peças físicas, 24 modelos únicos. O catálogo ao final reúne seis vistas de cada modelo na mesma página.",
+      "blocos": [
+        ["O que este documento usa", "O mesmo ZIP de STL R04 já entregue. Os códigos P01–P24 identificam peças; as letras A–P identificam grupos de parafusos. As figuras de montagem vêm do FCStd R04; afastamentos nas figuras explodidas são apenas ilustrativos."],
+        ["Preparação", "Mantenha a Pi, o ESP e os motores sem alimentação. Retire as pilhas e deixe o powerbank fora do berço. Separe os impressos pelos códigos, remova suportes e rebarbas e teste uma porca M3 num P11 antes do restante do lote. Não use o parafuso para forçar uma peça desalinhada."],
+        ["Pontos de parada obrigatória", "Antes de furar: medir contorno, espessura, furos disponíveis e acesso inferior do chassi real. O CAD adotou chapa de referência de 3 mm. Medir também holder, ESP, módulos, cooler e cabos. No C1, confirmar matriz de furos, rosca e profundidade permitida: não presumir M3."],
+        ["Orientação e aperto", "Frente é o lado da portinhola das AA; traseira é o acesso de retirada do powerbank. Una P03 com P05 e P04 com P06. Os nomes E/D seguem os códigos do modelo, não a posição de quem olha a figura. Aperte à mão, progressivamente; não há torque validado para o material impresso."],
+        ["Limite da entrega", "Sem ensaio estrutural, térmico ou físico. Os encoders/discos ainda exigem suportes e alinhamento próprios; não foram liberados como peças imprimíveis deste kit. Este guia não substitui esquema elétrico e não autoriza movimentar o robô sem completar essas interfaces."]
+      ]
+    },
+    {"id":"guia-02","tipo":"inventario","titulo":"Peças do ZIP","subtitulo":"Imprima a quantidade da coluna Qtd.; cada modelo aparece uma única vez no catálogo de vistas."},
+    {"id":"guia-03","tipo":"ferragens","titulo":"Parafusos, porcas e materiais","subtitulo":"Lista do CAD R04. As interfaces com chassi, placas e C1 reais permanecem condicionadas à medição."},
+    {"id":"guia-04","tipo":"mapa","titulo":"Onde vai cada grupo de parafusos","subtitulo":"As letras abaixo são reutilizadas no passo a passo; não são nomes de arquivos STL."},
+    {
+      "id":"guia-05","tipo":"etapa","titulo":"1. Base, berços e módulos inferiores","figura":"base.png",
+      "legenda":"Berços e colunas na posição do CAD; módulos elevados na figura para mostrar os espaçadores. Chassi cinza é referência, não peça do ZIP.",
+      "passos":[
+        "Confirme os furos no chassi real antes de furar ou comprar definitivamente os comprimentos. Apresente P13 (Basike) atrás e P14 (holder) à frente, sem as baterias. P14 pressupõe holder de 75 × 70 mm; confira o exemplar.",
+        "Passe as duas cintas de velcro de 10 mm pelos canais de P13 ANTES de prendê-lo ao chassi. O canal é referência para fita de até 1 mm de espessura. Faça um ensaio de retenção fora da carcaça e deixe as pontas acessíveis.",
+        "Prenda P13 com L: 4 M3 × 10 escareados. Prenda P14 com M: outros 4 M3 × 10 escareados. As cabeças precisam ficar abaixo do plano que recebe o powerbank/holder; não apoiar as baterias sobre cabeças salientes.",
+        "Se os módulos reais corresponderem ao CAD, monte L298N em 4 P22 de 10 mm, com N: 4 M3 × 20; MPU em 2 P23 de 4 mm, com O: 2 M2.5 × 12. Use arruelas isolantes junto aos PCBs e confira o contato com trilhas. Faça isso antes do piso fechar o acesso.",
+        "Posicione 2 P15 altos na frente. Atrás, use cada P16 sobre um P17; as duas travessas são o mesmo modelo, uma girada 180°. Introduza I: 4 M3 × 50 de baixo para cima pela chapa/colunas, mas deixe a união superior para a etapa 4."
+      ],
+      "alerta":"Não existe furação física do chassi confirmada. M3 × 50 e os demais comprimentos presos à chapa dependem da espessura e dos acessos reais. Não use a figura como gabarito de furação."
+    },
+    {
+      "id":"guia-06","tipo":"etapa","titulo":"2. Saia e clipes — antes do piso","figura":"saia.png",
+      "legenda":"P01, P02 e P11 afastados para identificação; a figura não define a trajetória de inserção física.",
+      "passos":[
+        "Com P12 ainda fora, coloque as porcas M3 nos bolsos internos que ficarão difíceis de acessar: união da saia, apoios do piso e portinholas. Segure as porcas até o primeiro engate; não force bolso apertado nem deixe porca solta dentro do robô.",
+        "Apresente P01 e P02 ao redor da base, preferencialmente por cima com o piso removido. Confira folga das rodas, cabos e suportes. Se não houver caminho livre, pare e ajuste a montagem; não entorte o impresso para fazê-lo passar.",
+        "Encaixe as linguetas de P01 na região correspondente de P02. Una as duas laterais com B: 2 M3 × 10, uma por lado, usando as porcas alojadas nas linguetas. Comece todos os filetes antes do aperto final.",
+        "Carregue duas porcas em cada um dos 4 P11. Coloque-os por dentro, dois na frente e dois atrás. Use os quatro parafusos INFERIORES de A, M3 × 12, para fixar os clipes à saia. Os quatro furos superiores ficam livres para as tampas.",
+        "Deixe os berços vazios, especialmente o P13: o powerbank instalado atrapalha a colocação das porcas sob os apoios traseiros do piso. Confirme agora que todas as porcas H estão posicionadas e acessíveis."
+      ],
+      "alerta":"Não instale o piso primeiro: as orelhas da saia precisam ficar sob P12. Não feche as portinholas antes de conferir as porcas e o acesso à ferramenta."
+    },
+    {
+      "id":"guia-07","tipo":"etapa","titulo":"3. Pré-monte o módulo superior na bancada","figura":"modulo.png",
+      "legenda":"Pi, plataforma e espaçadores afastados para enxergar as interfaces. O sensor C1 não é fixado nesta etapa.",
+      "passos":[
+        "Em P12, coloque 4 P21 de 6 mm sob os furos da Pi. Una placa, espaçadores e piso com K: 4 M2.5 × 16, porcas M2.5 e arruelas isolantes. As porcas ficam sob P12. Não substitua por M3 nem prenda através de componentes ou trilhas.",
+        "Prenda o berço ESP P24 sobre P12 com P: 2 M3 × 10, porcas e arruelas por baixo. Passe as duas cintas de velcro antes de fechar o acesso inferior. Use espuma isolante de 2 mm como referência; confirme tamanho, pinos e antena da placa ESP real.",
+        "Alinhe as duas colunas P18 com os dois furos estruturais de P19. Passe J: 2 M3 × 60 ESC + porcas/arruelas, da face escareada de P19, pelas colunas e por P12. As cabeças precisam ficar embutidas. Monte essas porcas com o piso ainda acessível na bancada.",
+        "Separe os 4 P20 para apoiar o C1 sobre P19, mas não coloque parafuso no sensor sem identificar sua rosca e profundidade. A matriz de 43 × 43 mm é a proposta do modelo, não medição do sensor real.",
+        "Confira as pontas dos parafusos sob o piso: não podem atingir o Basike, a L298N, cabos ou as pilhas quando o módulo for instalado. Cooler e conectores reais também precisam caber sem forçar a tampa."
+      ],
+      "alerta":"J prende a ESTRUTURA P19/P18/P12, não o C1. Os quatro parafusos de fixação do sensor são adicionais e permanecem sem bitola/comprimento definidos. Não improvise essa rosca."
+    },
+    {
+      "id":"guia-08","tipo":"etapa","titulo":"4. Assente o piso e feche a estrutura","figura":"piso.png",
+      "legenda":"P12 elevado; componentes do módulo superior omitidos para mostrar colunas e apoios. Afastamento apenas ilustrativo.",
+      "passos":[
+        "Baixe o módulo P12 sobre a base já envolvida pela saia. Oriente a janela de acesso sobre a região da L298N, as colunas altas P15 à frente e P16/P17 atrás. Não prense fios, velcro nem conectores entre piso e apoios.",
+        "Faça os quatro I (M3 × 50) atravessarem seus furos em P12. Coloque as arruelas e porcas M3 por cima do piso. As colunas dianteiras e as traseiras sobre P17 devem chegar ao mesmo plano de apoio, sem levantar um canto.",
+        "Una P12 às quatro orelhas da saia com H: 4 M3 × 10. Os parafusos entram por cima do piso; as porcas M3 já devem estar nos bolsos inferiores das orelhas. Não confunda estes quatro pontos com os quatro I das colunas.",
+        "Inicie todas as roscas, confira o alinhamento e só então aperte alternadamente. Se precisar puxar um furo ao outro com força, desmonte e localize a interferência. Não use aperto para compensar peça empenada.",
+        "Mantenha o powerbank fora até terminar a inspeção das ferragens inferiores. Verifique se nenhuma porca ficou solta e se as rodas giram livres à mão, com os motores sem alimentação."
+      ],
+      "alerta":"O CAD verificou geometria estática e algumas posições de retirada; não provou uma trajetória contínua de montagem com cabos e componentes reais. Faça a montagem a seco antes de energizar."
+    },
+    {
+      "id":"guia-09","tipo":"etapa","titulo":"5. Una os quartos do teto e instale as tampas","figura":"tetos.png",
+      "legenda":"Quatro quartos do teto separados; P10 deslocado para o centro para mostrar as uniões internas. Não é a posição final.",
+      "passos":[
+        "Na bancada, una P03 com P05 para formar uma metade longitudinal. Faça o mesmo com P04 e P06 para a outra. Confirme os códigos antes de apertar: as peças são espelhadas e não se trocam apenas pelo nome frente/trás.",
+        "Use 1 P10 por metade, sempre pelo lado INTERNO do teto. Em cada P10 entram 2 parafusos D, M3 × 10, com porcas nos bolsos: 4 parafusos D no total. Não instale a ponte por fora.",
+        "Complete cada junta lateral do teto com 1 parafuso C, M3 × 10, na lingueta correspondente. Total: 2 C. Os afastamentos de junta são folgas de projeto; confira na impressão real sem forçar as faces.",
+        "Apresente cada metade pela lateral sob a base do C1, alinhando os rasgos ao redor de P18. Teste a passagem com cabos e conectores reais. Não é necessário atravessar a plataforma com a tampa inteira.",
+        "Retenha as tampas usando os quatro parafusos SUPERIORES de A, M3 × 12, acessíveis por frente e trás, nos quatro P11. Os quatro A inferiores continuam prendendo os clipes à saia. Mantenha a ventilação desobstruída."
+      ],
+      "alerta":"Se houver resistência na retirada lateral, pare e confira a peça/cabo que prende. Não corte um rasgo às cegas próximo ao sensor nem force o suporte para conseguir fechar."
+    },
+    {
+      "id":"guia-10","tipo":"fechamento","titulo":"6. Baterias, portas e conferência final","figuras":["fechado-frente.png","fechado-tras.png"],
+      "passos":[
+        "Só depois das ferragens internas verificadas, apresente o holder e o Basike nos berços. Faça o ensaio de retenção das cintas com o hardware real. Pré-ajuste as pontas pelo acesso lateral; se não conseguir tensioná-las, abra o piso. Não deixe o Basike solto.",
+        "Prenda P07 à frente com E: 2 M3 × 12. Prenda P08 atrás com F: 2 M3 × 12. Os recortes no alto de P08 contornam os A inferiores dos clipes, que não precisam ser removidos para abrir essa porta.",
+        "Prenda P09 com G: 2 M3 × 12. Esse painel dá acesso de serviço ao powerbank; não significa que os recortes precisos de USB e do botão já foram medidos. Confira o caminho e o raio de curvatura dos cabos.",
+        "Confirme: todas as porcas presas; pontas de parafuso longe das baterias; rodas/rodízio livres; encoders/discos alinhados e fixados; cabos protegidos; ventilação livre; acesso ao desligamento preservado. Ainda falta ensaiar temperatura e estabilidade com o conjunto real."
+      ],
+      "alerta":"Para retirar o teto, solte os quatro A superiores e deslize as metades; deixe os A inferiores. Para acesso às AA use E; para retirada do Basike use F e solte sua retenção; para serviço lateral use G. Sem montagem física validada ou ensaio do sistema elétrico."
+    }
+  ],
+  "fonte_pecas": "kit-r04.json",
+  "fonte_STL": "slamderson-STL-Ender3V3SE-r04.zip",
+  "validacao_geometrica": "validacao-montagem-r04.json",
+  "nota": "Procedimento proposto, com pontos de parada obrigatória. Nenhuma alteração de geometria ou de alimentação é autorizada pelo documento."
+}

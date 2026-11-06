@@ -1,0 +1,15 @@
+{
+  "status": "OK",
+  "pacote": "robo_movel",
+  "importacao_instalada": "/work/install/robo_movel/lib/python3.12/site-packages/robo_movel/__init__.py",
+  "modulos_importados": [
+    "robo_movel.controle",
+    "robo_movel.dispositivos",
+    "robo_movel.localizacao",
+    "robo_movel.mapeamento",
+    "robo_movel.navegacao",
+    "robo_movel.percepcao"
+  ],
+  "malhas_verificadas": 18,
+  "identidade_anterior_ausente_na_instalacao": true
+}

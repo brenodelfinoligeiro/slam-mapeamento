@@ -1,0 +1,180 @@
+{
+  "estado": "VALIDADO",
+  "testes_por_execucao": 369,
+  "casos_pacotes": 361,
+  "casos_metricas": 8,
+  "somar_fonte_e_copia": false,
+  "arquivo_zip_extraido_recompilado_e_executado": true,
+  "arquivo_tar_extraido_e_identico_por_hash_e_permissoes": true,
+  "runtime": "/home/lamggm/.hermes/cache/scratch/robo-movel-slam/runtime-v07-extraido-nativo-final",
+  "mesma_imagem_da_fonte": "sha256:a2e524a41eee460a41aba3a121e1a4111b11f56b54944387e7771425f7ef4d74",
+  "arquivos": [
+    {
+      "caminho": "docs/slam/robo-movel-slam-localizacao-v2.zip",
+      "bytes": 11727538,
+      "sha256": "48496bda66f928b7bbf5cf48537f63690e48b3159ee38f439495e595ac83d8b4"
+    },
+    {
+      "caminho": "docs/slam/robo-movel-slam-localizacao-v2.tar.xz",
+      "bytes": 7671236,
+      "sha256": "a40c1007cc516a1ef0ab4ed6b71aa4fcf6f07d502d78368b7d50171412ef38a3"
+    }
+  ],
+  "mapeamento": {
+    "mapa": {
+      "largura": 121,
+      "altura": 101,
+      "resolucao_m": 0.05000000074505806,
+      "celulas_ocupadas": 572,
+      "celulas_livres": 10886,
+      "celulas_desconhecidas": 763,
+      "distancia_mediana_ocupados_parede_m": 0.013960836759692175,
+      "fracao_ocupados_proximos_parede": 1.0,
+      "fracao_parede_proxima_ocupado": 0.9507908611599297,
+      "tolerancia_m": 0.15,
+      "limite": "Paredes ocultas podem permanecer desconhecidas; não é validação física."
+    },
+    "erro_pose": {
+      "posicao_m": 0.01267669266649922,
+      "orientacao_rad": 0.0031065673562494425
+    },
+    "pose_estimada": [
+      -0.010590897779189147,
+      0.006524711273931774,
+      0.007921260176583286
+    ],
+    "referencia_oraculo": [
+      -0.0015897634898111974,
+      -0.002401548775241096,
+      0.004814692820333843
+    ],
+    "salvamentos_nativos_consecutivos": 3,
+    "modo": "mapeamento",
+    "lifecycle_ativo": true,
+    "fonte_mapa": "slam_toolbox",
+    "fonte_scan": "lidar_simulado",
+    "referencia_perfeita_fora_das_entradas_slam": true,
+    "tf_map_odom_autoria_causal": true,
+    "arquivos_salvos_ou_carregados": {
+      ".posegraph": {
+        "bytes": 5947461,
+        "sha256": "a540307bb0c7fc431ada33b35ea2464ac1f09e21ff5e37d6d88ba4e8de866a94"
+      },
+      ".data": {
+        "bytes": 940859,
+        "sha256": "75dfd596c3a388c78a61317b64404f050e4f70a971a13620992f7e626e9944a6"
+      },
+      ".pgm": {
+        "bytes": 12236,
+        "sha256": "3a5d4fc07fffbe6ae519774beaf0b00d54f8e6d5fd951de5d19919e505c0758b"
+      },
+      ".yaml": {
+        "bytes": 128,
+        "sha256": "59d1f6b8f238ae315b7a2d2a694c0d85affef970c7793c71d2adc06106773cc3"
+      }
+    },
+    "limite": "Cenário e raios virtuais; não é medição física ou navegação autônoma.",
+    "status": "OK",
+    "encerramento_limpo": true
+  },
+  "localizacao": {
+    "mapa": {
+      "largura": 121,
+      "altura": 101,
+      "resolucao_m": 0.05000000074505806,
+      "celulas_ocupadas": 599,
+      "celulas_livres": 10864,
+      "celulas_desconhecidas": 758,
+      "distancia_mediana_ocupados_parede_m": 0.013960836759692175,
+      "fracao_ocupados_proximos_parede": 1.0,
+      "fracao_parede_proxima_ocupado": 0.9507908611599297,
+      "tolerancia_m": 0.15,
+      "limite": "Paredes ocultas podem permanecer desconhecidas; não é validação física."
+    },
+    "erro_pose": {
+      "posicao_m": 0.00017157955655857195,
+      "orientacao_rad": 0.0013839991178667972
+    },
+    "pose_estimada": [
+      -0.003246453636253759,
+      -0.0001651714379293191,
+      0.0013839991178667972
+    ],
+    "referencia_oraculo": [
+      -0.0031999999999999923,
+      0.0,
+      0.0
+    ],
+    "modo": "localizacao",
+    "lifecycle_ativo": true,
+    "fonte_mapa": "slam_toolbox",
+    "fonte_scan": "lidar_simulado",
+    "referencia_perfeita_fora_das_entradas_slam": true,
+    "tf_map_odom_autoria_causal": true,
+    "arquivos_salvos_ou_carregados": {
+      ".posegraph": {
+        "bytes": 5947461,
+        "sha256": "a540307bb0c7fc431ada33b35ea2464ac1f09e21ff5e37d6d88ba4e8de866a94"
+      },
+      ".data": {
+        "bytes": 940859,
+        "sha256": "75dfd596c3a388c78a61317b64404f050e4f70a971a13620992f7e626e9944a6"
+      },
+      ".pgm": {
+        "bytes": 12236,
+        "sha256": "3a5d4fc07fffbe6ae519774beaf0b00d54f8e6d5fd951de5d19919e505c0758b"
+      },
+      ".yaml": {
+        "bytes": 128,
+        "sha256": "59d1f6b8f238ae315b7a2d2a694c0d85affef970c7793c71d2adc06106773cc3"
+      }
+    },
+    "limite": "Cenário e raios virtuais; não é medição física ou navegação autônoma.",
+    "grafo_original_preservado": true,
+    "status": "OK",
+    "encerramento_limpo": true
+  },
+  "negativos": {
+    "modo_invalido": {
+      "status": "rejeitado_como_esperado",
+      "returncode": 1,
+      "processos_nao_iniciados": true
+    },
+    "grafo_ausente": {
+      "status": "rejeitado_como_esperado",
+      "returncode": 1,
+      "processos_nao_iniciados": true
+    },
+    "grafo_inexistente": {
+      "status": "rejeitado_como_esperado",
+      "returncode": 1,
+      "processos_nao_iniciados": true
+    },
+    "mapa_existente": {
+      "status": "rejeitado_como_esperado",
+      "returncode": 1,
+      "processos_nao_iniciados": false
+    },
+    "servico_ausente": {
+      "status": "rejeitado_como_esperado",
+      "returncode": 1,
+      "processos_nao_iniciados": false
+    },
+    "sensor_parametro_invalido": {
+      "status": "rejeitado_como_esperado",
+      "returncode": 1,
+      "processos_nao_iniciados": false
+    }
+  },
+  "rviz": {
+    "rviz_real": true,
+    "scan_mapa_modelo_e_tf_ativos": true,
+    "captura": "previa-slam.png",
+    "inspecao_visual_pendente": false,
+    "encerramento_limpo": true,
+    "inspecao_visual_realizada": true,
+    "global_status": "Ok",
+    "mapa_integralmente_enquadrado": true
+  },
+  "limite": "Execução digital AMD64 no ambiente Jazzy preparado; sem hardware/ARM/nav autônoma. TAR é a mesma árvore exercitada após extração ZIP."
+}

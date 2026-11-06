@@ -1,0 +1,23 @@
+F                                                                        [100%]
+=================================== FAILURES ===================================
+______________ teste_launch_de_descricao_nao_inventa_joint_states ______________
+
+    def teste_launch_de_descricao_nao_inventa_joint_states():
+        caminho = RAIZ / 'inicializacao/descricao.launch.py'
+>       assert caminho.is_file(), 'Launch de robot_state_publisher ainda não existe'
+E       AssertionError: Launch de robot_state_publisher ainda não existe
+E       assert False
+E        +  where False = is_file()
+E        +    where is_file = PosixPath('/home/lamggm/projects/slamderson_ws/src/slamderson/inicializacao/descricao.launch.py').is_file
+
+testes/teste_descricao.py:25: AssertionError
+=============================== warnings summary ===============================
+../../../../.cache/uv/archive-v0/op-A-h30unLYY4Iy/lib/python3.14/site-packages/_pytest/config/__init__.py:1636
+  /home/lamggm/.cache/uv/archive-v0/op-A-h30unLYY4Iy/lib/python3.14/site-packages/_pytest/config/__init__.py:1636: PytestConfigWarning: Unknown config option: cache_dir
+  
+    self._warn_or_fail_if_strict(f"Unknown config option: {key}\n")
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+=========================== short test summary info ============================
+FAILED testes/teste_descricao.py::teste_launch_de_descricao_nao_inventa_joint_states
+1 failed, 1 warning in 0.02s

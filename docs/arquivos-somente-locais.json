@@ -160,6 +160,606 @@
       "caminho": "docs/vault-slamderson/05-fontes/pdf/velleman-wpse347.pdf",
       "sha256": "ccbf59054a5e32a28ca61686427c974b01773cf9ff6e16266ecb74a71699438c",
       "motivo": "Referencia de terceiro mantida somente localmente; autorizacao de redistribuicao pendente."
+    },
+    {
+      "caminho": "docs/disposicao-2d/disposicao-componentes-2d.png",
+      "sha256": "145bf869e21031c9a72f4c12f328fe78dc4f16f3657fa147a4bce69c34bb2776",
+      "motivo": "Estudo 2D derivado do chassi B local; redistribuicao publica pendente de auditoria da licenca de origem."
+    },
+    {
+      "caminho": "docs/disposicao-2d/disposicao-componentes-2d.svg",
+      "sha256": "eee0857993615a7de5a486a422fcf21b50d21723683bd04a577a4e322c8b6655",
+      "motivo": "Estudo 2D derivado do chassi B local; redistribuicao publica pendente de auditoria da licenca de origem."
+    },
+    {
+      "caminho": "docs/disposicao-2d/disposicao-componentes-2d.pdf",
+      "sha256": "b710a740bc44cfd6c4405c5e117e5dffa9d8bf2c0f47cbee6354fd0202ef246a",
+      "motivo": "Estudo 2D derivado do chassi B local; redistribuicao publica pendente de auditoria da licenca de origem."
+    },
+    {
+      "caminho": "docs/disposicao-2d/disposicao-componentes-2d.FCStd",
+      "sha256": "4d184bf7dd77f28388b5f46c21403f77487a62f205e6ac6186d98a799e6bc291",
+      "motivo": "Estudo 2D derivado do chassi B local; redistribuicao publica pendente de auditoria da licenca de origem."
+    },
+    {
+      "caminho": "docs/montagem-3d/slamderson-estudo-3d.FCStd",
+      "sha256": "4bb3dead3d33051e4cb6fd6ed4c80ec61c2923fab445327ef9a02be6f85a4bea",
+      "motivo": "Estudo 3D derivado de CADs locais; redistribuicao publica pendente de auditoria das licencas de origem."
+    },
+    {
+      "caminho": "docs/montagem-3d/montagem-3d.png",
+      "sha256": "2850724491306530a37a0dce9e895c5817ee9f9727b92ec2d97c11920fea9e81",
+      "motivo": "Estudo 3D derivado de CADs locais; redistribuicao publica pendente de auditoria das licencas de origem."
+    },
+    {
+      "caminho": "docs/montagem-3d/explodida-3d.png",
+      "sha256": "12424c01d6e90b9e67341b8a7b9bb0b8c846183e140d171785e0d50f1ddac65e",
+      "motivo": "Estudo 3D derivado de CADs locais; redistribuicao publica pendente de auditoria das licencas de origem."
+    },
+    {
+      "caminho": "docs/montagem-3d/prancha-3d.png",
+      "sha256": "47f645d7303955c4b8b0465dee52d0f6fa8b1605b21f7b6174b7ef3e78e244e6",
+      "motivo": "Estudo 3D derivado de CADs locais; redistribuicao publica pendente de auditoria das licencas de origem."
+    },
+    {
+      "caminho": "docs/medicoes/powerbank-basike/WhatsApp_Unknown_2026-11-05_at_15.24.44.zip",
+      "sha256": "7ae5a7a9b39f7aae38c1563bbcacb761dc680e428c68066ad5f3e348eb11d3cf",
+      "motivo": "Fotos originais fornecidas pelo autor, preservadas localmente sem publicacao automatica."
+    },
+    {
+      "caminho": "docs/medicoes/powerbank-basike/massa-indicada.jpeg",
+      "sha256": "66db5eda54ad3b44345d99f18f076c8da67b74115f47c81012fbc5a91c3646b9",
+      "motivo": "Fotos originais fornecidas pelo autor, preservadas localmente sem publicacao automatica."
+    },
+    {
+      "caminho": "docs/medicoes/powerbank-basike/dimensoes-anotadas.jpeg",
+      "sha256": "3034ab06b78d972087d15ec4d57c66a80b2555c02a2c3f324f449156a72289e8",
+      "motivo": "Fotos originais fornecidas pelo autor, preservadas localmente sem publicacao automatica."
+    },
+    {
+      "caminho": "docs/carcaca-r02/PortinholaAA_ESTUDO.stl",
+      "sha256": "cc584139ffc124b860a2cfa3b9a30b12672e5e3d446f929a9aa05da58cb5f57e",
+      "motivo": "Derivado local R02 para estudo de montagem/carcaca; publicacao automatica nao autorizada e licencas das referencias preservadas."
+    },
+    {
+      "caminho": "docs/carcaca-r02/PortinholaPB_ESTUDO.stl",
+      "sha256": "6ea5076a5060ba6e364c59b0379f32889d1b949c3dbea6f806b32738a84862dc",
+      "motivo": "Derivado local R02 para estudo de montagem/carcaca; publicacao automatica nao autorizada e licencas das referencias preservadas."
+    },
+    {
+      "caminho": "docs/carcaca-r02/Saia_ESTUDO.stl",
+      "sha256": "2fe127932c70ecd43f2caf319c54e963c4ee44f0d9b2d7b9daff56d3c3517c8f",
+      "motivo": "Derivado local R02 para estudo de montagem/carcaca; publicacao automatica nao autorizada e licencas das referencias preservadas."
+    },
+    {
+      "caminho": "docs/carcaca-r02/TampaDireita_ESTUDO.stl",
+      "sha256": "e0bad46a7bf11bfc6badfd2c446024d10c6dddc51c335225fc59329caf2cabdc",
+      "motivo": "Derivado local R02 para estudo de montagem/carcaca; publicacao automatica nao autorizada e licencas das referencias preservadas."
+    },
+    {
+      "caminho": "docs/carcaca-r02/TampaEsquerda_ESTUDO.stl",
+      "sha256": "613542209cddd92493fa04a7abcd753630bb1284a5de631428489e9ad0a89269",
+      "motivo": "Derivado local R02 para estudo de montagem/carcaca; publicacao automatica nao autorizada e licencas das referencias preservadas."
+    },
+    {
+      "caminho": "docs/carcaca-r02/TampaServicoPB_ESTUDO.stl",
+      "sha256": "232b415a18e8f878f1b7e03a036b004d3dda9bde4bd4356156085fb93cf099c9",
+      "motivo": "Derivado local R02 para estudo de montagem/carcaca; publicacao automatica nao autorizada e licencas das referencias preservadas."
+    },
+    {
+      "caminho": "docs/carcaca-r02/acesso.png",
+      "sha256": "a553ebe9e8bc620a187e7a16fe8f80fac3670692414ef183c7f5169b49b072b2",
+      "motivo": "Derivado local R02 para estudo de montagem/carcaca; publicacao automatica nao autorizada e licencas das referencias preservadas."
+    },
+    {
+      "caminho": "docs/carcaca-r02/carcaca-estudo-r02.FCStd",
+      "sha256": "10dd17f803b0081d368332dfeb56033910451414065c10d197ffc110afc930e4",
+      "motivo": "Derivado local R02 para estudo de montagem/carcaca; publicacao automatica nao autorizada e licencas das referencias preservadas."
+    },
+    {
+      "caminho": "docs/carcaca-r02/carcaca-estudo-r02.step",
+      "sha256": "ac7d1fdd3fa643043bb80f6b8c6fa896aed8d118badb5b349f17be2d2c071346",
+      "motivo": "Derivado local R02 para estudo de montagem/carcaca; publicacao automatica nao autorizada e licencas das referencias preservadas."
+    },
+    {
+      "caminho": "docs/carcaca-r02/carcaca-estudo-r02.zip",
+      "sha256": "16610e44f58d25948fc265cdb5c3762070ff689535053cfbe531a2327905d964",
+      "motivo": "Derivado local R02 para estudo de montagem/carcaca; publicacao automatica nao autorizada e licencas das referencias preservadas."
+    },
+    {
+      "caminho": "docs/carcaca-r02/fechado.png",
+      "sha256": "2e81542abc9bcd0abab0e6abb8ec30ad1b6d14a8f8b82d93744beed2d4856cd4",
+      "motivo": "Derivado local R02 para estudo de montagem/carcaca; publicacao automatica nao autorizada e licencas das referencias preservadas."
+    },
+    {
+      "caminho": "docs/carcaca-r02/interior.png",
+      "sha256": "ce008b3603a23a22af44bac5619ebf2898c37e1ca806c5bfd4739e4f1ec36f7b",
+      "motivo": "Derivado local R02 para estudo de montagem/carcaca; publicacao automatica nao autorizada e licencas das referencias preservadas."
+    },
+    {
+      "caminho": "docs/carcaca-r02/prancha-r02.png",
+      "sha256": "aa3f5cedb2c0b029bbfd5b275d69ccc51a583d31b8d17f19d5226920068014cd",
+      "motivo": "Derivado local R02 para estudo de montagem/carcaca; publicacao automatica nao autorizada e licencas das referencias preservadas."
+    },
+    {
+      "caminho": "docs/carcaca-r02/slamderson-coberto-r02.FCStd",
+      "sha256": "778aebcbdc5edcd61ed7709fb552a31943df4a3ab561ec737af748e8e3d66dbf",
+      "motivo": "Derivado local R02 para estudo de montagem/carcaca; publicacao automatica nao autorizada e licencas das referencias preservadas."
+    },
+    {
+      "caminho": "docs/carcaca-r02/traseira.png",
+      "sha256": "d3d66f3c61fe75d6df1ac27f1e390646a3d25dc22933fdc4abc29fc6ab221d4f",
+      "motivo": "Derivado local R02 para estudo de montagem/carcaca; publicacao automatica nao autorizada e licencas das referencias preservadas."
+    },
+    {
+      "caminho": "docs/carcaca-r03/acesso.png",
+      "sha256": "8d4a866cc3575b9ee91961a477d38f7974fc5fbdbf7f71ec032fea2f89f653b3",
+      "motivo": "Derivado R03 local de estudo do suporte compacto; sem publicacao automatica ou aprovacao para fabricacao. Referencias originais preservadas."
+    },
+    {
+      "caminho": "docs/carcaca-r03/comparacao-r02-r03.png",
+      "sha256": "55a8e09113250857abf5955961346c9d852c37668883550c473b2d7413cd38fc",
+      "motivo": "Derivado R03 local de estudo do suporte compacto; sem publicacao automatica ou aprovacao para fabricacao. Referencias originais preservadas."
+    },
+    {
+      "caminho": "docs/carcaca-r03/detalhe.png",
+      "sha256": "4021a34dd313d0c02f5a61870eceec6d7c6fa86b605affb025ab93b70df89096",
+      "motivo": "Derivado R03 local de estudo do suporte compacto; sem publicacao automatica ou aprovacao para fabricacao. Referencias originais preservadas."
+    },
+    {
+      "caminho": "docs/carcaca-r03/fechado.png",
+      "sha256": "8c941347e89552154b8028c5795aa04ead86ff0756ea636052fe2c51dcfdc0a3",
+      "motivo": "Derivado R03 local de estudo do suporte compacto; sem publicacao automatica ou aprovacao para fabricacao. Referencias originais preservadas."
+    },
+    {
+      "caminho": "docs/carcaca-r03/slamderson-coberto-r03.FCStd",
+      "sha256": "17b134131029a156b531ed83f3edac7e28056b32844b493bcfdfd47a23993eb7",
+      "motivo": "Derivado R03 local de estudo do suporte compacto; sem publicacao automatica ou aprovacao para fabricacao. Referencias originais preservadas."
+    },
+    {
+      "caminho": "docs/carcaca-r03/suporte-c1-estudo-r03.FCStd",
+      "sha256": "53c05e5bd53310f8c222e0ce7a4242126c919d9588eb6c1b3e981e79cb3be15e",
+      "motivo": "Derivado R03 local de estudo do suporte compacto; sem publicacao automatica ou aprovacao para fabricacao. Referencias originais preservadas."
+    },
+    {
+      "caminho": "docs/carcaca-r03/suporte-c1-estudo-r03.step",
+      "sha256": "16b2d18e72ba481a75375e933d4c70a7053e4967871a7d4f4c535e5af30f5879",
+      "motivo": "Derivado R03 local de estudo do suporte compacto; sem publicacao automatica ou aprovacao para fabricacao. Referencias originais preservadas."
+    },
+    {
+      "caminho": "docs/carcaca-r03/traseira.png",
+      "sha256": "07c6c4959c159b7a9d4ffd5c377000550a9b27b5fcbe4aaf9968dc789f98626e",
+      "motivo": "Derivado R03 local de estudo do suporte compacto; sem publicacao automatica ou aprovacao para fabricacao. Referencias originais preservadas."
+    },
+    {
+      "caminho": "docs/impressao-r04/cupom-encaixe.FCStd",
+      "sha256": "c08738c82537990c4639fbd6154003b1e08fa5d6a252027f0cb810bbb551e3ff",
+      "motivo": "Derivado local R04. Entrega limitada a STL dimensionados para Ender-3 V3 SE, sem publicacao automatica. Encaixe no hardware real ainda depende de conferencia."
+    },
+    {
+      "caminho": "docs/impressao-r04/pecas-impressao-r04.FCStd",
+      "sha256": "35b91489f492fdb7e19a6d8cd59cd33ea7c5e26790adccd381585585f3888af3",
+      "motivo": "Derivado local R04. Entrega limitada a STL dimensionados para Ender-3 V3 SE, sem publicacao automatica. Encaixe no hardware real ainda depende de conferencia."
+    },
+    {
+      "caminho": "docs/impressao-r04/pecas-impressao-r04.step",
+      "sha256": "467ee418b446336c30dcd9011fe443aec586d6f8407f2f90d002a881d844d438",
+      "motivo": "Derivado local R04. Entrega limitada a STL dimensionados para Ender-3 V3 SE, sem publicacao automatica. Encaixe no hardware real ainda depende de conferencia."
+    },
+    {
+      "caminho": "docs/impressao-r04/slamderson-STL-Ender3V3SE-r04.zip",
+      "sha256": "997715419fcd7338442b5ebf533651159580ad91e552318e37973d38fe7766a7",
+      "motivo": "Derivado local R04. Entrega limitada a STL dimensionados para Ender-3 V3 SE, sem publicacao automatica. Encaixe no hardware real ainda depende de conferencia."
+    },
+    {
+      "caminho": "docs/impressao-r04/slamderson-impressao-r04.FCStd",
+      "sha256": "16ca3f9444c7220ee7c2c242216b445af8a35063648882fa76ef10af85b103dd",
+      "motivo": "Derivado local R04. Entrega limitada a STL dimensionados para Ender-3 V3 SE, sem publicacao automatica. Encaixe no hardware real ainda depende de conferencia."
+    },
+    {
+      "caminho": "docs/impressao-r04/stl/P01.stl",
+      "sha256": "4d86404af57491d91eaefc509be8a83d0a46bae4d0b8436f84c73bd8bddbb2c0",
+      "motivo": "Derivado local R04. Entrega limitada a STL dimensionados para Ender-3 V3 SE, sem publicacao automatica. Encaixe no hardware real ainda depende de conferencia."
+    },
+    {
+      "caminho": "docs/impressao-r04/stl/P02.stl",
+      "sha256": "95bea05743be82e8293c745896d0d911f2daa5c6bef8ecb205c9097c0b7170de",
+      "motivo": "Derivado local R04. Entrega limitada a STL dimensionados para Ender-3 V3 SE, sem publicacao automatica. Encaixe no hardware real ainda depende de conferencia."
+    },
+    {
+      "caminho": "docs/impressao-r04/stl/P03.stl",
+      "sha256": "cff75393648bab4c7224c07ba3600220d44dba2aefa8aeccd0be04d5a5d3da9a",
+      "motivo": "Derivado local R04. Entrega limitada a STL dimensionados para Ender-3 V3 SE, sem publicacao automatica. Encaixe no hardware real ainda depende de conferencia."
+    },
+    {
+      "caminho": "docs/impressao-r04/stl/P04.stl",
+      "sha256": "7d40c84664d91fcf0e4bdd96666b68e66c382a8c447c67914a8f2981fb644864",
+      "motivo": "Derivado local R04. Entrega limitada a STL dimensionados para Ender-3 V3 SE, sem publicacao automatica. Encaixe no hardware real ainda depende de conferencia."
+    },
+    {
+      "caminho": "docs/impressao-r04/stl/P05.stl",
+      "sha256": "cbee04335b8935be0ef3b1076ea93f4711c721d3ac5f9ecf09a0a100a0e3c556",
+      "motivo": "Derivado local R04. Entrega limitada a STL dimensionados para Ender-3 V3 SE, sem publicacao automatica. Encaixe no hardware real ainda depende de conferencia."
+    },
+    {
+      "caminho": "docs/impressao-r04/stl/P06.stl",
+      "sha256": "6d82fe23327e3e1f063db90f97aef3a2059bb1906b305a6c06774fd8ba4fa727",
+      "motivo": "Derivado local R04. Entrega limitada a STL dimensionados para Ender-3 V3 SE, sem publicacao automatica. Encaixe no hardware real ainda depende de conferencia."
+    },
+    {
+      "caminho": "docs/impressao-r04/stl/P07.stl",
+      "sha256": "cf1f7453cd7839f2dd50fba52d7dceb196f08824a0812ebcee31017e6eea07c0",
+      "motivo": "Derivado local R04. Entrega limitada a STL dimensionados para Ender-3 V3 SE, sem publicacao automatica. Encaixe no hardware real ainda depende de conferencia."
+    },
+    {
+      "caminho": "docs/impressao-r04/stl/P08.stl",
+      "sha256": "1bfffc7264790b811e76c5c2d6b5344d560cb3c779226cda1e75af8afcd7b838",
+      "motivo": "Derivado local R04. Entrega limitada a STL dimensionados para Ender-3 V3 SE, sem publicacao automatica. Encaixe no hardware real ainda depende de conferencia."
+    },
+    {
+      "caminho": "docs/impressao-r04/stl/P09.stl",
+      "sha256": "5b226087c91d920c73ab79ebe12c1953a8cdb400e216f2ab46007b4a5aa5f3d0",
+      "motivo": "Derivado local R04. Entrega limitada a STL dimensionados para Ender-3 V3 SE, sem publicacao automatica. Encaixe no hardware real ainda depende de conferencia."
+    },
+    {
+      "caminho": "docs/impressao-r04/stl/P10.stl",
+      "sha256": "8a4e6f3b1c3effe2cb20a4333bc34bde59145425b9176a5c6a3802c0c9a0e1b2",
+      "motivo": "Derivado local R04. Entrega limitada a STL dimensionados para Ender-3 V3 SE, sem publicacao automatica. Encaixe no hardware real ainda depende de conferencia."
+    },
+    {
+      "caminho": "docs/impressao-r04/stl/P11.stl",
+      "sha256": "27761808462d0695ef6cd5b9d644b118f6b23ef43a5bbfbf4bb43105f2fd715a",
+      "motivo": "Derivado local R04. Entrega limitada a STL dimensionados para Ender-3 V3 SE, sem publicacao automatica. Encaixe no hardware real ainda depende de conferencia."
+    },
+    {
+      "caminho": "docs/impressao-r04/stl/P12.stl",
+      "sha256": "39fed69f8fe2d8cf58782156200af9890771083adcf7997f6a7055ca14cd042f",
+      "motivo": "Derivado local R04. Entrega limitada a STL dimensionados para Ender-3 V3 SE, sem publicacao automatica. Encaixe no hardware real ainda depende de conferencia."
+    },
+    {
+      "caminho": "docs/impressao-r04/stl/P13.stl",
+      "sha256": "fc24dad723ec621eb4e3e32eaecaec9af9cf9c9cbe36cfb4ff82c90bada32171",
+      "motivo": "Derivado local R04. Entrega limitada a STL dimensionados para Ender-3 V3 SE, sem publicacao automatica. Encaixe no hardware real ainda depende de conferencia."
+    },
+    {
+      "caminho": "docs/impressao-r04/stl/P14.stl",
+      "sha256": "b1b23c37ae24a83e8e5f13b6f455f2743947c376bd79ca518a779588188dcdbd",
+      "motivo": "Derivado local R04. Entrega limitada a STL dimensionados para Ender-3 V3 SE, sem publicacao automatica. Encaixe no hardware real ainda depende de conferencia."
+    },
+    {
+      "caminho": "docs/impressao-r04/stl/P15.stl",
+      "sha256": "abf39d4d87a1c1f7bb69e646f792eca2906718abb516e0bc2e0dcbd4418c25f2",
+      "motivo": "Derivado local R04. Entrega limitada a STL dimensionados para Ender-3 V3 SE, sem publicacao automatica. Encaixe no hardware real ainda depende de conferencia."
+    },
+    {
+      "caminho": "docs/impressao-r04/stl/P16.stl",
+      "sha256": "7c3299650ce6383b7c71608cfe2ad386a01e756899ecc643f4945fa1934364fa",
+      "motivo": "Derivado local R04. Entrega limitada a STL dimensionados para Ender-3 V3 SE, sem publicacao automatica. Encaixe no hardware real ainda depende de conferencia."
+    },
+    {
+      "caminho": "docs/impressao-r04/stl/P17.stl",
+      "sha256": "2be641f52fa45b3c6520735fd18e4e1709adbaf9112e04156c5562e7d1ac336e",
+      "motivo": "Derivado local R04. Entrega limitada a STL dimensionados para Ender-3 V3 SE, sem publicacao automatica. Encaixe no hardware real ainda depende de conferencia."
+    },
+    {
+      "caminho": "docs/impressao-r04/stl/P18.stl",
+      "sha256": "85cfca87a958185ad3e7e055265317c022ce0c180e6d4fb77aece67751cf4019",
+      "motivo": "Derivado local R04. Entrega limitada a STL dimensionados para Ender-3 V3 SE, sem publicacao automatica. Encaixe no hardware real ainda depende de conferencia."
+    },
+    {
+      "caminho": "docs/impressao-r04/stl/P19.stl",
+      "sha256": "d1cf8a100cf5afc080e90f43af14f4514a041e0b168d0b9188a75eb92d978c8d",
+      "motivo": "Derivado local R04. Entrega limitada a STL dimensionados para Ender-3 V3 SE, sem publicacao automatica. Encaixe no hardware real ainda depende de conferencia."
+    },
+    {
+      "caminho": "docs/impressao-r04/stl/P20.stl",
+      "sha256": "1380a3d17623eba04756032519329dd03b2ffc0192f07a3761e8eeb8e7943d8b",
+      "motivo": "Derivado local R04. Entrega limitada a STL dimensionados para Ender-3 V3 SE, sem publicacao automatica. Encaixe no hardware real ainda depende de conferencia."
+    },
+    {
+      "caminho": "docs/impressao-r04/stl/P21.stl",
+      "sha256": "a64b45ab003817b47e09d891c7550430df63cd0ff0c5f078023156c77a664004",
+      "motivo": "Derivado local R04. Entrega limitada a STL dimensionados para Ender-3 V3 SE, sem publicacao automatica. Encaixe no hardware real ainda depende de conferencia."
+    },
+    {
+      "caminho": "docs/impressao-r04/stl/P22.stl",
+      "sha256": "1ba3f90193c2ee5be33fcca98f269aef1b587304eb576441accc7cce57285155",
+      "motivo": "Derivado local R04. Entrega limitada a STL dimensionados para Ender-3 V3 SE, sem publicacao automatica. Encaixe no hardware real ainda depende de conferencia."
+    },
+    {
+      "caminho": "docs/impressao-r04/stl/P23.stl",
+      "sha256": "b18d9ca45a2d8ac78f76dff50347537caeabc47013e9a9de471278bc56357747",
+      "motivo": "Derivado local R04. Entrega limitada a STL dimensionados para Ender-3 V3 SE, sem publicacao automatica. Encaixe no hardware real ainda depende de conferencia."
+    },
+    {
+      "caminho": "docs/impressao-r04/stl/P24.stl",
+      "sha256": "a98367c7513929a39fcaf5c83eb01ff911b5961b80003c26b2028754be95dc87",
+      "motivo": "Derivado local R04. Entrega limitada a STL dimensionados para Ender-3 V3 SE, sem publicacao automatica. Encaixe no hardware real ainda depende de conferencia."
+    },
+    {
+      "caminho": "docs/impressao-r04/stl/P25.stl",
+      "sha256": "d54b31fba299097457c9fc1b0f9c97b46d39079572f7505aa4e6465daedaaae6",
+      "motivo": "Derivado local R04. Entrega limitada a STL dimensionados para Ender-3 V3 SE, sem publicacao automatica. Encaixe no hardware real ainda depende de conferencia."
+    },
+    {
+      "caminho": "docs/impressao-r04/slamderson-r04-24-pecas-tres-vistas.pdf",
+      "sha256": "88b9257b65cb3ce1377cc50b3ab01483a1b13c58f8c2be586d675a5249dc2621",
+      "motivo": "PDF local de vistas dos STL R04 entregues; derivados de estudo, sem publicacao automatica ou validacao fisica."
+    },
+    {
+      "caminho": "docs/impressao-r04/slamderson-r04-montagem-e-seis-vistas.pdf",
+      "sha256": "119b012c417b8165fef11fee8289ff42ec49574caab4157e369f1be860262e16",
+      "motivo": "Manual local e seis vistas dos STL R04. Procedimento proposto com interfaces físicas pendentes; sem publicacao automatica."
+    },
+    {
+      "caminho": "docs/fixacao-r05/cupom-insertos-r05.20261105-195055.FCBak",
+      "sha256": "3737841869cf368e5362d4b79027c87db6db256f0d230c130477e55c30b6ae8a",
+      "motivo": "Derivado/backup R05 do estudo CAD com referências cuja redistribuição não foi integralmente autorizada; manter local. Backup automático de rascunho, não usar para fabricar."
+    },
+    {
+      "caminho": "docs/fixacao-r05/cupom-insertos-r05.FCStd",
+      "sha256": "77a150fad3e870889fdc853671d8b759e656be947d282363ff1ecfc33fc858df",
+      "motivo": "Derivado/backup R05 do estudo CAD com referências cuja redistribuição não foi integralmente autorizada; manter local. Protótipo dimensional; não constitui montagem/ensaio físico aprovado."
+    },
+    {
+      "caminho": "docs/fixacao-r05/pecas-impressao-r05.20261105-195107.FCBak",
+      "sha256": "5f3895f93e279fc7791b4e66abb140fcaa1c2b6899f39f61e3ca39fa9403d513",
+      "motivo": "Derivado/backup R05 do estudo CAD com referências cuja redistribuição não foi integralmente autorizada; manter local. Backup automático de rascunho, não usar para fabricar."
+    },
+    {
+      "caminho": "docs/fixacao-r05/pecas-impressao-r05.FCStd",
+      "sha256": "ad1409786b132bf742c767ec00a99d9b8fc7086629b7ae34f2c21966d3cb500b",
+      "motivo": "Derivado/backup R05 do estudo CAD com referências cuja redistribuição não foi integralmente autorizada; manter local. Protótipo dimensional; não constitui montagem/ensaio físico aprovado."
+    },
+    {
+      "caminho": "docs/fixacao-r05/slamderson-STL-Ender3V3SE-r05.zip",
+      "sha256": "967d1fbb9576fbf6cdba61af58f72dce696ec9b010bf9431ac60931b61c851dd",
+      "motivo": "Derivado/backup R05 do estudo CAD com referências cuja redistribuição não foi integralmente autorizada; manter local. Protótipo dimensional; não constitui montagem/ensaio físico aprovado."
+    },
+    {
+      "caminho": "docs/fixacao-r05/slamderson-fixacao-r05.20261105-195105.FCBak",
+      "sha256": "0f3ed835b4d39b019b2b5de8f3e5293a03682f95219a0d9c219cfbe407ba16a6",
+      "motivo": "Derivado/backup R05 do estudo CAD com referências cuja redistribuição não foi integralmente autorizada; manter local. Backup automático de rascunho, não usar para fabricar."
+    },
+    {
+      "caminho": "docs/fixacao-r05/slamderson-fixacao-r05.FCStd",
+      "sha256": "c1d89f9d7d754b9cfa8f9bc4ea35b6ae6461c42dcb7ea30013bce28dd4b3d57e",
+      "motivo": "Derivado/backup R05 do estudo CAD com referências cuja redistribuição não foi integralmente autorizada; manter local. Protótipo dimensional; não constitui montagem/ensaio físico aprovado."
+    },
+    {
+      "caminho": "docs/fixacao-r05/slamderson-r05-montagem-e-seis-vistas.pdf",
+      "sha256": "836683bf5a401fdbbca18e5b20d21a302636989ebe59721d181a285376d125f1",
+      "motivo": "Derivado/backup R05 do estudo CAD com referências cuja redistribuição não foi integralmente autorizada; manter local. Protótipo dimensional; não constitui montagem/ensaio físico aprovado."
+    },
+    {
+      "caminho": "docs/fixacao-r05/stl/P01.stl",
+      "sha256": "9ea9f4dc7e5187caca1a6c98d439e325c73b36585fb981a778d0cc6a9b8c648f",
+      "motivo": "Derivado/backup R05 do estudo CAD com referências cuja redistribuição não foi integralmente autorizada; manter local. Protótipo dimensional; não constitui montagem/ensaio físico aprovado."
+    },
+    {
+      "caminho": "docs/fixacao-r05/stl/P02.stl",
+      "sha256": "0ffbf9e61bb77bd3e77a86336715a244b69a0422bc61ce0edaedd806cb9c9e8b",
+      "motivo": "Derivado/backup R05 do estudo CAD com referências cuja redistribuição não foi integralmente autorizada; manter local. Protótipo dimensional; não constitui montagem/ensaio físico aprovado."
+    },
+    {
+      "caminho": "docs/fixacao-r05/stl/P03.stl",
+      "sha256": "9766ee85807db06dea618584431b4d7b9b85860143b12d80f6145a084d1b2a05",
+      "motivo": "Derivado/backup R05 do estudo CAD com referências cuja redistribuição não foi integralmente autorizada; manter local. Protótipo dimensional; não constitui montagem/ensaio físico aprovado."
+    },
+    {
+      "caminho": "docs/fixacao-r05/stl/P04.stl",
+      "sha256": "dd474ab6f4023e7caf5c75e17e51599dac48b617540eceab31ea6a179df8d3e4",
+      "motivo": "Derivado/backup R05 do estudo CAD com referências cuja redistribuição não foi integralmente autorizada; manter local. Protótipo dimensional; não constitui montagem/ensaio físico aprovado."
+    },
+    {
+      "caminho": "docs/fixacao-r05/stl/P05.stl",
+      "sha256": "ef96f436819ee73bd9409982a05598535867182582ad12a923c5a7aab537e78d",
+      "motivo": "Derivado/backup R05 do estudo CAD com referências cuja redistribuição não foi integralmente autorizada; manter local. Protótipo dimensional; não constitui montagem/ensaio físico aprovado."
+    },
+    {
+      "caminho": "docs/fixacao-r05/stl/P06.stl",
+      "sha256": "a135064bf20c78f66e594947d1db3b76b195737a46d8a7d0f05bcd45cb3fc2af",
+      "motivo": "Derivado/backup R05 do estudo CAD com referências cuja redistribuição não foi integralmente autorizada; manter local. Protótipo dimensional; não constitui montagem/ensaio físico aprovado."
+    },
+    {
+      "caminho": "docs/fixacao-r05/stl/P07.stl",
+      "sha256": "db30742e0f45d03f07a5fbe4bffb21af3703a0cf419c3473cf9911282133fefe",
+      "motivo": "Derivado/backup R05 do estudo CAD com referências cuja redistribuição não foi integralmente autorizada; manter local. Protótipo dimensional; não constitui montagem/ensaio físico aprovado."
+    },
+    {
+      "caminho": "docs/fixacao-r05/stl/P08.stl",
+      "sha256": "85b6e8516e8c1e0b857386711914b2aa18df06cfcdf8a17b808a3a9235ee191d",
+      "motivo": "Derivado/backup R05 do estudo CAD com referências cuja redistribuição não foi integralmente autorizada; manter local. Protótipo dimensional; não constitui montagem/ensaio físico aprovado."
+    },
+    {
+      "caminho": "docs/fixacao-r05/stl/P09.stl",
+      "sha256": "8dc0c99efbddc75496b2ed4dfc7914ae68e79959f0318f4e0785b5392c905b82",
+      "motivo": "Derivado/backup R05 do estudo CAD com referências cuja redistribuição não foi integralmente autorizada; manter local. Protótipo dimensional; não constitui montagem/ensaio físico aprovado."
+    },
+    {
+      "caminho": "docs/fixacao-r05/stl/P10.stl",
+      "sha256": "ff5e1397130fc8743dab5bacb390d6fc1ee469a03bd52ef505204f9fa8e18c39",
+      "motivo": "Derivado/backup R05 do estudo CAD com referências cuja redistribuição não foi integralmente autorizada; manter local. Protótipo dimensional; não constitui montagem/ensaio físico aprovado."
+    },
+    {
+      "caminho": "docs/fixacao-r05/stl/P11.stl",
+      "sha256": "8d5ce3caaa624148aef477a81b8cc51f35173a55819dfb40562059c701ed5483",
+      "motivo": "Derivado/backup R05 do estudo CAD com referências cuja redistribuição não foi integralmente autorizada; manter local. Protótipo dimensional; não constitui montagem/ensaio físico aprovado."
+    },
+    {
+      "caminho": "docs/fixacao-r05/stl/P12.stl",
+      "sha256": "ed3c9065df5928081b2141150434048e5bef6c8a620072b9fdc5c7b71ece0bcf",
+      "motivo": "Derivado/backup R05 do estudo CAD com referências cuja redistribuição não foi integralmente autorizada; manter local. Protótipo dimensional; não constitui montagem/ensaio físico aprovado."
+    },
+    {
+      "caminho": "docs/fixacao-r05/stl/P13.stl",
+      "sha256": "cba4ecea3698b8f8a652327d3108766aa6f8c9686f41f66755f31e4c1ae88945",
+      "motivo": "Derivado/backup R05 do estudo CAD com referências cuja redistribuição não foi integralmente autorizada; manter local. Protótipo dimensional; não constitui montagem/ensaio físico aprovado."
+    },
+    {
+      "caminho": "docs/fixacao-r05/stl/P14.stl",
+      "sha256": "733cd6ccdbb30b180c8b27258a0ff81b613d5ee46f9f46be992b4399628666fe",
+      "motivo": "Derivado/backup R05 do estudo CAD com referências cuja redistribuição não foi integralmente autorizada; manter local. Protótipo dimensional; não constitui montagem/ensaio físico aprovado."
+    },
+    {
+      "caminho": "docs/fixacao-r05/stl/P15.stl",
+      "sha256": "10937f892d513aa96bdfb49e840d4b844221922190ffe996fb3f74bba15f960d",
+      "motivo": "Derivado/backup R05 do estudo CAD com referências cuja redistribuição não foi integralmente autorizada; manter local. Protótipo dimensional; não constitui montagem/ensaio físico aprovado."
+    },
+    {
+      "caminho": "docs/fixacao-r05/stl/P16.stl",
+      "sha256": "64fb4fa0b338a02497f1a08bb3bb38b9a24719c7841732a820c8ddb9499e8217",
+      "motivo": "Derivado/backup R05 do estudo CAD com referências cuja redistribuição não foi integralmente autorizada; manter local. Protótipo dimensional; não constitui montagem/ensaio físico aprovado."
+    },
+    {
+      "caminho": "docs/fixacao-r05/stl/P17.stl",
+      "sha256": "5b756af5cc06fafdb3e50af2f46691ebe9c56dbc1f8f8bb1dd9d93e99e12d8e8",
+      "motivo": "Derivado/backup R05 do estudo CAD com referências cuja redistribuição não foi integralmente autorizada; manter local. Protótipo dimensional; não constitui montagem/ensaio físico aprovado."
+    },
+    {
+      "caminho": "docs/fixacao-r05/stl/P18.stl",
+      "sha256": "2d6c546615f63d6a7fa304058706e78c2ee7a1c17f95e4a52099ec89b14b8ef1",
+      "motivo": "Derivado/backup R05 do estudo CAD com referências cuja redistribuição não foi integralmente autorizada; manter local. Protótipo dimensional; não constitui montagem/ensaio físico aprovado."
+    },
+    {
+      "caminho": "docs/fixacao-r05/stl/P19.stl",
+      "sha256": "c342ea7cedcae4330b1b05a0a95e2f78bc04a3ee772ae4ca47471d030d5b59e3",
+      "motivo": "Derivado/backup R05 do estudo CAD com referências cuja redistribuição não foi integralmente autorizada; manter local. Protótipo dimensional; não constitui montagem/ensaio físico aprovado."
+    },
+    {
+      "caminho": "docs/fixacao-r05/stl/P20.stl",
+      "sha256": "b26a126e5b937f1cbd1fdf06653affbbdc0a9a473ec697c5dbc4f3eb7ecca33a",
+      "motivo": "Derivado/backup R05 do estudo CAD com referências cuja redistribuição não foi integralmente autorizada; manter local. Protótipo dimensional; não constitui montagem/ensaio físico aprovado."
+    },
+    {
+      "caminho": "docs/fixacao-r05/stl/P22.stl",
+      "sha256": "a27ccec6dab25fc3617f2ee94f736725bd7ff87d84fdf221e3c3679ccd9277b2",
+      "motivo": "Derivado/backup R05 do estudo CAD com referências cuja redistribuição não foi integralmente autorizada; manter local. Protótipo dimensional; não constitui montagem/ensaio físico aprovado."
+    },
+    {
+      "caminho": "docs/fixacao-r05/stl/P23.stl",
+      "sha256": "2d4080354c0eca8ae698f23374a462e65b5c24cbcd1cf2c93aa0fb55bcc595df",
+      "motivo": "Derivado/backup R05 do estudo CAD com referências cuja redistribuição não foi integralmente autorizada; manter local. Protótipo dimensional; não constitui montagem/ensaio físico aprovado."
+    },
+    {
+      "caminho": "docs/fixacao-r05/stl/P24.stl",
+      "sha256": "38816dcf7d41503ee118bbc614b61b4e4bbc369ae2f2b4fd83b259d47ed441eb",
+      "motivo": "Derivado/backup R05 do estudo CAD com referências cuja redistribuição não foi integralmente autorizada; manter local. Protótipo dimensional; não constitui montagem/ensaio físico aprovado."
+    },
+    {
+      "caminho": "docs/fixacao-r05/stl/P25.stl",
+      "sha256": "028d1b45d91e14511cfe1268b301d127c863362b5eef0a7ea836315ead09d1a6",
+      "motivo": "Derivado/backup R05 do estudo CAD com referências cuja redistribuição não foi integralmente autorizada; manter local. Protótipo dimensional; não constitui montagem/ensaio físico aprovado."
+    },
+    {
+      "caminho": "docs/fixacao-r05/stl/P26.stl",
+      "sha256": "b56e4cf767ca64d66c4c9ae34a9f99b3fa15cfd7b989a5c5a94f307b448964c8",
+      "motivo": "Derivado/backup R05 do estudo CAD com referências cuja redistribuição não foi integralmente autorizada; manter local. Protótipo dimensional; não constitui montagem/ensaio físico aprovado."
+    },
+    {
+      "caminho": "docs/fixacao-r05/stl/P27.stl",
+      "sha256": "c3be82dbec00c498a3c60d3c566f49eeaea0a27e544764b1107beafdfb14a0aa",
+      "motivo": "Derivado/backup R05 do estudo CAD com referências cuja redistribuição não foi integralmente autorizada; manter local. Protótipo dimensional; não constitui montagem/ensaio físico aprovado."
+    },
+    {
+      "caminho": "docs/fixacao-r05/stl/P28.stl",
+      "sha256": "9811af6ec41134d7b4b9f79c55a8c23af84a87d42ff494aa20c8f4a69ee165f0",
+      "motivo": "Derivado/backup R05 do estudo CAD com referências cuja redistribuição não foi integralmente autorizada; manter local. Protótipo dimensional; não constitui montagem/ensaio físico aprovado."
+    },
+    {
+      "caminho": "docs/fixacao-r05/stl/P29.stl",
+      "sha256": "ec366bd171945a7d598c6753c152bc494be2c766db7c045ca60ebf901448c0dd",
+      "motivo": "Derivado/backup R05 do estudo CAD com referências cuja redistribuição não foi integralmente autorizada; manter local. Protótipo dimensional; não constitui montagem/ensaio físico aprovado."
+    },
+    {
+      "caminho": "docs/fixacao-r05/stl/P30.stl",
+      "sha256": "d04bea0adc1f6825332593445a3b183c4c4c239533c39c4c32e5de99cb3b5fe2",
+      "motivo": "Derivado/backup R05 do estudo CAD com referências cuja redistribuição não foi integralmente autorizada; manter local. Protótipo dimensional; não constitui montagem/ensaio físico aprovado."
+    },
+    {
+      "caminho": "docs/historico/descricao-ros-r05-anterior/previa-rviz.png",
+      "sha256": "bcf9ba7367b2be376e807f7f1c075a8d5f17b345515514afa088615276c7d8da",
+      "motivo": "Entrega/prévia ROS derivada de modelos CAD cuja redistribuição pública não está integralmente autorizada; manter local. Não comprova hardware/sensores reais."
+    },
+    {
+      "caminho": "docs/historico/descricao-ros-r05-anterior/slamderson-robot-description-r05.zip",
+      "sha256": "5acf10a14ce6f4013fd5c2e4401014052441462406843d4815f2b548fece8c6b",
+      "motivo": "Entrega/prévia ROS derivada de modelos CAD cuja redistribuição pública não está integralmente autorizada; manter local. Não comprova hardware/sensores reais."
+    },
+    {
+      "caminho": "docs/descricao-ros/previa-rviz.png",
+      "sha256": "a9013f89f7ebe2633c64e27ab73666b2d99e204e8b4296644d13ef0f2c21b5e6",
+      "motivo": "Derivado local de modelos CAD com licenças/redistribuição pendentes. Não publicar automaticamente."
+    },
+    {
+      "caminho": "docs/descricao-ros/robo-movel-descricao-r05.zip",
+      "sha256": "4bf8eaac7933299f91f4ce54e7a53656a8d0f64a76c24f277f64456c12bdea1e",
+      "motivo": "Derivado local de modelos CAD com licenças/redistribuição pendentes. Não publicar automaticamente."
+    },
+    {
+      "caminho": "docs/simulacao/previa-simulacao.png",
+      "sha256": "554f1aca00408cff875f5daf7f13e2d26c123ace514bfd5941d9ba30f6cebf3f",
+      "motivo": "Captura local de modelos CAD com cadeia de licenças/redistribuição pendente; não publicar automaticamente."
+    },
+    {
+      "caminho": "docs/simulacao/robo-movel-simulacao-odo-imu-teleop.zip",
+      "sha256": "3a086772ed23e9d81abe95d08059f592a6b53fab4dd1818a232a00c55fe3fbba",
+      "motivo": "Recorte privado da simulação com malhas CAD derivadas; licenças de redistribuição pendentes. Sem publicação automática."
+    },
+    {
+      "caminho": "docs/slam/previa-slam.png",
+      "sha256": "9d49aae6b40ad03e17d5a8c70225428396bc25356a8c5c0e435bb3a7e56b03de",
+      "motivo": "Ensaio SLAM local; captura usa malhas CAD com redistribuição pendente. Sem publicação automática."
+    },
+    {
+      "caminho": "docs/slam/mapas/ensaio.posegraph",
+      "sha256": "5fdf7bbc439ee617a804044a0d21c8ce406b8db4c9f5c7982a8fd748874f68a9",
+      "motivo": "Ensaio SLAM local; captura usa malhas CAD com redistribuição pendente. Sem publicação automática."
+    },
+    {
+      "caminho": "docs/slam/mapas/ensaio.data",
+      "sha256": "ccf69c086f9c3d68fdd05c19b494074582b8a44fd0ec1e70650dcbbbb55fbb0a",
+      "motivo": "Ensaio SLAM local; captura usa malhas CAD com redistribuição pendente. Sem publicação automática."
+    },
+    {
+      "caminho": "docs/slam/mapas/ensaio.pgm",
+      "sha256": "0c479e157895e19a0ab7bfe99889cfe3309b39e6787e2a8c5fc27f7ad0342b4f",
+      "motivo": "Ensaio SLAM local; captura usa malhas CAD com redistribuição pendente. Sem publicação automática."
+    },
+    {
+      "caminho": "docs/slam/mapas/ensaio.yaml",
+      "sha256": "0609f4a646a59b31650df5594f68bb107d3f00c4a667ee17d9fa572d67b8f4aa",
+      "motivo": "Ensaio SLAM local; captura usa malhas CAD com redistribuição pendente. Sem publicação automática."
+    },
+    {
+      "caminho": "docs/slam/candidatos/proxy-anterior/robo-movel-slam-localizacao.zip",
+      "sha256": "4c7ba7cedb6e852ff5bbee42820134b68b12701976ce71d648697261cbf7be42",
+      "motivo": "Recorte privado contém malhas CAD com redistribuição pendente; candidatos falhos preservados como histórico, v2 validada. Não publicar automaticamente."
+    },
+    {
+      "caminho": "docs/slam/candidatos/proxy-anterior/robo-movel-slam-localizacao.tar.xz",
+      "sha256": "046dc2af1d48087b523f7bb2d93a7fca337ea1e7838f1f0dbdd246468f2bdfc7",
+      "motivo": "Recorte privado contém malhas CAD com redistribuição pendente; candidatos falhos preservados como histórico, v2 validada. Não publicar automaticamente."
+    },
+    {
+      "caminho": "docs/slam/robo-movel-slam-localizacao-v2.zip",
+      "sha256": "48496bda66f928b7bbf5cf48537f63690e48b3159ee38f439495e595ac83d8b4",
+      "motivo": "Recorte privado contém malhas CAD com redistribuição pendente; candidatos falhos preservados como histórico, v2 validada. Não publicar automaticamente."
+    },
+    {
+      "caminho": "docs/slam/robo-movel-slam-localizacao-v2.tar.xz",
+      "sha256": "a40c1007cc516a1ef0ab4ed6b71aa4fcf6f07d502d78368b7d50171412ef38a3",
+      "motivo": "Recorte privado contém malhas CAD com redistribuição pendente; candidatos falhos preservados como histórico, v2 validada. Não publicar automaticamente."
+    },
+    {
+      "caminho": "docs/navegacao/previa-navegacao.png",
+      "sha256": "7f9eebc8f4c689167fa2bced9f5603622c62ad3340e290b223de9f0fea2d0dd7",
+      "motivo": "Captura RViz derivada das malhas CAD R05 com procedência/licença pública pendente; uso local/privado, sem publicação automática."
+    },
+    {
+      "caminho": "docs/navegacao/robo-movel-nav2-atualizacao-v1.zip",
+      "sha256": "a8450010dc3cc1b7de158f61768087ed4a21195c790919048f363c51a55fb9a6",
+      "motivo": "Atualização privada Nav2 com captura derivada de CAD licenciado sob auditoria pendente; não publicar automaticamente. Requer workspace anterior."
     }
   ]
 }

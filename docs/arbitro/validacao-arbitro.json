@@ -1,0 +1,65 @@
+{
+  "status": "VALIDADO_EM_ROS_JAZZY_ISOLADO",
+  "pacote": "src/navegacao/arbitro",
+  "testes_pacote": 32,
+  "testes_workspace_sem_wrapper_ctest": 393,
+  "por_pacote": {
+    "arbitro": 32,
+    "comando_rodas": 14,
+    "fusao_sensores": 2,
+    "lidar_simulado": 86,
+    "mapeamento_slam": 61,
+    "navegacao_simulada": 6,
+    "odometria_rodas": 54,
+    "processamento_imu": 53,
+    "robo_movel": 18,
+    "simulador_base": 65,
+    "teleoperacao": 2
+  },
+  "fluxo": {
+    "manual_e_autonomo_exclusivos": true,
+    "sem_ultima_mensagem_vence": true,
+    "sem_fallback_implicito": true,
+    "troca_neutra": true,
+    "parada_travada": true,
+    "expiracao": true,
+    "replay_nao_renova": true,
+    "nan_rejeitado": true,
+    "carimbo_inteiro_preservado": true,
+    "watchdog_com_clock_pausado": true,
+    "base_se_move_com_saida_arbitrada": true,
+    "teclado_real_remapeado": true,
+    "status": "OK",
+    "encerramento_limpo": true,
+    "limite": "Comandos autônomos são entradas sintéticas de teste; nenhum Nav2 ou hardware."
+  },
+  "reinicio": {
+    "reinicio_completo_manual": true,
+    "movimento_manual": true,
+    "status": "OK",
+    "encerramento_limpo": true,
+    "limite": "Comandos autônomos são entradas sintéticas de teste; nenhum Nav2 ou hardware."
+  },
+  "runtime": "/home/lamggm/.hermes/cache/scratch/arbitro-1568306085700309073/runtime-v02-final",
+  "codigo_sha256": {
+    "src/navegacao/arbitro/setup.cfg": "fea777c90a5e1d6be1bed2703684c9a4d0446f6e912ee7a24cae61dab61f4a6b",
+    "src/navegacao/arbitro/package.xml": "54658dc0c773b16e35474d100f27404629cd9ae644b750ab66d7fea36ec70382",
+    "src/navegacao/arbitro/setup.py": "9dee7fcfa64424d0900674448bf67057fe8ca4827080216d3410fe7b94bfca2d",
+    "src/navegacao/arbitro/arbitro/__init__.py": "cbcc385531ec75e57d7d9dad1bc635e060f12aa108afb27e4721ef3ac857c2ec",
+    "src/navegacao/arbitro/arbitro/contrato.py": "a86f83c80925f0ded9c96b02008d45f4076f54f0ea497d19469625bd74af0d3b",
+    "src/navegacao/arbitro/arbitro/no.py": "de06327506c2a269791a186440ca82a74eec24203f30f3092d9caa187094cedc",
+    "src/navegacao/arbitro/arbitro/modelo.py": "923ee58f09e177ae956de01decca01cefe2e4467e799847737d467ae32d19b2c",
+    "src/navegacao/arbitro/testes/teste_contrato.py": "d80ddc529f00767bfbc2189b2400ac1c4620b911c9fb3eb4a98cbe2edd6524e6",
+    "src/navegacao/arbitro/testes/teste_pacote.py": "78e1d48127f4b098f83cf0ca69482262fdf2888f64939d85bc83acb52941c3cb",
+    "src/navegacao/arbitro/testes/teste_ros.py": "2f5b731a63c619e2d84e091f7e3b4372c210c4bd414f704861834eb25f96f85d",
+    "src/navegacao/arbitro/testes/teste_modelo.py": "42ee918ff81f02bebbe1b05abbacf40166cd2e182aec16e1e3abddf3fc790f07",
+    "src/navegacao/arbitro/recursos/arbitro": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "src/navegacao/arbitro/inicializacao/arbitro.launch.py": "d39581879822871dabac3e5d1e722936aa231cf2b4f19bd5b470b340e2ae225a",
+    "src/navegacao/arbitro/inicializacao/simulacao_arbitrada.launch.py": "609d3afcb9a760d3cc2f22352de4c34d011a4a3590236b92e6489511a4418f4e"
+  },
+  "limites": [
+    "Não implementa Nav2 ou cancelamento de ações.",
+    "Não é autenticação ROS ou parada elétrica certificada.",
+    "Fluxos legados intactos; composição arbitrada é explícita."
+  ]
+}

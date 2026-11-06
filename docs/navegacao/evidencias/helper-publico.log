@@ -1,0 +1,333 @@
+[0.2s] [0/0 complete]                     Starting >>> comando_rodas
+]0;colcon build [0/12 done] [1 ongoing][0.3s] [0/12 complete] [comando_rodas - 0.1s]                                             [0.4s] [0/12 complete] [comando_rodas - 0.2s]                                             [0.5s] [0/12 complete] [comando_rodas - 0.3s]                                             [0.6s] [0/12 complete] [comando_rodas - 0.4s]                                             [0.7s] [0/12 complete] [comando_rodas - 0.5s]                                             [0.8s] [0/12 complete] [comando_rodas - 0.6s]                                             [0.9s] [0/12 complete] [comando_rodas - 0.7s]                                             [1.0s] [0/12 complete] [comando_rodas - 0.8s]                                             [1.1s] [0/12 complete] [comando_rodas - 0.9s]                                             [1.2s] [0/12 complete] [comando_rodas - 1.0s]                                             [1.3s] [0/12 complete] [comando_rodas - 1.1s]                                             [1.4s] [0/12 complete] [comando_rodas - 1.2s]                                             [1.5s] [0/12 complete] [comando_rodas - 1.3s]                                             Finished <<< comando_rodas [1.35s]
+]0;colcon build [1/12 done] [0 ongoing]Starting >>> fusao_sensores
+]0;colcon build [1/12 done] [1 ongoing][1.6s] [1/12 complete] [fusao_sensores - 0.1s]                                              [1.7s] [1/12 complete] [fusao_sensores - 0.2s]                                              [1.8s] [1/12 complete] [fusao_sensores - 0.3s]                                              [1.9s] [1/12 complete] [fusao_sensores - 0.4s]                                              [2.0s] [1/12 complete] [fusao_sensores - 0.5s]                                              [2.1s] [1/12 complete] [fusao_sensores - 0.6s]                                              [2.2s] [1/12 complete] [fusao_sensores - 0.7s]                                              [2.3s] [1/12 complete] [fusao_sensores - 0.8s]                                              [2.4s] [1/12 complete] [fusao_sensores - 0.9s]                                              [2.5s] [1/12 complete] [fusao_sensores - 1.0s]                                              [2.6s] [1/12 complete] [fusao_sensores - 1.1s]                                              [2.7s] [1/12 complete] [fusao_sensores - 1.2s]                                              [2.8s] [1/12 complete] [fusao_sensores - 1.3s]                                              Finished <<< fusao_sensores [1.32s]
+]0;colcon build [2/12 done] [0 ongoing]Starting >>> lidar_simulado
+]0;colcon build [2/12 done] [1 ongoing][2.9s] [2/12 complete] [lidar_simulado - 0.0s]                                              [3.0s] [2/12 complete] [lidar_simulado - 0.1s]                                              [3.1s] [2/12 complete] [lidar_simulado - 0.2s]                                              [3.2s] [2/12 complete] [lidar_simulado - 0.3s]                                              [3.3s] [2/12 complete] [lidar_simulado - 0.4s]                                              [3.4s] [2/12 complete] [lidar_simulado - 0.5s]                                              [3.5s] [2/12 complete] [lidar_simulado - 0.6s]                                              [3.6s] [2/12 complete] [lidar_simulado - 0.7s]                                              [3.7s] [2/12 complete] [lidar_simulado - 0.8s]                                              [3.8s] [2/12 complete] [lidar_simulado - 0.9s]                                              [3.9s] [2/12 complete] [lidar_simulado - 1.0s]                                              [4.0s] [2/12 complete] [lidar_simulado - 1.1s]                                              [4.1s] [2/12 complete] [lidar_simulado - 1.2s]                                              Finished <<< lidar_simulado [1.29s]
+]0;colcon build [3/12 done] [0 ongoing]Starting >>> processamento_imu
+]0;colcon build [3/12 done] [1 ongoing][4.2s] [3/12 complete] [processamento_imu - 0.0s]                                                 [4.3s] [3/12 complete] [processamento_imu - 0.1s]                                                 [4.4s] [3/12 complete] [processamento_imu - 0.2s]                                                 [4.5s] [3/12 complete] [processamento_imu - 0.3s]                                                 [4.6s] [3/12 complete] [processamento_imu - 0.4s]                                                 [4.7s] [3/12 complete] [processamento_imu - 0.5s]                                                 [4.8s] [3/12 complete] [processamento_imu - 0.6s]                                                 [4.9s] [3/12 complete] [processamento_imu - 0.7s]                                                 [5.0s] [3/12 complete] [processamento_imu - 0.8s]                                                 [5.1s] [3/12 complete] [processamento_imu - 0.9s]                                                 [5.2s] [3/12 complete] [processamento_imu - 1.0s]                                                 [5.3s] [3/12 complete] [processamento_imu - 1.1s]                                                 [5.4s] [3/12 complete] [processamento_imu - 1.2s]                                                 Finished <<< processamento_imu [1.30s]
+]0;colcon build [4/12 done] [0 ongoing]Starting >>> robo_movel
+]0;colcon build [4/12 done] [1 ongoing][5.5s] [4/12 complete] [robo_movel - 0.0s]                                          [5.6s] [4/12 complete] [robo_movel - 0.1s]                                          [5.7s] [4/12 complete] [robo_movel - 0.2s]                                          [5.8s] [4/12 complete] [robo_movel - 0.3s]                                          [5.9s] [4/12 complete] [robo_movel - 0.4s]                                          [6.0s] [4/12 complete] [robo_movel - 0.5s]                                          [6.1s] [4/12 complete] [robo_movel - 0.6s]                                          [6.2s] [4/12 complete] [robo_movel - 0.7s]                                          [6.3s] [4/12 complete] [robo_movel - 0.8s]                                          [6.4s] [4/12 complete] [robo_movel - 0.9s]                                          [6.5s] [4/12 complete] [robo_movel - 1.0s]                                          [6.6s] [4/12 complete] [robo_movel - 1.1s]                                          [6.7s] [4/12 complete] [robo_movel - 1.2s]                                          Finished <<< robo_movel [1.29s]
+]0;colcon build [5/12 done] [0 ongoing]Starting >>> simulador_base
+]0;colcon build [5/12 done] [1 ongoing][6.8s] [5/12 complete] [simulador_base:build - 0.1s]                                                    [6.9s] [5/12 complete] [simulador_base:build 48% - 0.2s]                                                        [7.0s] [5/12 complete] [simulador_base:build 82% - 0.3s]                                                        [7.1s] [5/12 complete] [simulador_base:build 100% - 0.4s]                                                         [7.2s] [5/12 complete] [simulador_base:build 100% - 0.5s]                                                         [7.3s] [5/12 complete] [simulador_base:install - 0.6s]                                                      Finished <<< simulador_base [0.61s]
+]0;colcon build [6/12 done] [0 ongoing]Starting >>> teleoperacao
+]0;colcon build [6/12 done] [1 ongoing][7.4s] [6/12 complete] [teleoperacao - 0.0s]                                            [7.5s] [6/12 complete] [teleoperacao - 0.1s]                                            [7.6s] [6/12 complete] [teleoperacao - 0.2s]                                            [7.7s] [6/12 complete] [teleoperacao - 0.3s]                                            [7.8s] [6/12 complete] [teleoperacao - 0.4s]                                            [7.9s] [6/12 complete] [teleoperacao - 0.5s]                                            [8.0s] [6/12 complete] [teleoperacao - 0.6s]                                            [8.1s] [6/12 complete] [teleoperacao - 0.7s]                                            [8.2s] [6/12 complete] [teleoperacao - 0.8s]                                            [8.3s] [6/12 complete] [teleoperacao - 0.9s]                                            [8.4s] [6/12 complete] [teleoperacao - 1.0s]                                            [8.5s] [6/12 complete] [teleoperacao - 1.1s]                                            [8.6s] [6/12 complete] [teleoperacao - 1.2s]                                            Finished <<< teleoperacao [1.31s]
+]0;colcon build [7/12 done] [0 ongoing]Starting >>> odometria_rodas
+]0;colcon build [7/12 done] [1 ongoing][8.7s] [7/12 complete] [odometria_rodas - 0.0s]                                               [8.8s] [7/12 complete] [odometria_rodas - 0.1s]                                               [8.9s] [7/12 complete] [odometria_rodas - 0.2s]                                               [9.0s] [7/12 complete] [odometria_rodas - 0.3s]                                               [9.1s] [7/12 complete] [odometria_rodas - 0.4s]                                               [9.2s] [7/12 complete] [odometria_rodas - 0.5s]                                               [9.3s] [7/12 complete] [odometria_rodas - 0.6s]                                               [9.4s] [7/12 complete] [odometria_rodas - 0.7s]                                               [9.5s] [7/12 complete] [odometria_rodas - 0.8s]                                               [9.6s] [7/12 complete] [odometria_rodas - 0.9s]                                               [9.7s] [7/12 complete] [odometria_rodas - 1.0s]                                               [9.8s] [7/12 complete] [odometria_rodas - 1.1s]                                               [9.9s] [7/12 complete] [odometria_rodas - 1.2s]                                               [10.0s] [7/12 complete] [odometria_rodas - 1.3s]                                                Finished <<< odometria_rodas [1.35s]
+]0;colcon build [8/12 done] [0 ongoing]Starting >>> navegacao_simulada
+]0;colcon build [8/12 done] [1 ongoing][10.1s] [8/12 complete] [navegacao_simulada - 0.1s]                                                   [10.2s] [8/12 complete] [navegacao_simulada - 0.2s]                                                   [10.3s] [8/12 complete] [navegacao_simulada - 0.3s]                                                   [10.4s] [8/12 complete] [navegacao_simulada - 0.4s]                                                   [10.5s] [8/12 complete] [navegacao_simulada - 0.5s]                                                   [10.6s] [8/12 complete] [navegacao_simulada - 0.6s]                                                   [10.7s] [8/12 complete] [navegacao_simulada - 0.7s]                                                   [10.8s] [8/12 complete] [navegacao_simulada - 0.8s]                                                   [10.9s] [8/12 complete] [navegacao_simulada - 0.9s]                                                   [11.0s] [8/12 complete] [navegacao_simulada - 1.0s]                                                   [11.1s] [8/12 complete] [navegacao_simulada - 1.1s]                                                   [11.2s] [8/12 complete] [navegacao_simulada - 1.2s]                                                   [11.3s] [8/12 complete] [navegacao_simulada - 1.3s]                                                   Finished <<< navegacao_simulada [1.39s]
+]0;colcon build [9/12 done] [0 ongoing]Starting >>> arbitro
+]0;colcon build [9/12 done] [1 ongoing][11.4s] [9/12 complete] [arbitro - 0.0s]                                        [11.5s] [9/12 complete] [arbitro - 0.1s]                                        [11.6s] [9/12 complete] [arbitro - 0.2s]                                        [11.7s] [9/12 complete] [arbitro - 0.3s]                                        [11.8s] [9/12 complete] [arbitro - 0.4s]                                        [11.9s] [9/12 complete] [arbitro - 0.5s]                                        [12.0s] [9/12 complete] [arbitro - 0.6s]                                        [12.1s] [9/12 complete] [arbitro - 0.7s]                                        [12.2s] [9/12 complete] [arbitro - 0.8s]                                        [12.3s] [9/12 complete] [arbitro - 0.9s]                                        [12.4s] [9/12 complete] [arbitro - 1.0s]                                        [12.5s] [9/12 complete] [arbitro - 1.1s]                                        [12.6s] [9/12 complete] [arbitro - 1.2s]                                        [12.7s] [9/12 complete] [arbitro - 1.3s]                                        Finished <<< arbitro [1.36s]
+]0;colcon build [10/12 done] [0 ongoing]Starting >>> mapeamento_slam
+]0;colcon build [10/12 done] [1 ongoing][12.8s] [10/12 complete] [mapeamento_slam - 0.1s]                                                 [12.9s] [10/12 complete] [mapeamento_slam - 0.2s]                                                 [13.0s] [10/12 complete] [mapeamento_slam - 0.3s]                                                 [13.1s] [10/12 complete] [mapeamento_slam - 0.4s]                                                 [13.2s] [10/12 complete] [mapeamento_slam - 0.5s]                                                 [13.3s] [10/12 complete] [mapeamento_slam - 0.6s]                                                 [13.4s] [10/12 complete] [mapeamento_slam - 0.7s]                                                 [13.5s] [10/12 complete] [mapeamento_slam - 0.8s]                                                 [13.6s] [10/12 complete] [mapeamento_slam - 0.9s]                                                 [13.7s] [10/12 complete] [mapeamento_slam - 1.0s]                                                 [13.8s] [10/12 complete] [mapeamento_slam - 1.1s]                                                 [13.9s] [10/12 complete] [mapeamento_slam - 1.2s]                                                 [14.0s] [10/12 complete] [mapeamento_slam - 1.3s]                                                 [14.1s] [10/12 complete] [mapeamento_slam - 1.4s]                                                 Finished <<< mapeamento_slam [1.37s]
+]0;colcon build [11/12 done] [0 ongoing]Starting >>> navegacao_autonoma
+]0;colcon build [11/12 done] [1 ongoing][14.2s] [11/12 complete] [navegacao_autonoma - 0.1s]                                                    [14.3s] [11/12 complete] [navegacao_autonoma - 0.2s]                                                    [14.4s] [11/12 complete] [navegacao_autonoma - 0.3s]                                                    [14.5s] [11/12 complete] [navegacao_autonoma - 0.4s]                                                    [14.6s] [11/12 complete] [navegacao_autonoma - 0.5s]                                                    [14.7s] [11/12 complete] [navegacao_autonoma - 0.6s]                                                    [14.8s] [11/12 complete] [navegacao_autonoma - 0.7s]                                                    [14.9s] [11/12 complete] [navegacao_autonoma - 0.8s]                                                    [15.0s] [11/12 complete] [navegacao_autonoma - 0.9s]                                                    [15.1s] [11/12 complete] [navegacao_autonoma - 1.0s]                                                    [15.2s] [11/12 complete] [navegacao_autonoma - 1.1s]                                                    [15.3s] [11/12 complete] [navegacao_autonoma - 1.2s]                                                    [15.4s] [11/12 complete] [navegacao_autonoma - 1.3s]                                                    [15.5s] [11/12 complete] [navegacao_autonoma - 1.4s]                                                    Finished <<< navegacao_autonoma [1.40s]
+]0;colcon build [12/12 done] [0 ongoing]
+Summary: 12 packages finished [15.5s]
+[INFO] [launch]: All log files can be found below /work/.ros/log/2026-11-06-19-25-39-932029-ce82c8272cc3-397
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [robot_state_publisher-1]: process started with pid [402]
+[INFO] [simular-2]: process started with pid [403]
+[INFO] [converter_velocidade-3]: process started with pid [404]
+[INFO] [calcular_odometria-4]: process started with pid [405]
+[INFO] [tratar_imu-5]: process started with pid [406]
+[INFO] [ekf_node-6]: process started with pid [407]
+[INFO] [trajetorias-7]: process started with pid [408]
+[INFO] [simular_lidar-8]: process started with pid [409]
+[INFO] [async_slam_toolbox_node-9]: process started with pid [410]
+[INFO] [map_saver_server-10]: process started with pid [411]
+[INFO] [lifecycle_manager-11]: process started with pid [412]
+[INFO] [planner_server-12]: process started with pid [413]
+[INFO] [controller_server-13]: process started with pid [414]
+[INFO] [behavior_server-14]: process started with pid [417]
+[INFO] [bt_navigator-15]: process started with pid [418]
+[INFO] [lifecycle_manager-16]: process started with pid [419]
+[INFO] [arbitrar-17]: process started with pid [420]
+[INFO] [proteger-18]: process started with pid [421]
+[INFO] [inicializar-19]: process started with pid [422]
+[INFO] [static_transform_publisher-20]: process started with pid [423]
+[INFO] [static_transform_publisher-21]: process started with pid [424]
+[ekf_node-6] [INFO] [1793993140.179049128] [estimador_local]: Waiting for clock to start...
+[robot_state_publisher-1] [INFO] [1793993140.180509672] [robot_state_publisher]: Robot initialized
+[async_slam_toolbox_node-9] [INFO] [1793993140.181641360] [slam_toolbox]: Node using stack size 40000000
+[lifecycle_manager-11] [INFO] [1793993140.192038545] [lifecycle_slam_navegacao]: Creating
+[controller_server-13] [INFO] [1793993140.200444179] [controller_server]: 
+[controller_server-13] 	controller_server lifecycle node launched. 
+[controller_server-13] 	Waiting on external lifecycle transitions to activate
+[controller_server-13] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[lifecycle_manager-11] [INFO] [1793993140.200517313] [lifecycle_slam_navegacao]: [34m[1mCreating and initializing lifecycle service clients[0m[0m
+[static_transform_publisher-21] [INFO] [1793993140.202008797] [origem_cenario_slam]: Spinning until stopped - publishing transform
+[static_transform_publisher-21] translation: ('0.000000', '0.000000', '0.000000')
+[static_transform_publisher-21] rotation: ('0.000000', '0.000000', '0.000000', '1.000000')
+[static_transform_publisher-21] from 'simulacao_mundo' to 'map'
+[static_transform_publisher-20] [INFO] [1793993140.204691987] [laser_virtual]: Spinning until stopped - publishing transform
+[static_transform_publisher-20] translation: ('0.000000', '0.000000', '0.000000')
+[static_transform_publisher-20] rotation: ('0.000000', '0.000000', '0.000000', '1.000000')
+[static_transform_publisher-20] from 'lidar_mount_link' to 'laser_simulado'
+[behavior_server-14] [INFO] [1793993140.277430341] [behavior_server]: 
+[behavior_server-14] 	behavior_server lifecycle node launched. 
+[behavior_server-14] 	Waiting on external lifecycle transitions to activate
+[behavior_server-14] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[controller_server-13] [INFO] [1793993140.281956140] [controller_server]: Creating controller server
+[lifecycle_manager-16] [INFO] [1793993140.284069496] [lifecycle_navegacao]: Creating
+[planner_server-12] [INFO] [1793993140.284175835] [planner_server]: 
+[planner_server-12] 	planner_server lifecycle node launched. 
+[planner_server-12] 	Waiting on external lifecycle transitions to activate
+[planner_server-12] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[planner_server-12] [INFO] [1793993140.285958657] [planner_server]: Creating
+[lifecycle_manager-16] [INFO] [1793993140.290388098] [lifecycle_navegacao]: [34m[1mCreating and initializing lifecycle service clients[0m[0m
+[map_saver_server-10] [INFO] [1793993140.296414983] [salvador_mapa]: 
+[map_saver_server-10] 	salvador_mapa lifecycle node launched. 
+[map_saver_server-10] 	Waiting on external lifecycle transitions to activate
+[map_saver_server-10] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[map_saver_server-10] [INFO] [1793993140.296563720] [salvador_mapa]: Creating
+[bt_navigator-15] [INFO] [1793993140.299131254] [bt_navigator]: 
+[bt_navigator-15] 	bt_navigator lifecycle node launched. 
+[bt_navigator-15] 	Waiting on external lifecycle transitions to activate
+[bt_navigator-15] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[bt_navigator-15] [INFO] [1793993140.301197975] [bt_navigator]: Creating
+[planner_server-12] [INFO] [1793993140.301271085] [global_costmap.global_costmap]: 
+[planner_server-12] 	global_costmap lifecycle node launched. 
+[planner_server-12] 	Waiting on external lifecycle transitions to activate
+[planner_server-12] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[planner_server-12] [INFO] [1793993140.302052804] [global_costmap.global_costmap]: Creating Costmap
+[controller_server-13] [INFO] [1793993140.305099151] [local_costmap.local_costmap]: 
+[controller_server-13] 	local_costmap lifecycle node launched. 
+[controller_server-13] 	Waiting on external lifecycle transitions to activate
+[controller_server-13] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[controller_server-13] [INFO] [1793993140.305650997] [local_costmap.local_costmap]: Creating Costmap
+[lifecycle_manager-11] [INFO] [1793993140.400597115] [lifecycle_slam_navegacao]: [34m[1mStarting managed nodes bringup...[0m[0m
+[lifecycle_manager-11] [INFO] [1793993140.400660114] [lifecycle_slam_navegacao]: [34m[1mConfiguring slam_toolbox[0m[0m
+[async_slam_toolbox_node-9] [INFO] [1793993140.400985816] [slam_toolbox]: Configuring
+[async_slam_toolbox_node-9] [INFO] [1793993140.411018779] [slam_toolbox]: Using solver plugin solver_plugins::CeresSolver
+[lifecycle_manager-11] [INFO] [1793993140.486016227] [lifecycle_slam_navegacao]: [34m[1mConfiguring salvador_mapa[0m[0m
+[map_saver_server-10] [INFO] [1793993140.486309388] [salvador_mapa]: Configuring
+[lifecycle_manager-11] [INFO] [1793993140.492290164] [lifecycle_slam_navegacao]: [34m[1mActivating slam_toolbox[0m[0m
+[async_slam_toolbox_node-9] [INFO] [1793993140.492460025] [slam_toolbox]: Activating
+[async_slam_toolbox_node-9] [INFO] [1793993140.499263945] [slam_toolbox]: Creating bond (slam_toolbox) to lifecycle manager.
+[lifecycle_manager-11] [INFO] [1793993140.603292677] [lifecycle_slam_navegacao]: Server slam_toolbox connected with bond.
+[lifecycle_manager-11] [INFO] [1793993140.603335475] [lifecycle_slam_navegacao]: [34m[1mActivating salvador_mapa[0m[0m
+[map_saver_server-10] [INFO] [1793993140.603586177] [salvador_mapa]: Activating
+[map_saver_server-10] [INFO] [1793993140.603623573] [salvador_mapa]: Creating bond (salvador_mapa) to lifecycle manager.
+[lifecycle_manager-11] [INFO] [1793993140.708794309] [lifecycle_slam_navegacao]: Server salvador_mapa connected with bond.
+[lifecycle_manager-11] [INFO] [1793993140.708838805] [lifecycle_slam_navegacao]: [34m[1mManaged nodes are active[0m[0m
+[lifecycle_manager-11] [INFO] [1793993140.708851272] [lifecycle_slam_navegacao]: [34m[1mCreating bond timer...[0m[0m
+[simular-2] [WARN] [1793993140.895134533] [simulador_base]: SIMULAÇÃO VIRTUAL: defaults geométricos de referência CAD, não calibração física; o launch pode fornecer raio_roda e distancia_rodas. 720 pulsos/volta é resolução virtual, não medida. Contagens signed não certificam direção do encoder real de canal único. IMU planar idealizada, nivelada e alinhada ao corpo, sem braço de alavanca. /simulacao/referencia é ground truth para avaliação, nunca entrada do estimador.
+[simular_lidar-8] [WARN] [1793993140.989430944] [lidar_simulado]: LiDAR GEOMÉTRICO VIRTUAL: alinhamento fixo do modelo, não calibração do C1; sem física de colisão, medição global de pose ou mapa perfeito publicado.
+[async_slam_toolbox_node-9] Info: clipped range threshold to be within minimum and maximum range!
+[async_slam_toolbox_node-9] Registering sensor: [Custom Described Lidar]
+[lifecycle_manager-16] [INFO] [1793993144.502025037] [lifecycle_navegacao]: [34m[1mStarting managed nodes bringup...[0m[0m
+[lifecycle_manager-16] [INFO] [1793993144.502076532] [lifecycle_navegacao]: [34m[1mConfiguring controller_server[0m[0m
+[controller_server-13] [INFO] [1793993144.502512182] [controller_server]: Configuring controller interface
+[controller_server-13] [INFO] [1793993144.502538103] [controller_server]: getting progress checker plugins..
+[controller_server-13] [INFO] [1793993144.502706333] [controller_server]: getting goal checker plugins..
+[controller_server-13] [INFO] [1793993144.502911545] [controller_server]: Controller frequency set to 10.0000Hz
+[controller_server-13] [INFO] [1793993144.502960203] [local_costmap.local_costmap]: Configuring
+[controller_server-13] [INFO] [1793993144.511331848] [local_costmap.local_costmap]: Using plugin "obstacle_layer"
+[controller_server-13] [INFO] [1793993144.515949203] [local_costmap.local_costmap]: Subscribed to Topics: laser
+[controller_server-13] [INFO] [1793993144.519513441] [local_costmap.local_costmap]: Initialized plugin "obstacle_layer"
+[controller_server-13] [INFO] [1793993144.519533656] [local_costmap.local_costmap]: Using plugin "inflation_layer"
+[controller_server-13] [INFO] [1793993144.520007021] [local_costmap.local_costmap]: Initialized plugin "inflation_layer"
+[controller_server-13] [INFO] [1793993144.541612463] [controller_server]: Created progress_checker : progress_checker of type nav2_controller::SimpleProgressChecker
+[controller_server-13] [INFO] [1793993144.541842092] [controller_server]: Controller Server has progress_checker  progress checkers available.
+[controller_server-13] [INFO] [1793993144.542274815] [controller_server]: Created goal checker : goal_checker of type nav2_controller::SimpleGoalChecker
+[controller_server-13] [INFO] [1793993144.542631093] [controller_server]: Controller Server has goal_checker  goal checkers available.
+[controller_server-13] [INFO] [1793993144.543753901] [controller_server]: Created controller : FollowPath of type nav2_regulated_pure_pursuit_controller::RegulatedPurePursuitController
+[controller_server-13] [INFO] [1793993144.548881785] [controller_server]: Controller Server has FollowPath  controllers available.
+[lifecycle_manager-16] [INFO] [1793993144.556487190] [lifecycle_navegacao]: [34m[1mConfiguring planner_server[0m[0m
+[planner_server-12] [INFO] [1793993144.556767900] [planner_server]: Configuring
+[planner_server-12] [INFO] [1793993144.556804601] [global_costmap.global_costmap]: Configuring
+[planner_server-12] [INFO] [1793993144.564846849] [global_costmap.global_costmap]: Using plugin "static_layer"
+[planner_server-12] [INFO] [1793993144.569698210] [global_costmap.global_costmap]: Subscribing to the map topic (/map) with transient local durability
+[planner_server-12] [INFO] [1793993144.571624789] [global_costmap.global_costmap]: Subscribing to updates
+[planner_server-12] [INFO] [1793993144.574236543] [global_costmap.global_costmap]: Initialized plugin "static_layer"
+[planner_server-12] [INFO] [1793993144.574255970] [global_costmap.global_costmap]: Using plugin "obstacle_layer"
+[planner_server-12] [INFO] [1793993144.574724111] [global_costmap.global_costmap]: Subscribed to Topics: laser
+[planner_server-12] [INFO] [1793993144.577277083] [global_costmap.global_costmap]: Initialized plugin "obstacle_layer"
+[planner_server-12] [INFO] [1793993144.577312530] [global_costmap.global_costmap]: Using plugin "inflation_layer"
+[planner_server-12] [INFO] [1793993144.577761074] [global_costmap.global_costmap]: Initialized plugin "inflation_layer"
+[planner_server-12] [INFO] [1793993144.598210554] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 120 X 100 at 0.050000 m/pix
+[planner_server-12] [INFO] [1793993144.598784870] [planner_server]: Created global planner plugin GridBased of type nav2_navfn_planner::NavfnPlanner
+[planner_server-12] [INFO] [1793993144.598828585] [planner_server]: Configuring plugin GridBased of type NavfnPlanner
+[planner_server-12] [INFO] [1793993144.599314428] [planner_server]: Planner Server has GridBased  planners available.
+[lifecycle_manager-16] [INFO] [1793993144.609333000] [lifecycle_navegacao]: [34m[1mConfiguring behavior_server[0m[0m
+[behavior_server-14] [INFO] [1793993144.609646139] [behavior_server]: Configuring
+[behavior_server-14] [INFO] [1793993144.616231774] [behavior_server]: Creating behavior plugin spin of type nav2_behaviors::Spin
+[behavior_server-14] [INFO] [1793993144.617934473] [behavior_server]: Creating behavior plugin wait of type nav2_behaviors::Wait
+[behavior_server-14] [INFO] [1793993144.632934154] [behavior_server]: Configuring spin
+[behavior_server-14] [INFO] [1793993144.640533836] [behavior_server]: Configuring wait
+[lifecycle_manager-16] [INFO] [1793993144.646323606] [lifecycle_navegacao]: [34m[1mConfiguring bt_navigator[0m[0m
+[bt_navigator-15] [INFO] [1793993144.646580957] [bt_navigator]: Configuring
+[bt_navigator-15] [INFO] [1793993144.653259868] [bt_navigator]: Creating navigator id navigate_to_pose of type nav2_bt_navigator::NavigateToPoseNavigator
+[lifecycle_manager-16] [INFO] [1793993144.733719722] [lifecycle_navegacao]: [34m[1mActivating controller_server[0m[0m
+[controller_server-13] [INFO] [1793993144.733900961] [controller_server]: Activating
+[controller_server-13] [INFO] [1793993144.733943516] [local_costmap.local_costmap]: Activating
+[controller_server-13] [INFO] [1793993144.733958657] [local_costmap.local_costmap]: Checking transform
+[controller_server-13] [INFO] [1793993144.734102294] [local_costmap.local_costmap]: start
+[controller_server-13] [INFO] [1793993144.835065770] [controller_server]: Activating controller: FollowPath of type regulated_pure_pursuit_controller::RegulatedPurePursuitController
+[controller_server-13] [INFO] [1793993144.835106093] [controller_server]: Creating bond (controller_server) to lifecycle manager.
+[lifecycle_manager-16] [INFO] [1793993144.940351899] [lifecycle_navegacao]: Server controller_server connected with bond.
+[lifecycle_manager-16] [INFO] [1793993144.940389783] [lifecycle_navegacao]: [34m[1mActivating planner_server[0m[0m
+[planner_server-12] [INFO] [1793993144.940661494] [planner_server]: Activating
+[planner_server-12] [INFO] [1793993144.940699916] [global_costmap.global_costmap]: Activating
+[planner_server-12] [INFO] [1793993144.940710462] [global_costmap.global_costmap]: Checking transform
+[planner_server-12] [INFO] [1793993144.940830862] [global_costmap.global_costmap]: start
+[planner_server-12] [INFO] [1793993145.441947570] [planner_server]: Activating plugin GridBased of type NavfnPlanner
+[planner_server-12] [INFO] [1793993145.443848810] [planner_server]: Creating bond (planner_server) to lifecycle manager.
+[lifecycle_manager-16] [INFO] [1793993145.549036997] [lifecycle_navegacao]: Server planner_server connected with bond.
+[lifecycle_manager-16] [INFO] [1793993145.549074011] [lifecycle_navegacao]: [34m[1mActivating behavior_server[0m[0m
+[behavior_server-14] [INFO] [1793993145.549352623] [behavior_server]: Activating
+[behavior_server-14] [INFO] [1793993145.549378110] [behavior_server]: Activating spin
+[behavior_server-14] [INFO] [1793993145.549390596] [behavior_server]: Activating wait
+[behavior_server-14] [INFO] [1793993145.549403441] [behavior_server]: Creating bond (behavior_server) to lifecycle manager.
+[lifecycle_manager-16] [INFO] [1793993145.654588398] [lifecycle_navegacao]: Server behavior_server connected with bond.
+[lifecycle_manager-16] [INFO] [1793993145.654624071] [lifecycle_navegacao]: [34m[1mActivating bt_navigator[0m[0m
+[bt_navigator-15] [INFO] [1793993145.654851856] [bt_navigator]: Activating
+[bt_navigator-15] [INFO] [1793993145.677974275] [bt_navigator]: Creating bond (bt_navigator) to lifecycle manager.
+[lifecycle_manager-16] [INFO] [1793993145.782531136] [lifecycle_navegacao]: Server bt_navigator connected with bond.
+[lifecycle_manager-16] [INFO] [1793993145.782613034] [lifecycle_navegacao]: [34m[1mManaged nodes are active[0m[0m
+[lifecycle_manager-16] [INFO] [1793993145.782628524] [lifecycle_navegacao]: [34m[1mCreating bond timer...[0m[0m
+[inicializar-19] [INFO] [1793993145.800688472] [inicializar_navegacao]: Nav2 ativo após confirmação de mapa, sensores e TF; autoridade permanece no árbitro.
+^C[INFO] [inicializar-19]: process has finished cleanly [pid 422]
+[ekf_node-6] [ERROR] [1793993150.030158919] [estimador_local]: Failed to meet update rate! Took 0.23999999999999999112seconds. Try decreasing the rate, limiting sensor output frequency, or limiting the number of sensors.
+[async_slam_toolbox_node-9] [INFO] [1793993150.030919194] [slam_toolbox]: Message Filter dropping message: frame 'laser_simulado' at time 8.540 for reason 'discarding message because the queue is full'
+[planner_server-12] [INFO] [1793993150.033119928] [global_costmap.global_costmap]: Message Filter dropping message: frame 'laser_simulado' at time 8.440 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[controller_server-13] [INFO] [1793993150.034176043] [local_costmap.local_costmap]: Message Filter dropping message: frame 'laser_simulado' at time 8.440 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[lifecycle_manager-16] [INFO] [1793993150.307778343] [lifecycle_navegacao]: [34m[1mTerminating bond timer...[0m[0m
+[lifecycle_manager-16] [INFO] [1793993150.307818584] [lifecycle_navegacao]: [34m[1mShutting down managed nodes...[0m[0m
+[lifecycle_manager-16] [INFO] [1793993150.307828276] [lifecycle_navegacao]: [34m[1mDeactivate, cleanup, and shutdown nodes[0m[0m
+[lifecycle_manager-16] [INFO] [1793993150.307835015] [lifecycle_navegacao]: [34m[1mDeactivating bt_navigator[0m[0m
+[bt_navigator-15] [INFO] [1793993150.308083098] [bt_navigator]: Deactivating
+[bt_navigator-15] [INFO] [1793993150.308114319] [bt_navigator]: Destroying bond (bt_navigator) to lifecycle manager.
+[lifecycle_manager-16] [INFO] [1793993150.420768805] [lifecycle_navegacao]: [34m[1mDeactivating behavior_server[0m[0m
+[behavior_server-14] [INFO] [1793993150.421019865] [behavior_server]: Deactivating
+[behavior_server-14] [INFO] [1793993150.421059183] [behavior_server]: Destroying bond (behavior_server) to lifecycle manager.
+[lifecycle_manager-16] [INFO] [1793993150.533128843] [lifecycle_navegacao]: [34m[1mDeactivating planner_server[0m[0m
+[planner_server-12] [INFO] [1793993150.533410424] [planner_server]: Deactivating
+[planner_server-12] [INFO] [1793993150.533452906] [global_costmap.global_costmap]: Deactivating
+[planner_server-12] [INFO] [1793993150.941068373] [planner_server]: Deactivating plugin GridBased of type NavfnPlanner
+[planner_server-12] [INFO] [1793993150.941111466] [planner_server]: Destroying bond (planner_server) to lifecycle manager.
+[lifecycle_manager-16] [INFO] [1793993151.053199429] [lifecycle_navegacao]: [34m[1mDeactivating controller_server[0m[0m
+[controller_server-13] [INFO] [1793993151.053483986] [controller_server]: Deactivating
+[controller_server-13] [INFO] [1793993151.053508751] [controller_server]: Deactivating controller: FollowPath of type regulated_pure_pursuit_controller::RegulatedPurePursuitController
+[controller_server-13] [INFO] [1793993151.053528432] [local_costmap.local_costmap]: Deactivating
+[controller_server-13] [INFO] [1793993151.135069588] [controller_server]: Destroying bond (controller_server) to lifecycle manager.
+[lifecycle_manager-16] [INFO] [1793993151.247138173] [lifecycle_navegacao]: [34m[1mCleaning up bt_navigator[0m[0m
+[bt_navigator-15] [INFO] [1793993151.247386495] [bt_navigator]: Cleaning up
+[bt_navigator-15] [INFO] [1793993151.277308230] [bt_navigator]: Completed Cleaning up
+[lifecycle_manager-16] [INFO] [1793993151.277634849] [lifecycle_navegacao]: [34m[1mCleaning up behavior_server[0m[0m
+[behavior_server-14] [INFO] [1793993151.277849480] [behavior_server]: Cleaning up
+[lifecycle_manager-16] [INFO] [1793993151.286837244] [lifecycle_navegacao]: [34m[1mCleaning up planner_server[0m[0m
+[planner_server-12] [INFO] [1793993151.287041959] [planner_server]: Cleaning up
+[planner_server-12] [INFO] [1793993151.294410152] [global_costmap.global_costmap]: Cleaning up
+[planner_server-12] [INFO] [1793993151.298005258] [planner_server]: Cleaning up plugin GridBased of type NavfnPlanner
+[planner_server-12] [INFO] [1793993151.298231411] [planner_server]: Destroying plugin GridBased of type NavfnPlanner
+[lifecycle_manager-16] [INFO] [1793993151.310932045] [lifecycle_navegacao]: [34m[1mCleaning up controller_server[0m[0m
+[controller_server-13] [INFO] [1793993151.311115038] [controller_server]: Cleaning up
+[controller_server-13] [INFO] [1793993151.311139701] [controller_server]: Cleaning up controller: FollowPath of type regulated_pure_pursuit_controller::RegulatedPurePursuitController
+[controller_server-13] [INFO] [1793993151.313539755] [local_costmap.local_costmap]: Cleaning up
+[lifecycle_manager-16] [INFO] [1793993151.330943159] [lifecycle_navegacao]: [34m[1mShutting down bt_navigator[0m[0m
+[bt_navigator-15] [INFO] [1793993151.331117052] [bt_navigator]: Shutting down
+[lifecycle_manager-16] [INFO] [1793993151.331378309] [lifecycle_navegacao]: [34m[1mShutting down behavior_server[0m[0m
+[behavior_server-14] [INFO] [1793993151.331532021] [behavior_server]: Shutting down
+[lifecycle_manager-16] [INFO] [1793993151.331747316] [lifecycle_navegacao]: [34m[1mShutting down planner_server[0m[0m
+[planner_server-12] [INFO] [1793993151.331896294] [planner_server]: Shutting down
+[lifecycle_manager-16] [INFO] [1793993151.332104744] [lifecycle_navegacao]: [34m[1mShutting down controller_server[0m[0m
+[controller_server-13] [INFO] [1793993151.332226734] [controller_server]: Shutting down
+[lifecycle_manager-16] [INFO] [1793993151.332389384] [lifecycle_navegacao]: [34m[1mDestroying lifecycle service clients[0m[0m
+[lifecycle_manager-16] [INFO] [1793993151.337073972] [lifecycle_navegacao]: [34m[1mManaged nodes have been shut down[0m[0m
+[lifecycle_manager-11] [INFO] [1793993151.339333783] [lifecycle_slam_navegacao]: [34m[1mTerminating bond timer...[0m[0m
+[lifecycle_manager-11] [INFO] [1793993151.339381434] [lifecycle_slam_navegacao]: [34m[1mShutting down managed nodes...[0m[0m
+[lifecycle_manager-11] [INFO] [1793993151.339393306] [lifecycle_slam_navegacao]: [34m[1mDeactivate, cleanup, and shutdown nodes[0m[0m
+[lifecycle_manager-11] [INFO] [1793993151.339400032] [lifecycle_slam_navegacao]: [34m[1mDeactivating salvador_mapa[0m[0m
+[map_saver_server-10] [INFO] [1793993151.339671827] [salvador_mapa]: Deactivating
+[map_saver_server-10] [INFO] [1793993151.339705180] [salvador_mapa]: Destroying bond (salvador_mapa) to lifecycle manager.
+[lifecycle_manager-11] [INFO] [1793993151.451734194] [lifecycle_slam_navegacao]: [34m[1mDeactivating slam_toolbox[0m[0m
+[async_slam_toolbox_node-9] [INFO] [1793993151.452006417] [slam_toolbox]: Deactivating
+[async_slam_toolbox_node-9] [INFO] [1793993151.504891715] [slam_toolbox]: Destroying bond (slam_toolbox) to lifecycle manager.
+[lifecycle_manager-11] [INFO] [1793993151.617283739] [lifecycle_slam_navegacao]: [34m[1mCleaning up salvador_mapa[0m[0m
+[map_saver_server-10] [INFO] [1793993151.617535705] [salvador_mapa]: Cleaning up
+[lifecycle_manager-11] [INFO] [1793993151.618576342] [lifecycle_slam_navegacao]: [34m[1mCleaning up slam_toolbox[0m[0m
+[async_slam_toolbox_node-9] [INFO] [1793993151.618745816] [slam_toolbox]: Cleaning up
+[async_slam_toolbox_node-9] Unregistering sensor: Custom Described Lidar
+[lifecycle_manager-11] [INFO] [1793993151.627925542] [lifecycle_slam_navegacao]: [34m[1mShutting down salvador_mapa[0m[0m
+[map_saver_server-10] [INFO] [1793993151.628076990] [salvador_mapa]: Shutting down
+[lifecycle_manager-11] [INFO] [1793993151.628293572] [lifecycle_slam_navegacao]: [34m[1mShutting down slam_toolbox[0m[0m
+[async_slam_toolbox_node-9] [INFO] [1793993151.628421053] [slam_toolbox]: Shutting down
+[lifecycle_manager-11] [INFO] [1793993151.628616584] [lifecycle_slam_navegacao]: [34m[1mDestroying lifecycle service clients[0m[0m
+[lifecycle_manager-11] [INFO] [1793993151.631225905] [lifecycle_slam_navegacao]: [34m[1mManaged nodes have been shut down[0m[0m
+{"/arbitro/parar": true, "/lifecycle_navegacao/manage_nodes": true, "/lifecycle_slam_navegacao/manage_nodes": true, "estados_confirmados": {"controller_server": "finalized", "planner_server": "finalized", "behavior_server": "finalized", "bt_navigator": "finalized", "slam_toolbox": "finalized", "salvador_mapa": "finalized"}}
+[WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+[INFO] [static_transform_publisher-21]: sending signal 'SIGINT' to process[static_transform_publisher-21]
+[INFO] [static_transform_publisher-20]: sending signal 'SIGINT' to process[static_transform_publisher-20]
+[INFO] [proteger-18]: sending signal 'SIGINT' to process[proteger-18]
+[INFO] [arbitrar-17]: sending signal 'SIGINT' to process[arbitrar-17]
+[INFO] [lifecycle_manager-16]: sending signal 'SIGINT' to process[lifecycle_manager-16]
+[INFO] [bt_navigator-15]: sending signal 'SIGINT' to process[bt_navigator-15]
+[INFO] [behavior_server-14]: sending signal 'SIGINT' to process[behavior_server-14]
+[INFO] [controller_server-13]: sending signal 'SIGINT' to process[controller_server-13]
+[INFO] [planner_server-12]: sending signal 'SIGINT' to process[planner_server-12]
+[INFO] [lifecycle_manager-11]: sending signal 'SIGINT' to process[lifecycle_manager-11]
+[INFO] [map_saver_server-10]: sending signal 'SIGINT' to process[map_saver_server-10]
+[INFO] [async_slam_toolbox_node-9]: sending signal 'SIGINT' to process[async_slam_toolbox_node-9]
+[INFO] [simular_lidar-8]: sending signal 'SIGINT' to process[simular_lidar-8]
+[INFO] [trajetorias-7]: sending signal 'SIGINT' to process[trajetorias-7]
+[INFO] [ekf_node-6]: sending signal 'SIGINT' to process[ekf_node-6]
+[INFO] [tratar_imu-5]: sending signal 'SIGINT' to process[tratar_imu-5]
+[INFO] [calcular_odometria-4]: sending signal 'SIGINT' to process[calcular_odometria-4]
+[INFO] [converter_velocidade-3]: sending signal 'SIGINT' to process[converter_velocidade-3]
+[INFO] [simular-2]: sending signal 'SIGINT' to process[simular-2]
+[INFO] [robot_state_publisher-1]: sending signal 'SIGINT' to process[robot_state_publisher-1]
+[static_transform_publisher-21] [INFO] [1793993151.829402446] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[static_transform_publisher-20] [INFO] [1793993151.832245636] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[lifecycle_manager-16] [INFO] [1793993151.842018747] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[lifecycle_manager-16] [INFO] [1793993151.842104699] [lifecycle_navegacao]: Running Nav2 LifecycleManager rcl preshutdown (lifecycle_navegacao)
+[lifecycle_manager-16] [INFO] [1793993151.842858778] [lifecycle_navegacao]: Destroying lifecycle_navegacao
+[bt_navigator-15] [INFO] [1793993151.845454268] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[bt_navigator-15] [INFO] [1793993151.845514248] [bt_navigator]: Running Nav2 LifecycleNode rcl preshutdown (bt_navigator)
+[bt_navigator-15] [INFO] [1793993151.845562797] [bt_navigator]: Destroying bond (bt_navigator) to lifecycle manager.
+[bt_navigator-15] [INFO] [1793993151.847495964] [bt_navigator]: Destroying
+[behavior_server-14] [INFO] [1793993151.849470895] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[behavior_server-14] [INFO] [1793993151.849531329] [behavior_server]: Running Nav2 LifecycleNode rcl preshutdown (behavior_server)
+[behavior_server-14] [INFO] [1793993151.849569415] [behavior_server]: Destroying bond (behavior_server) to lifecycle manager.
+[behavior_server-14] [INFO] [1793993151.850501035] [behavior_server]: Destroying
+[controller_server-13] [INFO] [1793993151.853905115] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[controller_server-13] [INFO] [1793993151.853965350] [controller_server]: Running Nav2 LifecycleNode rcl preshutdown (controller_server)
+[controller_server-13] [INFO] [1793993151.854000288] [controller_server]: Destroying bond (controller_server) to lifecycle manager.
+[controller_server-13] [INFO] [1793993151.856562095] [local_costmap.local_costmap]: Destroying
+[planner_server-12] [INFO] [1793993151.857721620] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[planner_server-12] [INFO] [1793993151.857792433] [planner_server]: Running Nav2 LifecycleNode rcl preshutdown (planner_server)
+[planner_server-12] [INFO] [1793993151.857819686] [planner_server]: Destroying bond (planner_server) to lifecycle manager.
+[planner_server-12] [INFO] [1793993151.860760389] [global_costmap.global_costmap]: Destroying
+[lifecycle_manager-11] [INFO] [1793993151.861075201] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[lifecycle_manager-11] [INFO] [1793993151.861170462] [lifecycle_slam_navegacao]: Running Nav2 LifecycleManager rcl preshutdown (lifecycle_slam_navegacao)
+[lifecycle_manager-11] [INFO] [1793993151.863015780] [lifecycle_slam_navegacao]: Destroying lifecycle_slam_navegacao
+[map_saver_server-10] [INFO] [1793993151.864489569] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[map_saver_server-10] [INFO] [1793993151.864615121] [salvador_mapa]: Running Nav2 LifecycleNode rcl preshutdown (salvador_mapa)
+[map_saver_server-10] [INFO] [1793993151.864649837] [salvador_mapa]: Destroying bond (salvador_mapa) to lifecycle manager.
+[map_saver_server-10] [INFO] [1793993151.865104632] [salvador_mapa]: Destroying
+[async_slam_toolbox_node-9] [INFO] [1793993151.877770165] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[controller_server-13] [INFO] [1793993151.878681004] [controller_server]: Destroying
+[planner_server-12] [INFO] [1793993151.886534175] [planner_server]: Destroying
+[ekf_node-6] [INFO] [1793993151.889886119] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[robot_state_publisher-1] [INFO] [1793993151.911518030] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[INFO] [static_transform_publisher-21]: process has finished cleanly [pid 424]
+[INFO] [static_transform_publisher-20]: process has finished cleanly [pid 423]
+[INFO] [lifecycle_manager-16]: process has finished cleanly [pid 419]
+[INFO] [behavior_server-14]: process has finished cleanly [pid 417]
+[INFO] [bt_navigator-15]: process has finished cleanly [pid 418]
+[INFO] [lifecycle_manager-11]: process has finished cleanly [pid 412]
+[INFO] [map_saver_server-10]: process has finished cleanly [pid 411]
+[INFO] [async_slam_toolbox_node-9]: process has finished cleanly [pid 410]
+[INFO] [controller_server-13]: process has finished cleanly [pid 414]
+[INFO] [planner_server-12]: process has finished cleanly [pid 413]
+[INFO] [ekf_node-6]: process has finished cleanly [pid 407]
+[INFO] [robot_state_publisher-1]: process has finished cleanly [pid 402]
+[INFO] [arbitrar-17]: process has finished cleanly [pid 420]
+[INFO] [trajetorias-7]: process has finished cleanly [pid 408]
+[INFO] [proteger-18]: process has finished cleanly [pid 421]
+[INFO] [tratar_imu-5]: process has finished cleanly [pid 406]
+[INFO] [simular_lidar-8]: process has finished cleanly [pid 409]
+[INFO] [calcular_odometria-4]: process has finished cleanly [pid 405]
+[INFO] [converter_velocidade-3]: process has finished cleanly [pid 404]
+[INFO] [simular-2]: process has finished cleanly [pid 403]

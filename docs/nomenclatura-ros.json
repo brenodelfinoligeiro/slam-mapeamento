@@ -1,0 +1,8 @@
+{
+  "pacote_principal": "robo_movel",
+  "termos_proibidos": [
+    "slamderson"
+  ],
+  "base_conhecimento": "vault-slamderson",
+  "nota": "Nome carinhoso só em documentação/histórico de origem, nunca em identificadores ROS ativos."
+}

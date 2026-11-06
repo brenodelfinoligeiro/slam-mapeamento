@@ -71,17 +71,19 @@ Referência do fabricante: [STMicroelectronics — L298](https://www.st.com/en/m
 
 ## Alimentação e ensaio inicial
 
-O autor está considerando um arranjo provisório com pilhas AA para os motores e um powerbank separado para a Raspberry Pi 5. Para motores informados como 12 V, oito AA alcalinas em série fornecem 12 V nominais. Isso resolve apenas a tensão nominal em vazio: a queda das pilhas sob corrente de partida e a perda de tensão na L298N podem reduzir bastante a tensão efetiva nos motores. A quantidade e química finais, suporte/porta-pilhas, corrente real dos motores, modelo/capacidade do powerbank, alimentação do ESP e distribuição física permanecem pendentes.
+O autor forneceu o [powerbank real Basike](vault-slamderson/01-componentes/Powerbank-Basike.md): envelope informado de 150 × 70 × 30 mm e leitura de 420 g na balança. As fotos do ZIP mostram a etiqueta com saída USB-C e cabo USB-C de 5 V/3 A, e saída total declarada de 15 W; a inscrição frontal 22,5 W não prova 5 V/5 A para a Raspberry. Dados completos, limites da leitura, originais preservados e consequências mecânicas estão na nota. Os estudos 2D/R01 anteriores conservam a reserva antiga de 120 × 65 × 25 mm. A [R02](carcaca-r02/LEIA-ME.md) corrige o Basike para 150 × 70 × 30 mm, em berço baixo traseiro, com nova carcaça ventilada removível; adequação física/térmica continua pendente.
+
+O autor definiu **quatro pilhas AA** para esta etapa, mantendo o powerbank da Raspberry separado. Essa decisão substitui o exemplo anterior de oito alcalinas. Quatro AA alcalinas em série correspondem a 6 V nominais; se forem NiMH, a 4,8 V. A queda das pilhas sob carga e a perda na L298N reduzem a tensão efetiva nos motores informados como 12 V: partida, torque e desempenho não foram validados. Não foi incluído conversor elevador. Química, porta-pilhas, corrente real dos motores, powerbank e alimentação do ESP continuam pendentes; a posição das peças está no [estudo mecânico 2D](disposicao-2d/LEIA-ME.md), sem aprovação de encaixes ou fabricação.
 
 Esse arranjo mantém as fontes dos motores e da Raspberry separadas na primeira montagem. A referência lógica deve ser comum quando não houver isolamento, mas a corrente dos motores não deve retornar pelos fios de sinal. Prender o powerbank temporariamente com uma cinta ou suporte removível, sem cobrir dissipadores, ventoinhas ou conectores, é melhor que deixá-lo solto durante movimento.
 
 A Raspberry Pi recomenda fonte de 5 V/5 A para a Pi 5; uma fonte de 3 A é utilizável com restrições de potência disponível nas portas USB. Portanto, a etiqueta e a saída real do powerbank importam; a capacidade em mAh sozinha não confirma que ele sustente a tensão/corrente exigidas.[23] Não desenhar suporte definitivo nem assumir autonomia até conhecer o powerbank exato e testar a Pi sob a carga planejada.
 
-Deixar o conjunto de pilhas baixo e próximo ao centro do chassi é uma hipótese de montagem para reduzir altura e deslocamento do centro de massa; confirmar acesso, retenção e estabilidade na montagem CAD e no protótipo. Não escolher número ou tipo de pilhas antes de medir tensão, corrente de partida dos motores e comportamento da L298N.
+Deixar o conjunto de pilhas baixo é uma hipótese de montagem; a distribuição proposta precisa de conferência de acesso, retenção, centro de massa e estabilidade. A escolha de quatro AA pelo autor não substitui a medição de tensão, corrente de partida e comportamento da L298N.
 
 A referência oficial de alimentação da Pi 5 está registrada no [[vault-slamderson/05-fontes/Catalogo-de-fontes|catálogo de fontes]].
 
-A bateria dos motores continua pendente. Uma fonte limitada em bancada não substitui automaticamente a proteção necessária quando se passa a usar uma bateria de alta corrente. Um corte de alimentação acessível e ensaio inicial com rodas suspensas são suficientes como organização básica do protótipo, sem impor arquitetura industrial.
+Quantidade e formato das pilhas estão definidos; a adequação elétrica do conjunto permanece pendente. Uma fonte limitada em bancada não substitui automaticamente a proteção necessária quando se passa a usar uma bateria de alta corrente. Um corte de alimentação acessível e ensaio inicial com rodas suspensas são suficientes como organização básica do protótipo, sem impor arquitetura industrial.
 
 ## Sources
 

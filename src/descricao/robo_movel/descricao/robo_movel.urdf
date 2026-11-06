@@ -1,0 +1,250 @@
+<?xml version='1.0' encoding='utf-8'?>
+<robot name="robo_movel">
+  <!--Derivado do CAD R05; metros; datums de montagem não substituem calibração física. Sem inércias inventadas.-->
+  <material name="estrutura">
+    <color rgba=".22 .34 .44 1" />
+  </material>
+  <material name="metal">
+    <color rgba=".64 .68 .72 1" />
+  </material>
+  <material name="motores">
+    <color rgba=".88 .68 .12 1" />
+  </material>
+  <material name="placas">
+    <color rgba=".14 .43 .25 1" />
+  </material>
+  <material name="reserva">
+    <color rgba=".60 .35 .70 .35" />
+  </material>
+  <material name="pilhas">
+    <color rgba=".68 .41 .15 1" />
+  </material>
+  <material name="bateria">
+    <color rgba=".12 .13 .16 1" />
+  </material>
+  <material name="pneu">
+    <color rgba=".045 .05 .06 1" />
+  </material>
+  <material name="cubo">
+    <color rgba=".72 .64 .25 1" />
+  </material>
+  <material name="disco">
+    <color rgba=".12 .13 .16 1" />
+  </material>
+  <material name="sensor">
+    <color rgba=".13 .16 .20 1" />
+  </material>
+  <link name="base_footprint" />
+  <link name="base_link">
+    <visual name="estrutura">
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://robo_movel/descricao/malhas/estrutura_r05.stl" scale="1 1 1" />
+      </geometry>
+      <material name="estrutura" />
+    </visual>
+    <collision name="estrutura">
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://robo_movel/descricao/malhas/estrutura_r05.stl" scale="1 1 1" />
+      </geometry>
+    </collision>
+    <visual name="ferragens">
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://robo_movel/descricao/malhas/ferragens_r05.stl" scale="1 1 1" />
+      </geometry>
+      <material name="metal" />
+    </visual>
+    <visual name="chassi">
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://robo_movel/descricao/malhas/chassi_r05.stl" scale="1 1 1" />
+      </geometry>
+      <material name="metal" />
+    </visual>
+    <collision name="chassi">
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://robo_movel/descricao/malhas/chassi_r05.stl" scale="1 1 1" />
+      </geometry>
+    </collision>
+    <visual name="motores">
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://robo_movel/descricao/malhas/motores_r05.stl" scale="1 1 1" />
+      </geometry>
+      <material name="motores" />
+    </visual>
+    <visual name="eletronica">
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://robo_movel/descricao/malhas/eletronica_r05.stl" scale="1 1 1" />
+      </geometry>
+      <material name="placas" />
+    </visual>
+    <visual name="holder">
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://robo_movel/descricao/malhas/holder_r05.stl" scale="1 1 1" />
+      </geometry>
+      <material name="reserva" />
+    </visual>
+    <visual name="pilhas">
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://robo_movel/descricao/malhas/pilhas_r05.stl" scale="1 1 1" />
+      </geometry>
+      <material name="pilhas" />
+    </visual>
+    <visual name="esp_reserva">
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://robo_movel/descricao/malhas/esp_reserva_r05.stl" scale="1 1 1" />
+      </geometry>
+      <material name="reserva" />
+    </visual>
+    <visual name="powerbank">
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://robo_movel/descricao/malhas/powerbank_r05.stl" scale="1 1 1" />
+      </geometry>
+      <material name="bateria" />
+    </visual>
+  </link>
+  <link name="left_wheel_link">
+    <visual name="pneu_esquerdo">
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://robo_movel/descricao/malhas/pneu_esquerdo_r05.stl" scale="1 1 1" />
+      </geometry>
+      <material name="pneu" />
+    </visual>
+    <visual name="cubo_esquerdo">
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://robo_movel/descricao/malhas/cubo_esquerdo_r05.stl" scale="1 1 1" />
+      </geometry>
+      <material name="cubo" />
+    </visual>
+    <visual name="disco_esquerdo">
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://robo_movel/descricao/malhas/disco_esquerdo_r05.stl" scale="1 1 1" />
+      </geometry>
+      <material name="disco" />
+    </visual>
+    <collision name="pneu">
+      <origin xyz="0 0 0" rpy="1.57079632679 0 0" />
+      <geometry>
+        <cylinder radius="0.0344613993168" length="0.0248173179626" />
+      </geometry>
+    </collision>
+    <collision name="cubo">
+      <origin xyz="-2.20804214478e-05 -0.0024999961853 -9.17911529541e-08" rpy="1.57079632679 0 0" />
+      <geometry>
+        <cylinder radius="0.0257000050545" length="0.0300000038147" />
+      </geometry>
+    </collision>
+  </link>
+  <link name="right_wheel_link">
+    <visual name="pneu_direito">
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://robo_movel/descricao/malhas/pneu_direito_r05.stl" scale="1 1 1" />
+      </geometry>
+      <material name="pneu" />
+    </visual>
+    <visual name="cubo_direito">
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://robo_movel/descricao/malhas/cubo_direito_r05.stl" scale="1 1 1" />
+      </geometry>
+      <material name="cubo" />
+    </visual>
+    <visual name="disco_direito">
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://robo_movel/descricao/malhas/disco_direito_r05.stl" scale="1 1 1" />
+      </geometry>
+      <material name="disco" />
+    </visual>
+    <collision name="pneu">
+      <origin xyz="0 0 0" rpy="1.57079632679 0 0" />
+      <geometry>
+        <cylinder radius="0.0344613973051" length="0.0248173065186" />
+      </geometry>
+    </collision>
+    <collision name="cubo">
+      <origin xyz="-2.20813751221e-05 0.0024999961853 -9.52333211899e-08" rpy="1.57079632679 0 0" />
+      <geometry>
+        <cylinder radius="0.0257000026703" length="0.0300000076294" />
+      </geometry>
+    </collision>
+  </link>
+  <link name="caster_link">
+    <visual name="rodizio">
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://robo_movel/descricao/malhas/rodizio_r05.stl" scale="1 1 1" />
+      </geometry>
+      <material name="metal" />
+    </visual>
+    <collision name="rodizio">
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://robo_movel/descricao/malhas/rodizio_r05.stl" scale="1 1 1" />
+      </geometry>
+    </collision>
+  </link>
+  <link name="lidar_mount_link">
+    <visual name="lidar">
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://robo_movel/descricao/malhas/lidar_r05.stl" scale="1 1 1" />
+      </geometry>
+      <material name="sensor" />
+    </visual>
+  </link>
+  <link name="imu_mount_link">
+    <visual name="imu">
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://robo_movel/descricao/malhas/imu_r05.stl" scale="1 1 1" />
+      </geometry>
+      <material name="placas" />
+    </visual>
+  </link>
+  <joint name="base_footprint_joint" type="fixed">
+    <parent link="base_footprint" />
+    <child link="base_link" />
+    <origin xyz="0 0 0.0344614003226" rpy="0 0 0" />
+  </joint>
+  <joint name="left_wheel_joint" type="continuous">
+    <parent link="base_link" />
+    <child link="left_wheel_link" />
+    <origin xyz="0 0.0661900758743 -1.00582838058e-09" rpy="0 0 0" />
+    <axis xyz="0 1 0" />
+  </joint>
+  <joint name="right_wheel_joint" type="continuous">
+    <parent link="base_link" />
+    <child link="right_wheel_link" />
+    <origin xyz="0 -0.0661900758743 1.00582838058e-09" rpy="0 0 0" />
+    <axis xyz="0 1 0" />
+  </joint>
+  <joint name="caster_joint" type="fixed">
+    <parent link="base_link" />
+    <child link="caster_link" />
+    <origin xyz="-0.114586856842 -0.000243339538574 0.0104839240983" rpy="0 0 0" />
+  </joint>
+  <joint name="lidar_mount_joint" type="fixed">
+    <parent link="base_link" />
+    <child link="lidar_mount_link" />
+    <origin xyz="-0.0263407878876 -0.000113175392151 0.110083924098" rpy="0 0 0" />
+  </joint>
+  <joint name="imu_mount_joint" type="fixed">
+    <parent link="base_link" />
+    <child link="imu_mount_link" />
+    <origin xyz="-0.0398407878876 -0.0126131753922 0.0254839240983" rpy="0 0 0" />
+  </joint>
+</robot>

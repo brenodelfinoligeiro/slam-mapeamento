@@ -1,0 +1,12 @@
+{
+  "blender": "5.2.3 LTS",
+  "objects": 84,
+  "triangles_input": 1384533,
+  "engine": "CYCLES",
+  "samples": 24,
+  "images": [
+    "montagem-3d.png",
+    "explodida-3d.png"
+  ],
+  "scope": "Render a partir do FCStd reaberto; montagem e explosao ilustrativa, nao teste fisico."
+}

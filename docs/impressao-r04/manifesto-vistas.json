@@ -1,0 +1,176 @@
+{
+  "arquivo_origem": "slamderson-STL-Ender3V3SE-r04.zip",
+  "sha256_zip": "997715419fcd7338442b5ebf533651159580ad91e552318e37973d38fe7766a7",
+  "modelos_unicos": 24,
+  "vistas_por_modelo": 3,
+  "pecas": [
+    {
+      "codigo": "P01",
+      "nome": "Saia dianteira",
+      "quantidade": 1,
+      "arquivo_zip": "P01_Saia_dianteira_1x.stl",
+      "sha256": "4d86404af57491d91eaefc509be8a83d0a46bae4d0b8436f84c73bd8bddbb2c0"
+    },
+    {
+      "codigo": "P02",
+      "nome": "Saia traseira",
+      "quantidade": 1,
+      "arquivo_zip": "P02_Saia_traseira_1x.stl",
+      "sha256": "95bea05743be82e8293c745896d0d911f2daa5c6bef8ecb205c9097c0b7170de"
+    },
+    {
+      "codigo": "P03",
+      "nome": "Teto dianteiro esquerdo",
+      "quantidade": 1,
+      "arquivo_zip": "P03_Teto_dianteiro_esquerdo_1x.stl",
+      "sha256": "cff75393648bab4c7224c07ba3600220d44dba2aefa8aeccd0be04d5a5d3da9a"
+    },
+    {
+      "codigo": "P04",
+      "nome": "Teto dianteiro direito",
+      "quantidade": 1,
+      "arquivo_zip": "P04_Teto_dianteiro_direito_1x.stl",
+      "sha256": "7d40c84664d91fcf0e4bdd96666b68e66c382a8c447c67914a8f2981fb644864"
+    },
+    {
+      "codigo": "P05",
+      "nome": "Teto traseiro esquerdo",
+      "quantidade": 1,
+      "arquivo_zip": "P05_Teto_traseiro_esquerdo_1x.stl",
+      "sha256": "cbee04335b8935be0ef3b1076ea93f4711c721d3ac5f9ecf09a0a100a0e3c556"
+    },
+    {
+      "codigo": "P06",
+      "nome": "Teto traseiro direito",
+      "quantidade": 1,
+      "arquivo_zip": "P06_Teto_traseiro_direito_1x.stl",
+      "sha256": "6d82fe23327e3e1f063db90f97aef3a2059bb1906b305a6c06774fd8ba4fa727"
+    },
+    {
+      "codigo": "P07",
+      "nome": "Portinhola AA",
+      "quantidade": 1,
+      "arquivo_zip": "P07_Portinhola_AA_1x.stl",
+      "sha256": "cf1f7453cd7839f2dd50fba52d7dceb196f08824a0812ebcee31017e6eea07c0"
+    },
+    {
+      "codigo": "P08",
+      "nome": "Portinhola PB",
+      "quantidade": 1,
+      "arquivo_zip": "P08_Portinhola_PB_1x.stl",
+      "sha256": "1bfffc7264790b811e76c5c2d6b5344d560cb3c779226cda1e75af8afcd7b838"
+    },
+    {
+      "codigo": "P09",
+      "nome": "Painel lateral PB",
+      "quantidade": 1,
+      "arquivo_zip": "P09_Painel_lateral_PB_1x.stl",
+      "sha256": "5b226087c91d920c73ab79ebe12c1953a8cdb400e216f2ab46007b4a5aa5f3d0"
+    },
+    {
+      "codigo": "P10",
+      "nome": "Uniao interna teto",
+      "quantidade": 2,
+      "arquivo_zip": "P10_Uniao_interna_teto_2x.stl",
+      "sha256": "8a4e6f3b1c3effe2cb20a4333bc34bde59145425b9176a5c6a3802c0c9a0e1b2"
+    },
+    {
+      "codigo": "P11",
+      "nome": "Clipe retencao tampas",
+      "quantidade": 4,
+      "arquivo_zip": "P11_Clipe_retencao_tampas_4x.stl",
+      "sha256": "27761808462d0695ef6cd5b9d644b118f6b23ef43a5bbfbf4bb43105f2fd715a"
+    },
+    {
+      "codigo": "P12",
+      "nome": "Piso superior",
+      "quantidade": 1,
+      "arquivo_zip": "P12_Piso_superior_1x.stl",
+      "sha256": "39fed69f8fe2d8cf58782156200af9890771083adcf7997f6a7055ca14cd042f"
+    },
+    {
+      "codigo": "P13",
+      "nome": "Berco Basike",
+      "quantidade": 1,
+      "arquivo_zip": "P13_Berco_Basike_1x.stl",
+      "sha256": "fc24dad723ec621eb4e3e32eaecaec9af9cf9c9cbe36cfb4ff82c90bada32171"
+    },
+    {
+      "codigo": "P14",
+      "nome": "Berco holder quatro AA",
+      "quantidade": 1,
+      "arquivo_zip": "P14_Berco_holder_quatro_AA_1x.stl",
+      "sha256": "b1b23c37ae24a83e8e5f13b6f455f2743947c376bd79ca518a779588188dcdbd"
+    },
+    {
+      "codigo": "P15",
+      "nome": "Coluna principal dianteira",
+      "quantidade": 2,
+      "arquivo_zip": "P15_Coluna_principal_dianteira_2x.stl",
+      "sha256": "abf39d4d87a1c1f7bb69e646f792eca2906718abb516e0bc2e0dcbd4418c25f2"
+    },
+    {
+      "codigo": "P16",
+      "nome": "Coluna principal traseira",
+      "quantidade": 2,
+      "arquivo_zip": "P16_Coluna_principal_traseira_2x.stl",
+      "sha256": "7c3299650ce6383b7c71608cfe2ad386a01e756899ecc643f4945fa1934364fa"
+    },
+    {
+      "codigo": "P17",
+      "nome": "Travessa traseira",
+      "quantidade": 2,
+      "arquivo_zip": "P17_Travessa_traseira_2x.stl",
+      "sha256": "2be641f52fa45b3c6520735fd18e4e1709adbaf9112e04156c5562e7d1ac336e"
+    },
+    {
+      "codigo": "P18",
+      "nome": "Coluna C1",
+      "quantidade": 2,
+      "arquivo_zip": "P18_Coluna_C1_2x.stl",
+      "sha256": "85cfca87a958185ad3e7e055265317c022ce0c180e6d4fb77aece67751cf4019"
+    },
+    {
+      "codigo": "P19",
+      "nome": "Base compacta C1",
+      "quantidade": 1,
+      "arquivo_zip": "P19_Base_compacta_C1_1x.stl",
+      "sha256": "d1cf8a100cf5afc080e90f43af14f4514a041e0b168d0b9188a75eb92d978c8d"
+    },
+    {
+      "codigo": "P20",
+      "nome": "Espacador C1",
+      "quantidade": 4,
+      "arquivo_zip": "P20_Espacador_C1_4x.stl",
+      "sha256": "1380a3d17623eba04756032519329dd03b2ffc0192f07a3761e8eeb8e7943d8b"
+    },
+    {
+      "codigo": "P21",
+      "nome": "Espacador Pi seis mm",
+      "quantidade": 4,
+      "arquivo_zip": "P21_Espacador_Pi_seis_mm_4x.stl",
+      "sha256": "a64b45ab003817b47e09d891c7550430df63cd0ff0c5f078023156c77a664004"
+    },
+    {
+      "codigo": "P22",
+      "nome": "Espacador L298N dez mm",
+      "quantidade": 4,
+      "arquivo_zip": "P22_Espacador_L298N_dez_mm_4x.stl",
+      "sha256": "1ba3f90193c2ee5be33fcca98f269aef1b587304eb576441accc7cce57285155"
+    },
+    {
+      "codigo": "P23",
+      "nome": "Espacador MPU quatro mm",
+      "quantidade": 2,
+      "arquivo_zip": "P23_Espacador_MPU_quatro_mm_2x.stl",
+      "sha256": "b18d9ca45a2d8ac78f76dff50347537caeabc47013e9a9de471278bc56357747"
+    },
+    {
+      "codigo": "P24",
+      "nome": "Berco ESP por velcro",
+      "quantidade": 1,
+      "arquivo_zip": "P24_Berco_ESP_por_velcro_1x.stl",
+      "sha256": "a98367c7513929a39fcaf5c83eb01ff911b5961b80003c26b2028754be95dc87"
+    }
+  ]
+}

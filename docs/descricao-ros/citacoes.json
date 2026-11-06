@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "sources": [
+    {
+      "id": 1,
+      "url": "https://raw.githubusercontent.com/ros-infrastructure/rep/master/rep-0103.rst",
+      "title": "ROS-REP103",
+      "accessed": "2026-11-05",
+      "quotes": [
+        {
+          "text": "All systems are right handed.",
+          "added": "2026-11-05"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "url": "https://raw.githubusercontent.com/ros/robot_state_publisher/jazzy/README.md",
+      "title": "ROS-RSP-JAZZY",
+      "accessed": "2026-11-05",
+      "quotes": [
+        {
+          "text": "It then subscribes to the `joint_states` topic (of type `sensor_msgs/msg/JointState`) to get individual joint states.",
+          "added": "2026-11-05"
+        }
+      ]
+    }
+  ]
+}

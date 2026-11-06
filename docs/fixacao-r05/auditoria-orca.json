@@ -1,0 +1,585 @@
+{
+  "programa": "OrcaSlicer 2.4.2",
+  "impressora": "Creality Ender-3 V3 SE 0.4 nozzle",
+  "volume_mm": [
+    220,
+    220,
+    250
+  ],
+  "filamento_de_referencia": "Generic PLA; não comprova filamento/temperatura reais",
+  "processo": "0.20mm;4 paredes;25% gyroid;5 camadas topo/fundo;brim5mm;suportes normais automáticos só na mesa",
+  "fontes_perfis": [
+    {
+      "tipo": "machine",
+      "nome": "Creality Ender-3 V3 SE 0.4 nozzle",
+      "arquivo_instalado": "/opt/orca-slicer/resources/profiles/Creality/machine/Creality Ender-3 V3 SE 0.4 nozzle.json",
+      "sha256": "d79ae4e8c98e2d79ee51e4bcf710af41500853c7bfedf7bb730788b8c22bebc1"
+    },
+    {
+      "tipo": "process",
+      "nome": "0.20mm Standard @Creality Ender3V3SE 0.4",
+      "arquivo_instalado": "/opt/orca-slicer/resources/profiles/Creality/process/0.20mm Standard @Creality Ender3V3SE 0.4.json",
+      "sha256": "d541d244dcca08ba4a9e38741d0ffa64f358d04cd1513647373fe6c7ad9b0faa"
+    },
+    {
+      "tipo": "filament",
+      "nome": "Creality Generic PLA @Ender-3V3-all",
+      "arquivo_instalado": "/opt/orca-slicer/resources/profiles/Creality/filament/Creality Generic PLA @Ender-3V3-all.json",
+      "sha256": "d92fcca1dbd164421e2100409415814901be988a30f618fc7f8c9c1b6397e331"
+    }
+  ],
+  "resultados": [
+    {
+      "codigo": "P01",
+      "exit_code": 0,
+      "segundos_execucao": 0.77,
+      "arquivos": [
+        {
+          "arquivo": "P01/result.json",
+          "bytes": 346
+        },
+        {
+          "arquivo": "P01/plate_1.gcode",
+          "bytes": 4535609
+        },
+        {
+          "arquivo": "P01/log.txt",
+          "bytes": 0
+        }
+      ]
+    },
+    {
+      "codigo": "P02",
+      "exit_code": 0,
+      "segundos_execucao": 1.12,
+      "arquivos": [
+        {
+          "arquivo": "P02/result.json",
+          "bytes": 346
+        },
+        {
+          "arquivo": "P02/plate_1.gcode",
+          "bytes": 4077998
+        },
+        {
+          "arquivo": "P02/log.txt",
+          "bytes": 0
+        }
+      ]
+    },
+    {
+      "codigo": "P03",
+      "exit_code": 0,
+      "segundos_execucao": 0.87,
+      "arquivos": [
+        {
+          "arquivo": "P03/result.json",
+          "bytes": 346
+        },
+        {
+          "arquivo": "P03/plate_1.gcode",
+          "bytes": 3858749
+        },
+        {
+          "arquivo": "P03/log.txt",
+          "bytes": 0
+        }
+      ]
+    },
+    {
+      "codigo": "P04",
+      "exit_code": 0,
+      "segundos_execucao": 0.92,
+      "arquivos": [
+        {
+          "arquivo": "P04/result.json",
+          "bytes": 346
+        },
+        {
+          "arquivo": "P04/plate_1.gcode",
+          "bytes": 3801471
+        },
+        {
+          "arquivo": "P04/log.txt",
+          "bytes": 0
+        }
+      ]
+    },
+    {
+      "codigo": "P05",
+      "exit_code": 0,
+      "segundos_execucao": 0.68,
+      "arquivos": [
+        {
+          "arquivo": "P05/result.json",
+          "bytes": 346
+        },
+        {
+          "arquivo": "P05/plate_1.gcode",
+          "bytes": 2825338
+        },
+        {
+          "arquivo": "P05/log.txt",
+          "bytes": 0
+        }
+      ]
+    },
+    {
+      "codigo": "P06",
+      "exit_code": 0,
+      "segundos_execucao": 0.93,
+      "arquivos": [
+        {
+          "arquivo": "P06/result.json",
+          "bytes": 346
+        },
+        {
+          "arquivo": "P06/plate_1.gcode",
+          "bytes": 2808101
+        },
+        {
+          "arquivo": "P06/log.txt",
+          "bytes": 0
+        }
+      ]
+    },
+    {
+      "codigo": "P07",
+      "exit_code": 0,
+      "segundos_execucao": 0.42,
+      "arquivos": [
+        {
+          "arquivo": "P07/result.json",
+          "bytes": 346
+        },
+        {
+          "arquivo": "P07/plate_1.gcode",
+          "bytes": 1689901
+        },
+        {
+          "arquivo": "P07/log.txt",
+          "bytes": 0
+        }
+      ]
+    },
+    {
+      "codigo": "P08",
+      "exit_code": 0,
+      "segundos_execucao": 0.47,
+      "arquivos": [
+        {
+          "arquivo": "P08/result.json",
+          "bytes": 346
+        },
+        {
+          "arquivo": "P08/plate_1.gcode",
+          "bytes": 1970704
+        },
+        {
+          "arquivo": "P08/log.txt",
+          "bytes": 0
+        }
+      ]
+    },
+    {
+      "codigo": "P09",
+      "exit_code": 0,
+      "segundos_execucao": 0.26,
+      "arquivos": [
+        {
+          "arquivo": "P09/result.json",
+          "bytes": 346
+        },
+        {
+          "arquivo": "P09/plate_1.gcode",
+          "bytes": 409372
+        },
+        {
+          "arquivo": "P09/log.txt",
+          "bytes": 0
+        }
+      ]
+    },
+    {
+      "codigo": "P10",
+      "exit_code": 0,
+      "segundos_execucao": 0.42,
+      "arquivos": [
+        {
+          "arquivo": "P10/result.json",
+          "bytes": 346
+        },
+        {
+          "arquivo": "P10/plate_1.gcode",
+          "bytes": 746686
+        },
+        {
+          "arquivo": "P10/log.txt",
+          "bytes": 0
+        }
+      ]
+    },
+    {
+      "codigo": "P11",
+      "exit_code": 0,
+      "segundos_execucao": 0.47,
+      "arquivos": [
+        {
+          "arquivo": "P11/result.json",
+          "bytes": 346
+        },
+        {
+          "arquivo": "P11/plate_1.gcode",
+          "bytes": 634743
+        },
+        {
+          "arquivo": "P11/log.txt",
+          "bytes": 0
+        }
+      ]
+    },
+    {
+      "codigo": "P12",
+      "exit_code": 0,
+      "segundos_execucao": 2.19,
+      "arquivos": [
+        {
+          "arquivo": "P12/result.json",
+          "bytes": 347
+        },
+        {
+          "arquivo": "P12/plate_1.gcode",
+          "bytes": 7544761
+        },
+        {
+          "arquivo": "P12/log.txt",
+          "bytes": 0
+        }
+      ]
+    },
+    {
+      "codigo": "P13",
+      "exit_code": 0,
+      "segundos_execucao": 0.57,
+      "arquivos": [
+        {
+          "arquivo": "P13/result.json",
+          "bytes": 346
+        },
+        {
+          "arquivo": "P13/plate_1.gcode",
+          "bytes": 2590055
+        },
+        {
+          "arquivo": "P13/log.txt",
+          "bytes": 0
+        }
+      ]
+    },
+    {
+      "codigo": "P14",
+      "exit_code": 0,
+      "segundos_execucao": 2.24,
+      "arquivos": [
+        {
+          "arquivo": "P14/result.json",
+          "bytes": 346
+        },
+        {
+          "arquivo": "P14/plate_1.gcode",
+          "bytes": 4298217
+        },
+        {
+          "arquivo": "P14/log.txt",
+          "bytes": 0
+        }
+      ]
+    },
+    {
+      "codigo": "P15",
+      "exit_code": 0,
+      "segundos_execucao": 0.73,
+      "arquivos": [
+        {
+          "arquivo": "P15/result.json",
+          "bytes": 346
+        },
+        {
+          "arquivo": "P15/plate_1.gcode",
+          "bytes": 1415414
+        },
+        {
+          "arquivo": "P15/log.txt",
+          "bytes": 0
+        }
+      ]
+    },
+    {
+      "codigo": "P16",
+      "exit_code": 0,
+      "segundos_execucao": 0.68,
+      "arquivos": [
+        {
+          "arquivo": "P16/result.json",
+          "bytes": 346
+        },
+        {
+          "arquivo": "P16/plate_1.gcode",
+          "bytes": 1371074
+        },
+        {
+          "arquivo": "P16/log.txt",
+          "bytes": 0
+        }
+      ]
+    },
+    {
+      "codigo": "P17",
+      "exit_code": 0,
+      "segundos_execucao": 0.32,
+      "arquivos": [
+        {
+          "arquivo": "P17/result.json",
+          "bytes": 345
+        },
+        {
+          "arquivo": "P17/plate_1.gcode",
+          "bytes": 267263
+        },
+        {
+          "arquivo": "P17/log.txt",
+          "bytes": 0
+        }
+      ]
+    },
+    {
+      "codigo": "P18",
+      "exit_code": 0,
+      "segundos_execucao": 0.74,
+      "arquivos": [
+        {
+          "arquivo": "P18/result.json",
+          "bytes": 346
+        },
+        {
+          "arquivo": "P18/plate_1.gcode",
+          "bytes": 1788881
+        },
+        {
+          "arquivo": "P18/log.txt",
+          "bytes": 0
+        }
+      ]
+    },
+    {
+      "codigo": "P19",
+      "exit_code": 0,
+      "segundos_execucao": 0.52,
+      "arquivos": [
+        {
+          "arquivo": "P19/result.json",
+          "bytes": 346
+        },
+        {
+          "arquivo": "P19/plate_1.gcode",
+          "bytes": 1252250
+        },
+        {
+          "arquivo": "P19/log.txt",
+          "bytes": 0
+        }
+      ]
+    },
+    {
+      "codigo": "P20",
+      "exit_code": 0,
+      "segundos_execucao": 0.28,
+      "arquivos": [
+        {
+          "arquivo": "P20/result.json",
+          "bytes": 346
+        },
+        {
+          "arquivo": "P20/plate_1.gcode",
+          "bytes": 72518
+        },
+        {
+          "arquivo": "P20/log.txt",
+          "bytes": 0
+        }
+      ]
+    },
+    {
+      "codigo": "P22",
+      "exit_code": 0,
+      "segundos_execucao": 4.4,
+      "arquivos": [
+        {
+          "arquivo": "P22/result.json",
+          "bytes": 346
+        },
+        {
+          "arquivo": "P22/plate_1.gcode",
+          "bytes": 4028458
+        },
+        {
+          "arquivo": "P22/log.txt",
+          "bytes": 0
+        }
+      ]
+    },
+    {
+      "codigo": "P23",
+      "exit_code": 0,
+      "segundos_execucao": 0.92,
+      "arquivos": [
+        {
+          "arquivo": "P23/result.json",
+          "bytes": 346
+        },
+        {
+          "arquivo": "P23/plate_1.gcode",
+          "bytes": 1870768
+        },
+        {
+          "arquivo": "P23/log.txt",
+          "bytes": 0
+        }
+      ]
+    },
+    {
+      "codigo": "P24",
+      "exit_code": 0,
+      "segundos_execucao": 0.89,
+      "arquivos": [
+        {
+          "arquivo": "P24/result.json",
+          "bytes": 346
+        },
+        {
+          "arquivo": "P24/plate_1.gcode",
+          "bytes": 2774511
+        },
+        {
+          "arquivo": "P24/log.txt",
+          "bytes": 0
+        }
+      ]
+    },
+    {
+      "codigo": "P26",
+      "exit_code": 0,
+      "segundos_execucao": 0.31,
+      "arquivos": [
+        {
+          "arquivo": "P26/result.json",
+          "bytes": 346
+        },
+        {
+          "arquivo": "P26/plate_1.gcode",
+          "bytes": 667020
+        },
+        {
+          "arquivo": "P26/log.txt",
+          "bytes": 0
+        }
+      ]
+    },
+    {
+      "codigo": "P27",
+      "exit_code": 0,
+      "segundos_execucao": 0.26,
+      "arquivos": [
+        {
+          "arquivo": "P27/result.json",
+          "bytes": 345
+        },
+        {
+          "arquivo": "P27/plate_1.gcode",
+          "bytes": 213063
+        },
+        {
+          "arquivo": "P27/log.txt",
+          "bytes": 0
+        }
+      ]
+    },
+    {
+      "codigo": "P28",
+      "exit_code": 0,
+      "segundos_execucao": 0.32,
+      "arquivos": [
+        {
+          "arquivo": "P28/result.json",
+          "bytes": 345
+        },
+        {
+          "arquivo": "P28/plate_1.gcode",
+          "bytes": 202187
+        },
+        {
+          "arquivo": "P28/log.txt",
+          "bytes": 0
+        }
+      ]
+    },
+    {
+      "codigo": "P29",
+      "exit_code": 0,
+      "segundos_execucao": 0.37,
+      "arquivos": [
+        {
+          "arquivo": "P29/result.json",
+          "bytes": 346
+        },
+        {
+          "arquivo": "P29/plate_1.gcode",
+          "bytes": 374339
+        },
+        {
+          "arquivo": "P29/log.txt",
+          "bytes": 0
+        }
+      ]
+    },
+    {
+      "codigo": "P30",
+      "exit_code": 0,
+      "segundos_execucao": 0.37,
+      "arquivos": [
+        {
+          "arquivo": "P30/result.json",
+          "bytes": 346
+        },
+        {
+          "arquivo": "P30/plate_1.gcode",
+          "bytes": 637780
+        },
+        {
+          "arquivo": "P30/log.txt",
+          "bytes": 0
+        }
+      ]
+    },
+    {
+      "codigo": "P25",
+      "exit_code": 0,
+      "segundos_execucao": 0.57,
+      "arquivos": [
+        {
+          "arquivo": "P25/result.json",
+          "bytes": 346
+        },
+        {
+          "arquivo": "P25/plate_1.gcode",
+          "bytes": 1889497
+        },
+        {
+          "arquivo": "P25/log.txt",
+          "bytes": 0
+        }
+      ]
+    }
+  ],
+  "limites": "Auditoria de geometria/fatiamento. Não executar G-code de auditoria na impressora; não são presets fisicamente calibrados."
+}

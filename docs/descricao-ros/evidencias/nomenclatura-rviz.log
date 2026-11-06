@@ -1,0 +1,24 @@
+[INFO] [launch]: All log files can be found below /work/.ros/log/2026-11-06-10-33-42-158473-40d55a22d100-82
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [robot_state_publisher-1]: process started with pid [88]
+[INFO] [joint_state_publisher-2]: process started with pid [89]
+[INFO] [rviz2-3]: process started with pid [90]
+[robot_state_publisher-1] [WARN] [1793961222.316200049] [rcl]: ROS_LOCALHOST_ONLY is deprecated but still honored if it is enabled. Use ROS_AUTOMATIC_DISCOVERY_RANGE and ROS_STATIC_PEERS instead.
+[robot_state_publisher-1] [WARN] [1793961222.316219128] [rcl]: 'localhost_only' is enabled, 'automatic_discovery_range' and 'static_peers' will be ignored.
+[robot_state_publisher-1] [INFO] [1793961222.336688260] [robot_state_publisher]: Robot initialized
+[rviz2-3] [WARN] [1793961222.414997187] [rcl]: ROS_LOCALHOST_ONLY is deprecated but still honored if it is enabled. Use ROS_AUTOMATIC_DISCOVERY_RANGE and ROS_STATIC_PEERS instead.
+[rviz2-3] [WARN] [1793961222.415016009] [rcl]: 'localhost_only' is enabled, 'automatic_discovery_range' and 'static_peers' will be ignored.
+[rviz2-3] [INFO] [1793961222.597184942] [rviz2]: Stereo is NOT SUPPORTED
+[rviz2-3] [INFO] [1793961222.597361613] [rviz2]: OpenGl version: 4.5 (GLSL 4.5)
+[rviz2-3] [INFO] [1793961222.635220334] [rviz2]: Stereo is NOT SUPPORTED
+[joint_state_publisher-2] [WARN] [1793961222.748450570] [rcl]: ROS_LOCALHOST_ONLY is deprecated but still honored if it is enabled. Use ROS_AUTOMATIC_DISCOVERY_RANGE and ROS_STATIC_PEERS instead.
+[joint_state_publisher-2] [WARN] [1793961222.748463883] [rcl]: 'localhost_only' is enabled, 'automatic_discovery_range' and 'static_peers' will be ignored.
+[joint_state_publisher-2] [INFO] [1793961222.830875727] [joint_state_publisher]: Waiting for robot_description to be published on the robot_description topic...
+[joint_state_publisher-2] [INFO] [1793961222.946443264] [joint_state_publisher]: Got description, configuring robot
+[INFO] [rviz2-3]: process has finished cleanly [pid 90]
+[WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+[INFO] [joint_state_publisher-2]: sending signal 'SIGINT' to process[joint_state_publisher-2]
+[INFO] [robot_state_publisher-1]: sending signal 'SIGINT' to process[robot_state_publisher-1]
+[robot_state_publisher-1] [INFO] [1793961252.378023357] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[INFO] [robot_state_publisher-1]: process has finished cleanly [pid 88]
+[INFO] [joint_state_publisher-2]: process has finished cleanly [pid 89]

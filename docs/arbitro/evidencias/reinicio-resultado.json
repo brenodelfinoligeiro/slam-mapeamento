@@ -1,0 +1,7 @@
+{
+  "reinicio_completo_manual": true,
+  "movimento_manual": true,
+  "status": "OK",
+  "encerramento_limpo": true,
+  "limite": "Comandos autônomos são entradas sintéticas de teste; nenhum Nav2 ou hardware."
+}

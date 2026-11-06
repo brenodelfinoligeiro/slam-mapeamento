@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>navegacao_simulada</name><version>0.0.0</version>
+  <description>Pacote ROS 2 de simulação: navegacao_simulada.</description>
+  <maintainer email="a_definir@example.com">lamggm</maintainer><license>A definir</license>
+  <buildtool_depend>ament_python</buildtool_depend>
+  <exec_depend>robo_movel</exec_depend>
+  <exec_depend>simulador_base</exec_depend>
+  <exec_depend>comando_rodas</exec_depend>
+  <exec_depend>odometria_rodas</exec_depend>
+  <exec_depend>processamento_imu</exec_depend>
+  <exec_depend>fusao_sensores</exec_depend>
+  <exec_depend>teleoperacao</exec_depend>
+  <exec_depend>launch</exec_depend>
+  <exec_depend>launch_ros</exec_depend>
+  <exec_depend>ament_index_python</exec_depend>
+  <exec_depend>rviz2</exec_depend>
+  <exec_depend>tf2_ros</exec_depend>
+  <exec_depend>python3-yaml</exec_depend>
+  <test_depend>python3-pytest</test_depend>
+  <export><build_type>ament_python</build_type></export>
+</package>

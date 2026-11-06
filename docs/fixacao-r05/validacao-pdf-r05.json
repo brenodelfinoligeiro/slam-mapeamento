@@ -1,0 +1,395 @@
+{
+  "status": "OK",
+  "paginas": 41,
+  "paginas_guia": 12,
+  "fichas_unicas": 29,
+  "vistas": 174,
+  "paginas_rasterizadas": 41,
+  "sha256_pdf": "836683bf5a401fdbbca18e5b20d21a302636989ebe59721d181a285376d125f1",
+  "sha256_zip": "967d1fbb9576fbf6cdba61af58f72dce696ec9b010bf9431ac60931b61c851dd",
+  "fichas": [
+    {
+      "pagina": 13,
+      "codigo": "P01",
+      "imagens": 6,
+      "vistas": [
+        "SUPERIOR (+Z)",
+        "FRONTAL (-Y)",
+        "DIREITA (+X)",
+        "INFERIOR (-Z)",
+        "TRASEIRA (+Y)",
+        "ESQUERDA (-X)"
+      ]
+    },
+    {
+      "pagina": 14,
+      "codigo": "P02",
+      "imagens": 6,
+      "vistas": [
+        "SUPERIOR (+Z)",
+        "FRONTAL (-Y)",
+        "DIREITA (+X)",
+        "INFERIOR (-Z)",
+        "TRASEIRA (+Y)",
+        "ESQUERDA (-X)"
+      ]
+    },
+    {
+      "pagina": 15,
+      "codigo": "P03",
+      "imagens": 6,
+      "vistas": [
+        "SUPERIOR (+Z)",
+        "FRONTAL (-Y)",
+        "DIREITA (+X)",
+        "INFERIOR (-Z)",
+        "TRASEIRA (+Y)",
+        "ESQUERDA (-X)"
+      ]
+    },
+    {
+      "pagina": 16,
+      "codigo": "P04",
+      "imagens": 6,
+      "vistas": [
+        "SUPERIOR (+Z)",
+        "FRONTAL (-Y)",
+        "DIREITA (+X)",
+        "INFERIOR (-Z)",
+        "TRASEIRA (+Y)",
+        "ESQUERDA (-X)"
+      ]
+    },
+    {
+      "pagina": 17,
+      "codigo": "P05",
+      "imagens": 6,
+      "vistas": [
+        "SUPERIOR (+Z)",
+        "FRONTAL (-Y)",
+        "DIREITA (+X)",
+        "INFERIOR (-Z)",
+        "TRASEIRA (+Y)",
+        "ESQUERDA (-X)"
+      ]
+    },
+    {
+      "pagina": 18,
+      "codigo": "P06",
+      "imagens": 6,
+      "vistas": [
+        "SUPERIOR (+Z)",
+        "FRONTAL (-Y)",
+        "DIREITA (+X)",
+        "INFERIOR (-Z)",
+        "TRASEIRA (+Y)",
+        "ESQUERDA (-X)"
+      ]
+    },
+    {
+      "pagina": 19,
+      "codigo": "P07",
+      "imagens": 6,
+      "vistas": [
+        "SUPERIOR (+Z)",
+        "FRONTAL (-Y)",
+        "DIREITA (+X)",
+        "INFERIOR (-Z)",
+        "TRASEIRA (+Y)",
+        "ESQUERDA (-X)"
+      ]
+    },
+    {
+      "pagina": 20,
+      "codigo": "P08",
+      "imagens": 6,
+      "vistas": [
+        "SUPERIOR (+Z)",
+        "FRONTAL (-Y)",
+        "DIREITA (+X)",
+        "INFERIOR (-Z)",
+        "TRASEIRA (+Y)",
+        "ESQUERDA (-X)"
+      ]
+    },
+    {
+      "pagina": 21,
+      "codigo": "P09",
+      "imagens": 6,
+      "vistas": [
+        "SUPERIOR (+Z)",
+        "FRONTAL (-Y)",
+        "DIREITA (+X)",
+        "INFERIOR (-Z)",
+        "TRASEIRA (+Y)",
+        "ESQUERDA (-X)"
+      ]
+    },
+    {
+      "pagina": 22,
+      "codigo": "P10",
+      "imagens": 6,
+      "vistas": [
+        "SUPERIOR (+Z)",
+        "FRONTAL (-Y)",
+        "DIREITA (+X)",
+        "INFERIOR (-Z)",
+        "TRASEIRA (+Y)",
+        "ESQUERDA (-X)"
+      ]
+    },
+    {
+      "pagina": 23,
+      "codigo": "P11",
+      "imagens": 6,
+      "vistas": [
+        "SUPERIOR (+Z)",
+        "FRONTAL (-Y)",
+        "DIREITA (+X)",
+        "INFERIOR (-Z)",
+        "TRASEIRA (+Y)",
+        "ESQUERDA (-X)"
+      ]
+    },
+    {
+      "pagina": 24,
+      "codigo": "P12",
+      "imagens": 6,
+      "vistas": [
+        "SUPERIOR (+Z)",
+        "FRONTAL (-Y)",
+        "DIREITA (+X)",
+        "INFERIOR (-Z)",
+        "TRASEIRA (+Y)",
+        "ESQUERDA (-X)"
+      ]
+    },
+    {
+      "pagina": 25,
+      "codigo": "P13",
+      "imagens": 6,
+      "vistas": [
+        "SUPERIOR (+Z)",
+        "FRONTAL (-Y)",
+        "DIREITA (+X)",
+        "INFERIOR (-Z)",
+        "TRASEIRA (+Y)",
+        "ESQUERDA (-X)"
+      ]
+    },
+    {
+      "pagina": 26,
+      "codigo": "P14",
+      "imagens": 6,
+      "vistas": [
+        "SUPERIOR (+Z)",
+        "FRONTAL (-Y)",
+        "DIREITA (+X)",
+        "INFERIOR (-Z)",
+        "TRASEIRA (+Y)",
+        "ESQUERDA (-X)"
+      ]
+    },
+    {
+      "pagina": 27,
+      "codigo": "P15",
+      "imagens": 6,
+      "vistas": [
+        "SUPERIOR (+Z)",
+        "FRONTAL (-Y)",
+        "DIREITA (+X)",
+        "INFERIOR (-Z)",
+        "TRASEIRA (+Y)",
+        "ESQUERDA (-X)"
+      ]
+    },
+    {
+      "pagina": 28,
+      "codigo": "P16",
+      "imagens": 6,
+      "vistas": [
+        "SUPERIOR (+Z)",
+        "FRONTAL (-Y)",
+        "DIREITA (+X)",
+        "INFERIOR (-Z)",
+        "TRASEIRA (+Y)",
+        "ESQUERDA (-X)"
+      ]
+    },
+    {
+      "pagina": 29,
+      "codigo": "P17",
+      "imagens": 6,
+      "vistas": [
+        "SUPERIOR (+Z)",
+        "FRONTAL (-Y)",
+        "DIREITA (+X)",
+        "INFERIOR (-Z)",
+        "TRASEIRA (+Y)",
+        "ESQUERDA (-X)"
+      ]
+    },
+    {
+      "pagina": 30,
+      "codigo": "P18",
+      "imagens": 6,
+      "vistas": [
+        "SUPERIOR (+Z)",
+        "FRONTAL (-Y)",
+        "DIREITA (+X)",
+        "INFERIOR (-Z)",
+        "TRASEIRA (+Y)",
+        "ESQUERDA (-X)"
+      ]
+    },
+    {
+      "pagina": 31,
+      "codigo": "P19",
+      "imagens": 6,
+      "vistas": [
+        "SUPERIOR (+Z)",
+        "FRONTAL (-Y)",
+        "DIREITA (+X)",
+        "INFERIOR (-Z)",
+        "TRASEIRA (+Y)",
+        "ESQUERDA (-X)"
+      ]
+    },
+    {
+      "pagina": 32,
+      "codigo": "P20",
+      "imagens": 6,
+      "vistas": [
+        "SUPERIOR (+Z)",
+        "FRONTAL (-Y)",
+        "DIREITA (+X)",
+        "INFERIOR (-Z)",
+        "TRASEIRA (+Y)",
+        "ESQUERDA (-X)"
+      ]
+    },
+    {
+      "pagina": 33,
+      "codigo": "P22",
+      "imagens": 6,
+      "vistas": [
+        "SUPERIOR (+Z)",
+        "FRONTAL (-Y)",
+        "DIREITA (+X)",
+        "INFERIOR (-Z)",
+        "TRASEIRA (+Y)",
+        "ESQUERDA (-X)"
+      ]
+    },
+    {
+      "pagina": 34,
+      "codigo": "P23",
+      "imagens": 6,
+      "vistas": [
+        "SUPERIOR (+Z)",
+        "FRONTAL (-Y)",
+        "DIREITA (+X)",
+        "INFERIOR (-Z)",
+        "TRASEIRA (+Y)",
+        "ESQUERDA (-X)"
+      ]
+    },
+    {
+      "pagina": 35,
+      "codigo": "P24",
+      "imagens": 6,
+      "vistas": [
+        "SUPERIOR (+Z)",
+        "FRONTAL (-Y)",
+        "DIREITA (+X)",
+        "INFERIOR (-Z)",
+        "TRASEIRA (+Y)",
+        "ESQUERDA (-X)"
+      ]
+    },
+    {
+      "pagina": 36,
+      "codigo": "P26",
+      "imagens": 6,
+      "vistas": [
+        "SUPERIOR (+Z)",
+        "FRONTAL (-Y)",
+        "DIREITA (+X)",
+        "INFERIOR (-Z)",
+        "TRASEIRA (+Y)",
+        "ESQUERDA (-X)"
+      ]
+    },
+    {
+      "pagina": 37,
+      "codigo": "P27",
+      "imagens": 6,
+      "vistas": [
+        "SUPERIOR (+Z)",
+        "FRONTAL (-Y)",
+        "DIREITA (+X)",
+        "INFERIOR (-Z)",
+        "TRASEIRA (+Y)",
+        "ESQUERDA (-X)"
+      ]
+    },
+    {
+      "pagina": 38,
+      "codigo": "P28",
+      "imagens": 6,
+      "vistas": [
+        "SUPERIOR (+Z)",
+        "FRONTAL (-Y)",
+        "DIREITA (+X)",
+        "INFERIOR (-Z)",
+        "TRASEIRA (+Y)",
+        "ESQUERDA (-X)"
+      ]
+    },
+    {
+      "pagina": 39,
+      "codigo": "P29",
+      "imagens": 6,
+      "vistas": [
+        "SUPERIOR (+Z)",
+        "FRONTAL (-Y)",
+        "DIREITA (+X)",
+        "INFERIOR (-Z)",
+        "TRASEIRA (+Y)",
+        "ESQUERDA (-X)"
+      ]
+    },
+    {
+      "pagina": 40,
+      "codigo": "P30",
+      "imagens": 6,
+      "vistas": [
+        "SUPERIOR (+Z)",
+        "FRONTAL (-Y)",
+        "DIREITA (+X)",
+        "INFERIOR (-Z)",
+        "TRASEIRA (+Y)",
+        "ESQUERDA (-X)"
+      ]
+    },
+    {
+      "pagina": 41,
+      "codigo": "P25",
+      "imagens": 6,
+      "vistas": [
+        "SUPERIOR (+Z)",
+        "FRONTAL (-Y)",
+        "DIREITA (+X)",
+        "INFERIOR (-Z)",
+        "TRASEIRA (+Y)",
+        "ESQUERDA (-X)"
+      ]
+    }
+  ],
+  "contatos": [
+    "/home/lamggm/.hermes/cache/scratch/slamderson-parent-r05/qc/contato-1.jpg",
+    "/home/lamggm/.hermes/cache/scratch/slamderson-parent-r05/qc/contato-2.jpg",
+    "/home/lamggm/.hermes/cache/scratch/slamderson-parent-r05/qc/contato-3.jpg"
+  ],
+  "limites": "Auditoria documental e renderizacao; nao comprova montagem fisica."
+}

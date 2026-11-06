@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/workspace/docs/slam/validar-slam.py", line 162, in main
+    try:resultado=ensaiar(sonda,pasta,opcoes.modo,grafo)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/docs/slam/validar-slam.py", line 135, in ensaiar
+    assert res.returncode==0,(res.stdout,res.stderr)
+           ^^^^^^^^^^^^^^^^^
+AssertionError: ('[ros2run]: Process exited with failure 1\n', 'Falha ao salvar mapa: save_map: resposta sem sucesso: slam_toolbox.srv.SaveMap_Response(result=255). Arquivos parciais podem permanecer; use outro prefixo.\n')

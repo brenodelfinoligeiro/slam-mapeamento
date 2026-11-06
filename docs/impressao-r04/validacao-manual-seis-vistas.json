@@ -1,0 +1,2663 @@
+{
+  "paginas": 34,
+  "paginas_montagem": 10,
+  "modelos_unicos": 24,
+  "vistas_ortograficas": 144,
+  "imagens_montagem": 7,
+  "sha256_zip": "997715419fcd7338442b5ebf533651159580ad91e552318e37973d38fe7766a7",
+  "sha256_FCStd": "16ca3f9444c7220ee7c2c242216b445af8a35063648882fa76ef10af85b103dd",
+  "sha256_pdf": "119b012c417b8165fef11fee8289ff42ec49574caab4157e369f1be860262e16",
+  "bytes_pdf": 4415985,
+  "fichas": [
+    {
+      "pagina": 11,
+      "codigo": "P01",
+      "arquivo_zip": "P01_Saia_dianteira_1x.stl",
+      "sha256": "4d86404af57491d91eaefc509be8a83d0a46bae4d0b8436f84c73bd8bddbb2c0",
+      "vistas": [
+        "P01_superior.png",
+        "P01_frontal.png",
+        "P01_lateral.png",
+        "P01_inferior.png",
+        "P01_traseira.png",
+        "P01_esquerda.png"
+      ]
+    },
+    {
+      "pagina": 12,
+      "codigo": "P02",
+      "arquivo_zip": "P02_Saia_traseira_1x.stl",
+      "sha256": "95bea05743be82e8293c745896d0d911f2daa5c6bef8ecb205c9097c0b7170de",
+      "vistas": [
+        "P02_superior.png",
+        "P02_frontal.png",
+        "P02_lateral.png",
+        "P02_inferior.png",
+        "P02_traseira.png",
+        "P02_esquerda.png"
+      ]
+    },
+    {
+      "pagina": 13,
+      "codigo": "P03",
+      "arquivo_zip": "P03_Teto_dianteiro_esquerdo_1x.stl",
+      "sha256": "cff75393648bab4c7224c07ba3600220d44dba2aefa8aeccd0be04d5a5d3da9a",
+      "vistas": [
+        "P03_superior.png",
+        "P03_frontal.png",
+        "P03_lateral.png",
+        "P03_inferior.png",
+        "P03_traseira.png",
+        "P03_esquerda.png"
+      ]
+    },
+    {
+      "pagina": 14,
+      "codigo": "P04",
+      "arquivo_zip": "P04_Teto_dianteiro_direito_1x.stl",
+      "sha256": "7d40c84664d91fcf0e4bdd96666b68e66c382a8c447c67914a8f2981fb644864",
+      "vistas": [
+        "P04_superior.png",
+        "P04_frontal.png",
+        "P04_lateral.png",
+        "P04_inferior.png",
+        "P04_traseira.png",
+        "P04_esquerda.png"
+      ]
+    },
+    {
+      "pagina": 15,
+      "codigo": "P05",
+      "arquivo_zip": "P05_Teto_traseiro_esquerdo_1x.stl",
+      "sha256": "cbee04335b8935be0ef3b1076ea93f4711c721d3ac5f9ecf09a0a100a0e3c556",
+      "vistas": [
+        "P05_superior.png",
+        "P05_frontal.png",
+        "P05_lateral.png",
+        "P05_inferior.png",
+        "P05_traseira.png",
+        "P05_esquerda.png"
+      ]
+    },
+    {
+      "pagina": 16,
+      "codigo": "P06",
+      "arquivo_zip": "P06_Teto_traseiro_direito_1x.stl",
+      "sha256": "6d82fe23327e3e1f063db90f97aef3a2059bb1906b305a6c06774fd8ba4fa727",
+      "vistas": [
+        "P06_superior.png",
+        "P06_frontal.png",
+        "P06_lateral.png",
+        "P06_inferior.png",
+        "P06_traseira.png",
+        "P06_esquerda.png"
+      ]
+    },
+    {
+      "pagina": 17,
+      "codigo": "P07",
+      "arquivo_zip": "P07_Portinhola_AA_1x.stl",
+      "sha256": "cf1f7453cd7839f2dd50fba52d7dceb196f08824a0812ebcee31017e6eea07c0",
+      "vistas": [
+        "P07_superior.png",
+        "P07_frontal.png",
+        "P07_lateral.png",
+        "P07_inferior.png",
+        "P07_traseira.png",
+        "P07_esquerda.png"
+      ]
+    },
+    {
+      "pagina": 18,
+      "codigo": "P08",
+      "arquivo_zip": "P08_Portinhola_PB_1x.stl",
+      "sha256": "1bfffc7264790b811e76c5c2d6b5344d560cb3c779226cda1e75af8afcd7b838",
+      "vistas": [
+        "P08_superior.png",
+        "P08_frontal.png",
+        "P08_lateral.png",
+        "P08_inferior.png",
+        "P08_traseira.png",
+        "P08_esquerda.png"
+      ]
+    },
+    {
+      "pagina": 19,
+      "codigo": "P09",
+      "arquivo_zip": "P09_Painel_lateral_PB_1x.stl",
+      "sha256": "5b226087c91d920c73ab79ebe12c1953a8cdb400e216f2ab46007b4a5aa5f3d0",
+      "vistas": [
+        "P09_superior.png",
+        "P09_frontal.png",
+        "P09_lateral.png",
+        "P09_inferior.png",
+        "P09_traseira.png",
+        "P09_esquerda.png"
+      ]
+    },
+    {
+      "pagina": 20,
+      "codigo": "P10",
+      "arquivo_zip": "P10_Uniao_interna_teto_2x.stl",
+      "sha256": "8a4e6f3b1c3effe2cb20a4333bc34bde59145425b9176a5c6a3802c0c9a0e1b2",
+      "vistas": [
+        "P10_superior.png",
+        "P10_frontal.png",
+        "P10_lateral.png",
+        "P10_inferior.png",
+        "P10_traseira.png",
+        "P10_esquerda.png"
+      ]
+    },
+    {
+      "pagina": 21,
+      "codigo": "P11",
+      "arquivo_zip": "P11_Clipe_retencao_tampas_4x.stl",
+      "sha256": "27761808462d0695ef6cd5b9d644b118f6b23ef43a5bbfbf4bb43105f2fd715a",
+      "vistas": [
+        "P11_superior.png",
+        "P11_frontal.png",
+        "P11_lateral.png",
+        "P11_inferior.png",
+        "P11_traseira.png",
+        "P11_esquerda.png"
+      ]
+    },
+    {
+      "pagina": 22,
+      "codigo": "P12",
+      "arquivo_zip": "P12_Piso_superior_1x.stl",
+      "sha256": "39fed69f8fe2d8cf58782156200af9890771083adcf7997f6a7055ca14cd042f",
+      "vistas": [
+        "P12_superior.png",
+        "P12_frontal.png",
+        "P12_lateral.png",
+        "P12_inferior.png",
+        "P12_traseira.png",
+        "P12_esquerda.png"
+      ]
+    },
+    {
+      "pagina": 23,
+      "codigo": "P13",
+      "arquivo_zip": "P13_Berco_Basike_1x.stl",
+      "sha256": "fc24dad723ec621eb4e3e32eaecaec9af9cf9c9cbe36cfb4ff82c90bada32171",
+      "vistas": [
+        "P13_superior.png",
+        "P13_frontal.png",
+        "P13_lateral.png",
+        "P13_inferior.png",
+        "P13_traseira.png",
+        "P13_esquerda.png"
+      ]
+    },
+    {
+      "pagina": 24,
+      "codigo": "P14",
+      "arquivo_zip": "P14_Berco_holder_quatro_AA_1x.stl",
+      "sha256": "b1b23c37ae24a83e8e5f13b6f455f2743947c376bd79ca518a779588188dcdbd",
+      "vistas": [
+        "P14_superior.png",
+        "P14_frontal.png",
+        "P14_lateral.png",
+        "P14_inferior.png",
+        "P14_traseira.png",
+        "P14_esquerda.png"
+      ]
+    },
+    {
+      "pagina": 25,
+      "codigo": "P15",
+      "arquivo_zip": "P15_Coluna_principal_dianteira_2x.stl",
+      "sha256": "abf39d4d87a1c1f7bb69e646f792eca2906718abb516e0bc2e0dcbd4418c25f2",
+      "vistas": [
+        "P15_superior.png",
+        "P15_frontal.png",
+        "P15_lateral.png",
+        "P15_inferior.png",
+        "P15_traseira.png",
+        "P15_esquerda.png"
+      ]
+    },
+    {
+      "pagina": 26,
+      "codigo": "P16",
+      "arquivo_zip": "P16_Coluna_principal_traseira_2x.stl",
+      "sha256": "7c3299650ce6383b7c71608cfe2ad386a01e756899ecc643f4945fa1934364fa",
+      "vistas": [
+        "P16_superior.png",
+        "P16_frontal.png",
+        "P16_lateral.png",
+        "P16_inferior.png",
+        "P16_traseira.png",
+        "P16_esquerda.png"
+      ]
+    },
+    {
+      "pagina": 27,
+      "codigo": "P17",
+      "arquivo_zip": "P17_Travessa_traseira_2x.stl",
+      "sha256": "2be641f52fa45b3c6520735fd18e4e1709adbaf9112e04156c5562e7d1ac336e",
+      "vistas": [
+        "P17_superior.png",
+        "P17_frontal.png",
+        "P17_lateral.png",
+        "P17_inferior.png",
+        "P17_traseira.png",
+        "P17_esquerda.png"
+      ]
+    },
+    {
+      "pagina": 28,
+      "codigo": "P18",
+      "arquivo_zip": "P18_Coluna_C1_2x.stl",
+      "sha256": "85cfca87a958185ad3e7e055265317c022ce0c180e6d4fb77aece67751cf4019",
+      "vistas": [
+        "P18_superior.png",
+        "P18_frontal.png",
+        "P18_lateral.png",
+        "P18_inferior.png",
+        "P18_traseira.png",
+        "P18_esquerda.png"
+      ]
+    },
+    {
+      "pagina": 29,
+      "codigo": "P19",
+      "arquivo_zip": "P19_Base_compacta_C1_1x.stl",
+      "sha256": "d1cf8a100cf5afc080e90f43af14f4514a041e0b168d0b9188a75eb92d978c8d",
+      "vistas": [
+        "P19_superior.png",
+        "P19_frontal.png",
+        "P19_lateral.png",
+        "P19_inferior.png",
+        "P19_traseira.png",
+        "P19_esquerda.png"
+      ]
+    },
+    {
+      "pagina": 30,
+      "codigo": "P20",
+      "arquivo_zip": "P20_Espacador_C1_4x.stl",
+      "sha256": "1380a3d17623eba04756032519329dd03b2ffc0192f07a3761e8eeb8e7943d8b",
+      "vistas": [
+        "P20_superior.png",
+        "P20_frontal.png",
+        "P20_lateral.png",
+        "P20_inferior.png",
+        "P20_traseira.png",
+        "P20_esquerda.png"
+      ]
+    },
+    {
+      "pagina": 31,
+      "codigo": "P21",
+      "arquivo_zip": "P21_Espacador_Pi_seis_mm_4x.stl",
+      "sha256": "a64b45ab003817b47e09d891c7550430df63cd0ff0c5f078023156c77a664004",
+      "vistas": [
+        "P21_superior.png",
+        "P21_frontal.png",
+        "P21_lateral.png",
+        "P21_inferior.png",
+        "P21_traseira.png",
+        "P21_esquerda.png"
+      ]
+    },
+    {
+      "pagina": 32,
+      "codigo": "P22",
+      "arquivo_zip": "P22_Espacador_L298N_dez_mm_4x.stl",
+      "sha256": "1ba3f90193c2ee5be33fcca98f269aef1b587304eb576441accc7cce57285155",
+      "vistas": [
+        "P22_superior.png",
+        "P22_frontal.png",
+        "P22_lateral.png",
+        "P22_inferior.png",
+        "P22_traseira.png",
+        "P22_esquerda.png"
+      ]
+    },
+    {
+      "pagina": 33,
+      "codigo": "P23",
+      "arquivo_zip": "P23_Espacador_MPU_quatro_mm_2x.stl",
+      "sha256": "b18d9ca45a2d8ac78f76dff50347537caeabc47013e9a9de471278bc56357747",
+      "vistas": [
+        "P23_superior.png",
+        "P23_frontal.png",
+        "P23_lateral.png",
+        "P23_inferior.png",
+        "P23_traseira.png",
+        "P23_esquerda.png"
+      ]
+    },
+    {
+      "pagina": 34,
+      "codigo": "P24",
+      "arquivo_zip": "P24_Berco_ESP_por_velcro_1x.stl",
+      "sha256": "a98367c7513929a39fcaf5c83eb01ff911b5961b80003c26b2028754be95dc87",
+      "vistas": [
+        "P24_superior.png",
+        "P24_frontal.png",
+        "P24_lateral.png",
+        "P24_inferior.png",
+        "P24_traseira.png",
+        "P24_esquerda.png"
+      ]
+    }
+  ],
+  "boxes": [
+    {
+      "pagina": 1,
+      "tipo": "texto",
+      "bbox_mm": [
+        12,
+        178.809,
+        285,
+        183
+      ]
+    },
+    {
+      "pagina": 1,
+      "tipo": "texto",
+      "bbox_mm": [
+        12,
+        162.76125,
+        143,
+        168
+      ]
+    },
+    {
+      "pagina": 1,
+      "tipo": "texto",
+      "bbox_mm": [
+        12,
+        145.47375,
+        143,
+        159.76125
+      ]
+    },
+    {
+      "pagina": 1,
+      "tipo": "texto",
+      "bbox_mm": [
+        12,
+        133.23499999999999,
+        143,
+        138.47375
+      ]
+    },
+    {
+      "pagina": 1,
+      "tipo": "texto",
+      "bbox_mm": [
+        12,
+        111.18499999999999,
+        143,
+        130.23499999999999
+      ]
+    },
+    {
+      "pagina": 1,
+      "tipo": "texto",
+      "bbox_mm": [
+        12,
+        98.94624999999999,
+        143,
+        104.18499999999999
+      ]
+    },
+    {
+      "pagina": 1,
+      "tipo": "texto",
+      "bbox_mm": [
+        12,
+        76.89625,
+        143,
+        95.94624999999999
+      ]
+    },
+    {
+      "pagina": 1,
+      "tipo": "texto",
+      "bbox_mm": [
+        154,
+        162.76125,
+        285,
+        168
+      ]
+    },
+    {
+      "pagina": 1,
+      "tipo": "texto",
+      "bbox_mm": [
+        154,
+        140.71125,
+        285,
+        159.76125
+      ]
+    },
+    {
+      "pagina": 1,
+      "tipo": "texto",
+      "bbox_mm": [
+        154,
+        128.4725,
+        285,
+        133.71125
+      ]
+    },
+    {
+      "pagina": 1,
+      "tipo": "texto",
+      "bbox_mm": [
+        154,
+        106.4225,
+        285,
+        125.4725
+      ]
+    },
+    {
+      "pagina": 2,
+      "tipo": "texto",
+      "bbox_mm": [
+        12,
+        178.809,
+        285,
+        183
+      ]
+    },
+    {
+      "pagina": 2,
+      "tipo": "tabela",
+      "bbox_mm": [
+        12,
+        26.75,
+        285,
+        168
+      ]
+    },
+    {
+      "pagina": 2,
+      "tipo": "texto",
+      "bbox_mm": [
+        12,
+        18.65425,
+        285,
+        22.75
+      ]
+    },
+    {
+      "pagina": 3,
+      "tipo": "texto",
+      "bbox_mm": [
+        12,
+        178.809,
+        285,
+        183
+      ]
+    },
+    {
+      "pagina": 3,
+      "tipo": "tabela",
+      "bbox_mm": [
+        12,
+        104.10000000000001,
+        285,
+        168
+      ]
+    },
+    {
+      "pagina": 3,
+      "tipo": "texto",
+      "bbox_mm": [
+        12,
+        93.3375,
+        285,
+        98.10000000000001
+      ]
+    },
+    {
+      "pagina": 3,
+      "tipo": "texto",
+      "bbox_mm": [
+        12,
+        82.47925000000001,
+        285,
+        91.3375
+      ]
+    },
+    {
+      "pagina": 3,
+      "tipo": "texto",
+      "bbox_mm": [
+        12,
+        73.71675,
+        285,
+        78.47925000000001
+      ]
+    },
+    {
+      "pagina": 3,
+      "tipo": "texto",
+      "bbox_mm": [
+        12,
+        62.85850000000001,
+        285,
+        71.71675
+      ]
+    },
+    {
+      "pagina": 3,
+      "tipo": "texto",
+      "bbox_mm": [
+        12,
+        54.096000000000004,
+        285,
+        58.85850000000001
+      ]
+    },
+    {
+      "pagina": 3,
+      "tipo": "texto",
+      "bbox_mm": [
+        12,
+        43.237750000000005,
+        285,
+        52.096000000000004
+      ]
+    },
+    {
+      "pagina": 4,
+      "tipo": "texto",
+      "bbox_mm": [
+        12,
+        178.809,
+        285,
+        183
+      ]
+    },
+    {
+      "pagina": 4,
+      "tipo": "tabela",
+      "bbox_mm": [
+        12,
+        45.599999999999994,
+        285,
+        168
+      ]
+    },
+    {
+      "pagina": 4,
+      "tipo": "texto",
+      "bbox_mm": [
+        12,
+        33.21799999999999,
+        285,
+        41.599999999999994
+      ]
+    },
+    {
+      "pagina": 5,
+      "tipo": "texto",
+      "bbox_mm": [
+        12,
+        59.71325,
+        151,
+        68
+      ]
+    },
+    {
+      "pagina": 5,
+      "tipo": "texto",
+      "bbox_mm": [
+        165,
+        149.712,
+        285,
+        168
+      ]
+    },
+    {
+      "pagina": 5,
+      "tipo": "texto",
+      "bbox_mm": [
+        165,
+        127.92399999999999,
+        285,
+        146.212
+      ]
+    },
+    {
+      "pagina": 5,
+      "tipo": "texto",
+      "bbox_mm": [
+        165,
+        110.708,
+        285,
+        124.42399999999999
+      ]
+    },
+    {
+      "pagina": 5,
+      "tipo": "texto",
+      "bbox_mm": [
+        165,
+        88.92,
+        285,
+        107.208
+      ]
+    },
+    {
+      "pagina": 5,
+      "tipo": "texto",
+      "bbox_mm": [
+        165,
+        67.132,
+        285,
+        85.42
+      ]
+    },
+    {
+      "pagina": 5,
+      "tipo": "texto",
+      "bbox_mm": [
+        168,
+        54.202875000000006,
+        282,
+        58.632000000000005
+      ]
+    },
+    {
+      "pagina": 5,
+      "tipo": "texto",
+      "bbox_mm": [
+        168,
+        39.344125000000005,
+        282,
+        52.202875000000006
+      ]
+    },
+    {
+      "pagina": 6,
+      "tipo": "texto",
+      "bbox_mm": [
+        12,
+        63.856625,
+        151,
+        68
+      ]
+    },
+    {
+      "pagina": 6,
+      "tipo": "texto",
+      "bbox_mm": [
+        165,
+        149.712,
+        285,
+        168
+      ]
+    },
+    {
+      "pagina": 6,
+      "tipo": "texto",
+      "bbox_mm": [
+        165,
+        127.92399999999999,
+        285,
+        146.212
+      ]
+    },
+    {
+      "pagina": 6,
+      "tipo": "texto",
+      "bbox_mm": [
+        165,
+        110.708,
+        285,
+        124.42399999999999
+      ]
+    },
+    {
+      "pagina": 6,
+      "tipo": "texto",
+      "bbox_mm": [
+        165,
+        88.92,
+        285,
+        107.208
+      ]
+    },
+    {
+      "pagina": 6,
+      "tipo": "texto",
+      "bbox_mm": [
+        165,
+        71.70400000000001,
+        285,
+        85.42
+      ]
+    },
+    {
+      "pagina": 6,
+      "tipo": "texto",
+      "bbox_mm": [
+        168,
+        58.77487500000001,
+        282,
+        63.20400000000001
+      ]
+    },
+    {
+      "pagina": 6,
+      "tipo": "texto",
+      "bbox_mm": [
+        168,
+        48.20237500000001,
+        282,
+        56.77487500000001
+      ]
+    },
+    {
+      "pagina": 7,
+      "tipo": "texto",
+      "bbox_mm": [
+        12,
+        59.71325,
+        151,
+        68
+      ]
+    },
+    {
+      "pagina": 7,
+      "tipo": "texto",
+      "bbox_mm": [
+        165,
+        149.712,
+        285,
+        168
+      ]
+    },
+    {
+      "pagina": 7,
+      "tipo": "texto",
+      "bbox_mm": [
+        165,
+        127.92399999999999,
+        285,
+        146.212
+      ]
+    },
+    {
+      "pagina": 7,
+      "tipo": "texto",
+      "bbox_mm": [
+        165,
+        106.136,
+        285,
+        124.42399999999999
+      ]
+    },
+    {
+      "pagina": 7,
+      "tipo": "texto",
+      "bbox_mm": [
+        165,
+        88.92,
+        285,
+        102.636
+      ]
+    },
+    {
+      "pagina": 7,
+      "tipo": "texto",
+      "bbox_mm": [
+        165,
+        71.70400000000001,
+        285,
+        85.42
+      ]
+    },
+    {
+      "pagina": 7,
+      "tipo": "texto",
+      "bbox_mm": [
+        168,
+        58.77487500000001,
+        282,
+        63.20400000000001
+      ]
+    },
+    {
+      "pagina": 7,
+      "tipo": "texto",
+      "bbox_mm": [
+        168,
+        43.91612500000001,
+        282,
+        56.77487500000001
+      ]
+    },
+    {
+      "pagina": 8,
+      "tipo": "texto",
+      "bbox_mm": [
+        12,
+        59.71325,
+        151,
+        68
+      ]
+    },
+    {
+      "pagina": 8,
+      "tipo": "texto",
+      "bbox_mm": [
+        165,
+        154.284,
+        285,
+        168
+      ]
+    },
+    {
+      "pagina": 8,
+      "tipo": "texto",
+      "bbox_mm": [
+        165,
+        132.49599999999998,
+        285,
+        150.784
+      ]
+    },
+    {
+      "pagina": 8,
+      "tipo": "texto",
+      "bbox_mm": [
+        165,
+        110.70799999999998,
+        285,
+        128.99599999999998
+      ]
+    },
+    {
+      "pagina": 8,
+      "tipo": "texto",
+      "bbox_mm": [
+        165,
+        93.49199999999999,
+        285,
+        107.20799999999998
+      ]
+    },
+    {
+      "pagina": 8,
+      "tipo": "texto",
+      "bbox_mm": [
+        165,
+        76.276,
+        285,
+        89.99199999999999
+      ]
+    },
+    {
+      "pagina": 8,
+      "tipo": "texto",
+      "bbox_mm": [
+        168,
+        63.346875,
+        282,
+        67.776
+      ]
+    },
+    {
+      "pagina": 8,
+      "tipo": "texto",
+      "bbox_mm": [
+        168,
+        48.488125,
+        282,
+        61.346875
+      ]
+    },
+    {
+      "pagina": 9,
+      "tipo": "texto",
+      "bbox_mm": [
+        12,
+        59.71325,
+        151,
+        68
+      ]
+    },
+    {
+      "pagina": 9,
+      "tipo": "texto",
+      "bbox_mm": [
+        165,
+        149.712,
+        285,
+        168
+      ]
+    },
+    {
+      "pagina": 9,
+      "tipo": "texto",
+      "bbox_mm": [
+        165,
+        132.49599999999998,
+        285,
+        146.212
+      ]
+    },
+    {
+      "pagina": 9,
+      "tipo": "texto",
+      "bbox_mm": [
+        165,
+        115.27999999999999,
+        285,
+        128.99599999999998
+      ]
+    },
+    {
+      "pagina": 9,
+      "tipo": "texto",
+      "bbox_mm": [
+        165,
+        98.064,
+        285,
+        111.77999999999999
+      ]
+    },
+    {
+      "pagina": 9,
+      "tipo": "texto",
+      "bbox_mm": [
+        165,
+        76.276,
+        285,
+        94.564
+      ]
+    },
+    {
+      "pagina": 9,
+      "tipo": "texto",
+      "bbox_mm": [
+        168,
+        63.346875,
+        282,
+        67.776
+      ]
+    },
+    {
+      "pagina": 9,
+      "tipo": "texto",
+      "bbox_mm": [
+        168,
+        48.488125,
+        282,
+        61.346875
+      ]
+    },
+    {
+      "pagina": 10,
+      "tipo": "texto",
+      "bbox_mm": [
+        165,
+        149.9025,
+        285,
+        168
+      ]
+    },
+    {
+      "pagina": 10,
+      "tipo": "texto",
+      "bbox_mm": [
+        165,
+        132.829375,
+        285,
+        146.4025
+      ]
+    },
+    {
+      "pagina": 10,
+      "tipo": "texto",
+      "bbox_mm": [
+        165,
+        115.75625,
+        285,
+        129.329375
+      ]
+    },
+    {
+      "pagina": 10,
+      "tipo": "texto",
+      "bbox_mm": [
+        165,
+        94.15875,
+        285,
+        112.25625
+      ]
+    },
+    {
+      "pagina": 10,
+      "tipo": "texto",
+      "bbox_mm": [
+        168,
+        81.229625,
+        282,
+        85.65875
+      ]
+    },
+    {
+      "pagina": 10,
+      "tipo": "texto",
+      "bbox_mm": [
+        168,
+        62.084625,
+        282,
+        79.229625
+      ]
+    },
+    {
+      "pagina": 11,
+      "tipo": "texto",
+      "bbox_mm": [
+        12,
+        178.809,
+        285,
+        183
+      ]
+    },
+    {
+      "pagina": 12,
+      "tipo": "texto",
+      "bbox_mm": [
+        12,
+        178.809,
+        285,
+        183
+      ]
+    },
+    {
+      "pagina": 13,
+      "tipo": "texto",
+      "bbox_mm": [
+        12,
+        178.809,
+        285,
+        183
+      ]
+    },
+    {
+      "pagina": 14,
+      "tipo": "texto",
+      "bbox_mm": [
+        12,
+        178.809,
+        285,
+        183
+      ]
+    },
+    {
+      "pagina": 15,
+      "tipo": "texto",
+      "bbox_mm": [
+        12,
+        178.809,
+        285,
+        183
+      ]
+    },
+    {
+      "pagina": 16,
+      "tipo": "texto",
+      "bbox_mm": [
+        12,
+        178.809,
+        285,
+        183
+      ]
+    },
+    {
+      "pagina": 17,
+      "tipo": "texto",
+      "bbox_mm": [
+        12,
+        178.809,
+        285,
+        183
+      ]
+    },
+    {
+      "pagina": 18,
+      "tipo": "texto",
+      "bbox_mm": [
+        12,
+        178.809,
+        285,
+        183
+      ]
+    },
+    {
+      "pagina": 19,
+      "tipo": "texto",
+      "bbox_mm": [
+        12,
+        178.809,
+        285,
+        183
+      ]
+    },
+    {
+      "pagina": 20,
+      "tipo": "texto",
+      "bbox_mm": [
+        12,
+        178.809,
+        285,
+        183
+      ]
+    },
+    {
+      "pagina": 21,
+      "tipo": "texto",
+      "bbox_mm": [
+        12,
+        178.809,
+        285,
+        183
+      ]
+    },
+    {
+      "pagina": 22,
+      "tipo": "texto",
+      "bbox_mm": [
+        12,
+        178.809,
+        285,
+        183
+      ]
+    },
+    {
+      "pagina": 23,
+      "tipo": "texto",
+      "bbox_mm": [
+        12,
+        178.809,
+        285,
+        183
+      ]
+    },
+    {
+      "pagina": 24,
+      "tipo": "texto",
+      "bbox_mm": [
+        12,
+        178.809,
+        285,
+        183
+      ]
+    },
+    {
+      "pagina": 25,
+      "tipo": "texto",
+      "bbox_mm": [
+        12,
+        178.809,
+        285,
+        183
+      ]
+    },
+    {
+      "pagina": 26,
+      "tipo": "texto",
+      "bbox_mm": [
+        12,
+        178.809,
+        285,
+        183
+      ]
+    },
+    {
+      "pagina": 27,
+      "tipo": "texto",
+      "bbox_mm": [
+        12,
+        178.809,
+        285,
+        183
+      ]
+    },
+    {
+      "pagina": 28,
+      "tipo": "texto",
+      "bbox_mm": [
+        12,
+        178.809,
+        285,
+        183
+      ]
+    },
+    {
+      "pagina": 29,
+      "tipo": "texto",
+      "bbox_mm": [
+        12,
+        178.809,
+        285,
+        183
+      ]
+    },
+    {
+      "pagina": 30,
+      "tipo": "texto",
+      "bbox_mm": [
+        12,
+        178.809,
+        285,
+        183
+      ]
+    },
+    {
+      "pagina": 31,
+      "tipo": "texto",
+      "bbox_mm": [
+        12,
+        178.809,
+        285,
+        183
+      ]
+    },
+    {
+      "pagina": 32,
+      "tipo": "texto",
+      "bbox_mm": [
+        12,
+        178.809,
+        285,
+        183
+      ]
+    },
+    {
+      "pagina": 33,
+      "tipo": "texto",
+      "bbox_mm": [
+        12,
+        178.809,
+        285,
+        183
+      ]
+    },
+    {
+      "pagina": 34,
+      "tipo": "texto",
+      "bbox_mm": [
+        12,
+        178.809,
+        285,
+        183
+      ]
+    }
+  ],
+  "imagens_na_pagina": [
+    {
+      "pagina": 5,
+      "bbox_mm": [
+        10,
+        74,
+        155,
+        167
+      ]
+    },
+    {
+      "pagina": 6,
+      "bbox_mm": [
+        10,
+        74,
+        155,
+        167
+      ]
+    },
+    {
+      "pagina": 7,
+      "bbox_mm": [
+        10,
+        74,
+        155,
+        167
+      ]
+    },
+    {
+      "pagina": 8,
+      "bbox_mm": [
+        10,
+        74,
+        155,
+        167
+      ]
+    },
+    {
+      "pagina": 9,
+      "bbox_mm": [
+        10,
+        74,
+        155,
+        167
+      ]
+    },
+    {
+      "pagina": 10,
+      "bbox_mm": [
+        10,
+        104,
+        155,
+        172
+      ]
+    },
+    {
+      "pagina": 10,
+      "bbox_mm": [
+        10,
+        28,
+        155,
+        96
+      ]
+    },
+    {
+      "pagina": 11,
+      "bbox_mm": [
+        12.5,
+        108.5,
+        98.5,
+        165.5
+      ]
+    },
+    {
+      "pagina": 11,
+      "bbox_mm": [
+        105.5,
+        108.5,
+        191.5,
+        165.5
+      ]
+    },
+    {
+      "pagina": 11,
+      "bbox_mm": [
+        198.5,
+        108.5,
+        284.5,
+        165.5
+      ]
+    },
+    {
+      "pagina": 11,
+      "bbox_mm": [
+        12.5,
+        31.5,
+        98.5,
+        88.5
+      ]
+    },
+    {
+      "pagina": 11,
+      "bbox_mm": [
+        105.5,
+        31.5,
+        191.5,
+        88.5
+      ]
+    },
+    {
+      "pagina": 11,
+      "bbox_mm": [
+        198.5,
+        31.5,
+        284.5,
+        88.5
+      ]
+    },
+    {
+      "pagina": 12,
+      "bbox_mm": [
+        12.5,
+        108.5,
+        98.5,
+        165.5
+      ]
+    },
+    {
+      "pagina": 12,
+      "bbox_mm": [
+        105.5,
+        108.5,
+        191.5,
+        165.5
+      ]
+    },
+    {
+      "pagina": 12,
+      "bbox_mm": [
+        198.5,
+        108.5,
+        284.5,
+        165.5
+      ]
+    },
+    {
+      "pagina": 12,
+      "bbox_mm": [
+        12.5,
+        31.5,
+        98.5,
+        88.5
+      ]
+    },
+    {
+      "pagina": 12,
+      "bbox_mm": [
+        105.5,
+        31.5,
+        191.5,
+        88.5
+      ]
+    },
+    {
+      "pagina": 12,
+      "bbox_mm": [
+        198.5,
+        31.5,
+        284.5,
+        88.5
+      ]
+    },
+    {
+      "pagina": 13,
+      "bbox_mm": [
+        12.5,
+        108.5,
+        98.5,
+        165.5
+      ]
+    },
+    {
+      "pagina": 13,
+      "bbox_mm": [
+        105.5,
+        108.5,
+        191.5,
+        165.5
+      ]
+    },
+    {
+      "pagina": 13,
+      "bbox_mm": [
+        198.5,
+        108.5,
+        284.5,
+        165.5
+      ]
+    },
+    {
+      "pagina": 13,
+      "bbox_mm": [
+        12.5,
+        31.5,
+        98.5,
+        88.5
+      ]
+    },
+    {
+      "pagina": 13,
+      "bbox_mm": [
+        105.5,
+        31.5,
+        191.5,
+        88.5
+      ]
+    },
+    {
+      "pagina": 13,
+      "bbox_mm": [
+        198.5,
+        31.5,
+        284.5,
+        88.5
+      ]
+    },
+    {
+      "pagina": 14,
+      "bbox_mm": [
+        12.5,
+        108.5,
+        98.5,
+        165.5
+      ]
+    },
+    {
+      "pagina": 14,
+      "bbox_mm": [
+        105.5,
+        108.5,
+        191.5,
+        165.5
+      ]
+    },
+    {
+      "pagina": 14,
+      "bbox_mm": [
+        198.5,
+        108.5,
+        284.5,
+        165.5
+      ]
+    },
+    {
+      "pagina": 14,
+      "bbox_mm": [
+        12.5,
+        31.5,
+        98.5,
+        88.5
+      ]
+    },
+    {
+      "pagina": 14,
+      "bbox_mm": [
+        105.5,
+        31.5,
+        191.5,
+        88.5
+      ]
+    },
+    {
+      "pagina": 14,
+      "bbox_mm": [
+        198.5,
+        31.5,
+        284.5,
+        88.5
+      ]
+    },
+    {
+      "pagina": 15,
+      "bbox_mm": [
+        12.5,
+        108.5,
+        98.5,
+        165.5
+      ]
+    },
+    {
+      "pagina": 15,
+      "bbox_mm": [
+        105.5,
+        108.5,
+        191.5,
+        165.5
+      ]
+    },
+    {
+      "pagina": 15,
+      "bbox_mm": [
+        198.5,
+        108.5,
+        284.5,
+        165.5
+      ]
+    },
+    {
+      "pagina": 15,
+      "bbox_mm": [
+        12.5,
+        31.5,
+        98.5,
+        88.5
+      ]
+    },
+    {
+      "pagina": 15,
+      "bbox_mm": [
+        105.5,
+        31.5,
+        191.5,
+        88.5
+      ]
+    },
+    {
+      "pagina": 15,
+      "bbox_mm": [
+        198.5,
+        31.5,
+        284.5,
+        88.5
+      ]
+    },
+    {
+      "pagina": 16,
+      "bbox_mm": [
+        12.5,
+        108.5,
+        98.5,
+        165.5
+      ]
+    },
+    {
+      "pagina": 16,
+      "bbox_mm": [
+        105.5,
+        108.5,
+        191.5,
+        165.5
+      ]
+    },
+    {
+      "pagina": 16,
+      "bbox_mm": [
+        198.5,
+        108.5,
+        284.5,
+        165.5
+      ]
+    },
+    {
+      "pagina": 16,
+      "bbox_mm": [
+        12.5,
+        31.5,
+        98.5,
+        88.5
+      ]
+    },
+    {
+      "pagina": 16,
+      "bbox_mm": [
+        105.5,
+        31.5,
+        191.5,
+        88.5
+      ]
+    },
+    {
+      "pagina": 16,
+      "bbox_mm": [
+        198.5,
+        31.5,
+        284.5,
+        88.5
+      ]
+    },
+    {
+      "pagina": 17,
+      "bbox_mm": [
+        12.5,
+        108.5,
+        98.5,
+        165.5
+      ]
+    },
+    {
+      "pagina": 17,
+      "bbox_mm": [
+        105.5,
+        108.5,
+        191.5,
+        165.5
+      ]
+    },
+    {
+      "pagina": 17,
+      "bbox_mm": [
+        198.5,
+        108.5,
+        284.5,
+        165.5
+      ]
+    },
+    {
+      "pagina": 17,
+      "bbox_mm": [
+        12.5,
+        31.5,
+        98.5,
+        88.5
+      ]
+    },
+    {
+      "pagina": 17,
+      "bbox_mm": [
+        105.5,
+        31.5,
+        191.5,
+        88.5
+      ]
+    },
+    {
+      "pagina": 17,
+      "bbox_mm": [
+        198.5,
+        31.5,
+        284.5,
+        88.5
+      ]
+    },
+    {
+      "pagina": 18,
+      "bbox_mm": [
+        12.5,
+        108.5,
+        98.5,
+        165.5
+      ]
+    },
+    {
+      "pagina": 18,
+      "bbox_mm": [
+        105.5,
+        108.5,
+        191.5,
+        165.5
+      ]
+    },
+    {
+      "pagina": 18,
+      "bbox_mm": [
+        198.5,
+        108.5,
+        284.5,
+        165.5
+      ]
+    },
+    {
+      "pagina": 18,
+      "bbox_mm": [
+        12.5,
+        31.5,
+        98.5,
+        88.5
+      ]
+    },
+    {
+      "pagina": 18,
+      "bbox_mm": [
+        105.5,
+        31.5,
+        191.5,
+        88.5
+      ]
+    },
+    {
+      "pagina": 18,
+      "bbox_mm": [
+        198.5,
+        31.5,
+        284.5,
+        88.5
+      ]
+    },
+    {
+      "pagina": 19,
+      "bbox_mm": [
+        12.5,
+        108.5,
+        98.5,
+        165.5
+      ]
+    },
+    {
+      "pagina": 19,
+      "bbox_mm": [
+        105.5,
+        108.5,
+        191.5,
+        165.5
+      ]
+    },
+    {
+      "pagina": 19,
+      "bbox_mm": [
+        198.5,
+        108.5,
+        284.5,
+        165.5
+      ]
+    },
+    {
+      "pagina": 19,
+      "bbox_mm": [
+        12.5,
+        31.5,
+        98.5,
+        88.5
+      ]
+    },
+    {
+      "pagina": 19,
+      "bbox_mm": [
+        105.5,
+        31.5,
+        191.5,
+        88.5
+      ]
+    },
+    {
+      "pagina": 19,
+      "bbox_mm": [
+        198.5,
+        31.5,
+        284.5,
+        88.5
+      ]
+    },
+    {
+      "pagina": 20,
+      "bbox_mm": [
+        12.5,
+        108.5,
+        98.5,
+        165.5
+      ]
+    },
+    {
+      "pagina": 20,
+      "bbox_mm": [
+        105.5,
+        108.5,
+        191.5,
+        165.5
+      ]
+    },
+    {
+      "pagina": 20,
+      "bbox_mm": [
+        198.5,
+        108.5,
+        284.5,
+        165.5
+      ]
+    },
+    {
+      "pagina": 20,
+      "bbox_mm": [
+        12.5,
+        31.5,
+        98.5,
+        88.5
+      ]
+    },
+    {
+      "pagina": 20,
+      "bbox_mm": [
+        105.5,
+        31.5,
+        191.5,
+        88.5
+      ]
+    },
+    {
+      "pagina": 20,
+      "bbox_mm": [
+        198.5,
+        31.5,
+        284.5,
+        88.5
+      ]
+    },
+    {
+      "pagina": 21,
+      "bbox_mm": [
+        12.5,
+        108.5,
+        98.5,
+        165.5
+      ]
+    },
+    {
+      "pagina": 21,
+      "bbox_mm": [
+        105.5,
+        108.5,
+        191.5,
+        165.5
+      ]
+    },
+    {
+      "pagina": 21,
+      "bbox_mm": [
+        198.5,
+        108.5,
+        284.5,
+        165.5
+      ]
+    },
+    {
+      "pagina": 21,
+      "bbox_mm": [
+        12.5,
+        31.5,
+        98.5,
+        88.5
+      ]
+    },
+    {
+      "pagina": 21,
+      "bbox_mm": [
+        105.5,
+        31.5,
+        191.5,
+        88.5
+      ]
+    },
+    {
+      "pagina": 21,
+      "bbox_mm": [
+        198.5,
+        31.5,
+        284.5,
+        88.5
+      ]
+    },
+    {
+      "pagina": 22,
+      "bbox_mm": [
+        12.5,
+        108.5,
+        98.5,
+        165.5
+      ]
+    },
+    {
+      "pagina": 22,
+      "bbox_mm": [
+        105.5,
+        108.5,
+        191.5,
+        165.5
+      ]
+    },
+    {
+      "pagina": 22,
+      "bbox_mm": [
+        198.5,
+        108.5,
+        284.5,
+        165.5
+      ]
+    },
+    {
+      "pagina": 22,
+      "bbox_mm": [
+        12.5,
+        31.5,
+        98.5,
+        88.5
+      ]
+    },
+    {
+      "pagina": 22,
+      "bbox_mm": [
+        105.5,
+        31.5,
+        191.5,
+        88.5
+      ]
+    },
+    {
+      "pagina": 22,
+      "bbox_mm": [
+        198.5,
+        31.5,
+        284.5,
+        88.5
+      ]
+    },
+    {
+      "pagina": 23,
+      "bbox_mm": [
+        12.5,
+        108.5,
+        98.5,
+        165.5
+      ]
+    },
+    {
+      "pagina": 23,
+      "bbox_mm": [
+        105.5,
+        108.5,
+        191.5,
+        165.5
+      ]
+    },
+    {
+      "pagina": 23,
+      "bbox_mm": [
+        198.5,
+        108.5,
+        284.5,
+        165.5
+      ]
+    },
+    {
+      "pagina": 23,
+      "bbox_mm": [
+        12.5,
+        31.5,
+        98.5,
+        88.5
+      ]
+    },
+    {
+      "pagina": 23,
+      "bbox_mm": [
+        105.5,
+        31.5,
+        191.5,
+        88.5
+      ]
+    },
+    {
+      "pagina": 23,
+      "bbox_mm": [
+        198.5,
+        31.5,
+        284.5,
+        88.5
+      ]
+    },
+    {
+      "pagina": 24,
+      "bbox_mm": [
+        12.5,
+        108.5,
+        98.5,
+        165.5
+      ]
+    },
+    {
+      "pagina": 24,
+      "bbox_mm": [
+        105.5,
+        108.5,
+        191.5,
+        165.5
+      ]
+    },
+    {
+      "pagina": 24,
+      "bbox_mm": [
+        198.5,
+        108.5,
+        284.5,
+        165.5
+      ]
+    },
+    {
+      "pagina": 24,
+      "bbox_mm": [
+        12.5,
+        31.5,
+        98.5,
+        88.5
+      ]
+    },
+    {
+      "pagina": 24,
+      "bbox_mm": [
+        105.5,
+        31.5,
+        191.5,
+        88.5
+      ]
+    },
+    {
+      "pagina": 24,
+      "bbox_mm": [
+        198.5,
+        31.5,
+        284.5,
+        88.5
+      ]
+    },
+    {
+      "pagina": 25,
+      "bbox_mm": [
+        12.5,
+        108.5,
+        98.5,
+        165.5
+      ]
+    },
+    {
+      "pagina": 25,
+      "bbox_mm": [
+        105.5,
+        108.5,
+        191.5,
+        165.5
+      ]
+    },
+    {
+      "pagina": 25,
+      "bbox_mm": [
+        198.5,
+        108.5,
+        284.5,
+        165.5
+      ]
+    },
+    {
+      "pagina": 25,
+      "bbox_mm": [
+        12.5,
+        31.5,
+        98.5,
+        88.5
+      ]
+    },
+    {
+      "pagina": 25,
+      "bbox_mm": [
+        105.5,
+        31.5,
+        191.5,
+        88.5
+      ]
+    },
+    {
+      "pagina": 25,
+      "bbox_mm": [
+        198.5,
+        31.5,
+        284.5,
+        88.5
+      ]
+    },
+    {
+      "pagina": 26,
+      "bbox_mm": [
+        12.5,
+        108.5,
+        98.5,
+        165.5
+      ]
+    },
+    {
+      "pagina": 26,
+      "bbox_mm": [
+        105.5,
+        108.5,
+        191.5,
+        165.5
+      ]
+    },
+    {
+      "pagina": 26,
+      "bbox_mm": [
+        198.5,
+        108.5,
+        284.5,
+        165.5
+      ]
+    },
+    {
+      "pagina": 26,
+      "bbox_mm": [
+        12.5,
+        31.5,
+        98.5,
+        88.5
+      ]
+    },
+    {
+      "pagina": 26,
+      "bbox_mm": [
+        105.5,
+        31.5,
+        191.5,
+        88.5
+      ]
+    },
+    {
+      "pagina": 26,
+      "bbox_mm": [
+        198.5,
+        31.5,
+        284.5,
+        88.5
+      ]
+    },
+    {
+      "pagina": 27,
+      "bbox_mm": [
+        12.5,
+        108.5,
+        98.5,
+        165.5
+      ]
+    },
+    {
+      "pagina": 27,
+      "bbox_mm": [
+        105.5,
+        108.5,
+        191.5,
+        165.5
+      ]
+    },
+    {
+      "pagina": 27,
+      "bbox_mm": [
+        198.5,
+        108.5,
+        284.5,
+        165.5
+      ]
+    },
+    {
+      "pagina": 27,
+      "bbox_mm": [
+        12.5,
+        31.5,
+        98.5,
+        88.5
+      ]
+    },
+    {
+      "pagina": 27,
+      "bbox_mm": [
+        105.5,
+        31.5,
+        191.5,
+        88.5
+      ]
+    },
+    {
+      "pagina": 27,
+      "bbox_mm": [
+        198.5,
+        31.5,
+        284.5,
+        88.5
+      ]
+    },
+    {
+      "pagina": 28,
+      "bbox_mm": [
+        12.5,
+        108.5,
+        98.5,
+        165.5
+      ]
+    },
+    {
+      "pagina": 28,
+      "bbox_mm": [
+        105.5,
+        108.5,
+        191.5,
+        165.5
+      ]
+    },
+    {
+      "pagina": 28,
+      "bbox_mm": [
+        198.5,
+        108.5,
+        284.5,
+        165.5
+      ]
+    },
+    {
+      "pagina": 28,
+      "bbox_mm": [
+        12.5,
+        31.5,
+        98.5,
+        88.5
+      ]
+    },
+    {
+      "pagina": 28,
+      "bbox_mm": [
+        105.5,
+        31.5,
+        191.5,
+        88.5
+      ]
+    },
+    {
+      "pagina": 28,
+      "bbox_mm": [
+        198.5,
+        31.5,
+        284.5,
+        88.5
+      ]
+    },
+    {
+      "pagina": 29,
+      "bbox_mm": [
+        12.5,
+        108.5,
+        98.5,
+        165.5
+      ]
+    },
+    {
+      "pagina": 29,
+      "bbox_mm": [
+        105.5,
+        108.5,
+        191.5,
+        165.5
+      ]
+    },
+    {
+      "pagina": 29,
+      "bbox_mm": [
+        198.5,
+        108.5,
+        284.5,
+        165.5
+      ]
+    },
+    {
+      "pagina": 29,
+      "bbox_mm": [
+        12.5,
+        31.5,
+        98.5,
+        88.5
+      ]
+    },
+    {
+      "pagina": 29,
+      "bbox_mm": [
+        105.5,
+        31.5,
+        191.5,
+        88.5
+      ]
+    },
+    {
+      "pagina": 29,
+      "bbox_mm": [
+        198.5,
+        31.5,
+        284.5,
+        88.5
+      ]
+    },
+    {
+      "pagina": 30,
+      "bbox_mm": [
+        12.5,
+        108.5,
+        98.5,
+        165.5
+      ]
+    },
+    {
+      "pagina": 30,
+      "bbox_mm": [
+        105.5,
+        108.5,
+        191.5,
+        165.5
+      ]
+    },
+    {
+      "pagina": 30,
+      "bbox_mm": [
+        198.5,
+        108.5,
+        284.5,
+        165.5
+      ]
+    },
+    {
+      "pagina": 30,
+      "bbox_mm": [
+        12.5,
+        31.5,
+        98.5,
+        88.5
+      ]
+    },
+    {
+      "pagina": 30,
+      "bbox_mm": [
+        105.5,
+        31.5,
+        191.5,
+        88.5
+      ]
+    },
+    {
+      "pagina": 30,
+      "bbox_mm": [
+        198.5,
+        31.5,
+        284.5,
+        88.5
+      ]
+    },
+    {
+      "pagina": 31,
+      "bbox_mm": [
+        12.5,
+        108.5,
+        98.5,
+        165.5
+      ]
+    },
+    {
+      "pagina": 31,
+      "bbox_mm": [
+        105.5,
+        108.5,
+        191.5,
+        165.5
+      ]
+    },
+    {
+      "pagina": 31,
+      "bbox_mm": [
+        198.5,
+        108.5,
+        284.5,
+        165.5
+      ]
+    },
+    {
+      "pagina": 31,
+      "bbox_mm": [
+        12.5,
+        31.5,
+        98.5,
+        88.5
+      ]
+    },
+    {
+      "pagina": 31,
+      "bbox_mm": [
+        105.5,
+        31.5,
+        191.5,
+        88.5
+      ]
+    },
+    {
+      "pagina": 31,
+      "bbox_mm": [
+        198.5,
+        31.5,
+        284.5,
+        88.5
+      ]
+    },
+    {
+      "pagina": 32,
+      "bbox_mm": [
+        12.5,
+        108.5,
+        98.5,
+        165.5
+      ]
+    },
+    {
+      "pagina": 32,
+      "bbox_mm": [
+        105.5,
+        108.5,
+        191.5,
+        165.5
+      ]
+    },
+    {
+      "pagina": 32,
+      "bbox_mm": [
+        198.5,
+        108.5,
+        284.5,
+        165.5
+      ]
+    },
+    {
+      "pagina": 32,
+      "bbox_mm": [
+        12.5,
+        31.5,
+        98.5,
+        88.5
+      ]
+    },
+    {
+      "pagina": 32,
+      "bbox_mm": [
+        105.5,
+        31.5,
+        191.5,
+        88.5
+      ]
+    },
+    {
+      "pagina": 32,
+      "bbox_mm": [
+        198.5,
+        31.5,
+        284.5,
+        88.5
+      ]
+    },
+    {
+      "pagina": 33,
+      "bbox_mm": [
+        12.5,
+        108.5,
+        98.5,
+        165.5
+      ]
+    },
+    {
+      "pagina": 33,
+      "bbox_mm": [
+        105.5,
+        108.5,
+        191.5,
+        165.5
+      ]
+    },
+    {
+      "pagina": 33,
+      "bbox_mm": [
+        198.5,
+        108.5,
+        284.5,
+        165.5
+      ]
+    },
+    {
+      "pagina": 33,
+      "bbox_mm": [
+        12.5,
+        31.5,
+        98.5,
+        88.5
+      ]
+    },
+    {
+      "pagina": 33,
+      "bbox_mm": [
+        105.5,
+        31.5,
+        191.5,
+        88.5
+      ]
+    },
+    {
+      "pagina": 33,
+      "bbox_mm": [
+        198.5,
+        31.5,
+        284.5,
+        88.5
+      ]
+    },
+    {
+      "pagina": 34,
+      "bbox_mm": [
+        12.5,
+        108.5,
+        98.5,
+        165.5
+      ]
+    },
+    {
+      "pagina": 34,
+      "bbox_mm": [
+        105.5,
+        108.5,
+        191.5,
+        165.5
+      ]
+    },
+    {
+      "pagina": 34,
+      "bbox_mm": [
+        198.5,
+        108.5,
+        284.5,
+        165.5
+      ]
+    },
+    {
+      "pagina": 34,
+      "bbox_mm": [
+        12.5,
+        31.5,
+        98.5,
+        88.5
+      ]
+    },
+    {
+      "pagina": 34,
+      "bbox_mm": [
+        105.5,
+        31.5,
+        191.5,
+        88.5
+      ]
+    },
+    {
+      "pagina": 34,
+      "bbox_mm": [
+        198.5,
+        31.5,
+        284.5,
+        88.5
+      ]
+    }
+  ],
+  "limites": "Sequência mecânica proposta para montagem a seco do kit entregue. Não altera STL e não comprova montagem física."
+}

@@ -1,0 +1,44 @@
+{
+  "escopo": "Preparação da publicação de código, testes, documentação e imagens próprias; não é novo ensaio E2E/hardware.",
+  "destino": "https://github.com/brenodelfinoligeiro/slam-mapeamento",
+  "branch": "main",
+  "base_verificada": "0028db32e4fcba4dc467c408ba13aac1cd064c7d",
+  "casos_e2e_anteriores_auditados_por_junit": 513,
+  "hashes_fonte_do_ensaio_verificados": 185,
+  "fonte_do_ensaio_inalterada": true,
+  "descricao_local_completa": {
+    "aprovados": 18,
+    "falhas": 0
+  },
+  "descricao_copia_publica_recorte": {"aprovados": 17, "falhas": 0, "deselecionados": 1, "motivo": "Teste de malhas retidas explicitamente fora do recorte público; suíte integral também foi executada e sua falha registrada."},
+  "descricao_copia_publica_integral": {
+    "aprovados": 17,
+    "falhas": 1,
+    "motivo": "Teste de integridade das malhas detecta STL intencionalmente ausentes; sem alteração/enfraquecimento desse teste."
+  },
+  "varredura_inicial_detect_secrets": {
+    "versao": "1.5.0",
+    "alertas": 1012,
+    "tipos": {
+      "Hex High Entropy String": 1012
+    },
+    "classificacao": "1003 hashes SHA em manifestos/recibos e 9 IDs efêmeros de contêiner em JUnit; nenhum alerta de detector de credenciais. Não constitui garantia absoluta de ausência de secrets."
+  },
+  "imagens": {
+    "svg_e_png_inspecionados": true,
+    "trajeto_amostras": 7604,
+    "meshes_cad_nos_graficos": false,
+    "origem": "runtime-v09-final/fluxo",
+    "imagens_publicas": [
+      "imagens/trajeto-nav2.png",
+      "imagens/metricas-nav2.png"
+    ],
+    "captura_rviz": "Somente local: derivado CAD com licença pendente."
+  },
+  "ci_github": "Nenhum workflow configurado na consulta de preparação; não alegar CI verde.",
+  "limites": [
+    "Cópia pública não é o workspace local completo; malhas e mapas/grafos retidos.",
+    "Sem deploy, hardware, firmware ou UART.",
+    "Recibos históricos de testes não são reexecuções neste commit."
+  ]
+}

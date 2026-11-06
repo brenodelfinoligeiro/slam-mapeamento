@@ -1,0 +1,6 @@
+#!/usr/bin/env python3
+"""Executável ROS 2 da simulação virtual da base diferencial."""
+from simulador_base_nos.no_simulador import main
+
+if __name__ == '__main__':
+    main()

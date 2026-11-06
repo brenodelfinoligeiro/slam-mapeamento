@@ -19,7 +19,7 @@ Organizar fontes, PDFs, ideias, decisões e experimentos em [vault-slamderson/In
 
 Usar português nos nomes próprios de pastas, variáveis, funções, mensagens, comentários e textos. Identificadores de código e pastas não usam acentos; documentos UTF-8 mantêm acentuação normal. Adotar redação técnica apropriada ao trabalho acadêmico.
 
-A pasta `docs/` é uma exceção de nomenclatura solicitada explicitamente pelo autor. Seu conteúdo permanece em português. O nome `slamderson` e a raiz `slamderson_ws` também são preservados.
+A pasta `docs/` é uma exceção de nomenclatura solicitada explicitamente pelo autor. Seu conteúdo permanece em português. A identidade ROS é genérica: pacote `robo_movel`, workspace `robo_movel_ws`. O apelido afetivo não integra identificadores, imports, URDF, URIs ou nomes de recursos ROS. Originais mecânicos e histórico mantêm seus nomes para preservar rastreabilidade.
 
 ## Compatibilidade com ferramentas
 

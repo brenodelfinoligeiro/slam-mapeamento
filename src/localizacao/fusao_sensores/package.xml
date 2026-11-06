@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>fusao_sensores</name><version>0.0.0</version>
+  <description>Pacote ROS 2 de simulação: fusao_sensores.</description>
+  <maintainer email="a_definir@example.com">lamggm</maintainer><license>A definir</license>
+  <buildtool_depend>ament_python</buildtool_depend>
+  <exec_depend>robot_localization</exec_depend>
+  <exec_depend>launch</exec_depend>
+  <exec_depend>launch_ros</exec_depend>
+  <test_depend>python3-pytest</test_depend>
+  <test_depend>python3-yaml</test_depend>
+  <export><build_type>ament_python</build_type></export>
+  <exec_depend>ament_index_python</exec_depend>
+</package>

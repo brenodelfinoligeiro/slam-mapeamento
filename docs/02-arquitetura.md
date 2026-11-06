@@ -35,24 +35,29 @@ O software ROS não deverá abrir uma segunda porta serial para cada sensor. `di
 2. A MPU-6050 fornece aceleração e velocidade angular.
 3. O ESP transmite dados e marcas temporais.
 4. O lado ROS representa a odometria de rodas e a IMU separadamente.
-5. Uma integração como `robot_localization` poderá fundir as medições para produzir odometria local.
-6. As varreduras do C1 e a odometria poderão alimentar uma solução como `slam_toolbox`.
+5. Na simulação, `robot_localization` já funde velocidades das rodas e giroscópio para produzir odometria local.
+6. LiDAR virtual gera `/scan`; SLAM Toolbox usa os raios e TF de odometria para construir mapa/estimar pose.
 
-Os pacotes citados são candidatos, não dependências de execução já integradas.
+Essas integrações já executam no recorte virtual; não constituem integração do C1 físico ou da UART. [Operação e limites](slam/LEIA-ME.md).
 
 ## Transformações de referência
 
-A cadeia convencional proposta é `map -> odom -> base_link`, com referências adicionais para os sensores. Os identificadores padronizados permanecem inalterados para compatibilidade.
+A cadeia implementada na composição SLAM é `map -> odom -> base_footprint -> base_link`, com referências adicionais para sensores.
 
-- O estimador local, quando adotado, será o único publicador de `odom -> base_link`.
-- O SLAM fornecerá `map -> odom` no modo de construção do mapa.
-- Em modo de mapa conhecido, um localizador como AMCL poderá assumir `map -> odom` em vez do SLAM.
-- As posições fixas dos sensores deverão vir da descrição geométrica medida do robô.
+- EKF é o único publicador de `odom -> base_footprint`.
+- SLAM Toolbox publica `map -> odom`, nos modos mapeamento e localização por grafo.
+- RSP publica a geometria e os estados de juntas.
+- O sensor virtual define `laser_simulado` a partir de `lidar_mount_link`; não é calibração do C1 real.
+- AMCL continua não implementado; se adotado posteriormente, substitui o dono global, sem competir com o SLAM.
 
-Não permitir dois publicadores concorrentes da mesma transformação. Valores geométricos, prefixos e eventual uso de `base_footprint` ainda serão definidos.
+O alinhamento estático anterior `simulacao_mundo -> odom` é desativado ao compor SLAM. A identidade virtual `simulacao_mundo -> map` serve à comparação, não determina a pose. A referência perfeita só gera sensores e serve a testes/visualização, nunca é medição de posição para os estimadores.
 
 ## Limitações observáveis
 
 Um codificador de canal único mede o módulo do movimento. O sentido comandado fornece uma hipótese, que pode ser confrontada com o giro medido pela IMU. Isso não garante distinguir avanço de ré em translação reta a velocidade constante. Reversão com embalo, deslocamento externo e patinagem podem invalidar o sinal presumido.
 
 Não resolver falta de informação atribuindo certeza artificial a um filtro. Dados brutos, sentido inferido e indicadores de confiança devem permanecer distinguíveis.
+
+## Integração de navegação virtual
+
+`navegacao/navegacao_autonoma` compõe Nav2 (NavFn + Regulated Pure Pursuit), costmaps e proteção de autoridade/dados. [Operação, validação e limites](navegacao/LEIA-ME.md). O árbitro continua único publicador da saída final; a integração cancela objetivos ao tomar controle manual e trava parada na perda dos dados necessários. Nenhum hardware foi acionado.

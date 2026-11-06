@@ -1,0 +1,346 @@
+[INFO] [launch]: All log files can be found below /work/.ros/log/2026-11-06-19-17-24-803500-533f105f35bb-2501
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [robot_state_publisher-1]: process started with pid [2518]
+[INFO] [simular-2]: process started with pid [2519]
+[INFO] [converter_velocidade-3]: process started with pid [2520]
+[INFO] [calcular_odometria-4]: process started with pid [2521]
+[INFO] [tratar_imu-5]: process started with pid [2522]
+[INFO] [ekf_node-6]: process started with pid [2523]
+[INFO] [trajetorias-7]: process started with pid [2524]
+[INFO] [simular_lidar-8]: process started with pid [2525]
+[INFO] [async_slam_toolbox_node-9]: process started with pid [2526]
+[INFO] [map_saver_server-10]: process started with pid [2527]
+[INFO] [lifecycle_manager-11]: process started with pid [2528]
+[INFO] [planner_server-12]: process started with pid [2529]
+[INFO] [controller_server-13]: process started with pid [2530]
+[INFO] [behavior_server-14]: process started with pid [2533]
+[INFO] [bt_navigator-15]: process started with pid [2534]
+[INFO] [lifecycle_manager-16]: process started with pid [2535]
+[INFO] [arbitrar-17]: process started with pid [2536]
+[INFO] [proteger-18]: process started with pid [2537]
+[INFO] [inicializar-19]: process started with pid [2538]
+[INFO] [rviz2-20]: process started with pid [2539]
+[INFO] [static_transform_publisher-21]: process started with pid [2540]
+[INFO] [static_transform_publisher-22]: process started with pid [2541]
+[robot_state_publisher-1] [INFO] [1793992645.045107205] [robot_state_publisher]: Robot initialized
+[lifecycle_manager-11] [INFO] [1793992645.134150042] [lifecycle_slam_navegacao]: Creating
+[lifecycle_manager-11] [INFO] [1793992645.144586121] [lifecycle_slam_navegacao]: [34m[1mCreating and initializing lifecycle service clients[0m[0m
+[async_slam_toolbox_node-9] [INFO] [1793992645.146027535] [slam_toolbox]: Node using stack size 40000000
+[lifecycle_manager-16] [INFO] [1793992645.158111207] [lifecycle_navegacao]: Creating
+[static_transform_publisher-22] [INFO] [1793992645.236311001] [origem_cenario_slam]: Spinning until stopped - publishing transform
+[static_transform_publisher-22] translation: ('0.000000', '0.000000', '0.000000')
+[static_transform_publisher-22] rotation: ('0.000000', '0.000000', '0.000000', '1.000000')
+[static_transform_publisher-22] from 'simulacao_mundo' to 'map'
+[lifecycle_manager-16] [INFO] [1793992645.237929299] [lifecycle_navegacao]: [34m[1mCreating and initializing lifecycle service clients[0m[0m
+[planner_server-12] [INFO] [1793992645.240657334] [planner_server]: 
+[planner_server-12] 	planner_server lifecycle node launched. 
+[planner_server-12] 	Waiting on external lifecycle transitions to activate
+[planner_server-12] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[ekf_node-6] [INFO] [1793992645.242286819] [estimador_local]: Waiting for clock to start...
+[planner_server-12] [INFO] [1793992645.242860076] [planner_server]: Creating
+[static_transform_publisher-21] [INFO] [1793992645.244073277] [laser_virtual]: Spinning until stopped - publishing transform
+[static_transform_publisher-21] translation: ('0.000000', '0.000000', '0.000000')
+[static_transform_publisher-21] rotation: ('0.000000', '0.000000', '0.000000', '1.000000')
+[static_transform_publisher-21] from 'lidar_mount_link' to 'laser_simulado'
+[bt_navigator-15] [INFO] [1793992645.251461375] [bt_navigator]: 
+[bt_navigator-15] 	bt_navigator lifecycle node launched. 
+[bt_navigator-15] 	Waiting on external lifecycle transitions to activate
+[bt_navigator-15] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[bt_navigator-15] [INFO] [1793992645.253539077] [bt_navigator]: Creating
+[controller_server-13] [INFO] [1793992645.253531268] [controller_server]: 
+[controller_server-13] 	controller_server lifecycle node launched. 
+[controller_server-13] 	Waiting on external lifecycle transitions to activate
+[controller_server-13] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[controller_server-13] [INFO] [1793992645.257406270] [controller_server]: Creating controller server
+[behavior_server-14] [INFO] [1793992645.257515904] [behavior_server]: 
+[behavior_server-14] 	behavior_server lifecycle node launched. 
+[behavior_server-14] 	Waiting on external lifecycle transitions to activate
+[behavior_server-14] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[map_saver_server-10] [INFO] [1793992645.334656976] [salvador_mapa]: 
+[map_saver_server-10] 	salvador_mapa lifecycle node launched. 
+[map_saver_server-10] 	Waiting on external lifecycle transitions to activate
+[map_saver_server-10] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[map_saver_server-10] [INFO] [1793992645.334890758] [salvador_mapa]: Creating
+[planner_server-12] [INFO] [1793992645.343427789] [global_costmap.global_costmap]: 
+[planner_server-12] 	global_costmap lifecycle node launched. 
+[planner_server-12] 	Waiting on external lifecycle transitions to activate
+[planner_server-12] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[planner_server-12] [INFO] [1793992645.344154395] [global_costmap.global_costmap]: Creating Costmap
+[controller_server-13] [INFO] [1793992645.345749644] [local_costmap.local_costmap]: 
+[controller_server-13] 	local_costmap lifecycle node launched. 
+[controller_server-13] 	Waiting on external lifecycle transitions to activate
+[controller_server-13] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[lifecycle_manager-11] [INFO] [1793992645.345987996] [lifecycle_slam_navegacao]: [34m[1mStarting managed nodes bringup...[0m[0m
+[lifecycle_manager-11] [INFO] [1793992645.346024343] [lifecycle_slam_navegacao]: [34m[1mConfiguring slam_toolbox[0m[0m
+[controller_server-13] [INFO] [1793992645.346295622] [local_costmap.local_costmap]: Creating Costmap
+[async_slam_toolbox_node-9] [INFO] [1793992645.438122697] [slam_toolbox]: Configuring
+[async_slam_toolbox_node-9] [INFO] [1793992645.447840723] [slam_toolbox]: Using solver plugin solver_plugins::CeresSolver
+[lifecycle_manager-11] [INFO] [1793992645.469411827] [lifecycle_slam_navegacao]: [34m[1mConfiguring salvador_mapa[0m[0m
+[map_saver_server-10] [INFO] [1793992645.469750589] [salvador_mapa]: Configuring
+[lifecycle_manager-11] [INFO] [1793992645.533519482] [lifecycle_slam_navegacao]: [34m[1mActivating slam_toolbox[0m[0m
+[async_slam_toolbox_node-9] [INFO] [1793992645.533769797] [slam_toolbox]: Activating
+[async_slam_toolbox_node-9] [INFO] [1793992645.542207718] [slam_toolbox]: Creating bond (slam_toolbox) to lifecycle manager.
+[lifecycle_manager-11] [INFO] [1793992645.646595195] [lifecycle_slam_navegacao]: Server slam_toolbox connected with bond.
+[lifecycle_manager-11] [INFO] [1793992645.646638914] [lifecycle_slam_navegacao]: [34m[1mActivating salvador_mapa[0m[0m
+[map_saver_server-10] [INFO] [1793992645.646908520] [salvador_mapa]: Activating
+[map_saver_server-10] [INFO] [1793992645.646940868] [salvador_mapa]: Creating bond (salvador_mapa) to lifecycle manager.
+[rviz2-20] [INFO] [1793992645.750904178] [rviz2]: Stereo is NOT SUPPORTED
+[rviz2-20] [INFO] [1793992645.750984347] [rviz2]: OpenGl version: 4.5 (GLSL 4.5)
+[lifecycle_manager-11] [INFO] [1793992645.751726360] [lifecycle_slam_navegacao]: Server salvador_mapa connected with bond.
+[lifecycle_manager-11] [INFO] [1793992645.751773150] [lifecycle_slam_navegacao]: [34m[1mManaged nodes are active[0m[0m
+[lifecycle_manager-11] [INFO] [1793992645.751790025] [lifecycle_slam_navegacao]: [34m[1mCreating bond timer...[0m[0m
+[rviz2-20] [INFO] [1793992645.849268752] [rviz2]: Stereo is NOT SUPPORTED
+[simular-2] [WARN] [1793992646.075026178] [simulador_base]: SIMULAÇÃO VIRTUAL: defaults geométricos de referência CAD, não calibração física; o launch pode fornecer raio_roda e distancia_rodas. 720 pulsos/volta é resolução virtual, não medida. Contagens signed não certificam direção do encoder real de canal único. IMU planar idealizada, nivelada e alinhada ao corpo, sem braço de alavanca. /simulacao/referencia é ground truth para avaliação, nunca entrada do estimador.
+[simular_lidar-8] [WARN] [1793992646.133431714] [lidar_simulado]: LiDAR GEOMÉTRICO VIRTUAL: alinhamento fixo do modelo, não calibração do C1; sem física de colisão, medição global de pose ou mapa perfeito publicado.
+[rviz2-20] [INFO] [1793992648.596088804] [rviz_navegacao]: Message Filter dropping message: frame 'odom' at time 1.400 for reason 'discarding message because the queue is full'
+[async_slam_toolbox_node-9] Info: clipped range threshold to be within minimum and maximum range!
+[async_slam_toolbox_node-9] Registering sensor: [Custom Described Lidar]
+[lifecycle_manager-16] [INFO] [1793992649.546024813] [lifecycle_navegacao]: [34m[1mStarting managed nodes bringup...[0m[0m
+[lifecycle_manager-16] [INFO] [1793992649.546090501] [lifecycle_navegacao]: [34m[1mConfiguring controller_server[0m[0m
+[controller_server-13] [INFO] [1793992649.546613352] [controller_server]: Configuring controller interface
+[controller_server-13] [INFO] [1793992649.546645837] [controller_server]: getting progress checker plugins..
+[controller_server-13] [INFO] [1793992649.546888322] [controller_server]: getting goal checker plugins..
+[controller_server-13] [INFO] [1793992649.547114551] [controller_server]: Controller frequency set to 10.0000Hz
+[controller_server-13] [INFO] [1793992649.547165837] [local_costmap.local_costmap]: Configuring
+[controller_server-13] [INFO] [1793992649.559249412] [local_costmap.local_costmap]: Using plugin "obstacle_layer"
+[controller_server-13] [INFO] [1793992649.566086972] [local_costmap.local_costmap]: Subscribed to Topics: laser
+[controller_server-13] [INFO] [1793992649.571967538] [local_costmap.local_costmap]: Initialized plugin "obstacle_layer"
+[controller_server-13] [INFO] [1793992649.572006376] [local_costmap.local_costmap]: Using plugin "inflation_layer"
+[controller_server-13] [INFO] [1793992649.572679378] [local_costmap.local_costmap]: Initialized plugin "inflation_layer"
+[controller_server-13] [INFO] [1793992649.596804385] [controller_server]: Created progress_checker : progress_checker of type nav2_controller::SimpleProgressChecker
+[controller_server-13] [INFO] [1793992649.597086165] [controller_server]: Controller Server has progress_checker  progress checkers available.
+[controller_server-13] [INFO] [1793992649.597531277] [controller_server]: Created goal checker : goal_checker of type nav2_controller::SimpleGoalChecker
+[controller_server-13] [INFO] [1793992649.597933801] [controller_server]: Controller Server has goal_checker  goal checkers available.
+[controller_server-13] [INFO] [1793992649.599085493] [controller_server]: Created controller : FollowPath of type nav2_regulated_pure_pursuit_controller::RegulatedPurePursuitController
+[controller_server-13] [INFO] [1793992649.604746738] [controller_server]: Controller Server has FollowPath  controllers available.
+[lifecycle_manager-16] [INFO] [1793992649.633046652] [lifecycle_navegacao]: [34m[1mConfiguring planner_server[0m[0m
+[planner_server-12] [INFO] [1793992649.633470889] [planner_server]: Configuring
+[planner_server-12] [INFO] [1793992649.633522974] [global_costmap.global_costmap]: Configuring
+[planner_server-12] [INFO] [1793992649.646215425] [global_costmap.global_costmap]: Using plugin "static_layer"
+[planner_server-12] [INFO] [1793992649.653302916] [global_costmap.global_costmap]: Subscribing to the map topic (/map) with transient local durability
+[planner_server-12] [INFO] [1793992649.656369423] [global_costmap.global_costmap]: Subscribing to updates
+[planner_server-12] [INFO] [1793992649.660493572] [global_costmap.global_costmap]: Initialized plugin "static_layer"
+[planner_server-12] [INFO] [1793992649.660523508] [global_costmap.global_costmap]: Using plugin "obstacle_layer"
+[planner_server-12] [INFO] [1793992649.661229004] [global_costmap.global_costmap]: Subscribed to Topics: laser
+[planner_server-12] [INFO] [1793992649.665454199] [global_costmap.global_costmap]: Initialized plugin "obstacle_layer"
+[planner_server-12] [INFO] [1793992649.665486637] [global_costmap.global_costmap]: Using plugin "inflation_layer"
+[planner_server-12] [INFO] [1793992649.666148667] [global_costmap.global_costmap]: Initialized plugin "inflation_layer"
+[planner_server-12] [INFO] [1793992649.699011143] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 120 X 100 at 0.050000 m/pix
+[planner_server-12] [INFO] [1793992649.700025900] [planner_server]: Created global planner plugin GridBased of type nav2_navfn_planner::NavfnPlanner
+[planner_server-12] [INFO] [1793992649.700068973] [planner_server]: Configuring plugin GridBased of type NavfnPlanner
+[planner_server-12] [INFO] [1793992649.700662533] [planner_server]: Planner Server has GridBased  planners available.
+[lifecycle_manager-16] [INFO] [1793992649.733820634] [lifecycle_navegacao]: [34m[1mConfiguring behavior_server[0m[0m
+[behavior_server-14] [INFO] [1793992649.734171390] [behavior_server]: Configuring
+[behavior_server-14] [INFO] [1793992649.739553935] [behavior_server]: Creating behavior plugin spin of type nav2_behaviors::Spin
+[rviz2-20] [INFO] [1793992649.740301529] [rviz2]: Trying to create a map of size 120 x 100 using 1 swatches
+[behavior_server-14] [INFO] [1793992649.740758106] [behavior_server]: Creating behavior plugin wait of type nav2_behaviors::Wait
+[behavior_server-14] [INFO] [1793992649.751571980] [behavior_server]: Configuring spin
+[behavior_server-14] [INFO] [1793992649.757990073] [behavior_server]: Configuring wait
+[lifecycle_manager-16] [INFO] [1793992649.762863010] [lifecycle_navegacao]: [34m[1mConfiguring bt_navigator[0m[0m
+[bt_navigator-15] [INFO] [1793992649.763119820] [bt_navigator]: Configuring
+[bt_navigator-15] [INFO] [1793992649.770284786] [bt_navigator]: Creating navigator id navigate_to_pose of type nav2_bt_navigator::NavigateToPoseNavigator
+[rviz2-20] [ERROR] [1793992649.841728224] [rviz2]: rviz/glsl120/indexed_8bit_image.vert
+[rviz2-20] rviz/glsl120/indexed_8bit_image.frag
+[rviz2-20]  GLSL link result : 
+[rviz2-20] active samplers with a different type refer to the same texture image unit
+[lifecycle_manager-16] [INFO] [1793992649.882630381] [lifecycle_navegacao]: [34m[1mActivating controller_server[0m[0m
+[controller_server-13] [INFO] [1793992649.882819952] [controller_server]: Activating
+[controller_server-13] [INFO] [1793992649.882854320] [local_costmap.local_costmap]: Activating
+[controller_server-13] [INFO] [1793992649.882865212] [local_costmap.local_costmap]: Checking transform
+[controller_server-13] [INFO] [1793992649.882978347] [local_costmap.local_costmap]: start
+[controller_server-13] [INFO] [1793992649.984068851] [controller_server]: Activating controller: FollowPath of type regulated_pure_pursuit_controller::RegulatedPurePursuitController
+[controller_server-13] [INFO] [1793992649.984110117] [controller_server]: Creating bond (controller_server) to lifecycle manager.
+[rviz2-20] [INFO] [1793992650.084479960] [rviz2]: Trying to create a map of size 80 x 80 using 1 swatches
+[lifecycle_manager-16] [INFO] [1793992650.089778290] [lifecycle_navegacao]: Server controller_server connected with bond.
+[lifecycle_manager-16] [INFO] [1793992650.089815675] [lifecycle_navegacao]: [34m[1mActivating planner_server[0m[0m
+[planner_server-12] [INFO] [1793992650.090137082] [planner_server]: Activating
+[planner_server-12] [INFO] [1793992650.090176892] [global_costmap.global_costmap]: Activating
+[planner_server-12] [INFO] [1793992650.090187874] [global_costmap.global_costmap]: Checking transform
+[planner_server-12] [INFO] [1793992650.090293676] [global_costmap.global_costmap]: start
+[planner_server-12] [INFO] [1793992650.591702341] [planner_server]: Activating plugin GridBased of type NavfnPlanner
+[planner_server-12] [INFO] [1793992650.593525190] [planner_server]: Creating bond (planner_server) to lifecycle manager.
+[lifecycle_manager-16] [INFO] [1793992650.698257037] [lifecycle_navegacao]: Server planner_server connected with bond.
+[lifecycle_manager-16] [INFO] [1793992650.698297790] [lifecycle_navegacao]: [34m[1mActivating behavior_server[0m[0m
+[behavior_server-14] [INFO] [1793992650.698586810] [behavior_server]: Activating
+[behavior_server-14] [INFO] [1793992650.698613560] [behavior_server]: Activating spin
+[behavior_server-14] [INFO] [1793992650.698625237] [behavior_server]: Activating wait
+[behavior_server-14] [INFO] [1793992650.698639419] [behavior_server]: Creating bond (behavior_server) to lifecycle manager.
+[rviz2-20] [INFO] [1793992650.756620222] [rviz2]: Trying to create a map of size 120 x 100 using 1 swatches
+[lifecycle_manager-16] [INFO] [1793992650.803570147] [lifecycle_navegacao]: Server behavior_server connected with bond.
+[lifecycle_manager-16] [INFO] [1793992650.803618763] [lifecycle_navegacao]: [34m[1mActivating bt_navigator[0m[0m
+[bt_navigator-15] [INFO] [1793992650.803965428] [bt_navigator]: Activating
+[bt_navigator-15] [INFO] [1793992650.828809391] [bt_navigator]: Creating bond (bt_navigator) to lifecycle manager.
+[lifecycle_manager-16] [INFO] [1793992650.934651999] [lifecycle_navegacao]: Server bt_navigator connected with bond.
+[lifecycle_manager-16] [INFO] [1793992650.934694916] [lifecycle_navegacao]: [34m[1mManaged nodes are active[0m[0m
+[lifecycle_manager-16] [INFO] [1793992650.934707018] [lifecycle_navegacao]: [34m[1mCreating bond timer...[0m[0m
+[inicializar-19] [INFO] [1793992650.954198935] [inicializar_navegacao]: Nav2 ativo após confirmação de mapa, sensores e TF; autoridade permanece no árbitro.
+[INFO] [inicializar-19]: process has finished cleanly [pid 2538]
+[simular-2] [WARN] [1793992651.864795038] [simulador_base]: Referência rejeitada: nomes/velocidades/marca temporal inválidos, antigos, repetidos ou futuros além de tolerancia_futuro.
+[planner_server-12] [INFO] [1793992653.590506104] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 120 X 100 at 0.050000 m/pix
+[planner_server-12] [INFO] [1793992655.590481398] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 120 X 100 at 0.050000 m/pix
+[rviz2-20] [INFO] [1793992657.973066455] [rviz_navegacao]: Message Filter dropping message: frame 'odom' at time 2.000 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[planner_server-12] [INFO] [1793992661.590483054] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 120 X 101 at 0.050000 m/pix
+[rviz2-20] [INFO] [1793992661.670893716] [rviz2]: Trying to create a map of size 120 x 101 using 1 swatches
+[rviz2-20] [INFO] [1793992662.736427114] [rviz2]: Trying to create a map of size 120 x 101 using 1 swatches
+[simular-2] [WARN] [1793992664.144285788] [simulador_base]: Referência rejeitada: nomes/velocidades/marca temporal inválidos, antigos, repetidos ou futuros além de tolerancia_futuro.
+[simular-2] [WARN] [1793992666.784081956] [simulador_base]: Referência rejeitada: nomes/velocidades/marca temporal inválidos, antigos, repetidos ou futuros além de tolerancia_futuro.
+[planner_server-12] [INFO] [1793992668.590498821] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 121 X 101 at 0.050000 m/pix
+[rviz2-20] [INFO] [1793992668.661466090] [rviz2]: Trying to create a map of size 121 x 101 using 1 swatches
+[rviz2-20] [INFO] [1793992668.745969739] [rviz2]: Trying to create a map of size 121 x 101 using 1 swatches
+[simular-2] [WARN] [1793992671.564115207] [simulador_base]: Referência rejeitada: nomes/velocidades/marca temporal inválidos, antigos, repetidos ou futuros além de tolerancia_futuro.
+[simular-2] [WARN] [1793992674.184285042] [simulador_base]: Referência rejeitada: nomes/velocidades/marca temporal inválidos, antigos, repetidos ou futuros além de tolerancia_futuro.
+[planner_server-12] [INFO] [1793992675.590505756] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 121 X 101 at 0.050000 m/pix
+[planner_server-12] [INFO] [1793992676.590501712] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 121 X 101 at 0.050000 m/pix
+[bt_navigator-15] [INFO] [1793992682.965253183] [bt_navigator]: Begin navigating from current location (-0.08, 0.08) to (-2.00, 1.40)
+[controller_server-13] [INFO] [1793992682.986501931] [controller_server]: Received a goal, begin computing control effort.
+[simular-2] [WARN] [1793992683.124141986] [simulador_base]: Referência rejeitada: nomes/velocidades/marca temporal inválidos, antigos, repetidos ou futuros além de tolerancia_futuro.
+[controller_server-13] [INFO] [1793992684.086687016] [controller_server]: Passing new path to controller.
+[controller_server-13] [INFO] [1793992685.086750304] [controller_server]: Passing new path to controller.
+[controller_server-13] [INFO] [1793992686.087012805] [controller_server]: Passing new path to controller.
+[bt_navigator-15] [ERROR] [1793992686.285941381] [bt_navigator_navigate_to_pose_rclcpp_node]: Failed to get result for follow_path in node halt!
+[bt_navigator-15] [INFO] [1793992686.286184340] [bt_navigator]: [navigate_to_pose] [ActionServer] Client requested to cancel the goal. Cancelling.
+[bt_navigator-15] [INFO] [1793992686.286453414] [bt_navigator]: Goal canceled
+[controller_server-13] [INFO] [1793992686.286661121] [controller_server]: Cancellation was successful. Stopping the robot.
+[controller_server-13] [INFO] [1793992686.286701947] [controller_server]: [follow_path] [ActionServer] Client requested to cancel the goal. Cancelling.
+[lifecycle_manager-16] [INFO] [1793992686.811306474] [lifecycle_navegacao]: [34m[1mTerminating bond timer...[0m[0m
+[lifecycle_manager-16] [INFO] [1793992686.811402078] [lifecycle_navegacao]: [34m[1mShutting down managed nodes...[0m[0m
+[lifecycle_manager-16] [INFO] [1793992686.811426552] [lifecycle_navegacao]: [34m[1mDeactivate, cleanup, and shutdown nodes[0m[0m
+[lifecycle_manager-16] [INFO] [1793992686.811437487] [lifecycle_navegacao]: [34m[1mDeactivating bt_navigator[0m[0m
+[bt_navigator-15] [INFO] [1793992686.811836370] [bt_navigator]: Deactivating
+[bt_navigator-15] [INFO] [1793992686.811882074] [bt_navigator]: Destroying bond (bt_navigator) to lifecycle manager.
+[lifecycle_manager-16] [INFO] [1793992686.925062891] [lifecycle_navegacao]: [34m[1mDeactivating behavior_server[0m[0m
+[behavior_server-14] [INFO] [1793992686.925407508] [behavior_server]: Deactivating
+[behavior_server-14] [INFO] [1793992686.925446677] [behavior_server]: Destroying bond (behavior_server) to lifecycle manager.
+[lifecycle_manager-16] [INFO] [1793992687.037896876] [lifecycle_navegacao]: [34m[1mDeactivating planner_server[0m[0m
+[planner_server-12] [INFO] [1793992687.038250261] [planner_server]: Deactivating
+[planner_server-12] [INFO] [1793992687.038298256] [global_costmap.global_costmap]: Deactivating
+[planner_server-12] [INFO] [1793992687.090566206] [planner_server]: Deactivating plugin GridBased of type NavfnPlanner
+[planner_server-12] [INFO] [1793992687.090627089] [planner_server]: Destroying bond (planner_server) to lifecycle manager.
+[lifecycle_manager-16] [INFO] [1793992687.204311862] [lifecycle_navegacao]: [34m[1mDeactivating controller_server[0m[0m
+[controller_server-13] [INFO] [1793992687.204704429] [controller_server]: Deactivating
+[controller_server-13] [INFO] [1793992687.204744928] [controller_server]: Deactivating controller: FollowPath of type regulated_pure_pursuit_controller::RegulatedPurePursuitController
+[controller_server-13] [INFO] [1793992687.204769314] [local_costmap.local_costmap]: Deactivating
+[controller_server-13] [INFO] [1793992687.283322422] [controller_server]: Destroying bond (controller_server) to lifecycle manager.
+[lifecycle_manager-16] [INFO] [1793992687.399821715] [lifecycle_navegacao]: [34m[1mCleaning up bt_navigator[0m[0m
+[bt_navigator-15] [INFO] [1793992687.400225781] [bt_navigator]: Cleaning up
+[bt_navigator-15] [INFO] [1793992687.440967444] [bt_navigator]: Completed Cleaning up
+[lifecycle_manager-16] [INFO] [1793992687.441446020] [lifecycle_navegacao]: [34m[1mCleaning up behavior_server[0m[0m
+[behavior_server-14] [INFO] [1793992687.441652451] [behavior_server]: Cleaning up
+[lifecycle_manager-16] [INFO] [1793992687.451625128] [lifecycle_navegacao]: [34m[1mCleaning up planner_server[0m[0m
+[planner_server-12] [INFO] [1793992687.451901655] [planner_server]: Cleaning up
+[planner_server-12] [INFO] [1793992687.463359845] [global_costmap.global_costmap]: Cleaning up
+[planner_server-12] [INFO] [1793992687.469437415] [planner_server]: Cleaning up plugin GridBased of type NavfnPlanner
+[planner_server-12] [INFO] [1793992687.469662884] [planner_server]: Destroying plugin GridBased of type NavfnPlanner
+[lifecycle_manager-16] [INFO] [1793992687.503981245] [lifecycle_navegacao]: [34m[1mCleaning up controller_server[0m[0m
+[controller_server-13] [INFO] [1793992687.504173274] [controller_server]: Cleaning up
+[controller_server-13] [INFO] [1793992687.504199967] [controller_server]: Cleaning up controller: FollowPath of type regulated_pure_pursuit_controller::RegulatedPurePursuitController
+[controller_server-13] [INFO] [1793992687.506800698] [local_costmap.local_costmap]: Cleaning up
+[lifecycle_manager-16] [INFO] [1793992687.549727283] [lifecycle_navegacao]: [34m[1mShutting down bt_navigator[0m[0m
+[bt_navigator-15] [INFO] [1793992687.549964777] [bt_navigator]: Shutting down
+[lifecycle_manager-16] [INFO] [1793992687.550244790] [lifecycle_navegacao]: [34m[1mShutting down behavior_server[0m[0m
+[behavior_server-14] [INFO] [1793992687.550441487] [behavior_server]: Shutting down
+[lifecycle_manager-16] [INFO] [1793992687.550715823] [lifecycle_navegacao]: [34m[1mShutting down planner_server[0m[0m
+[planner_server-12] [INFO] [1793992687.550918848] [planner_server]: Shutting down
+[lifecycle_manager-16] [INFO] [1793992687.551187221] [lifecycle_navegacao]: [34m[1mShutting down controller_server[0m[0m
+[controller_server-13] [INFO] [1793992687.551388335] [controller_server]: Shutting down
+[lifecycle_manager-16] [INFO] [1793992687.551631025] [lifecycle_navegacao]: [34m[1mDestroying lifecycle service clients[0m[0m
+[lifecycle_manager-16] [INFO] [1793992687.557645075] [lifecycle_navegacao]: [34m[1mManaged nodes have been shut down[0m[0m
+[lifecycle_manager-11] [INFO] [1793992687.560141533] [lifecycle_slam_navegacao]: [34m[1mTerminating bond timer...[0m[0m
+[lifecycle_manager-11] [INFO] [1793992687.560189378] [lifecycle_slam_navegacao]: [34m[1mShutting down managed nodes...[0m[0m
+[lifecycle_manager-11] [INFO] [1793992687.560205326] [lifecycle_slam_navegacao]: [34m[1mDeactivate, cleanup, and shutdown nodes[0m[0m
+[lifecycle_manager-11] [INFO] [1793992687.560217659] [lifecycle_slam_navegacao]: [34m[1mDeactivating salvador_mapa[0m[0m
+[map_saver_server-10] [INFO] [1793992687.560508988] [salvador_mapa]: Deactivating
+[map_saver_server-10] [INFO] [1793992687.560547583] [salvador_mapa]: Destroying bond (salvador_mapa) to lifecycle manager.
+[lifecycle_manager-11] [INFO] [1793992687.672962571] [lifecycle_slam_navegacao]: [34m[1mDeactivating slam_toolbox[0m[0m
+[async_slam_toolbox_node-9] [INFO] [1793992687.673946870] [slam_toolbox]: Deactivating
+[async_slam_toolbox_node-9] [INFO] [1793992688.548630084] [slam_toolbox]: Destroying bond (slam_toolbox) to lifecycle manager.
+[lifecycle_manager-11] [INFO] [1793992688.660993169] [lifecycle_slam_navegacao]: [34m[1mCleaning up salvador_mapa[0m[0m
+[map_saver_server-10] [INFO] [1793992688.661357351] [salvador_mapa]: Cleaning up
+[lifecycle_manager-11] [INFO] [1793992688.662733860] [lifecycle_slam_navegacao]: [34m[1mCleaning up slam_toolbox[0m[0m
+[async_slam_toolbox_node-9] [INFO] [1793992688.662905936] [slam_toolbox]: Cleaning up
+[async_slam_toolbox_node-9] Unregistering sensor: Custom Described Lidar
+[lifecycle_manager-11] [INFO] [1793992688.681541149] [lifecycle_slam_navegacao]: [34m[1mShutting down salvador_mapa[0m[0m
+[map_saver_server-10] [INFO] [1793992688.681762035] [salvador_mapa]: Shutting down
+[lifecycle_manager-11] [INFO] [1793992688.682010432] [lifecycle_slam_navegacao]: [34m[1mShutting down slam_toolbox[0m[0m
+[async_slam_toolbox_node-9] [INFO] [1793992688.682143891] [slam_toolbox]: Shutting down
+[lifecycle_manager-11] [INFO] [1793992688.682363902] [lifecycle_slam_navegacao]: [34m[1mDestroying lifecycle service clients[0m[0m
+[lifecycle_manager-11] [INFO] [1793992688.687178214] [lifecycle_slam_navegacao]: [34m[1mManaged nodes have been shut down[0m[0m
+[rviz2-20] [INFO] [1793992689.060440034] [rviz_navegacao]: Message Filter dropping message: frame 'odom' at time 41.780 for reason 'discarding message because the queue is full'
+[rviz2-20] [INFO] [1793992689.060656993] [rviz_navegacao]: Message Filter dropping message: frame 'laser_simulado' at time 41.840 for reason 'discarding message because the queue is full'
+[rviz2-20] [INFO] [1793992691.626150581] [rviz_navegacao]: Message Filter dropping message: frame 'odom' at time 44.460 for reason 'discarding message because the queue is full'
+[rviz2-20] [INFO] [1793992691.626255079] [rviz_navegacao]: Message Filter dropping message: frame 'laser_simulado' at time 44.440 for reason 'discarding message because the queue is full'
+[INFO] [rviz2-20]: process has finished cleanly [pid 2539]
+[WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+[INFO] [static_transform_publisher-22]: sending signal 'SIGINT' to process[static_transform_publisher-22]
+[INFO] [static_transform_publisher-21]: sending signal 'SIGINT' to process[static_transform_publisher-21]
+[INFO] [proteger-18]: sending signal 'SIGINT' to process[proteger-18]
+[INFO] [arbitrar-17]: sending signal 'SIGINT' to process[arbitrar-17]
+[INFO] [lifecycle_manager-16]: sending signal 'SIGINT' to process[lifecycle_manager-16]
+[INFO] [bt_navigator-15]: sending signal 'SIGINT' to process[bt_navigator-15]
+[INFO] [behavior_server-14]: sending signal 'SIGINT' to process[behavior_server-14]
+[INFO] [controller_server-13]: sending signal 'SIGINT' to process[controller_server-13]
+[INFO] [planner_server-12]: sending signal 'SIGINT' to process[planner_server-12]
+[INFO] [lifecycle_manager-11]: sending signal 'SIGINT' to process[lifecycle_manager-11]
+[INFO] [map_saver_server-10]: sending signal 'SIGINT' to process[map_saver_server-10]
+[INFO] [async_slam_toolbox_node-9]: sending signal 'SIGINT' to process[async_slam_toolbox_node-9]
+[INFO] [simular_lidar-8]: sending signal 'SIGINT' to process[simular_lidar-8]
+[INFO] [trajetorias-7]: sending signal 'SIGINT' to process[trajetorias-7]
+[INFO] [ekf_node-6]: sending signal 'SIGINT' to process[ekf_node-6]
+[INFO] [tratar_imu-5]: sending signal 'SIGINT' to process[tratar_imu-5]
+[INFO] [calcular_odometria-4]: sending signal 'SIGINT' to process[calcular_odometria-4]
+[INFO] [converter_velocidade-3]: sending signal 'SIGINT' to process[converter_velocidade-3]
+[INFO] [static_transform_publisher-22]: process has finished cleanly [pid 2541]
+[INFO] [simular-2]: sending signal 'SIGINT' to process[simular-2]
+[INFO] [static_transform_publisher-21]: process has finished cleanly [pid 2540]
+[INFO] [robot_state_publisher-1]: sending signal 'SIGINT' to process[robot_state_publisher-1]
+[static_transform_publisher-22] [INFO] [1793992694.230312920] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[static_transform_publisher-21] [INFO] [1793992694.234286853] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[lifecycle_manager-16] [INFO] [1793992694.244782411] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[lifecycle_manager-16] [INFO] [1793992694.244872338] [lifecycle_navegacao]: Running Nav2 LifecycleManager rcl preshutdown (lifecycle_navegacao)
+[lifecycle_manager-16] [INFO] [1793992694.245625733] [lifecycle_navegacao]: Destroying lifecycle_navegacao
+[bt_navigator-15] [INFO] [1793992694.248380734] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[bt_navigator-15] [INFO] [1793992694.248440480] [bt_navigator]: Running Nav2 LifecycleNode rcl preshutdown (bt_navigator)
+[bt_navigator-15] [INFO] [1793992694.248482586] [bt_navigator]: Destroying bond (bt_navigator) to lifecycle manager.
+[bt_navigator-15] [INFO] [1793992694.249821014] [bt_navigator]: Destroying
+[behavior_server-14] [INFO] [1793992694.252647565] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[behavior_server-14] [INFO] [1793992694.252723721] [behavior_server]: Running Nav2 LifecycleNode rcl preshutdown (behavior_server)
+[behavior_server-14] [INFO] [1793992694.252772770] [behavior_server]: Destroying bond (behavior_server) to lifecycle manager.
+[behavior_server-14] [INFO] [1793992694.253775530] [behavior_server]: Destroying
+[controller_server-13] [INFO] [1793992694.257232247] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[controller_server-13] [INFO] [1793992694.257287189] [controller_server]: Running Nav2 LifecycleNode rcl preshutdown (controller_server)
+[controller_server-13] [INFO] [1793992694.257324494] [controller_server]: Destroying bond (controller_server) to lifecycle manager.
+[controller_server-13] [INFO] [1793992694.260090477] [local_costmap.local_costmap]: Destroying
+[planner_server-12] [INFO] [1793992694.261151922] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[planner_server-12] [INFO] [1793992694.261214899] [planner_server]: Running Nav2 LifecycleNode rcl preshutdown (planner_server)
+[planner_server-12] [INFO] [1793992694.261245543] [planner_server]: Destroying bond (planner_server) to lifecycle manager.
+[planner_server-12] [INFO] [1793992694.265209306] [global_costmap.global_costmap]: Destroying
+[lifecycle_manager-11] [INFO] [1793992694.265652263] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[lifecycle_manager-11] [INFO] [1793992694.265764118] [lifecycle_slam_navegacao]: Running Nav2 LifecycleManager rcl preshutdown (lifecycle_slam_navegacao)
+[lifecycle_manager-11] [INFO] [1793992694.266604087] [lifecycle_slam_navegacao]: Destroying lifecycle_slam_navegacao
+[controller_server-13] [INFO] [1793992694.270093409] [controller_server]: Destroying
+[map_saver_server-10] [INFO] [1793992694.270779504] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[map_saver_server-10] [INFO] [1793992694.270912549] [salvador_mapa]: Running Nav2 LifecycleNode rcl preshutdown (salvador_mapa)
+[map_saver_server-10] [INFO] [1793992694.270950456] [salvador_mapa]: Destroying bond (salvador_mapa) to lifecycle manager.
+[map_saver_server-10] [INFO] [1793992694.271776030] [salvador_mapa]: Destroying
+[async_slam_toolbox_node-9] [INFO] [1793992694.274863399] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[planner_server-12] [INFO] [1793992694.275220229] [planner_server]: Destroying
+[ekf_node-6] [INFO] [1793992694.336267858] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[robot_state_publisher-1] [INFO] [1793992694.357753484] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[INFO] [lifecycle_manager-16]: process has finished cleanly [pid 2535]
+[INFO] [bt_navigator-15]: process has finished cleanly [pid 2534]
+[INFO] [behavior_server-14]: process has finished cleanly [pid 2533]
+[INFO] [lifecycle_manager-11]: process has finished cleanly [pid 2528]
+[INFO] [controller_server-13]: process has finished cleanly [pid 2530]
+[INFO] [map_saver_server-10]: process has finished cleanly [pid 2527]
+[INFO] [async_slam_toolbox_node-9]: process has finished cleanly [pid 2526]
+[INFO] [planner_server-12]: process has finished cleanly [pid 2529]
+[INFO] [ekf_node-6]: process has finished cleanly [pid 2523]
+[INFO] [robot_state_publisher-1]: process has finished cleanly [pid 2518]
+[INFO] [arbitrar-17]: process has finished cleanly [pid 2536]
+[INFO] [simular_lidar-8]: process has finished cleanly [pid 2525]
+[INFO] [calcular_odometria-4]: process has finished cleanly [pid 2521]
+[INFO] [proteger-18]: process has finished cleanly [pid 2537]
+[INFO] [converter_velocidade-3]: process has finished cleanly [pid 2520]
+[INFO] [simular-2]: process has finished cleanly [pid 2519]
+[INFO] [tratar_imu-5]: process has finished cleanly [pid 2522]
+[INFO] [trajetorias-7]: process has finished cleanly [pid 2524]

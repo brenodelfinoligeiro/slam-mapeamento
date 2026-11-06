@@ -1,0 +1,644 @@
+{
+  "natureza": "estudo_3D_de_referencias_e_reservas_nao_fabricacao",
+  "origem_layout_2d": "docs/disposicao-2d/implantacao.json",
+  "AA": 4,
+  "FreeCAD": "1.1.4",
+  "objetos": 86,
+  "solidos_BREP": 5728,
+  "malhas_referencia": 36,
+  "facetas_mecanica": 684152,
+  "objetos_invalidos": [],
+  "reaberto_no_kernel": true,
+  "objetos_componentes": [
+    {
+      "objeto": "Mecanica_00",
+      "rotulo": "00 Pneu de referência",
+      "tipo": "malha_referencia",
+      "grupo": "Mecanica",
+      "facetas": 314326
+    },
+    {
+      "objeto": "Mecanica_01",
+      "rotulo": "01 Pneu de referência",
+      "tipo": "malha_referencia",
+      "grupo": "Mecanica",
+      "facetas": 314326
+    },
+    {
+      "objeto": "Mecanica_02",
+      "rotulo": "02 Cubo de roda de referência",
+      "tipo": "malha_referencia",
+      "grupo": "Mecanica",
+      "facetas": 10568
+    },
+    {
+      "objeto": "Mecanica_03",
+      "rotulo": "03 Cubo de roda de referência",
+      "tipo": "malha_referencia",
+      "grupo": "Mecanica",
+      "facetas": 10568
+    },
+    {
+      "objeto": "Mecanica_04",
+      "rotulo": "04 Chapa do chassi B",
+      "tipo": "malha_referencia",
+      "grupo": "Mecanica",
+      "facetas": 8548
+    },
+    {
+      "objeto": "Mecanica_05",
+      "rotulo": "05 Rodízio de referência",
+      "tipo": "malha_referencia",
+      "grupo": "Mecanica",
+      "facetas": 7544
+    },
+    {
+      "objeto": "Mecanica_06",
+      "rotulo": "06 Rodízio de referência",
+      "tipo": "malha_referencia",
+      "grupo": "Mecanica",
+      "facetas": 6486
+    },
+    {
+      "objeto": "Mecanica_07",
+      "rotulo": "07 Rodízio de referência",
+      "tipo": "malha_referencia",
+      "grupo": "Mecanica",
+      "facetas": 1698
+    },
+    {
+      "objeto": "Mecanica_08",
+      "rotulo": "08 Motor — tampa de referência",
+      "tipo": "malha_referencia",
+      "grupo": "Mecanica",
+      "facetas": 1378
+    },
+    {
+      "objeto": "Mecanica_09",
+      "rotulo": "09 Motor — tampa de referência",
+      "tipo": "malha_referencia",
+      "grupo": "Mecanica",
+      "facetas": 1378
+    },
+    {
+      "objeto": "Mecanica_10",
+      "rotulo": "10 Motorredutor TT de referência",
+      "tipo": "malha_referencia",
+      "grupo": "Mecanica",
+      "facetas": 876
+    },
+    {
+      "objeto": "Mecanica_11",
+      "rotulo": "11 Motorredutor TT de referência",
+      "tipo": "malha_referencia",
+      "grupo": "Mecanica",
+      "facetas": 876
+    },
+    {
+      "objeto": "Mecanica_12",
+      "rotulo": "12 Fixação/eixo da montagem de referência",
+      "tipo": "malha_referencia",
+      "grupo": "Mecanica",
+      "facetas": 572
+    },
+    {
+      "objeto": "Mecanica_13",
+      "rotulo": "13 Fixação/eixo da montagem de referência",
+      "tipo": "malha_referencia",
+      "grupo": "Mecanica",
+      "facetas": 572
+    },
+    {
+      "objeto": "Mecanica_14",
+      "rotulo": "14 Fixação/eixo da montagem de referência",
+      "tipo": "malha_referencia",
+      "grupo": "Mecanica",
+      "facetas": 572
+    },
+    {
+      "objeto": "Mecanica_15",
+      "rotulo": "15 Fixação/eixo da montagem de referência",
+      "tipo": "malha_referencia",
+      "grupo": "Mecanica",
+      "facetas": 572
+    },
+    {
+      "objeto": "Mecanica_16",
+      "rotulo": "16 Motorredutor TT de referência",
+      "tipo": "malha_referencia",
+      "grupo": "Mecanica",
+      "facetas": 474
+    },
+    {
+      "objeto": "Mecanica_17",
+      "rotulo": "17 Motorredutor TT de referência",
+      "tipo": "malha_referencia",
+      "grupo": "Mecanica",
+      "facetas": 474
+    },
+    {
+      "objeto": "Mecanica_18",
+      "rotulo": "18 Fixação/eixo da montagem de referência",
+      "tipo": "malha_referencia",
+      "grupo": "Mecanica",
+      "facetas": 340
+    },
+    {
+      "objeto": "Mecanica_19",
+      "rotulo": "19 Fixação/eixo da montagem de referência",
+      "tipo": "malha_referencia",
+      "grupo": "Mecanica",
+      "facetas": 340
+    },
+    {
+      "objeto": "Mecanica_20",
+      "rotulo": "20 Fixação/eixo da montagem de referência",
+      "tipo": "malha_referencia",
+      "grupo": "Mecanica",
+      "facetas": 216
+    },
+    {
+      "objeto": "Mecanica_21",
+      "rotulo": "21 Fixação/eixo da montagem de referência",
+      "tipo": "malha_referencia",
+      "grupo": "Mecanica",
+      "facetas": 216
+    },
+    {
+      "objeto": "Mecanica_22",
+      "rotulo": "22 Fixação/eixo da montagem de referência",
+      "tipo": "malha_referencia",
+      "grupo": "Mecanica",
+      "facetas": 216
+    },
+    {
+      "objeto": "Mecanica_23",
+      "rotulo": "23 Fixação/eixo da montagem de referência",
+      "tipo": "malha_referencia",
+      "grupo": "Mecanica",
+      "facetas": 216
+    },
+    {
+      "objeto": "Mecanica_24",
+      "rotulo": "24 Fixação/eixo da montagem de referência",
+      "tipo": "malha_referencia",
+      "grupo": "Mecanica",
+      "facetas": 212
+    },
+    {
+      "objeto": "Mecanica_25",
+      "rotulo": "25 Fixação/eixo da montagem de referência",
+      "tipo": "malha_referencia",
+      "grupo": "Mecanica",
+      "facetas": 212
+    },
+    {
+      "objeto": "Mecanica_26",
+      "rotulo": "26 Fixação/eixo da montagem de referência",
+      "tipo": "malha_referencia",
+      "grupo": "Mecanica",
+      "facetas": 132
+    },
+    {
+      "objeto": "Mecanica_27",
+      "rotulo": "27 Fixação/eixo da montagem de referência",
+      "tipo": "malha_referencia",
+      "grupo": "Mecanica",
+      "facetas": 132
+    },
+    {
+      "objeto": "Mecanica_28",
+      "rotulo": "28 Fixação/eixo da montagem de referência",
+      "tipo": "malha_referencia",
+      "grupo": "Mecanica",
+      "facetas": 26
+    },
+    {
+      "objeto": "Mecanica_29",
+      "rotulo": "29 Fixação/eixo da montagem de referência",
+      "tipo": "malha_referencia",
+      "grupo": "Mecanica",
+      "facetas": 26
+    },
+    {
+      "objeto": "Mecanica_30",
+      "rotulo": "30 Fixação/eixo da montagem de referência",
+      "tipo": "malha_referencia",
+      "grupo": "Mecanica",
+      "facetas": 26
+    },
+    {
+      "objeto": "Mecanica_31",
+      "rotulo": "31 Fixação/eixo da montagem de referência",
+      "tipo": "malha_referencia",
+      "grupo": "Mecanica",
+      "facetas": 26
+    },
+    {
+      "objeto": "Mecanica_32",
+      "rotulo": "32 Fixação/eixo da montagem de referência",
+      "tipo": "malha_referencia",
+      "grupo": "Mecanica",
+      "facetas": 2
+    },
+    {
+      "objeto": "Mecanica_33",
+      "rotulo": "33 Fixação/eixo da montagem de referência",
+      "tipo": "malha_referencia",
+      "grupo": "Mecanica",
+      "facetas": 2
+    },
+    {
+      "objeto": "Mecanica_34",
+      "rotulo": "34 Fixação/eixo da montagem de referência",
+      "tipo": "malha_referencia",
+      "grupo": "Mecanica",
+      "facetas": 2
+    },
+    {
+      "objeto": "Mecanica_35",
+      "rotulo": "35 Fixação/eixo da montagem de referência",
+      "tipo": "malha_referencia",
+      "grupo": "Mecanica",
+      "facetas": 2
+    },
+    {
+      "objeto": "Reserva_Holder4AA",
+      "rotulo": "01 RESERVA — holder 4 AA",
+      "tipo": "reserva: holder não escolhido",
+      "grupo": "Inferior",
+      "origem": null
+    },
+    {
+      "objeto": "AA_1",
+      "rotulo": "01 AA 1 — ilustrativa",
+      "tipo": "representação ilustrativa de AA, não ficha dimensional",
+      "grupo": "Inferior",
+      "origem": null
+    },
+    {
+      "objeto": "PoloAA_1",
+      "rotulo": "Polo AA 1 — ilustrativo",
+      "tipo": "proposta",
+      "grupo": "Inferior",
+      "origem": null
+    },
+    {
+      "objeto": "AA_2",
+      "rotulo": "01 AA 2 — ilustrativa",
+      "tipo": "representação ilustrativa de AA, não ficha dimensional",
+      "grupo": "Inferior",
+      "origem": null
+    },
+    {
+      "objeto": "PoloAA_2",
+      "rotulo": "Polo AA 2 — ilustrativo",
+      "tipo": "proposta",
+      "grupo": "Inferior",
+      "origem": null
+    },
+    {
+      "objeto": "AA_3",
+      "rotulo": "01 AA 3 — ilustrativa",
+      "tipo": "representação ilustrativa de AA, não ficha dimensional",
+      "grupo": "Inferior",
+      "origem": null
+    },
+    {
+      "objeto": "PoloAA_3",
+      "rotulo": "Polo AA 3 — ilustrativo",
+      "tipo": "proposta",
+      "grupo": "Inferior",
+      "origem": null
+    },
+    {
+      "objeto": "AA_4",
+      "rotulo": "01 AA 4 — ilustrativa",
+      "tipo": "representação ilustrativa de AA, não ficha dimensional",
+      "grupo": "Inferior",
+      "origem": null
+    },
+    {
+      "objeto": "PoloAA_4",
+      "rotulo": "Polo AA 4 — ilustrativo",
+      "tipo": "proposta",
+      "grupo": "Inferior",
+      "origem": null
+    },
+    {
+      "objeto": "Reserva_ESP",
+      "rotulo": "02 RESERVA — placa ESP a definir",
+      "tipo": "reserva: placa final não escolhida",
+      "grupo": "Inferior",
+      "origem": null
+    },
+    {
+      "objeto": "MPU6050",
+      "rotulo": "03 MPU-6050 — CAD candidato",
+      "tipo": "CAD de referência, furação/orientação a conferir",
+      "grupo": "Inferior",
+      "origem": "arquivos/mpu6050/mpu6050-placa-candidata.step"
+    },
+    {
+      "objeto": "L298N",
+      "rotulo": "04 L298N — CAD de referência",
+      "tipo": "CAD de referência; elevado 6 mm para liberar suportes do motor",
+      "grupo": "Inferior",
+      "origem": "arquivos/l298n_step/l298n-freecad-library.step"
+    },
+    {
+      "objeto": "Encoder_E",
+      "rotulo": "05 Encoder E — posição a alinhar",
+      "tipo": "CAD do sensor confirmado visualmente; posição/garfo a conferir",
+      "grupo": "Inferior",
+      "origem": "arquivos/sensor-candidato/sensor_lm393_candidato_extraido.step"
+    },
+    {
+      "objeto": "Disco_E",
+      "rotulo": "05 Disco E — ILUSTRATIVO, fendas não medidas",
+      "tipo": "geometria ilustrativa; número de fendas sem valor de resolução real",
+      "grupo": "Inferior",
+      "origem": null
+    },
+    {
+      "objeto": "Encoder_D",
+      "rotulo": "05 Encoder D — posição a alinhar",
+      "tipo": "CAD do sensor confirmado visualmente; posição/garfo a conferir",
+      "grupo": "Inferior",
+      "origem": "arquivos/sensor-candidato/sensor_lm393_candidato_extraido.step"
+    },
+    {
+      "objeto": "Disco_D",
+      "rotulo": "05 Disco D — ILUSTRATIVO, fendas não medidas",
+      "tipo": "geometria ilustrativa; número de fendas sem valor de resolução real",
+      "grupo": "Inferior",
+      "origem": null
+    },
+    {
+      "objeto": "ColunaPrincipal",
+      "rotulo": "09 Coluna principal x=-43 y=20",
+      "tipo": "proposta",
+      "grupo": "Superior",
+      "origem": null
+    },
+    {
+      "objeto": "ColunaPrincipal001",
+      "rotulo": "09 Coluna principal x=-43 y=199",
+      "tipo": "proposta",
+      "grupo": "Superior",
+      "origem": null
+    },
+    {
+      "objeto": "ColunaPrincipal002",
+      "rotulo": "09 Coluna principal x=43 y=20",
+      "tipo": "proposta",
+      "grupo": "Superior",
+      "origem": null
+    },
+    {
+      "objeto": "ColunaPrincipal003",
+      "rotulo": "09 Coluna principal x=43 y=199",
+      "tipo": "proposta",
+      "grupo": "Superior",
+      "origem": null
+    },
+    {
+      "objeto": "PisoSuperior",
+      "rotulo": "10 Piso removível — janela sobre L298N",
+      "tipo": "proposta",
+      "grupo": "Superior",
+      "origem": null
+    },
+    {
+      "objeto": "Apoio_ESP",
+      "rotulo": "Apoio proposto ESP",
+      "tipo": "proposta",
+      "grupo": "Inferior",
+      "origem": null
+    },
+    {
+      "objeto": "Apoio_ESP001",
+      "rotulo": "Apoio proposto ESP",
+      "tipo": "proposta",
+      "grupo": "Inferior",
+      "origem": null
+    },
+    {
+      "objeto": "Apoio_L298N",
+      "rotulo": "Apoio proposto L298N",
+      "tipo": "proposta",
+      "grupo": "Inferior",
+      "origem": null
+    },
+    {
+      "objeto": "Apoio_L298N001",
+      "rotulo": "Apoio proposto L298N",
+      "tipo": "proposta",
+      "grupo": "Inferior",
+      "origem": null
+    },
+    {
+      "objeto": "Apoio_Pi",
+      "rotulo": "Apoio proposto Pi",
+      "tipo": "proposta",
+      "grupo": "Superior",
+      "origem": null
+    },
+    {
+      "objeto": "Apoio_Pi001",
+      "rotulo": "Apoio proposto Pi",
+      "tipo": "proposta",
+      "grupo": "Superior",
+      "origem": null
+    },
+    {
+      "objeto": "Apoio_Pi002",
+      "rotulo": "Apoio proposto Pi",
+      "tipo": "proposta",
+      "grupo": "Superior",
+      "origem": null
+    },
+    {
+      "objeto": "Apoio_Pi003",
+      "rotulo": "Apoio proposto Pi",
+      "tipo": "proposta",
+      "grupo": "Superior",
+      "origem": null
+    },
+    {
+      "objeto": "Apoio_PB",
+      "rotulo": "Apoio proposto PB",
+      "tipo": "proposta",
+      "grupo": "Superior",
+      "origem": null
+    },
+    {
+      "objeto": "Apoio_PB001",
+      "rotulo": "Apoio proposto PB",
+      "tipo": "proposta",
+      "grupo": "Superior",
+      "origem": null
+    },
+    {
+      "objeto": "Apoio_PB002",
+      "rotulo": "Apoio proposto PB",
+      "tipo": "proposta",
+      "grupo": "Superior",
+      "origem": null
+    },
+    {
+      "objeto": "Apoio_PB003",
+      "rotulo": "Apoio proposto PB",
+      "tipo": "proposta",
+      "grupo": "Superior",
+      "origem": null
+    },
+    {
+      "objeto": "RaspberryPi5",
+      "rotulo": "06 Raspberry Pi 5 — CAD oficial",
+      "tipo": "CAD oficial; revisão física, cooler e cabos a conferir",
+      "grupo": "Superior",
+      "origem": "arquivos/raspberry-pi-5/rpi-5-no-graphics.zip"
+    },
+    {
+      "objeto": "Reserva_Powerbank",
+      "rotulo": "07 RESERVA — powerbank 120x65x25",
+      "tipo": "reserva: powerbank exato desconhecido",
+      "grupo": "Superior",
+      "origem": null
+    },
+    {
+      "objeto": "CintaPowerbank",
+      "rotulo": "Cinta removível — representação",
+      "tipo": "proposta",
+      "grupo": "Superior",
+      "origem": null
+    },
+    {
+      "objeto": "CintaPowerbank001",
+      "rotulo": "Cinta removível — representação",
+      "tipo": "proposta",
+      "grupo": "Superior",
+      "origem": null
+    },
+    {
+      "objeto": "ApoioPonte",
+      "rotulo": "11 Apoio elevado do C1",
+      "tipo": "proposta",
+      "grupo": "Lidar",
+      "origem": null
+    },
+    {
+      "objeto": "ApoioPonte001",
+      "rotulo": "11 Apoio elevado do C1",
+      "tipo": "proposta",
+      "grupo": "Lidar",
+      "origem": null
+    },
+    {
+      "objeto": "PonteLidar",
+      "rotulo": "12 Ponte C1 — proposta",
+      "tipo": "proposta",
+      "grupo": "Lidar",
+      "origem": null
+    },
+    {
+      "objeto": "EspacadorC1",
+      "rotulo": "Apoio C1 proposto",
+      "tipo": "proposta",
+      "grupo": "Lidar",
+      "origem": null
+    },
+    {
+      "objeto": "EspacadorC001",
+      "rotulo": "Apoio C1 proposto",
+      "tipo": "proposta",
+      "grupo": "Lidar",
+      "origem": null
+    },
+    {
+      "objeto": "EspacadorC002",
+      "rotulo": "Apoio C1 proposto",
+      "tipo": "proposta",
+      "grupo": "Lidar",
+      "origem": null
+    },
+    {
+      "objeto": "EspacadorC003",
+      "rotulo": "Apoio C1 proposto",
+      "tipo": "proposta",
+      "grupo": "Lidar",
+      "origem": null
+    },
+    {
+      "objeto": "LidarC1",
+      "rotulo": "08 LiDAR C1 — corpo extraído do CAD",
+      "tipo": "derivação: corpo sem cabo/acessórios externos",
+      "grupo": "Lidar",
+      "origem": "arquivos/lidar-c1/C1M1_appearance_V2_20230926.3d_model.stp"
+    }
+  ],
+  "C1_indices_selecionados": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21
+  ],
+  "C1_acessorios_omitidos": [
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13
+  ],
+  "diferencas_do_2d": [
+    "ESP e L298N elevados em 6 mm, base do envelope em z=56,4 mm.",
+    "Rodas/eixos/rodízio mantêm geometria e posições relativas do CAD mecânico original, não os círculos simplificados do 2D.",
+    "Corpo C1 real ocupa cerca de 55,86 x 55,86 x 41,45 mm; não foi redimensionado para o círculo nominal 2D."
+  ],
+  "limites": [
+    "Malhas de terceiros não são sólidos BREP validados.",
+    "Não há ensaio físico, cálculo de estabilidade ou verificação completa de colisões.",
+    "Encoders/discos, fixações, cabos, cooler e retenção das pilhas exigem conferência.",
+    "Suportes e placeholders não estão aprovados para fabricação."
+  ],
+  "fontes": {
+    "chassi_2wd_4738179_montagem": {
+      "caminho": "arquivos/chassi-2wd-B/2WD smart car arduino robot chassis - 4738179.zip",
+      "sha256": "935a7d3ad79cdceb4a4e8b67ec071314cbbe47985a1a55aebf594edc803928ff"
+    },
+    "raspberry_pi_5": {
+      "caminho": "arquivos/raspberry-pi-5/rpi-5-no-graphics.zip",
+      "sha256": "6841637b4cfa97637bf34b529bfe896f24d9634b2c40b57a156781f55d88f06f"
+    },
+    "l298n_step": {
+      "caminho": "arquivos/l298n_step/l298n-freecad-library.step",
+      "sha256": "85a25934934a49eaca09fd8db0e59b1eb5095bb3705ac0943f9bdb4e9be82af5"
+    },
+    "mpu6050": {
+      "caminho": "arquivos/mpu6050/mpu6050-placa-candidata.step",
+      "sha256": "a0b3420ff59fd3dd73e2cea2d2b71cea8d08a3bb58bd1553e8947f3b14af63b6"
+    },
+    "sensor_extraido": {
+      "caminho": "arquivos/sensor-candidato/sensor_lm393_candidato_extraido.step",
+      "sha256": "5e91ca6a5f910c5cd6a4f169118de103633e1878f0a34402e4b0630f0aed6a93"
+    },
+    "lidar_c1": {
+      "caminho": "arquivos/lidar-c1/C1M1_appearance_V2_20230926.3d_model.stp",
+      "sha256": "0c5ec21a35b08a1b2c81cf18ba3ecefc72aedadc655b1108f80a2d5affc34568"
+    }
+  }
+}

@@ -1,0 +1,433 @@
+{
+  "status": "OK",
+  "tipos_STL": 25,
+  "quantidade_com_cupom": 43,
+  "modelos": [
+    {
+      "codigo": "P01",
+      "quantidade": 1,
+      "dimensoes_mm": [
+        170.0,
+        126.0,
+        40.599998474121094
+      ],
+      "componentes": 1,
+      "fechado": true,
+      "orientacao_consistente": true,
+      "volume_positivo": true,
+      "folga_apos_brim5_mm": [
+        20.0,
+        42.0
+      ]
+    },
+    {
+      "codigo": "P02",
+      "quantidade": 1,
+      "dimensoes_mm": [
+        170.0,
+        97.69999694824219,
+        40.599998474121094
+      ],
+      "componentes": 1,
+      "fechado": true,
+      "orientacao_consistente": true,
+      "volume_positivo": true,
+      "folga_apos_brim5_mm": [
+        20.0,
+        56.150001525878906
+      ]
+    },
+    {
+      "codigo": "P03",
+      "quantidade": 1,
+      "dimensoes_mm": [
+        84.69999694824219,
+        126.0,
+        46.400001525878935
+      ],
+      "componentes": 1,
+      "fechado": true,
+      "orientacao_consistente": true,
+      "volume_positivo": true,
+      "folga_apos_brim5_mm": [
+        62.650001525878906,
+        42.0
+      ]
+    },
+    {
+      "codigo": "P04",
+      "quantidade": 1,
+      "dimensoes_mm": [
+        84.69999694824219,
+        126.0,
+        46.400001525878935
+      ],
+      "componentes": 1,
+      "fechado": true,
+      "orientacao_consistente": true,
+      "volume_positivo": true,
+      "folga_apos_brim5_mm": [
+        62.650001525878906,
+        42.0
+      ]
+    },
+    {
+      "codigo": "P05",
+      "quantidade": 1,
+      "dimensoes_mm": [
+        84.69999694824219,
+        97.69999694824219,
+        46.400001525878935
+      ],
+      "componentes": 1,
+      "fechado": true,
+      "orientacao_consistente": true,
+      "volume_positivo": true,
+      "folga_apos_brim5_mm": [
+        62.650001525878906,
+        56.150001525878906
+      ]
+    },
+    {
+      "codigo": "P06",
+      "quantidade": 1,
+      "dimensoes_mm": [
+        84.69999694824219,
+        97.69999694824219,
+        46.400001525878935
+      ],
+      "componentes": 1,
+      "fechado": true,
+      "orientacao_consistente": true,
+      "volume_positivo": true,
+      "folga_apos_brim5_mm": [
+        62.650001525878906,
+        56.150001525878906
+      ]
+    },
+    {
+      "codigo": "P07",
+      "quantidade": 1,
+      "dimensoes_mm": [
+        94.0,
+        34.0,
+        2.4000000953674316
+      ],
+      "componentes": 1,
+      "fechado": true,
+      "orientacao_consistente": true,
+      "volume_positivo": true,
+      "folga_apos_brim5_mm": [
+        58.0,
+        88.0
+      ]
+    },
+    {
+      "codigo": "P08",
+      "quantidade": 1,
+      "dimensoes_mm": [
+        160.0,
+        41.40000152587889,
+        2.4000000953674316
+      ],
+      "componentes": 1,
+      "fechado": true,
+      "orientacao_consistente": true,
+      "volume_positivo": true,
+      "folga_apos_brim5_mm": [
+        25.0,
+        84.29999923706055
+      ]
+    },
+    {
+      "codigo": "P09",
+      "quantidade": 1,
+      "dimensoes_mm": [
+        39.999999999999986,
+        75.0,
+        2.400000095367446
+      ],
+      "componentes": 1,
+      "fechado": true,
+      "orientacao_consistente": true,
+      "volume_positivo": true,
+      "folga_apos_brim5_mm": [
+        85.0,
+        67.5
+      ]
+    },
+    {
+      "codigo": "P10",
+      "quantidade": 2,
+      "dimensoes_mm": [
+        14.0,
+        28.0,
+        4.000000000000028
+      ],
+      "componentes": 1,
+      "fechado": true,
+      "orientacao_consistente": true,
+      "volume_positivo": true,
+      "folga_apos_brim5_mm": [
+        98.0,
+        91.0
+      ]
+    },
+    {
+      "codigo": "P11",
+      "quantidade": 4,
+      "dimensoes_mm": [
+        12.0,
+        20.0,
+        7.0
+      ],
+      "componentes": 1,
+      "fechado": true,
+      "orientacao_consistente": true,
+      "volume_positivo": true,
+      "folga_apos_brim5_mm": [
+        99.0,
+        95.0
+      ]
+    },
+    {
+      "codigo": "P12",
+      "quantidade": 1,
+      "dimensoes_mm": [
+        130.0,
+        197.0,
+        5.0
+      ],
+      "componentes": 1,
+      "fechado": true,
+      "orientacao_consistente": true,
+      "volume_positivo": true,
+      "folga_apos_brim5_mm": [
+        40.0,
+        6.5
+      ]
+    },
+    {
+      "codigo": "P13",
+      "quantidade": 1,
+      "dimensoes_mm": [
+        156.0,
+        73.0,
+        7.400000095367432
+      ],
+      "componentes": 1,
+      "fechado": true,
+      "orientacao_consistente": true,
+      "volume_positivo": true,
+      "folga_apos_brim5_mm": [
+        27.0,
+        68.5
+      ]
+    },
+    {
+      "codigo": "P14",
+      "quantidade": 1,
+      "dimensoes_mm": [
+        81.0,
+        76.0,
+        7.0
+      ],
+      "componentes": 1,
+      "fechado": true,
+      "orientacao_consistente": true,
+      "volume_positivo": true,
+      "folga_apos_brim5_mm": [
+        64.5,
+        67.0
+      ]
+    },
+    {
+      "codigo": "P15",
+      "quantidade": 2,
+      "dimensoes_mm": [
+        10.0,
+        9.996891420916654,
+        38.599998474121094
+      ],
+      "componentes": 1,
+      "fechado": true,
+      "orientacao_consistente": true,
+      "volume_positivo": true,
+      "folga_apos_brim5_mm": [
+        100.0,
+        100.00155428954167
+      ]
+    },
+    {
+      "codigo": "P16",
+      "quantidade": 2,
+      "dimensoes_mm": [
+        10.0,
+        9.996891420916654,
+        34.599998474121094
+      ],
+      "componentes": 1,
+      "fechado": true,
+      "orientacao_consistente": true,
+      "volume_positivo": true,
+      "folga_apos_brim5_mm": [
+        100.0,
+        100.00155428954167
+      ]
+    },
+    {
+      "codigo": "P17",
+      "quantidade": 2,
+      "dimensoes_mm": [
+        15.0,
+        12.0,
+        4.0
+      ],
+      "componentes": 1,
+      "fechado": true,
+      "orientacao_consistente": true,
+      "volume_positivo": true,
+      "folga_apos_brim5_mm": [
+        97.5,
+        99.0
+      ]
+    },
+    {
+      "codigo": "P18",
+      "quantidade": 2,
+      "dimensoes_mm": [
+        8.0,
+        7.9975136135471985,
+        50.0
+      ],
+      "componentes": 1,
+      "fechado": true,
+      "orientacao_consistente": true,
+      "volume_positivo": true,
+      "folga_apos_brim5_mm": [
+        101.0,
+        101.0012431932264
+      ]
+    },
+    {
+      "codigo": "P19",
+      "quantidade": 1,
+      "dimensoes_mm": [
+        62.0,
+        62.0,
+        3.0
+      ],
+      "componentes": 1,
+      "fechado": true,
+      "orientacao_consistente": true,
+      "volume_positivo": true,
+      "folga_apos_brim5_mm": [
+        74.0,
+        74.0
+      ]
+    },
+    {
+      "codigo": "P20",
+      "quantidade": 4,
+      "dimensoes_mm": [
+        5.599999904632568,
+        5.5982593864318915,
+        2.0
+      ],
+      "componentes": 1,
+      "fechado": true,
+      "orientacao_consistente": true,
+      "volume_positivo": true,
+      "folga_apos_brim5_mm": [
+        102.20000004768372,
+        102.20087030678405
+      ]
+    },
+    {
+      "codigo": "P21",
+      "quantidade": 4,
+      "dimensoes_mm": [
+        6.0,
+        5.998135329340585,
+        6.0
+      ],
+      "componentes": 1,
+      "fechado": true,
+      "orientacao_consistente": true,
+      "volume_positivo": true,
+      "folga_apos_brim5_mm": [
+        102.0,
+        102.00093233532971
+      ]
+    },
+    {
+      "codigo": "P22",
+      "quantidade": 4,
+      "dimensoes_mm": [
+        6.0,
+        5.998135329340585,
+        10.0
+      ],
+      "componentes": 1,
+      "fechado": true,
+      "orientacao_consistente": true,
+      "volume_positivo": true,
+      "folga_apos_brim5_mm": [
+        102.0,
+        102.00093233532971
+      ]
+    },
+    {
+      "codigo": "P23",
+      "quantidade": 2,
+      "dimensoes_mm": [
+        6.0,
+        5.998135329340585,
+        4.0
+      ],
+      "componentes": 1,
+      "fechado": true,
+      "orientacao_consistente": true,
+      "volume_positivo": true,
+      "folga_apos_brim5_mm": [
+        102.0,
+        102.00093233532971
+      ]
+    },
+    {
+      "codigo": "P24",
+      "quantidade": 1,
+      "dimensoes_mm": [
+        52.0,
+        61.0,
+        5.0
+      ],
+      "componentes": 1,
+      "fechado": true,
+      "orientacao_consistente": true,
+      "volume_positivo": true,
+      "folga_apos_brim5_mm": [
+        79.0,
+        74.5
+      ]
+    },
+    {
+      "codigo": "P25",
+      "quantidade": 1,
+      "dimensoes_mm": [
+        70.0,
+        38.0,
+        5.0
+      ],
+      "componentes": 1,
+      "fechado": true,
+      "orientacao_consistente": true,
+      "volume_positivo": true,
+      "folga_apos_brim5_mm": [
+        70.0,
+        86.0
+      ]
+    }
+  ],
+  "limite": "Sem impressão física; não comprova tolerância, resistência ou material."
+}

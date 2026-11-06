@@ -1,0 +1,91 @@
+[INFO] [launch]: All log files can be found below /work/.ros/log/2026-11-06-15-50-18-140016-7e6c64a8c345-920
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [robot_state_publisher-1]: process started with pid [946]
+[INFO] [simular-2]: process started with pid [947]
+[INFO] [converter_velocidade-3]: process started with pid [948]
+[INFO] [calcular_odometria-4]: process started with pid [949]
+[INFO] [tratar_imu-5]: process started with pid [950]
+[INFO] [ekf_node-6]: process started with pid [951]
+[INFO] [trajetorias-7]: process started with pid [952]
+[INFO] [simular_lidar-8]: process started with pid [953]
+[INFO] [static_transform_publisher-9]: process started with pid [954]
+[INFO] [static_transform_publisher-10]: process started with pid [955]
+[INFO] [async_slam_toolbox_node-11]: process started with pid [958]
+[static_transform_publisher-9] [INFO] [1793980218.392965844] [laser_virtual]: Spinning until stopped - publishing transform
+[static_transform_publisher-9] translation: ('0.000000', '0.000000', '0.000000')
+[static_transform_publisher-9] rotation: ('0.000000', '0.000000', '0.000000', '1.000000')
+[static_transform_publisher-9] from 'lidar_mount_link' to 'laser_simulado'
+[static_transform_publisher-10] [INFO] [1793980218.393440442] [origem_cenario_slam]: Spinning until stopped - publishing transform
+[static_transform_publisher-10] translation: ('0.000000', '0.000000', '0.000000')
+[static_transform_publisher-10] rotation: ('0.000000', '0.000000', '0.000000', '1.000000')
+[static_transform_publisher-10] from 'simulacao_mundo' to 'map'
+[robot_state_publisher-1] [INFO] [1793980218.395165647] [robot_state_publisher]: Robot initialized
+[ekf_node-6] [INFO] [1793980218.400574441] [estimador_local]: Waiting for clock to start...
+[async_slam_toolbox_node-11] [INFO] [1793980218.486658246] [slam_toolbox]: Node using stack size 40000000
+[async_slam_toolbox_node-11] [INFO] [1793980218.610852244] [slam_toolbox]: Configuring
+[async_slam_toolbox_node-11] [INFO] [1793980218.620191498] [slam_toolbox]: Using solver plugin solver_plugins::CeresSolver
+[async_slam_toolbox_node-11] [INFO] [1793980218.638287947] [slam_toolbox]: Activating
+[simular-2] [WARN] [1793980218.912177264] [simulador_base]: SIMULAÇÃO VIRTUAL: defaults geométricos de referência CAD, não calibração física; o launch pode fornecer raio_roda e distancia_rodas. 720 pulsos/volta é resolução virtual, não medida. Contagens signed não certificam direção do encoder real de canal único. IMU planar idealizada, nivelada e alinhada ao corpo, sem braço de alavanca. /simulacao/referencia é ground truth para avaliação, nunca entrada do estimador.
+[simular_lidar-8] [WARN] [1793980218.934318711] [lidar_simulado]: LiDAR GEOMÉTRICO VIRTUAL: alinhamento fixo do modelo, não calibração do C1; sem física de colisão, medição global de pose ou mapa perfeito publicado.
+[async_slam_toolbox_node-11] Info: clipped range threshold to be within minimum and maximum range!
+[async_slam_toolbox_node-11] Registering sensor: [Custom Described Lidar]
+[async_slam_toolbox_node-11] [INFO] [1793980259.270011095] [slam_toolbox]: SlamToolbox: Saving map as /work/mapas/ensaio.
+[async_slam_toolbox_node-11] [INFO] [1793980259.538686732] [map_saver]: 
+[async_slam_toolbox_node-11] 	map_saver lifecycle node launched. 
+[async_slam_toolbox_node-11] 	Waiting on external lifecycle transitions to activate
+[async_slam_toolbox_node-11] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[async_slam_toolbox_node-11] [INFO] [1793980259.538806645] [map_saver]: Creating
+[async_slam_toolbox_node-11] [INFO] [1793980259.538880345] [map_saver]: Configuring
+[async_slam_toolbox_node-11] [INFO] [1793980259.546014373] [map_saver]: Saving map from 'map' topic to '/work/mapas/ensaio' file
+[async_slam_toolbox_node-11] [WARN] [1793980259.546037487] [map_saver]: Free threshold unspecified. Setting it to default value: 0.250000
+[async_slam_toolbox_node-11] [WARN] [1793980259.546047080] [map_saver]: Occupied threshold unspecified. Setting it to default value: 0.650000
+[ekf_node-6] [ERROR] [1793980261.267538409] [estimador_local]: Failed to meet update rate! Took 0.11999999999999999556seconds. Try decreasing the rate, limiting sensor output frequency, or limiting the number of sensors.
+[async_slam_toolbox_node-11] [ERROR] [1793980261.548438908] [map_saver]: Failed to spin map subscription
+[async_slam_toolbox_node-11] [INFO] [1793980261.550041474] [map_saver]: Destroying
+[async_slam_toolbox_node-11] [ros2run]: Process exited with failure 1
+[WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+[INFO] [async_slam_toolbox_node-11]: sending signal 'SIGINT' to process[async_slam_toolbox_node-11]
+[INFO] [static_transform_publisher-10]: sending signal 'SIGINT' to process[static_transform_publisher-10]
+[INFO] [static_transform_publisher-9]: sending signal 'SIGINT' to process[static_transform_publisher-9]
+[INFO] [simular_lidar-8]: sending signal 'SIGINT' to process[simular_lidar-8]
+[INFO] [trajetorias-7]: sending signal 'SIGINT' to process[trajetorias-7]
+[INFO] [ekf_node-6]: sending signal 'SIGINT' to process[ekf_node-6]
+[INFO] [tratar_imu-5]: sending signal 'SIGINT' to process[tratar_imu-5]
+[INFO] [calcular_odometria-4]: sending signal 'SIGINT' to process[calcular_odometria-4]
+[INFO] [converter_velocidade-3]: sending signal 'SIGINT' to process[converter_velocidade-3]
+[INFO] [simular-2]: sending signal 'SIGINT' to process[simular-2]
+[INFO] [robot_state_publisher-1]: sending signal 'SIGINT' to process[robot_state_publisher-1]
+[async_slam_toolbox_node-11] Save To File /work/mapas/ensaio.posegraph 
+[async_slam_toolbox_node-11] Mapper <- Module
+[async_slam_toolbox_node-11] Mapper <- m_pSequentialScanMatcher
+[async_slam_toolbox_node-11] Mapper <- m_pGraph
+[async_slam_toolbox_node-11] MapperGraph <- Graph; Graph <- m_Edges; Graph <- m_Vertices
+[async_slam_toolbox_node-11] MapperGraph <- m_pMapper; MapperGraph <- m_pLoopScanMatcher; MapperGraph <- m_pTraversal
+[async_slam_toolbox_node-11] Mapper <- m_pMapperSensorManager
+[async_slam_toolbox_node-11] MapperSensorManager <- m_ScanManagers; MapperSensorManager <- m_Scans
+[async_slam_toolbox_node-11] Mapper <- m_Listeners
+[async_slam_toolbox_node-11] **Finished serializing Mapper**
+[async_slam_toolbox_node-11] Save To File
+[async_slam_toolbox_node-11] **Serializing Dataset**
+[async_slam_toolbox_node-11] Dataset <- m_SensorNameLookup
+[async_slam_toolbox_node-11] Dataset <- m_Data
+[async_slam_toolbox_node-11] Dataset <- m_Lasers
+[async_slam_toolbox_node-11] Dataset <- m_pDatasetInfo
+[async_slam_toolbox_node-11] **Finished serializing Dataset**
+[async_slam_toolbox_node-11] [INFO] [1793980263.710219312] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[static_transform_publisher-10] [INFO] [1793980263.711382707] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[async_slam_toolbox_node-11] Unregistering sensor: Custom Described Lidar
+[static_transform_publisher-9] [INFO] [1793980263.712715284] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[ekf_node-6] [INFO] [1793980263.717102767] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[robot_state_publisher-1] [INFO] [1793980263.725181540] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[INFO] [static_transform_publisher-10]: process has finished cleanly [pid 955]
+[INFO] [static_transform_publisher-9]: process has finished cleanly [pid 954]
+[INFO] [robot_state_publisher-1]: process has finished cleanly [pid 946]
+[INFO] [ekf_node-6]: process has finished cleanly [pid 951]
+[INFO] [async_slam_toolbox_node-11]: process has finished cleanly [pid 958]
+[INFO] [converter_velocidade-3]: process has finished cleanly [pid 948]
+[INFO] [simular_lidar-8]: process has finished cleanly [pid 953]
+[INFO] [simular-2]: process has finished cleanly [pid 947]
+[INFO] [calcular_odometria-4]: process has finished cleanly [pid 949]
+[INFO] [tratar_imu-5]: process has finished cleanly [pid 950]
+[INFO] [trajetorias-7]: process has finished cleanly [pid 952]

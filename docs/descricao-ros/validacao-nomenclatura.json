@@ -1,0 +1,106 @@
+{
+  "status": "OK",
+  "identidade_ros": "robo_movel",
+  "workspace_canonico": "/home/lamggm/projects/robo_movel_ws",
+  "alias_compatibilidade_preservado": true,
+  "pacotes_funcionais_adicionais": "Somente proposta; não implementados",
+  "validacao_workspace_colcon": {
+    "casos": 18,
+    "falhas": 0,
+    "erros": 0,
+    "ignorados": 0
+  },
+  "validacao_recorte_extraido_colcon": {
+    "casos": 9,
+    "falhas": 0,
+    "erros": 0,
+    "ignorados": 0
+  },
+  "observacao_contagens": "Os testes do recorte pertencem ao conjunto do workspace; não somar como casos distintos.",
+  "instalacao": {
+    "status": "OK",
+    "pacote": "robo_movel",
+    "importacao_instalada": "/work/install/robo_movel/lib/python3.12/site-packages/robo_movel/__init__.py",
+    "modulos_importados": [
+      "robo_movel.controle",
+      "robo_movel.dispositivos",
+      "robo_movel.localizacao",
+      "robo_movel.mapeamento",
+      "robo_movel.navegacao",
+      "robo_movel.percepcao"
+    ],
+    "malhas_verificadas": 18,
+    "identidade_anterior_ausente_na_instalacao": true
+  },
+  "tf": {
+    "status": "OK",
+    "ROS_DISTRO": "jazzy",
+    "robot_description_recebido": true,
+    "links": 7,
+    "sem_juntas_ficticias_no_launch_de_descricao": true,
+    "TFs_rodas": [
+      {
+        "filho": "left_wheel_link",
+        "xyz_m": [
+          0.0,
+          0.0661900758743,
+          -1.00582838058e-09
+        ],
+        "quaternion_xyzw": [
+          0.0,
+          0.1986693307950613,
+          0.0,
+          0.9800665778412416
+        ],
+        "angulo_teste_rad": 0.4
+      },
+      {
+        "filho": "right_wheel_link",
+        "xyz_m": [
+          0.0,
+          -0.0661900758743,
+          1.00582838058e-09
+        ],
+        "quaternion_xyzw": [
+          0.0,
+          -0.09983341664682821,
+          0.0,
+          0.9950041652780257
+        ],
+        "angulo_teste_rad": -0.2
+      }
+    ],
+    "limites": "ROS isolado sem rede/hardware; JointState publicado apenas pelo teste. Sem dados reais de sensores/motores."
+  },
+  "rviz": {
+    "status": "OK",
+    "capturas": [
+      "rviz-12.png",
+      "rviz-24.png"
+    ],
+    "rviz_real": true,
+    "inspecao_visual_pendente": false,
+    "encerramento_limpo": true,
+    "inspecao_visual": "Captura rviz-24.png inspecionada: modelo presente; display Robô móvel R05; Global Status OK. Captura sem barra de título; nomes de arquivo/URDF verificados nos recursos instalados."
+  },
+  "integridade": {
+    "URDF_alterado_somente_identidade": true,
+    "malhas_binarias_inalteradas": true,
+    "CAD_original_inalterado": true,
+    "AGENTS_inalterado": true
+  },
+  "zip": {
+    "caminho": "docs/descricao-ros/robo-movel-descricao-r05.zip",
+    "sha256": "4bf8eaac7933299f91f4ce54e7a53656a8d0f64a76c24f277f64456c12bdea1e",
+    "crc_ok": true,
+    "mencoes_apelido_em_textos": []
+  },
+  "backup_pre_migracao": "/home/lamggm/projects/.backups/robo-movel-nomenclatura-2026-11-06_071813",
+  "historico": "docs/historico/descricao-ros-r05-anterior",
+  "limites": [
+    "Validação em contêiner Jazzy isolado, não instalação ROS nativa no host.",
+    "Sem UART, hardware, firmware, deploy, commit ou push.",
+    "Originais mecânicos, histórico e arquivo protegido preservam seus nomes; não são identidade do software ROS.",
+    "Geradores tiveram somente atualização de resolução da origem e identidade; as malhas não foram regeneradas."
+  ]
+}

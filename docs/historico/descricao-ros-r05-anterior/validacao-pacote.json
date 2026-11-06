@@ -1,0 +1,50 @@
+{
+  "status": "OK",
+  "sha256_ZIP": "5acf10a14ce6f4013fd5c2e4401014052441462406843d4815f2b548fece8c6b",
+  "bytes_ZIP": 10089337,
+  "testes_pacote_extraido": 9,
+  "build_colcon_em_workspace_novo": true,
+  "instalacao_e_hashes_18_malhas_verificados": true,
+  "check_urdf": true,
+  "TF": {
+    "status": "OK",
+    "ROS_DISTRO": "jazzy",
+    "robot_description_recebido": true,
+    "links": 7,
+    "sem_juntas_ficticias_no_launch_de_descricao": true,
+    "TFs_rodas": [
+      {
+        "filho": "left_wheel_link",
+        "xyz_m": [
+          0.0,
+          0.0661900758743,
+          -1.00582838058e-09
+        ],
+        "quaternion_xyzw": [
+          0.0,
+          0.1986693307950613,
+          0.0,
+          0.9800665778412416
+        ],
+        "angulo_teste_rad": 0.4
+      },
+      {
+        "filho": "right_wheel_link",
+        "xyz_m": [
+          0.0,
+          -0.0661900758743,
+          1.00582838058e-09
+        ],
+        "quaternion_xyzw": [
+          0.0,
+          -0.09983341664682821,
+          0.0,
+          0.9950041652780257
+        ],
+        "angulo_teste_rad": -0.2
+      }
+    ],
+    "limites": "ROS isolado sem rede/hardware; JointState publicado apenas pelo teste. Sem dados reais de sensores/motores."
+  },
+  "limite": "Sem hardware, rede, deploy ou calibração física. Testes focados do pacote não somados aos16 do workspace completo."
+}

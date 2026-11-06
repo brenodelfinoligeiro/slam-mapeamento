@@ -1,0 +1,441 @@
+{
+  "status": "OK",
+  "contagens": {
+    "pecas": 946,
+    "componente": 308,
+    "ferragem_plastico": 5632,
+    "ferragem_componente": 896,
+    "alojamentos": 68,
+    "inserto_componente": 476,
+    "retirada_tampa": 2430,
+    "saque_powerbank": 343,
+    "saque_pilhas": 480
+  },
+  "pecas_1_solido_valido": 44,
+  "insertos_auditados": [
+    {
+      "id": "INS001",
+      "parede_radial_2mm": true,
+      "fundo_2mm": true,
+      "interferencia_termica_radial_mm": 0.2
+    },
+    {
+      "id": "INS002",
+      "parede_radial_2mm": true,
+      "fundo_2mm": true,
+      "interferencia_termica_radial_mm": 0.2
+    },
+    {
+      "id": "INS003",
+      "parede_radial_2mm": true,
+      "fundo_2mm": true,
+      "interferencia_termica_radial_mm": 0.2
+    },
+    {
+      "id": "INS004",
+      "parede_radial_2mm": true,
+      "fundo_2mm": true,
+      "interferencia_termica_radial_mm": 0.2
+    },
+    {
+      "id": "INS005",
+      "parede_radial_2mm": true,
+      "fundo_2mm": true,
+      "interferencia_termica_radial_mm": 0.2
+    },
+    {
+      "id": "INS006",
+      "parede_radial_2mm": true,
+      "fundo_2mm": true,
+      "interferencia_termica_radial_mm": 0.2
+    },
+    {
+      "id": "INS007",
+      "parede_radial_2mm": true,
+      "fundo_2mm": true,
+      "interferencia_termica_radial_mm": 0.2
+    },
+    {
+      "id": "INS008",
+      "parede_radial_2mm": true,
+      "fundo_2mm": true,
+      "interferencia_termica_radial_mm": 0.2
+    },
+    {
+      "id": "INS009",
+      "parede_radial_2mm": true,
+      "fundo_2mm": true,
+      "interferencia_termica_radial_mm": 0.2
+    },
+    {
+      "id": "INS010",
+      "parede_radial_2mm": true,
+      "fundo_2mm": true,
+      "interferencia_termica_radial_mm": 0.2
+    },
+    {
+      "id": "INS011",
+      "parede_radial_2mm": true,
+      "fundo_2mm": true,
+      "interferencia_termica_radial_mm": 0.2
+    },
+    {
+      "id": "INS012",
+      "parede_radial_2mm": true,
+      "fundo_2mm": true,
+      "interferencia_termica_radial_mm": 0.2
+    },
+    {
+      "id": "INS013",
+      "parede_radial_2mm": true,
+      "fundo_2mm": true,
+      "interferencia_termica_radial_mm": 0.2
+    },
+    {
+      "id": "INS014",
+      "parede_radial_2mm": true,
+      "fundo_2mm": true,
+      "interferencia_termica_radial_mm": 0.2
+    },
+    {
+      "id": "INS015",
+      "parede_radial_2mm": true,
+      "fundo_2mm": true,
+      "interferencia_termica_radial_mm": 0.2
+    },
+    {
+      "id": "INS016",
+      "parede_radial_2mm": true,
+      "fundo_2mm": true,
+      "interferencia_termica_radial_mm": 0.2
+    },
+    {
+      "id": "INS017",
+      "parede_radial_2mm": true,
+      "fundo_2mm": true,
+      "interferencia_termica_radial_mm": 0.2
+    },
+    {
+      "id": "INS018",
+      "parede_radial_2mm": true,
+      "fundo_2mm": true,
+      "interferencia_termica_radial_mm": 0.2
+    },
+    {
+      "id": "INS019",
+      "parede_radial_2mm": true,
+      "fundo_2mm": true,
+      "interferencia_termica_radial_mm": 0.2
+    },
+    {
+      "id": "INS020",
+      "parede_radial_2mm": true,
+      "fundo_2mm": true,
+      "interferencia_termica_radial_mm": 0.2
+    },
+    {
+      "id": "INS021",
+      "parede_radial_2mm": true,
+      "fundo_2mm": true,
+      "interferencia_termica_radial_mm": 0.2
+    },
+    {
+      "id": "INS022",
+      "parede_radial_2mm": true,
+      "fundo_2mm": true,
+      "interferencia_termica_radial_mm": 0.2
+    },
+    {
+      "id": "INS023",
+      "parede_radial_2mm": true,
+      "fundo_2mm": true,
+      "interferencia_termica_radial_mm": 0.2
+    },
+    {
+      "id": "INS024",
+      "parede_radial_2mm": true,
+      "fundo_2mm": true,
+      "interferencia_termica_radial_mm": 0.2
+    },
+    {
+      "id": "INS025",
+      "parede_radial_2mm": true,
+      "fundo_2mm": true,
+      "interferencia_termica_radial_mm": 0.2
+    },
+    {
+      "id": "INS026",
+      "parede_radial_2mm": true,
+      "fundo_2mm": true,
+      "interferencia_termica_radial_mm": 0.2
+    },
+    {
+      "id": "INS027",
+      "parede_radial_2mm": true,
+      "fundo_2mm": true,
+      "interferencia_termica_radial_mm": 0.2
+    },
+    {
+      "id": "INS028",
+      "parede_radial_2mm": true,
+      "fundo_2mm": true,
+      "interferencia_termica_radial_mm": 0.2
+    },
+    {
+      "id": "INS029",
+      "parede_radial_2mm": true,
+      "fundo_2mm": true,
+      "interferencia_termica_radial_mm": 0.2
+    },
+    {
+      "id": "INS030",
+      "parede_radial_2mm": true,
+      "fundo_2mm": true,
+      "interferencia_termica_radial_mm": 0.2
+    },
+    {
+      "id": "INS031",
+      "parede_radial_2mm": true,
+      "fundo_2mm": true,
+      "interferencia_termica_radial_mm": 0.2
+    },
+    {
+      "id": "INS032",
+      "parede_radial_2mm": true,
+      "fundo_2mm": true,
+      "interferencia_termica_radial_mm": 0.2
+    },
+    {
+      "id": "INS033",
+      "parede_radial_2mm": true,
+      "fundo_2mm": true,
+      "interferencia_termica_radial_mm": 0.2
+    },
+    {
+      "id": "INS034",
+      "parede_radial_2mm": true,
+      "fundo_2mm": true,
+      "interferencia_termica_radial_mm": 0.2
+    },
+    {
+      "id": "INS035",
+      "parede_radial_2mm": true,
+      "fundo_2mm": true,
+      "interferencia_termica_radial_mm": 0.2
+    },
+    {
+      "id": "INS036",
+      "parede_radial_2mm": true,
+      "fundo_2mm": true,
+      "interferencia_termica_radial_mm": 0.2
+    },
+    {
+      "id": "INS037",
+      "parede_radial_2mm": true,
+      "fundo_2mm": true,
+      "interferencia_termica_radial_mm": 0.2
+    },
+    {
+      "id": "INS038",
+      "parede_radial_2mm": true,
+      "fundo_2mm": true,
+      "interferencia_termica_radial_mm": 0.2
+    },
+    {
+      "id": "INS039",
+      "parede_radial_2mm": true,
+      "fundo_2mm": true,
+      "interferencia_termica_radial_mm": 0.2
+    },
+    {
+      "id": "INS040",
+      "parede_radial_2mm": true,
+      "fundo_2mm": true,
+      "interferencia_termica_radial_mm": 0.2
+    },
+    {
+      "id": "INS041",
+      "parede_radial_2mm": true,
+      "fundo_2mm": true,
+      "interferencia_termica_radial_mm": 0.2
+    },
+    {
+      "id": "INS042",
+      "parede_radial_2mm": true,
+      "fundo_2mm": true,
+      "interferencia_termica_radial_mm": 0.2
+    },
+    {
+      "id": "INS043",
+      "parede_radial_2mm": true,
+      "fundo_2mm": true,
+      "interferencia_termica_radial_mm": 0.2
+    },
+    {
+      "id": "INS044",
+      "parede_radial_2mm": true,
+      "fundo_2mm": true,
+      "interferencia_termica_radial_mm": 0.2
+    },
+    {
+      "id": "INS045",
+      "parede_radial_2mm": true,
+      "fundo_2mm": true,
+      "interferencia_termica_radial_mm": 0.2
+    },
+    {
+      "id": "INS046",
+      "parede_radial_2mm": true,
+      "fundo_2mm": true,
+      "interferencia_termica_radial_mm": 0.2
+    },
+    {
+      "id": "INS047",
+      "parede_radial_2mm": true,
+      "fundo_2mm": true,
+      "interferencia_termica_radial_mm": 0.2
+    },
+    {
+      "id": "INS048",
+      "parede_radial_2mm": true,
+      "fundo_2mm": true,
+      "interferencia_termica_radial_mm": 0.2
+    },
+    {
+      "id": "INS049",
+      "parede_radial_2mm": true,
+      "fundo_2mm": true,
+      "interferencia_termica_radial_mm": 0.2
+    },
+    {
+      "id": "INS050",
+      "parede_radial_2mm": true,
+      "fundo_2mm": true,
+      "interferencia_termica_radial_mm": 0.2
+    },
+    {
+      "id": "INS051",
+      "parede_radial_2mm": true,
+      "fundo_2mm": true,
+      "interferencia_termica_radial_mm": 0.2
+    },
+    {
+      "id": "INS052",
+      "parede_radial_2mm": true,
+      "fundo_2mm": true,
+      "interferencia_termica_radial_mm": 0.2
+    },
+    {
+      "id": "INS053",
+      "parede_radial_2mm": true,
+      "fundo_2mm": true,
+      "interferencia_termica_radial_mm": 0.2
+    },
+    {
+      "id": "INS054",
+      "parede_radial_2mm": true,
+      "fundo_2mm": true,
+      "interferencia_termica_radial_mm": 0.2
+    },
+    {
+      "id": "INS055",
+      "parede_radial_2mm": true,
+      "fundo_2mm": true,
+      "interferencia_termica_radial_mm": 0.2
+    },
+    {
+      "id": "INS056",
+      "parede_radial_2mm": true,
+      "fundo_2mm": true,
+      "interferencia_termica_radial_mm": 0.2
+    },
+    {
+      "id": "INS057",
+      "parede_radial_2mm": true,
+      "fundo_2mm": true,
+      "interferencia_termica_radial_mm": 0.2
+    },
+    {
+      "id": "INS058",
+      "parede_radial_2mm": true,
+      "fundo_2mm": true,
+      "interferencia_termica_radial_mm": 0.2
+    },
+    {
+      "id": "INS059",
+      "parede_radial_2mm": true,
+      "fundo_2mm": true,
+      "interferencia_termica_radial_mm": 0.2
+    },
+    {
+      "id": "INS060",
+      "parede_radial_2mm": true,
+      "fundo_2mm": true,
+      "interferencia_termica_radial_mm": 0.2
+    },
+    {
+      "id": "INS061",
+      "parede_radial_2mm": true,
+      "fundo_2mm": true,
+      "interferencia_termica_radial_mm": 0.2
+    },
+    {
+      "id": "INS062",
+      "parede_radial_2mm": true,
+      "fundo_2mm": true,
+      "interferencia_termica_radial_mm": 0.2
+    },
+    {
+      "id": "INS063",
+      "parede_radial_2mm": true,
+      "fundo_2mm": true,
+      "interferencia_termica_radial_mm": 0.2
+    },
+    {
+      "id": "INS064",
+      "parede_radial_2mm": true,
+      "fundo_2mm": true,
+      "interferencia_termica_radial_mm": 0.2
+    },
+    {
+      "id": "INS065",
+      "parede_radial_2mm": true,
+      "fundo_2mm": true,
+      "interferencia_termica_radial_mm": 0.2
+    },
+    {
+      "id": "INS066",
+      "parede_radial_2mm": true,
+      "fundo_2mm": true,
+      "interferencia_termica_radial_mm": 0.2
+    },
+    {
+      "id": "INS067",
+      "parede_radial_2mm": true,
+      "fundo_2mm": true,
+      "interferencia_termica_radial_mm": 0.2
+    },
+    {
+      "id": "INS068",
+      "parede_radial_2mm": true,
+      "fundo_2mm": true,
+      "interferencia_termica_radial_mm": 0.2
+    }
+  ],
+  "engate_intervalo_mm": [
+    4.1,
+    5.2
+  ],
+  "fontes_R04_preservadas": true,
+  "pi_furos2_7_preservados": true,
+  "porcas_cintas_velcro": 0,
+  "erros": [],
+  "duracao_s": 282.96,
+  "limites": [
+    "Caminhos discretos nao provam movimento continuo.",
+    "Tampas: elevar2mm antes de deslocar lateralmente; nao puxar apenas na horizontal.",
+    "Bateria sai para +Y com P08 removida; celulas AA com modulo superior desmontado.",
+    "Acesso termico depende da sequencia documentada; nao modelo de ferro especifico.",
+    "Nao valida furacao fisica chassi, C1, holder, ESP nem resistencia FDM."
+  ]
+}

@@ -1,0 +1,193 @@
+{
+  "titulo": "Slamderson R05 — montagem e seis vistas",
+  "escopo": "Sequência mecânica proposta de montagem a seco; sem validação física. Derivada do CAD/STL R05, não altera suas geometrias.",
+  "paginas": [
+    {
+      "id": "guia-01",
+      "tipo": "abertura",
+      "titulo": "R05: antes de imprimir e montar",
+      "subtitulo": "28 modelos / 44 impressos de montagem, mais o cupom P25. Sem porcas, velcro, faixas ou cintas plásticas.",
+      "blocos": [
+        [
+          "Fonte desta revisão",
+          "Este manual acompanha o ZIP R05 e o CAD R05 auditados. Não misture peças R04. Os códigos P identificam peças; letras e sufixos (I2, J2 etc.) identificam grupos de parafusos. P21 foi eliminado: apoios da Pi integrados a P12."
+        ],
+        [
+          "Primeiro imprima o cupom",
+          "P25 está na pasta 00-cupom do ZIP. Ensaiar os insertos M3 de 5,68 mm, Ø4,0 liso / Ø4,7 dentado. O piloto de 4,3 mm e a profundidade de 6 mm ainda precisam de ensaio no material e na impressora reais. Não imprimir o lote antes disso. Os STL já estão orientados: importar em mm, 100%, sem auto-orientar. Mesa de referência 220 x 220 x 250 mm; conferir brim e suportes no preview."
+        ],
+        [
+          "Montagem sem alimentação",
+          "Retire pilhas, desligue e desconecte powerbank, Pi, ESP e motores. Instale os insertos com as peças soltas, antes de introduzir placas ou baterias. Remova suportes e rebarbas; não use o aperto para alinhar furos à força."
+        ],
+        [
+          "Pontos de parada",
+          "Medir chassi, holder, ESP, módulos, cooler e cabos reais. A chapa de 3 mm é referência, não medição do chassi físico. C1: confirmar matriz, rosca e profundidade antes de montar o sensor; não presumir M3."
+        ],
+        [
+          "O que foi verificado",
+          "Geometria CAD/STL, interfaces propostas e posições amostradas de desmontagem; não houve impressão, montagem, ensaio térmico, vibração ou carga dos 420 g. Figuras explodidas não são trajetórias. Cinza translúcido representa envelopes, não placas finais."
+        ],
+        [
+          "Convenção",
+          "Frente: acesso AA; traseira: retirada do Basike. P03+P05 e P04+P06 formam as metades do teto. As seis vistas usam os eixos do STL orientado para impressão, não necessariamente os eixos do robô montado."
+        ]
+      ]
+    },
+    {
+      "id": "guia-02",
+      "tipo": "inventario",
+      "titulo": "Peças do ZIP — 1 de 2",
+      "subtitulo": "Cada arquivo representa um modelo. Imprima a quantidade indicada; não duplique fichas pelas cópias.",
+      "inicio": 0,
+      "fim": 15
+    },
+    {
+      "id": "guia-03",
+      "tipo": "inventario",
+      "titulo": "Peças do ZIP — 2 de 2",
+      "subtitulo": "P25 é só cupom: não entra no robô. P20 e a interface C1 permanecem ilustrativos, condicionados à medição.",
+      "inicio": 15,
+      "fim": 29
+    },
+    {
+      "id": "guia-04",
+      "tipo": "ferragens",
+      "titulo": "Parafusos, insertos e materiais",
+      "subtitulo": "68 parafusos em 68 insertos M3, 60 arruelas. Não inclui fixadores do sensor C1 nem de motores/encoders."
+    },
+    {
+      "id": "guia-05",
+      "tipo": "mapa",
+      "titulo": "Onde vai cada grupo de parafusos",
+      "subtitulo": "Todos M3. ESC = cabeça escareada 90 graus. As letras não são nomes dos arquivos STL."
+    },
+    {
+      "id": "guia-06",
+      "tipo": "abertura",
+      "titulo": "Insertos: ensaie antes de repetir 68 vezes",
+      "subtitulo": "P25 possui pilotos 4,2 / 4,3 / 4,4 mm, profundidade 6 mm e fundo 2 mm. Nenhuma temperatura foi validada.",
+      "blocos": [
+        [
+          "Identifique os furos",
+          "Com o canto chanfrado do cupom à frente/esquerda, visto por cima: X11 = 4,2; X33 = 4,3; X55 = 4,4 mm. Todos em Y14. A ficha P25, última deste PDF, mostra as seis vistas."
+        ],
+        [
+          "Instalação térmica",
+          "Use ponteira adequada, peça apoiada, eixo perpendicular e ventilação. Defina a temperatura pela ferramenta, pelo polímero e pelo ensaio, sem número inventado. Não martelar nem forçar o inserto a frio. Deixe esfriar antes de testar a rosca."
+        ],
+        [
+          "Critério para prosseguir",
+          "Conferir assentamento, alinhamento, material ao redor, engate e resistência sem arrancar ou girar o inserto no plástico. Se outro piloto funcionar melhor, ajustar o gerador e reexportar os modelos; não reescalar a peça inteira. Ensaiar também com o cupom girado 90 graus quando os pilotos da peça forem horizontais: o teste vertical não aprova eixos X/Y."
+        ],
+        [
+          "Entradas e faces",
+          "Monte todos os insertos com as peças isoladas, inclusive os de ambas as pontas das colunas e dos berços. As entradas/direções individuais estão em kit-r05.json. O ensaio usou ponta hipotética Ø7 x 15 e haste Ø10 x 20, não seu ferro real."
+        ],
+        [
+          "Sequência que preserva acesso",
+          "Linguetas e pontes antes de unir frente/trás; P11 antes de colocar na parede; piso, colunas, P14, P22, P23 e P24 antes das placas e do chassi. Nas portas AA/PB as entradas são nas faces externas. Nunca tentar passar Ø4,7 por furo passante Ø3,4."
+        ],
+        [
+          "Não confunda encaixe com aprovação",
+          "O CAD reservou 2 mm radiais ao redor de Ø4,7 e 2 mm de fundo. Parafusos têm engate de 4,1 a 5,2 mm, mas isso não é resistência FDM medida. Aperto manual progressivo; parar se a peça, inserto ou PCB começar a deformar. Remover suportes/rebarbas do piloto sem alargá-lo no chute."
+        ]
+      ]
+    },
+    {
+      "id": "guia-07",
+      "tipo": "etapa",
+      "titulo": "1. Base, berços e módulos inferiores",
+      "figura": "base.png",
+      "legenda": "Peças na referência CAD; placas e retenções elevadas para identificação. Cinza: chassi de referência/envelope do holder, não impressão do kit.",
+      "passos": [
+        "Conferir os furos e acessos do chassi real antes de furar. Após instalar os insertos, montar P14 (M), berço L298N P22 (N, seis pontos) e berço MPU P23 (O), usando M3 x 8 pelo lado de baixo.",
+        "Instalar P15 na frente e P16 sobre P17 atrás. Grupo I: dois M3 x 8 dianteiros e dois M3 x 12 traseiros, de baixo para cima. As travessas são congruentes; uma é girada. Não usar os M3 x 50 da R04.",
+        "Introduzir o holder por cima de P14 e montar as duas réguas P29 com M2: quatro M3 x 8. Não pressionar células. Holder real ainda precisa corresponder ao envelope e aos batentes.",
+        "Apoiar MPU e L298N nos pinos; fixar MPU com P28/O2 e L298N com quadro P30/N2. Todos M3 x 8, em bosses fora das placas. Não atravessar PCB nem apertar componentes. Conferir pads e eventual isolante medido.",
+        "Fixar P13 às flanges de P16 com L: dois M3 x 8 ESC horizontais, cabeças embutidas. Fazer isso SEM o Basike. Manter o berço MPU independente da gaveta para não apoiar o sensor na bateria."
+      ],
+      "alerta": "MPU mudou −12 X/−3 Y/+8 Z e L298N −3 Y/+4 Z em relação à R04. A extrínseca IMU deve ser medida/calibrada no ROS posteriormente; nenhum software foi alterado."
+    },
+    {
+      "id": "guia-08",
+      "tipo": "etapa",
+      "titulo": "2. Saia e clipes — antes do piso",
+      "figura": "saia.png",
+      "legenda": "P01/P02 e P11 afastados apenas para identificação. Todos os insertos já devem estar instalados e frios.",
+      "passos": [
+        "Com P12 ainda fora e o powerbank fora, apresentar P01/P02 ao redor da base. Confirmar arcos das rodas, suportes e caminho de cabos reais. Não flexionar a carcaça para fazê-la passar.",
+        "Unir as duas laterais com B: dois M3 x 8 nos insertos das linguetas. O alojamento agora é cego e reforçado; não existe porca a carregar nem bolso sextavado.",
+        "Posicionar quatro P11 por dentro: dois na frente e dois atrás. Fixar à saia com os quatro A INFERIORES, M3 x 8. Centros inferiores Z86,5; superiores Z96,5.",
+        "Deixar os quatro A superiores livres para as tampas removíveis. Não confundir as duas alturas. Os P11 têm duas entradas de inserto nas faces voltadas às paredes.",
+        "Conferir os quatro apoios H da saia e o caminho da ferramenta por baixo. H será escareado de baixo para cima no piso; não introduzir o Basike antes de terminar essa fixação."
+      ],
+      "alerta": "Acesso aos insertos foi verificado na peça isolada, não com o robô montado. Se esquecer um inserto, desmonte a peça; não aproxime ferro de solda da bateria ou dos PCBs."
+    },
+    {
+      "id": "guia-09",
+      "tipo": "etapa",
+      "titulo": "3. Módulo superior na bancada",
+      "figura": "modulo.png",
+      "legenda": "Pi, presilhas e quadros afastados; C1 não é fixado nesta etapa. P21 não existe na revisão R05.",
+      "passos": [
+        "Apoiar a Pi nos quatro apoios integrados a P12 e localizar pelos pinos Ø2,2 nos furos Ø2,7 do CAD. Prender pelas bordas com quatro P27 e K: M3 x 8. Não alargar PCB nem passar M3 pelos furos da Pi.",
+        "Prender P24 sobre P12 pelo lado de BAIXO com P: dois M3 x 8. Apresentar ESP sem alimentação e montar P26 com P2: dois M3 x 8. Não usar velcro, zip ties ou espuma como retenção única.",
+        "P26 captura somente o envelope do ESP. Confirmar placa, antena, pinos e bordas reais antes de fabricar seus dedos de retenção. Não pressionar módulos/componentes para eliminar a folga.",
+        "Fixar as colunas P18 ao piso por baixo com J: dois M3 x 8. Prender P19 no topo com J2: dois M3 x 8 ESC. São uniões separadas em insertos opostos, não um parafuso longo passante.",
+        "Separar quatro P20, mas NÃO montar o sensor C1 sem medir sua interface. A matriz ilustrativa 43 x 43 e os furos estruturais da plataforma não definem a rosca do sensor."
+      ],
+      "alerta": "Apoios rígidos limitam o aperto das presilhas. Conferir as bordas reais e eventual pad isolante; não eliminar folga esmagando PCB. Cooler e cabeamento da Pi ainda não foram medidos."
+    },
+    {
+      "id": "guia-10",
+      "tipo": "etapa",
+      "titulo": "4. Piso e fechamento da estrutura",
+      "figura": "piso.png",
+      "legenda": "Piso elevado; componentes superiores omitidos para mostrar os apoios. Afastamento ilustrativo, não caminho contínuo validado.",
+      "passos": [
+        "Apresentar o módulo P12 sobre as quatro colunas e as orelhas da saia. Manter o Basike FORA. Não prender fios ou conectores entre os apoios.",
+        "Prender o piso às quatro colunas por CIMA com I2: quatro M3 x 8. As uniões inferiores I já estão montadas; as colunas dianteiras e traseiras chegam ao mesmo plano.",
+        "Prender o piso às orelhas da saia por BAIXO com H: quatro M3 x 10 ESC. Os insertos ficam no PISO, não nas orelhas finas da saia. Cabeças devem ficar embutidas.",
+        "Iniciar todas as roscas e apertar alternadamente, sem puxar furos desalinhados. Conferir a ferramenta nos H traseiros agora: o Basike depois impedirá esse acesso.",
+        "Inspecionar cabeças, pontas e cabos no compartimento inferior. Confirmar rodas/rodízio livres à mão e baterias sem pressão; manter todas as fontes desligadas."
+      ],
+      "alerta": "Não copiar o passo H da R04: a direção foi invertida e a cabeça mudou. Comprimentos presos ao chassi continuam condicionados à espessura física, não somente ao CAD de referência."
+    },
+    {
+      "id": "guia-11",
+      "tipo": "etapa",
+      "titulo": "5. Una os quartos do teto",
+      "figura": "tetos.png",
+      "legenda": "Duas metades longitudinais. P10 deslocados para o centro apenas para mostrar sua face interna.",
+      "passos": [
+        "Na bancada, unir P03+P05 e P04+P06. Conferir códigos e frente/trás. Cada metade recebe uma ponte interna P10.",
+        "Prender P10 pelo lado interno com D: dois M3 x 8 por ponte, quatro no total. Completar cada junta lateral com C: um M3 x 8, dois no total. Insertos já instalados.",
+        "Apresentar as metades sob a plataforma do C1, pelos rasgos das colunas. Para assentar: posicionar lateralmente na condição elevada e baixar 2 mm até a posição nominal.",
+        "Fixar as tampas com os quatro A SUPERIORES, M3 x 8. A inferiores continuam prendendo os clipes à saia. Não obstruir ventilação nem encaixar sobre cabos.",
+        "Para retirar depois: soltar só A superiores, ELEVAR 2 mm e então deslizar lateralmente. Manter C/D montados para P10 acompanhar cada metade. Não puxar diretamente na horizontal."
+      ],
+      "alerta": "Retirada testada em posições discretas, não trajetória contínua com seus cabos. Elevação de 2 mm evita bosses traseiros; conferir folga real antes de deslizar ou forçar a base do sensor."
+    },
+    {
+      "id": "guia-12",
+      "tipo": "fechamento",
+      "titulo": "6. Baterias, portas e manutenção",
+      "figuras": [
+        "fechado-frente.png",
+        "fechado-tras.png"
+      ],
+      "passos": [
+        "Depois de H/I2 e ferragens internas conferidos, introduzir o Basike pelo acesso traseiro até os batentes de P13. A gaveta fixa usa paredes/lábios, sem cinta e sem pressão pontual sobre a bateria.",
+        "Fixar P07 à frente com E e P08 atrás com F: dois M3 x 8 por porta. Os batentes planos limitam o holder/Basike sem tensioná-los. P09 recebe G: dois M3 x 8.",
+        "Para sacar o Basike: remover P08 e deslizar para trás (+Y); a gaveta fica montada. A janela lateral USB/botão é provisória: conferir acesso real, conectores e raios de cabo.",
+        "AA: réguas P29 não cruzam as células ilustrativas. A retirada vertical só foi ensaiada com o módulo superior/teto desmontado; a porta frontal NÃO comprova troca das células sem desmontagem.",
+        "Conferir retenção de placas, bordas livres, ausência de parafuso sobre bateria, ventilação, cabos e suportes dos encoders. Fixação real do C1 e operação elétrica continuam pendentes."
+      ],
+      "alerta": "Protótipo dimensional: não é liberação de fabricação final. Não houve montagem física, impressão, carga, estabilidade ou ensaio térmico. Não energizar por presumir que o CAD prova a alimentação."
+    }
+  ],
+  "fonte_pecas": "kit-r05.json",
+  "fonte_STL": "slamderson-STL-Ender3V3SE-r05.zip",
+  "validacao_geometrica": "validacao-montagem-r05.json"
+}

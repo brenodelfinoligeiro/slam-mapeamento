@@ -1,0 +1,28 @@
+{
+  "acesso": "2026-11-05",
+  "fontes": [
+    {
+      "id": "ROS-REP103",
+      "url": "https://raw.githubusercontent.com/ros-infrastructure/rep/master/rep-0103.rst",
+      "hospedeiro": "raw.githubusercontent.com, repositório oficial",
+      "sha256": "bf397ddcab96cc1d10d8f5893960cb1d5e50154dd96462433a5ac342237a0c20",
+      "trechos": [
+        " these conventions.  \n\nChirality\n---------\n\nAll systems are right handed.  This means they comply with the `right hand rule`_.\n\n.. _right hand rule: http://en.wikipedia.org/wiki/Right-hand_rule\n\n\nAxis Orientation\n----------------\n\nIn relation to a body the standard is:\n\n* x forward\n* y left\n* z up\n\nFor short-range Cartesian representations of geographic locations, use the\n`east north up`_ (ENU) convention:\n\n* X east\n* Y north\n* Z up\n\nTo avoid precision problems with large float32 values, it is recommended",
+        "----------------\n\nIn relation to a body the standard is:\n\n* x forward\n* y left\n* z up\n\nFor short-range Cartesian representations of geographic locations, use the\n`east north up`_ (ENU) convention:\n\n* X east\n* Y north\n* Z up\n\nTo avoid precision problems with large float32 values, it is recommended to\nchoose a nearby origin such as your system's starting position.\n\n.. _east north up: http://en.wikipedia.org/wiki/Geodetic_datum#Local_east.2C_north.2C_up_.28ENU.29_coordinates\n\n\nSuffix Frames\n-------------\n\nIn",
+        "----\n\nIn relation to a body the standard is:\n\n* x forward\n* y left\n* z up\n\nFor short-range Cartesian representations of geographic locations, use the\n`east north up`_ (ENU) convention:\n\n* X east\n* Y north\n* Z up\n\nTo avoid precision problems with large float32 values, it is recommended to\nchoose a nearby origin such as your system's starting position.\n\n.. _east north up: http://en.wikipedia.org/wiki/Geodetic_datum#Local_east.2C_north.2C_up_.28ENU.29_coordinates\n\n\nSuffix Frames\n-------------\n\nIn the case of"
+      ]
+    },
+    {
+      "id": "ROS-RSP-JAZZY",
+      "url": "https://raw.githubusercontent.com/ros/robot_state_publisher/jazzy/README.md",
+      "hospedeiro": "raw.githubusercontent.com, repositório oficial",
+      "sha256": "d7f2d81e4fadf6adbe2d1099db7aa4f4aac59c253e7a682e7bbf1212dee7cd64",
+      "trechos": [
+        " two different \"classes\" of joint types: fixed and movable.\nFixed joints (with the type \"fixed\") are published to the transient_local `/tf_static` topic once on startup (transient_local topics keep a history of what they published, so a later subscription can always get the latest state of the world).\nMovable joints are published to the regular `/tf` topic any time the appropriate joint is updated in the `joint_states` message.\n\nExamples showing how to pass the `robot_description` parameter using a launch",
+        ".\nFixed joints (with the type \"fixed\") are published to the transient_local `/tf_static` topic once on startup (transient_local topics keep a history of what they published, so a later subscription can always get the latest state of the world).\nMovable joints are published to the regular `/tf` topic any time the appropriate joint is updated in the `joint_states` message.\n\nExamples showing how to pass the `robot_description` parameter using a launch file are available in the 'launch' subdirectory.\n\nPublish",
+        " tree model (URDF) of the robot.\nIt then subscribes to the `joint_states` topic (of type `sensor_msgs/msg/JointState`) to get individual joint states.\nThese joint states are used to update the kinematic tree model, and the resulting 3D poses are then published to tf2.\n\nRobot State Publisher deals with two different \"classes\" of joint types: fixed and movable.\nFixed joints (with the type \"fixed\") are published to the transient_local `/tf_static` topic once on startup (transient_local topics keep a history "
+      ]
+    }
+  ],
+  "portais_originais": "Retornaram intersticial anti-bot; não utilizados como evidência."
+}

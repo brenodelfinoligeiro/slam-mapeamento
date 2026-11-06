@@ -1,0 +1,21 @@
+{
+  "fontes": [
+    {
+      "url": "https://raw.githubusercontent.com/ros2/ros2_documentation/jazzy/source/How-To-Guides/Ament-CMake-Python-Documentation.rst",
+      "status_http": 200,
+      "sha256": "438bc44ac33eb6e41615c11505eaaa59b1b913bf635aafa00d64489f9ea187b9",
+      "origem": "ros2/ros2_documentation, branch jazzy",
+      "acesso_utc": "2026-11-06T12:30:19.819257+00:00",
+      "linhas_relevantes": "55: \n56:    find_package(ament_cmake_python REQUIRED)\n57:    # ...\n58:    ament_python_install_package(${PROJECT_NAME})\n59: \n60: The argument to ``ament_python_install_package()`` is the name of the directory alongside the ``CMakeLists.txt`` that contains the Python file.\n61: In this case, it is ``my_project``, or ``${PROJECT_NAME}``.\n62: \n63: .. warning::\n64: \n65:    Calling ``rosidl_generate_interfaces`` and ``ament_python_install_package`` in the same CMake project does not work.\n66:    See this `Github issue <https://github.com/ros2/rosidl_python/issues/141>`_ for more info.\n67:    It is best practice to instead separate out the message generation into a separate package.\n68: \n69: Then, another Python package that correctly depends on ``my_project`` can use it as a normal Python module:\n70: \n71: .. code-block:: python\n72: \n73:    from my_project.my_script import my_function"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/ros2/ros2_documentation/jazzy/source/Tutorials/Beginner-Client-Libraries/Custom-ROS2-Interfaces.rst",
+      "status_http": 200,
+      "sha256": "0777ef69e32ce2b3c6b28ff9a7d5937efc5068dfa9c5ad1ac109dbf3f24c752c",
+      "origem": "ros2/ros2_documentation, branch jazzy",
+      "acesso_utc": "2026-11-06T12:30:19.819526+00:00",
+      "linhas_relevantes": "39: 1 Create a new package\n40: ^^^^^^^^^^^^^^^^^^^^^^^\n41: \n42: For this tutorial you will be creating custom ``.msg`` and ``.srv`` files in their own package, and then utilizing them in a separate package.\n43: Both packages should be in the same workspace.\n44: \n45: Since we will use the pub/sub and service/client packages created in earlier tutorials, make sure you are in the same workspace as those packages (``ros2_ws/src``), and then run the following command to create a new package:\n46: \n47: .. code-block:: console\n48: \n49:   $ ros2 pkg create --build-type ament_cmake --license Apache-2.0 tutorial_interfaces\n50: \n51: ``tutorial_interfaces`` is the name of the new package.\n52: Note that it is, and can only be, an ament_cmake package, but this doesn't restrict in which type of packages you can use your messages and services.\n53: You can create your own custom interfaces in an ament_cmake package, and then use it in a C++ or Python node, which will be covered in the last section.\n54: \n55: The ``.msg`` and ``.srv`` files are required to be placed in directories called ``msg`` and ``srv`` respectively.\n56: Create the directories in ``ros2_ws/src/tutorial_interfaces``:\n57: \n58: .. code-block:: console\n59: \n107:   find_package(geometry_msgs REQUIRED)\n108:   find_package(rosidl_default_generators REQUIRED)\n109: \n110:   rosidl_generate_interfaces(${PROJECT_NAME}\n111:     \"msg/Num.msg\"\n112:     \"msg/Sphere.msg\"\n113:     \"srv/AddThreeInts.srv\"\n114:     DEPENDENCIES geometry_msgs # Add packages that above messages depend on, in this case geometry_msgs for Sphere.msg\n115:   )\n116: \n117: .. note::\n118: \n119:   The first argument (library name) in the ``rosidl_generate_interfaces`` must start with the name of the package, e.g., simply ``${PROJECT_NAME}`` or ``${PROJECT_NAME}_suffix``.\n120:   See https://github.com/ros2/rosidl/issues/441#issuecomment-591025515.\n121: \n122: 4 ``package.xml``\n123: ^^^^^^^^^^^^^^^^^\n124: \n125: Because the interfaces rely on ``rosidl_default_generators`` for generating language-specific code, you need to declare a build tool dependency on it."
+    }
+  ],
+  "limite": "Documentação do build ROSIDL; não é evidência de build dos pacotes funcionais deste projeto."
+}

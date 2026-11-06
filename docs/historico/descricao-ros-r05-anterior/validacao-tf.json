@@ -1,0 +1,40 @@
+{
+  "status": "OK",
+  "ROS_DISTRO": "jazzy",
+  "robot_description_recebido": true,
+  "links": 7,
+  "sem_juntas_ficticias_no_launch_de_descricao": true,
+  "TFs_rodas": [
+    {
+      "filho": "left_wheel_link",
+      "xyz_m": [
+        0.0,
+        0.0661900758743,
+        -1.00582838058e-09
+      ],
+      "quaternion_xyzw": [
+        0.0,
+        0.1986693307950613,
+        0.0,
+        0.9800665778412416
+      ],
+      "angulo_teste_rad": 0.4
+    },
+    {
+      "filho": "right_wheel_link",
+      "xyz_m": [
+        0.0,
+        -0.0661900758743,
+        1.00582838058e-09
+      ],
+      "quaternion_xyzw": [
+        0.0,
+        -0.09983341664682821,
+        0.0,
+        0.9950041652780257
+      ],
+      "angulo_teste_rad": -0.2
+    }
+  ],
+  "limites": "ROS isolado sem rede/hardware; JointState publicado apenas pelo teste. Sem dados reais de sensores/motores."
+}

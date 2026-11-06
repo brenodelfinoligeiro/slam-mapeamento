@@ -27,3 +27,79 @@ __pycache__/
 /docs/vault-slamderson/05-fontes/pdf/
 /docs/vault-slamderson/05-fontes/evidencias/
 /docs/vault-slamderson/05-fontes/capturas/
+
+# Estudo local derivado do chassi; licença de redistribuição ainda pendente
+/docs/disposicao-2d/disposicao-componentes-2d.*
+/docs/disposicao-2d/__pycache__/
+
+# Montagem derivada de referências com redistribuição pendente
+/docs/montagem-3d/*.FCStd
+/docs/montagem-3d/*.FCBak
+/docs/montagem-3d/*.png
+/docs/montagem-3d/__pycache__/
+
+# Fotografias originais fornecidas pelo autor; não publicar automaticamente
+/docs/medicoes/powerbank-basike/*.zip
+/docs/medicoes/powerbank-basike/*.jpeg
+
+# R02: derivados locais para estudo, sem publicação automática
+/docs/carcaca-r02/*.FCStd
+/docs/carcaca-r02/*.FCBak
+/docs/carcaca-r02/*.stl
+/docs/carcaca-r02/*.step
+/docs/carcaca-r02/*.png
+/docs/carcaca-r02/*.zip
+/docs/carcaca-r02/__pycache__/
+
+# R03: montagem e suporte compacto, derivados mantidos localmente
+/docs/carcaca-r03/*.FCStd
+/docs/carcaca-r03/*.FCBak
+/docs/carcaca-r03/*.step
+/docs/carcaca-r03/*.png
+/docs/carcaca-r03/__pycache__/
+
+# R04: arquivos de impressão locais; não publicar automaticamente
+/docs/impressao-r04/*.FCStd
+/docs/impressao-r04/*.FCBak
+/docs/impressao-r04/*.step
+/docs/impressao-r04/*.zip
+/docs/impressao-r04/stl/
+/docs/impressao-r04/auditoria-slicer/
+/docs/impressao-r04/*.pdf
+
+
+# Derivados locais da revisão R05; licenças/fontes CAD preservadas.
+docs/fixacao-r05/*.FCStd*
+docs/fixacao-r05/*.FCBak
+docs/fixacao-r05/*.step
+docs/fixacao-r05/*.stp
+docs/fixacao-r05/*.pdf
+docs/fixacao-r05/*.zip
+docs/fixacao-r05/stl/
+docs/fixacao-r05/auditoria-slicer/
+docs/fixacao-r05/scene/
+
+# Descrição ROS: derivados visuais CAD somente locais.
+/src/descricao/robo_movel/descricao/malhas/*.stl
+/docs/descricao-ros/*.png
+/docs/descricao-ros/*.zip
+
+# Recibos e binários ROS anteriores, preservados localmente.
+/docs/historico/descricao-ros-r05-anterior/*.png
+/docs/historico/descricao-ros-r05-anterior/*.zip
+
+/docs/descricao-ros/robo-movel-descricao-r05.zip
+
+# Entrega e evidência gráfica da simulação, derivadas do CAD local.
+/docs/simulacao/*.png
+/docs/simulacao/*.zip
+
+
+# Entrega SLAM privada: malhas/captura derivadas e dados de ensaio locais.
+/docs/slam/*.png
+/docs/slam/*.zip
+/docs/slam/mapas/
+/docs/slam/evidencias/*.log
+
+/docs/slam/*.tar.xz
+/docs/slam/candidatos/

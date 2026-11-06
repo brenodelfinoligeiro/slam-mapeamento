@@ -1,0 +1,32 @@
+{
+  "modo_invalido": {
+    "status": "rejeitado_como_esperado",
+    "returncode": 1,
+    "processos_nao_iniciados": true
+  },
+  "grafo_ausente": {
+    "status": "rejeitado_como_esperado",
+    "returncode": 1,
+    "processos_nao_iniciados": true
+  },
+  "grafo_inexistente": {
+    "status": "rejeitado_como_esperado",
+    "returncode": 1,
+    "processos_nao_iniciados": true
+  },
+  "mapa_existente": {
+    "status": "rejeitado_como_esperado",
+    "returncode": 1,
+    "processos_nao_iniciados": false
+  },
+  "servico_ausente": {
+    "status": "rejeitado_como_esperado",
+    "returncode": 1,
+    "processos_nao_iniciados": false
+  },
+  "sensor_parametro_invalido": {
+    "status": "rejeitado_como_esperado",
+    "returncode": 1,
+    "processos_nao_iniciados": false
+  }
+}

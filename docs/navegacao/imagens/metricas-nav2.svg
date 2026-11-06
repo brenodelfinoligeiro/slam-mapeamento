@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="1000" viewBox="0 0 1400 1000">
+<style>text { font-family: DejaVu Sans, sans-serif; }</style>
+<rect width="100%" height="100%" fill="#0b1220"/>
+<title>Resultados medidos dos objetivos e das perdas de dados no ensaio digital</title>
+<text x="70" y="62" font-size="34" fill="#e8eef7" text-anchor="start">Resultados medidos | ensaio digital</text>
+<text x="70" y="102" font-size="23" fill="#72e3aa" text-anchor="start">3/3 objetivos SUCCEEDED · contato não detectado pelo oráculo geométrico</text>
+<text x="70" y="153" font-size="23" fill="#e8eef7" text-anchor="start">Erro real de posição [cm] · Nav2 aceita 10 cm na pose estimada</text>
+<text x="70" y="211" font-size="22" fill="#e8eef7" text-anchor="start">Meta 1</text>
+<rect x="210" y="186" width="750" height="28" rx="6" fill="#243044"/>
+<rect x="210" y="186" width="629.62" height="28" rx="6" fill="#42dbf4"/>
+<text x="985" y="210" font-size="23" fill="#42dbf4" text-anchor="start">10,07 cm</text>
+<text x="1160" y="210" font-size="22" fill="#a8bad0" text-anchor="start">28,1 s</text>
+<text x="70" y="288" font-size="22" fill="#e8eef7" text-anchor="start">Meta 2</text>
+<rect x="210" y="263" width="750" height="28" rx="6" fill="#243044"/>
+<rect x="210" y="263" width="635.39" height="28" rx="6" fill="#42dbf4"/>
+<text x="985" y="287" font-size="23" fill="#42dbf4" text-anchor="start">10,17 cm</text>
+<text x="1160" y="287" font-size="22" fill="#a8bad0" text-anchor="start">32,9 s</text>
+<text x="70" y="365" font-size="22" fill="#e8eef7" text-anchor="start">Meta 3</text>
+<rect x="210" y="340" width="750" height="28" rx="6" fill="#243044"/>
+<rect x="210" y="340" width="603.80" height="28" rx="6" fill="#42dbf4"/>
+<text x="985" y="364" font-size="23" fill="#42dbf4" text-anchor="start">9,66 cm</text>
+<text x="1160" y="364" font-size="22" fill="#a8bad0" text-anchor="start">37,7 s</text>
+<text x="210" y="408" font-size="19" fill="#a8bad0" text-anchor="start">Barras: escala de 0 a 12 cm. À direita: duração de parede da ação.</text>
+<line x1="70" y1="442" x2="1330" y2="442" stroke="#324359" stroke-width="2" />
+<text x="70" y="492" font-size="23" fill="#e8eef7" text-anchor="start">Perda de dados | latência monotônica até comando zerado [ms]</text>
+<text x="70" y="552" font-size="22" fill="#e8eef7" text-anchor="start">Scan</text>
+<rect x="250" y="527" width="650" height="28" rx="6" fill="#243044"/>
+<rect x="250" y="527" width="384.10" height="28" rx="6" fill="#ffc76b"/>
+<text x="925" y="551" font-size="23" fill="#ffc76b" text-anchor="start">414 ms</text>
+<text x="1090" y="551" font-size="20" fill="#a8bad0" text-anchor="start">6,4 cm Δpose</text>
+<text x="70" y="622" font-size="22" fill="#e8eef7" text-anchor="start">TF global</text>
+<rect x="250" y="597" width="650" height="28" rx="6" fill="#243044"/>
+<rect x="250" y="597" width="572.40" height="28" rx="6" fill="#ffc76b"/>
+<text x="925" y="621" font-size="23" fill="#ffc76b" text-anchor="start">616 ms</text>
+<text x="1090" y="621" font-size="20" fill="#a8bad0" text-anchor="start">6,4 cm Δpose</text>
+<text x="70" y="692" font-size="22" fill="#e8eef7" text-anchor="start">Odometria</text>
+<rect x="250" y="667" width="650" height="28" rx="6" fill="#243044"/>
+<rect x="250" y="667" width="462.60" height="28" rx="6" fill="#ffc76b"/>
+<text x="925" y="691" font-size="23" fill="#ffc76b" text-anchor="start">498 ms</text>
+<text x="1090" y="691" font-size="20" fill="#a8bad0" text-anchor="start">8,0 cm Δpose</text>
+<text x="70" y="762" font-size="22" fill="#e8eef7" text-anchor="start">Clock*</text>
+<rect x="250" y="737" width="650" height="28" rx="6" fill="#243044"/>
+<rect x="250" y="737" width="445.49" height="28" rx="6" fill="#ffc76b"/>
+<text x="925" y="761" font-size="23" fill="#ffc76b" text-anchor="start">480 ms</text>
+<text x="1090" y="761" font-size="20" fill="#a8bad0" text-anchor="start">0,0 cm Δpose</text>
+<text x="250" y="821" font-size="19" fill="#a8bad0" text-anchor="start">0 a 700 ms · uma observação por falha · Δpose: deslocamento virtual no teste.</text>
+<text x="70" y="872" font-size="20" fill="#a8bad0" text-anchor="start">* Clock pausado congela também a planta: 0 cm não comprova frenagem física.</text>
+<text x="70" y="922" font-size="22" fill="#72e3aa" text-anchor="start">513 casos: 503 dos pacotes + 10 do oráculo/helpers; sem falhas/ignorados.</text>
+<text x="70" y="970" font-size="18" fill="#a8bad0" text-anchor="start">Fonte: validacao-navegacao.json / runtime-v09-final · AMD64/Jazzy · sem hardware ou segurança certificada.</text>
+</svg>

@@ -1,0 +1,143 @@
+{
+  "lifecycle": {
+    "slam_toolbox": "active",
+    "planner_server": "active",
+    "controller_server": "active",
+    "behavior_server": "active",
+    "bt_navigator": "active"
+  },
+  "saida_final_exclusiva": "arbitro",
+  "fontes_velocidade_nav2": [
+    "behavior_server",
+    "controller_server"
+  ],
+  "ground_truth_fora_dos_consumidores_autonomos": true,
+  "objetivos": [
+    {
+      "alvo": [
+        -2.0,
+        1.4,
+        0.0
+      ],
+      "status": 4,
+      "error_code": 0,
+      "pose_estimada": [
+        -1.9151202933272926,
+        1.3573609924200625,
+        0.11227687732782644
+      ],
+      "pose_oraculo": [
+        -1.9285706633159323,
+        1.3524852287608766,
+        0.117493339952462
+      ],
+      "erro_estimado_m": 0.09498762852207022,
+      "erro_real_m": 0.08578929784671348,
+      "duracao_parede_s": 28.00706076307688,
+      "amostras_movimento": 1400,
+      "planos_reais_nav2": 27
+    },
+    {
+      "alvo": [
+        2.8,
+        2.4,
+        0.0
+      ],
+      "status": 4,
+      "error_code": 0,
+      "pose_estimada": [
+        2.7039612861541262,
+        2.417715060857319,
+        -0.14973083227115602
+      ],
+      "pose_oraculo": [
+        2.6945984367089473,
+        2.4139618995122585,
+        -0.15251774618191433
+      ],
+      "erro_estimado_m": 0.09765888560877659,
+      "erro_real_m": 0.10632226569344806,
+      "duracao_parede_s": 32.919108940986916,
+      "amostras_movimento": 1643,
+      "planos_reais_nav2": 32
+    },
+    {
+      "alvo": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "status": 4,
+      "error_code": 0,
+      "pose_estimada": [
+        0.050850032257470514,
+        0.08317530168897824,
+        -0.07973510924733987
+      ],
+      "pose_oraculo": [
+        0.04186737452506914,
+        0.08297479000329952,
+        -0.07904170561278724
+      ],
+      "erro_estimado_m": 0.09748772533831292,
+      "erro_real_m": 0.09293918885870514,
+      "duracao_parede_s": 37.91950063605327,
+      "amostras_movimento": 1892,
+      "planos_reais_nav2": 37
+    }
+  ],
+  "reta_para_primeiro_alvo": {
+    "amostras": 2,
+    "comprimento_m": 2.4413111231467406,
+    "folga_minima_m": -0.185,
+    "sem_interseccao_com_envoltoria": false,
+    "raio_verificado_m": 0.18,
+    "margem_amostragem_m": 0.005
+  },
+  "cancelamento_em_movimento": true,
+  "manual_cancela_objetivo_sem_retomada_automatica": true,
+  "perdas_de_dados": [
+    {
+      "dado": "scan",
+      "latencia_parada_s": 0.4158871960826218,
+      "deslocamento_ate_parar_m": 0.06399975160480884,
+      "objetivo_cancelado": true,
+      "recuperacao_sem_retomada_automatica": true
+    },
+    {
+      "dado": "tf_global",
+      "latencia_parada_s": 0.6380908180726692,
+      "deslocamento_ate_parar_m": 0.0639995884328057,
+      "objetivo_cancelado": true,
+      "recuperacao_sem_retomada_automatica": true
+    },
+    {
+      "dado": "odometria",
+      "latencia_parada_s": 0.4980382729554549,
+      "deslocamento_ate_parar_m": 0.07999906475512576,
+      "objetivo_cancelado": true,
+      "recuperacao_sem_retomada_automatica": true
+    },
+    {
+      "dado": "clock",
+      "latencia_parada_s": 0.4977931759785861,
+      "deslocamento_ate_parar_m": 0.0,
+      "objetivo_cancelado": true,
+      "recuperacao_sem_retomada_automatica": true
+    }
+  ],
+  "objetivo_fora_do_mapa_abortado": true,
+  "ultimo_error_code": 204,
+  "oraculo_contato": {
+    "amostras": 7547,
+    "comprimento_m": 15.438607777088002,
+    "folga_minima_m": 0.20077168690646452,
+    "sem_interseccao_com_envoltoria": true,
+    "raio_verificado_m": 0.18,
+    "margem_amostragem_m": 0.005
+  },
+  "status": "OK",
+  "encerramento_limpo": true,
+  "max_intervalo_amostras_ros_s": 0.13999999999998636,
+  "limite": "Nav2/SLAM reais em ROS Jazzy AMD64, sensores/planta cinemáticos. Não é teste físico nem prova de segurança funcional."
+}

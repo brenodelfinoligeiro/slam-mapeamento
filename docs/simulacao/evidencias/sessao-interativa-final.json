@@ -1,0 +1,13 @@
+{
+  "status": "OK",
+  "helper_iniciar_conteiner": true,
+  "docker_exec_teleop_tty": true,
+  "medicao": {
+    "amostras": 65,
+    "x_inicio": 0.3180000000000002,
+    "x_fim": 0.5100000000000003,
+    "velocidade_media": 0.14999999999999997,
+    "velocidade_maxima": 0.14999999999999997
+  },
+  "encerramento_limpo": true
+}

@@ -1,0 +1,31 @@
+{
+  "mapeamento": {
+    "modo": "mapeamento",
+    "launch_real_do_helper": true,
+    "teleop": {
+      "avanco": true,
+      "giro": true,
+      "re": true,
+      "espaco_para_parar": true,
+      "soltar_tecla_expira": true,
+      "saida_q_limpa": true,
+      "terminal_real_pty": true
+    },
+    "arquivos_no_bind_persistente": {
+      ".posegraph": 5080859,
+      ".data": 89477,
+      ".pgm": 12015,
+      ".yaml": 131
+    }
+  },
+  "localizacao": {
+    "modo": "localizacao",
+    "launch_real_do_helper": true,
+    "pose_global_apos_recarga": [
+      0.10997010833693595,
+      8.842335932131434e-05,
+      0.00044757321380206605
+    ]
+  },
+  "mapas_persistiram_apos_remover_conteiner": true
+}

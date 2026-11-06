@@ -1,0 +1,4684 @@
+{
+  "revisao": "R05",
+  "unidade": "m",
+  "registro_origem": "docs/descricao-ros/origem-mecanica.json",
+  "sha256_CAD": "c1d89f9d7d754b9cfa8f9bc4ea35b6ae6461c42dcb7ea30013bce28dd4b3d57e",
+  "pecas_impressas": 44,
+  "rotacao_CAD_para_ROS": [
+    [
+      0.0,
+      -1.0,
+      0.0
+    ],
+    [
+      1.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "origem_base_CAD_mm": [
+    0.1131753921508789,
+    77.65921211242676,
+    34.91607590168715
+  ],
+  "plano_rodas_CAD_mm": 0.45467557907104805,
+  "altura_base_m": 0.034461400322616104,
+  "frames_CAD_mm": {
+    "base_link": [
+      0.1131753921508789,
+      77.65921211242676,
+      34.91607590168715
+    ],
+    "left_wheel_link": [
+      66.30325126647949,
+      77.65921211242676,
+      34.91607489585877
+    ],
+    "right_wheel_link": [
+      -66.07690048217773,
+      77.65921211242676,
+      34.91607690751553
+    ],
+    "caster_link": [
+      -0.13016414642333984,
+      192.24606895446777,
+      45.4
+    ],
+    "lidar_mount_link": [
+      0.0,
+      104.0,
+      145.0
+    ],
+    "imu_mount_link": [
+      -12.5,
+      117.5,
+      60.4
+    ]
+  },
+  "distancia_rodas_m": 0.13238015174865722,
+  "raio_vertical_roda_m": 0.03446139931678772,
+  "pneus_bbox_CAD_mm": {
+    "left": [
+      53.89459228515625,
+      43.227760314941406,
+      0.45467557907104805,
+      78.71191024780273,
+      112.09066390991211,
+      69.37747421264649
+    ],
+    "right": [
+      -78.48555374145508,
+      43.227760314941406,
+      0.4546796023845704,
+      -53.66824722290039,
+      112.09066390991211,
+      69.37747421264649
+    ]
+  },
+  "cubos_bbox_CAD_mm": {
+    "left": [
+      48.803253173828125,
+      52.02477264404297,
+      9.215978050231938,
+      78.80325698852539,
+      103.33781242370605,
+      60.61598815917969
+    ],
+    "right": [
+      -78.57690811157227,
+      52.02477264404297,
+      9.215979003906254,
+      -48.576900482177734,
+      103.33781433105469,
+      60.61598434448243
+    ]
+  },
+  "rodizio_acima_plano_rodas_mm": 5.313068866729736,
+  "sensores_calibrados": false,
+  "inerciais_medidas": false,
+  "limites": [
+    "Modelo CAD de referência, não geometria física medida.",
+    "Rodízio fica acima do plano das rodas no CAD; não corrigido artificialmente.",
+    "Frames imu_mount_link/lidar_mount_link são datums mecânicos, não frames calibrados dos dados.",
+    "Rodízio fixo para visualização; não modelo de contato/dinâmica.",
+    "Discos de encoder ilustrativos: não inferir PPR.",
+    "Sem massas/inércias inventadas.",
+    "Derivados CAD permanecem locais por licenças pendentes."
+  ],
+  "meshes": [
+    {
+      "nome": "estrutura",
+      "link": "base_link",
+      "material": "estrutura",
+      "limite_visual_triangulos": null,
+      "objetos": [
+        {
+          "objeto": "SaiaFrente",
+          "rotulo": "P01 Saia dianteira",
+          "bbox_CAD_mm": [
+            -85.0,
+            -2.000000000000002,
+            49.4,
+            85.0,
+            124.0,
+            90.0
+          ],
+          "triangulos": 6360
+        },
+        {
+          "objeto": "SaiaTras",
+          "rotulo": "P02 Saia traseira",
+          "bbox_CAD_mm": [
+            -85.0,
+            112.3,
+            49.4,
+            85.0,
+            210.0,
+            92.0
+          ],
+          "triangulos": 7394
+        },
+        {
+          "objeto": "P03_Teto",
+          "rotulo": "P03 Teto dianteiro esquerdo",
+          "bbox_CAD_mm": [
+            -85.0,
+            -2.000000000000002,
+            90.6,
+            -0.300000000000011,
+            124.0,
+            137.0
+          ],
+          "triangulos": 2104
+        },
+        {
+          "objeto": "P04_Teto",
+          "rotulo": "P04 Teto dianteiro direito",
+          "bbox_CAD_mm": [
+            0.299999999999997,
+            -2.000000000000002,
+            90.6,
+            85.0,
+            124.0,
+            137.0
+          ],
+          "triangulos": 2104
+        },
+        {
+          "objeto": "P05_Teto",
+          "rotulo": "P05 Teto traseiro esquerdo",
+          "bbox_CAD_mm": [
+            -85.0,
+            112.3,
+            90.6,
+            -0.300000000000011,
+            210.0,
+            137.0
+          ],
+          "triangulos": 1844
+        },
+        {
+          "objeto": "P06_Teto",
+          "rotulo": "P06 Teto traseiro direito",
+          "bbox_CAD_mm": [
+            0.299999999999997,
+            112.3,
+            90.6,
+            85.0,
+            210.0,
+            137.0
+          ],
+          "triangulos": 1874
+        },
+        {
+          "objeto": "PortinholaAA",
+          "rotulo": "P07 Portinhola AA com batente plano holder",
+          "bbox_CAD_mm": [
+            -47.0,
+            -4.4,
+            48.4,
+            47.0,
+            9.6,
+            82.4
+          ],
+          "triangulos": 1044
+        },
+        {
+          "objeto": "PortinholaPB",
+          "rotulo": "P08 Portinhola PB com batente plano",
+          "bbox_CAD_mm": [
+            -80.0,
+            206.4,
+            48.4,
+            80.0,
+            212.4,
+            89.8
+          ],
+          "triangulos": 1076
+        },
+        {
+          "objeto": "TampaServicoPB",
+          "rotulo": "P09 Painel lateral PB",
+          "bbox_CAD_mm": [
+            85.0,
+            132.0,
+            49.0,
+            87.4,
+            207.0,
+            89.0
+          ],
+          "triangulos": 1028
+        },
+        {
+          "objeto": "UniaoTetoE",
+          "rotulo": "P10 Ponte teto insertos",
+          "bbox_CAD_mm": [
+            -60.0,
+            98.0,
+            124.8,
+            -46.0,
+            126.0,
+            133.8
+          ],
+          "triangulos": 1020
+        },
+        {
+          "objeto": "UniaoTetoD",
+          "rotulo": "P10 Ponte teto insertos001",
+          "bbox_CAD_mm": [
+            46.0,
+            98.0,
+            124.8,
+            60.0,
+            126.0,
+            133.8
+          ],
+          "triangulos": 1020
+        },
+        {
+          "objeto": "ClipeFE",
+          "rotulo": "P11 Clipe retencao tampas",
+          "bbox_CAD_mm": [
+            -72.0,
+            1.0,
+            82.0,
+            -60.0,
+            10.0,
+            102.0
+          ],
+          "triangulos": 1020
+        },
+        {
+          "objeto": "ClipeTE",
+          "rotulo": "P11 Clipe retencao tampas001",
+          "bbox_CAD_mm": [
+            -72.0,
+            198.0,
+            82.0,
+            -60.0,
+            207.0,
+            102.0
+          ],
+          "triangulos": 1020
+        },
+        {
+          "objeto": "ClipeFD",
+          "rotulo": "P11 Clipe retencao tampas002",
+          "bbox_CAD_mm": [
+            60.0,
+            1.0,
+            82.0,
+            72.0,
+            10.0,
+            102.0
+          ],
+          "triangulos": 1020
+        },
+        {
+          "objeto": "ClipeTD",
+          "rotulo": "P11 Clipe retencao tampas003",
+          "bbox_CAD_mm": [
+            60.0,
+            198.0,
+            82.0,
+            72.0,
+            207.0,
+            102.0
+          ],
+          "triangulos": 1020
+        },
+        {
+          "objeto": "PisoSuperior",
+          "rotulo": "P12 Piso com apoio Pi e insertos",
+          "bbox_CAD_mm": [
+            -66.0,
+            2.501528376793342,
+            87.0,
+            66.0,
+            205.0,
+            97.8
+          ],
+          "triangulos": 16282
+        },
+        {
+          "objeto": "BercoPB",
+          "rotulo": "P13 Gaveta rigida Basike",
+          "bbox_CAD_mm": [
+            -80.0,
+            132.0,
+            48.4,
+            80.0,
+            206.0,
+            83.80000000000001
+          ],
+          "triangulos": 2512
+        },
+        {
+          "objeto": "BercoAA",
+          "rotulo": "P14 Berco holder com bosses externos",
+          "bbox_CAD_mm": [
+            -48.5,
+            1.5,
+            48.4,
+            48.5,
+            83.0,
+            75.2
+          ],
+          "triangulos": 6358
+        },
+        {
+          "objeto": "P15_0",
+          "rotulo": "P15 Coluna principal dianteira",
+          "bbox_CAD_mm": [
+            -53.0,
+            28.001554089995917,
+            48.4,
+            -43.0,
+            37.99844591000408,
+            87.0
+          ],
+          "triangulos": 1508
+        },
+        {
+          "objeto": "P15_1",
+          "rotulo": "P15 Coluna principal dianteira001",
+          "bbox_CAD_mm": [
+            43.0,
+            28.001554089995917,
+            48.4,
+            53.0,
+            37.99844591000408,
+            87.0
+          ],
+          "triangulos": 1508
+        },
+        {
+          "objeto": "P16_0",
+          "rotulo": "P16 Coluna principal traseira",
+          "bbox_CAD_mm": [
+            -63.0,
+            121.00155408999592,
+            52.4,
+            -53.0,
+            132.0,
+            87.0
+          ],
+          "triangulos": 2276
+        },
+        {
+          "objeto": "P16_1",
+          "rotulo": "P16 Coluna principal traseira001",
+          "bbox_CAD_mm": [
+            53.0,
+            121.00155408999592,
+            52.4,
+            63.0,
+            132.0,
+            87.0
+          ],
+          "triangulos": 2276
+        },
+        {
+          "objeto": "TravessaE",
+          "rotulo": "P17 Travessa traseira",
+          "bbox_CAD_mm": [
+            -63.0,
+            120.0,
+            48.4,
+            -48.0,
+            132.0,
+            52.4
+          ],
+          "triangulos": 668
+        },
+        {
+          "objeto": "TravessaD",
+          "rotulo": "P17 Travessa traseira001",
+          "bbox_CAD_mm": [
+            48.0,
+            120.0,
+            48.4,
+            63.0,
+            132.0,
+            52.4
+          ],
+          "triangulos": 668
+        },
+        {
+          "objeto": "ColunaC1E",
+          "rotulo": "P18 Coluna C1 insertos opostos",
+          "bbox_CAD_mm": [
+            -30.5,
+            79.00155408999592,
+            90.0,
+            -20.5,
+            88.99844591000408,
+            140.0
+          ],
+          "triangulos": 1508
+        },
+        {
+          "objeto": "ColunaC1D",
+          "rotulo": "P18 Coluna C1 insertos opostos001",
+          "bbox_CAD_mm": [
+            20.5,
+            79.00155408999592,
+            90.0,
+            30.5,
+            88.99844591000408,
+            140.0
+          ],
+          "triangulos": 1508
+        },
+        {
+          "objeto": "PonteLidar",
+          "rotulo": "P19 Base C1 estrutural separada da matriz ilustrativa",
+          "bbox_CAD_mm": [
+            -31.0,
+            73.0,
+            140.0,
+            31.0,
+            135.0,
+            143.0
+          ],
+          "triangulos": 4802
+        },
+        {
+          "objeto": "EspacadorC1_0",
+          "rotulo": "P20 Espacador C1 ilustrativo",
+          "bbox_CAD_mm": [
+            -24.3,
+            79.70087029039772,
+            143.0,
+            -18.7,
+            85.29912970960228,
+            145.0
+          ],
+          "triangulos": 1008
+        },
+        {
+          "objeto": "EspacadorC1_1",
+          "rotulo": "P20 Espacador C1 ilustrativo001",
+          "bbox_CAD_mm": [
+            -24.3,
+            122.70087029039772,
+            143.0,
+            -18.7,
+            128.29912970960228,
+            145.0
+          ],
+          "triangulos": 1008
+        },
+        {
+          "objeto": "EspacadorC1_2",
+          "rotulo": "P20 Espacador C1 ilustrativo002",
+          "bbox_CAD_mm": [
+            18.7,
+            79.70087029039772,
+            143.0,
+            24.3,
+            85.29912970960228,
+            145.0
+          ],
+          "triangulos": 1008
+        },
+        {
+          "objeto": "EspacadorC1_3",
+          "rotulo": "P20 Espacador C1 ilustrativo003",
+          "bbox_CAD_mm": [
+            18.7,
+            122.70087029039772,
+            143.0,
+            24.3,
+            128.29912970960228,
+            145.0
+          ],
+          "triangulos": 1008
+        },
+        {
+          "objeto": "BercoL298",
+          "rotulo": "P22 Berco L298 com pinos e bosses externos",
+          "bbox_CAD_mm": [
+            -8.0,
+            82.00152089268897,
+            48.4,
+            56.5,
+            128.99922461512855,
+            64.5
+          ],
+          "triangulos": 9396
+        },
+        {
+          "objeto": "BercoMPU",
+          "rotulo": "P23 Berco MPU isolado da gaveta",
+          "bbox_CAD_mm": [
+            -17.5,
+            104.0,
+            48.4,
+            0.0,
+            131.0,
+            62.5
+          ],
+          "triangulos": 4912
+        },
+        {
+          "objeto": "BercoESP",
+          "rotulo": "P24 Berco ESP rigido",
+          "bbox_CAD_mm": [
+            -27.0,
+            140.0,
+            90.0,
+            27.0,
+            201.0,
+            110.0
+          ],
+          "triangulos": 2988
+        },
+        {
+          "objeto": "QuadroESP",
+          "rotulo": "P26 Quadro retencao ESP",
+          "bbox_CAD_mm": [
+            -27.0,
+            138.0,
+            110.4,
+            27.0,
+            203.0,
+            113.4
+          ],
+          "triangulos": 1048
+        },
+        {
+          "objeto": "PresilhaPi_0",
+          "rotulo": "P27 Presilha borda Pi",
+          "bbox_CAD_mm": [
+            -44.3,
+            3.5,
+            97.8,
+            -36.3,
+            18.8,
+            100.8
+          ],
+          "triangulos": 536
+        },
+        {
+          "objeto": "PresilhaPi_1",
+          "rotulo": "P27 Presilha borda Pi001",
+          "bbox_CAD_mm": [
+            -44.3,
+            64.2,
+            97.8,
+            -36.3,
+            79.5,
+            100.8
+          ],
+          "triangulos": 536
+        },
+        {
+          "objeto": "PresilhaPi_2",
+          "rotulo": "P27 Presilha borda Pi002",
+          "bbox_CAD_mm": [
+            13.7,
+            3.5,
+            97.8,
+            21.7,
+            18.8,
+            100.8
+          ],
+          "triangulos": 536
+        },
+        {
+          "objeto": "PresilhaPi_3",
+          "rotulo": "P27 Presilha borda Pi003",
+          "bbox_CAD_mm": [
+            13.7,
+            64.2,
+            97.8,
+            21.7,
+            79.5,
+            100.8
+          ],
+          "triangulos": 536
+        },
+        {
+          "objeto": "PresilhaMPU_0",
+          "rotulo": "P28 Presilha borda MPU",
+          "bbox_CAD_mm": [
+            -14.5,
+            105.5,
+            62.5,
+            -1.0,
+            113.5,
+            65.5
+          ],
+          "triangulos": 540
+        },
+        {
+          "objeto": "PresilhaMPU_1",
+          "rotulo": "P28 Presilha borda MPU001",
+          "bbox_CAD_mm": [
+            -14.5,
+            121.5,
+            62.5,
+            -1.0,
+            129.5,
+            65.5
+          ],
+          "triangulos": 540
+        },
+        {
+          "objeto": "ReguaAA_E",
+          "rotulo": "P29 Regua removivel holder AA",
+          "bbox_CAD_mm": [
+            -48.5,
+            1.5,
+            75.2,
+            -36.8,
+            84.5,
+            78.2
+          ],
+          "triangulos": 1052
+        },
+        {
+          "objeto": "ReguaAA_D",
+          "rotulo": "P29 Regua removivel holder AA001",
+          "bbox_CAD_mm": [
+            36.8,
+            1.5,
+            75.2,
+            48.5,
+            84.5,
+            78.2
+          ],
+          "triangulos": 1052
+        },
+        {
+          "objeto": "QuadroL298",
+          "rotulo": "P30 Quadro retencao bordas L298N",
+          "bbox_CAD_mm": [
+            -7.0,
+            81.0,
+            64.5,
+            55.5,
+            129.0,
+            67.5
+          ],
+          "triangulos": 1156
+        }
+      ],
+      "triangulos_originais": 101682,
+      "bbox_local_m": [
+        [
+          -0.13474078476428986,
+          -0.08511317521333694,
+          0.013483923859894276
+        ],
+        [
+          0.08205921202898026,
+          0.0872868224978447,
+          0.1100839227437973
+        ]
+      ],
+      "arquivo": "descricao/malhas/estrutura_r05.stl",
+      "sha256": "487cf7ddecb12a006e3d6994c51df24b300f8fc6648369781baea11d0dec57c1",
+      "triangulos_exportados": 101682,
+      "erro_max_bbox_m": 0.0,
+      "bbox_exportado_m": [
+        [
+          -0.13474078476428986,
+          -0.08511317521333694,
+          0.013483923859894276
+        ],
+        [
+          0.08205921202898026,
+          0.0872868224978447,
+          0.1100839227437973
+        ]
+      ]
+    },
+    {
+      "nome": "ferragens",
+      "link": "base_link",
+      "material": "metal",
+      "limite_visual_triangulos": null,
+      "objetos": [
+        {
+          "objeto": "Parafuso_R05_001",
+          "rotulo": "A Clipe saia",
+          "bbox_CAD_mm": [
+            -68.74914525050224,
+            -5.5,
+            83.75,
+            -63.250854749497755,
+            5.5,
+            89.25
+          ],
+          "triangulos": 1004
+        },
+        {
+          "objeto": "Parafuso_R05_002",
+          "rotulo": "A Clipe tampa",
+          "bbox_CAD_mm": [
+            -68.74914525050224,
+            -5.5,
+            93.75,
+            -63.250854749497755,
+            5.5,
+            99.25
+          ],
+          "triangulos": 1004
+        },
+        {
+          "objeto": "Parafuso_R05_003",
+          "rotulo": "A Clipe saia001",
+          "bbox_CAD_mm": [
+            -68.74914525050224,
+            202.5,
+            83.75,
+            -63.250854749497755,
+            213.5,
+            89.25
+          ],
+          "triangulos": 1004
+        },
+        {
+          "objeto": "Parafuso_R05_004",
+          "rotulo": "A Clipe tampa001",
+          "bbox_CAD_mm": [
+            -68.74914525050224,
+            202.5,
+            93.75,
+            -63.250854749497755,
+            213.5,
+            99.25
+          ],
+          "triangulos": 1004
+        },
+        {
+          "objeto": "Parafuso_R05_005",
+          "rotulo": "A Clipe saia002",
+          "bbox_CAD_mm": [
+            63.250854749497755,
+            -5.5,
+            83.75,
+            68.74914525050224,
+            5.5,
+            89.25
+          ],
+          "triangulos": 1004
+        },
+        {
+          "objeto": "Parafuso_R05_006",
+          "rotulo": "A Clipe tampa002",
+          "bbox_CAD_mm": [
+            63.250854749497755,
+            -5.5,
+            93.75,
+            68.74914525050224,
+            5.5,
+            99.25
+          ],
+          "triangulos": 1004
+        },
+        {
+          "objeto": "Parafuso_R05_007",
+          "rotulo": "A Clipe saia003",
+          "bbox_CAD_mm": [
+            63.250854749497755,
+            202.5,
+            83.75,
+            68.74914525050224,
+            213.5,
+            89.25
+          ],
+          "triangulos": 1004
+        },
+        {
+          "objeto": "Parafuso_R05_008",
+          "rotulo": "A Clipe tampa003",
+          "bbox_CAD_mm": [
+            63.250854749497755,
+            202.5,
+            93.75,
+            68.74914525050224,
+            213.5,
+            99.25
+          ],
+          "triangulos": 1004
+        },
+        {
+          "objeto": "Parafuso_R05_009",
+          "rotulo": "B Lingueta lateral",
+          "bbox_CAD_mm": [
+            -88.5,
+            115.25085474949776,
+            79.25,
+            -77.5,
+            120.74914525050224,
+            84.75
+          ],
+          "triangulos": 1004
+        },
+        {
+          "objeto": "Parafuso_R05_010",
+          "rotulo": "B Lingueta lateral001",
+          "bbox_CAD_mm": [
+            77.5,
+            115.25085474949776,
+            79.25,
+            88.5,
+            120.74914525050224,
+            84.75
+          ],
+          "triangulos": 1004
+        },
+        {
+          "objeto": "Parafuso_R05_011",
+          "rotulo": "C Lingueta lateral",
+          "bbox_CAD_mm": [
+            -88.5,
+            115.25085474949776,
+            107.25,
+            -77.5,
+            120.74914525050224,
+            112.75
+          ],
+          "triangulos": 1004
+        },
+        {
+          "objeto": "Parafuso_R05_012",
+          "rotulo": "C Lingueta lateral001",
+          "bbox_CAD_mm": [
+            77.5,
+            115.25085474949776,
+            107.25,
+            88.5,
+            120.74914525050224,
+            112.75
+          ],
+          "triangulos": 1004
+        },
+        {
+          "objeto": "Parafuso_R05_013",
+          "rotulo": "D Ponte teto",
+          "bbox_CAD_mm": [
+            -55.75,
+            101.25085474949776,
+            129.5,
+            -50.25,
+            106.74914525050224,
+            140.5
+          ],
+          "triangulos": 1004
+        },
+        {
+          "objeto": "Parafuso_R05_014",
+          "rotulo": "D Ponte teto001",
+          "bbox_CAD_mm": [
+            -55.75,
+            117.25085474949776,
+            129.5,
+            -50.25,
+            122.74914525050224,
+            140.5
+          ],
+          "triangulos": 1004
+        },
+        {
+          "objeto": "Parafuso_R05_015",
+          "rotulo": "D Ponte teto002",
+          "bbox_CAD_mm": [
+            50.25,
+            101.25085474949776,
+            129.5,
+            55.75,
+            106.74914525050224,
+            140.5
+          ],
+          "triangulos": 1004
+        },
+        {
+          "objeto": "Parafuso_R05_016",
+          "rotulo": "D Ponte teto003",
+          "bbox_CAD_mm": [
+            50.25,
+            117.25085474949776,
+            129.5,
+            55.75,
+            122.74914525050224,
+            140.5
+          ],
+          "triangulos": 1004
+        },
+        {
+          "objeto": "Parafuso_R05_017",
+          "rotulo": "E Portinhola AA",
+          "bbox_CAD_mm": [
+            -32.749145250502245,
+            -7.9,
+            75.65,
+            -27.250854749497755,
+            3.1,
+            81.15
+          ],
+          "triangulos": 1004
+        },
+        {
+          "objeto": "Parafuso_R05_018",
+          "rotulo": "E Portinhola AA001",
+          "bbox_CAD_mm": [
+            27.250854749497755,
+            -7.9,
+            75.65,
+            32.749145250502245,
+            3.1,
+            81.15
+          ],
+          "triangulos": 1004
+        },
+        {
+          "objeto": "Parafuso_R05_019",
+          "rotulo": "F Portinhola PB",
+          "bbox_CAD_mm": [
+            -57.749145250502245,
+            204.9,
+            83.25,
+            -52.250854749497755,
+            215.9,
+            88.75
+          ],
+          "triangulos": 1004
+        },
+        {
+          "objeto": "Parafuso_R05_020",
+          "rotulo": "F Portinhola PB001",
+          "bbox_CAD_mm": [
+            52.250854749497755,
+            204.9,
+            83.25,
+            57.749145250502245,
+            215.9,
+            88.75
+          ],
+          "triangulos": 1004
+        },
+        {
+          "objeto": "Parafuso_R05_021",
+          "rotulo": "G Painel lateral PB",
+          "bbox_CAD_mm": [
+            79.9,
+            139.25085474949776,
+            83.75,
+            90.9,
+            144.74914525050224,
+            89.25
+          ],
+          "triangulos": 1004
+        },
+        {
+          "objeto": "Parafuso_R05_022",
+          "rotulo": "G Painel lateral PB001",
+          "bbox_CAD_mm": [
+            79.9,
+            196.25085474949776,
+            83.75,
+            90.9,
+            201.74914525050224,
+            89.25
+          ],
+          "triangulos": 1004
+        },
+        {
+          "objeto": "Parafuso_R05_023",
+          "rotulo": "H Piso pela orelha saia",
+          "bbox_CAD_mm": [
+            -64.0,
+            21.00093245399755,
+            82.0,
+            -58.0,
+            26.99906754600245,
+            92.0
+          ],
+          "triangulos": 1130
+        },
+        {
+          "objeto": "Parafuso_R05_024",
+          "rotulo": "H Piso pela orelha saia001",
+          "bbox_CAD_mm": [
+            -64.0,
+            187.00093245399756,
+            82.0,
+            -58.0,
+            192.99906754600244,
+            92.0
+          ],
+          "triangulos": 1130
+        },
+        {
+          "objeto": "Parafuso_R05_025",
+          "rotulo": "H Piso pela orelha saia002",
+          "bbox_CAD_mm": [
+            58.0,
+            21.00093245399755,
+            82.0,
+            63.99999999999999,
+            26.99906754600245,
+            92.0
+          ],
+          "triangulos": 1130
+        },
+        {
+          "objeto": "Parafuso_R05_026",
+          "rotulo": "H Piso pela orelha saia003",
+          "bbox_CAD_mm": [
+            58.0,
+            187.00093245399756,
+            82.0,
+            63.99999999999999,
+            192.99906754600244,
+            92.0
+          ],
+          "triangulos": 1130
+        },
+        {
+          "objeto": "Parafuso_R05_027",
+          "rotulo": "I Coluna no chassi",
+          "bbox_CAD_mm": [
+            -50.75,
+            30.250854749497755,
+            41.9,
+            -45.25,
+            35.749145250502245,
+            52.9
+          ],
+          "triangulos": 1004
+        },
+        {
+          "objeto": "Parafuso_R05_028",
+          "rotulo": "I2 Piso na coluna",
+          "bbox_CAD_mm": [
+            -50.75,
+            30.250854749497755,
+            82.5,
+            -45.25,
+            35.749145250502245,
+            93.5
+          ],
+          "triangulos": 1004
+        },
+        {
+          "objeto": "Parafuso_R05_029",
+          "rotulo": "I Coluna no chassi001",
+          "bbox_CAD_mm": [
+            45.25,
+            30.250854749497755,
+            41.9,
+            50.75,
+            35.749145250502245,
+            52.9
+          ],
+          "triangulos": 1004
+        },
+        {
+          "objeto": "Parafuso_R05_030",
+          "rotulo": "I2 Piso na coluna001",
+          "bbox_CAD_mm": [
+            45.25,
+            30.250854749497755,
+            82.5,
+            50.75,
+            35.749145250502245,
+            93.5
+          ],
+          "triangulos": 1004
+        },
+        {
+          "objeto": "Parafuso_R05_031",
+          "rotulo": "I Coluna no chassi002",
+          "bbox_CAD_mm": [
+            -60.75,
+            123.25085474949776,
+            41.9,
+            -55.25,
+            128.74914525050224,
+            56.9
+          ],
+          "triangulos": 1004
+        },
+        {
+          "objeto": "Parafuso_R05_032",
+          "rotulo": "I2 Piso na coluna002",
+          "bbox_CAD_mm": [
+            -60.75,
+            123.25085474949776,
+            82.5,
+            -55.25,
+            128.74914525050224,
+            93.5
+          ],
+          "triangulos": 1004
+        },
+        {
+          "objeto": "Parafuso_R05_033",
+          "rotulo": "I Coluna no chassi003",
+          "bbox_CAD_mm": [
+            55.25,
+            123.25085474949776,
+            41.9,
+            60.75,
+            128.74914525050224,
+            56.9
+          ],
+          "triangulos": 1004
+        },
+        {
+          "objeto": "Parafuso_R05_034",
+          "rotulo": "I2 Piso na coluna003",
+          "bbox_CAD_mm": [
+            55.25,
+            123.25085474949776,
+            82.5,
+            60.75,
+            128.74914525050224,
+            93.5
+          ],
+          "triangulos": 1004
+        },
+        {
+          "objeto": "Parafuso_R05_035",
+          "rotulo": "J Coluna C1 no piso",
+          "bbox_CAD_mm": [
+            -28.25,
+            81.25085474949776,
+            83.5,
+            -22.75,
+            86.74914525050224,
+            94.5
+          ],
+          "triangulos": 1004
+        },
+        {
+          "objeto": "Parafuso_R05_036",
+          "rotulo": "J2 Base C1 na coluna",
+          "bbox_CAD_mm": [
+            -28.5,
+            81.00093245399755,
+            134.8,
+            -22.5,
+            86.99906754600245,
+            142.8
+          ],
+          "triangulos": 1130
+        },
+        {
+          "objeto": "Parafuso_R05_037",
+          "rotulo": "J Coluna C1 no piso001",
+          "bbox_CAD_mm": [
+            22.75,
+            81.25085474949776,
+            83.5,
+            28.25,
+            86.74914525050224,
+            94.5
+          ],
+          "triangulos": 1004
+        },
+        {
+          "objeto": "Parafuso_R05_038",
+          "rotulo": "J2 Base C1 na coluna001",
+          "bbox_CAD_mm": [
+            22.5,
+            81.00093245399755,
+            134.8,
+            28.5,
+            86.99906754600245,
+            142.8
+          ],
+          "triangulos": 1130
+        },
+        {
+          "objeto": "Parafuso_R05_039",
+          "rotulo": "K Presilha Pi",
+          "bbox_CAD_mm": [
+            -43.05,
+            4.750854749497755,
+            93.3,
+            -37.55,
+            10.249145250502245,
+            104.3
+          ],
+          "triangulos": 1004
+        },
+        {
+          "objeto": "Parafuso_R05_040",
+          "rotulo": "K Presilha Pi001",
+          "bbox_CAD_mm": [
+            -43.05,
+            72.75085474949776,
+            93.3,
+            -37.55,
+            78.24914525050224,
+            104.3
+          ],
+          "triangulos": 1004
+        },
+        {
+          "objeto": "Parafuso_R05_041",
+          "rotulo": "K Presilha Pi002",
+          "bbox_CAD_mm": [
+            14.950000000000001,
+            4.750854749497755,
+            93.3,
+            20.45,
+            10.249145250502245,
+            104.3
+          ],
+          "triangulos": 1004
+        },
+        {
+          "objeto": "Parafuso_R05_042",
+          "rotulo": "K Presilha Pi003",
+          "bbox_CAD_mm": [
+            14.95,
+            72.75085474949776,
+            93.3,
+            20.45,
+            78.24914525050224,
+            104.3
+          ],
+          "triangulos": 1004
+        },
+        {
+          "objeto": "Parafuso_R05_043",
+          "rotulo": "L Gaveta PB na coluna",
+          "bbox_CAD_mm": [
+            -60.99906754600245,
+            127.19999999999999,
+            67.0,
+            -55.00093245399755,
+            135.2,
+            73.0
+          ],
+          "triangulos": 1130
+        },
+        {
+          "objeto": "Parafuso_R05_044",
+          "rotulo": "L Gaveta PB na coluna001",
+          "bbox_CAD_mm": [
+            55.00093245399755,
+            127.19999999999999,
+            67.0,
+            60.99906754600245,
+            135.2,
+            73.0
+          ],
+          "triangulos": 1130
+        },
+        {
+          "objeto": "Parafuso_R05_045",
+          "rotulo": "M Berco AA no chassi",
+          "bbox_CAD_mm": [
+            -46.75,
+            3.250854749497755,
+            41.9,
+            -41.25,
+            8.749145250502245,
+            52.9
+          ],
+          "triangulos": 1004
+        },
+        {
+          "objeto": "Parafuso_R05_046",
+          "rotulo": "M2 Regua AA no berco",
+          "bbox_CAD_mm": [
+            -46.75,
+            3.250854749497755,
+            70.7,
+            -41.25,
+            8.749145250502245,
+            81.7
+          ],
+          "triangulos": 1004
+        },
+        {
+          "objeto": "Parafuso_R05_047",
+          "rotulo": "M Berco AA no chassi001",
+          "bbox_CAD_mm": [
+            -46.75,
+            71.25085474949776,
+            41.9,
+            -41.25,
+            76.74914525050224,
+            52.9
+          ],
+          "triangulos": 1004
+        },
+        {
+          "objeto": "Parafuso_R05_048",
+          "rotulo": "M2 Regua AA no berco001",
+          "bbox_CAD_mm": [
+            -46.75,
+            71.25085474949776,
+            70.7,
+            -41.25,
+            76.74914525050224,
+            81.7
+          ],
+          "triangulos": 1004
+        },
+        {
+          "objeto": "Parafuso_R05_049",
+          "rotulo": "M Berco AA no chassi002",
+          "bbox_CAD_mm": [
+            41.25,
+            3.250854749497755,
+            41.9,
+            46.75,
+            8.749145250502245,
+            52.9
+          ],
+          "triangulos": 1004
+        },
+        {
+          "objeto": "Parafuso_R05_050",
+          "rotulo": "M2 Regua AA no berco002",
+          "bbox_CAD_mm": [
+            41.25,
+            3.250854749497755,
+            70.7,
+            46.75,
+            8.749145250502245,
+            81.7
+          ],
+          "triangulos": 1004
+        },
+        {
+          "objeto": "Parafuso_R05_051",
+          "rotulo": "M Berco AA no chassi003",
+          "bbox_CAD_mm": [
+            41.25,
+            71.25085474949776,
+            41.9,
+            46.75,
+            76.74914525050224,
+            52.9
+          ],
+          "triangulos": 1004
+        },
+        {
+          "objeto": "Parafuso_R05_052",
+          "rotulo": "M2 Regua AA no berco003",
+          "bbox_CAD_mm": [
+            41.25,
+            71.25085474949776,
+            70.7,
+            46.75,
+            76.74914525050224,
+            81.7
+          ],
+          "triangulos": 1004
+        },
+        {
+          "objeto": "Parafuso_R05_053",
+          "rotulo": "N Berco L298N no chassi",
+          "bbox_CAD_mm": [
+            3.25,
+            84.25085474949776,
+            41.9,
+            8.75,
+            89.74914525050224,
+            52.9
+          ],
+          "triangulos": 1004
+        },
+        {
+          "objeto": "Parafuso_R05_054",
+          "rotulo": "N Berco L298N no chassi001",
+          "bbox_CAD_mm": [
+            40.25,
+            84.25085474949776,
+            41.9,
+            45.75,
+            89.74914525050224,
+            52.9
+          ],
+          "triangulos": 1004
+        },
+        {
+          "objeto": "Parafuso_R05_055",
+          "rotulo": "N Berco L298N no chassi002",
+          "bbox_CAD_mm": [
+            3.25,
+            121.25085474949776,
+            41.9,
+            8.75,
+            126.74914525050224,
+            52.9
+          ],
+          "triangulos": 1004
+        },
+        {
+          "objeto": "Parafuso_R05_056",
+          "rotulo": "N Berco L298N no chassi003",
+          "bbox_CAD_mm": [
+            40.25,
+            121.25085474949776,
+            41.9,
+            45.75,
+            126.74914525050224,
+            52.9
+          ],
+          "triangulos": 1004
+        },
+        {
+          "objeto": "Parafuso_R05_057",
+          "rotulo": "N Berco L298N no chassi004",
+          "bbox_CAD_mm": [
+            -5.75,
+            96.25085474949776,
+            41.9,
+            -0.25,
+            101.74914525050224,
+            52.9
+          ],
+          "triangulos": 1004
+        },
+        {
+          "objeto": "Parafuso_R05_058",
+          "rotulo": "N Berco L298N no chassi005",
+          "bbox_CAD_mm": [
+            48.75,
+            114.75085474949776,
+            41.9,
+            54.25,
+            120.24914525050224,
+            52.9
+          ],
+          "triangulos": 1004
+        },
+        {
+          "objeto": "Parafuso_R05_059",
+          "rotulo": "N2 Quadro L298N no boss externo",
+          "bbox_CAD_mm": [
+            -5.75,
+            96.25085474949776,
+            60.0,
+            -0.25,
+            101.74914525050224,
+            71.0
+          ],
+          "triangulos": 1004
+        },
+        {
+          "objeto": "Parafuso_R05_060",
+          "rotulo": "N2 Quadro L298N no boss externo001",
+          "bbox_CAD_mm": [
+            48.75,
+            114.75085474949776,
+            60.0,
+            54.25,
+            120.24914525050224,
+            71.0
+          ],
+          "triangulos": 1004
+        },
+        {
+          "objeto": "Parafuso_R05_061",
+          "rotulo": "O Berco MPU no chassi",
+          "bbox_CAD_mm": [
+            -7.75,
+            106.75085474949776,
+            41.9,
+            -2.25,
+            112.24914525050224,
+            52.9
+          ],
+          "triangulos": 1004
+        },
+        {
+          "objeto": "Parafuso_R05_062",
+          "rotulo": "O2 Presilha MPU",
+          "bbox_CAD_mm": [
+            -7.75,
+            106.75085474949776,
+            58.0,
+            -2.25,
+            112.24914525050224,
+            69.0
+          ],
+          "triangulos": 1004
+        },
+        {
+          "objeto": "Parafuso_R05_063",
+          "rotulo": "O Berco MPU no chassi001",
+          "bbox_CAD_mm": [
+            -7.75,
+            122.75085474949776,
+            41.9,
+            -2.25,
+            128.24914525050224,
+            52.9
+          ],
+          "triangulos": 1004
+        },
+        {
+          "objeto": "Parafuso_R05_064",
+          "rotulo": "O2 Presilha MPU001",
+          "bbox_CAD_mm": [
+            -7.75,
+            122.75085474949776,
+            58.0,
+            -2.25,
+            128.24914525050224,
+            69.0
+          ],
+          "triangulos": 1004
+        },
+        {
+          "objeto": "Parafuso_R05_065",
+          "rotulo": "P Berco ESP no piso",
+          "bbox_CAD_mm": [
+            -24.75,
+            167.25085474949776,
+            83.5,
+            -19.25,
+            172.74914525050224,
+            94.5
+          ],
+          "triangulos": 1004
+        },
+        {
+          "objeto": "Parafuso_R05_066",
+          "rotulo": "P2 Quadro ESP",
+          "bbox_CAD_mm": [
+            -24.75,
+            167.25085474949776,
+            105.9,
+            -19.25,
+            172.74914525050224,
+            116.9
+          ],
+          "triangulos": 1004
+        },
+        {
+          "objeto": "Parafuso_R05_067",
+          "rotulo": "P Berco ESP no piso001",
+          "bbox_CAD_mm": [
+            19.25,
+            167.25085474949776,
+            83.5,
+            24.75,
+            172.74914525050224,
+            94.5
+          ],
+          "triangulos": 1004
+        },
+        {
+          "objeto": "Parafuso_R05_068",
+          "rotulo": "P2 Quadro ESP001",
+          "bbox_CAD_mm": [
+            19.25,
+            167.25085474949776,
+            105.9,
+            24.75,
+            172.74914525050224,
+            116.9
+          ],
+          "triangulos": 1004
+        },
+        {
+          "objeto": "Arruela_R05_001",
+          "rotulo": "Arruela_R05_001",
+          "bbox_CAD_mm": [
+            -69.49891213700286,
+            -2.5,
+            83.0,
+            -62.501087862997146,
+            -2.0,
+            90.0
+          ],
+          "triangulos": 1008
+        },
+        {
+          "objeto": "Arruela_R05_002",
+          "rotulo": "Arruela_R05_002",
+          "bbox_CAD_mm": [
+            -69.49891213700286,
+            -2.5,
+            93.0,
+            -62.501087862997146,
+            -2.0,
+            100.0
+          ],
+          "triangulos": 1008
+        },
+        {
+          "objeto": "Arruela_R05_003",
+          "rotulo": "Arruela_R05_003",
+          "bbox_CAD_mm": [
+            -69.49891213700286,
+            210.0,
+            83.0,
+            -62.501087862997146,
+            210.5,
+            90.0
+          ],
+          "triangulos": 1008
+        },
+        {
+          "objeto": "Arruela_R05_004",
+          "rotulo": "Arruela_R05_004",
+          "bbox_CAD_mm": [
+            -69.49891213700286,
+            210.0,
+            93.0,
+            -62.501087862997146,
+            210.5,
+            100.0
+          ],
+          "triangulos": 1008
+        },
+        {
+          "objeto": "Arruela_R05_005",
+          "rotulo": "Arruela_R05_005",
+          "bbox_CAD_mm": [
+            62.50108786299714,
+            -2.5,
+            83.0,
+            69.49891213700286,
+            -2.0,
+            90.0
+          ],
+          "triangulos": 1008
+        },
+        {
+          "objeto": "Arruela_R05_006",
+          "rotulo": "Arruela_R05_006",
+          "bbox_CAD_mm": [
+            62.50108786299714,
+            -2.5,
+            93.0,
+            69.49891213700286,
+            -2.0,
+            100.0
+          ],
+          "triangulos": 1008
+        },
+        {
+          "objeto": "Arruela_R05_007",
+          "rotulo": "Arruela_R05_007",
+          "bbox_CAD_mm": [
+            62.50108786299714,
+            210.0,
+            83.0,
+            69.49891213700286,
+            210.5,
+            90.0
+          ],
+          "triangulos": 1008
+        },
+        {
+          "objeto": "Arruela_R05_008",
+          "rotulo": "Arruela_R05_008",
+          "bbox_CAD_mm": [
+            62.50108786299714,
+            210.0,
+            93.0,
+            69.49891213700286,
+            210.5,
+            100.0
+          ],
+          "triangulos": 1008
+        },
+        {
+          "objeto": "Arruela_R05_009",
+          "rotulo": "Arruela_R05_009",
+          "bbox_CAD_mm": [
+            -85.5,
+            114.50108786299714,
+            78.5,
+            -85.0,
+            121.49891213700286,
+            85.5
+          ],
+          "triangulos": 1008
+        },
+        {
+          "objeto": "Arruela_R05_010",
+          "rotulo": "Arruela_R05_010",
+          "bbox_CAD_mm": [
+            85.0,
+            114.50108786299714,
+            78.5,
+            85.5,
+            121.49891213700286,
+            85.5
+          ],
+          "triangulos": 1008
+        },
+        {
+          "objeto": "Arruela_R05_011",
+          "rotulo": "Arruela_R05_011",
+          "bbox_CAD_mm": [
+            -85.5,
+            114.50108786299714,
+            106.5,
+            -85.0,
+            121.49891213700286,
+            113.5
+          ],
+          "triangulos": 1008
+        },
+        {
+          "objeto": "Arruela_R05_012",
+          "rotulo": "Arruela_R05_012",
+          "bbox_CAD_mm": [
+            85.0,
+            114.50108786299714,
+            106.5,
+            85.5,
+            121.49891213700286,
+            113.5
+          ],
+          "triangulos": 1008
+        },
+        {
+          "objeto": "Arruela_R05_013",
+          "rotulo": "Arruela_R05_013",
+          "bbox_CAD_mm": [
+            -56.5,
+            100.50108786299714,
+            137.0,
+            -49.5,
+            107.49891213700286,
+            137.5
+          ],
+          "triangulos": 1008
+        },
+        {
+          "objeto": "Arruela_R05_014",
+          "rotulo": "Arruela_R05_014",
+          "bbox_CAD_mm": [
+            -56.5,
+            116.50108786299714,
+            137.0,
+            -49.5,
+            123.49891213700286,
+            137.5
+          ],
+          "triangulos": 1008
+        },
+        {
+          "objeto": "Arruela_R05_015",
+          "rotulo": "Arruela_R05_015",
+          "bbox_CAD_mm": [
+            49.5,
+            100.50108786299714,
+            137.0,
+            56.5,
+            107.49891213700286,
+            137.5
+          ],
+          "triangulos": 1008
+        },
+        {
+          "objeto": "Arruela_R05_016",
+          "rotulo": "Arruela_R05_016",
+          "bbox_CAD_mm": [
+            49.5,
+            116.50108786299714,
+            137.0,
+            56.5,
+            123.49891213700286,
+            137.5
+          ],
+          "triangulos": 1008
+        },
+        {
+          "objeto": "Arruela_R05_017",
+          "rotulo": "Arruela_R05_017",
+          "bbox_CAD_mm": [
+            -33.49891213700286,
+            -4.9,
+            74.9,
+            -26.501087862997142,
+            -4.4,
+            81.9
+          ],
+          "triangulos": 1008
+        },
+        {
+          "objeto": "Arruela_R05_018",
+          "rotulo": "Arruela_R05_018",
+          "bbox_CAD_mm": [
+            26.501087862997142,
+            -4.9,
+            74.9,
+            33.498912137002854,
+            -4.4,
+            81.9
+          ],
+          "triangulos": 1008
+        },
+        {
+          "objeto": "Arruela_R05_019",
+          "rotulo": "Arruela_R05_019",
+          "bbox_CAD_mm": [
+            -58.49891213700286,
+            212.4,
+            82.5,
+            -51.501087862997146,
+            212.9,
+            89.5
+          ],
+          "triangulos": 1008
+        },
+        {
+          "objeto": "Arruela_R05_020",
+          "rotulo": "Arruela_R05_020",
+          "bbox_CAD_mm": [
+            51.50108786299714,
+            212.4,
+            82.5,
+            58.498912137002854,
+            212.9,
+            89.5
+          ],
+          "triangulos": 1008
+        },
+        {
+          "objeto": "Arruela_R05_021",
+          "rotulo": "Arruela_R05_021",
+          "bbox_CAD_mm": [
+            87.4,
+            138.50108786299714,
+            83.0,
+            87.9,
+            145.49891213700286,
+            90.0
+          ],
+          "triangulos": 1008
+        },
+        {
+          "objeto": "Arruela_R05_022",
+          "rotulo": "Arruela_R05_022",
+          "bbox_CAD_mm": [
+            87.4,
+            195.50108786299714,
+            83.0,
+            87.9,
+            202.49891213700286,
+            90.0
+          ],
+          "triangulos": 1008
+        },
+        {
+          "objeto": "Arruela_R05_027",
+          "rotulo": "Arruela_R05_027",
+          "bbox_CAD_mm": [
+            -51.5,
+            29.501087862997142,
+            44.9,
+            -44.5,
+            36.498912137002854,
+            45.4
+          ],
+          "triangulos": 1008
+        },
+        {
+          "objeto": "Arruela_R05_028",
+          "rotulo": "Arruela_R05_028",
+          "bbox_CAD_mm": [
+            -51.5,
+            29.501087862997142,
+            90.0,
+            -44.5,
+            36.498912137002854,
+            90.5
+          ],
+          "triangulos": 1008
+        },
+        {
+          "objeto": "Arruela_R05_029",
+          "rotulo": "Arruela_R05_029",
+          "bbox_CAD_mm": [
+            44.5,
+            29.501087862997142,
+            44.9,
+            51.5,
+            36.498912137002854,
+            45.4
+          ],
+          "triangulos": 1008
+        },
+        {
+          "objeto": "Arruela_R05_030",
+          "rotulo": "Arruela_R05_030",
+          "bbox_CAD_mm": [
+            44.5,
+            29.501087862997142,
+            90.0,
+            51.5,
+            36.498912137002854,
+            90.5
+          ],
+          "triangulos": 1008
+        },
+        {
+          "objeto": "Arruela_R05_031",
+          "rotulo": "Arruela_R05_031",
+          "bbox_CAD_mm": [
+            -61.5,
+            122.50108786299714,
+            44.9,
+            -54.5,
+            129.49891213700286,
+            45.4
+          ],
+          "triangulos": 1008
+        },
+        {
+          "objeto": "Arruela_R05_032",
+          "rotulo": "Arruela_R05_032",
+          "bbox_CAD_mm": [
+            -61.5,
+            122.50108786299714,
+            90.0,
+            -54.5,
+            129.49891213700286,
+            90.5
+          ],
+          "triangulos": 1008
+        },
+        {
+          "objeto": "Arruela_R05_033",
+          "rotulo": "Arruela_R05_033",
+          "bbox_CAD_mm": [
+            54.5,
+            122.50108786299714,
+            44.9,
+            61.5,
+            129.49891213700286,
+            45.4
+          ],
+          "triangulos": 1008
+        },
+        {
+          "objeto": "Arruela_R05_034",
+          "rotulo": "Arruela_R05_034",
+          "bbox_CAD_mm": [
+            54.5,
+            122.50108786299714,
+            90.0,
+            61.5,
+            129.49891213700286,
+            90.5
+          ],
+          "triangulos": 1008
+        },
+        {
+          "objeto": "Arruela_R05_035",
+          "rotulo": "Arruela_R05_035",
+          "bbox_CAD_mm": [
+            -29.0,
+            80.50108786299714,
+            86.5,
+            -22.0,
+            87.49891213700286,
+            87.0
+          ],
+          "triangulos": 1008
+        },
+        {
+          "objeto": "Arruela_R05_037",
+          "rotulo": "Arruela_R05_037",
+          "bbox_CAD_mm": [
+            22.0,
+            80.50108786299714,
+            86.5,
+            29.0,
+            87.49891213700286,
+            87.0
+          ],
+          "triangulos": 1008
+        },
+        {
+          "objeto": "Arruela_R05_039",
+          "rotulo": "Arruela_R05_039",
+          "bbox_CAD_mm": [
+            -43.8,
+            4.001087862997142,
+            100.8,
+            -36.8,
+            10.998912137002858,
+            101.3
+          ],
+          "triangulos": 1008
+        },
+        {
+          "objeto": "Arruela_R05_040",
+          "rotulo": "Arruela_R05_040",
+          "bbox_CAD_mm": [
+            -43.8,
+            72.00108786299714,
+            100.8,
+            -36.8,
+            78.99891213700286,
+            101.3
+          ],
+          "triangulos": 1008
+        },
+        {
+          "objeto": "Arruela_R05_041",
+          "rotulo": "Arruela_R05_041",
+          "bbox_CAD_mm": [
+            14.200000000000001,
+            4.001087862997142,
+            100.8,
+            21.2,
+            10.998912137002858,
+            101.3
+          ],
+          "triangulos": 1008
+        },
+        {
+          "objeto": "Arruela_R05_042",
+          "rotulo": "Arruela_R05_042",
+          "bbox_CAD_mm": [
+            14.2,
+            72.00108786299714,
+            100.8,
+            21.2,
+            78.99891213700286,
+            101.3
+          ],
+          "triangulos": 1008
+        },
+        {
+          "objeto": "Arruela_R05_045",
+          "rotulo": "Arruela_R05_045",
+          "bbox_CAD_mm": [
+            -47.5,
+            2.5010878629971423,
+            44.9,
+            -40.5,
+            9.498912137002858,
+            45.4
+          ],
+          "triangulos": 1008
+        },
+        {
+          "objeto": "Arruela_R05_046",
+          "rotulo": "Arruela_R05_046",
+          "bbox_CAD_mm": [
+            -47.5,
+            2.5010878629971423,
+            78.2,
+            -40.5,
+            9.498912137002858,
+            78.7
+          ],
+          "triangulos": 1008
+        },
+        {
+          "objeto": "Arruela_R05_047",
+          "rotulo": "Arruela_R05_047",
+          "bbox_CAD_mm": [
+            -47.5,
+            70.50108786299714,
+            44.9,
+            -40.5,
+            77.49891213700286,
+            45.4
+          ],
+          "triangulos": 1008
+        },
+        {
+          "objeto": "Arruela_R05_048",
+          "rotulo": "Arruela_R05_048",
+          "bbox_CAD_mm": [
+            -47.5,
+            70.50108786299714,
+            78.2,
+            -40.5,
+            77.49891213700286,
+            78.7
+          ],
+          "triangulos": 1008
+        },
+        {
+          "objeto": "Arruela_R05_049",
+          "rotulo": "Arruela_R05_049",
+          "bbox_CAD_mm": [
+            40.5,
+            2.5010878629971423,
+            44.9,
+            47.5,
+            9.498912137002858,
+            45.4
+          ],
+          "triangulos": 1008
+        },
+        {
+          "objeto": "Arruela_R05_050",
+          "rotulo": "Arruela_R05_050",
+          "bbox_CAD_mm": [
+            40.5,
+            2.5010878629971423,
+            78.2,
+            47.5,
+            9.498912137002858,
+            78.7
+          ],
+          "triangulos": 1008
+        },
+        {
+          "objeto": "Arruela_R05_051",
+          "rotulo": "Arruela_R05_051",
+          "bbox_CAD_mm": [
+            40.5,
+            70.50108786299714,
+            44.9,
+            47.5,
+            77.49891213700286,
+            45.4
+          ],
+          "triangulos": 1008
+        },
+        {
+          "objeto": "Arruela_R05_052",
+          "rotulo": "Arruela_R05_052",
+          "bbox_CAD_mm": [
+            40.5,
+            70.50108786299714,
+            78.2,
+            47.5,
+            77.49891213700286,
+            78.7
+          ],
+          "triangulos": 1008
+        },
+        {
+          "objeto": "Arruela_R05_053",
+          "rotulo": "Arruela_R05_053",
+          "bbox_CAD_mm": [
+            2.5,
+            83.50108786299714,
+            44.9,
+            9.5,
+            90.49891213700286,
+            45.4
+          ],
+          "triangulos": 1008
+        },
+        {
+          "objeto": "Arruela_R05_054",
+          "rotulo": "Arruela_R05_054",
+          "bbox_CAD_mm": [
+            39.5,
+            83.50108786299714,
+            44.9,
+            46.5,
+            90.49891213700286,
+            45.4
+          ],
+          "triangulos": 1008
+        },
+        {
+          "objeto": "Arruela_R05_055",
+          "rotulo": "Arruela_R05_055",
+          "bbox_CAD_mm": [
+            2.5,
+            120.50108786299714,
+            44.9,
+            9.5,
+            127.49891213700286,
+            45.4
+          ],
+          "triangulos": 1008
+        },
+        {
+          "objeto": "Arruela_R05_056",
+          "rotulo": "Arruela_R05_056",
+          "bbox_CAD_mm": [
+            39.5,
+            120.50108786299714,
+            44.9,
+            46.5,
+            127.49891213700286,
+            45.4
+          ],
+          "triangulos": 1008
+        },
+        {
+          "objeto": "Arruela_R05_057",
+          "rotulo": "Arruela_R05_057",
+          "bbox_CAD_mm": [
+            -6.5,
+            95.50108786299714,
+            44.9,
+            0.5,
+            102.49891213700286,
+            45.4
+          ],
+          "triangulos": 1008
+        },
+        {
+          "objeto": "Arruela_R05_058",
+          "rotulo": "Arruela_R05_058",
+          "bbox_CAD_mm": [
+            48.0,
+            114.00108786299714,
+            44.9,
+            55.0,
+            120.99891213700286,
+            45.4
+          ],
+          "triangulos": 1008
+        },
+        {
+          "objeto": "Arruela_R05_059",
+          "rotulo": "Arruela_R05_059",
+          "bbox_CAD_mm": [
+            -6.5,
+            95.50108786299714,
+            67.5,
+            0.5,
+            102.49891213700286,
+            68.0
+          ],
+          "triangulos": 1008
+        },
+        {
+          "objeto": "Arruela_R05_060",
+          "rotulo": "Arruela_R05_060",
+          "bbox_CAD_mm": [
+            48.0,
+            114.00108786299714,
+            67.5,
+            55.0,
+            120.99891213700286,
+            68.0
+          ],
+          "triangulos": 1008
+        },
+        {
+          "objeto": "Arruela_R05_061",
+          "rotulo": "Arruela_R05_061",
+          "bbox_CAD_mm": [
+            -8.5,
+            106.00108786299714,
+            44.9,
+            -1.5,
+            112.99891213700286,
+            45.4
+          ],
+          "triangulos": 1008
+        },
+        {
+          "objeto": "Arruela_R05_062",
+          "rotulo": "Arruela_R05_062",
+          "bbox_CAD_mm": [
+            -8.5,
+            106.00108786299714,
+            65.5,
+            -1.5,
+            112.99891213700286,
+            66.0
+          ],
+          "triangulos": 1008
+        },
+        {
+          "objeto": "Arruela_R05_063",
+          "rotulo": "Arruela_R05_063",
+          "bbox_CAD_mm": [
+            -8.5,
+            122.00108786299714,
+            44.9,
+            -1.5,
+            128.99891213700286,
+            45.4
+          ],
+          "triangulos": 1008
+        },
+        {
+          "objeto": "Arruela_R05_064",
+          "rotulo": "Arruela_R05_064",
+          "bbox_CAD_mm": [
+            -8.5,
+            122.00108786299714,
+            65.5,
+            -1.5,
+            128.99891213700286,
+            66.0
+          ],
+          "triangulos": 1008
+        },
+        {
+          "objeto": "Arruela_R05_065",
+          "rotulo": "Arruela_R05_065",
+          "bbox_CAD_mm": [
+            -25.5,
+            166.50108786299714,
+            86.5,
+            -18.5,
+            173.49891213700286,
+            87.0
+          ],
+          "triangulos": 1008
+        },
+        {
+          "objeto": "Arruela_R05_066",
+          "rotulo": "Arruela_R05_066",
+          "bbox_CAD_mm": [
+            -25.5,
+            166.50108786299714,
+            113.4,
+            -18.5,
+            173.49891213700286,
+            113.9
+          ],
+          "triangulos": 1008
+        },
+        {
+          "objeto": "Arruela_R05_067",
+          "rotulo": "Arruela_R05_067",
+          "bbox_CAD_mm": [
+            18.5,
+            166.50108786299714,
+            86.5,
+            25.5,
+            173.49891213700286,
+            87.0
+          ],
+          "triangulos": 1008
+        },
+        {
+          "objeto": "Arruela_R05_068",
+          "rotulo": "Arruela_R05_068",
+          "bbox_CAD_mm": [
+            18.5,
+            166.50108786299714,
+            113.4,
+            25.5,
+            173.49891213700286,
+            113.9
+          ],
+          "triangulos": 1008
+        },
+        {
+          "objeto": "Inserto_INS001",
+          "rotulo": "Inserto_INS001",
+          "bbox_CAD_mm": [
+            -32.34926957770192,
+            -2.0,
+            76.05000000000001,
+            -27.650730422298082,
+            3.68,
+            80.75
+          ],
+          "triangulos": 1008
+        },
+        {
+          "objeto": "Inserto_INS002",
+          "rotulo": "Inserto_INS002",
+          "bbox_CAD_mm": [
+            27.650730422298082,
+            -2.0,
+            76.05000000000001,
+            32.34926957770192,
+            3.68,
+            80.75
+          ],
+          "triangulos": 1008
+        },
+        {
+          "objeto": "Inserto_INS003",
+          "rotulo": "Inserto_INS003",
+          "bbox_CAD_mm": [
+            -57.34926957770192,
+            204.32,
+            83.65,
+            -52.65073042229808,
+            210.0,
+            88.35
+          ],
+          "triangulos": 1008
+        },
+        {
+          "objeto": "Inserto_INS004",
+          "rotulo": "Inserto_INS004",
+          "bbox_CAD_mm": [
+            52.65073042229808,
+            204.32,
+            83.65,
+            57.34926957770192,
+            210.0,
+            88.35
+          ],
+          "triangulos": 1008
+        },
+        {
+          "objeto": "Inserto_INS005",
+          "rotulo": "Inserto_INS005",
+          "bbox_CAD_mm": [
+            79.32,
+            139.65073042229807,
+            84.15,
+            85.0,
+            144.34926957770193,
+            88.85
+          ],
+          "triangulos": 1008
+        },
+        {
+          "objeto": "Inserto_INS006",
+          "rotulo": "Inserto_INS006",
+          "bbox_CAD_mm": [
+            79.32,
+            196.65073042229807,
+            84.15,
+            85.0,
+            201.34926957770193,
+            88.85
+          ],
+          "triangulos": 1008
+        },
+        {
+          "objeto": "Inserto_INS007",
+          "rotulo": "Inserto_INS007",
+          "bbox_CAD_mm": [
+            -81.6,
+            115.65073042229808,
+            79.65,
+            -75.91999999999999,
+            120.34926957770192,
+            84.35
+          ],
+          "triangulos": 1008
+        },
+        {
+          "objeto": "Inserto_INS008",
+          "rotulo": "Inserto_INS008",
+          "bbox_CAD_mm": [
+            75.91999999999999,
+            115.65073042229808,
+            79.65,
+            81.6,
+            120.34926957770192,
+            84.35
+          ],
+          "triangulos": 1008
+        },
+        {
+          "objeto": "Inserto_INS009",
+          "rotulo": "Inserto_INS009",
+          "bbox_CAD_mm": [
+            -81.6,
+            115.65073042229808,
+            107.65,
+            -75.91999999999999,
+            120.34926957770192,
+            112.35
+          ],
+          "triangulos": 1008
+        },
+        {
+          "objeto": "Inserto_INS010",
+          "rotulo": "Inserto_INS010",
+          "bbox_CAD_mm": [
+            75.91999999999999,
+            115.65073042229808,
+            107.65,
+            81.6,
+            120.34926957770192,
+            112.35
+          ],
+          "triangulos": 1008
+        },
+        {
+          "objeto": "Inserto_INS011",
+          "rotulo": "Inserto_INS011",
+          "bbox_CAD_mm": [
+            -55.35,
+            101.65073042229808,
+            128.12,
+            -50.65,
+            106.34926957770192,
+            133.8
+          ],
+          "triangulos": 1008
+        },
+        {
+          "objeto": "Inserto_INS012",
+          "rotulo": "Inserto_INS012",
+          "bbox_CAD_mm": [
+            -55.35,
+            117.65073042229808,
+            128.12,
+            -50.65,
+            122.34926957770192,
+            133.8
+          ],
+          "triangulos": 1008
+        },
+        {
+          "objeto": "Inserto_INS013",
+          "rotulo": "Inserto_INS013",
+          "bbox_CAD_mm": [
+            50.65,
+            101.65073042229808,
+            128.12,
+            55.35,
+            106.34926957770192,
+            133.8
+          ],
+          "triangulos": 1008
+        },
+        {
+          "objeto": "Inserto_INS014",
+          "rotulo": "Inserto_INS014",
+          "bbox_CAD_mm": [
+            50.65,
+            117.65073042229808,
+            128.12,
+            55.35,
+            122.34926957770192,
+            133.8
+          ],
+          "triangulos": 1008
+        },
+        {
+          "objeto": "Inserto_INS015",
+          "rotulo": "Inserto_INS015",
+          "bbox_CAD_mm": [
+            -68.34926957770192,
+            1.0,
+            84.15,
+            -63.65073042229808,
+            6.68,
+            88.85
+          ],
+          "triangulos": 1008
+        },
+        {
+          "objeto": "Inserto_INS016",
+          "rotulo": "Inserto_INS016",
+          "bbox_CAD_mm": [
+            -68.34926957770192,
+            1.0,
+            94.15,
+            -63.65073042229808,
+            6.68,
+            98.85
+          ],
+          "triangulos": 1008
+        },
+        {
+          "objeto": "Inserto_INS017",
+          "rotulo": "Inserto_INS017",
+          "bbox_CAD_mm": [
+            -68.34926957770192,
+            201.32,
+            84.15,
+            -63.65073042229808,
+            207.0,
+            88.85
+          ],
+          "triangulos": 1008
+        },
+        {
+          "objeto": "Inserto_INS018",
+          "rotulo": "Inserto_INS018",
+          "bbox_CAD_mm": [
+            -68.34926957770192,
+            201.32,
+            94.15,
+            -63.65073042229808,
+            207.0,
+            98.85
+          ],
+          "triangulos": 1008
+        },
+        {
+          "objeto": "Inserto_INS019",
+          "rotulo": "Inserto_INS019",
+          "bbox_CAD_mm": [
+            63.65073042229808,
+            1.0,
+            84.15,
+            68.34926957770192,
+            6.68,
+            88.85
+          ],
+          "triangulos": 1008
+        },
+        {
+          "objeto": "Inserto_INS020",
+          "rotulo": "Inserto_INS020",
+          "bbox_CAD_mm": [
+            63.65073042229808,
+            1.0,
+            94.15,
+            68.34926957770192,
+            6.68,
+            98.85
+          ],
+          "triangulos": 1008
+        },
+        {
+          "objeto": "Inserto_INS021",
+          "rotulo": "Inserto_INS021",
+          "bbox_CAD_mm": [
+            63.65073042229808,
+            201.32,
+            84.15,
+            68.34926957770192,
+            207.0,
+            88.85
+          ],
+          "triangulos": 1008
+        },
+        {
+          "objeto": "Inserto_INS022",
+          "rotulo": "Inserto_INS022",
+          "bbox_CAD_mm": [
+            63.65073042229808,
+            201.32,
+            94.15,
+            68.34926957770192,
+            207.0,
+            98.85
+          ],
+          "triangulos": 1008
+        },
+        {
+          "objeto": "Inserto_INS023",
+          "rotulo": "Inserto_INS023",
+          "bbox_CAD_mm": [
+            -42.65,
+            5.150730422298081,
+            92.12,
+            -37.949999999999996,
+            9.849269577701918,
+            97.8
+          ],
+          "triangulos": 1008
+        },
+        {
+          "objeto": "Inserto_INS024",
+          "rotulo": "Inserto_INS024",
+          "bbox_CAD_mm": [
+            -42.65,
+            73.15073042229808,
+            92.12,
+            -37.949999999999996,
+            77.84926957770192,
+            97.8
+          ],
+          "triangulos": 1008
+        },
+        {
+          "objeto": "Inserto_INS025",
+          "rotulo": "Inserto_INS025",
+          "bbox_CAD_mm": [
+            15.350000000000001,
+            5.150730422298081,
+            92.12,
+            20.05,
+            9.849269577701918,
+            97.8
+          ],
+          "triangulos": 1008
+        },
+        {
+          "objeto": "Inserto_INS026",
+          "rotulo": "Inserto_INS026",
+          "bbox_CAD_mm": [
+            15.35,
+            73.15073042229808,
+            92.12,
+            20.05,
+            77.84926957770192,
+            97.8
+          ],
+          "triangulos": 1008
+        },
+        {
+          "objeto": "Inserto_INS027",
+          "rotulo": "Inserto_INS027",
+          "bbox_CAD_mm": [
+            -63.35,
+            21.650730422298082,
+            87.0,
+            -58.65,
+            26.349269577701918,
+            92.68
+          ],
+          "triangulos": 1008
+        },
+        {
+          "objeto": "Inserto_INS028",
+          "rotulo": "Inserto_INS028",
+          "bbox_CAD_mm": [
+            -63.35,
+            187.65073042229807,
+            87.0,
+            -58.65,
+            192.34926957770193,
+            92.68
+          ],
+          "triangulos": 1008
+        },
+        {
+          "objeto": "Inserto_INS029",
+          "rotulo": "Inserto_INS029",
+          "bbox_CAD_mm": [
+            58.65,
+            21.650730422298082,
+            87.0,
+            63.35,
+            26.349269577701918,
+            92.68
+          ],
+          "triangulos": 1008
+        },
+        {
+          "objeto": "Inserto_INS030",
+          "rotulo": "Inserto_INS030",
+          "bbox_CAD_mm": [
+            58.65,
+            187.65073042229807,
+            87.0,
+            63.35,
+            192.34926957770193,
+            92.68
+          ],
+          "triangulos": 1008
+        },
+        {
+          "objeto": "Inserto_INS031",
+          "rotulo": "Inserto_INS031",
+          "bbox_CAD_mm": [
+            -46.35,
+            3.650730422298081,
+            48.4,
+            -41.65,
+            8.349269577701918,
+            54.08
+          ],
+          "triangulos": 1008
+        },
+        {
+          "objeto": "Inserto_INS032",
+          "rotulo": "Inserto_INS032",
+          "bbox_CAD_mm": [
+            -46.35,
+            3.650730422298081,
+            69.52000000000001,
+            -41.65,
+            8.349269577701918,
+            75.2
+          ],
+          "triangulos": 1008
+        },
+        {
+          "objeto": "Inserto_INS033",
+          "rotulo": "Inserto_INS033",
+          "bbox_CAD_mm": [
+            -46.35,
+            71.65073042229808,
+            48.4,
+            -41.65,
+            76.34926957770192,
+            54.08
+          ],
+          "triangulos": 1008
+        },
+        {
+          "objeto": "Inserto_INS034",
+          "rotulo": "Inserto_INS034",
+          "bbox_CAD_mm": [
+            -46.35,
+            71.65073042229808,
+            69.52000000000001,
+            -41.65,
+            76.34926957770192,
+            75.2
+          ],
+          "triangulos": 1008
+        },
+        {
+          "objeto": "Inserto_INS035",
+          "rotulo": "Inserto_INS035",
+          "bbox_CAD_mm": [
+            41.65,
+            3.650730422298081,
+            48.4,
+            46.35,
+            8.349269577701918,
+            54.08
+          ],
+          "triangulos": 1008
+        },
+        {
+          "objeto": "Inserto_INS036",
+          "rotulo": "Inserto_INS036",
+          "bbox_CAD_mm": [
+            41.65,
+            3.650730422298081,
+            69.52000000000001,
+            46.35,
+            8.349269577701918,
+            75.2
+          ],
+          "triangulos": 1008
+        },
+        {
+          "objeto": "Inserto_INS037",
+          "rotulo": "Inserto_INS037",
+          "bbox_CAD_mm": [
+            41.65,
+            71.65073042229808,
+            48.4,
+            46.35,
+            76.34926957770192,
+            54.08
+          ],
+          "triangulos": 1008
+        },
+        {
+          "objeto": "Inserto_INS038",
+          "rotulo": "Inserto_INS038",
+          "bbox_CAD_mm": [
+            41.65,
+            71.65073042229808,
+            69.52000000000001,
+            46.35,
+            76.34926957770192,
+            75.2
+          ],
+          "triangulos": 1008
+        },
+        {
+          "objeto": "Inserto_INS039",
+          "rotulo": "Inserto_INS039",
+          "bbox_CAD_mm": [
+            -50.35,
+            30.650730422298082,
+            48.4,
+            -45.65,
+            35.34926957770192,
+            54.08
+          ],
+          "triangulos": 1008
+        },
+        {
+          "objeto": "Inserto_INS040",
+          "rotulo": "Inserto_INS040",
+          "bbox_CAD_mm": [
+            -50.35,
+            30.650730422298082,
+            81.32,
+            -45.65,
+            35.34926957770192,
+            87.0
+          ],
+          "triangulos": 1008
+        },
+        {
+          "objeto": "Inserto_INS041",
+          "rotulo": "Inserto_INS041",
+          "bbox_CAD_mm": [
+            45.65,
+            30.650730422298082,
+            48.4,
+            50.35,
+            35.34926957770192,
+            54.08
+          ],
+          "triangulos": 1008
+        },
+        {
+          "objeto": "Inserto_INS042",
+          "rotulo": "Inserto_INS042",
+          "bbox_CAD_mm": [
+            45.65,
+            30.650730422298082,
+            81.32,
+            50.35,
+            35.34926957770192,
+            87.0
+          ],
+          "triangulos": 1008
+        },
+        {
+          "objeto": "Inserto_INS043",
+          "rotulo": "Inserto_INS043",
+          "bbox_CAD_mm": [
+            -60.34926957770192,
+            126.32,
+            67.65,
+            -55.65073042229808,
+            132.0,
+            72.35
+          ],
+          "triangulos": 1008
+        },
+        {
+          "objeto": "Inserto_INS044",
+          "rotulo": "Inserto_INS044",
+          "bbox_CAD_mm": [
+            -60.35,
+            123.65073042229808,
+            52.4,
+            -55.65,
+            128.34926957770193,
+            58.08
+          ],
+          "triangulos": 1008
+        },
+        {
+          "objeto": "Inserto_INS045",
+          "rotulo": "Inserto_INS045",
+          "bbox_CAD_mm": [
+            -60.35,
+            123.65073042229808,
+            81.32,
+            -55.65,
+            128.34926957770193,
+            87.0
+          ],
+          "triangulos": 1008
+        },
+        {
+          "objeto": "Inserto_INS046",
+          "rotulo": "Inserto_INS046",
+          "bbox_CAD_mm": [
+            55.65073042229808,
+            126.32,
+            67.65,
+            60.34926957770192,
+            132.0,
+            72.35
+          ],
+          "triangulos": 1008
+        },
+        {
+          "objeto": "Inserto_INS047",
+          "rotulo": "Inserto_INS047",
+          "bbox_CAD_mm": [
+            55.65,
+            123.65073042229808,
+            52.4,
+            60.35,
+            128.34926957770193,
+            58.08
+          ],
+          "triangulos": 1008
+        },
+        {
+          "objeto": "Inserto_INS048",
+          "rotulo": "Inserto_INS048",
+          "bbox_CAD_mm": [
+            55.65,
+            123.65073042229808,
+            81.32,
+            60.35,
+            128.34926957770193,
+            87.0
+          ],
+          "triangulos": 1008
+        },
+        {
+          "objeto": "Inserto_INS049",
+          "rotulo": "Inserto_INS049",
+          "bbox_CAD_mm": [
+            -27.85,
+            81.65073042229808,
+            90.0,
+            -23.15,
+            86.34926957770192,
+            95.68
+          ],
+          "triangulos": 1008
+        },
+        {
+          "objeto": "Inserto_INS050",
+          "rotulo": "Inserto_INS050",
+          "bbox_CAD_mm": [
+            -27.85,
+            81.65073042229808,
+            134.32,
+            -23.15,
+            86.34926957770192,
+            140.0
+          ],
+          "triangulos": 1008
+        },
+        {
+          "objeto": "Inserto_INS051",
+          "rotulo": "Inserto_INS051",
+          "bbox_CAD_mm": [
+            23.15,
+            81.65073042229808,
+            90.0,
+            27.85,
+            86.34926957770192,
+            95.68
+          ],
+          "triangulos": 1008
+        },
+        {
+          "objeto": "Inserto_INS052",
+          "rotulo": "Inserto_INS052",
+          "bbox_CAD_mm": [
+            23.15,
+            81.65073042229808,
+            134.32,
+            27.85,
+            86.34926957770192,
+            140.0
+          ],
+          "triangulos": 1008
+        },
+        {
+          "objeto": "Inserto_INS053",
+          "rotulo": "Inserto_INS053",
+          "bbox_CAD_mm": [
+            3.65,
+            84.65073042229808,
+            48.4,
+            8.35,
+            89.34926957770192,
+            54.08
+          ],
+          "triangulos": 1008
+        },
+        {
+          "objeto": "Inserto_INS054",
+          "rotulo": "Inserto_INS054",
+          "bbox_CAD_mm": [
+            40.65,
+            84.65073042229808,
+            48.4,
+            45.35,
+            89.34926957770192,
+            54.08
+          ],
+          "triangulos": 1008
+        },
+        {
+          "objeto": "Inserto_INS055",
+          "rotulo": "Inserto_INS055",
+          "bbox_CAD_mm": [
+            3.65,
+            121.65073042229808,
+            48.4,
+            8.35,
+            126.34926957770192,
+            54.08
+          ],
+          "triangulos": 1008
+        },
+        {
+          "objeto": "Inserto_INS056",
+          "rotulo": "Inserto_INS056",
+          "bbox_CAD_mm": [
+            40.65,
+            121.65073042229808,
+            48.4,
+            45.35,
+            126.34926957770192,
+            54.08
+          ],
+          "triangulos": 1008
+        },
+        {
+          "objeto": "Inserto_INS057",
+          "rotulo": "Inserto_INS057",
+          "bbox_CAD_mm": [
+            -5.35,
+            96.65073042229808,
+            48.4,
+            -0.65,
+            101.34926957770192,
+            54.08
+          ],
+          "triangulos": 1008
+        },
+        {
+          "objeto": "Inserto_INS058",
+          "rotulo": "Inserto_INS058",
+          "bbox_CAD_mm": [
+            -5.35,
+            96.65073042229808,
+            58.82,
+            -0.6499999999999999,
+            101.34926957770192,
+            64.5
+          ],
+          "triangulos": 1008
+        },
+        {
+          "objeto": "Inserto_INS059",
+          "rotulo": "Inserto_INS059",
+          "bbox_CAD_mm": [
+            49.15,
+            115.15073042229808,
+            48.4,
+            53.85,
+            119.84926957770192,
+            54.08
+          ],
+          "triangulos": 1008
+        },
+        {
+          "objeto": "Inserto_INS060",
+          "rotulo": "Inserto_INS060",
+          "bbox_CAD_mm": [
+            49.15,
+            115.15073042229808,
+            58.82,
+            53.85,
+            119.84926957770192,
+            64.5
+          ],
+          "triangulos": 1008
+        },
+        {
+          "objeto": "Inserto_INS061",
+          "rotulo": "Inserto_INS061",
+          "bbox_CAD_mm": [
+            -7.35,
+            107.15073042229808,
+            48.4,
+            -2.65,
+            111.84926957770192,
+            54.08
+          ],
+          "triangulos": 1008
+        },
+        {
+          "objeto": "Inserto_INS062",
+          "rotulo": "Inserto_INS062",
+          "bbox_CAD_mm": [
+            -7.35,
+            107.15073042229808,
+            56.82,
+            -2.65,
+            111.84926957770192,
+            62.5
+          ],
+          "triangulos": 1008
+        },
+        {
+          "objeto": "Inserto_INS063",
+          "rotulo": "Inserto_INS063",
+          "bbox_CAD_mm": [
+            -7.35,
+            123.15073042229808,
+            48.4,
+            -2.65,
+            127.84926957770192,
+            54.08
+          ],
+          "triangulos": 1008
+        },
+        {
+          "objeto": "Inserto_INS064",
+          "rotulo": "Inserto_INS064",
+          "bbox_CAD_mm": [
+            -7.35,
+            123.15073042229808,
+            56.82,
+            -2.65,
+            127.84926957770192,
+            62.5
+          ],
+          "triangulos": 1008
+        },
+        {
+          "objeto": "Inserto_INS065",
+          "rotulo": "Inserto_INS065",
+          "bbox_CAD_mm": [
+            -24.35,
+            167.65073042229807,
+            90.0,
+            -19.65,
+            172.34926957770193,
+            95.68
+          ],
+          "triangulos": 1008
+        },
+        {
+          "objeto": "Inserto_INS066",
+          "rotulo": "Inserto_INS066",
+          "bbox_CAD_mm": [
+            -24.35,
+            167.65073042229807,
+            104.32,
+            -19.65,
+            172.34926957770193,
+            110.0
+          ],
+          "triangulos": 1008
+        },
+        {
+          "objeto": "Inserto_INS067",
+          "rotulo": "Inserto_INS067",
+          "bbox_CAD_mm": [
+            19.65,
+            167.65073042229807,
+            90.0,
+            24.35,
+            172.34926957770193,
+            95.68
+          ],
+          "triangulos": 1008
+        },
+        {
+          "objeto": "Inserto_INS068",
+          "rotulo": "Inserto_INS068",
+          "bbox_CAD_mm": [
+            19.65,
+            167.65073042229807,
+            104.32,
+            24.35,
+            172.34926957770193,
+            110.0
+          ],
+          "triangulos": 1008
+        }
+      ],
+      "triangulos_originais": 198304,
+      "bbox_local_m": [
+        [
+          -0.138240784406662,
+          -0.08861317485570908,
+          0.006983924191445112
+        ],
+        [
+          0.08555921167135239,
+          0.09078682214021683,
+          0.10788392275571823
+        ]
+      ],
+      "arquivo": "descricao/malhas/ferragens_r05.stl",
+      "sha256": "4c2695e6788ff2a721f97c305ce713c8b869a55002b605872bd343aa8e3f5c24",
+      "triangulos_exportados": 105448,
+      "erro_max_bbox_m": 7.450580596923828e-09,
+      "bbox_exportado_m": [
+        [
+          -0.138240784406662,
+          -0.08861317485570908,
+          0.006983924191445112
+        ],
+        [
+          0.08555921167135239,
+          0.09078682214021683,
+          0.10788391530513763
+        ]
+      ]
+    },
+    {
+      "nome": "chassi",
+      "link": "base_link",
+      "material": "metal",
+      "limite_visual_triangulos": null,
+      "objetos": [
+        {
+          "objeto": "Mecanica_04",
+          "rotulo": "04 Chapa do chassi B",
+          "bbox_CAD_mm": [
+            -74.48899459838867,
+            2.288818359375e-05,
+            45.39998474121094,
+            74.48899459838867,
+            209.97327423095703,
+            48.400000000000006
+          ],
+          "triangulos": 8548
+        }
+      ],
+      "triangulos_originais": 8548,
+      "bbox_local_m": [
+        [
+          -0.1323140561580658,
+          -0.0746021717786789,
+          0.010483908466994762
+        ],
+        [
+          0.07765918970108032,
+          0.07437581568956375,
+          0.013483923859894276
+        ]
+      ],
+      "arquivo": "descricao/malhas/chassi_r05.stl",
+      "sha256": "58dae1dfd2b6d8a1eaee4f841693bac9a8406e42cbb03ddb549ebe427e58c749",
+      "triangulos_exportados": 8548,
+      "erro_max_bbox_m": 0.0,
+      "bbox_exportado_m": [
+        [
+          -0.1323140561580658,
+          -0.0746021717786789,
+          0.010483908466994762
+        ],
+        [
+          0.07765918970108032,
+          0.07437581568956375,
+          0.013483923859894276
+        ]
+      ]
+    },
+    {
+      "nome": "motores",
+      "link": "base_link",
+      "material": "motores",
+      "limite_visual_triangulos": null,
+      "objetos": [
+        {
+          "objeto": "Mecanica_08",
+          "rotulo": "08 Motor — tampa de referência",
+          "bbox_CAD_mm": [
+            -47.9956169128418,
+            123.05034255981445,
+            24.951324844360354,
+            -31.395618438720703,
+            130.40034103393555,
+            44.75132217407227
+          ],
+          "triangulos": 1378
+        },
+        {
+          "objeto": "Mecanica_09",
+          "rotulo": "09 Motor — tampa de referência",
+          "bbox_CAD_mm": [
+            31.621957778930664,
+            123.05033469200134,
+            24.951330566406252,
+            48.22195816040039,
+            130.40033721923828,
+            44.7513298034668
+          ],
+          "triangulos": 1378
+        },
+        {
+          "objeto": "Mecanica_10",
+          "rotulo": "10 Motorredutor TT de referência",
+          "bbox_CAD_mm": [
+            26.971965789794922,
+            61.20033264160156,
+            23.601328277587893,
+            50.2719612121582,
+            114.55033683776855,
+            46.10133209228516
+          ],
+          "triangulos": 876
+        },
+        {
+          "objeto": "Mecanica_11",
+          "rotulo": "11 Motorredutor TT de referência",
+          "bbox_CAD_mm": [
+            -50.045616149902344,
+            61.200340270996094,
+            23.60132064819336,
+            -26.745616912841797,
+            114.55034446716309,
+            46.10132446289063
+          ],
+          "triangulos": 876
+        },
+        {
+          "objeto": "Mecanica_12",
+          "rotulo": "12 Fixação/eixo da montagem de referência",
+          "bbox_CAD_mm": [
+            -50.7254638671875,
+            89.99211883544922,
+            21.09756317138672,
+            -47.72544479370117,
+            106.00819969177246,
+            54.082277679443365
+          ],
+          "triangulos": 572
+        },
+        {
+          "objeto": "Mecanica_13",
+          "rotulo": "13 Fixação/eixo da montagem de referência",
+          "bbox_CAD_mm": [
+            -28.74747085571289,
+            89.99211883544922,
+            21.097566986083987,
+            -25.747461318969727,
+            106.00819778442383,
+            54.082277679443365
+          ],
+          "triangulos": 572
+        },
+        {
+          "objeto": "Mecanica_14",
+          "rotulo": "14 Fixação/eixo da montagem de referência",
+          "bbox_CAD_mm": [
+            26.074337005615234,
+            89.99211120605469,
+            21.097574615478518,
+            29.074338912963867,
+            106.00819110870361,
+            54.082285308837896
+          ],
+          "triangulos": 572
+        },
+        {
+          "objeto": "Mecanica_15",
+          "rotulo": "15 Fixação/eixo da montagem de referência",
+          "bbox_CAD_mm": [
+            46.676353454589844,
+            90.97980880737305,
+            21.097574615478518,
+            49.67635726928711,
+            106.99588966369629,
+            54.082285308837896
+          ],
+          "triangulos": 572
+        },
+        {
+          "objeto": "Mecanica_16",
+          "rotulo": "16 Motorredutor TT de referência",
+          "bbox_CAD_mm": [
+            28.262592315673828,
+            105.55033302307129,
+            27.056787872314455,
+            49.221961975097656,
+            129.40033721923828,
+            42.64877548217774
+          ],
+          "triangulos": 474
+        },
+        {
+          "objeto": "Mecanica_17",
+          "rotulo": "17 Motorredutor TT de referência",
+          "bbox_CAD_mm": [
+            -48.99562072753906,
+            105.55033874511719,
+            27.05677833557129,
+            -28.03624725341797,
+            129.40034103393555,
+            42.64876785278321
+          ],
+          "triangulos": 474
+        },
+        {
+          "objeto": "Mecanica_18",
+          "rotulo": "18 Fixação/eixo da montagem de referência",
+          "bbox_CAD_mm": [
+            -56.54561233520508,
+            74.7003402709961,
+            32.16597595214844,
+            -19.745615005493164,
+            80.100341796875,
+            37.53666915893555
+          ],
+          "triangulos": 340
+        },
+        {
+          "objeto": "Mecanica_19",
+          "rotulo": "19 Fixação/eixo da montagem de referência",
+          "bbox_CAD_mm": [
+            19.971965789794922,
+            74.70033264160156,
+            32.165983581542974,
+            56.77196502685547,
+            80.10033798217773,
+            37.536676788330084
+          ],
+          "triangulos": 340
+        },
+        {
+          "objeto": "Mecanica_20",
+          "rotulo": "20 Fixação/eixo da montagem de referência",
+          "bbox_CAD_mm": [
+            46.92196273803711,
+            124.85033750534058,
+            38.50783004760743,
+            47.0219612121582,
+            126.85033750534058,
+            42.851328277587896
+          ],
+          "triangulos": 216
+        },
+        {
+          "objeto": "Mecanica_21",
+          "rotulo": "21 Fixação/eixo da montagem de referência",
+          "bbox_CAD_mm": [
+            46.92196273803711,
+            124.85033750534058,
+            26.851328277587893,
+            47.0219612121582,
+            126.85033750534058,
+            31.194828414916994
+          ],
+          "triangulos": 216
+        },
+        {
+          "objeto": "Mecanica_22",
+          "rotulo": "22 Fixação/eixo da montagem de referência",
+          "bbox_CAD_mm": [
+            -46.795616149902344,
+            124.850341796875,
+            26.851324462890627,
+            -46.69561767578125,
+            126.850341796875,
+            31.194822692871096
+          ],
+          "triangulos": 216
+        },
+        {
+          "objeto": "Mecanica_23",
+          "rotulo": "23 Fixação/eixo da montagem de referência",
+          "bbox_CAD_mm": [
+            -46.795616149902344,
+            124.850341796875,
+            38.50782623291016,
+            -46.695613861083984,
+            126.850341796875,
+            42.85132446289063
+          ],
+          "triangulos": 216
+        },
+        {
+          "objeto": "Mecanica_24",
+          "rotulo": "24 Fixação/eixo da montagem de referência",
+          "bbox_CAD_mm": [
+            38.12348556518555,
+            130.40033340454102,
+            33.951330566406256,
+            39.92043685913086,
+            131.40033721923828,
+            35.7513298034668
+          ],
+          "triangulos": 212
+        },
+        {
+          "objeto": "Mecanica_25",
+          "rotulo": "25 Fixação/eixo da montagem de referência",
+          "bbox_CAD_mm": [
+            -39.694095611572266,
+            130.40034103393555,
+            33.951322937011724,
+            -37.89714050292969,
+            131.40034103393555,
+            35.751318359375006
+          ],
+          "triangulos": 212
+        },
+        {
+          "objeto": "Mecanica_26",
+          "rotulo": "26 Fixação/eixo da montagem de referência",
+          "bbox_CAD_mm": [
+            -46.19561767578125,
+            114.55034255981445,
+            24.951324844360354,
+            -31.395618438720703,
+            123.05034255981445,
+            44.75132217407227
+          ],
+          "triangulos": 132
+        },
+        {
+          "objeto": "Mecanica_27",
+          "rotulo": "27 Fixação/eixo da montagem de referência",
+          "bbox_CAD_mm": [
+            31.621957778930664,
+            114.55033683776855,
+            24.951330566406252,
+            46.42196273803711,
+            123.05033874511719,
+            44.7513298034668
+          ],
+          "triangulos": 132
+        },
+        {
+          "objeto": "Mecanica_28",
+          "rotulo": "28 Fixação/eixo da montagem de referência",
+          "bbox_CAD_mm": [
+            46.22195816040039,
+            126.40033769607544,
+            30.851328277587893,
+            48.22195816040039,
+            128.40033721923828,
+            38.851328277587896
+          ],
+          "triangulos": 26
+        },
+        {
+          "objeto": "Mecanica_29",
+          "rotulo": "29 Fixação/eixo da montagem de referência",
+          "bbox_CAD_mm": [
+            31.634578704833984,
+            126.62461471557617,
+            30.851328277587893,
+            46.22195816040039,
+            128.40033721923828,
+            38.85133209228516
+          ],
+          "triangulos": 26
+        },
+        {
+          "objeto": "Mecanica_30",
+          "rotulo": "30 Fixação/eixo da montagem de referência",
+          "bbox_CAD_mm": [
+            -47.9956169128418,
+            126.40034055709839,
+            30.851324462890627,
+            -45.9956169128418,
+            128.40034103393555,
+            38.85132446289063
+          ],
+          "triangulos": 26
+        },
+        {
+          "objeto": "Mecanica_31",
+          "rotulo": "31 Fixação/eixo da montagem de referência",
+          "bbox_CAD_mm": [
+            -45.9956169128418,
+            126.62462282180786,
+            30.85132064819336,
+            -31.40822982788086,
+            128.40034103393555,
+            38.85132446289063
+          ],
+          "triangulos": 26
+        },
+        {
+          "objeto": "Mecanica_32",
+          "rotulo": "32 Fixação/eixo da montagem de referência",
+          "bbox_CAD_mm": [
+            29.256288528442383,
+            105.55033302307129,
+            30.85133209228516,
+            31.634578704833984,
+            126.62461471557617,
+            38.85133209228516
+          ],
+          "triangulos": 2
+        },
+        {
+          "objeto": "Mecanica_33",
+          "rotulo": "33 Fixação/eixo da montagem de referência",
+          "bbox_CAD_mm": [
+            48.22195816040039,
+            105.55033302307129,
+            30.851328277587893,
+            48.221961975097656,
+            126.40033769607544,
+            38.851328277587896
+          ],
+          "triangulos": 2
+        },
+        {
+          "objeto": "Mecanica_34",
+          "rotulo": "34 Fixação/eixo da montagem de referência",
+          "bbox_CAD_mm": [
+            -31.408233642578125,
+            105.55034065246582,
+            30.85132064819336,
+            -29.02994155883789,
+            126.62462282180786,
+            38.851320648193365
+          ],
+          "triangulos": 2
+        },
+        {
+          "objeto": "Mecanica_35",
+          "rotulo": "35 Fixação/eixo da montagem de referência",
+          "bbox_CAD_mm": [
+            -47.9956169128418,
+            105.55033874511719,
+            30.851324462890627,
+            -47.99561309814453,
+            126.40034055709839,
+            38.85132446289063
+          ],
+          "triangulos": 2
+        }
+      ],
+      "triangulos_originais": 10088,
+      "bbox_local_m": [
+        [
+          -0.053741127252578735,
+          -0.0566587895154953,
+          -0.013818512670695782
+        ],
+        [
+          0.01645888015627861,
+          0.0566587895154953,
+          0.019166208803653717
+        ]
+      ],
+      "arquivo": "descricao/malhas/motores_r05.stl",
+      "sha256": "1761dadf4b15543caf4a56cc78acdac42e12576509702851eb048248fd0963f3",
+      "triangulos_exportados": 10088,
+      "erro_max_bbox_m": 0.0,
+      "bbox_exportado_m": [
+        [
+          -0.053741127252578735,
+          -0.0566587895154953,
+          -0.013818512670695782
+        ],
+        [
+          0.01645888015627861,
+          0.0566587895154953,
+          0.019166208803653717
+        ]
+      ]
+    },
+    {
+      "nome": "eletronica",
+      "link": "base_link",
+      "material": "placas",
+      "limite_visual_triangulos": 45000,
+      "objetos": [
+        {
+          "objeto": "RaspberryPi5",
+          "rotulo": "06 Raspberry Pi 5 — CAD oficial",
+          "bbox_CAD_mm": [
+            -44.25,
+            12.00000000000031,
+            94.52,
+            44.25,
+            69.6303500000003,
+            113.495999957702
+          ],
+          "triangulos": 1525716
+        },
+        {
+          "objeto": "L298N",
+          "rotulo": "04 L298N — CAD de referência",
+          "bbox_CAD_mm": [
+            3.0,
+            84.0,
+            61.0,
+            46.0,
+            127.0,
+            89.0
+          ],
+          "triangulos": 14136
+        },
+        {
+          "objeto": "Encoder_E",
+          "rotulo": "05 Encoder E — posição a alinhar",
+          "bbox_CAD_mm": [
+            -23.799999999999983,
+            59.93421211242676,
+            25.000000000000064,
+            -9.499999999999979,
+            95.38392533742676,
+            38.80000000000007
+          ],
+          "triangulos": 1720
+        },
+        {
+          "objeto": "Encoder_D",
+          "rotulo": "05 Encoder D — posição a alinhar",
+          "bbox_CAD_mm": [
+            9.500000000000014,
+            59.93421211242676,
+            25.000000000000064,
+            23.80000000000002,
+            95.38392533742676,
+            38.80000000000007
+          ],
+          "triangulos": 1720
+        }
+      ],
+      "triangulos_originais": 1543292,
+      "bbox_local_m": [
+        [
+          -0.04934078827500343,
+          -0.044363174587488174,
+          -0.009916075505316257
+        ],
+        [
+          0.06565921008586884,
+          0.045886825770139694,
+          0.07857992500066757
+        ]
+      ],
+      "arquivo": "descricao/malhas/eletronica_r05.stl",
+      "sha256": "0a4bbcb76594ea5a02ef55f313e23ee3546297b5d657d9bced0b94ce61850989",
+      "triangulos_exportados": 179999,
+      "erro_max_bbox_m": 0.00010606646537780762,
+      "bbox_exportado_m": [
+        [
+          -0.04934078827500343,
+          -0.044359494000673294,
+          -0.009916075505316257
+        ],
+        [
+          0.06555314362049103,
+          0.045886825770139694,
+          0.07867451757192612
+        ]
+      ]
+    },
+    {
+      "nome": "holder",
+      "link": "base_link",
+      "material": "reserva",
+      "limite_visual_triangulos": null,
+      "objetos": [
+        {
+          "objeto": "Reserva_Holder4AA",
+          "rotulo": "01 RESERVA — holder 4 AA",
+          "bbox_CAD_mm": [
+            -37.5,
+            10.0,
+            50.4,
+            37.5,
+            80.0,
+            72.4
+          ],
+          "triangulos": 28
+        }
+      ],
+      "triangulos_originais": 28,
+      "bbox_local_m": [
+        [
+          -0.0023407877888530493,
+          -0.03761317580938339,
+          0.015483924187719822
+        ],
+        [
+          0.06765921413898468,
+          0.03738682344555855,
+          0.03748392313718796
+        ]
+      ],
+      "arquivo": "descricao/malhas/holder_r05.stl",
+      "sha256": "1d134228250232abd1ddbfb9de449d93263835918cbfd513b2b0207d69be8b27",
+      "triangulos_exportados": 28,
+      "erro_max_bbox_m": 0.0,
+      "bbox_exportado_m": [
+        [
+          -0.0023407877888530493,
+          -0.03761317580938339,
+          0.015483924187719822
+        ],
+        [
+          0.06765921413898468,
+          0.03738682344555855,
+          0.03748392313718796
+        ]
+      ]
+    },
+    {
+      "nome": "pilhas",
+      "link": "base_link",
+      "material": "pilhas",
+      "limite_visual_triangulos": null,
+      "objetos": [
+        {
+          "objeto": "AA_1",
+          "rotulo": "01 AA 1 — ilustrativa",
+          "bbox_CAD_mm": [
+            -25.25,
+            11.902206807794204,
+            52.9,
+            25.25,
+            26.097793192205796,
+            67.1
+          ],
+          "triangulos": 500
+        },
+        {
+          "objeto": "PoloAA_1",
+          "rotulo": "Polo AA 1 — ilustrativo",
+          "bbox_CAD_mm": [
+            25.25,
+            16.400808126797877,
+            57.4,
+            26.35,
+            21.599191873202123,
+            62.6
+          ],
+          "triangulos": 500
+        },
+        {
+          "objeto": "AA_2",
+          "rotulo": "01 AA 2 — ilustrativa",
+          "bbox_CAD_mm": [
+            -25.25,
+            27.902206807794204,
+            52.9,
+            25.25,
+            42.0977931922058,
+            67.1
+          ],
+          "triangulos": 500
+        },
+        {
+          "objeto": "PoloAA_2",
+          "rotulo": "Polo AA 2 — ilustrativo",
+          "bbox_CAD_mm": [
+            -26.35,
+            32.40080812679788,
+            57.4,
+            -25.25,
+            37.59919187320212,
+            62.6
+          ],
+          "triangulos": 500
+        },
+        {
+          "objeto": "AA_3",
+          "rotulo": "01 AA 3 — ilustrativa",
+          "bbox_CAD_mm": [
+            -25.25,
+            43.90220680779421,
+            52.9,
+            25.25,
+            58.0977931922058,
+            67.1
+          ],
+          "triangulos": 500
+        },
+        {
+          "objeto": "PoloAA_3",
+          "rotulo": "Polo AA 3 — ilustrativo",
+          "bbox_CAD_mm": [
+            25.25,
+            48.40080812679788,
+            57.4,
+            26.35,
+            53.59919187320212,
+            62.6
+          ],
+          "triangulos": 500
+        },
+        {
+          "objeto": "AA_4",
+          "rotulo": "01 AA 4 — ilustrativa",
+          "bbox_CAD_mm": [
+            -25.25,
+            59.90220680779421,
+            52.9,
+            25.25,
+            74.0977931922058,
+            67.1
+          ],
+          "triangulos": 500
+        },
+        {
+          "objeto": "PoloAA_4",
+          "rotulo": "Polo AA 4 — ilustrativo",
+          "bbox_CAD_mm": [
+            -26.35,
+            64.40080812679788,
+            57.4,
+            -25.25,
+            69.59919187320212,
+            62.6
+          ],
+          "triangulos": 500
+        }
+      ],
+      "triangulos_originais": 4000,
+      "bbox_local_m": [
+        [
+          0.0035614189691841602,
+          -0.02646317519247532,
+          0.017983924597501755
+        ],
+        [
+          0.06575700640678406,
+          0.026236824691295624,
+          0.032183922827243805
+        ]
+      ],
+      "arquivo": "descricao/malhas/pilhas_r05.stl",
+      "sha256": "6493f533b3b93cdf34e88f1085d289ea7b76f4d613a5e6bcbb871541ba319fb8",
+      "triangulos_exportados": 4000,
+      "erro_max_bbox_m": 0.0,
+      "bbox_exportado_m": [
+        [
+          0.0035614189691841602,
+          -0.02646317519247532,
+          0.017983924597501755
+        ],
+        [
+          0.06575700640678406,
+          0.026236824691295624,
+          0.032183922827243805
+        ]
+      ]
+    },
+    {
+      "nome": "esp_reserva",
+      "link": "base_link",
+      "material": "reserva",
+      "limite_visual_triangulos": null,
+      "objetos": [
+        {
+          "objeto": "Reserva_ESP",
+          "rotulo": "02 RESERVA — placa ESP a definir",
+          "bbox_CAD_mm": [
+            -14.0,
+            143.0,
+            94.0,
+            14.0,
+            198.0,
+            109.0
+          ],
+          "triangulos": 12
+        }
+      ],
+      "triangulos_originais": 12,
+      "bbox_local_m": [
+        [
+          -0.12034078687429428,
+          -0.014113175682723522,
+          0.05908392369747162
+        ],
+        [
+          -0.0653407871723175,
+          0.013886824250221252,
+          0.07408392429351807
+        ]
+      ],
+      "arquivo": "descricao/malhas/esp_reserva_r05.stl",
+      "sha256": "8974f05665f711422fc8f4cec1f4e99939944ae3adea6a3c2f19f416e38854b2",
+      "triangulos_exportados": 12,
+      "erro_max_bbox_m": 0.0,
+      "bbox_exportado_m": [
+        [
+          -0.12034078687429428,
+          -0.014113175682723522,
+          0.05908392369747162
+        ],
+        [
+          -0.0653407871723175,
+          0.013886824250221252,
+          0.07408392429351807
+        ]
+      ]
+    },
+    {
+      "nome": "powerbank",
+      "link": "base_link",
+      "material": "bateria",
+      "limite_visual_triangulos": null,
+      "objetos": [
+        {
+          "objeto": "Reserva_Powerbank",
+          "rotulo": "07 Basike REAL — envelope 150 x 70 x 30 mm",
+          "bbox_CAD_mm": [
+            -75.0,
+            136.0,
+            50.8,
+            75.0,
+            206.0,
+            80.8
+          ],
+          "triangulos": 524
+        }
+      ],
+      "triangulos_originais": 524,
+      "bbox_local_m": [
+        [
+          -0.12834078073501587,
+          -0.07511317729949951,
+          0.015883924439549446
+        ],
+        [
+          -0.05834078788757324,
+          0.07488682121038437,
+          0.04588392376899719
+        ]
+      ],
+      "arquivo": "descricao/malhas/powerbank_r05.stl",
+      "sha256": "d1cea288fb16c3a4e995589735656ccf89a86593734256f1b7e6cdcf1980802b",
+      "triangulos_exportados": 524,
+      "erro_max_bbox_m": 0.0,
+      "bbox_exportado_m": [
+        [
+          -0.12834078073501587,
+          -0.07511317729949951,
+          0.015883924439549446
+        ],
+        [
+          -0.05834078788757324,
+          0.07488682121038437,
+          0.04588392376899719
+        ]
+      ]
+    },
+    {
+      "nome": "pneu_esquerdo",
+      "link": "left_wheel_link",
+      "material": "pneu",
+      "limite_visual_triangulos": 18000,
+      "objetos": [
+        {
+          "objeto": "Mecanica_00",
+          "rotulo": "00 Pneu de referência",
+          "bbox_CAD_mm": [
+            53.89459228515625,
+            43.227760314941406,
+            0.45467557907104805,
+            78.71191024780273,
+            112.09066390991211,
+            69.37747421264649
+          ],
+          "triangulos": 314326
+        }
+      ],
+      "triangulos_originais": 314326,
+      "bbox_local_m": [
+        [
+          -0.03443145006895065,
+          -0.012408658862113953,
+          -0.03446139767765999
+        ],
+        [
+          0.03443145006895065,
+          0.012408658862113953,
+          0.03446139767765999
+        ]
+      ],
+      "arquivo": "descricao/malhas/pneu_esquerdo_r05.stl",
+      "sha256": "8058f0611ac2ed70c7fa033901c661f400ef7cd1d3ef352834026052a0d8693e",
+      "triangulos_exportados": 72000,
+      "erro_max_bbox_m": 0.00027810409665107727,
+      "bbox_exportado_m": [
+        [
+          -0.034491393715143204,
+          -0.012408658862113953,
+          -0.03445230796933174
+        ],
+        [
+          0.03470955416560173,
+          0.012411595322191715,
+          0.0345509871840477
+        ]
+      ]
+    },
+    {
+      "nome": "cubo_esquerdo",
+      "link": "left_wheel_link",
+      "material": "cubo",
+      "limite_visual_triangulos": null,
+      "objetos": [
+        {
+          "objeto": "Mecanica_02",
+          "rotulo": "02 Cubo de roda de referência",
+          "bbox_CAD_mm": [
+            48.803253173828125,
+            52.02477264404297,
+            9.215978050231938,
+            78.80325698852539,
+            103.33781242370605,
+            60.61598815917969
+          ],
+          "triangulos": 10568
+        }
+      ],
+      "triangulos_originais": 10568,
+      "bbox_local_m": [
+        [
+          -0.025678601115942,
+          -0.017499998211860657,
+          -0.025700096040964127
+        ],
+        [
+          0.025634439662098885,
+          0.012500005774199963,
+          0.025699913501739502
+        ]
+      ],
+      "arquivo": "descricao/malhas/cubo_esquerdo_r05.stl",
+      "sha256": "bb6a02f4e1dd3f0b277e43fee3603588a7b6ed2036c2b5c6ac0ea845d41a2650",
+      "triangulos_exportados": 10568,
+      "erro_max_bbox_m": 0.0,
+      "bbox_exportado_m": [
+        [
+          -0.025678601115942,
+          -0.017499998211860657,
+          -0.025700096040964127
+        ],
+        [
+          0.025634439662098885,
+          0.012500005774199963,
+          0.025699913501739502
+        ]
+      ]
+    },
+    {
+      "nome": "disco_esquerdo",
+      "link": "left_wheel_link",
+      "material": "disco",
+      "limite_visual_triangulos": null,
+      "objetos": [
+        {
+          "objeto": "Disco_D",
+          "rotulo": "05 Disco D — ILUSTRATIVO, fendas não medidas",
+          "bbox_CAD_mm": [
+            23.5,
+            67.71989624059735,
+            24.976759024029363,
+            24.5,
+            87.59852798425617,
+            44.85539076768818
+          ],
+          "triangulos": 984
+        }
+      ],
+      "triangulos_originais": 984,
+      "bbox_local_m": [
+        [
+          -0.009939315728843212,
+          -0.04280325025320053,
+          -0.009939315728843212
+        ],
+        [
+          0.009939315728843212,
+          -0.04180325195193291,
+          0.009939315728843212
+        ]
+      ],
+      "arquivo": "descricao/malhas/disco_esquerdo_r05.stl",
+      "sha256": "97aa271122dec3d1d0f4e3e2df81c72d01e8974fa126e5a9a94986e768664bb8",
+      "triangulos_exportados": 984,
+      "erro_max_bbox_m": 0.0,
+      "bbox_exportado_m": [
+        [
+          -0.009939315728843212,
+          -0.04280325025320053,
+          -0.009939315728843212
+        ],
+        [
+          0.009939315728843212,
+          -0.04180325195193291,
+          0.009939315728843212
+        ]
+      ]
+    },
+    {
+      "nome": "pneu_direito",
+      "link": "right_wheel_link",
+      "material": "pneu",
+      "limite_visual_triangulos": 18000,
+      "objetos": [
+        {
+          "objeto": "Mecanica_01",
+          "rotulo": "01 Pneu de referência",
+          "bbox_CAD_mm": [
+            -78.48555374145508,
+            43.227760314941406,
+            0.4546796023845704,
+            -53.66824722290039,
+            112.09066390991211,
+            69.37747421264649
+          ],
+          "triangulos": 314326
+        }
+      ],
+      "triangulos_originais": 314326,
+      "bbox_local_m": [
+        [
+          -0.03443145006895065,
+          -0.012408653274178505,
+          -0.03446139767765999
+        ],
+        [
+          0.03443145006895065,
+          0.012408653274178505,
+          0.03446139767765999
+        ]
+      ],
+      "arquivo": "descricao/malhas/pneu_direito_r05.stl",
+      "sha256": "8a209ffedc1899aa5430f08f0101b376f2124999fb35ab916d668cf951444b1f",
+      "triangulos_exportados": 72000,
+      "erro_max_bbox_m": 0.00031089410185813904,
+      "bbox_exportado_m": [
+        [
+          -0.03444499149918556,
+          -0.012412096373736858,
+          -0.034465715289115906
+        ],
+        [
+          0.03474234417080879,
+          0.012408653274178505,
+          0.03464498743414879
+        ]
+      ]
+    },
+    {
+      "nome": "cubo_direito",
+      "link": "right_wheel_link",
+      "material": "cubo",
+      "limite_visual_triangulos": null,
+      "objetos": [
+        {
+          "objeto": "Mecanica_03",
+          "rotulo": "03 Cubo de roda de referência",
+          "bbox_CAD_mm": [
+            -78.57690811157227,
+            52.02477264404297,
+            9.215979003906254,
+            -48.576900482177734,
+            103.33781433105469,
+            60.61598434448243
+          ],
+          "triangulos": 10568
+        }
+      ],
+      "triangulos_originais": 10568,
+      "bbox_local_m": [
+        [
+          -0.02567860297858715,
+          -0.012500007636845112,
+          -0.025700097903609276
+        ],
+        [
+          0.025634439662098885,
+          0.017500000074505806,
+          0.025699907913804054
+        ]
+      ],
+      "arquivo": "descricao/malhas/cubo_direito_r05.stl",
+      "sha256": "72fba87e8fb02d85475ee8708155c252f9aeae4ee79f3b2998e1d991505d1ca6",
+      "triangulos_exportados": 10568,
+      "erro_max_bbox_m": 0.0,
+      "bbox_exportado_m": [
+        [
+          -0.02567860297858715,
+          -0.012500007636845112,
+          -0.025700097903609276
+        ],
+        [
+          0.025634439662098885,
+          0.017500000074505806,
+          0.025699907913804054
+        ]
+      ]
+    },
+    {
+      "nome": "disco_direito",
+      "link": "right_wheel_link",
+      "material": "disco",
+      "limite_visual_triangulos": null,
+      "objetos": [
+        {
+          "objeto": "Disco_E",
+          "rotulo": "05 Disco E — ILUSTRATIVO, fendas não medidas",
+          "bbox_CAD_mm": [
+            -24.5,
+            67.71989624059735,
+            24.976759024029363,
+            -23.5,
+            87.59852798425617,
+            44.85539076768818
+          ],
+          "triangulos": 984
+        }
+      ],
+      "triangulos_originais": 984,
+      "bbox_local_m": [
+        [
+          -0.009939315728843212,
+          0.04157689958810806,
+          -0.009939317591488361
+        ],
+        [
+          0.009939315728843212,
+          0.042576901614665985,
+          0.009939313866198063
+        ]
+      ],
+      "arquivo": "descricao/malhas/disco_direito_r05.stl",
+      "sha256": "8658f7bcf8106a7d5e6fc0deebef98423b0f4de2bab995b2de9785855d026723",
+      "triangulos_exportados": 984,
+      "erro_max_bbox_m": 0.0,
+      "bbox_exportado_m": [
+        [
+          -0.009939315728843212,
+          0.04157689958810806,
+          -0.009939317591488361
+        ],
+        [
+          0.009939315728843212,
+          0.042576901614665985,
+          0.009939313866198063
+        ]
+      ]
+    },
+    {
+      "nome": "rodizio",
+      "link": "caster_link",
+      "material": "metal",
+      "limite_visual_triangulos": null,
+      "objetos": [
+        {
+          "objeto": "Mecanica_05",
+          "rotulo": "05 Rodízio de referência",
+          "bbox_CAD_mm": [
+            -19.130123138427734,
+            176.24606704711914,
+            37.44327774047852,
+            18.869794845581055,
+            208.2460708618164,
+            45.743288421630865
+          ],
+          "triangulos": 7544
+        },
+        {
+          "objeto": "Mecanica_06",
+          "rotulo": "06 Rodízio de referência",
+          "bbox_CAD_mm": [
+            -12.61332416534424,
+            179.74606323242188,
+            15.743274116516117,
+            12.349946975708006,
+            212.74606323242188,
+            40.7432846069336
+          ],
+          "triangulos": 6486
+        },
+        {
+          "objeto": "Mecanica_07",
+          "rotulo": "07 Rodízio de referência",
+          "bbox_CAD_mm": [
+            -7.93015766143799,
+            192.75218200683594,
+            5.767744445800784,
+            7.6698451042175275,
+            222.73995208740234,
+            35.74327697753907
+          ],
+          "triangulos": 1698
+        }
+      ],
+      "triangulos_originais": 15728,
+      "bbox_local_m": [
+        [
+          -0.030493883416056633,
+          -0.018999958410859108,
+          -0.03963225707411766
+        ],
+        [
+          0.01600000262260437,
+          0.018999958410859108,
+          0.00034328841138631105
+        ]
+      ],
+      "arquivo": "descricao/malhas/rodizio_r05.stl",
+      "sha256": "939e7a6e2f12b5785d49b9e7c157a4cdc75fce518080979fd195e3bd12aca5f8",
+      "triangulos_exportados": 15728,
+      "erro_max_bbox_m": 0.0,
+      "bbox_exportado_m": [
+        [
+          -0.030493883416056633,
+          -0.018999958410859108,
+          -0.03963225707411766
+        ],
+        [
+          0.01600000262260437,
+          0.018999958410859108,
+          0.00034328841138631105
+        ]
+      ]
+    },
+    {
+      "nome": "lidar",
+      "link": "lidar_mount_link",
+      "material": "sensor",
+      "limite_visual_triangulos": null,
+      "objetos": [
+        {
+          "objeto": "LidarC1",
+          "rotulo": "08 LiDAR C1 — corpo extraído do CAD",
+          "bbox_CAD_mm": [
+            -27.8,
+            76.19999999999997,
+            145.15037026456,
+            27.8,
+            131.79999999999998,
+            186.45037173534
+          ],
+          "triangulos": 298965
+        }
+      ],
+      "triangulos_originais": 298965,
+      "bbox_local_m": [
+        [
+          -0.027799999341368675,
+          -0.027799999341368675,
+          0.00015037026605568826
+        ],
+        [
+          0.027799999341368675,
+          0.027799999341368675,
+          0.041450370103120804
+        ]
+      ],
+      "arquivo": "descricao/malhas/lidar_r05.stl",
+      "sha256": "5341b9aabe42255b82dd63a83c92c4fc9c432eb73db2001e792998767973fb86",
+      "triangulos_exportados": 59999,
+      "erro_max_bbox_m": 0.00019002705812454224,
+      "bbox_exportado_m": [
+        [
+          -0.027799999341368675,
+          -0.027799999341368675,
+          0.0001013486908050254
+        ],
+        [
+          0.027770454064011574,
+          0.02779654785990715,
+          0.041640397161245346
+        ]
+      ]
+    },
+    {
+      "nome": "imu",
+      "link": "imu_mount_link",
+      "material": "placas",
+      "limite_visual_triangulos": null,
+      "objetos": [
+        {
+          "objeto": "MPU6050",
+          "rotulo": "03 MPU-6050 — CAD candidato",
+          "bbox_CAD_mm": [
+            -26.0,
+            107.0,
+            59.000000000002444,
+            -10.0,
+            128.0,
+            70.54000000000244
+          ],
+          "triangulos": 7056
+        }
+      ],
+      "triangulos_originais": 7056,
+      "bbox_local_m": [
+        [
+          -0.010499999858438969,
+          -0.013500000350177288,
+          -0.00139999995008111
+        ],
+        [
+          0.010499999858438969,
+          0.0024999999441206455,
+          0.01013999991118908
+        ]
+      ],
+      "arquivo": "descricao/malhas/imu_r05.stl",
+      "sha256": "3273ed464f764e7090686100e31e33d08c264b98dc19040e481a7ab4413c34c4",
+      "triangulos_exportados": 7056,
+      "erro_max_bbox_m": 0.0,
+      "bbox_exportado_m": [
+        [
+          -0.010499999858438969,
+          -0.013500000350177288,
+          -0.00139999995008111
+        ],
+        [
+          0.010499999858438969,
+          0.0024999999441206455,
+          0.01013999991118908
+        ]
+      ]
+    }
+  ],
+  "juntas_moveis": [
+    "left_wheel_joint",
+    "right_wheel_joint"
+  ],
+  "frames_ROS_relativos_base_m": {
+    "base_link": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "left_wheel_link": [
+      0.0,
+      0.06619007587432861,
+      -1.0058283805847169e-09
+    ],
+    "right_wheel_link": [
+      0.0,
+      -0.06619007587432861,
+      1.0058283805847169e-09
+    ],
+    "caster_link": [
+      -0.11458685684204102,
+      -0.00024333953857421875,
+      0.010483924098312848
+    ],
+    "lidar_mount_link": [
+      -0.02634078788757324,
+      -0.00011317539215087891,
+      0.11008392409831286
+    ],
+    "imu_mount_link": [
+      -0.03984078788757324,
+      -0.012613175392150879,
+      0.02548392409831285
+    ]
+  },
+  "bbox_ROS_relativa_base_m": [
+    [
+      -0.14508074025809764,
+      -0.08861317485570908,
+      -0.03446139868348837
+    ],
+    [
+      0.08555921167135239,
+      0.09078682214021683,
+      0.15153429420143366
+    ]
+  ],
+  "footprint_retangular_conservador_m": [
+    [
+      -0.14508074025809764,
+      -0.08861317485570908
+    ],
+    [
+      0.08555921167135239,
+      -0.08861317485570908
+    ],
+    [
+      0.08555921167135239,
+      0.09078682214021683
+    ],
+    [
+      -0.14508074025809764,
+      0.09078682214021683
+    ]
+  ],
+  "colisoes": "Malhas estáticas e cilindros aproximados. Não é modelo validado para dinâmica/Gazebo.",
+  "sha256_urdf": "90fb63c7564b2495b07ec5ecf097bf1cde503f7c5b14e1ef9d78907fae349a5c"
+}

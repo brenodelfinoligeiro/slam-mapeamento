@@ -1,0 +1,363 @@
+{
+  "arquivo_reaberto": true,
+  "powerbank_mm": [
+    150.0,
+    70.0,
+    30.0
+  ],
+  "PB_base_z_mm": 50.8,
+  "pecas_principais_validas": 6,
+  "testes_carcaca_envelopes": [
+    {
+      "carcaca": "Saia",
+      "componente": "Reserva_Powerbank",
+      "volume_intersecao_mm3": 0.0
+    },
+    {
+      "carcaca": "Saia",
+      "componente": "RaspberryPi5",
+      "volume_intersecao_mm3": 0.0
+    },
+    {
+      "carcaca": "Saia",
+      "componente": "Reserva_ESP",
+      "volume_intersecao_mm3": 0.0
+    },
+    {
+      "carcaca": "Saia",
+      "componente": "L298N",
+      "volume_intersecao_mm3": 0.0
+    },
+    {
+      "carcaca": "Saia",
+      "componente": "MPU6050",
+      "volume_intersecao_mm3": 0.0
+    },
+    {
+      "carcaca": "Saia",
+      "componente": "Reserva_Holder4AA",
+      "volume_intersecao_mm3": 0.0
+    },
+    {
+      "carcaca": "Saia",
+      "componente": "LidarC1",
+      "volume_intersecao_mm3": 0.0
+    },
+    {
+      "carcaca": "Saia",
+      "componente": "BercoPB",
+      "volume_intersecao_mm3": 0.0
+    },
+    {
+      "carcaca": "Saia",
+      "componente": "CintaPowerbank",
+      "volume_intersecao_mm3": 0.0
+    },
+    {
+      "carcaca": "Saia",
+      "componente": "CintaPowerbank001",
+      "volume_intersecao_mm3": 0.0
+    },
+    {
+      "carcaca": "TampaEsquerda",
+      "componente": "Reserva_Powerbank",
+      "volume_intersecao_mm3": 0.0
+    },
+    {
+      "carcaca": "TampaEsquerda",
+      "componente": "RaspberryPi5",
+      "volume_intersecao_mm3": 0.0
+    },
+    {
+      "carcaca": "TampaEsquerda",
+      "componente": "Reserva_ESP",
+      "volume_intersecao_mm3": 0.0
+    },
+    {
+      "carcaca": "TampaEsquerda",
+      "componente": "L298N",
+      "volume_intersecao_mm3": 0.0
+    },
+    {
+      "carcaca": "TampaEsquerda",
+      "componente": "MPU6050",
+      "volume_intersecao_mm3": 0.0
+    },
+    {
+      "carcaca": "TampaEsquerda",
+      "componente": "Reserva_Holder4AA",
+      "volume_intersecao_mm3": 0.0
+    },
+    {
+      "carcaca": "TampaEsquerda",
+      "componente": "LidarC1",
+      "volume_intersecao_mm3": 0.0
+    },
+    {
+      "carcaca": "TampaEsquerda",
+      "componente": "BercoPB",
+      "volume_intersecao_mm3": 0.0
+    },
+    {
+      "carcaca": "TampaEsquerda",
+      "componente": "CintaPowerbank",
+      "volume_intersecao_mm3": 0.0
+    },
+    {
+      "carcaca": "TampaEsquerda",
+      "componente": "CintaPowerbank001",
+      "volume_intersecao_mm3": 0.0
+    },
+    {
+      "carcaca": "TampaDireita",
+      "componente": "Reserva_Powerbank",
+      "volume_intersecao_mm3": 0.0
+    },
+    {
+      "carcaca": "TampaDireita",
+      "componente": "RaspberryPi5",
+      "volume_intersecao_mm3": 0.0
+    },
+    {
+      "carcaca": "TampaDireita",
+      "componente": "Reserva_ESP",
+      "volume_intersecao_mm3": 0.0
+    },
+    {
+      "carcaca": "TampaDireita",
+      "componente": "L298N",
+      "volume_intersecao_mm3": 0.0
+    },
+    {
+      "carcaca": "TampaDireita",
+      "componente": "MPU6050",
+      "volume_intersecao_mm3": 0.0
+    },
+    {
+      "carcaca": "TampaDireita",
+      "componente": "Reserva_Holder4AA",
+      "volume_intersecao_mm3": 0.0
+    },
+    {
+      "carcaca": "TampaDireita",
+      "componente": "LidarC1",
+      "volume_intersecao_mm3": 0.0
+    },
+    {
+      "carcaca": "TampaDireita",
+      "componente": "BercoPB",
+      "volume_intersecao_mm3": 0.0
+    },
+    {
+      "carcaca": "TampaDireita",
+      "componente": "CintaPowerbank",
+      "volume_intersecao_mm3": 0.0
+    },
+    {
+      "carcaca": "TampaDireita",
+      "componente": "CintaPowerbank001",
+      "volume_intersecao_mm3": 0.0
+    },
+    {
+      "carcaca": "PortinholaAA",
+      "componente": "Reserva_Powerbank",
+      "volume_intersecao_mm3": 0.0
+    },
+    {
+      "carcaca": "PortinholaAA",
+      "componente": "RaspberryPi5",
+      "volume_intersecao_mm3": 0.0
+    },
+    {
+      "carcaca": "PortinholaAA",
+      "componente": "Reserva_ESP",
+      "volume_intersecao_mm3": 0.0
+    },
+    {
+      "carcaca": "PortinholaAA",
+      "componente": "L298N",
+      "volume_intersecao_mm3": 0.0
+    },
+    {
+      "carcaca": "PortinholaAA",
+      "componente": "MPU6050",
+      "volume_intersecao_mm3": 0.0
+    },
+    {
+      "carcaca": "PortinholaAA",
+      "componente": "Reserva_Holder4AA",
+      "volume_intersecao_mm3": 0.0
+    },
+    {
+      "carcaca": "PortinholaAA",
+      "componente": "LidarC1",
+      "volume_intersecao_mm3": 0.0
+    },
+    {
+      "carcaca": "PortinholaAA",
+      "componente": "BercoPB",
+      "volume_intersecao_mm3": 0.0
+    },
+    {
+      "carcaca": "PortinholaAA",
+      "componente": "CintaPowerbank",
+      "volume_intersecao_mm3": 0.0
+    },
+    {
+      "carcaca": "PortinholaAA",
+      "componente": "CintaPowerbank001",
+      "volume_intersecao_mm3": 0.0
+    },
+    {
+      "carcaca": "PortinholaPB",
+      "componente": "Reserva_Powerbank",
+      "volume_intersecao_mm3": 0.0
+    },
+    {
+      "carcaca": "PortinholaPB",
+      "componente": "RaspberryPi5",
+      "volume_intersecao_mm3": 0.0
+    },
+    {
+      "carcaca": "PortinholaPB",
+      "componente": "Reserva_ESP",
+      "volume_intersecao_mm3": 0.0
+    },
+    {
+      "carcaca": "PortinholaPB",
+      "componente": "L298N",
+      "volume_intersecao_mm3": 0.0
+    },
+    {
+      "carcaca": "PortinholaPB",
+      "componente": "MPU6050",
+      "volume_intersecao_mm3": 0.0
+    },
+    {
+      "carcaca": "PortinholaPB",
+      "componente": "Reserva_Holder4AA",
+      "volume_intersecao_mm3": 0.0
+    },
+    {
+      "carcaca": "PortinholaPB",
+      "componente": "LidarC1",
+      "volume_intersecao_mm3": 0.0
+    },
+    {
+      "carcaca": "PortinholaPB",
+      "componente": "BercoPB",
+      "volume_intersecao_mm3": 0.0
+    },
+    {
+      "carcaca": "PortinholaPB",
+      "componente": "CintaPowerbank",
+      "volume_intersecao_mm3": 0.0
+    },
+    {
+      "carcaca": "PortinholaPB",
+      "componente": "CintaPowerbank001",
+      "volume_intersecao_mm3": 0.0
+    },
+    {
+      "carcaca": "TampaServicoPB",
+      "componente": "Reserva_Powerbank",
+      "volume_intersecao_mm3": 0.0
+    },
+    {
+      "carcaca": "TampaServicoPB",
+      "componente": "RaspberryPi5",
+      "volume_intersecao_mm3": 0.0
+    },
+    {
+      "carcaca": "TampaServicoPB",
+      "componente": "Reserva_ESP",
+      "volume_intersecao_mm3": 0.0
+    },
+    {
+      "carcaca": "TampaServicoPB",
+      "componente": "L298N",
+      "volume_intersecao_mm3": 0.0
+    },
+    {
+      "carcaca": "TampaServicoPB",
+      "componente": "MPU6050",
+      "volume_intersecao_mm3": 0.0
+    },
+    {
+      "carcaca": "TampaServicoPB",
+      "componente": "Reserva_Holder4AA",
+      "volume_intersecao_mm3": 0.0
+    },
+    {
+      "carcaca": "TampaServicoPB",
+      "componente": "LidarC1",
+      "volume_intersecao_mm3": 0.0
+    },
+    {
+      "carcaca": "TampaServicoPB",
+      "componente": "BercoPB",
+      "volume_intersecao_mm3": 0.0
+    },
+    {
+      "carcaca": "TampaServicoPB",
+      "componente": "CintaPowerbank",
+      "volume_intersecao_mm3": 0.0
+    },
+    {
+      "carcaca": "TampaServicoPB",
+      "componente": "CintaPowerbank001",
+      "volume_intersecao_mm3": 0.0
+    }
+  ],
+  "folga_radial_modelada_mm": 5,
+  "retirada_lateral_amostrada_mm": [
+    0,
+    15,
+    40,
+    80,
+    110
+  ],
+  "limites": "Não valida cabos, massa total, resistência, temperatura, tolerâncias físicas ou montagem real.",
+  "retirada_baterias_amostrada": [
+    {
+      "componente": "Reserva_Powerbank",
+      "deslocamento_y_mm": 0
+    },
+    {
+      "componente": "Reserva_Powerbank",
+      "deslocamento_y_mm": 10
+    },
+    {
+      "componente": "Reserva_Powerbank",
+      "deslocamento_y_mm": 30
+    },
+    {
+      "componente": "Reserva_Powerbank",
+      "deslocamento_y_mm": 70
+    },
+    {
+      "componente": "Reserva_Powerbank",
+      "deslocamento_y_mm": 90
+    },
+    {
+      "componente": "Reserva_Holder4AA",
+      "deslocamento_y_mm": 0
+    },
+    {
+      "componente": "Reserva_Holder4AA",
+      "deslocamento_y_mm": -10
+    },
+    {
+      "componente": "Reserva_Holder4AA",
+      "deslocamento_y_mm": -30
+    },
+    {
+      "componente": "Reserva_Holder4AA",
+      "deslocamento_y_mm": -70
+    },
+    {
+      "componente": "Reserva_Holder4AA",
+      "deslocamento_y_mm": -90
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+Starting >>> robo_movel
+============================= test session starts ==============================
+platform linux -- Python 3.12.3, pytest-7.4.4, pluggy-1.4.0
+cachedir: /work/build/robo_movel/.pytest_cache
+rootdir: /workspace/src/robo_movel
+configfile: setup.cfg
+testpaths: testes
+plugins: ament-copyright-0.17.5, ament-flake8-0.17.5, ament-lint-0.17.5, ament-pep257-0.17.5, ament-xmllint-0.17.5, launch-testing-3.4.12, launch-testing-ros-0.26.13, colcon-core-0.21.3
+collected 18 items
+
+testes/teste_descricao.py ..                                             [ 11%]
+testes/teste_documentacao.py .                                           [ 16%]
+testes/teste_estrutura.py .                                              [ 22%]
+testes/teste_geometria_descricao.py .......                              [ 61%]
+testes/teste_localizacao.py .                                            [ 66%]
+testes/teste_modelos_cad.py .                                            [ 72%]
+testes/teste_nomenclatura.py ..                                          [ 83%]
+testes/teste_publicacao.py ..                                            [ 94%]
+testes/teste_vault.py .                                                  [100%]
+
+------------ generated xml file: /work/build/robo_movel/pytest.xml -------------
+============================== 18 passed in 1.29s ==============================
+Finished <<< robo_movel [1.91s]
+
+Summary: 1 package finished [2.14s]
+Summary: 18 tests, 0 errors, 0 failures, 0 skipped
+[{'arquivo': '/work/build/robo_movel/pytest.xml', 'casos': 18}]
+

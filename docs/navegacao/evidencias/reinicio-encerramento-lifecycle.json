@@ -1,0 +1,13 @@
+{
+  "/arbitro/parar": true,
+  "/lifecycle_navegacao/manage_nodes": true,
+  "/lifecycle_slam_navegacao/manage_nodes": true,
+  "estados_confirmados": {
+    "controller_server": "finalized",
+    "planner_server": "finalized",
+    "behavior_server": "finalized",
+    "bt_navigator": "finalized",
+    "slam_toolbox": "finalized",
+    "salvador_mapa": "finalized"
+  }
+}

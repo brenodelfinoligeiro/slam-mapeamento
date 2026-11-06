@@ -1,0 +1,19 @@
+SLAMDERSON R02 — CARCAÇA DE ESTUDO
+
+Conteúdo: seis STL binários, carcaça editável no FreeCAD, STEP, gerador,
+parâmetros, validações e documentação. A montagem completa com componentes
+é entregue em FCStd separado; os CADs originais de terceiros não estão no ZIP.
+
+IMPORTANTE
+- Unidades dos modelos: milímetros. STL não registra unidade física.
+- As malhas foram verificadas como fechadas, não como encaixes certificados.
+- Geometria de protótipo: conferir holder, ESP, cabos, chassi, parafusos,
+  tolerâncias, material, orientação/suportes de impressão e temperatura.
+- Não são peças liberadas para fabricação/montagem final.
+- Não há vedação ou grau IP.
+- O gerador depende do workspace Slamderson e dos CADs locais preservados;
+  não é um gerador portátil independente da montagem original.
+
+Peças: Saia, TampaEsquerda, TampaDireita, PortinholaAA, PortinholaPB,
+TampaServicoPB. Os fixadores renderizados são ilustrativos e não estão
+entre os STL de peças a imprimir.

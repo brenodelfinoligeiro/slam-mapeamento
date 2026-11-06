@@ -1,0 +1,66 @@
+Panels:
+  - Class: rviz_common/Displays
+    Name: Displays
+Visualization Manager:
+  Class: ""
+  Global Options:
+    Background Color: 35; 38; 45
+    Fixed Frame: odom
+    Frame Rate: 30
+  Displays:
+    - Class: rviz_default_plugins/Grid
+      Name: Chao
+      Enabled: true
+      Cell Size: 0.2
+      Plane Cell Count: 40
+      Color: 100; 100; 100
+    - Class: rviz_default_plugins/RobotModel
+      Name: Robo movel
+      Enabled: true
+      Description Source: Topic
+      Description Topic:
+        Value: /robot_description
+        Reliability Policy: Reliable
+        Durability Policy: Transient Local
+      Visual Enabled: true
+      Collision Enabled: false
+    - Class: rviz_default_plugins/Path
+      Name: Estimativa odo e IMU
+      Enabled: true
+      Topic:
+        Value: /trajetoria/estimada
+        Reliability Policy: Reliable
+      Color: 70; 240; 110
+      Line Width: 0.01
+    - Class: rviz_default_plugins/Path
+      Name: Somente rodas
+      Enabled: true
+      Topic:
+        Value: /trajetoria/rodas
+        Reliability Policy: Reliable
+      Color: 240; 130; 40
+      Line Width: 0.008
+    - Class: rviz_default_plugins/Path
+      Name: Referencia virtual nao fundida
+      Enabled: true
+      Topic:
+        Value: /trajetoria/referencia
+        Reliability Policy: Reliable
+      Color: 70; 150; 255
+      Line Width: 0.006
+    - Class: rviz_default_plugins/TF
+      Name: Referenciais
+      Enabled: false
+  Views:
+    Current:
+      Class: rviz_default_plugins/Orbit
+      Distance: 2.8
+      Pitch: 0.9
+      Yaw: 0.8
+      Focal Point:
+        X: 0.3
+        Y: 0.0
+        Z: 0.0
+Window Geometry:
+  Width: 1280
+  Height: 900

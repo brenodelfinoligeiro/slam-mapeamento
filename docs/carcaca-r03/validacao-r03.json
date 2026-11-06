@@ -1,0 +1,35 @@
+{
+  "status": "OK",
+  "arquivo_reaberto": true,
+  "objetos": 110,
+  "base_compacta_mm": [
+    62,
+    62,
+    3
+  ],
+  "largura_anterior_mm": 130,
+  "reducao_largura_percentual": 52.30769230769231,
+  "colunas_xy_mm": [
+    [
+      -21.5,
+      82.5
+    ],
+    [
+      21.5,
+      82.5
+    ]
+  ],
+  "contato_colunas_piso": true,
+  "testes_carcaca_envelopes": 60,
+  "retirada_lateral_amostrada_mm": [
+    0,
+    5,
+    15,
+    40,
+    80,
+    110
+  ],
+  "altura_base_C1_mm": 145,
+  "altura_teto_mm": 137,
+  "limites": "Amostras discretas; não prova movimento contínuo. Sem ensaio de furação real, cabos, rigidez, vibração, térmica ou varredura óptica."
+}

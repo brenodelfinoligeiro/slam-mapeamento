@@ -1,0 +1,94 @@
+{
+  "versao": 1,
+  "registro_UTC": "2026-11-05T18:31:32.520796+00:00",
+  "componente": "Powerbank Basike real fornecido pelo autor",
+  "modelo_leitura_preliminar": "B-079B",
+  "dimensoes_mm": {
+    "comprimento": 150,
+    "largura": 70,
+    "espessura": 30
+  },
+  "evidencia_dimensoes": "150 e 70 mm: anotações da foto; 30 mm: informação textual do autor",
+  "massa_indicada_g": 420.0,
+  "limite_massa": "Leitura de visor; tara, calibração e incerteza não verificadas",
+  "etiqueta": {
+    "capacidade_celulas_mAh": 20000,
+    "tensao_celulas_V": 3.7,
+    "energia_celulas_Wh": 74,
+    "capacidade_nominal_saida_mAh": 12000,
+    "USB_C_saida_5V_A": 3,
+    "cabo_USB_C_saida_5V_A": 3,
+    "saida_total_declarada_W": 15,
+    "fonte": "Fotos 1 e 2 do ZIP; dados de etiqueta, não ensaio"
+  },
+  "fontes": [
+    {
+      "caminho": "docs/medicoes/powerbank-basike/WhatsApp_Unknown_2026-11-05_at_15.24.44.zip",
+      "sha256": "7ae5a7a9b39f7aae38c1563bbcacb761dc680e428c68066ad5f3e348eb11d3cf",
+      "bytes": 1133040
+    },
+    {
+      "caminho": "docs/medicoes/powerbank-basike/massa-indicada.jpeg",
+      "sha256": "66db5eda54ad3b44345d99f18f076c8da67b74115f47c81012fbc5a91c3646b9",
+      "bytes": 119867
+    },
+    {
+      "caminho": "docs/medicoes/powerbank-basike/dimensoes-anotadas.jpeg",
+      "sha256": "3034ab06b78d972087d15ec4d57c66a80b2555c02a2c3f324f449156a72289e8",
+      "bytes": 144784
+    }
+  ],
+  "imagens_no_zip": [
+    {
+      "nome": "WhatsApp Image 2026-11-05 at 15.20.02.jpeg",
+      "bytes": 217163,
+      "sha256": "f3b1fb8db4a233c6f1b693ddd9ddbcaf67f0a3e8e03da4c47538bb688ea28016"
+    },
+    {
+      "nome": "WhatsApp Image 2026-11-05 at 15.20.02 (1).jpeg",
+      "bytes": 188208,
+      "sha256": "07091bbee42ba918b3e8692811255e1cdba9e7a2736a42b32d088440ac9765a1"
+    },
+    {
+      "nome": "WhatsApp Image 2026-11-05 at 15.20.03.jpeg",
+      "bytes": 105245,
+      "sha256": "76abf8b48fddc33ba32a48432827d11e62378089765594d717013787cbcbed59"
+    },
+    {
+      "nome": "WhatsApp Image 2026-11-05 at 15.20.03 (1).jpeg",
+      "bytes": 161250,
+      "sha256": "199e44171ebb91557af9a2c938334131aaa649dfe0164ae8e85c4a45fb3e5c7a"
+    },
+    {
+      "nome": "WhatsApp Image 2026-11-05 at 15.20.03 (2).jpeg",
+      "bytes": 137064,
+      "sha256": "3bffc68004087b5f48d3103740ab7e95146680e0bdc14dee5e94614267cec79a"
+    },
+    {
+      "nome": "WhatsApp Image 2026-11-05 at 15.20.03 (3).jpeg",
+      "bytes": 158240,
+      "sha256": "45aa9d3ded8ae16fb1c51571fba1f6d3ae66a2096bd522b9a275417d6f656e39"
+    },
+    {
+      "nome": "WhatsApp Image 2026-11-05 at 15.20.04.jpeg",
+      "bytes": 164696,
+      "sha256": "a7ae8215a2fd71d79e69b27cc0d4ed24e89a8d47ba977ce61de353cecb98be24"
+    }
+  ],
+  "quantidade_imagens_zip": 7,
+  "inspecao": "Sete fotos inspecionadas em prancha; fotos 1, 2 e 3 abertas individualmente.",
+  "CAD_anterior_nao_regenerado": true,
+  "encaixe_apenas_envelope_proposto_mm": {
+    "bbox": [
+      -75,
+      135,
+      91,
+      150,
+      70,
+      30
+    ],
+    "balanco_lateral_por_lado": 10.0,
+    "distancia_topo_ate_ponte": 14
+  },
+  "ensaio_eletrico_realizado": false
+}

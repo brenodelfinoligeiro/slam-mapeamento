@@ -1,0 +1,732 @@
+comando_rodas	/workspace/src/navegacao/comando_rodas	(ros.ament_python)
+fusao_sensores	/workspace/src/localizacao/fusao_sensores	(ros.ament_python)
+navegacao_simulada	/workspace/src/navegacao/navegacao_simulada	(ros.ament_python)
+odometria_rodas	/workspace/src/localizacao/odometria_rodas	(ros.ament_python)
+processamento_imu	/workspace/src/percepcao/processamento_imu	(ros.ament_python)
+robo_movel	/workspace/src/descricao/robo_movel	(ros.ament_python)
+simulador_base	/workspace/src/dispositivos/simulador_base	(ros.ament_cmake)
+teleoperacao	/workspace/src/navegacao/teleoperacao	(ros.ament_python)
+Starting >>> comando_rodas
+running egg_info
+creating ../../../../work/build/comando_rodas/comando_rodas.egg-info
+writing ../../../../work/build/comando_rodas/comando_rodas.egg-info/PKG-INFO
+writing dependency_links to ../../../../work/build/comando_rodas/comando_rodas.egg-info/dependency_links.txt
+writing entry points to ../../../../work/build/comando_rodas/comando_rodas.egg-info/entry_points.txt
+writing requirements to ../../../../work/build/comando_rodas/comando_rodas.egg-info/requires.txt
+writing top-level names to ../../../../work/build/comando_rodas/comando_rodas.egg-info/top_level.txt
+writing manifest file '../../../../work/build/comando_rodas/comando_rodas.egg-info/SOURCES.txt'
+reading manifest file '../../../../work/build/comando_rodas/comando_rodas.egg-info/SOURCES.txt'
+writing manifest file '../../../../work/build/comando_rodas/comando_rodas.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /work/build/comando_rodas/build
+creating /work/build/comando_rodas/build/lib
+creating /work/build/comando_rodas/build/lib/comando_rodas
+copying comando_rodas/__init__.py -> /work/build/comando_rodas/build/lib/comando_rodas
+copying comando_rodas/no.py -> /work/build/comando_rodas/build/lib/comando_rodas
+copying comando_rodas/modelo.py -> /work/build/comando_rodas/build/lib/comando_rodas
+running install
+running install_lib
+creating /work/install/comando_rodas/lib/python3.12/site-packages/comando_rodas
+copying /work/build/comando_rodas/build/lib/comando_rodas/__init__.py -> /work/install/comando_rodas/lib/python3.12/site-packages/comando_rodas
+copying /work/build/comando_rodas/build/lib/comando_rodas/no.py -> /work/install/comando_rodas/lib/python3.12/site-packages/comando_rodas
+copying /work/build/comando_rodas/build/lib/comando_rodas/modelo.py -> /work/install/comando_rodas/lib/python3.12/site-packages/comando_rodas
+byte-compiling /work/install/comando_rodas/lib/python3.12/site-packages/comando_rodas/__init__.py to __init__.cpython-312.pyc
+byte-compiling /work/install/comando_rodas/lib/python3.12/site-packages/comando_rodas/no.py to no.cpython-312.pyc
+byte-compiling /work/install/comando_rodas/lib/python3.12/site-packages/comando_rodas/modelo.py to modelo.cpython-312.pyc
+running install_data
+creating /work/install/comando_rodas/share/ament_index
+creating /work/install/comando_rodas/share/ament_index/resource_index
+creating /work/install/comando_rodas/share/ament_index/resource_index/packages
+copying recursos/comando_rodas -> /work/install/comando_rodas/share/ament_index/resource_index/packages
+copying package.xml -> /work/install/comando_rodas/share/comando_rodas
+running install_egg_info
+Copying ../../../../work/build/comando_rodas/comando_rodas.egg-info to /work/install/comando_rodas/lib/python3.12/site-packages/comando_rodas-0.0.0-py3.12.egg-info
+running install_scripts
+Installing converter_velocidade script to /work/install/comando_rodas/lib/comando_rodas
+writing list of installed files to '/work/build/comando_rodas/install.log'
+Finished <<< comando_rodas [1.67s]
+Starting >>> fusao_sensores
+running egg_info
+creating ../../../../work/build/fusao_sensores/fusao_sensores.egg-info
+writing ../../../../work/build/fusao_sensores/fusao_sensores.egg-info/PKG-INFO
+writing dependency_links to ../../../../work/build/fusao_sensores/fusao_sensores.egg-info/dependency_links.txt
+writing requirements to ../../../../work/build/fusao_sensores/fusao_sensores.egg-info/requires.txt
+writing top-level names to ../../../../work/build/fusao_sensores/fusao_sensores.egg-info/top_level.txt
+writing manifest file '../../../../work/build/fusao_sensores/fusao_sensores.egg-info/SOURCES.txt'
+reading manifest file '../../../../work/build/fusao_sensores/fusao_sensores.egg-info/SOURCES.txt'
+writing manifest file '../../../../work/build/fusao_sensores/fusao_sensores.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /work/build/fusao_sensores/build
+creating /work/build/fusao_sensores/build/lib
+creating /work/build/fusao_sensores/build/lib/fusao_sensores
+copying fusao_sensores/__init__.py -> /work/build/fusao_sensores/build/lib/fusao_sensores
+running install
+running install_lib
+creating /work/install/fusao_sensores/lib/python3.12/site-packages/fusao_sensores
+copying /work/build/fusao_sensores/build/lib/fusao_sensores/__init__.py -> /work/install/fusao_sensores/lib/python3.12/site-packages/fusao_sensores
+byte-compiling /work/install/fusao_sensores/lib/python3.12/site-packages/fusao_sensores/__init__.py to __init__.cpython-312.pyc
+running install_data
+creating /work/install/fusao_sensores/share/ament_index
+creating /work/install/fusao_sensores/share/ament_index/resource_index
+creating /work/install/fusao_sensores/share/ament_index/resource_index/packages
+copying recursos/fusao_sensores -> /work/install/fusao_sensores/share/ament_index/resource_index/packages
+copying package.xml -> /work/install/fusao_sensores/share/fusao_sensores
+creating /work/install/fusao_sensores/share/fusao_sensores/inicializacao
+copying inicializacao/fusao.launch.py -> /work/install/fusao_sensores/share/fusao_sensores/inicializacao
+creating /work/install/fusao_sensores/share/fusao_sensores/configuracao
+copying configuracao/estimador.yaml -> /work/install/fusao_sensores/share/fusao_sensores/configuracao
+running install_egg_info
+Copying ../../../../work/build/fusao_sensores/fusao_sensores.egg-info to /work/install/fusao_sensores/lib/python3.12/site-packages/fusao_sensores-0.0.0-py3.12.egg-info
+running install_scripts
+writing list of installed files to '/work/build/fusao_sensores/install.log'
+Finished <<< fusao_sensores [1.33s]
+Starting >>> processamento_imu
+running egg_info
+creating ../../../../work/build/processamento_imu/processamento_imu.egg-info
+writing ../../../../work/build/processamento_imu/processamento_imu.egg-info/PKG-INFO
+writing dependency_links to ../../../../work/build/processamento_imu/processamento_imu.egg-info/dependency_links.txt
+writing entry points to ../../../../work/build/processamento_imu/processamento_imu.egg-info/entry_points.txt
+writing requirements to ../../../../work/build/processamento_imu/processamento_imu.egg-info/requires.txt
+writing top-level names to ../../../../work/build/processamento_imu/processamento_imu.egg-info/top_level.txt
+writing manifest file '../../../../work/build/processamento_imu/processamento_imu.egg-info/SOURCES.txt'
+reading manifest file '../../../../work/build/processamento_imu/processamento_imu.egg-info/SOURCES.txt'
+writing manifest file '../../../../work/build/processamento_imu/processamento_imu.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /work/build/processamento_imu/build
+creating /work/build/processamento_imu/build/lib
+creating /work/build/processamento_imu/build/lib/processamento_imu
+copying processamento_imu/__init__.py -> /work/build/processamento_imu/build/lib/processamento_imu
+copying processamento_imu/nucleo.py -> /work/build/processamento_imu/build/lib/processamento_imu
+copying processamento_imu/no.py -> /work/build/processamento_imu/build/lib/processamento_imu
+running install
+running install_lib
+creating /work/install/processamento_imu/lib/python3.12/site-packages/processamento_imu
+copying /work/build/processamento_imu/build/lib/processamento_imu/__init__.py -> /work/install/processamento_imu/lib/python3.12/site-packages/processamento_imu
+copying /work/build/processamento_imu/build/lib/processamento_imu/nucleo.py -> /work/install/processamento_imu/lib/python3.12/site-packages/processamento_imu
+copying /work/build/processamento_imu/build/lib/processamento_imu/no.py -> /work/install/processamento_imu/lib/python3.12/site-packages/processamento_imu
+byte-compiling /work/install/processamento_imu/lib/python3.12/site-packages/processamento_imu/__init__.py to __init__.cpython-312.pyc
+byte-compiling /work/install/processamento_imu/lib/python3.12/site-packages/processamento_imu/nucleo.py to nucleo.cpython-312.pyc
+byte-compiling /work/install/processamento_imu/lib/python3.12/site-packages/processamento_imu/no.py to no.cpython-312.pyc
+running install_data
+creating /work/install/processamento_imu/share/ament_index
+creating /work/install/processamento_imu/share/ament_index/resource_index
+creating /work/install/processamento_imu/share/ament_index/resource_index/packages
+copying recursos/processamento_imu -> /work/install/processamento_imu/share/ament_index/resource_index/packages
+copying package.xml -> /work/install/processamento_imu/share/processamento_imu
+running install_egg_info
+Copying ../../../../work/build/processamento_imu/processamento_imu.egg-info to /work/install/processamento_imu/lib/python3.12/site-packages/processamento_imu-0.1.0-py3.12.egg-info
+running install_scripts
+Installing tratar_imu script to /work/install/processamento_imu/lib/processamento_imu
+writing list of installed files to '/work/build/processamento_imu/install.log'
+Finished <<< processamento_imu [1.31s]
+Starting >>> robo_movel
+running egg_info
+creating ../../../../work/build/robo_movel/robo_movel.egg-info
+writing ../../../../work/build/robo_movel/robo_movel.egg-info/PKG-INFO
+writing dependency_links to ../../../../work/build/robo_movel/robo_movel.egg-info/dependency_links.txt
+writing requirements to ../../../../work/build/robo_movel/robo_movel.egg-info/requires.txt
+writing top-level names to ../../../../work/build/robo_movel/robo_movel.egg-info/top_level.txt
+writing manifest file '../../../../work/build/robo_movel/robo_movel.egg-info/SOURCES.txt'
+reading manifest file '../../../../work/build/robo_movel/robo_movel.egg-info/SOURCES.txt'
+writing manifest file '../../../../work/build/robo_movel/robo_movel.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /work/build/robo_movel/build
+creating /work/build/robo_movel/build/lib
+creating /work/build/robo_movel/build/lib/robo_movel
+copying robo_movel/__init__.py -> /work/build/robo_movel/build/lib/robo_movel
+running install
+running install_lib
+creating /work/install/robo_movel/lib/python3.12/site-packages/robo_movel
+copying /work/build/robo_movel/build/lib/robo_movel/__init__.py -> /work/install/robo_movel/lib/python3.12/site-packages/robo_movel
+byte-compiling /work/install/robo_movel/lib/python3.12/site-packages/robo_movel/__init__.py to __init__.cpython-312.pyc
+running install_data
+creating /work/install/robo_movel/share/ament_index
+creating /work/install/robo_movel/share/ament_index/resource_index
+creating /work/install/robo_movel/share/ament_index/resource_index/packages
+copying recursos/robo_movel -> /work/install/robo_movel/share/ament_index/resource_index/packages
+copying package.xml -> /work/install/robo_movel/share/robo_movel
+creating /work/install/robo_movel/share/robo_movel/inicializacao
+copying inicializacao/.gitkeep -> /work/install/robo_movel/share/robo_movel/inicializacao
+copying inicializacao/descricao.launch.py -> /work/install/robo_movel/share/robo_movel/inicializacao
+copying inicializacao/visualizar.launch.py -> /work/install/robo_movel/share/robo_movel/inicializacao
+creating /work/install/robo_movel/share/robo_movel/configuracao
+copying configuracao/.gitkeep -> /work/install/robo_movel/share/robo_movel/configuracao
+copying configuracao/geometria_cad.yaml -> /work/install/robo_movel/share/robo_movel/configuracao
+creating /work/install/robo_movel/share/robo_movel/descricao
+copying descricao/.gitkeep -> /work/install/robo_movel/share/robo_movel/descricao
+creating /work/install/robo_movel/share/robo_movel/descricao/malhas
+copying descricao/malhas/chassi_r05.stl -> /work/install/robo_movel/share/robo_movel/descricao/malhas
+copying descricao/malhas/cubo_direito_r05.stl -> /work/install/robo_movel/share/robo_movel/descricao/malhas
+copying descricao/malhas/cubo_esquerdo_r05.stl -> /work/install/robo_movel/share/robo_movel/descricao/malhas
+copying descricao/malhas/disco_direito_r05.stl -> /work/install/robo_movel/share/robo_movel/descricao/malhas
+copying descricao/malhas/disco_esquerdo_r05.stl -> /work/install/robo_movel/share/robo_movel/descricao/malhas
+copying descricao/malhas/eletronica_r05.stl -> /work/install/robo_movel/share/robo_movel/descricao/malhas
+copying descricao/malhas/esp_reserva_r05.stl -> /work/install/robo_movel/share/robo_movel/descricao/malhas
+copying descricao/malhas/estrutura_r05.stl -> /work/install/robo_movel/share/robo_movel/descricao/malhas
+copying descricao/malhas/ferragens_r05.stl -> /work/install/robo_movel/share/robo_movel/descricao/malhas
+copying descricao/malhas/holder_r05.stl -> /work/install/robo_movel/share/robo_movel/descricao/malhas
+copying descricao/malhas/imu_r05.stl -> /work/install/robo_movel/share/robo_movel/descricao/malhas
+copying descricao/malhas/lidar_r05.stl -> /work/install/robo_movel/share/robo_movel/descricao/malhas
+copying descricao/malhas/motores_r05.stl -> /work/install/robo_movel/share/robo_movel/descricao/malhas
+copying descricao/malhas/pilhas_r05.stl -> /work/install/robo_movel/share/robo_movel/descricao/malhas
+copying descricao/malhas/pneu_direito_r05.stl -> /work/install/robo_movel/share/robo_movel/descricao/malhas
+copying descricao/malhas/pneu_esquerdo_r05.stl -> /work/install/robo_movel/share/robo_movel/descricao/malhas
+copying descricao/malhas/powerbank_r05.stl -> /work/install/robo_movel/share/robo_movel/descricao/malhas
+copying descricao/malhas/rodizio_r05.stl -> /work/install/robo_movel/share/robo_movel/descricao/malhas
+copying descricao/origem-cad.json -> /work/install/robo_movel/share/robo_movel/descricao
+copying descricao/robo_movel.urdf -> /work/install/robo_movel/share/robo_movel/descricao
+creating /work/install/robo_movel/share/robo_movel/mapas
+copying mapas/.gitkeep -> /work/install/robo_movel/share/robo_movel/mapas
+creating /work/install/robo_movel/share/robo_movel/visualizacao
+copying visualizacao/.gitkeep -> /work/install/robo_movel/share/robo_movel/visualizacao
+copying visualizacao/robo_movel.rviz -> /work/install/robo_movel/share/robo_movel/visualizacao
+running install_egg_info
+Copying ../../../../work/build/robo_movel/robo_movel.egg-info to /work/install/robo_movel/lib/python3.12/site-packages/robo_movel-0.0.0-py3.12.egg-info
+running install_scripts
+writing list of installed files to '/work/build/robo_movel/install.log'
+Finished <<< robo_movel [1.35s]
+Starting >>> simulador_base
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Found rosidl_default_generators: 1.6.1 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rosidl_adapter: 4.6.9 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+-- Found std_msgs: 5.3.8 (/opt/ros/jazzy/share/std_msgs/cmake)
+-- Found ament_cmake_ros: 0.12.2 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+-- Found PythonExtra: /usr/bin/python3  
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Configuring done (4.1s)
+-- Generating done (0.0s)
+-- Build files have been written to: /work/build/simulador_base
+[  2%] Generating type hashes for ROS interfaces
+[  5%] Generating Rust code for ROS interfaces
+[  5%] Built target simulador_base__rosidl_generator_type_description
+[  5%] Built target ament_cmake_python_copy_simulador_base
+[  5%] Built target simulador_base__rs
+[  8%] Generating C code for ROS interfaces
+[ 11%] Generating C++ code for ROS interfaces
+[ 11%] Built target simulador_base__cpp
+[ 14%] Building C object CMakeFiles/simulador_base__rosidl_generator_c.dir/rosidl_generator_c/simulador_base/msg/detail/leitura_rodas__description.c.o
+[ 17%] Building C object CMakeFiles/simulador_base__rosidl_generator_c.dir/rosidl_generator_c/simulador_base/msg/detail/leitura_rodas__functions.c.o
+[ 20%] Building C object CMakeFiles/simulador_base__rosidl_generator_c.dir/rosidl_generator_c/simulador_base/msg/detail/leitura_rodas__type_support.c.o
+[ 22%] Linking C shared library libsimulador_base__rosidl_generator_c.so
+[ 22%] Built target simulador_base__rosidl_generator_c
+[ 25%] Generating C type support for eProsima Fast-RTPS
+running egg_info
+creating simulador_base.egg-info
+writing simulador_base.egg-info/PKG-INFO
+writing dependency_links to simulador_base.egg-info/dependency_links.txt
+writing top-level names to simulador_base.egg-info/top_level.txt
+writing manifest file 'simulador_base.egg-info/SOURCES.txt'
+reading manifest file 'simulador_base.egg-info/SOURCES.txt'
+writing manifest file 'simulador_base.egg-info/SOURCES.txt'
+[ 25%] Built target ament_cmake_python_build_simulador_base_egg
+[ 28%] Generating C introspection for ROS interfaces
+[ 31%] Building CXX object CMakeFiles/simulador_base__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/simulador_base/msg/detail/leitura_rodas__type_support_c.cpp.o
+[ 34%] Building C object CMakeFiles/simulador_base__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/simulador_base/msg/detail/leitura_rodas__type_support.c.o
+[ 37%] Linking C shared library libsimulador_base__rosidl_typesupport_introspection_c.so
+[ 37%] Built target simulador_base__rosidl_typesupport_introspection_c
+[ 40%] Generating C type support dispatch for ROS interfaces
+[ 42%] Building CXX object CMakeFiles/simulador_base__rosidl_typesupport_c.dir/rosidl_typesupport_c/simulador_base/msg/leitura_rodas__type_support.cpp.o
+[ 45%] Linking CXX shared library libsimulador_base__rosidl_typesupport_c.so
+[ 48%] Linking CXX shared library libsimulador_base__rosidl_typesupport_fastrtps_c.so
+[ 48%] Built target simulador_base__rosidl_typesupport_c
+[ 51%] Generating C++ type support for eProsima Fast-RTPS
+[ 51%] Built target simulador_base__rosidl_typesupport_fastrtps_c
+[ 54%] Generating C++ introspection for ROS interfaces
+[ 57%] Building CXX object CMakeFiles/simulador_base__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/simulador_base/msg/detail/dds_fastrtps/leitura_rodas__type_support.cpp.o
+[ 60%] Building CXX object CMakeFiles/simulador_base__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/simulador_base/msg/detail/leitura_rodas__type_support.cpp.o
+[ 62%] Linking CXX shared library libsimulador_base__rosidl_typesupport_introspection_cpp.so
+[ 62%] Built target simulador_base__rosidl_typesupport_introspection_cpp
+[ 65%] Generating C++ type support dispatch for ROS interfaces
+[ 68%] Linking CXX shared library libsimulador_base__rosidl_typesupport_fastrtps_cpp.so
+[ 68%] Built target simulador_base__rosidl_typesupport_fastrtps_cpp
+[ 71%] Building CXX object CMakeFiles/simulador_base__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/simulador_base/msg/leitura_rodas__type_support.cpp.o
+[ 74%] Linking CXX shared library libsimulador_base__rosidl_typesupport_cpp.so
+[ 74%] Built target simulador_base__rosidl_typesupport_cpp
+[ 74%] Built target simulador_base
+[ 77%] Generating Python code for ROS interfaces
+[ 77%] Built target simulador_base__py
+[ 80%] Building C object CMakeFiles/simulador_base__rosidl_generator_py.dir/rosidl_generator_py/simulador_base/msg/_leitura_rodas_s.c.o
+[ 82%] Linking C shared library libsimulador_base__rosidl_generator_py.so
+[ 82%] Built target simulador_base__rosidl_generator_py
+[ 85%] Building C object CMakeFiles/simulador_base_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/simulador_base/_simulador_base_s.ep.rosidl_typesupport_fastrtps_c.c.o
+[ 88%] Building C object CMakeFiles/simulador_base_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/simulador_base/_simulador_base_s.ep.rosidl_typesupport_introspection_c.c.o
+[ 91%] Linking C shared module rosidl_generator_py/simulador_base/simulador_base_s__rosidl_typesupport_introspection_c.so
+[ 94%] Linking C shared module rosidl_generator_py/simulador_base/simulador_base_s__rosidl_typesupport_fastrtps_c.so
+[ 94%] Built target simulador_base_s__rosidl_typesupport_introspection_c
+[ 94%] Built target simulador_base_s__rosidl_typesupport_fastrtps_c
+[ 97%] Building C object CMakeFiles/simulador_base_s__rosidl_typesupport_c.dir/rosidl_generator_py/simulador_base/_simulador_base_s.ep.rosidl_typesupport_c.c.o
+[100%] Linking C shared module rosidl_generator_py/simulador_base/simulador_base_s__rosidl_typesupport_c.so
+[100%] Built target simulador_base_s__rosidl_typesupport_c
+-- Install configuration: ""
+-- Installing: /work/install/simulador_base/share/ament_index/resource_index/rosidl_interfaces/simulador_base
+-- Installing: /work/install/simulador_base/share/simulador_base/msg/LeituraRodas.json
+-- Installing: /work/install/simulador_base/include/simulador_base/simulador_base
+-- Installing: /work/install/simulador_base/include/simulador_base/simulador_base/msg
+-- Installing: /work/install/simulador_base/include/simulador_base/simulador_base/msg/rosidl_generator_c__visibility_control.h
+-- Installing: /work/install/simulador_base/include/simulador_base/simulador_base/msg/leitura_rodas.h
+-- Installing: /work/install/simulador_base/include/simulador_base/simulador_base/msg/detail
+-- Installing: /work/install/simulador_base/include/simulador_base/simulador_base/msg/detail/leitura_rodas__description.c
+-- Installing: /work/install/simulador_base/include/simulador_base/simulador_base/msg/detail/leitura_rodas__functions.c
+-- Installing: /work/install/simulador_base/include/simulador_base/simulador_base/msg/detail/leitura_rodas__functions.h
+-- Installing: /work/install/simulador_base/include/simulador_base/simulador_base/msg/detail/leitura_rodas__struct.h
+-- Installing: /work/install/simulador_base/include/simulador_base/simulador_base/msg/detail/leitura_rodas__type_support.c
+-- Installing: /work/install/simulador_base/include/simulador_base/simulador_base/msg/detail/leitura_rodas__type_support.h
+-- Installing: /work/install/simulador_base/share/simulador_base/environment/library_path.sh
+-- Installing: /work/install/simulador_base/share/simulador_base/environment/library_path.dsv
+-- Installing: /work/install/simulador_base/lib/libsimulador_base__rosidl_generator_c.so
+-- Set non-toolchain portion of runtime path of "/work/install/simulador_base/lib/libsimulador_base__rosidl_generator_c.so" to ""
+-- Up-to-date: /work/install/simulador_base/include/simulador_base/simulador_base
+-- Up-to-date: /work/install/simulador_base/include/simulador_base/simulador_base/msg
+-- Installing: /work/install/simulador_base/include/simulador_base/simulador_base/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+-- Up-to-date: /work/install/simulador_base/include/simulador_base/simulador_base/msg/detail
+-- Installing: /work/install/simulador_base/include/simulador_base/simulador_base/msg/detail/leitura_rodas__rosidl_typesupport_fastrtps_c.h
+-- Installing: /work/install/simulador_base/lib/libsimulador_base__rosidl_typesupport_fastrtps_c.so
+-- Set non-toolchain portion of runtime path of "/work/install/simulador_base/lib/libsimulador_base__rosidl_typesupport_fastrtps_c.so" to ""
+-- Up-to-date: /work/install/simulador_base/include/simulador_base/simulador_base
+-- Up-to-date: /work/install/simulador_base/include/simulador_base/simulador_base/msg
+-- Installing: /work/install/simulador_base/include/simulador_base/simulador_base/msg/rosidl_typesupport_introspection_c__visibility_control.h
+-- Up-to-date: /work/install/simulador_base/include/simulador_base/simulador_base/msg/detail
+-- Installing: /work/install/simulador_base/include/simulador_base/simulador_base/msg/detail/leitura_rodas__rosidl_typesupport_introspection_c.h
+-- Installing: /work/install/simulador_base/include/simulador_base/simulador_base/msg/detail/leitura_rodas__type_support.c
+-- Installing: /work/install/simulador_base/lib/libsimulador_base__rosidl_typesupport_introspection_c.so
+-- Set non-toolchain portion of runtime path of "/work/install/simulador_base/lib/libsimulador_base__rosidl_typesupport_introspection_c.so" to ""
+-- Installing: /work/install/simulador_base/lib/libsimulador_base__rosidl_typesupport_c.so
+-- Set non-toolchain portion of runtime path of "/work/install/simulador_base/lib/libsimulador_base__rosidl_typesupport_c.so" to ""
+-- Up-to-date: /work/install/simulador_base/include/simulador_base/simulador_base
+-- Up-to-date: /work/install/simulador_base/include/simulador_base/simulador_base/msg
+-- Installing: /work/install/simulador_base/include/simulador_base/simulador_base/msg/rosidl_generator_cpp__visibility_control.hpp
+-- Installing: /work/install/simulador_base/include/simulador_base/simulador_base/msg/leitura_rodas.hpp
+-- Up-to-date: /work/install/simulador_base/include/simulador_base/simulador_base/msg/detail
+-- Installing: /work/install/simulador_base/include/simulador_base/simulador_base/msg/detail/leitura_rodas__builder.hpp
+-- Installing: /work/install/simulador_base/include/simulador_base/simulador_base/msg/detail/leitura_rodas__struct.hpp
+-- Installing: /work/install/simulador_base/include/simulador_base/simulador_base/msg/detail/leitura_rodas__traits.hpp
+-- Installing: /work/install/simulador_base/include/simulador_base/simulador_base/msg/detail/leitura_rodas__type_support.hpp
+-- Up-to-date: /work/install/simulador_base/include/simulador_base/simulador_base
+-- Up-to-date: /work/install/simulador_base/include/simulador_base/simulador_base/msg
+-- Installing: /work/install/simulador_base/include/simulador_base/simulador_base/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+-- Up-to-date: /work/install/simulador_base/include/simulador_base/simulador_base/msg/detail
+-- Installing: /work/install/simulador_base/include/simulador_base/simulador_base/msg/detail/leitura_rodas__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /work/install/simulador_base/include/simulador_base/simulador_base/msg/detail/dds_fastrtps
+-- Installing: /work/install/simulador_base/lib/libsimulador_base__rosidl_typesupport_fastrtps_cpp.so
+-- Set non-toolchain portion of runtime path of "/work/install/simulador_base/lib/libsimulador_base__rosidl_typesupport_fastrtps_cpp.so" to ""
+-- Up-to-date: /work/install/simulador_base/include/simulador_base/simulador_base
+-- Up-to-date: /work/install/simulador_base/include/simulador_base/simulador_base/msg
+-- Up-to-date: /work/install/simulador_base/include/simulador_base/simulador_base/msg/detail
+-- Installing: /work/install/simulador_base/include/simulador_base/simulador_base/msg/detail/leitura_rodas__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /work/install/simulador_base/include/simulador_base/simulador_base/msg/detail/leitura_rodas__type_support.cpp
+-- Installing: /work/install/simulador_base/lib/libsimulador_base__rosidl_typesupport_introspection_cpp.so
+-- Set non-toolchain portion of runtime path of "/work/install/simulador_base/lib/libsimulador_base__rosidl_typesupport_introspection_cpp.so" to ""
+-- Installing: /work/install/simulador_base/lib/libsimulador_base__rosidl_typesupport_cpp.so
+-- Set non-toolchain portion of runtime path of "/work/install/simulador_base/lib/libsimulador_base__rosidl_typesupport_cpp.so" to ""
+-- Installing: /work/install/simulador_base/share/simulador_base/environment/pythonpath.sh
+-- Installing: /work/install/simulador_base/share/simulador_base/environment/pythonpath.dsv
+-- Installing: /work/install/simulador_base/lib/python3.12/site-packages/simulador_base-0.1.0-py3.12.egg-info
+-- Installing: /work/install/simulador_base/lib/python3.12/site-packages/simulador_base-0.1.0-py3.12.egg-info/PKG-INFO
+-- Installing: /work/install/simulador_base/lib/python3.12/site-packages/simulador_base-0.1.0-py3.12.egg-info/dependency_links.txt
+-- Installing: /work/install/simulador_base/lib/python3.12/site-packages/simulador_base-0.1.0-py3.12.egg-info/top_level.txt
+-- Installing: /work/install/simulador_base/lib/python3.12/site-packages/simulador_base-0.1.0-py3.12.egg-info/SOURCES.txt
+-- Installing: /work/install/simulador_base/lib/python3.12/site-packages/simulador_base
+-- Installing: /work/install/simulador_base/lib/python3.12/site-packages/simulador_base/__init__.py
+-- Installing: /work/install/simulador_base/lib/python3.12/site-packages/simulador_base/msg
+-- Installing: /work/install/simulador_base/lib/python3.12/site-packages/simulador_base/msg/_leitura_rodas.py
+-- Installing: /work/install/simulador_base/lib/python3.12/site-packages/simulador_base/msg/_leitura_rodas_s.c
+-- Installing: /work/install/simulador_base/lib/python3.12/site-packages/simulador_base/msg/__init__.py
+-- Installing: /work/install/simulador_base/lib/python3.12/site-packages/simulador_base/_simulador_base_s.ep.rosidl_typesupport_fastrtps_c.c
+-- Installing: /work/install/simulador_base/lib/python3.12/site-packages/simulador_base/_simulador_base_s.ep.rosidl_typesupport_introspection_c.c
+-- Installing: /work/install/simulador_base/lib/python3.12/site-packages/simulador_base/_simulador_base_s.ep.rosidl_typesupport_c.c
+-- Installing: /work/install/simulador_base/lib/python3.12/site-packages/simulador_base/simulador_base_s__rosidl_typesupport_introspection_c.so
+-- Installing: /work/install/simulador_base/lib/python3.12/site-packages/simulador_base/simulador_base_s__rosidl_typesupport_fastrtps_c.so
+-- Installing: /work/install/simulador_base/lib/python3.12/site-packages/simulador_base/simulador_base_s__rosidl_typesupport_c.so
+Listing '/work/install/simulador_base/lib/python3.12/site-packages/simulador_base'...
+Compiling '/work/install/simulador_base/lib/python3.12/site-packages/simulador_base/__init__.py'...
+Listing '/work/install/simulador_base/lib/python3.12/site-packages/simulador_base/msg'...
+Compiling '/work/install/simulador_base/lib/python3.12/site-packages/simulador_base/msg/__init__.py'...
+Compiling '/work/install/simulador_base/lib/python3.12/site-packages/simulador_base/msg/_leitura_rodas.py'...
+-- Installing: /work/install/simulador_base/lib/python3.12/site-packages/simulador_base/simulador_base_s__rosidl_typesupport_fastrtps_c.so
+-- Set non-toolchain portion of runtime path of "/work/install/simulador_base/lib/python3.12/site-packages/simulador_base/simulador_base_s__rosidl_typesupport_fastrtps_c.so" to ""
+-- Installing: /work/install/simulador_base/lib/python3.12/site-packages/simulador_base/simulador_base_s__rosidl_typesupport_introspection_c.so
+-- Set non-toolchain portion of runtime path of "/work/install/simulador_base/lib/python3.12/site-packages/simulador_base/simulador_base_s__rosidl_typesupport_introspection_c.so" to ""
+-- Installing: /work/install/simulador_base/lib/python3.12/site-packages/simulador_base/simulador_base_s__rosidl_typesupport_c.so
+-- Set non-toolchain portion of runtime path of "/work/install/simulador_base/lib/python3.12/site-packages/simulador_base/simulador_base_s__rosidl_typesupport_c.so" to ""
+-- Installing: /work/install/simulador_base/lib/libsimulador_base__rosidl_generator_py.so
+-- Set non-toolchain portion of runtime path of "/work/install/simulador_base/lib/libsimulador_base__rosidl_generator_py.so" to ""
+-- Installing: /work/install/simulador_base/share/simulador_base/rust
+-- Installing: /work/install/simulador_base/share/simulador_base/rust/src
+-- Installing: /work/install/simulador_base/share/simulador_base/rust/src/msg.rs
+-- Installing: /work/install/simulador_base/share/simulador_base/rust/src/msg
+-- Installing: /work/install/simulador_base/share/simulador_base/rust/src/msg/rmw.rs
+-- Installing: /work/install/simulador_base/share/simulador_base/rust/src/lib.rs
+-- Installing: /work/install/simulador_base/share/simulador_base/rust/Cargo.toml
+-- Installing: /work/install/simulador_base/share/simulador_base/rust/build.rs
+-- Installing: /work/install/simulador_base/share/simulador_base/msg/LeituraRodas.idl
+-- Installing: /work/install/simulador_base/share/simulador_base/msg/LeituraRodas.msg
+-- Installing: /work/install/simulador_base/lib/python3.12/site-packages/simulador_base_nos
+-- Installing: /work/install/simulador_base/lib/python3.12/site-packages/simulador_base_nos/__init__.py
+-- Installing: /work/install/simulador_base/lib/python3.12/site-packages/simulador_base_nos/nucleo.py
+-- Installing: /work/install/simulador_base/lib/python3.12/site-packages/simulador_base_nos/no_simulador.py
+-- Installing: /work/install/simulador_base/lib/simulador_base/simular
+-- Installing: /work/install/simulador_base/share/ament_index/resource_index/package_run_dependencies/simulador_base
+-- Installing: /work/install/simulador_base/share/ament_index/resource_index/parent_prefix_path/simulador_base
+-- Installing: /work/install/simulador_base/share/simulador_base/environment/ament_prefix_path.sh
+-- Installing: /work/install/simulador_base/share/simulador_base/environment/ament_prefix_path.dsv
+-- Installing: /work/install/simulador_base/share/simulador_base/environment/path.sh
+-- Installing: /work/install/simulador_base/share/simulador_base/environment/path.dsv
+-- Installing: /work/install/simulador_base/share/simulador_base/local_setup.bash
+-- Installing: /work/install/simulador_base/share/simulador_base/local_setup.sh
+-- Installing: /work/install/simulador_base/share/simulador_base/local_setup.zsh
+-- Installing: /work/install/simulador_base/share/simulador_base/local_setup.dsv
+-- Installing: /work/install/simulador_base/share/simulador_base/package.dsv
+-- Installing: /work/install/simulador_base/share/ament_index/resource_index/packages/simulador_base
+-- Installing: /work/install/simulador_base/share/simulador_base/cmake/export_simulador_base__rosidl_generator_cExport.cmake
+-- Installing: /work/install/simulador_base/share/simulador_base/cmake/export_simulador_base__rosidl_generator_cExport-noconfig.cmake
+-- Installing: /work/install/simulador_base/share/simulador_base/cmake/export_simulador_base__rosidl_typesupport_fastrtps_cExport.cmake
+-- Installing: /work/install/simulador_base/share/simulador_base/cmake/export_simulador_base__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+-- Installing: /work/install/simulador_base/share/simulador_base/cmake/simulador_base__rosidl_typesupport_introspection_cExport.cmake
+-- Installing: /work/install/simulador_base/share/simulador_base/cmake/simulador_base__rosidl_typesupport_introspection_cExport-noconfig.cmake
+-- Installing: /work/install/simulador_base/share/simulador_base/cmake/simulador_base__rosidl_typesupport_cExport.cmake
+-- Installing: /work/install/simulador_base/share/simulador_base/cmake/simulador_base__rosidl_typesupport_cExport-noconfig.cmake
+-- Installing: /work/install/simulador_base/share/simulador_base/cmake/export_simulador_base__rosidl_generator_cppExport.cmake
+-- Installing: /work/install/simulador_base/share/simulador_base/cmake/export_simulador_base__rosidl_typesupport_fastrtps_cppExport.cmake
+-- Installing: /work/install/simulador_base/share/simulador_base/cmake/export_simulador_base__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+-- Installing: /work/install/simulador_base/share/simulador_base/cmake/simulador_base__rosidl_typesupport_introspection_cppExport.cmake
+-- Installing: /work/install/simulador_base/share/simulador_base/cmake/simulador_base__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+-- Installing: /work/install/simulador_base/share/simulador_base/cmake/simulador_base__rosidl_typesupport_cppExport.cmake
+-- Installing: /work/install/simulador_base/share/simulador_base/cmake/simulador_base__rosidl_typesupport_cppExport-noconfig.cmake
+-- Installing: /work/install/simulador_base/share/simulador_base/cmake/export_simulador_base__rosidl_generator_pyExport.cmake
+-- Installing: /work/install/simulador_base/share/simulador_base/cmake/export_simulador_base__rosidl_generator_pyExport-noconfig.cmake
+-- Installing: /work/install/simulador_base/share/simulador_base/cmake/rosidl_cmake-extras.cmake
+-- Installing: /work/install/simulador_base/share/simulador_base/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /work/install/simulador_base/share/simulador_base/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /work/install/simulador_base/share/simulador_base/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /work/install/simulador_base/share/simulador_base/cmake/ament_cmake_export_targets-extras.cmake
+-- Installing: /work/install/simulador_base/share/simulador_base/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+-- Installing: /work/install/simulador_base/share/simulador_base/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+-- Installing: /work/install/simulador_base/share/simulador_base/cmake/rosidl_cmake_aggregate_target-extras.cmake
+-- Installing: /work/install/simulador_base/share/simulador_base/cmake/simulador_baseConfig.cmake
+-- Installing: /work/install/simulador_base/share/simulador_base/cmake/simulador_baseConfig-version.cmake
+-- Installing: /work/install/simulador_base/share/simulador_base/package.xml
+Finished <<< simulador_base [8.28s]
+Starting >>> teleoperacao
+running egg_info
+creating ../../../../work/build/teleoperacao/teleoperacao.egg-info
+writing ../../../../work/build/teleoperacao/teleoperacao.egg-info/PKG-INFO
+writing dependency_links to ../../../../work/build/teleoperacao/teleoperacao.egg-info/dependency_links.txt
+writing entry points to ../../../../work/build/teleoperacao/teleoperacao.egg-info/entry_points.txt
+writing requirements to ../../../../work/build/teleoperacao/teleoperacao.egg-info/requires.txt
+writing top-level names to ../../../../work/build/teleoperacao/teleoperacao.egg-info/top_level.txt
+writing manifest file '../../../../work/build/teleoperacao/teleoperacao.egg-info/SOURCES.txt'
+reading manifest file '../../../../work/build/teleoperacao/teleoperacao.egg-info/SOURCES.txt'
+writing manifest file '../../../../work/build/teleoperacao/teleoperacao.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /work/build/teleoperacao/build
+creating /work/build/teleoperacao/build/lib
+creating /work/build/teleoperacao/build/lib/teleoperacao
+copying teleoperacao/__init__.py -> /work/build/teleoperacao/build/lib/teleoperacao
+copying teleoperacao/modelo.py -> /work/build/teleoperacao/build/lib/teleoperacao
+copying teleoperacao/no.py -> /work/build/teleoperacao/build/lib/teleoperacao
+running install
+running install_lib
+creating /work/install/teleoperacao/lib/python3.12/site-packages/teleoperacao
+copying /work/build/teleoperacao/build/lib/teleoperacao/__init__.py -> /work/install/teleoperacao/lib/python3.12/site-packages/teleoperacao
+copying /work/build/teleoperacao/build/lib/teleoperacao/modelo.py -> /work/install/teleoperacao/lib/python3.12/site-packages/teleoperacao
+copying /work/build/teleoperacao/build/lib/teleoperacao/no.py -> /work/install/teleoperacao/lib/python3.12/site-packages/teleoperacao
+byte-compiling /work/install/teleoperacao/lib/python3.12/site-packages/teleoperacao/__init__.py to __init__.cpython-312.pyc
+byte-compiling /work/install/teleoperacao/lib/python3.12/site-packages/teleoperacao/modelo.py to modelo.cpython-312.pyc
+byte-compiling /work/install/teleoperacao/lib/python3.12/site-packages/teleoperacao/no.py to no.cpython-312.pyc
+running install_data
+creating /work/install/teleoperacao/share/ament_index
+creating /work/install/teleoperacao/share/ament_index/resource_index
+creating /work/install/teleoperacao/share/ament_index/resource_index/packages
+copying recursos/teleoperacao -> /work/install/teleoperacao/share/ament_index/resource_index/packages
+copying package.xml -> /work/install/teleoperacao/share/teleoperacao
+running install_egg_info
+Copying ../../../../work/build/teleoperacao/teleoperacao.egg-info to /work/install/teleoperacao/lib/python3.12/site-packages/teleoperacao-0.0.0-py3.12.egg-info
+running install_scripts
+Installing teclado script to /work/install/teleoperacao/lib/teleoperacao
+writing list of installed files to '/work/build/teleoperacao/install.log'
+Finished <<< teleoperacao [1.36s]
+Starting >>> odometria_rodas
+running egg_info
+creating ../../../../work/build/odometria_rodas/odometria_rodas.egg-info
+writing ../../../../work/build/odometria_rodas/odometria_rodas.egg-info/PKG-INFO
+writing dependency_links to ../../../../work/build/odometria_rodas/odometria_rodas.egg-info/dependency_links.txt
+writing entry points to ../../../../work/build/odometria_rodas/odometria_rodas.egg-info/entry_points.txt
+writing requirements to ../../../../work/build/odometria_rodas/odometria_rodas.egg-info/requires.txt
+writing top-level names to ../../../../work/build/odometria_rodas/odometria_rodas.egg-info/top_level.txt
+writing manifest file '../../../../work/build/odometria_rodas/odometria_rodas.egg-info/SOURCES.txt'
+reading manifest file '../../../../work/build/odometria_rodas/odometria_rodas.egg-info/SOURCES.txt'
+writing manifest file '../../../../work/build/odometria_rodas/odometria_rodas.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /work/build/odometria_rodas/build
+creating /work/build/odometria_rodas/build/lib
+creating /work/build/odometria_rodas/build/lib/odometria_rodas
+copying odometria_rodas/__init__.py -> /work/build/odometria_rodas/build/lib/odometria_rodas
+copying odometria_rodas/nucleo.py -> /work/build/odometria_rodas/build/lib/odometria_rodas
+copying odometria_rodas/no.py -> /work/build/odometria_rodas/build/lib/odometria_rodas
+running install
+running install_lib
+creating /work/install/odometria_rodas/lib/python3.12/site-packages/odometria_rodas
+copying /work/build/odometria_rodas/build/lib/odometria_rodas/__init__.py -> /work/install/odometria_rodas/lib/python3.12/site-packages/odometria_rodas
+copying /work/build/odometria_rodas/build/lib/odometria_rodas/nucleo.py -> /work/install/odometria_rodas/lib/python3.12/site-packages/odometria_rodas
+copying /work/build/odometria_rodas/build/lib/odometria_rodas/no.py -> /work/install/odometria_rodas/lib/python3.12/site-packages/odometria_rodas
+byte-compiling /work/install/odometria_rodas/lib/python3.12/site-packages/odometria_rodas/__init__.py to __init__.cpython-312.pyc
+byte-compiling /work/install/odometria_rodas/lib/python3.12/site-packages/odometria_rodas/nucleo.py to nucleo.cpython-312.pyc
+byte-compiling /work/install/odometria_rodas/lib/python3.12/site-packages/odometria_rodas/no.py to no.cpython-312.pyc
+running install_data
+creating /work/install/odometria_rodas/share/ament_index
+creating /work/install/odometria_rodas/share/ament_index/resource_index
+creating /work/install/odometria_rodas/share/ament_index/resource_index/packages
+copying recursos/odometria_rodas -> /work/install/odometria_rodas/share/ament_index/resource_index/packages
+copying package.xml -> /work/install/odometria_rodas/share/odometria_rodas
+running install_egg_info
+Copying ../../../../work/build/odometria_rodas/odometria_rodas.egg-info to /work/install/odometria_rodas/lib/python3.12/site-packages/odometria_rodas-0.1.0-py3.12.egg-info
+running install_scripts
+Installing calcular_odometria script to /work/install/odometria_rodas/lib/odometria_rodas
+writing list of installed files to '/work/build/odometria_rodas/install.log'
+Finished <<< odometria_rodas [1.34s]
+Starting >>> navegacao_simulada
+running egg_info
+creating ../../../../work/build/navegacao_simulada/navegacao_simulada.egg-info
+writing ../../../../work/build/navegacao_simulada/navegacao_simulada.egg-info/PKG-INFO
+writing dependency_links to ../../../../work/build/navegacao_simulada/navegacao_simulada.egg-info/dependency_links.txt
+writing entry points to ../../../../work/build/navegacao_simulada/navegacao_simulada.egg-info/entry_points.txt
+writing requirements to ../../../../work/build/navegacao_simulada/navegacao_simulada.egg-info/requires.txt
+writing top-level names to ../../../../work/build/navegacao_simulada/navegacao_simulada.egg-info/top_level.txt
+writing manifest file '../../../../work/build/navegacao_simulada/navegacao_simulada.egg-info/SOURCES.txt'
+reading manifest file '../../../../work/build/navegacao_simulada/navegacao_simulada.egg-info/SOURCES.txt'
+writing manifest file '../../../../work/build/navegacao_simulada/navegacao_simulada.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /work/build/navegacao_simulada/build
+creating /work/build/navegacao_simulada/build/lib
+creating /work/build/navegacao_simulada/build/lib/navegacao_simulada
+copying navegacao_simulada/__init__.py -> /work/build/navegacao_simulada/build/lib/navegacao_simulada
+copying navegacao_simulada/trajetorias.py -> /work/build/navegacao_simulada/build/lib/navegacao_simulada
+running install
+running install_lib
+creating /work/install/navegacao_simulada/lib/python3.12/site-packages/navegacao_simulada
+copying /work/build/navegacao_simulada/build/lib/navegacao_simulada/__init__.py -> /work/install/navegacao_simulada/lib/python3.12/site-packages/navegacao_simulada
+copying /work/build/navegacao_simulada/build/lib/navegacao_simulada/trajetorias.py -> /work/install/navegacao_simulada/lib/python3.12/site-packages/navegacao_simulada
+byte-compiling /work/install/navegacao_simulada/lib/python3.12/site-packages/navegacao_simulada/__init__.py to __init__.cpython-312.pyc
+byte-compiling /work/install/navegacao_simulada/lib/python3.12/site-packages/navegacao_simulada/trajetorias.py to trajetorias.cpython-312.pyc
+running install_data
+creating /work/install/navegacao_simulada/share/ament_index
+creating /work/install/navegacao_simulada/share/ament_index/resource_index
+creating /work/install/navegacao_simulada/share/ament_index/resource_index/packages
+copying recursos/navegacao_simulada -> /work/install/navegacao_simulada/share/ament_index/resource_index/packages
+copying package.xml -> /work/install/navegacao_simulada/share/navegacao_simulada
+creating /work/install/navegacao_simulada/share/navegacao_simulada/inicializacao
+copying inicializacao/simulacao.launch.py -> /work/install/navegacao_simulada/share/navegacao_simulada/inicializacao
+creating /work/install/navegacao_simulada/share/navegacao_simulada/configuracao
+copying configuracao/simulacao.yaml -> /work/install/navegacao_simulada/share/navegacao_simulada/configuracao
+creating /work/install/navegacao_simulada/share/navegacao_simulada/visualizacao
+copying visualizacao/simulacao.rviz -> /work/install/navegacao_simulada/share/navegacao_simulada/visualizacao
+running install_egg_info
+Copying ../../../../work/build/navegacao_simulada/navegacao_simulada.egg-info to /work/install/navegacao_simulada/lib/python3.12/site-packages/navegacao_simulada-0.0.0-py3.12.egg-info
+running install_scripts
+Installing trajetorias script to /work/install/navegacao_simulada/lib/navegacao_simulada
+writing list of installed files to '/work/build/navegacao_simulada/install.log'
+Finished <<< navegacao_simulada [1.37s]
+
+Summary: 8 packages finished [18.2s]
+Starting >>> simulador_base
+Starting >>> comando_rodas
+Starting >>> fusao_sensores
+Starting >>> processamento_imu
+Starting >>> robo_movel
+Starting >>> teleoperacao
+============================= test session starts ==============================
+platform linux -- Python 3.12.3, pytest-7.4.4, pluggy-1.4.0
+cachedir: /work/build/comando_rodas/.pytest_cache
+rootdir: /workspace/src/navegacao/comando_rodas
+configfile: setup.cfg
+testpaths: testes
+plugins: ament-copyright-0.17.5, ament-flake8-0.17.5, ament-lint-0.17.5, ament-pep257-0.17.5, ament-xmllint-0.17.5, launch-testing-3.4.12, launch-testing-ros-0.26.13, colcon-core-0.21.3
+collected 14 items
+
+testes/teste_modelo.py ..............                                    [100%]
+
+----------- generated xml file: /work/build/comando_rodas/pytest.xml -----------
+============================== 14 passed in 0.05s ==============================
+============================= test session starts ==============================
+platform linux -- Python 3.12.3, pytest-7.4.4, pluggy-1.4.0
+cachedir: /work/build/fusao_sensores/.pytest_cache
+rootdir: /workspace/src/localizacao/fusao_sensores
+configfile: setup.cfg
+testpaths: testes
+plugins: ament-copyright-0.17.5, ament-flake8-0.17.5, ament-lint-0.17.5, ament-pep257-0.17.5, ament-xmllint-0.17.5, launch-testing-3.4.12, launch-testing-ros-0.26.13, colcon-core-0.21.3
+collected 2 items
+
+testes/teste_estimador.py .                                              [ 50%]
+testes/teste_recursos.py .                                               [100%]
+
+---------- generated xml file: /work/build/fusao_sensores/pytest.xml -----------
+============================== 2 passed in 0.03s ===============================
+Finished <<< comando_rodas [1.20s]
+Finished <<< fusao_sensores [1.20s]
+============================= test session starts ==============================
+platform linux -- Python 3.12.3, pytest-7.4.4, pluggy-1.4.0
+cachedir: /work/build/processamento_imu/.pytest_cache
+rootdir: /workspace/src/percepcao/processamento_imu
+configfile: setup.cfg
+testpaths: testes
+plugins: ament-copyright-0.17.5, ament-flake8-0.17.5, ament-lint-0.17.5, ament-pep257-0.17.5, ament-xmllint-0.17.5, launch-testing-3.4.12, launch-testing-ros-0.26.13, colcon-core-0.21.3
+collected 53 items
+
+testes/teste_nucleo.py ................................................. [ 92%]
+..                                                                       [ 96%]
+testes/teste_pacote.py ..                                                [100%]
+
+--------- generated xml file: /work/build/processamento_imu/pytest.xml ---------
+============================== 53 passed in 0.10s ==============================
+Finished <<< processamento_imu [1.20s]
+UpdateCTestConfiguration  from :/work/build/simulador_base/CTestConfiguration.ini
+Parse Config file:/work/build/simulador_base/CTestConfiguration.ini
+   Site: 6467d043fa29
+   Build name: (empty)
+ Add coverage exclude regular expressions.
+Create new tag: 20261106-1341 - Experimental
+UpdateCTestConfiguration  from :/work/build/simulador_base/CTestConfiguration.ini
+Parse Config file:/work/build/simulador_base/CTestConfiguration.ini
+Test project /work/build/simulador_base
+Constructing a list of tests
+Done constructing a list of tests
+Updating test list for fixtures
+Added 0 tests to meet fixture requirements
+Checking test dependency graph...
+Checking test dependency graph end
+test 1
+    Start 1: testes_simulador_base
+
+1: Test command: /usr/bin/python3 "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/work/build/simulador_base/test_results/simulador_base/testes_simulador_base.xunit.xml" "--package-name" "simulador_base" "--output-file" "/work/build/simulador_base/ament_cmake_pytest/testes_simulador_base.txt" "--append-env" "PYTHONPATH=/workspace/src/dispositivos/simulador_base" "--command" "/usr/bin/python3" "-u" "-m" "pytest" "/workspace/src/dispositivos/simulador_base/testes" "-o" "cache_dir=/work/build/simulador_base/ament_cmake_pytest/testes_simulador_base/.cache" "--junit-xml=/work/build/simulador_base/test_results/simulador_base/testes_simulador_base.xunit.xml" "--junit-prefix=simulador_base"
+1: Working Directory: /workspace/src/dispositivos/simulador_base
+1: Test timeout computed to be: 60
+1: -- run_test.py: extra environment variables to append:
+1:  - PYTHONPATH+=/workspace/src/dispositivos/simulador_base
+1: -- run_test.py: invoking following command in '/workspace/src/dispositivos/simulador_base':
+1:  - /usr/bin/python3 -u -m pytest /workspace/src/dispositivos/simulador_base/testes -o cache_dir=/work/build/simulador_base/ament_cmake_pytest/testes_simulador_base/.cache --junit-xml=/work/build/simulador_base/test_results/simulador_base/testes_simulador_base.xunit.xml --junit-prefix=simulador_base
+============================= test session starts ==============================
+platform linux -- Python 3.12.3, pytest-7.4.4, pluggy-1.4.0
+cachedir: /work/build/robo_movel/.pytest_cache
+rootdir: /workspace/src/descricao/robo_movel
+configfile: setup.cfg
+testpaths: testes
+plugins: ament-copyright-0.17.5, ament-flake8-0.17.5, ament-lint-0.17.5, ament-pep257-0.17.5, ament-xmllint-0.17.5, launch-testing-3.4.12, launch-testing-ros-0.26.13, colcon-core-0.21.3
+collected 18 items
+
+testes/teste_descricao.py ..                                             [ 11%]
+testes/teste_documentacao.py .                                           [ 16%]
+testes/teste_estrutura.py .                                              [ 22%]
+testes/teste_geometria_descricao.py .......                              [ 61%]
+testes/teste_localizacao.py .                                            [ 66%]
+============================= test session starts ==============================
+platform linux -- Python 3.12.3, pytest-7.4.4, pluggy-1.4.0
+cachedir: /work/build/teleoperacao/.pytest_cache
+rootdir: /workspace/src/navegacao/teleoperacao
+configfile: setup.cfg
+testpaths: testes
+plugins: ament-copyright-0.17.5, ament-flake8-0.17.5, ament-lint-0.17.5, ament-pep257-0.17.5, ament-xmllint-0.17.5, launch-testing-3.4.12, launch-testing-ros-0.26.13, colcon-core-0.21.3
+collected 2 items
+
+testes/teste_teclado.py ..                                               [100%]
+
+----------- generated xml file: /work/build/teleoperacao/pytest.xml ------------
+============================== 2 passed in 0.02s ===============================
+Finished <<< teleoperacao [1.61s]
+1: ============================= test session starts ==============================
+1: platform linux -- Python 3.12.3, pytest-7.4.4, pluggy-1.4.0
+1: rootdir: /workspace/src/dispositivos/simulador_base
+1: configfile: pytest.ini
+1: plugins: ament-copyright-0.17.5, ament-flake8-0.17.5, ament-lint-0.17.5, ament-pep257-0.17.5, ament-xmllint-0.17.5, launch-testing-3.4.12, launch-testing-ros-0.26.13, colcon-core-0.21.3
+1: collected 65 items
+1: 
+1: testes/teste_contrato_ros.py ..                                          [  3%]
+testes/teste_modelos_cad.py .                                            [ 72%]
+testes/teste_nomenclatura.py ..                                          [ 83%]
+1: testes/teste_importacao_ros.py .                                         [  4%]
+1: testes/teste_nucleo.py .............................                     [ 49%]
+1: testes/teste_referencia.py ............................                  [ 92%]
+1: testes/teste_sensores.py .....                                           [100%]
+1: 
+1: - generated xml file: /work/build/simulador_base/test_results/simulador_base/testes_simulador_base.xunit.xml -
+1: ============================== 65 passed in 0.53s ==============================
+1: -- run_test.py: return code 0
+1: -- run_test.py: verify result file '/work/build/simulador_base/test_results/simulador_base/testes_simulador_base.xunit.xml'
+1/1 Test #1: testes_simulador_base ............   Passed    1.06 sec
+
+100% tests passed, 0 tests failed out of 1
+
+Label Time Summary:
+pytest    =   1.06 sec*proc (1 test)
+
+Total Test time (real) =   1.06 sec
+Finished <<< simulador_base [2.29s]
+Starting >>> odometria_rodas
+testes/teste_publicacao.py ..                                            [ 94%]
+testes/teste_vault.py .                                                  [100%]
+
+------------ generated xml file: /work/build/robo_movel/pytest.xml -------------
+============================== 18 passed in 1.39s ==============================
+Finished <<< robo_movel [2.74s]
+============================= test session starts ==============================
+platform linux -- Python 3.12.3, pytest-7.4.4, pluggy-1.4.0
+cachedir: /work/build/odometria_rodas/.pytest_cache
+rootdir: /workspace/src/localizacao/odometria_rodas
+configfile: setup.cfg
+testpaths: testes
+plugins: ament-copyright-0.17.5, ament-flake8-0.17.5, ament-lint-0.17.5, ament-pep257-0.17.5, ament-xmllint-0.17.5, launch-testing-3.4.12, launch-testing-ros-0.26.13, colcon-core-0.21.3
+collected 54 items
+
+testes/teste_nucleo.py ................................................. [ 90%]
+...                                                                      [ 96%]
+testes/teste_pacote.py ..                                                [100%]
+
+---------- generated xml file: /work/build/odometria_rodas/pytest.xml ----------
+============================== 54 passed in 0.12s ==============================
+Finished <<< odometria_rodas [0.75s]
+Starting >>> navegacao_simulada
+============================= test session starts ==============================
+platform linux -- Python 3.12.3, pytest-7.4.4, pluggy-1.4.0
+cachedir: /work/build/navegacao_simulada/.pytest_cache
+rootdir: /workspace/src/navegacao/navegacao_simulada
+configfile: setup.cfg
+testpaths: testes
+plugins: ament-copyright-0.17.5, ament-flake8-0.17.5, ament-lint-0.17.5, ament-pep257-0.17.5, ament-xmllint-0.17.5, launch-testing-3.4.12, launch-testing-ros-0.26.13, colcon-core-0.21.3
+collected 2 items
+
+testes/teste_recursos.py ..                                              [100%]
+
+-------- generated xml file: /work/build/navegacao_simulada/pytest.xml ---------
+============================== 2 passed in 0.02s ===============================
+Finished <<< navegacao_simulada [0.68s]
+
+Summary: 8 packages finished [3.95s]
+Summary: 211 tests, 0 errors, 0 failures, 0 skipped
+{"teleop": {"avanco": true, "giro": true, "re": true, "espaco_para_parar": true, "soltar_tecla_expira": true, "saida_q_limpa": true, "terminal_real_pty": true}, "erros_medidos": {"fusao": {"posicao_m": 0.0026097884128912915, "orientacao_rad": 0.0024521150312439843}, "rodas": {"posicao_m": 0.13200271617891546, "orientacao_rad": 0.26756047998901655}}, "referencia": [0.5480260745452066, 0.6028917010013908, 2.796000000000002], "estimada": [0.550431186957659, 0.6018785722615315, 2.798452115031246], "odometria_rodas": [0.6591876354735533, 0.5317030470558022, 2.5284395200109855], "expiracao_comando": true, "invalido_nan_antigo_futuro": true, "um_unico_dono_tf_odom": true, "autor_tf_odom": "estimador_local", "clock_simulado_monotonico": true, "velocidade_reta_media_m_s": 0.18, "falha_injetada": "EKF suspenso por 0.65 s para confirmar autoria TF; avisos de taxa na retomada são esperados", "orientacao_imu_indisponivel": true, "contagens_topicos": {"/odom": 1059, "/odometria/rodas": 1231, "/joint_states": 1231, "/imu/data_raw": 1231, "/clock": 1092, "/simulacao/referencia": 1091, "/sensores/rodas": 1091, "/cmd_vel": 369, "/rodas/referencia": 333}, "limite": "Ensaio cinemático com sensores virtuais e parâmetros sintéticos; não comprova desempenho físico ou localização global.", "status": "OK", "encerramento_limpo": true}
+{"reinicio_do_lancamento": true, "origem_reinicializada": true, "movimento_e_expiracao": true, "status": "OK", "encerramento_limpo": true}
+

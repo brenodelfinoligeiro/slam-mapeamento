@@ -1,0 +1,29 @@
+{
+  "lifecycle": {
+    "slam_toolbox": "active",
+    "planner_server": "active",
+    "controller_server": "active",
+    "behavior_server": "active",
+    "bt_navigator": "active"
+  },
+  "saida_final_exclusiva": "arbitro",
+  "fontes_velocidade_nav2": [
+    "behavior_server",
+    "controller_server"
+  ],
+  "ground_truth_fora_dos_consumidores_autonomos": true,
+  "cliente_publico_ir_para_exercitado": true,
+  "reinicio_manual_sem_objetivos_antigos": true,
+  "oraculo_contato": {
+    "amostras": 729,
+    "comprimento_m": 0.5383613320118437,
+    "folga_minima_m": 0.8590306508910551,
+    "sem_interseccao_com_envoltoria": true,
+    "raio_verificado_m": 0.18,
+    "margem_amostragem_m": 0.005
+  },
+  "status": "OK",
+  "encerramento_limpo": true,
+  "max_intervalo_amostras_ros_s": 0.18000000000000016,
+  "limite": "Nav2/SLAM reais em ROS Jazzy AMD64, sensores/planta cinemáticos. Não é teste físico nem prova de segurança funcional."
+}

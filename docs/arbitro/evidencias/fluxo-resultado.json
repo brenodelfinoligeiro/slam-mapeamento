@@ -1,0 +1,17 @@
+{
+  "manual_e_autonomo_exclusivos": true,
+  "sem_ultima_mensagem_vence": true,
+  "sem_fallback_implicito": true,
+  "troca_neutra": true,
+  "parada_travada": true,
+  "expiracao": true,
+  "replay_nao_renova": true,
+  "nan_rejeitado": true,
+  "carimbo_inteiro_preservado": true,
+  "watchdog_com_clock_pausado": true,
+  "base_se_move_com_saida_arbitrada": true,
+  "teclado_real_remapeado": true,
+  "status": "OK",
+  "encerramento_limpo": true,
+  "limite": "Comandos autônomos são entradas sintéticas de teste; nenhum Nav2 ou hardware."
+}

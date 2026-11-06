@@ -1,0 +1,57 @@
+{
+  "mapa": {
+    "largura": 121,
+    "altura": 101,
+    "resolucao_m": 0.05000000074505806,
+    "celulas_ocupadas": 559,
+    "celulas_livres": 10892,
+    "celulas_desconhecidas": 770,
+    "distancia_mediana_ocupados_parede_m": 0.013153838650624028,
+    "fracao_ocupados_proximos_parede": 1.0,
+    "fracao_parede_proxima_ocupado": 0.9490333919156415,
+    "tolerancia_m": 0.15,
+    "limite": "Paredes ocultas podem permanecer desconhecidas; não é validação física."
+  },
+  "erro_pose": {
+    "posicao_m": 0.0007277167404194832,
+    "orientacao_rad": 0.0011391814414083447
+  },
+  "pose_estimada": [
+    -0.00011231851981117611,
+    -0.0007189966650786234,
+    0.0011391814414083447
+  ],
+  "referencia_oraculo": [
+    7.806255641895632e-18,
+    0.0,
+    0.0
+  ],
+  "modo": "localizacao",
+  "lifecycle_ativo": true,
+  "fonte_mapa": "slam_toolbox",
+  "fonte_scan": "lidar_simulado",
+  "referencia_perfeita_fora_das_entradas_slam": true,
+  "tf_map_odom_autoria_causal": true,
+  "arquivos_salvos_ou_carregados": {
+    ".posegraph": {
+      "bytes": 5947461,
+      "sha256": "5fdf7bbc439ee617a804044a0d21c8ce406b8db4c9f5c7982a8fd748874f68a9"
+    },
+    ".data": {
+      "bytes": 940859,
+      "sha256": "ccf69c086f9c3d68fdd05c19b494074582b8a44fd0ec1e70650dcbbbb55fbb0a"
+    },
+    ".pgm": {
+      "bytes": 12236,
+      "sha256": "0c479e157895e19a0ab7bfe99889cfe3309b39e6787e2a8c5fc27f7ad0342b4f"
+    },
+    ".yaml": {
+      "bytes": 128,
+      "sha256": "0609f4a646a59b31650df5594f68bb107d3f00c4a667ee17d9fa572d67b8f4aa"
+    }
+  },
+  "limite": "Cenário e raios virtuais; não é medição física ou navegação autônoma.",
+  "grafo_original_preservado": true,
+  "status": "OK",
+  "encerramento_limpo": true
+}

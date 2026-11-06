@@ -7,6 +7,8 @@ atualizado: 2026-11-04
 
 ## Resolver antes de fixar parâmetros
 
+- O [[01-componentes/Powerbank-Basike|Basike real]] de 150 × 70 × 30 mm e 420 g indicados já está corrigido na [R02](../../carcaca-r02/LEIA-ME.md), em berço traseiro baixo. Validar retenção, cabos, estabilidade, térmica com carcaça fechada e fornecimento real de 5 V/3 A à Pi. A geometria foi atualizada; os ensaios físicos continuam pendentes.
+
 - Identificar o circuito integrado e a pinagem real dos módulos MH-Sensor-Series.
 - Medir níveis de saída e eventos por volta da roda.
 - Confirmar placa ESP e GPIOs disponíveis sem fechar a escolha por um periférico que não seja necessário.
@@ -17,8 +19,9 @@ atualizado: 2026-11-04
 
 ## Possibilidades, não decisões
 
-- Arranjo provisório em avaliação: pilhas AA para os motores informados pelo autor como 12 V e powerbank separado para a Raspberry Pi 5. Oito AA alcalinas em série dão 12 V nominais, mas não garantem corrente de partida adequada nem compensam a perda da L298N. Confirmar tensão no modelo real, química/número das AA, porta-pilhas, corrente de partida dos motores, saída USB-C real do powerbank, alimentação do ESP e forma de retenção física. Não dimensionar autonomia por mAh nominais sem conhecer conversão e carga.
+- O autor fechou quatro AA. O [estudo de disposição 2D](../../disposicao-2d/LEIA-ME.md) propõe dois pisos e ponte para o C1, com reservas explícitas de holder, ESP e powerbank. A quantidade não é hipótese; química, suporte exato, posições e fixações continuam em aberto. Quatro alcalinas fornecem 6 V nominais antes das perdas na L298N, insuficientes para presumir desempenho nominal de motores informados como 12 V. Validar partida, corrente, torque, refrigeração e saída real do powerbank; não presumir autonomia por mAh nem acrescentar conversor elevador sem decisão.
 - Para mockup mecânico, manter pack de pilhas baixo; usar cinta/suporte removível para powerbank e placas, com espaço para dissipador, conectores e fluxo de ar. Validar centro de massa e acesso antes de imprimir suportes definitivos.
+- [Estudo 3D](../../montagem-3d/LEIA-ME.md) gerado a partir dos CADs locais: ESP e L298N elevados em 6 mm em relação ao 2D para liberar os suportes dos motores no CAD original. Discos, fixações, holder, ESP e powerbank permanecem ilustrativos/propostos; não assumir alinhamento óptico, resolução dos discos, ausência de colisões ou estabilidade física.
 - Comparar estimativa por janela e por intervalo de eventos quando a resolução for conhecida.
 - Avaliar PCNT se a placa escolhida o disponibilizar; usar interrupções quando adequado ao volume real de pulsos.
 - Investigar condicionamento ou filtragem se forem observados níveis incompatíveis ou pulsos falsos.

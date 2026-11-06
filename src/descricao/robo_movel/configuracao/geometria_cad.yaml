@@ -1,0 +1,18 @@
+origem: CAD R05; não são medidas físicas/calibração
+unidade: m
+calibrado: false
+distancia_entre_rodas: 0.13238015174865722
+raio_vertical_referencia: 0.03446139931678772
+footprint_retangular_referencia:
+- - -0.14508074025809764
+  - -0.08861317485570908
+- - 0.08555921167135239
+  - -0.08861317485570908
+- - 0.08555921167135239
+  - 0.09078682214021683
+- - -0.14508074025809764
+  - 0.09078682214021683
+sensor_frames_de_dados:
+  imu: 'pendente: datum imu_mount_link não define eixos do dado bruto'
+  lidar: 'pendente: datum lidar_mount_link não é o plano óptico laser'
+rodizio_acima_plano_rodas_mm: 5.313068866729736

@@ -1,0 +1,96 @@
+{
+  "versao": 1,
+  "uso": "Malhas de runtime derivadas do CAD. Manter locais e fora de publicação automática; não são STL de fabricação.",
+  "arquivos": [
+    {
+      "caminho": "src/slamderson/descricao/malhas/estrutura_r05.stl",
+      "sha256": "487cf7ddecb12a006e3d6994c51df24b300f8fc6648369781baea11d0dec57c1",
+      "motivo": "Derivado visual de referências CAD com cadeia de licenças/redistribuição pendente. Gerado localmente para o projeto; não publicar automaticamente."
+    },
+    {
+      "caminho": "src/slamderson/descricao/malhas/ferragens_r05.stl",
+      "sha256": "4c2695e6788ff2a721f97c305ce713c8b869a55002b605872bd343aa8e3f5c24",
+      "motivo": "Derivado visual de referências CAD com cadeia de licenças/redistribuição pendente. Gerado localmente para o projeto; não publicar automaticamente."
+    },
+    {
+      "caminho": "src/slamderson/descricao/malhas/chassi_r05.stl",
+      "sha256": "58dae1dfd2b6d8a1eaee4f841693bac9a8406e42cbb03ddb549ebe427e58c749",
+      "motivo": "Derivado visual de referências CAD com cadeia de licenças/redistribuição pendente. Gerado localmente para o projeto; não publicar automaticamente."
+    },
+    {
+      "caminho": "src/slamderson/descricao/malhas/motores_r05.stl",
+      "sha256": "1761dadf4b15543caf4a56cc78acdac42e12576509702851eb048248fd0963f3",
+      "motivo": "Derivado visual de referências CAD com cadeia de licenças/redistribuição pendente. Gerado localmente para o projeto; não publicar automaticamente."
+    },
+    {
+      "caminho": "src/slamderson/descricao/malhas/eletronica_r05.stl",
+      "sha256": "0a4bbcb76594ea5a02ef55f313e23ee3546297b5d657d9bced0b94ce61850989",
+      "motivo": "Derivado visual de referências CAD com cadeia de licenças/redistribuição pendente. Gerado localmente para o projeto; não publicar automaticamente."
+    },
+    {
+      "caminho": "src/slamderson/descricao/malhas/holder_r05.stl",
+      "sha256": "1d134228250232abd1ddbfb9de449d93263835918cbfd513b2b0207d69be8b27",
+      "motivo": "Derivado visual de referências CAD com cadeia de licenças/redistribuição pendente. Gerado localmente para o projeto; não publicar automaticamente."
+    },
+    {
+      "caminho": "src/slamderson/descricao/malhas/pilhas_r05.stl",
+      "sha256": "6493f533b3b93cdf34e88f1085d289ea7b76f4d613a5e6bcbb871541ba319fb8",
+      "motivo": "Derivado visual de referências CAD com cadeia de licenças/redistribuição pendente. Gerado localmente para o projeto; não publicar automaticamente."
+    },
+    {
+      "caminho": "src/slamderson/descricao/malhas/esp_reserva_r05.stl",
+      "sha256": "8974f05665f711422fc8f4cec1f4e99939944ae3adea6a3c2f19f416e38854b2",
+      "motivo": "Derivado visual de referências CAD com cadeia de licenças/redistribuição pendente. Gerado localmente para o projeto; não publicar automaticamente."
+    },
+    {
+      "caminho": "src/slamderson/descricao/malhas/powerbank_r05.stl",
+      "sha256": "d1cea288fb16c3a4e995589735656ccf89a86593734256f1b7e6cdcf1980802b",
+      "motivo": "Derivado visual de referências CAD com cadeia de licenças/redistribuição pendente. Gerado localmente para o projeto; não publicar automaticamente."
+    },
+    {
+      "caminho": "src/slamderson/descricao/malhas/pneu_esquerdo_r05.stl",
+      "sha256": "8058f0611ac2ed70c7fa033901c661f400ef7cd1d3ef352834026052a0d8693e",
+      "motivo": "Derivado visual de referências CAD com cadeia de licenças/redistribuição pendente. Gerado localmente para o projeto; não publicar automaticamente."
+    },
+    {
+      "caminho": "src/slamderson/descricao/malhas/cubo_esquerdo_r05.stl",
+      "sha256": "bb6a02f4e1dd3f0b277e43fee3603588a7b6ed2036c2b5c6ac0ea845d41a2650",
+      "motivo": "Derivado visual de referências CAD com cadeia de licenças/redistribuição pendente. Gerado localmente para o projeto; não publicar automaticamente."
+    },
+    {
+      "caminho": "src/slamderson/descricao/malhas/disco_esquerdo_r05.stl",
+      "sha256": "97aa271122dec3d1d0f4e3e2df81c72d01e8974fa126e5a9a94986e768664bb8",
+      "motivo": "Derivado visual de referências CAD com cadeia de licenças/redistribuição pendente. Gerado localmente para o projeto; não publicar automaticamente."
+    },
+    {
+      "caminho": "src/slamderson/descricao/malhas/pneu_direito_r05.stl",
+      "sha256": "8a209ffedc1899aa5430f08f0101b376f2124999fb35ab916d668cf951444b1f",
+      "motivo": "Derivado visual de referências CAD com cadeia de licenças/redistribuição pendente. Gerado localmente para o projeto; não publicar automaticamente."
+    },
+    {
+      "caminho": "src/slamderson/descricao/malhas/cubo_direito_r05.stl",
+      "sha256": "72fba87e8fb02d85475ee8708155c252f9aeae4ee79f3b2998e1d991505d1ca6",
+      "motivo": "Derivado visual de referências CAD com cadeia de licenças/redistribuição pendente. Gerado localmente para o projeto; não publicar automaticamente."
+    },
+    {
+      "caminho": "src/slamderson/descricao/malhas/disco_direito_r05.stl",
+      "sha256": "8658f7bcf8106a7d5e6fc0deebef98423b0f4de2bab995b2de9785855d026723",
+      "motivo": "Derivado visual de referências CAD com cadeia de licenças/redistribuição pendente. Gerado localmente para o projeto; não publicar automaticamente."
+    },
+    {
+      "caminho": "src/slamderson/descricao/malhas/rodizio_r05.stl",
+      "sha256": "939e7a6e2f12b5785d49b9e7c157a4cdc75fce518080979fd195e3bd12aca5f8",
+      "motivo": "Derivado visual de referências CAD com cadeia de licenças/redistribuição pendente. Gerado localmente para o projeto; não publicar automaticamente."
+    },
+    {
+      "caminho": "src/slamderson/descricao/malhas/lidar_r05.stl",
+      "sha256": "5341b9aabe42255b82dd63a83c92c4fc9c432eb73db2001e792998767973fb86",
+      "motivo": "Derivado visual de referências CAD com cadeia de licenças/redistribuição pendente. Gerado localmente para o projeto; não publicar automaticamente."
+    },
+    {
+      "caminho": "src/slamderson/descricao/malhas/imu_r05.stl",
+      "sha256": "3273ed464f764e7090686100e31e33d08c264b98dc19040e481a7ab4413c34c4",
+      "motivo": "Derivado visual de referências CAD com cadeia de licenças/redistribuição pendente. Gerado localmente para o projeto; não publicar automaticamente."
+    }
+  ]
+}

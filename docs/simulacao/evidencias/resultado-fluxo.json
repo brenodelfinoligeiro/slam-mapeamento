@@ -1,0 +1,58 @@
+{
+  "teleop": {
+    "avanco": true,
+    "giro": true,
+    "re": true,
+    "espaco_para_parar": true,
+    "soltar_tecla_expira": true,
+    "saida_q_limpa": true,
+    "terminal_real_pty": true
+  },
+  "erros_medidos": {
+    "fusao": {
+      "posicao_m": 0.002409075388115474,
+      "orientacao_rad": 0.0019156094506387336
+    },
+    "rodas": {
+      "posicao_m": 0.1328065199177127,
+      "orientacao_rad": 0.26884314378047286
+    }
+  },
+  "referencia": [
+    0.5321952003070379,
+    0.6164830892531226,
+    2.820000000000002
+  ],
+  "estimada": [
+    0.5343977130492987,
+    0.6155070862583513,
+    2.821915609450641
+  ],
+  "odometria_rodas": [
+    0.6458479160720146,
+    0.5477762341955722,
+    2.5511568562195293
+  ],
+  "expiracao_comando": true,
+  "invalido_nan_antigo_futuro": true,
+  "um_unico_dono_tf_odom": true,
+  "autor_tf_odom": "estimador_local",
+  "clock_simulado_monotonico": true,
+  "velocidade_reta_media_m_s": 0.18,
+  "falha_injetada": "EKF suspenso por 0.65 s para confirmar autoria TF; avisos de taxa na retomada são esperados",
+  "orientacao_imu_indisponivel": true,
+  "contagens_topicos": {
+    "/odom": 1228,
+    "/clock": 1271,
+    "/simulacao/referencia": 1270,
+    "/sensores/rodas": 1270,
+    "/odometria/rodas": 1123,
+    "/joint_states": 1123,
+    "/imu/data_raw": 1123,
+    "/cmd_vel": 362,
+    "/rodas/referencia": 328
+  },
+  "limite": "Ensaio cinemático com sensores virtuais e parâmetros sintéticos; não comprova desempenho físico ou localização global.",
+  "status": "OK",
+  "encerramento_limpo": true
+}

@@ -1,0 +1,1237 @@
+{
+  "paginas": 24,
+  "modelos_unicos": 24,
+  "vistas": 72,
+  "sha256_zip_origem": "997715419fcd7338442b5ebf533651159580ad91e552318e37973d38fe7766a7",
+  "sha256_pdf": "88b9257b65cb3ce1377cc50b3ab01483a1b13c58f8c2be586d675a5249dc2621",
+  "bytes_pdf": 1813012,
+  "paginas_modelos": [
+    {
+      "pagina": 1,
+      "codigo": "P01",
+      "nome": "Saia dianteira",
+      "arquivo_zip": "P01_Saia_dianteira_1x.stl",
+      "sha256": "4d86404af57491d91eaefc509be8a83d0a46bae4d0b8436f84c73bd8bddbb2c0",
+      "vistas": [
+        "P01_superior.png",
+        "P01_frontal.png",
+        "P01_lateral.png"
+      ]
+    },
+    {
+      "pagina": 2,
+      "codigo": "P02",
+      "nome": "Saia traseira",
+      "arquivo_zip": "P02_Saia_traseira_1x.stl",
+      "sha256": "95bea05743be82e8293c745896d0d911f2daa5c6bef8ecb205c9097c0b7170de",
+      "vistas": [
+        "P02_superior.png",
+        "P02_frontal.png",
+        "P02_lateral.png"
+      ]
+    },
+    {
+      "pagina": 3,
+      "codigo": "P03",
+      "nome": "Teto dianteiro esquerdo",
+      "arquivo_zip": "P03_Teto_dianteiro_esquerdo_1x.stl",
+      "sha256": "cff75393648bab4c7224c07ba3600220d44dba2aefa8aeccd0be04d5a5d3da9a",
+      "vistas": [
+        "P03_superior.png",
+        "P03_frontal.png",
+        "P03_lateral.png"
+      ]
+    },
+    {
+      "pagina": 4,
+      "codigo": "P04",
+      "nome": "Teto dianteiro direito",
+      "arquivo_zip": "P04_Teto_dianteiro_direito_1x.stl",
+      "sha256": "7d40c84664d91fcf0e4bdd96666b68e66c382a8c447c67914a8f2981fb644864",
+      "vistas": [
+        "P04_superior.png",
+        "P04_frontal.png",
+        "P04_lateral.png"
+      ]
+    },
+    {
+      "pagina": 5,
+      "codigo": "P05",
+      "nome": "Teto traseiro esquerdo",
+      "arquivo_zip": "P05_Teto_traseiro_esquerdo_1x.stl",
+      "sha256": "cbee04335b8935be0ef3b1076ea93f4711c721d3ac5f9ecf09a0a100a0e3c556",
+      "vistas": [
+        "P05_superior.png",
+        "P05_frontal.png",
+        "P05_lateral.png"
+      ]
+    },
+    {
+      "pagina": 6,
+      "codigo": "P06",
+      "nome": "Teto traseiro direito",
+      "arquivo_zip": "P06_Teto_traseiro_direito_1x.stl",
+      "sha256": "6d82fe23327e3e1f063db90f97aef3a2059bb1906b305a6c06774fd8ba4fa727",
+      "vistas": [
+        "P06_superior.png",
+        "P06_frontal.png",
+        "P06_lateral.png"
+      ]
+    },
+    {
+      "pagina": 7,
+      "codigo": "P07",
+      "nome": "Portinhola AA",
+      "arquivo_zip": "P07_Portinhola_AA_1x.stl",
+      "sha256": "cf1f7453cd7839f2dd50fba52d7dceb196f08824a0812ebcee31017e6eea07c0",
+      "vistas": [
+        "P07_superior.png",
+        "P07_frontal.png",
+        "P07_lateral.png"
+      ]
+    },
+    {
+      "pagina": 8,
+      "codigo": "P08",
+      "nome": "Portinhola PB",
+      "arquivo_zip": "P08_Portinhola_PB_1x.stl",
+      "sha256": "1bfffc7264790b811e76c5c2d6b5344d560cb3c779226cda1e75af8afcd7b838",
+      "vistas": [
+        "P08_superior.png",
+        "P08_frontal.png",
+        "P08_lateral.png"
+      ]
+    },
+    {
+      "pagina": 9,
+      "codigo": "P09",
+      "nome": "Painel lateral PB",
+      "arquivo_zip": "P09_Painel_lateral_PB_1x.stl",
+      "sha256": "5b226087c91d920c73ab79ebe12c1953a8cdb400e216f2ab46007b4a5aa5f3d0",
+      "vistas": [
+        "P09_superior.png",
+        "P09_frontal.png",
+        "P09_lateral.png"
+      ]
+    },
+    {
+      "pagina": 10,
+      "codigo": "P10",
+      "nome": "Uniao interna teto",
+      "arquivo_zip": "P10_Uniao_interna_teto_2x.stl",
+      "sha256": "8a4e6f3b1c3effe2cb20a4333bc34bde59145425b9176a5c6a3802c0c9a0e1b2",
+      "vistas": [
+        "P10_superior.png",
+        "P10_frontal.png",
+        "P10_lateral.png"
+      ]
+    },
+    {
+      "pagina": 11,
+      "codigo": "P11",
+      "nome": "Clipe retencao tampas",
+      "arquivo_zip": "P11_Clipe_retencao_tampas_4x.stl",
+      "sha256": "27761808462d0695ef6cd5b9d644b118f6b23ef43a5bbfbf4bb43105f2fd715a",
+      "vistas": [
+        "P11_superior.png",
+        "P11_frontal.png",
+        "P11_lateral.png"
+      ]
+    },
+    {
+      "pagina": 12,
+      "codigo": "P12",
+      "nome": "Piso superior",
+      "arquivo_zip": "P12_Piso_superior_1x.stl",
+      "sha256": "39fed69f8fe2d8cf58782156200af9890771083adcf7997f6a7055ca14cd042f",
+      "vistas": [
+        "P12_superior.png",
+        "P12_frontal.png",
+        "P12_lateral.png"
+      ]
+    },
+    {
+      "pagina": 13,
+      "codigo": "P13",
+      "nome": "Berco Basike",
+      "arquivo_zip": "P13_Berco_Basike_1x.stl",
+      "sha256": "fc24dad723ec621eb4e3e32eaecaec9af9cf9c9cbe36cfb4ff82c90bada32171",
+      "vistas": [
+        "P13_superior.png",
+        "P13_frontal.png",
+        "P13_lateral.png"
+      ]
+    },
+    {
+      "pagina": 14,
+      "codigo": "P14",
+      "nome": "Berco holder quatro AA",
+      "arquivo_zip": "P14_Berco_holder_quatro_AA_1x.stl",
+      "sha256": "b1b23c37ae24a83e8e5f13b6f455f2743947c376bd79ca518a779588188dcdbd",
+      "vistas": [
+        "P14_superior.png",
+        "P14_frontal.png",
+        "P14_lateral.png"
+      ]
+    },
+    {
+      "pagina": 15,
+      "codigo": "P15",
+      "nome": "Coluna principal dianteira",
+      "arquivo_zip": "P15_Coluna_principal_dianteira_2x.stl",
+      "sha256": "abf39d4d87a1c1f7bb69e646f792eca2906718abb516e0bc2e0dcbd4418c25f2",
+      "vistas": [
+        "P15_superior.png",
+        "P15_frontal.png",
+        "P15_lateral.png"
+      ]
+    },
+    {
+      "pagina": 16,
+      "codigo": "P16",
+      "nome": "Coluna principal traseira",
+      "arquivo_zip": "P16_Coluna_principal_traseira_2x.stl",
+      "sha256": "7c3299650ce6383b7c71608cfe2ad386a01e756899ecc643f4945fa1934364fa",
+      "vistas": [
+        "P16_superior.png",
+        "P16_frontal.png",
+        "P16_lateral.png"
+      ]
+    },
+    {
+      "pagina": 17,
+      "codigo": "P17",
+      "nome": "Travessa traseira",
+      "arquivo_zip": "P17_Travessa_traseira_2x.stl",
+      "sha256": "2be641f52fa45b3c6520735fd18e4e1709adbaf9112e04156c5562e7d1ac336e",
+      "vistas": [
+        "P17_superior.png",
+        "P17_frontal.png",
+        "P17_lateral.png"
+      ]
+    },
+    {
+      "pagina": 18,
+      "codigo": "P18",
+      "nome": "Coluna C1",
+      "arquivo_zip": "P18_Coluna_C1_2x.stl",
+      "sha256": "85cfca87a958185ad3e7e055265317c022ce0c180e6d4fb77aece67751cf4019",
+      "vistas": [
+        "P18_superior.png",
+        "P18_frontal.png",
+        "P18_lateral.png"
+      ]
+    },
+    {
+      "pagina": 19,
+      "codigo": "P19",
+      "nome": "Base compacta C1",
+      "arquivo_zip": "P19_Base_compacta_C1_1x.stl",
+      "sha256": "d1cf8a100cf5afc080e90f43af14f4514a041e0b168d0b9188a75eb92d978c8d",
+      "vistas": [
+        "P19_superior.png",
+        "P19_frontal.png",
+        "P19_lateral.png"
+      ]
+    },
+    {
+      "pagina": 20,
+      "codigo": "P20",
+      "nome": "Espacador C1",
+      "arquivo_zip": "P20_Espacador_C1_4x.stl",
+      "sha256": "1380a3d17623eba04756032519329dd03b2ffc0192f07a3761e8eeb8e7943d8b",
+      "vistas": [
+        "P20_superior.png",
+        "P20_frontal.png",
+        "P20_lateral.png"
+      ]
+    },
+    {
+      "pagina": 21,
+      "codigo": "P21",
+      "nome": "Espacador Pi seis mm",
+      "arquivo_zip": "P21_Espacador_Pi_seis_mm_4x.stl",
+      "sha256": "a64b45ab003817b47e09d891c7550430df63cd0ff0c5f078023156c77a664004",
+      "vistas": [
+        "P21_superior.png",
+        "P21_frontal.png",
+        "P21_lateral.png"
+      ]
+    },
+    {
+      "pagina": 22,
+      "codigo": "P22",
+      "nome": "Espacador L298N dez mm",
+      "arquivo_zip": "P22_Espacador_L298N_dez_mm_4x.stl",
+      "sha256": "1ba3f90193c2ee5be33fcca98f269aef1b587304eb576441accc7cce57285155",
+      "vistas": [
+        "P22_superior.png",
+        "P22_frontal.png",
+        "P22_lateral.png"
+      ]
+    },
+    {
+      "pagina": 23,
+      "codigo": "P23",
+      "nome": "Espacador MPU quatro mm",
+      "arquivo_zip": "P23_Espacador_MPU_quatro_mm_2x.stl",
+      "sha256": "b18d9ca45a2d8ac78f76dff50347537caeabc47013e9a9de471278bc56357747",
+      "vistas": [
+        "P23_superior.png",
+        "P23_frontal.png",
+        "P23_lateral.png"
+      ]
+    },
+    {
+      "pagina": 24,
+      "codigo": "P24",
+      "nome": "Berco ESP por velcro",
+      "arquivo_zip": "P24_Berco_ESP_por_velcro_1x.stl",
+      "sha256": "a98367c7513929a39fcaf5c83eb01ff911b5961b80003c26b2028754be95dc87",
+      "vistas": [
+        "P24_superior.png",
+        "P24_frontal.png",
+        "P24_lateral.png"
+      ]
+    }
+  ],
+  "imagens_conferidas": [
+    {
+      "arquivo": "P01_superior.png",
+      "alpha_bbox": [
+        95,
+        200,
+        904,
+        800
+      ],
+      "pixels": [
+        1000,
+        1000
+      ]
+    },
+    {
+      "arquivo": "P01_frontal.png",
+      "alpha_bbox": [
+        95,
+        402,
+        904,
+        598
+      ],
+      "pixels": [
+        1000,
+        1000
+      ]
+    },
+    {
+      "arquivo": "P01_lateral.png",
+      "alpha_bbox": [
+        200,
+        402,
+        800,
+        598
+      ],
+      "pixels": [
+        1000,
+        1000
+      ]
+    },
+    {
+      "arquivo": "P02_superior.png",
+      "alpha_bbox": [
+        95,
+        267,
+        904,
+        733
+      ],
+      "pixels": [
+        1000,
+        1000
+      ]
+    },
+    {
+      "arquivo": "P02_frontal.png",
+      "alpha_bbox": [
+        95,
+        402,
+        904,
+        598
+      ],
+      "pixels": [
+        1000,
+        1000
+      ]
+    },
+    {
+      "arquivo": "P02_lateral.png",
+      "alpha_bbox": [
+        267,
+        402,
+        733,
+        598
+      ],
+      "pixels": [
+        1000,
+        1000
+      ]
+    },
+    {
+      "arquivo": "P03_superior.png",
+      "alpha_bbox": [
+        227,
+        95,
+        773,
+        904
+      ],
+      "pixels": [
+        1000,
+        1000
+      ]
+    },
+    {
+      "arquivo": "P03_frontal.png",
+      "alpha_bbox": [
+        227,
+        350,
+        773,
+        650
+      ],
+      "pixels": [
+        1000,
+        1000
+      ]
+    },
+    {
+      "arquivo": "P03_lateral.png",
+      "alpha_bbox": [
+        96,
+        350,
+        904,
+        650
+      ],
+      "pixels": [
+        1000,
+        1000
+      ]
+    },
+    {
+      "arquivo": "P04_superior.png",
+      "alpha_bbox": [
+        228,
+        95,
+        773,
+        904
+      ],
+      "pixels": [
+        1000,
+        1000
+      ]
+    },
+    {
+      "arquivo": "P04_frontal.png",
+      "alpha_bbox": [
+        227,
+        350,
+        773,
+        650
+      ],
+      "pixels": [
+        1000,
+        1000
+      ]
+    },
+    {
+      "arquivo": "P04_lateral.png",
+      "alpha_bbox": [
+        96,
+        350,
+        904,
+        650
+      ],
+      "pixels": [
+        1000,
+        1000
+      ]
+    },
+    {
+      "arquivo": "P05_superior.png",
+      "alpha_bbox": [
+        149,
+        95,
+        851,
+        905
+      ],
+      "pixels": [
+        1000,
+        1000
+      ]
+    },
+    {
+      "arquivo": "P05_frontal.png",
+      "alpha_bbox": [
+        149,
+        307,
+        851,
+        693
+      ],
+      "pixels": [
+        1000,
+        1000
+      ]
+    },
+    {
+      "arquivo": "P05_lateral.png",
+      "alpha_bbox": [
+        95,
+        307,
+        904,
+        693
+      ],
+      "pixels": [
+        1000,
+        1000
+      ]
+    },
+    {
+      "arquivo": "P06_superior.png",
+      "alpha_bbox": [
+        149,
+        95,
+        851,
+        905
+      ],
+      "pixels": [
+        1000,
+        1000
+      ]
+    },
+    {
+      "arquivo": "P06_frontal.png",
+      "alpha_bbox": [
+        149,
+        307,
+        851,
+        693
+      ],
+      "pixels": [
+        1000,
+        1000
+      ]
+    },
+    {
+      "arquivo": "P06_lateral.png",
+      "alpha_bbox": [
+        95,
+        307,
+        904,
+        693
+      ],
+      "pixels": [
+        1000,
+        1000
+      ]
+    },
+    {
+      "arquivo": "P07_superior.png",
+      "alpha_bbox": [
+        95,
+        353,
+        904,
+        647
+      ],
+      "pixels": [
+        1000,
+        1000
+      ]
+    },
+    {
+      "arquivo": "P07_frontal.png",
+      "alpha_bbox": [
+        96,
+        488,
+        904,
+        512
+      ],
+      "pixels": [
+        1000,
+        1000
+      ]
+    },
+    {
+      "arquivo": "P07_lateral.png",
+      "alpha_bbox": [
+        353,
+        488,
+        647,
+        512
+      ],
+      "pixels": [
+        1000,
+        1000
+      ]
+    },
+    {
+      "arquivo": "P08_superior.png",
+      "alpha_bbox": [
+        95,
+        394,
+        904,
+        606
+      ],
+      "pixels": [
+        1000,
+        1000
+      ]
+    },
+    {
+      "arquivo": "P08_frontal.png",
+      "alpha_bbox": [
+        96,
+        492,
+        904,
+        508
+      ],
+      "pixels": [
+        1000,
+        1000
+      ]
+    },
+    {
+      "arquivo": "P08_lateral.png",
+      "alpha_bbox": [
+        395,
+        493,
+        605,
+        508
+      ],
+      "pixels": [
+        1000,
+        1000
+      ]
+    },
+    {
+      "arquivo": "P09_superior.png",
+      "alpha_bbox": [
+        283,
+        95,
+        716,
+        905
+      ],
+      "pixels": [
+        1000,
+        1000
+      ]
+    },
+    {
+      "arquivo": "P09_frontal.png",
+      "alpha_bbox": [
+        284,
+        486,
+        716,
+        514
+      ],
+      "pixels": [
+        1000,
+        1000
+      ]
+    },
+    {
+      "arquivo": "P09_lateral.png",
+      "alpha_bbox": [
+        96,
+        486,
+        904,
+        514
+      ],
+      "pixels": [
+        1000,
+        1000
+      ]
+    },
+    {
+      "arquivo": "P10_superior.png",
+      "alpha_bbox": [
+        297,
+        95,
+        703,
+        905
+      ],
+      "pixels": [
+        1000,
+        1000
+      ]
+    },
+    {
+      "arquivo": "P10_frontal.png",
+      "alpha_bbox": [
+        297,
+        441,
+        703,
+        559
+      ],
+      "pixels": [
+        1000,
+        1000
+      ]
+    },
+    {
+      "arquivo": "P10_lateral.png",
+      "alpha_bbox": [
+        96,
+        441,
+        904,
+        559
+      ],
+      "pixels": [
+        1000,
+        1000
+      ]
+    },
+    {
+      "arquivo": "P11_superior.png",
+      "alpha_bbox": [
+        257,
+        95,
+        743,
+        905
+      ],
+      "pixels": [
+        1000,
+        1000
+      ]
+    },
+    {
+      "arquivo": "P11_frontal.png",
+      "alpha_bbox": [
+        257,
+        357,
+        743,
+        643
+      ],
+      "pixels": [
+        1000,
+        1000
+      ]
+    },
+    {
+      "arquivo": "P11_lateral.png",
+      "alpha_bbox": [
+        95,
+        357,
+        904,
+        643
+      ],
+      "pixels": [
+        1000,
+        1000
+      ]
+    },
+    {
+      "arquivo": "P12_superior.png",
+      "alpha_bbox": [
+        232,
+        95,
+        768,
+        905
+      ],
+      "pixels": [
+        1000,
+        1000
+      ]
+    },
+    {
+      "arquivo": "P12_frontal.png",
+      "alpha_bbox": [
+        232,
+        489,
+        767,
+        512
+      ],
+      "pixels": [
+        1000,
+        1000
+      ]
+    },
+    {
+      "arquivo": "P12_lateral.png",
+      "alpha_bbox": [
+        96,
+        489,
+        904,
+        512
+      ],
+      "pixels": [
+        1000,
+        1000
+      ]
+    },
+    {
+      "arquivo": "P13_superior.png",
+      "alpha_bbox": [
+        95,
+        310,
+        904,
+        690
+      ],
+      "pixels": [
+        1000,
+        1000
+      ]
+    },
+    {
+      "arquivo": "P13_frontal.png",
+      "alpha_bbox": [
+        96,
+        479,
+        904,
+        521
+      ],
+      "pixels": [
+        1000,
+        1000
+      ]
+    },
+    {
+      "arquivo": "P13_lateral.png",
+      "alpha_bbox": [
+        310,
+        479,
+        690,
+        521
+      ],
+      "pixels": [
+        1000,
+        1000
+      ]
+    },
+    {
+      "arquivo": "P14_superior.png",
+      "alpha_bbox": [
+        95,
+        120,
+        905,
+        880
+      ],
+      "pixels": [
+        1000,
+        1000
+      ]
+    },
+    {
+      "arquivo": "P14_frontal.png",
+      "alpha_bbox": [
+        96,
+        464,
+        904,
+        536
+      ],
+      "pixels": [
+        1000,
+        1000
+      ]
+    },
+    {
+      "arquivo": "P14_lateral.png",
+      "alpha_bbox": [
+        121,
+        464,
+        880,
+        536
+      ],
+      "pixels": [
+        1000,
+        1000
+      ]
+    },
+    {
+      "arquivo": "P15_superior.png",
+      "alpha_bbox": [
+        395,
+        395,
+        605,
+        606
+      ],
+      "pixels": [
+        1000,
+        1000
+      ]
+    },
+    {
+      "arquivo": "P15_frontal.png",
+      "alpha_bbox": [
+        394,
+        96,
+        606,
+        905
+      ],
+      "pixels": [
+        1000,
+        1000
+      ]
+    },
+    {
+      "arquivo": "P15_lateral.png",
+      "alpha_bbox": [
+        394,
+        96,
+        606,
+        905
+      ],
+      "pixels": [
+        1000,
+        1000
+      ]
+    },
+    {
+      "arquivo": "P16_superior.png",
+      "alpha_bbox": [
+        382,
+        382,
+        617,
+        618
+      ],
+      "pixels": [
+        1000,
+        1000
+      ]
+    },
+    {
+      "arquivo": "P16_frontal.png",
+      "alpha_bbox": [
+        382,
+        96,
+        618,
+        905
+      ],
+      "pixels": [
+        1000,
+        1000
+      ]
+    },
+    {
+      "arquivo": "P16_lateral.png",
+      "alpha_bbox": [
+        382,
+        96,
+        618,
+        905
+      ],
+      "pixels": [
+        1000,
+        1000
+      ]
+    },
+    {
+      "arquivo": "P17_superior.png",
+      "alpha_bbox": [
+        95,
+        176,
+        905,
+        824
+      ],
+      "pixels": [
+        1000,
+        1000
+      ]
+    },
+    {
+      "arquivo": "P17_frontal.png",
+      "alpha_bbox": [
+        95,
+        391,
+        904,
+        609
+      ],
+      "pixels": [
+        1000,
+        1000
+      ]
+    },
+    {
+      "arquivo": "P17_lateral.png",
+      "alpha_bbox": [
+        176,
+        391,
+        824,
+        609
+      ],
+      "pixels": [
+        1000,
+        1000
+      ]
+    },
+    {
+      "arquivo": "P18_superior.png",
+      "alpha_bbox": [
+        434,
+        435,
+        566,
+        566
+      ],
+      "pixels": [
+        1000,
+        1000
+      ]
+    },
+    {
+      "arquivo": "P18_frontal.png",
+      "alpha_bbox": [
+        434,
+        96,
+        566,
+        905
+      ],
+      "pixels": [
+        1000,
+        1000
+      ]
+    },
+    {
+      "arquivo": "P18_lateral.png",
+      "alpha_bbox": [
+        434,
+        96,
+        566,
+        905
+      ],
+      "pixels": [
+        1000,
+        1000
+      ]
+    },
+    {
+      "arquivo": "P19_superior.png",
+      "alpha_bbox": [
+        95,
+        95,
+        905,
+        905
+      ],
+      "pixels": [
+        1000,
+        1000
+      ]
+    },
+    {
+      "arquivo": "P19_frontal.png",
+      "alpha_bbox": [
+        96,
+        479,
+        904,
+        521
+      ],
+      "pixels": [
+        1000,
+        1000
+      ]
+    },
+    {
+      "arquivo": "P19_lateral.png",
+      "alpha_bbox": [
+        96,
+        479,
+        904,
+        521
+      ],
+      "pixels": [
+        1000,
+        1000
+      ]
+    },
+    {
+      "arquivo": "P20_superior.png",
+      "alpha_bbox": [
+        96,
+        96,
+        904,
+        904
+      ],
+      "pixels": [
+        1000,
+        1000
+      ]
+    },
+    {
+      "arquivo": "P20_frontal.png",
+      "alpha_bbox": [
+        95,
+        355,
+        904,
+        645
+      ],
+      "pixels": [
+        1000,
+        1000
+      ]
+    },
+    {
+      "arquivo": "P20_lateral.png",
+      "alpha_bbox": [
+        95,
+        355,
+        904,
+        645
+      ],
+      "pixels": [
+        1000,
+        1000
+      ]
+    },
+    {
+      "arquivo": "P21_superior.png",
+      "alpha_bbox": [
+        96,
+        96,
+        904,
+        904
+      ],
+      "pixels": [
+        1000,
+        1000
+      ]
+    },
+    {
+      "arquivo": "P21_frontal.png",
+      "alpha_bbox": [
+        95,
+        95,
+        905,
+        905
+      ],
+      "pixels": [
+        1000,
+        1000
+      ]
+    },
+    {
+      "arquivo": "P21_lateral.png",
+      "alpha_bbox": [
+        95,
+        95,
+        905,
+        905
+      ],
+      "pixels": [
+        1000,
+        1000
+      ]
+    },
+    {
+      "arquivo": "P22_superior.png",
+      "alpha_bbox": [
+        257,
+        257,
+        743,
+        743
+      ],
+      "pixels": [
+        1000,
+        1000
+      ]
+    },
+    {
+      "arquivo": "P22_frontal.png",
+      "alpha_bbox": [
+        257,
+        95,
+        743,
+        905
+      ],
+      "pixels": [
+        1000,
+        1000
+      ]
+    },
+    {
+      "arquivo": "P22_lateral.png",
+      "alpha_bbox": [
+        257,
+        95,
+        743,
+        905
+      ],
+      "pixels": [
+        1000,
+        1000
+      ]
+    },
+    {
+      "arquivo": "P23_superior.png",
+      "alpha_bbox": [
+        96,
+        96,
+        904,
+        904
+      ],
+      "pixels": [
+        1000,
+        1000
+      ]
+    },
+    {
+      "arquivo": "P23_frontal.png",
+      "alpha_bbox": [
+        95,
+        230,
+        905,
+        770
+      ],
+      "pixels": [
+        1000,
+        1000
+      ]
+    },
+    {
+      "arquivo": "P23_lateral.png",
+      "alpha_bbox": [
+        95,
+        230,
+        904,
+        770
+      ],
+      "pixels": [
+        1000,
+        1000
+      ]
+    },
+    {
+      "arquivo": "P24_superior.png",
+      "alpha_bbox": [
+        155,
+        95,
+        845,
+        905
+      ],
+      "pixels": [
+        1000,
+        1000
+      ]
+    },
+    {
+      "arquivo": "P24_frontal.png",
+      "alpha_bbox": [
+        155,
+        466,
+        845,
+        535
+      ],
+      "pixels": [
+        1000,
+        1000
+      ]
+    },
+    {
+      "arquivo": "P24_lateral.png",
+      "alpha_bbox": [
+        96,
+        465,
+        904,
+        535
+      ],
+      "pixels": [
+        1000,
+        1000
+      ]
+    }
+  ],
+  "limites": "Projeções do STL, não desenho de fabricação completo ou ensaio físico."
+}

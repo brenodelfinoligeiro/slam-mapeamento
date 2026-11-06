@@ -1,0 +1,146 @@
+robo_movel	/workspace/src/robo_movel	(ros.ament_python)
+Starting >>> robo_movel
+running egg_info
+creating ../../../work/build/robo_movel/robo_movel.egg-info
+writing ../../../work/build/robo_movel/robo_movel.egg-info/PKG-INFO
+writing dependency_links to ../../../work/build/robo_movel/robo_movel.egg-info/dependency_links.txt
+writing requirements to ../../../work/build/robo_movel/robo_movel.egg-info/requires.txt
+writing top-level names to ../../../work/build/robo_movel/robo_movel.egg-info/top_level.txt
+writing manifest file '../../../work/build/robo_movel/robo_movel.egg-info/SOURCES.txt'
+reading manifest file '../../../work/build/robo_movel/robo_movel.egg-info/SOURCES.txt'
+writing manifest file '../../../work/build/robo_movel/robo_movel.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /work/build/robo_movel/build
+creating /work/build/robo_movel/build/lib
+creating /work/build/robo_movel/build/lib/robo_movel
+copying robo_movel/__init__.py -> /work/build/robo_movel/build/lib/robo_movel
+creating /work/build/robo_movel/build/lib/robo_movel/controle
+copying robo_movel/controle/__init__.py -> /work/build/robo_movel/build/lib/robo_movel/controle
+creating /work/build/robo_movel/build/lib/robo_movel/dispositivos
+copying robo_movel/dispositivos/__init__.py -> /work/build/robo_movel/build/lib/robo_movel/dispositivos
+creating /work/build/robo_movel/build/lib/robo_movel/localizacao
+copying robo_movel/localizacao/__init__.py -> /work/build/robo_movel/build/lib/robo_movel/localizacao
+creating /work/build/robo_movel/build/lib/robo_movel/mapeamento
+copying robo_movel/mapeamento/__init__.py -> /work/build/robo_movel/build/lib/robo_movel/mapeamento
+creating /work/build/robo_movel/build/lib/robo_movel/navegacao
+copying robo_movel/navegacao/__init__.py -> /work/build/robo_movel/build/lib/robo_movel/navegacao
+creating /work/build/robo_movel/build/lib/robo_movel/percepcao
+copying robo_movel/percepcao/__init__.py -> /work/build/robo_movel/build/lib/robo_movel/percepcao
+creating /work/build/robo_movel/build/lib/robo_movel/dispositivos/esp32_uart
+copying robo_movel/dispositivos/esp32_uart/__init__.py -> /work/build/robo_movel/build/lib/robo_movel/dispositivos/esp32_uart
+creating /work/build/robo_movel/build/lib/robo_movel/dispositivos/lidar_c1
+copying robo_movel/dispositivos/lidar_c1/__init__.py -> /work/build/robo_movel/build/lib/robo_movel/dispositivos/lidar_c1
+creating /work/build/robo_movel/build/lib/robo_movel/dispositivos/mpu6050
+copying robo_movel/dispositivos/mpu6050/__init__.py -> /work/build/robo_movel/build/lib/robo_movel/dispositivos/mpu6050
+running install
+running install_lib
+creating /work/install/robo_movel/lib/python3.12/site-packages/robo_movel
+copying /work/build/robo_movel/build/lib/robo_movel/__init__.py -> /work/install/robo_movel/lib/python3.12/site-packages/robo_movel
+creating /work/install/robo_movel/lib/python3.12/site-packages/robo_movel/controle
+copying /work/build/robo_movel/build/lib/robo_movel/controle/__init__.py -> /work/install/robo_movel/lib/python3.12/site-packages/robo_movel/controle
+creating /work/install/robo_movel/lib/python3.12/site-packages/robo_movel/dispositivos
+copying /work/build/robo_movel/build/lib/robo_movel/dispositivos/__init__.py -> /work/install/robo_movel/lib/python3.12/site-packages/robo_movel/dispositivos
+creating /work/install/robo_movel/lib/python3.12/site-packages/robo_movel/dispositivos/esp32_uart
+copying /work/build/robo_movel/build/lib/robo_movel/dispositivos/esp32_uart/__init__.py -> /work/install/robo_movel/lib/python3.12/site-packages/robo_movel/dispositivos/esp32_uart
+creating /work/install/robo_movel/lib/python3.12/site-packages/robo_movel/dispositivos/lidar_c1
+copying /work/build/robo_movel/build/lib/robo_movel/dispositivos/lidar_c1/__init__.py -> /work/install/robo_movel/lib/python3.12/site-packages/robo_movel/dispositivos/lidar_c1
+creating /work/install/robo_movel/lib/python3.12/site-packages/robo_movel/dispositivos/mpu6050
+copying /work/build/robo_movel/build/lib/robo_movel/dispositivos/mpu6050/__init__.py -> /work/install/robo_movel/lib/python3.12/site-packages/robo_movel/dispositivos/mpu6050
+creating /work/install/robo_movel/lib/python3.12/site-packages/robo_movel/localizacao
+copying /work/build/robo_movel/build/lib/robo_movel/localizacao/__init__.py -> /work/install/robo_movel/lib/python3.12/site-packages/robo_movel/localizacao
+creating /work/install/robo_movel/lib/python3.12/site-packages/robo_movel/mapeamento
+copying /work/build/robo_movel/build/lib/robo_movel/mapeamento/__init__.py -> /work/install/robo_movel/lib/python3.12/site-packages/robo_movel/mapeamento
+creating /work/install/robo_movel/lib/python3.12/site-packages/robo_movel/navegacao
+copying /work/build/robo_movel/build/lib/robo_movel/navegacao/__init__.py -> /work/install/robo_movel/lib/python3.12/site-packages/robo_movel/navegacao
+creating /work/install/robo_movel/lib/python3.12/site-packages/robo_movel/percepcao
+copying /work/build/robo_movel/build/lib/robo_movel/percepcao/__init__.py -> /work/install/robo_movel/lib/python3.12/site-packages/robo_movel/percepcao
+byte-compiling /work/install/robo_movel/lib/python3.12/site-packages/robo_movel/__init__.py to __init__.cpython-312.pyc
+byte-compiling /work/install/robo_movel/lib/python3.12/site-packages/robo_movel/controle/__init__.py to __init__.cpython-312.pyc
+byte-compiling /work/install/robo_movel/lib/python3.12/site-packages/robo_movel/dispositivos/__init__.py to __init__.cpython-312.pyc
+byte-compiling /work/install/robo_movel/lib/python3.12/site-packages/robo_movel/dispositivos/esp32_uart/__init__.py to __init__.cpython-312.pyc
+byte-compiling /work/install/robo_movel/lib/python3.12/site-packages/robo_movel/dispositivos/lidar_c1/__init__.py to __init__.cpython-312.pyc
+byte-compiling /work/install/robo_movel/lib/python3.12/site-packages/robo_movel/dispositivos/mpu6050/__init__.py to __init__.cpython-312.pyc
+byte-compiling /work/install/robo_movel/lib/python3.12/site-packages/robo_movel/localizacao/__init__.py to __init__.cpython-312.pyc
+byte-compiling /work/install/robo_movel/lib/python3.12/site-packages/robo_movel/mapeamento/__init__.py to __init__.cpython-312.pyc
+byte-compiling /work/install/robo_movel/lib/python3.12/site-packages/robo_movel/navegacao/__init__.py to __init__.cpython-312.pyc
+byte-compiling /work/install/robo_movel/lib/python3.12/site-packages/robo_movel/percepcao/__init__.py to __init__.cpython-312.pyc
+running install_data
+creating /work/install/robo_movel/share/ament_index
+creating /work/install/robo_movel/share/ament_index/resource_index
+creating /work/install/robo_movel/share/ament_index/resource_index/packages
+copying recursos/robo_movel -> /work/install/robo_movel/share/ament_index/resource_index/packages
+copying package.xml -> /work/install/robo_movel/share/robo_movel
+creating /work/install/robo_movel/share/robo_movel/inicializacao
+copying inicializacao/.gitkeep -> /work/install/robo_movel/share/robo_movel/inicializacao
+copying inicializacao/descricao.launch.py -> /work/install/robo_movel/share/robo_movel/inicializacao
+copying inicializacao/visualizar.launch.py -> /work/install/robo_movel/share/robo_movel/inicializacao
+creating /work/install/robo_movel/share/robo_movel/configuracao
+copying configuracao/.gitkeep -> /work/install/robo_movel/share/robo_movel/configuracao
+copying configuracao/geometria_cad.yaml -> /work/install/robo_movel/share/robo_movel/configuracao
+creating /work/install/robo_movel/share/robo_movel/descricao
+copying descricao/.gitkeep -> /work/install/robo_movel/share/robo_movel/descricao
+creating /work/install/robo_movel/share/robo_movel/descricao/malhas
+copying descricao/malhas/chassi_r05.stl -> /work/install/robo_movel/share/robo_movel/descricao/malhas
+copying descricao/malhas/cubo_direito_r05.stl -> /work/install/robo_movel/share/robo_movel/descricao/malhas
+copying descricao/malhas/cubo_esquerdo_r05.stl -> /work/install/robo_movel/share/robo_movel/descricao/malhas
+copying descricao/malhas/disco_direito_r05.stl -> /work/install/robo_movel/share/robo_movel/descricao/malhas
+copying descricao/malhas/disco_esquerdo_r05.stl -> /work/install/robo_movel/share/robo_movel/descricao/malhas
+copying descricao/malhas/eletronica_r05.stl -> /work/install/robo_movel/share/robo_movel/descricao/malhas
+copying descricao/malhas/esp_reserva_r05.stl -> /work/install/robo_movel/share/robo_movel/descricao/malhas
+copying descricao/malhas/estrutura_r05.stl -> /work/install/robo_movel/share/robo_movel/descricao/malhas
+copying descricao/malhas/ferragens_r05.stl -> /work/install/robo_movel/share/robo_movel/descricao/malhas
+copying descricao/malhas/holder_r05.stl -> /work/install/robo_movel/share/robo_movel/descricao/malhas
+copying descricao/malhas/imu_r05.stl -> /work/install/robo_movel/share/robo_movel/descricao/malhas
+copying descricao/malhas/lidar_r05.stl -> /work/install/robo_movel/share/robo_movel/descricao/malhas
+copying descricao/malhas/motores_r05.stl -> /work/install/robo_movel/share/robo_movel/descricao/malhas
+copying descricao/malhas/pilhas_r05.stl -> /work/install/robo_movel/share/robo_movel/descricao/malhas
+copying descricao/malhas/pneu_direito_r05.stl -> /work/install/robo_movel/share/robo_movel/descricao/malhas
+copying descricao/malhas/pneu_esquerdo_r05.stl -> /work/install/robo_movel/share/robo_movel/descricao/malhas
+copying descricao/malhas/powerbank_r05.stl -> /work/install/robo_movel/share/robo_movel/descricao/malhas
+copying descricao/malhas/rodizio_r05.stl -> /work/install/robo_movel/share/robo_movel/descricao/malhas
+copying descricao/origem-cad.json -> /work/install/robo_movel/share/robo_movel/descricao
+copying descricao/robo_movel.urdf -> /work/install/robo_movel/share/robo_movel/descricao
+creating /work/install/robo_movel/share/robo_movel/mapas
+copying mapas/.gitkeep -> /work/install/robo_movel/share/robo_movel/mapas
+creating /work/install/robo_movel/share/robo_movel/visualizacao
+copying visualizacao/.gitkeep -> /work/install/robo_movel/share/robo_movel/visualizacao
+copying visualizacao/robo_movel.rviz -> /work/install/robo_movel/share/robo_movel/visualizacao
+running install_egg_info
+Copying ../../../work/build/robo_movel/robo_movel.egg-info to /work/install/robo_movel/lib/python3.12/site-packages/robo_movel-0.0.0-py3.12.egg-info
+running install_scripts
+writing list of installed files to '/work/build/robo_movel/install.log'
+Finished <<< robo_movel [1.76s]
+
+Summary: 1 package finished [1.89s]
+robot name is: robo_movel
+---------- Successfully Parsed XML ---------------
+root Link: base_footprint has 1 child(ren)
+    child(1):  base_link
+        child(1):  caster_link
+        child(2):  imu_mount_link
+        child(3):  left_wheel_link
+        child(4):  lidar_mount_link
+        child(5):  right_wheel_link
+Importação instalada e hashes verificados: 18
+Starting >>> robo_movel
+============================= test session starts ==============================
+platform linux -- Python 3.12.3, pytest-7.4.4, pluggy-1.4.0
+cachedir: /work/build/robo_movel/.pytest_cache
+rootdir: /workspace/src/robo_movel
+configfile: setup.cfg
+testpaths: testes
+plugins: ament-copyright-0.17.5, ament-flake8-0.17.5, ament-lint-0.17.5, ament-pep257-0.17.5, ament-xmllint-0.17.5, launch-testing-3.4.12, launch-testing-ros-0.26.13, colcon-core-0.21.3
+collected 9 items
+
+testes/teste_descricao.py ..                                             [ 22%]
+testes/teste_geometria_descricao.py .......                              [100%]
+
+------------ generated xml file: /work/build/robo_movel/pytest.xml -------------
+============================== 9 passed in 0.16s ===============================
+Finished <<< robo_movel [0.97s]
+
+Summary: 1 package finished [1.38s]
+Summary: 9 tests, 0 errors, 0 failures, 0 skipped
+{"status": "OK", "ROS_DISTRO": "jazzy", "robot_description_recebido": true, "links": 7, "sem_juntas_ficticias_no_launch_de_descricao": true, "TFs_rodas": [{"filho": "left_wheel_link", "xyz_m": [0.0, 0.0661900758743, -1.00582838058e-09], "quaternion_xyzw": [0.0, 0.1986693307950613, 0.0, 0.9800665778412416], "angulo_teste_rad": 0.4}, {"filho": "right_wheel_link", "xyz_m": [0.0, -0.0661900758743, 1.00582838058e-09], "quaternion_xyzw": [0.0, -0.09983341664682821, 0.0, 0.9950041652780257], "angulo_teste_rad": -0.2}], "limites": "ROS isolado sem rede/hardware; JointState publicado apenas pelo teste. Sem dados reais de sensores/motores."}
+

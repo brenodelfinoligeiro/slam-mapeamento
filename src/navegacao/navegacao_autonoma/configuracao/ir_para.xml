@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Jazzy/BT.CPP 4. Replanejamento 1 Hz; cancelamento via halt nativo Nav2.
+     Sem BackUp/DriveOnHeading: nenhum recuo cego de recuperação. -->
+<root BTCPP_format="4" main_tree_to_execute="IrPara">
+  <BehaviorTree ID="IrPara">
+    <RecoveryNode number_of_retries="3" name="NavegarComRecuperacao">
+      <PipelineSequence name="ReplanejarESeguir">
+        <RateController hz="1.0">
+          <RecoveryNode number_of_retries="1" name="Planejar">
+            <ComputePathToPose goal="{goal}" path="{path}" planner_id="GridBased" error_code_id="{compute_path_error_code}"/>
+            <ClearEntireCostmap name="LimparGlobalContextual" service_name="global_costmap/clear_entirely_global_costmap"/>
+          </RecoveryNode>
+        </RateController>
+        <RecoveryNode number_of_retries="1" name="Seguir">
+          <FollowPath path="{path}" controller_id="FollowPath" goal_checker_id="goal_checker" progress_checker_id="progress_checker" error_code_id="{follow_path_error_code}"/>
+          <ClearEntireCostmap name="LimparLocalContextual" service_name="local_costmap/clear_entirely_local_costmap"/>
+        </RecoveryNode>
+      </PipelineSequence>
+      <ReactiveFallback name="RecuperarOuAceitarNovoObjetivo">
+        <GoalUpdated/>
+        <RoundRobin name="RecuperacoesLimitadas">
+          <Sequence name="LimparCostmaps">
+            <ClearEntireCostmap name="LimparLocal" service_name="local_costmap/clear_entirely_local_costmap"/>
+            <ClearEntireCostmap name="LimparGlobal" service_name="global_costmap/clear_entirely_global_costmap"/>
+          </Sequence>
+          <Wait wait_duration="2.0"/>
+          <Spin spin_dist="0.785" time_allowance="10.0" error_code_id="{spin_error_code}"/>
+        </RoundRobin>
+      </ReactiveFallback>
+    </RecoveryNode>
+  </BehaviorTree>
+</root>

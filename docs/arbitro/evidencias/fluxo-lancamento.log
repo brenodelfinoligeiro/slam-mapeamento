@@ -1,0 +1,41 @@
+[INFO] [launch]: All log files can be found below /work/.ros/log/2026-11-06-17-08-06-986822-6df8f5554d80-837
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [robot_state_publisher-1]: process started with pid [851]
+[INFO] [simular-2]: process started with pid [852]
+[INFO] [converter_velocidade-3]: process started with pid [853]
+[INFO] [calcular_odometria-4]: process started with pid [854]
+[INFO] [tratar_imu-5]: process started with pid [855]
+[INFO] [ekf_node-6]: process started with pid [856]
+[INFO] [static_transform_publisher-7]: process started with pid [857]
+[INFO] [trajetorias-8]: process started with pid [858]
+[INFO] [arbitrar-9]: process started with pid [859]
+[static_transform_publisher-7] [INFO] [1793984887.206387936] [origem_virtual]: Spinning until stopped - publishing transform
+[static_transform_publisher-7] translation: ('0.000000', '0.000000', '0.000000')
+[static_transform_publisher-7] rotation: ('0.000000', '0.000000', '0.000000', '1.000000')
+[static_transform_publisher-7] from 'simulacao_mundo' to 'odom'
+[robot_state_publisher-1] [INFO] [1793984887.207701479] [robot_state_publisher]: Robot initialized
+[ekf_node-6] [INFO] [1793984887.260298986] [estimador_local]: Waiting for clock to start...
+[simular-2] [WARN] [1793984887.681358061] [simulador_base]: SIMULAÇÃO VIRTUAL: defaults geométricos de referência CAD, não calibração física; o launch pode fornecer raio_roda e distancia_rodas. 720 pulsos/volta é resolução virtual, não medida. Contagens signed não certificam direção do encoder real de canal único. IMU planar idealizada, nivelada e alinhada ao corpo, sem braço de alavanca. /simulacao/referencia é ground truth para avaliação, nunca entrada do estimador.
+[simular-2] [WARN] [1793984890.891191831] [simulador_base]: Referência rejeitada: nomes/velocidades/marca temporal inválidos, antigos, repetidos ou futuros além de tolerancia_futuro.
+[WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+[INFO] [arbitrar-9]: sending signal 'SIGINT' to process[arbitrar-9]
+[INFO] [trajetorias-8]: sending signal 'SIGINT' to process[trajetorias-8]
+[INFO] [static_transform_publisher-7]: sending signal 'SIGINT' to process[static_transform_publisher-7]
+[INFO] [ekf_node-6]: sending signal 'SIGINT' to process[ekf_node-6]
+[INFO] [tratar_imu-5]: sending signal 'SIGINT' to process[tratar_imu-5]
+[INFO] [calcular_odometria-4]: sending signal 'SIGINT' to process[calcular_odometria-4]
+[INFO] [converter_velocidade-3]: sending signal 'SIGINT' to process[converter_velocidade-3]
+[INFO] [simular-2]: sending signal 'SIGINT' to process[simular-2]
+[INFO] [robot_state_publisher-1]: sending signal 'SIGINT' to process[robot_state_publisher-1]
+[static_transform_publisher-7] [INFO] [1793984901.176535161] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[ekf_node-6] [INFO] [1793984901.179127459] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[robot_state_publisher-1] [INFO] [1793984901.185296167] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[INFO] [static_transform_publisher-7]: process has finished cleanly [pid 857]
+[INFO] [ekf_node-6]: process has finished cleanly [pid 856]
+[INFO] [robot_state_publisher-1]: process has finished cleanly [pid 851]
+[INFO] [arbitrar-9]: process has finished cleanly [pid 859]
+[INFO] [trajetorias-8]: process has finished cleanly [pid 858]
+[INFO] [tratar_imu-5]: process has finished cleanly [pid 855]
+[INFO] [converter_velocidade-3]: process has finished cleanly [pid 853]
+[INFO] [simular-2]: process has finished cleanly [pid 852]
+[INFO] [calcular_odometria-4]: process has finished cleanly [pid 854]

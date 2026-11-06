@@ -1,0 +1,30 @@
+codigo,nome,quantidade,X_mm,Y_mm,Z_mm,suportes,condicao
+P01,Saia dianteira,1,170.0,126.0,40.6,local sob orelhas/linguetas; nao preencher arcos,Cupom e medidas físicas pendentes
+P02,Saia traseira,1,170.0,97.7,42.6,local sob orelhas/linguetas,Cupom e medidas físicas pendentes
+P03,Teto dianteiro esquerdo,1,84.7,126.0,46.4,local linguetas; face externa na mesa,Cupom e medidas físicas pendentes
+P04,Teto dianteiro direito,1,84.7,126.0,46.4,local linguetas; face externa na mesa,Cupom e medidas físicas pendentes
+P05,Teto traseiro esquerdo,1,84.7,97.7,46.4,local linguetas; face externa na mesa,Cupom e medidas físicas pendentes
+P06,Teto traseiro direito,1,84.7,97.7,46.4,local linguetas; face externa na mesa,Cupom e medidas físicas pendentes
+P07,Portinhola AA com batente plano holder,1,94.0,34.0,14.0,nao,Cupom e medidas físicas pendentes
+P08,Portinhola PB com batente plano,1,160.0,41.4,6.0,local no batente,Cupom e medidas físicas pendentes
+P09,Painel lateral PB,1,40.0,75.0,2.4,nao,Cupom e medidas físicas pendentes
+P10,Ponte teto insertos,2,14.0,28.0,9.0,nao,Cupom e medidas físicas pendentes
+P11,Clipe retencao tampas,4,12.0,20.0,9.0,nao,Cupom e medidas físicas pendentes
+P12,Piso com apoio Pi e insertos,1,132.0,202.5,10.8,nao,Cupom e medidas físicas pendentes
+P13,Gaveta rigida Basike,1,160.0,74.0,35.4,local nos labios; sem suporte em janela USB,420g sem prova estatica; medir portas e cantos reais
+P14,Berco holder com bosses externos,1,97.0,81.5,26.8,nao,Holder nao medido; P29 separado permite introduzir de cima
+P15,Coluna principal dianteira,2,10.0,10.0,38.6,nao,Cupom e medidas físicas pendentes
+P16,Coluna principal traseira,2,10.0,11.0,34.6,nao,Cupom e medidas físicas pendentes
+P17,Travessa traseira,2,15.0,12.0,4.0,nao,Cupom e medidas físicas pendentes
+P18,Coluna C1 insertos opostos,2,10.0,10.0,50.0,nao,Cupom e medidas físicas pendentes
+P19,Base C1 estrutural separada da matriz ilustrativa,1,62.0,62.0,3.0,nao,"Fixacao REAL C1 desconhecida; quatro furos 43x43 apenas estudo, sem parafusos"
+P20,Espacador C1 ilustrativo,4,5.6,5.6,2.0,nao,Matriz e rosca C1 desconhecidas; nao montar sensor antes de medir
+P22,Berco L298 com pinos e bosses externos,1,64.5,47.0,16.1,local sob travessas a Z60.8; evitar suporte nos pilotos,Pinos nos furos3.2 CAD; quadro P30 rigido evita terminais sobre os parafusos
+P23,Berco MPU isolado da gaveta,1,17.5,27.0,14.1,nao,Cupom e medidas físicas pendentes
+P24,Berco ESP rigido,1,54.0,61.0,20.0,nao,Cupom e medidas físicas pendentes
+P26,Quadro retencao ESP,1,54.0,65.0,3.0,nao,Cupom e medidas físicas pendentes
+P27,Presilha borda Pi,4,8.0,15.3,3.0,nao,Pad isolante opcional medido; nao apertar trilhas/componentes; apoio duro em 97.8
+P28,Presilha borda MPU,2,13.5,8.0,3.0,nao,Pad isolante opcional medido; conferir header real e nova extrinseca IMU
+P29,Regua removivel holder AA,2,11.7,83.0,3.0,nao,"Sobrepor somente borda do holder; nao toca celulas, conferir holder real"
+P30,Quadro retencao bordas L298N,1,62.5,48.0,3.0,nao,Nao passa metal pelos furos PCB; verificar bordas reais; pad isolante eventual a medir
+P25,Cupom insertos 4.2 4.3 4.4,1,66.0,28.0,8.0,nao,Ensaiar termicamente e resistencia antes das demais pecas; fundo 2mm

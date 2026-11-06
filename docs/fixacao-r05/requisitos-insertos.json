@@ -1,0 +1,46 @@
+{
+  "revisao_planejada": "R05",
+  "estado": "CAD_STL_auditados_prototipo_dimensional",
+  "inserto": {
+    "rosca": "M3",
+    "comprimento_confirmado_mm": 5.68,
+    "diametro_liso_confirmado_mm": 4.0,
+    "diametro_dentado_confirmado_mm": 4.7,
+    "comprimento_anterior_superado_mm": 10.7,
+    "fabricante_e_recomendacao_de_furo": "não identificados; não equiparar diâmetro externo a furo de instalação"
+  },
+  "evidencia": {
+    "tipo": "mensagens do autor recuperadas de conversa Codex persistida; leitura somente",
+    "conversa_id": "01a0e82e-8a29-7680-8ff0-437fe4104790",
+    "mensagens": [
+      {
+        "data": "2026-09-28T19:18:33.133Z",
+        "linha": 1641,
+        "trecho": "10,7mm comprimento\n\n4mm na parte lisa e 4,7mm na parte com dentes"
+      },
+      {
+        "data": "2026-10-06T20:34:24.271Z",
+        "linha": 4625,
+        "trecho": "5,68mm é o correto o restante esta correto"
+      }
+    ],
+    "interpretacao": "Correção posterior substitui somente o comprimento; diâmetros mantidos. Não importar automaticamente espessuras/apoios específicos da tampa do motor para o carrinho."
+  },
+  "restricoes_do_autor": {
+    "sem_porcas": true,
+    "sem_velcro": true,
+    "sem_cintas_plasticas": true,
+    "usar_insertos_M3_do_autor": true
+  },
+  "retencoes_propostas": {
+    "powerbank": "berço/gaveta com batentes e tampa ou trava rígida aparafusada; sem faixas ou pressão pontual sobre a bateria",
+    "ESP": "berço com retenção rígida removível aparafusada, sem velcro ou abraçadeira"
+  },
+  "interface_placas": {
+    "Pi_furos_no_CAD_mm": 2.7,
+    "nao_alargar_PCB_por_supor_passagem_M3": true,
+    "decisao_pendente": false,
+    "decisao_confirmada_pelo_autor": "Presilhas rígidas pelas bordas, aparafusadas nos mesmos insertos M3"
+  },
+  "escopo_artefatos": "CAD/STL R05 gerados e auditados digitalmente, incluindo fatiamento Orca dos 29 modelos. Kit para ensaio dimensional, não aprovação física/fabricação final. R04 preservada como histórico."
+}

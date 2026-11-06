@@ -1,0 +1,48 @@
+{
+  "revisao": "R03",
+  "arquivo_origem": "docs/carcaca-r02/slamderson-coberto-r02.FCStd",
+  "sha256_origem": "778aebcbdc5edcd61ed7709fb552a31943df4a3ab561ec737af748e8e3d66dbf",
+  "objetos_montagem": 110,
+  "largura_anterior_mm": 130,
+  "base_compacta_mm": [
+    62,
+    62,
+    3
+  ],
+  "reducao_largura_percentual": 52.30769230769231,
+  "colunas_xy_mm": [
+    [
+      -21.5,
+      82.5
+    ],
+    [
+      21.5,
+      82.5
+    ]
+  ],
+  "suporte_z_mm": [
+    90,
+    145
+  ],
+  "base_C1_z_mm": 145,
+  "cota_teto_mm": 137,
+  "rasgo_tampa_postes_mm": [
+    54,
+    11
+  ],
+  "cor_suporte": "carvao, para integrar ao sensor",
+  "componentes_preservados": [
+    "LidarC1",
+    "RaspberryPi5",
+    "Reserva_Powerbank",
+    "Reserva_ESP",
+    "L298N",
+    "MPU6050",
+    "Reserva_Holder4AA"
+  ],
+  "limites": [
+    "Furos na matriz proposta da R02, sem comprovar furação do sensor físico.",
+    "Sem prova estrutural, de vibração, passagem real de cabo ou térmica.",
+    "A retirada das tampas é testada por amostras; não representa ensaio de montagem."
+  ]
+}

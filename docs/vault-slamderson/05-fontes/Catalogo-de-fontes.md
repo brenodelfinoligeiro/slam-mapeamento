@@ -4,6 +4,8 @@ consulta: 2026-11-04
 ---
 # Catálogo de fontes
 
+- [ROS: descrição, unidades e transformações](Descricao-ROS.md) — fontes oficiais ROS-REP103 e ROS-RSP-JAZZY, aplicadas ao URDF R05.
+
 ## Referências efetivamente consultadas
 
 - Fonte 1 — [[05-fontes/notas/Fonte-01-Einstronic-MH|Einstronic: MH Infrared Speed Sensor Module]]. Página comercial, sem PDF primário localizado. Sustenta associação de nomes, não identificação elétrica final.[1]

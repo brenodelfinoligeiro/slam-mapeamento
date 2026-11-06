@@ -1,0 +1,43 @@
+[INFO] [launch]: All log files can be found below /work/.ros/log/2026-11-06-13-18-30-872344-a4fa3e09ea66-198
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [robot_state_publisher-1]: process started with pid [217]
+[INFO] [simular-2]: process started with pid [218]
+[INFO] [converter_velocidade-3]: process started with pid [219]
+[INFO] [calcular_odometria-4]: process started with pid [220]
+[INFO] [tratar_imu-5]: process started with pid [221]
+[INFO] [ekf_node-6]: process started with pid [222]
+[INFO] [static_transform_publisher-7]: process started with pid [223]
+[INFO] [trajetorias-8]: process started with pid [224]
+[INFO] [rviz2-9]: process started with pid [225]
+[robot_state_publisher-1] [INFO] [1793971111.004315653] [robot_state_publisher]: Robot initialized
+[static_transform_publisher-7] [INFO] [1793971111.005549827] [origem_virtual]: Spinning until stopped - publishing transform
+[static_transform_publisher-7] translation: ('0.000000', '0.000000', '0.000000')
+[static_transform_publisher-7] rotation: ('0.000000', '0.000000', '0.000000', '1.000000')
+[static_transform_publisher-7] from 'simulacao_mundo' to 'odom'
+[ekf_node-6] [INFO] [1793971111.064126700] [estimador_local]: Waiting for clock to start...
+[rviz2-9] QStandardPaths: XDG_RUNTIME_DIR not set, defaulting to '/work/cache/runtime-ubuntu'
+[rviz2-9] [INFO] [1793971111.401399218] [rviz2]: Stereo is NOT SUPPORTED
+[rviz2-9] [INFO] [1793971111.401533177] [rviz2]: OpenGl version: 4.5 (GLSL 4.5)
+[simular-2] [WARN] [1793971111.475950687] [simulador_base]: SIMULAÇÃO VIRTUAL: defaults geométricos de referência CAD, não calibração física; o launch pode fornecer raio_roda e distancia_rodas. 720 pulsos/volta é resolução virtual, não medida. Contagens signed não certificam direção do encoder real de canal único. IMU planar idealizada, nivelada e alinhada ao corpo, sem braço de alavanca. /simulacao/referencia é ground truth para avaliação, nunca entrada do estimador.
+[rviz2-9] [INFO] [1793971111.492217636] [rviz2]: Stereo is NOT SUPPORTED
+[INFO] [rviz2-9]: process has finished cleanly [pid 225]
+[WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+[INFO] [trajetorias-8]: sending signal 'SIGINT' to process[trajetorias-8]
+[INFO] [static_transform_publisher-7]: sending signal 'SIGINT' to process[static_transform_publisher-7]
+[INFO] [ekf_node-6]: sending signal 'SIGINT' to process[ekf_node-6]
+[INFO] [tratar_imu-5]: sending signal 'SIGINT' to process[tratar_imu-5]
+[INFO] [calcular_odometria-4]: sending signal 'SIGINT' to process[calcular_odometria-4]
+[INFO] [converter_velocidade-3]: sending signal 'SIGINT' to process[converter_velocidade-3]
+[INFO] [simular-2]: sending signal 'SIGINT' to process[simular-2]
+[INFO] [robot_state_publisher-1]: sending signal 'SIGINT' to process[robot_state_publisher-1]
+[static_transform_publisher-7] [INFO] [1793971121.634427027] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[ekf_node-6] [INFO] [1793971121.635281153] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[robot_state_publisher-1] [INFO] [1793971121.640061655] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[INFO] [static_transform_publisher-7]: process has finished cleanly [pid 223]
+[INFO] [robot_state_publisher-1]: process has finished cleanly [pid 217]
+[INFO] [ekf_node-6]: process has finished cleanly [pid 222]
+[INFO] [trajetorias-8]: process has finished cleanly [pid 224]
+[INFO] [simular-2]: process has finished cleanly [pid 218]
+[INFO] [converter_velocidade-3]: process has finished cleanly [pid 219]
+[INFO] [tratar_imu-5]: process has finished cleanly [pid 221]
+[INFO] [calcular_odometria-4]: process has finished cleanly [pid 220]

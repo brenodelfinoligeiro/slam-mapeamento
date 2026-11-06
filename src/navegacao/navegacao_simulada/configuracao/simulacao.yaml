@@ -1,0 +1,25 @@
+geometria:
+  raio_roda: 0.03446139931678772
+  distancia_rodas: 0.13238015174865722
+simulador:
+  frequencia: 50.0
+  pulsos_por_volta: 720
+  prazo_comando: 0.4
+  escala_encoder_esquerda: 1.02
+  escala_encoder_direita: 0.98
+  ruido_giroscopio: 0.004
+  bias_giroscopio: 0.01
+  semente: 7
+  publicar_clock: true
+comandos:
+  maximo_linear: 0.3
+  maximo_angular: 1.5
+  prazo_comando: 0.4
+imu:
+  bias_giroscopio_z: 0.01
+  variancia_giroscopio: 1.6e-05
+  variancia_acelerometro: 0.01
+  tolerancia_atraso: 0.3
+odometria:
+  variancia_velocidade: 0.0025
+  variancia_rotacao: 0.04

@@ -1,0 +1,116 @@
+[INFO] [launch]: All log files can be found below /work/.ros/log/2026-11-06-16-04-22-198176-cb1ccce180e2-1489
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [robot_state_publisher-1]: process started with pid [1518]
+[INFO] [simular-2]: process started with pid [1519]
+[INFO] [converter_velocidade-3]: process started with pid [1520]
+[INFO] [calcular_odometria-4]: process started with pid [1521]
+[INFO] [tratar_imu-5]: process started with pid [1522]
+[INFO] [ekf_node-6]: process started with pid [1523]
+[INFO] [trajetorias-7]: process started with pid [1524]
+[INFO] [simular_lidar-8]: process started with pid [1525]
+[INFO] [static_transform_publisher-9]: process started with pid [1526]
+[INFO] [static_transform_publisher-10]: process started with pid [1527]
+[INFO] [async_slam_toolbox_node-11]: process started with pid [1530]
+[INFO] [map_saver_server-12]: process started with pid [1531]
+[INFO] [rviz2-13]: process started with pid [1532]
+[robot_state_publisher-1] [INFO] [1793981062.456674743] [robot_state_publisher]: Robot initialized
+[static_transform_publisher-9] [INFO] [1793981062.460098139] [laser_virtual]: Spinning until stopped - publishing transform
+[static_transform_publisher-9] translation: ('0.000000', '0.000000', '0.000000')
+[static_transform_publisher-9] rotation: ('0.000000', '0.000000', '0.000000', '1.000000')
+[static_transform_publisher-9] from 'lidar_mount_link' to 'laser_simulado'
+[ekf_node-6] [INFO] [1793981062.470184528] [estimador_local]: Waiting for clock to start...
+[static_transform_publisher-10] [INFO] [1793981062.472503470] [origem_cenario_slam]: Spinning until stopped - publishing transform
+[static_transform_publisher-10] translation: ('0.000000', '0.000000', '0.000000')
+[static_transform_publisher-10] rotation: ('0.000000', '0.000000', '0.000000', '1.000000')
+[static_transform_publisher-10] from 'simulacao_mundo' to 'map'
+[async_slam_toolbox_node-11] [INFO] [1793981062.557009498] [slam_toolbox]: Node using stack size 40000000
+[map_saver_server-12] [INFO] [1793981062.561402383] [salvador_mapa]: 
+[map_saver_server-12] 	salvador_mapa lifecycle node launched. 
+[map_saver_server-12] 	Waiting on external lifecycle transitions to activate
+[map_saver_server-12] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[map_saver_server-12] [INFO] [1793981062.561497222] [salvador_mapa]: Creating
+[map_saver_server-12] [INFO] [1793981062.673343333] [salvador_mapa]: Configuring
+[map_saver_server-12] [INFO] [1793981062.679186410] [salvador_mapa]: Activating
+[map_saver_server-12] [INFO] [1793981062.679236292] [salvador_mapa]: Creating bond (salvador_mapa) to lifecycle manager.
+[async_slam_toolbox_node-11] [INFO] [1793981062.856692218] [slam_toolbox]: Configuring
+[async_slam_toolbox_node-11] [INFO] [1793981062.868301210] [slam_toolbox]: Using solver plugin solver_plugins::CeresSolver
+[async_slam_toolbox_node-11] [INFO] [1793981062.947421661] [slam_toolbox]: Activating
+[rviz2-13] [INFO] [1793981062.954477112] [rviz2]: Stereo is NOT SUPPORTED
+[rviz2-13] [INFO] [1793981062.954549298] [rviz2]: OpenGl version: 4.5 (GLSL 4.5)
+[rviz2-13] [INFO] [1793981063.047796755] [rviz2]: Stereo is NOT SUPPORTED
+[simular-2] [WARN] [1793981063.084262918] [simulador_base]: SIMULAÇÃO VIRTUAL: defaults geométricos de referência CAD, não calibração física; o launch pode fornecer raio_roda e distancia_rodas. 720 pulsos/volta é resolução virtual, não medida. Contagens signed não certificam direção do encoder real de canal único. IMU planar idealizada, nivelada e alinhada ao corpo, sem braço de alavanca. /simulacao/referencia é ground truth para avaliação, nunca entrada do estimador.
+[simular_lidar-8] [WARN] [1793981063.219805867] [lidar_simulado]: LiDAR GEOMÉTRICO VIRTUAL: alinhamento fixo do modelo, não calibração do C1; sem física de colisão, medição global de pose ou mapa perfeito publicado.
+[rviz2-13] [INFO] [1793981065.638492924] [rviz_slam]: Message Filter dropping message: frame 'odom' at time 1.440 for reason 'discarding message because the queue is full'
+[ekf_node-6] [ERROR] [1793981066.325789163] [estimador_local]: Failed to meet update rate! Took 0.040000000000000000833seconds. Try decreasing the rate, limiting sensor output frequency, or limiting the number of sensors.
+[async_slam_toolbox_node-11] Info: clipped range threshold to be within minimum and maximum range!
+[async_slam_toolbox_node-11] Registering sensor: [Custom Described Lidar]
+[rviz2-13] [INFO] [1793981068.094699048] [rviz2]: Trying to create a map of size 120 x 100 using 1 swatches
+[rviz2-13] [ERROR] [1793981068.164379860] [rviz2]: rviz/glsl120/indexed_8bit_image.vert
+[rviz2-13] rviz/glsl120/indexed_8bit_image.frag
+[rviz2-13]  GLSL link result : 
+[rviz2-13] active samplers with a different type refer to the same texture image unit
+[rviz2-13] [INFO] [1793981075.091578254] [rviz2]: Trying to create a map of size 121 x 101 using 1 swatches
+[rviz2-13] [INFO] [1793981076.436935423] [rviz_slam]: Message Filter dropping message: frame 'odom' at time 3.460 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[rviz2-13] [INFO] [1793981077.284819801] [rviz_slam]: Message Filter dropping message: frame 'laser_simulado' at time 4.160 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[INFO] [rviz2-13]: process has finished cleanly [pid 1532]
+[WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+[INFO] [map_saver_server-12]: sending signal 'SIGINT' to process[map_saver_server-12]
+[INFO] [async_slam_toolbox_node-11]: sending signal 'SIGINT' to process[async_slam_toolbox_node-11]
+[INFO] [static_transform_publisher-10]: sending signal 'SIGINT' to process[static_transform_publisher-10]
+[INFO] [static_transform_publisher-9]: sending signal 'SIGINT' to process[static_transform_publisher-9]
+[INFO] [simular_lidar-8]: sending signal 'SIGINT' to process[simular_lidar-8]
+[INFO] [trajetorias-7]: sending signal 'SIGINT' to process[trajetorias-7]
+[INFO] [ekf_node-6]: sending signal 'SIGINT' to process[ekf_node-6]
+[INFO] [tratar_imu-5]: sending signal 'SIGINT' to process[tratar_imu-5]
+[INFO] [calcular_odometria-4]: sending signal 'SIGINT' to process[calcular_odometria-4]
+[INFO] [converter_velocidade-3]: sending signal 'SIGINT' to process[converter_velocidade-3]
+[INFO] [simular-2]: sending signal 'SIGINT' to process[simular-2]
+[INFO] [robot_state_publisher-1]: sending signal 'SIGINT' to process[robot_state_publisher-1]
+[map_saver_server-12] [INFO] [1793981083.976559103] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[map_saver_server-12] [INFO] [1793981083.976696491] [salvador_mapa]: Running Nav2 LifecycleNode rcl preshutdown (salvador_mapa)
+[map_saver_server-12] [INFO] [1793981083.976761857] [salvador_mapa]: Deactivating
+[map_saver_server-12] [INFO] [1793981083.976787467] [salvador_mapa]: Destroying bond (salvador_mapa) to lifecycle manager.
+[async_slam_toolbox_node-11] [INFO] [1793981083.977837824] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[static_transform_publisher-10] [INFO] [1793981083.979192998] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[async_slam_toolbox_node-11] Unregistering sensor: Custom Described Lidar
+[static_transform_publisher-9] [INFO] [1793981083.981061350] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[ekf_node-6] [INFO] [1793981083.986484234] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[map_saver_server-12] [INFO] [1793981083.986955703] [salvador_mapa]: Cleaning up
+[map_saver_server-12] [INFO] [1793981083.986997592] [salvador_mapa]: Destroying bond (salvador_mapa) to lifecycle manager.
+[map_saver_server-12] [INFO] [1793981083.989332609] [salvador_mapa]: Destroying
+[trajetorias-7] Traceback (most recent call last):
+[trajetorias-7]   File "/work/install/navegacao_simulada/lib/navegacao_simulada/trajetorias", line 33, in <module>
+[trajetorias-7]     sys.exit(load_entry_point('navegacao-simulada==0.0.0', 'console_scripts', 'trajetorias')())
+[trajetorias-7]              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[trajetorias-7]   File "/work/install/navegacao_simulada/lib/python3.12/site-packages/navegacao_simulada/trajetorias.py", line 28, in main
+[trajetorias-7]     try:rclpy.spin(no)
+[trajetorias-7]         ^^^^^^^^^^^^^^
+[trajetorias-7]   File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/__init__.py", line 247, in spin
+[trajetorias-7]     executor.spin_once()
+[trajetorias-7]   File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/executors.py", line 926, in spin_once
+[trajetorias-7]     self._spin_once_impl(timeout_sec)
+[trajetorias-7]   File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/executors.py", line 918, in _spin_once_impl
+[trajetorias-7]     raise handler.exception()
+[trajetorias-7]   File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/task.py", line 286, in _execute_coroutine_step
+[trajetorias-7]     result = coro.send(None)
+[trajetorias-7]              ^^^^^^^^^^^^^^^
+[trajetorias-7]   File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/executors.py", line 584, in handler
+[trajetorias-7]     call_coroutine = take_from_wait_list(entity)
+[trajetorias-7]                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[trajetorias-7]   File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/executors.py", line 470, in _take_subscription
+[trajetorias-7]     msg_info = sub.handle.take_message(sub.msg_type, sub.raw)
+[trajetorias-7]                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[trajetorias-7] RuntimeError: Unable to convert call argument '0' to Python object (#define PYBIND11_DETAILED_ERROR_MESSAGES or compile in debug mode for details)
+[robot_state_publisher-1] [INFO] [1793981083.997253952] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[INFO] [static_transform_publisher-10]: process has finished cleanly [pid 1527]
+[INFO] [static_transform_publisher-9]: process has finished cleanly [pid 1526]
+[INFO] [map_saver_server-12]: process has finished cleanly [pid 1531]
+[INFO] [ekf_node-6]: process has finished cleanly [pid 1523]
+[INFO] [async_slam_toolbox_node-11]: process has finished cleanly [pid 1530]
+[INFO] [robot_state_publisher-1]: process has finished cleanly [pid 1518]
+[INFO] [simular-2]: process has finished cleanly [pid 1519]
+[INFO] [simular_lidar-8]: process has finished cleanly [pid 1525]
+[INFO] [converter_velocidade-3]: process has finished cleanly [pid 1520]
+[INFO] [tratar_imu-5]: process has finished cleanly [pid 1522]
+[ERROR] [trajetorias-7]: process has died [pid 1524, exit code 1, cmd '/work/install/navegacao_simulada/lib/navegacao_simulada/trajetorias --ros-args -r __node:=trajetorias --params-file /work/cache/launch_params_evx5d93m'].
+[INFO] [calcular_odometria-4]: process has finished cleanly [pid 1521]

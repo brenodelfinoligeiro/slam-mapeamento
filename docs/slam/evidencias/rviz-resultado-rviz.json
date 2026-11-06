@@ -1,0 +1,7 @@
+{
+  "rviz_real": true,
+  "scan_mapa_modelo_e_tf_ativos": true,
+  "captura": "previa-slam.png",
+  "inspecao_visual_pendente": true,
+  "encerramento_limpo": true
+}

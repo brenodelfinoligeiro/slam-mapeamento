@@ -46,6 +46,10 @@ Esta pasta é a **fonte central da documentação do projeto**. Os textos são e
 8. [Responsabilidades das pastas](responsabilidades.md).
 9. [Convenções de escrita e manutenção](convencoes.md).
 
+## Fundamentação para a monografia
+
+[Software e monografia](vault-slamderson/05-fontes/Software-e-monografia.md): bibliografia ligada aos pacotes, configurações, decisões e recibos. Artigos fundamentam os métodos; documentação versionada fundamenta interfaces; ensaios próprios sustentam os resultados.
+
 ## Publicação e referências locais
 
 O repositório está destinado a <https://github.com/brenodelfinoligeiro/slam-mapeamento>. Consulte a [política de publicação](publicacao-git.md): alguns arquivos de referência são preservados apenas localmente por falta de autorização de redistribuição confirmada.

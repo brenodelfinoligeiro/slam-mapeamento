@@ -11,3 +11,7 @@ TwistStamped manual/autônomo em entradas separadas; saída única /cmd_vel para
 Não controla objetivos Nav2, nem sensores/SLAM ou segurança física. O coordenador futuro deve tratar cancelamento de ação ao tomar controle manual. Nenhum hardware, deploy ou publicação foi executado.
 
 [Interfaces e comandos](../../arbitro/LEIA-ME.md) · [[04-experimentos/Arbitragem-manual-autonoma]] · [[03-decisoes/Arquitetura-atual]] · [[Inicio]]
+
+## Fundamentação bibliográfica
+
+[[05-fontes/Software-e-monografia|Roteiro para a monografia e distinção entre método e resultado]] · [[05-fontes/notas/Fonte-26-QoS-Jazzy]]

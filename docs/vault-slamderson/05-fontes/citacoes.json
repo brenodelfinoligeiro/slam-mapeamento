@@ -276,6 +276,178 @@
           "added": "2026-11-04"
         }
       ]
+    },
+    {
+      "id": 24,
+      "url": "https://docs.nav2.org/jazzy/configuration_and_development/configuration_guide/planners_plugins/configuring_navfn",
+      "title": "Nav2 Jazzy — NavFn Planner",
+      "accessed": "2026-11-07",
+      "quotes": [
+        {
+          "text": "The Navfn Planner plugin implements a wavefront Dijkstra or A* expanded holonomic planner.",
+          "added": "2026-11-07"
+        },
+        {
+          "text": "Whether to use A*. If\nfalse\n, uses Dijkstra's expansion.",
+          "added": "2026-11-07"
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "url": "https://docs.nav2.org/jazzy/configuration_and_development/configuration_guide/controller_plugins/configuring_regulated_pp",
+      "title": "Nav2 Jazzy — Regulated Pure Pursuit",
+      "accessed": "2026-11-07",
+      "quotes": [
+        {
+          "text": "It regulates the linear velocities by curvature of the path to help reduce overshoot at high speeds around blind corners allowing operations to be much more safe.",
+          "added": "2026-11-07"
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "url": "https://docs.ros.org/en/jazzy/Concepts/Intermediate/About-Quality-of-Service-Settings.html",
+      "title": "ROS 2 Jazzy — Quality of Service settings",
+      "accessed": "2026-11-07",
+      "quotes": [
+        {
+          "text": "Transient local\n: the publisher becomes responsible for persisting samples for “late-joining” subscriptions.",
+          "added": "2026-11-07"
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "url": "https://raw.githubusercontent.com/cra-ros-pkg/robot_localization/ros2/doc/configuring_robot_localization.rst",
+      "title": "robot_localization — Configuring robot_localization (branch ros2)",
+      "accessed": "2026-11-07",
+      "quotes": [
+        {
+          "text": "If so, please set the ``two_d_mode`` parameter to *true*. This effectively zeros out the 3D pose variables in every measurement and forces them to be fused in the state estimate.",
+          "added": "2026-11-07"
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "url": "https://raw.githubusercontent.com/SteveMacenski/slam_toolbox/jazzy/README.md",
+      "title": "SLAM Toolbox — README (branch jazzy)",
+      "accessed": "2026-11-07",
+      "quotes": [
+        {
+          "text": "- an optimization-based localization mode built on the pose-graph.",
+          "added": "2026-11-07"
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "url": "https://raw.githubusercontent.com/ros-infrastructure/rep/master/rep-0105.rst",
+      "title": "REP 105 — Coordinate Frames for Mobile Platforms",
+      "accessed": "2026-11-07",
+      "quotes": [
+        {
+          "text": "The ``odom`` frame is useful as an accurate, short-term local\nreference, but drift makes it a poor frame for long-term reference.",
+          "added": "2026-11-07"
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "url": "https://raw.githubusercontent.com/ros/robot_state_publisher/jazzy/README.md",
+      "title": "robot_state_publisher — README (branch jazzy)",
+      "accessed": "2026-11-07",
+      "quotes": [
+        {
+          "text": "At startup time, Robot State Publisher is supplied with a kinematic tree model (URDF) of the robot.",
+          "added": "2026-11-07"
+        }
+      ]
+    },
+    {
+      "id": 31,
+      "url": "https://docs.ros.org/en/jazzy/Concepts/Intermediate/About-Tf2.html",
+      "title": "ROS 2 Jazzy — Tf2",
+      "accessed": "2026-11-07",
+      "quotes": [
+        {
+          "text": "tf2 is the transform library, which lets the user keep track of multiple coordinate frames over time.",
+          "added": "2026-11-07"
+        }
+      ]
+    },
+    {
+      "id": 32,
+      "url": "https://arxiv.org/abs/2211.07752",
+      "title": "Robot Operating System 2: Design, architecture, and uses in the wild",
+      "accessed": "2026-11-07",
+      "quotes": [
+        {
+          "text": "In this review, we highlight the philosophical and architectural changes of ROS 2 powering this new chapter in the robotics revolution.",
+          "added": "2026-11-07"
+        }
+      ]
+    },
+    {
+      "id": 33,
+      "url": "https://arxiv.org/abs/2003.00368",
+      "title": "The Marathon 2: A Navigation System",
+      "accessed": "2026-11-07",
+      "quotes": [
+        {
+          "text": "Navigation2 uses a behavior tree for navigator task orchestration",
+          "added": "2026-11-07"
+        }
+      ]
+    },
+    {
+      "id": 34,
+      "url": "https://joss.theoj.org/papers/10.21105/joss.02783.pdf",
+      "title": "SLAM Toolbox: SLAM for the dynamic world",
+      "accessed": "2026-11-07",
+      "quotes": [
+        {
+          "text": "This software package provides an approach for multi-session mapping and localization.",
+          "added": "2026-11-07"
+        }
+      ]
+    },
+    {
+      "id": 35,
+      "url": "https://link.springer.com/article/10.1007/s10514-023-10097-6",
+      "title": "Regulated pure pursuit for robot path tracking",
+      "accessed": "2026-11-07",
+      "quotes": [
+        {
+          "text": "This paper presents a variant of Pure Pursuit designed with additional heuristics to regulate linear velocities, built atop the existing Adaptive variant.",
+          "added": "2026-11-07"
+        }
+      ]
+    },
+    {
+      "id": 36,
+      "url": "https://link.springer.com/chapter/10.1007/978-3-319-08338-4_25",
+      "title": "A Generalized Extended Kalman Filter Implementation for the Robot Operating System",
+      "accessed": "2026-11-07",
+      "quotes": [
+        {
+          "text": "The package currently contains an implementation of an extended Kalman filter (EKF).",
+          "added": "2026-11-07"
+        }
+      ]
+    },
+    {
+      "id": 37,
+      "url": "https://mdpi-res.com/d_attachment/remotesensing/remotesensing-17-01214/article_deploy/remotesensing-17-01214.pdf",
+      "title": "A Review of 2D Lidar SLAM Research",
+      "accessed": "2026-11-07",
+      "quotes": [
+        {
+          "text": "2D Lidar SLAM is more cost‐effective compared to 3D Lidar SLAM",
+          "added": "2026-11-07"
+        }
+      ]
     }
   ]
 }

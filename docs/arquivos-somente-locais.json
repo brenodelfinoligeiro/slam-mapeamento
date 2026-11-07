@@ -760,6 +760,116 @@
       "caminho": "docs/navegacao/robo-movel-nav2-atualizacao-v1.zip",
       "sha256": "a8450010dc3cc1b7de158f61768087ed4a21195c790919048f363c51a55fb9a6",
       "motivo": "Atualização privada Nav2 com captura derivada de CAD licenciado sob auditoria pendente; não publicar automaticamente. Requer workspace anterior."
+    },
+    {
+      "caminho": "docs/vault-slamderson/05-fontes/evidencias/software-24.txt",
+      "sha256": "a2443b07474e3d3f51c2cc45651cb5f155b2d4991f0e375e9ce80cf7ed8c5b91",
+      "motivo": "Cópia de fonte externa da pesquisa bibliográfica de software; preservação local, sem publicação automática dos textos integrais/originais."
+    },
+    {
+      "caminho": "docs/vault-slamderson/05-fontes/evidencias/software-25.txt",
+      "sha256": "637def6f407df3f19e591b1ea03e723fb8a13645761003f8f583412b89d6698b",
+      "motivo": "Cópia de fonte externa da pesquisa bibliográfica de software; preservação local, sem publicação automática dos textos integrais/originais."
+    },
+    {
+      "caminho": "docs/vault-slamderson/05-fontes/evidencias/software-26.txt",
+      "sha256": "e5cfab9f881f94a7500554e00bf657b3cac708c7d6b318dcae87f4ae33b376ac",
+      "motivo": "Cópia de fonte externa da pesquisa bibliográfica de software; preservação local, sem publicação automática dos textos integrais/originais."
+    },
+    {
+      "caminho": "docs/vault-slamderson/05-fontes/evidencias/software-27.txt",
+      "sha256": "ce1e3912b44721b701b259e751215dc67f6a77192373f4e3f885406eac9dd433",
+      "motivo": "Cópia de fonte externa da pesquisa bibliográfica de software; preservação local, sem publicação automática dos textos integrais/originais."
+    },
+    {
+      "caminho": "docs/vault-slamderson/05-fontes/evidencias/software-28.txt",
+      "sha256": "b73b114ac176dda6a52d19451aae26465fa122755dcc7c8a2e31f8765c33a366",
+      "motivo": "Cópia de fonte externa da pesquisa bibliográfica de software; preservação local, sem publicação automática dos textos integrais/originais."
+    },
+    {
+      "caminho": "docs/vault-slamderson/05-fontes/evidencias/software-29.txt",
+      "sha256": "6bca6ae2b392bbb8e95c283c672549b832c58128feaccc4d77b6bf65534f565e",
+      "motivo": "Cópia de fonte externa da pesquisa bibliográfica de software; preservação local, sem publicação automática dos textos integrais/originais."
+    },
+    {
+      "caminho": "docs/vault-slamderson/05-fontes/evidencias/software-30.txt",
+      "sha256": "d7f2d81e4fadf6adbe2d1099db7aa4f4aac59c253e7a682e7bbf1212dee7cd64",
+      "motivo": "Cópia de fonte externa da pesquisa bibliográfica de software; preservação local, sem publicação automática dos textos integrais/originais."
+    },
+    {
+      "caminho": "docs/vault-slamderson/05-fontes/evidencias/software-31.txt",
+      "sha256": "6268a6a08f37a77b7d3ab784cf4e6d94d41b866cfa79c778fef5a301b83c193a",
+      "motivo": "Cópia de fonte externa da pesquisa bibliográfica de software; preservação local, sem publicação automática dos textos integrais/originais."
+    },
+    {
+      "caminho": "docs/vault-slamderson/05-fontes/evidencias/software-32.txt",
+      "sha256": "9fc64f992b04c2da6dce8e11d9ac535b4027e4cad668dcd4e8f03d19af79c607",
+      "motivo": "Cópia de fonte externa da pesquisa bibliográfica de software; preservação local, sem publicação automática dos textos integrais/originais."
+    },
+    {
+      "caminho": "docs/vault-slamderson/05-fontes/evidencias/software-32-metadados.json",
+      "sha256": "854fc6a95f2f99c2f3943914556c73fb1a2740abaa1f5e38137fdbf6a8877293",
+      "motivo": "Cópia de fonte externa da pesquisa bibliográfica de software; preservação local, sem publicação automática dos textos integrais/originais."
+    },
+    {
+      "caminho": "docs/vault-slamderson/05-fontes/evidencias/software-33.txt",
+      "sha256": "90b77534ea6efe3bd99dc73a1bd71e060e0065e864120f031d060744044941a0",
+      "motivo": "Cópia de fonte externa da pesquisa bibliográfica de software; preservação local, sem publicação automática dos textos integrais/originais."
+    },
+    {
+      "caminho": "docs/vault-slamderson/05-fontes/evidencias/software-33-metadados.json",
+      "sha256": "1115dd854de576e70406f22174f7101d17a7b9f7a60ea54dd9650c9b7d0ff7f7",
+      "motivo": "Cópia de fonte externa da pesquisa bibliográfica de software; preservação local, sem publicação automática dos textos integrais/originais."
+    },
+    {
+      "caminho": "docs/vault-slamderson/05-fontes/evidencias/software-34.txt",
+      "sha256": "693d8ae464d284f9114efdb9bab9505d7b9d31ad10e795be4226e5694441ab1c",
+      "motivo": "Cópia de fonte externa da pesquisa bibliográfica de software; preservação local, sem publicação automática dos textos integrais/originais."
+    },
+    {
+      "caminho": "docs/vault-slamderson/05-fontes/pdf/software-34.pdf",
+      "sha256": "001428ab44c8861b1d9410ef7909652cd86071f46b81723bd17d7ea7299821af",
+      "motivo": "Cópia de fonte externa da pesquisa bibliográfica de software; preservação local, sem publicação automática dos textos integrais/originais."
+    },
+    {
+      "caminho": "docs/vault-slamderson/05-fontes/evidencias/software-34-metadados.json",
+      "sha256": "86015438ebbc4cdd728c21136764449b85c07ae3508a94c6543670fe67551d2c",
+      "motivo": "Cópia de fonte externa da pesquisa bibliográfica de software; preservação local, sem publicação automática dos textos integrais/originais."
+    },
+    {
+      "caminho": "docs/vault-slamderson/05-fontes/evidencias/software-35.txt",
+      "sha256": "1ffba808de8eb2bfcb92eb3d2fb98a876698e97504be844917b4765582acf220",
+      "motivo": "Cópia de fonte externa da pesquisa bibliográfica de software; preservação local, sem publicação automática dos textos integrais/originais."
+    },
+    {
+      "caminho": "docs/vault-slamderson/05-fontes/evidencias/software-35-metadados.json",
+      "sha256": "d658fae9e3944c920ba78e431127e002457dc58fabcecdd29ce3a539a4917753",
+      "motivo": "Cópia de fonte externa da pesquisa bibliográfica de software; preservação local, sem publicação automática dos textos integrais/originais."
+    },
+    {
+      "caminho": "docs/vault-slamderson/05-fontes/evidencias/software-36.txt",
+      "sha256": "14912161c55b9b1f957b74184b1fd03ff6ce17bd65831919db3d2a656afe9e54",
+      "motivo": "Cópia de fonte externa da pesquisa bibliográfica de software; preservação local, sem publicação automática dos textos integrais/originais."
+    },
+    {
+      "caminho": "docs/vault-slamderson/05-fontes/evidencias/software-36-metadados.json",
+      "sha256": "5e47e91e17f3c7f144c66d078e32be93209b72263e1d64dc0fae093b7a83c02e",
+      "motivo": "Cópia de fonte externa da pesquisa bibliográfica de software; preservação local, sem publicação automática dos textos integrais/originais."
+    },
+    {
+      "caminho": "docs/vault-slamderson/05-fontes/evidencias/software-37.txt",
+      "sha256": "69d9503c7d684d83cb6ff819e0c4f35b11f1f094b002ac760c9151be6b3a5167",
+      "motivo": "Cópia de fonte externa da pesquisa bibliográfica de software; preservação local, sem publicação automática dos textos integrais/originais."
+    },
+    {
+      "caminho": "docs/vault-slamderson/05-fontes/pdf/software-37.pdf",
+      "sha256": "3871b6875719499b7e08ac80b6f01033f70a3afbd02f437c442c169b15eea6e0",
+      "motivo": "Cópia de fonte externa da pesquisa bibliográfica de software; preservação local, sem publicação automática dos textos integrais/originais."
+    },
+    {
+      "caminho": "docs/vault-slamderson/05-fontes/evidencias/software-37-metadados.json",
+      "sha256": "a4c9bca2c995b39c0278249d3d035fbcaf7d7515233017690edbafdbea6d3d80",
+      "motivo": "Cópia de fonte externa da pesquisa bibliográfica de software; preservação local, sem publicação automática dos textos integrais/originais."
     }
   ]
 }

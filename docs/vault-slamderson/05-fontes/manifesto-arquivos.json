@@ -1,6 +1,6 @@
 {
   "versao": 1,
-  "data_consulta": "2026-11-04",
+  "data_consulta": "2026-11-07",
   "arquivos": [
     {
       "fonte_id": 2,
@@ -85,6 +85,40 @@
       "metadados_pdf": "Creator:         Microsoft® Word 2010\nProducer:        Microsoft® Word 2010\nCreationDate:    Mon Jul 16 22:00:50 2012 -03\nModDate:         Wed Jul 18 14:10:04 2012 -03\nCustom Metadata: no\nMetadata Stream: yes\nTagged:          yes\nUserProperties:  no\nSuspects:        no\nForm:            none\nJavaScript:      no\nPages:           54\nEncrypted:       no\nPage size:       612 x 792 pts (letter)\nPage rot:        0\nFile size:       1958783 bytes\nOptimized:       yes\nPDF version:     1.5\n",
       "evidencia": "05-fontes/evidencias/invensense-mpu6050-especificacao-dfrobot.txt",
       "caracteres_extraidos": 175414,
+      "estado": "obtido"
+    },
+    {
+      "fonte_id": 34,
+      "nome": "software-34",
+      "url_solicitada": "https://joss.theoj.org/papers/10.21105/joss.02783.pdf",
+      "tipo": "pdf",
+      "url_download": "https://joss.theoj.org/papers/10.21105/joss.02783.pdf",
+      "content_type": "application/pdf",
+      "acesso": "2026-11-07",
+      "caminho": "05-fontes/pdf/software-34.pdf",
+      "sha256": "001428ab44c8861b1d9410ef7909652cd86071f46b81723bd17d7ea7299821af",
+      "bytes": 1517309,
+      "paginas": 7,
+      "metadados_pdf": "Title:           SLAM Toolbox: SLAM for the dynamic world\nCreator:         LaTeX with hyperref package\nProducer:        XeTeX 0.99998\nCreationDate:    Thu May 13 16:12:44 2021 -03\nCustom Metadata: no\nMetadata Stream: no\nTagged:          no\nUserProperties:  no\nSuspects:        no\nForm:            none\nJavaScript:      no\nPages:           7\nEncrypted:       no\nPage size:       595.28 x 841.89 pts (A4)\nPage rot:        0\nFile size:       1517309 bytes\nOptimized:       no\nPDF version:     1.5\n",
+      "evidencia": "05-fontes/evidencias/software-34.txt",
+      "caracteres_extraidos": 22447,
+      "estado": "obtido"
+    },
+    {
+      "fonte_id": 37,
+      "nome": "software-37",
+      "url_solicitada": "https://mdpi-res.com/d_attachment/remotesensing/remotesensing-17-01214/article_deploy/remotesensing-17-01214.pdf",
+      "tipo": "pdf",
+      "url_download": "https://mdpi-res.com/d_attachment/remotesensing/remotesensing-17-01214/article_deploy/remotesensing-17-01214.pdf",
+      "content_type": "application/pdf",
+      "acesso": "2026-11-07",
+      "caminho": "05-fontes/pdf/software-37.pdf",
+      "sha256": "3871b6875719499b7e08ac80b6f01033f70a3afbd02f437c442c169b15eea6e0",
+      "bytes": 3487135,
+      "paginas": 28,
+      "metadados_pdf": "Title:           Microsoft Word - remotesensing-3405531.docx\nAuthor:          SofijaPetrovic\nCreator:         PScript5.dll Version 5.2.2\nProducer:        Acrobat Distiller 25.0 (Windows)\nCreationDate:    Fri Mar 28 13:09:52 2025 -03\nModDate:         Fri Mar 28 13:11:32 2025 -03\nCustom Metadata: no\nMetadata Stream: no\nTagged:          no\nUserProperties:  no\nSuspects:        no\nForm:            none\nJavaScript:      no\nPages:           28\nEncrypted:       no\nPage size:       595.22 x 842 pts (A4)\nPage rot:        0\nFile size:       3487135 bytes\nOptimized:       no\nPDF version:     1.7\n",
+      "evidencia": "05-fontes/evidencias/software-37.txt",
+      "caracteres_extraidos": 111131,
       "estado": "obtido"
     }
   ],
@@ -219,6 +253,40 @@
       "metadados_pdf": "Creator:         Microsoft® Word 2010\nProducer:        Microsoft® Word 2010\nCreationDate:    Mon Jul 16 22:00:50 2012 -03\nModDate:         Wed Jul 18 14:10:04 2012 -03\nCustom Metadata: no\nMetadata Stream: yes\nTagged:          yes\nUserProperties:  no\nSuspects:        no\nForm:            none\nJavaScript:      no\nPages:           54\nEncrypted:       no\nPage size:       612 x 792 pts (letter)\nPage rot:        0\nFile size:       1958783 bytes\nOptimized:       yes\nPDF version:     1.5\n",
       "evidencia": "05-fontes/evidencias/invensense-mpu6050-especificacao-dfrobot.txt",
       "caracteres_extraidos": 175414,
+      "estado": "obtido"
+    },
+    {
+      "fonte_id": 34,
+      "nome": "software-34",
+      "url_solicitada": "https://joss.theoj.org/papers/10.21105/joss.02783.pdf",
+      "tipo": "pdf",
+      "url_download": "https://joss.theoj.org/papers/10.21105/joss.02783.pdf",
+      "content_type": "application/pdf",
+      "acesso": "2026-11-07",
+      "caminho": "05-fontes/pdf/software-34.pdf",
+      "sha256": "001428ab44c8861b1d9410ef7909652cd86071f46b81723bd17d7ea7299821af",
+      "bytes": 1517309,
+      "paginas": 7,
+      "metadados_pdf": "Title:           SLAM Toolbox: SLAM for the dynamic world\nCreator:         LaTeX with hyperref package\nProducer:        XeTeX 0.99998\nCreationDate:    Thu May 13 16:12:44 2021 -03\nCustom Metadata: no\nMetadata Stream: no\nTagged:          no\nUserProperties:  no\nSuspects:        no\nForm:            none\nJavaScript:      no\nPages:           7\nEncrypted:       no\nPage size:       595.28 x 841.89 pts (A4)\nPage rot:        0\nFile size:       1517309 bytes\nOptimized:       no\nPDF version:     1.5\n",
+      "evidencia": "05-fontes/evidencias/software-34.txt",
+      "caracteres_extraidos": 22447,
+      "estado": "obtido"
+    },
+    {
+      "fonte_id": 37,
+      "nome": "software-37",
+      "url_solicitada": "https://mdpi-res.com/d_attachment/remotesensing/remotesensing-17-01214/article_deploy/remotesensing-17-01214.pdf",
+      "tipo": "pdf",
+      "url_download": "https://mdpi-res.com/d_attachment/remotesensing/remotesensing-17-01214/article_deploy/remotesensing-17-01214.pdf",
+      "content_type": "application/pdf",
+      "acesso": "2026-11-07",
+      "caminho": "05-fontes/pdf/software-37.pdf",
+      "sha256": "3871b6875719499b7e08ac80b6f01033f70a3afbd02f437c442c169b15eea6e0",
+      "bytes": 3487135,
+      "paginas": 28,
+      "metadados_pdf": "Title:           Microsoft Word - remotesensing-3405531.docx\nAuthor:          SofijaPetrovic\nCreator:         PScript5.dll Version 5.2.2\nProducer:        Acrobat Distiller 25.0 (Windows)\nCreationDate:    Fri Mar 28 13:09:52 2025 -03\nModDate:         Fri Mar 28 13:11:32 2025 -03\nCustom Metadata: no\nMetadata Stream: no\nTagged:          no\nUserProperties:  no\nSuspects:        no\nForm:            none\nJavaScript:      no\nPages:           28\nEncrypted:       no\nPage size:       595.22 x 842 pts (A4)\nPage rot:        0\nFile size:       3487135 bytes\nOptimized:       no\nPDF version:     1.7\n",
+      "evidencia": "05-fontes/evidencias/software-37.txt",
+      "caracteres_extraidos": 111131,
       "estado": "obtido"
     }
   ]

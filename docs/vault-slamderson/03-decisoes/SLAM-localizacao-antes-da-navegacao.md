@@ -30,3 +30,7 @@ As interfaces são tipos upstream/padrão, sem pacote central ou cópias locais.
 Mundo e LiDAR cinemáticos, sem contato/dinâmica, distorção de scanner rotativo ou calibração real do C1. Grafo foi recarregado no mesmo ambiente AMD64; compatibilidade de serialização entre arquiteturas/versões e transferência para a Pi exigem novo teste. A próxima etapa de navegação ainda não existe.
 
 [Guia operacional](../../slam/LEIA-ME.md) · [[04-experimentos/SLAM-virtual-e-localizacao]] · [[03-decisoes/Arquitetura-atual]] · [[Inicio]]
+
+## Fundamentação bibliográfica
+
+[[05-fontes/Software-e-monografia|Roteiro para a monografia e distinção entre método e resultado]] · [[05-fontes/notas/Fonte-28-SLAM-Toolbox-Jazzy]] · [[05-fontes/notas/Fonte-29-REP-105]] · [[05-fontes/notas/Fonte-34-SLAM-Toolbox-2021]] · [[05-fontes/notas/Fonte-37-Revisao-SLAM2D-2025]]

@@ -17,3 +17,7 @@ Associação entre velocidade e objetivo é temporal: TwistStamped não contém 
 Lifecycle SLAM/salvador tem dono nativo único; lifecycle Nav2 só inicia após mapa, sensores e TF prontos. Os launches legados foram preservados; usar a composição nova explicitamente.
 
 [Guia e parâmetros](../../navegacao/LEIA-ME.md) · [[03-decisoes/Arbitro-de-movimento]] · [[03-decisoes/SLAM-localizacao-antes-da-navegacao]] · [[04-experimentos/Navegacao-virtual-Nav2]] · [[Inicio]]
+
+## Fundamentação bibliográfica
+
+[[05-fontes/Software-e-monografia|Roteiro para a monografia e distinção entre método e resultado]] · [[05-fontes/notas/Fonte-24-NavFn-Jazzy]] · [[05-fontes/notas/Fonte-25-RPP-Jazzy]] · [[05-fontes/notas/Fonte-29-REP-105]] · [[05-fontes/notas/Fonte-33-Nav2-Marathon-2020]] · [[05-fontes/notas/Fonte-35-RPP-2023]]

@@ -1,0 +1,43 @@
+{
+  "data": "2026-11-07",
+  "escopo": "Bibliografia de software; nenhuma execução ROS/hardware nova",
+  "auditoria": {
+    "fontes_software": 14,
+    "documentos_citados": 15,
+    "links_locais_vault": 329,
+    "hashes_e_trechos": "ok",
+    "bibliografia_e_ids": "ok",
+    "nome_privado_nos_textos_novos": "ausente",
+    "limite": "Auditoria documental; não executa ROS, simulação ou hardware."
+  },
+  "citacoes_novos_documentos": {
+    "verificados": 15,
+    "falhas": 0
+  },
+  "catalogo_existente_citacoes": "aprovado",
+  "bibtex": {
+    "parser": "bibtexparser 2.1.0",
+    "entradas": 33,
+    "novas": 14,
+    "blocos_com_falha": 0
+  },
+  "pdfs_novos": [
+    {
+      "fonte_id": 34,
+      "paginas": 7,
+      "sha256": "001428ab44c8861b1d9410ef7909652cd86071f46b81723bd17d7ea7299821af"
+    },
+    {
+      "fonte_id": 37,
+      "paginas": 28,
+      "sha256": "3871b6875719499b7e08ac80b6f01033f70a3afbd02f437c442c169b15eea6e0"
+    }
+  ],
+  "suite_estrutural_arvore_compartilhada": {
+    "aprovados": 17,
+    "falhas": 1,
+    "teste": "teste_links_ativos_publicados_ou_explicitamente_locais",
+    "causa_observada": "docs/web/contrato-implementacao.md: [[x,y]] em exemplo inline interpretado pelo validador como wikilink docs/x,y.md; arquivo de trabalho concorrente, não alterado nesta pesquisa."
+  },
+  "publicacao": "Sem commit/push; textos integrais/originais mantidos locais conforme inventário."
+}

@@ -15,3 +15,7 @@ O autor pediu usar o modelo 3D como `robot_description`. A montagem nativa R05 f
 - No ensaio gráfico, SIGINT com RViz aberto falhou ao encerrar. Fechar a janela primeiro e depois o launch foi verificado limpo; isso não prova a causa da falha de SIGINT corrigida.
 
 [[03-decisoes/Arquitetura-atual]] · [[01-componentes/Suporte-C1]] · [[01-componentes/MPU-6050]]
+
+## Fundamentação bibliográfica
+
+[[05-fontes/Software-e-monografia|Roteiro para a monografia e distinção entre método e resultado]] · [[05-fontes/notas/Fonte-30-RSP-Jazzy]] · [[05-fontes/notas/Fonte-31-TF2-Jazzy]]

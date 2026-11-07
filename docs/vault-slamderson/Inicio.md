@@ -1,9 +1,11 @@
 ---
 tipo: indice
-projeto: slamderson
-atualizado: 2026-11-06
+projeto: robo_movel
+atualizado: 2026-11-07
 ---
-# Slamderson — base de conhecimento
+# Robô móvel — base de conhecimento
+
+**Monografia e software:** [[05-fontes/Software-e-monografia|referências, leitura prioritária e ligação com a implementação]].
 
 **SLAM/localização em simulação:** [[04-experimentos/SLAM-virtual-e-localizacao]], [[03-decisoes/SLAM-localizacao-antes-da-navegacao]] e [guia operacional](../slam/LEIA-ME.md). Mapeamento e recarga de grafo; integração Nav2 registrada abaixo; hardware permanece pendente.
 
